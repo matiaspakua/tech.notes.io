@@ -1,7 +1,11 @@
-# books
+# Software Technical Books Lecture and Review by Me
 
-## Extreme Programming Explained: Embrace Change, 2nd Edition, Kent Beck & Cynthia Andres
+## Done or In Progress
 
-## Mythical Man-Month, Anniversary Edition, The: Essays On Software Engineering, Frederick P. Jr. Brooks
+### Extreme Programming Explained: Embrace Change, 2nd Edition, Kent Beck & Cynthia Andres
 
-## Rework, Jason Fried
+### Mythical Man-Month, Anniversary Edition, The: Essays On Software Engineering, Frederick P. Jr. Brooks
+
+### Rework, Jason Fried
+
+## Pending
