@@ -1,13 +1,13 @@
 # Software Technical Books Lecture and Review by Me
 
-![](https://upload.wikimedia.org/wikipedia/commons/e/e2/STUDY_OF_PROPORTIONS_FROM_VITRUVIUS%60S_DE_ARCHITECTU_BY_LEONARDO_DA_VINCI_%281452-1519%2C_ITALY%29Leonardo-Da-Vinci-Study-of-proportions-from-Vitruvius-s-De-Architectu.jpg)
+![](https://a714aaaed5530c04e441-0001d96fc4c41ec8c1e3e2b5c6864343.ssl.cf1.rackcdn.com/article/image/large_4ba1b25e-fd2e-40f4-9bcb-a51b0dda39e9.jpg)
 
-Image: STUDY OF PROPORTIONS FROM VITRUVIUS`S DE ARCHITECTU BY LEONARDO DA VINCI (1452-1519, ITALY)
-
-
-## Done or In Progress
+## Done
 
 ### Extreme Programming Explained: Embrace Change, 2nd Edition, Kent Beck & Cynthia Andres
+
+
+## In Progress
 
 ### Mythical Man-Month, Anniversary Edition, The: Essays On Software Engineering, Frederick P. Jr. Brooks
 
