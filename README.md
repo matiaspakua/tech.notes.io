@@ -8,7 +8,7 @@ HashTags: #nerd #softwareengineering #tech #programming
 
 # Courses
 
-[Example Page](/pages/ecample.md)
+[NoSQL](/pages/course-no-sql.md)
 
 
 # Books
