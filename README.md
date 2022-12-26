@@ -7,7 +7,10 @@
 **What is this site for**: there are multiple reason for doing this:
 
 1) practice english writing.
+   
 2) share knowledge and opinions.
+
+
 3) log interesting topics.
 
 Actually I have a lots of notes distributed in differents electronic devices, papers and others, so I need a method to organize all this information and with it, generate a knowledge base.
@@ -18,4 +21,4 @@ The content will record and enumerates without any particular order, just a list
 
 ## Notes
 
-1. [NoSQL. Concepts, uses, examples and highlifgts](/pages/course-no-sql.md)
+1. [NoSQL. Concepts, uses, examples and highlights](/pages/course-no-sql.md)
