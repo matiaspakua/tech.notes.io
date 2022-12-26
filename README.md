@@ -4,19 +4,18 @@
 
 **Who I Am**: [My LinkedIn](https://www.linkedin.com/in/matiasmiguez/)
 
-**Tags**: #nerd #softwareengineering #tech #programming
+**What is this site for**: there are multiple reason for doing this:
 
-**What is this site for**: practice english writing, log interesting topics and share knowledge.
+1) practice english writing.
+2) share knowledge and opinions.
+3) log interesting topics.
 
-# Courses
+Actually I have a lots of notes distributed in differents electronic devices, papers and others, so I need a method to organize all this information and with it, generate a knowledge base.
 
-[NoSQL](/pages/course-no-sql.md)
+The content will record and enumerates without any particular order, just a list with the link to specific page where is the content.
 
+**IMPORTANT**: All the notes are represent my personal research and opinion. I will keep references to original author and copyrights.
 
-# Books
+## Notes
 
-# Posts
-
-# Web
-
-# Others
+1. [NoSQL. Concepts, uses, examples and highlifgts](/pages/course-no-sql.md)
