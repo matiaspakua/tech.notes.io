@@ -30,3 +30,5 @@ The content will record and enumerates without any particular order, just a list
 5. [IntelliJ. Victor Rentea unleasing the craken of the IDEs](/pages/5.intellij-victor-rentea-unleasing-the-craken-of-the-ides.md)
 6. [RobotFramework. Development of libraries to test a Satellite](/pages/6.robotframework-development-of-libraries-to-test-a-satellite.md)
 7. [Python. How to format 96 k lines of SQL inserts for OracleDB](/pages/7.python-how-to-format-96-k-lines-of-sql-inserts-for-oracledb.md)
+8. [Software Architecture. Vertical Slicing Architectures](/pages/8.software-architecture-vertical-slicing-architectures.md)
+9. [CyberSecurity. H4ck3d and my first software security conference](/pages/9.cybersecurity-h4ck3d-and-my-first-software-security-conference.md)
