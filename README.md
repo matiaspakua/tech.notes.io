@@ -27,3 +27,4 @@ The content will record and enumerates without any particular order, just a list
 2. [SCRUM. How we implemented it and work it](/pages/2.scrum-how-we-implemented-it-and-work-id.md)
 3. [GitFlow. And how to start bringing order to chaos](/pages/3.gitflow-and-how-to-start-bringing-order-to-chaos.md)
 4. [TestContainers. To the rescue in a massive legacy system migration](4.testcontainers-to-the-rescue-in-a-massive-legacy-system-migration.md)
+5. [IntelliJ. Victor Rentea unleasing the craken of the IDEs](5.intellij-victor-rentea-unleasing-the-craken-of-the-ides.md)
