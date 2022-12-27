@@ -10,14 +10,13 @@
    
 2) share knowledge and opinions.
 
+3) keep a record of interesting topics.
 
-3) log interesting topics.
+Actually I have a lots of notes distributed in differents electronic devices, papers and others, so I search for a method to organize all this information and with it, generate a personal knowledge base.
 
-Actually I have a lots of notes distributed in differents electronic devices, papers and others, so I need a method to organize all this information and with it, generate a knowledge base.
+The content will be recorded without any particular order, just a list with the link to specific page where is the content.
 
-The content will record and enumerates without any particular order, just a list with the link to specific page where is the content.
-
-**IMPORTANT**: All the notes are represent my personal research and opinion. I will keep references to original author and copyrights.
+**IMPORTANT**: All the notes here represent my personal research and opinion. I will keep references to original author and copyrights.
 
 ## Notes
 
