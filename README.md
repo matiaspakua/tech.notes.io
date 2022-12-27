@@ -28,3 +28,4 @@ The content will record and enumerates without any particular order, just a list
 3. [GitFlow. And how to start bringing order to chaos](/pages/3.gitflow-and-how-to-start-bringing-order-to-chaos.md)
 4. [TestContainers. To the rescue in a massive legacy system migration](4.testcontainers-to-the-rescue-in-a-massive-legacy-system-migration.md)
 5. [IntelliJ. Victor Rentea unleasing the craken of the IDEs](5.intellij-victor-rentea-unleasing-the-craken-of-the-ides.md)
+6. [RobotFramework. Development of libraries to test a Satellite](6.robotframework-development-of-libraries-to-test-a-satellite.md)
