@@ -1,6 +1,6 @@
 # Tech-Notes
 
-![](https://www.google.com.ar/url?sa=i&url=https%3A%2F%2Fwww.rawpixel.com%2Fsearch%2Fnote%2520taking&psig=AOvVaw359GRkeurlHWTE_y4UoqXn&ust=1672190115505000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCNiHrOHPmPwCFQAAAAAdAAAAABAE)
+![](https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/px668063-image-kwvxlfaq.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=8d80995962e6984a0fa7f6731b34fece)
 
 **Who I Am**: [My LinkedIn](https://www.linkedin.com/in/matiasmiguez/)
 
