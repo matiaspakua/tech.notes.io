@@ -33,3 +33,4 @@ The content will be recorded without any particular order, just a list with the 
 9. [CyberSecurity. H4ck3d and my first software security conference](/pages/9.cybersecurity-h4ck3d-and-my-first-software-security-conference.md)
 10. Java And Hibernate. Implementing multiple database for a monolith legacy code base
 11. Software Architecture. Those little decision records ADR
+12. Knowledge Base. Join, order, categorize a software product information.
