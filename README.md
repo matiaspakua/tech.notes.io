@@ -31,5 +31,5 @@ The content will be recorded without any particular order, just a list with the 
 7. [Python. How to format 96 k lines of SQL inserts for OracleDB](/pages/7.python-how-to-format-96-k-lines-of-sql-inserts-for-oracledb.md)
 8. [Software Architecture. Vertical Slicing Architectures](/pages/8.software-architecture-vertical-slicing-architectures.md)
 9. [CyberSecurity. H4ck3d and my first software security conference](/pages/9.cybersecurity-h4ck3d-and-my-first-software-security-conference.md)
-10. [Java And Hibernate. Implementing multiple database for a monolith legacy code base](no-link)
-11. [Software Architecture. Those little decision records ADR](no-link)
+10. Java And Hibernate. Implementing multiple database for a monolith legacy code base
+11. Software Architecture. Those little decision records ADR
