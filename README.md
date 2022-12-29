@@ -35,3 +35,4 @@ The content will be recorded without any particular order, just a list with the 
 11. Software Architecture. Those little decision records ADR
 12. Knowledge Base. Join, order, categorize a software product information.
 13. Clean Architecture. Just rearrange the code for clarity.
+14. Git. Keep the repository clear with semantic versioning, changelog and readme.
