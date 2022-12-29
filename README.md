@@ -34,3 +34,4 @@ The content will be recorded without any particular order, just a list with the 
 10. Java And Hibernate. Implementing multiple database for a monolith legacy code base
 11. Software Architecture. Those little decision records ADR
 12. Knowledge Base. Join, order, categorize a software product information.
+13. Clean Architecture. Just rearrange the code for clarity.
