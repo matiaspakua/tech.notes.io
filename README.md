@@ -37,3 +37,4 @@ The content will be recorded without any particular order, just a list with the 
 13. Clean Architecture. Just rearrange the code for clarity.
 14. Git. Keep the repository clear with semantic versioning, changelog and readme.
 15. Testing. Drafting a testing strategy. 
+16. XTREM TDD. A knowledge base for software engineer
