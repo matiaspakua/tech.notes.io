@@ -40,3 +40,4 @@ The content will be recorded without any particular order, just a list with the 
 16. XTREM TDD. A knowledge base for software engineer
 17. Traceability. Going backward and forward to better understand
 18. Waterfall. Those concepts that were there always, by Royce.
+19. How To Speak by Patrick Winston
