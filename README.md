@@ -42,3 +42,4 @@ The content will be recorded without any particular order, just a list with the 
 18. Waterfall. Those concepts that were there always, by Royce.
 19. [How To Speak by Patrick Winston](/pages/19.how_to_speak_by_patrick_winston.md)
 20. Rework. Another way to see and act on the modern work-life
+21. FailFast. How to improve debugging.
