@@ -46,3 +46,4 @@ The content will be recorded without any particular order, just a list with the 
 22. The Hisotry of the project A7E by David Parnas
 23. GTD. Getting Things Done
 24. Books. The endless list of books that I wanna read
+25. [The Core-Protocols. A framework for aling your decision making](/pages/25_the_core_protocols_a_framework_for_aling_your_decisions_making.md)
