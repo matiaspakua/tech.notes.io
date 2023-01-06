@@ -44,3 +44,4 @@ The content will be recorded without any particular order, just a list with the 
 20. Rework. Another way to see and act on the modern work-life
 21. FailFast. How to improve debugging.
 22. The Hisotry of the project A7E by David Parnas
+23. GTD. Getting Things Done
