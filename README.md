@@ -49,3 +49,4 @@ The content will be recorded without any particular order, just a list with the 
 25. [The Core-Protocols. A framework for aling your decision making](/pages/25_the_core_protocols_a_framework_for_aling_your_decisions_making.md)
 26. The Majestic Monolith by David Heinemeier Hansson
 27. RPAFramework a great extra to RobotFramework
+28. 4-D systems. How NASA builds high performing project teams
