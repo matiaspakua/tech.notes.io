@@ -8,6 +8,9 @@ This is a very complete, hand-on, medium level specialization based on cloud com
 
 ## Highlights
 
+**The concept of Technical discussion**: use tools or capabilities in the same place where the project lives to communicate, for exmaple, in a Git Repo like github, using markdown file helps to detail a step-by-step process, with code snipped, diagrams, images, and so forth. AKA: **Technical notes**.
+
+
 
 ## Personal Notes
 
