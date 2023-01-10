@@ -50,4 +50,4 @@ The content will be recorded without any particular order, just a list with the 
 26. The Majestic Monolith by David Heinemeier Hansson
 27. RPAFramework a great extra to RobotFramework
 28. 4-D systems. How NASA builds high performing project teams
-29. Specialization: Building Cloud Computing Solutions at Scale
+29. [Specialization: Building Cloud Computing Solutions at Scale](pages/29_specialization_building_cloud_computing_solutions_at_scale.md)
