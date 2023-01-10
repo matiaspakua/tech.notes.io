@@ -4,23 +4,13 @@
 
 **Who I Am**: [My LinkedIn](https://www.linkedin.com/in/matiasmiguez/)
 
-**What is this site for**: there are multiple reason for doing this:
-
-1) practice english writing.
-   
-2) share knowledge and opinions.
-
-3) keep a record of interesting topics.
-
-Actually I have a lots of notes distributed in differents electronic devices, papers and others, so I search for a method to organize all this information and with it, generate a personal knowledge base.
-
 The content will be recorded without any particular order, just a list with the link to specific page where is the content.
 
 **IMPORTANT**: All the notes here represent my personal research and opinion. I will keep references to original author and copyrights.
 
 ## Notes
 
-* This is the preliminar list, with only titles.
+* This is the preliminar list.
 
 1. [NoSQL. Concepts, uses, examples and highlights](/pages/1.course-no-sql.md)
 2. [SCRUM. How we implemented it and work it](/pages/2.scrum-how-we-implemented-it-and-work-id.md)

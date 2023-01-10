@@ -8,13 +8,20 @@ This is a very complete, hand-on, medium level specialization based on cloud com
 
 ## Highlights
 
+**Courses list**:
+
+- 01: Cloud Computing Foundations
+- 02: Cloud Virtualization, Containers and APIs
+- 03: Cloud Data Engineering
+- 04: Cloud Machine Learning Engineering and MLOps
+
+
+## 01: Cloud Computing Foundations
+
 **The concept of Technical discussion**: use tools or capabilities in the same place where the project lives to communicate, for exmaple, in a Git Repo like github, using markdown file helps to detail a step-by-step process, with code snipped, diagrams, images, and so forth. AKA: **Technical notes**.
 
 **Tools fot tech notes**: Gist, Code Snippets.
 
-
-
-## Personal Notes
 
 
 ## References
