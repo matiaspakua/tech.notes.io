@@ -4,7 +4,7 @@
 
 This is a very complete, hand-on, medium level specialization based on cloud computing. Goes from the basics to some advanced and very helpful examples. The examples show you the 3 main cloud vendors platform: AWS, Azure and GCP.
 
-/workspaces/matiasmiguez.tech-notes.io/images/cloud_specialization_the_roadmap.png
+![The Roadmap](/images/cloud_specialization_the_roadmap.png)
 
 ## Highlights
 
