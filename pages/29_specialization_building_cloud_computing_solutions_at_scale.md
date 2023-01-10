@@ -22,6 +22,16 @@ This is a very complete, hand-on, medium level specialization based on cloud com
 
 **Tools fot tech notes**: Gist, Code Snippets.
 
+**Critical Thinkins**: key points:
+ - Intellectual Humility: realize that you are NOT Right.
+ - Courage: fight for what you velive
+ - Empathy: go inside the mind of other.
+ - Autonomy: go independently with your own ideas.
+ - Integrity: be fair, be right, be sincere.
+ - Perseverance: dont give up
+ - Confidence in reason: faith in scientific facts,step-by-step
+ - Fair-mindedness: accept criticism
+
 
 
 ## References
