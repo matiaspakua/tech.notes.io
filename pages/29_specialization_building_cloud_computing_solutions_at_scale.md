@@ -37,3 +37,5 @@ This is a very complete, hand-on, medium level specialization based on cloud com
 ## References
 
 Course #01: (https://www.coursera.org/learn/cloud-computing-foundations-duke/home/welcome)
+
+Notes from pragmatic IA Lab: (https://paiml.com/docs/home/books/cloud-computing-for-data/chapter01-getting-started/)
