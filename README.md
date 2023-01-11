@@ -1,12 +1,10 @@
-# Tech-Notes
-
-![](/images/tech-notes.png)
-
-**Who I Am**: [My LinkedIn](https://www.linkedin.com/in/matiasmiguez/)
+![growth-mindset](/images/tech-notes.png)
 
 The content will be recorded without any particular order, just a list with the link to specific page where is the content.
 
 **IMPORTANT**: All the notes here represent my personal research and opinion. I will keep references to original author and copyrights.
+
+**Who I Am**: [My LinkedIn](https://www.linkedin.com/in/matiasmiguez/)
 
 ## Notes
 
