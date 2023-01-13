@@ -40,3 +40,5 @@ The content will be recorded without any particular order, just a list with the 
 28. 4-D systems. How NASA builds high performing project teams
 29. [Specialization: Building Cloud Computing Solutions at Scale](pages/29_specialization_building_cloud_computing_solutions_at_scale.md)
 30. [Knowledge-Base. Main characteristics and pilot](/pages/30.knowledge-base_main_characteristics_and_pilot.md)
+31. [Software Design By Example. A book, a web site](https://third-bit.com/sdxjs/)
+32. [The Architecture of Open Source Applications. A book, a web site](http://aosabook.org/en/index.html)
