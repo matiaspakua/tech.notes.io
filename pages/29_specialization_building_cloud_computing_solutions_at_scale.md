@@ -32,7 +32,23 @@ This is a very complete, hand-on, medium level specialization based on cloud com
  - Confidence in reason: faith in scientific facts,step-by-step
  - Fair-mindedness: accept criticism
 
+**Effective Technical Triple Threat**
+Don´t be focus only in one think, but in multiple capabilities (aspects)
 
+**Effective Technical Teamwork**
+1. Clear, elevating goal. Something that motivate.
+2. Result-driven structure.
+3. Competent team-members
+4. Unified commitment (everyone on the same page)
+5. Collaborative climate (share, colab, learn)
+6. Standars of excellence (what is good?)
+7. External support and recognition
+8. Principled ledearship (the leader need character)
+
+**Technical Project Management**
+1. Build a Quaterly schedule (week-by-week), an high level estimation
+2. Weekly demo
+3. 
 
 ## References
 
