@@ -44,3 +44,4 @@ The content will be recorded without any particular order, just a list with the 
 32. [The Architecture of Open Source Applications. A book, a web site](http://aosabook.org/en/index.html)
 33. [On Agile by Martin Fowler](https://martinfowler.com/agile.html)
 34. [On Architecture by Martin Fowler](https://martinfowler.com/architecture/)
+35. [The C4 model for visualising software architecture by Simon Brown](https://c4model.com/)
