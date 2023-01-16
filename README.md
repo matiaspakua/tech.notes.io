@@ -48,3 +48,4 @@ The content will be recorded without any particular order, just a list with the 
 36. [Notes on user Stories](/pages/36.notes_on_user_stories.md)
 37. [Shape Up. A book, a web site](https://basecamp.com/shapeup)
 38. [Test Automation (spanish). A book, a web site](https://nicopaez.gitbook.io/test-automation/)
+39. [On Microservices. The complete reference guide](https://microservices.io/)
