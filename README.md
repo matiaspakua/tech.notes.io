@@ -46,3 +46,4 @@ The content will be recorded without any particular order, just a list with the 
 34. [On Architecture by Martin Fowler](https://martinfowler.com/architecture/)
 35. [The C4 model for visualising software architecture by Simon Brown](https://c4model.com/)
 36. [Notes on user Stories](/pages/36.notes_on_user_stories.md)
+37. [Shape Up. A book, a web site](https://basecamp.com/shapeup)
