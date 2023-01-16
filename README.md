@@ -1,5 +1,5 @@
 <p align="center">
-  <img width=190" height="300" src="images/tech-notes.png">
+  <img width=190" height="300" src="/images/tech-notes.png">
 </p>
 
 The content will be recorded without any particular order, just a list with the link to specific page where is the content.
