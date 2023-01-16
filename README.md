@@ -42,3 +42,4 @@ The content will be recorded without any particular order, just a list with the 
 30. [Knowledge-Base. Main characteristics and pilot](/pages/30.knowledge-base_main_characteristics_and_pilot.md)
 31. [Software Design By Example. A book, a web site](https://third-bit.com/sdxjs/)
 32. [The Architecture of Open Source Applications. A book, a web site](http://aosabook.org/en/index.html)
+33. [On Agile by Martin Fowler](https://martinfowler.com/agile.html)
