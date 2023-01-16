@@ -1,5 +1,5 @@
 <p align="center">
- <img src="https://github.com/matiaspakua/matiasmiguez.tech-notes.io/blob/main/images/tech-notes.png" alt="growth-mindset"/>
+ <img src="/images/tech-notes.png" alt="growth-mindset" style="width:60%"/>
 </p>
 
 The content will be recorded without any particular order, just a list with the link to specific page where is the content.
