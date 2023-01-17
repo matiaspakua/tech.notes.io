@@ -1,5 +1,5 @@
 <p align="center">
-  <img width=250" height="300" src="https://github.com/matiaspakua/matiasmiguez.tech-notes.io/blob/main/images/tech_and_bread.jpeg">
+  <img width=250" height="300" src="https://github.com/matiaspakua/tech.notes.io/blob/372ea1777606962c6e456b26ef27d3624c9c8a0d/images/tech_and_bread.jpeg?raw=true">
 </p>
 
 The content will be recorded without any particular order, just a list with the link to specific page where is the content.
