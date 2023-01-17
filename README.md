@@ -49,3 +49,4 @@ The content will be recorded without any particular order, just a list with the 
 37. [Shape Up. A book, a web site](https://basecamp.com/shapeup)
 38. [Test Automation (spanish). A book, a web site](https://nicopaez.gitbook.io/test-automation/)
 39. [On Microservices. The complete reference guide](https://microservices.io/)
+40. [Software Engineering at Google. A book, a web site](https://abseil.io/resources/swe-book)
