@@ -48,7 +48,11 @@ Don´t be focus only in one think, but in multiple capabilities (aspects)
 **Technical Project Management**
 1. Build a Quaterly schedule (week-by-week), an high level estimation
 2. Weekly demo
-3. 
+3. keep a clean ticket traking systema, with easy to see TASK. Need to be clear to see progress and status (KIS = keep it simple)
+
+<img width="556" alt="goals by week" src="https://user-images.githubusercontent.com/20072974/213302327-fd548e29-740d-472f-a99f-f755b6f8ebd0.png">
+
+**Project Management Anti-Patterns**
 
 ## References
 
