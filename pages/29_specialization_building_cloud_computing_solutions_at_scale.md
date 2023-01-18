@@ -53,6 +53,12 @@ Don´t be focus only in one think, but in multiple capabilities (aspects)
 <img width="556" alt="goals by week" src="https://user-images.githubusercontent.com/20072974/213302327-fd548e29-740d-472f-a99f-f755b6f8ebd0.png">
 
 **Project Management Anti-Patterns**
+- Hero Driven Development (the superman of the devs)
+- Crisis Driven Development (everyday is a crisis)
+- Hippo Driven Development (higehst Pay desition person)
+- Heavy Scrum (the ligher the process, the better, dont need to apply evething allways)
+- Faith in People vs Faith in Process
+
 
 ## References
 
