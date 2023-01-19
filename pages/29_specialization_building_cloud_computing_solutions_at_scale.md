@@ -72,6 +72,9 @@ Don´t be focus only in one think, but in multiple capabilities (aspects)
 
 <img width="913" alt="CI" src="https://user-images.githubusercontent.com/20072974/213305667-6cfff9b8-0f0f-49ac-b321-8ab4b9baa690.png">
 
+### Proyecto Scaffold example in Python
+
+Repo: (https://github.com/matiaspakua/python-scaffold)
 
 ## References
 
