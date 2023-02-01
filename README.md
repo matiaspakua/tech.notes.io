@@ -50,3 +50,4 @@ The content will be recorded without any particular order, just a list with the 
 38. [Test Automation (spanish). A book, a web site](https://nicopaez.gitbook.io/test-automation/)
 39. [On Microservices. The complete reference guide](https://microservices.io/)
 40. [Software Engineering at Google. A book, a web site](https://abseil.io/resources/swe-book)
+41. SBOM and microservices catalog, why is so important.
