@@ -48,7 +48,33 @@ Don´t be focus only in one think, but in multiple capabilities (aspects)
 **Technical Project Management**
 1. Build a Quaterly schedule (week-by-week), an high level estimation
 2. Weekly demo
-3. 
+3. keep a clean ticket traking systema, with easy to see TASK. Need to be clear to see progress and status (KIS = keep it simple)
+
+<img width="556" alt="goals by week" src="https://user-images.githubusercontent.com/20072974/213302327-fd548e29-740d-472f-a99f-f755b6f8ebd0.png">
+
+**Project Management Anti-Patterns**
+- Hero Driven Development (the superman of the devs)
+- Crisis Driven Development (everyday is a crisis)
+- Hippo Driven Development (higehst Pay desition person)
+- Heavy Scrum (the ligher the process, the better, dont need to apply evething allways)
+- Faith in People vs Faith in Process
+
+### Introduction to AWS Cloud Development
+ - Concept of Makefile (recipe)
+ - Test (functional, integration, load). Verify, validate and save time.
+ - Linting (check syntax)
+ - Python Virtual Environment (isolate)
+ - Github Action (SaaS build server), based on YAML.
+
+### Introduction to Continuous Integration
+ - Saves time
+ - Safety mechanism (ensure that your SW is in a known state)
+
+<img width="913" alt="CI" src="https://user-images.githubusercontent.com/20072974/213305667-6cfff9b8-0f0f-49ac-b321-8ab4b9baa690.png">
+
+### Proyecto Scaffold example in Python
+
+Repo: (https://github.com/matiaspakua/python-scaffold)
 
 ## References
 
