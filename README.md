@@ -31,7 +31,7 @@ The content will be recorded without any particular order, just a list with the 
 19. [How To Speak by Patrick Winston](/pages/19.how_to_speak_by_patrick_winston.md)
 20. Rework. Another way to see and act on the modern work-life
 21. FailFast. How to improve debugging.
-22. The Hisotry of the project A7E by David Parnas
+22. [The Histoty of the project A-7 by David Parnas](/pages/22_the_history_of_the_project_AE_by_David_Parnas.md)
 23. GTD. Getting Things Done
 24. Books. The endless list of books that I wanna read
 25. [The Core-Protocols. A framework for aling your decision making](/pages/25_the_core_protocols_a_framework_for_aling_your_decisions_making.md)
