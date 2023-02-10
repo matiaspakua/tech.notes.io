@@ -51,3 +51,4 @@ The content will be recorded without any particular order, just a list with the 
 39. [On Microservices. The complete reference guide](https://microservices.io/)
 40. [Software Engineering at Google. A book, a web site](https://abseil.io/resources/swe-book)
 41. SBOM and microservices catalog, why is so important.
+42. [Extreme Programming Explained by Kent Beck](/pages/42_extreme_programming_explained.md)
