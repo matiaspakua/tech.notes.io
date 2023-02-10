@@ -10,7 +10,7 @@ The content will be recorded without any particular order, just a list with the 
 
 * This is the preliminar list.
 
-1. [NoSQL. Concepts, uses, examples and highlights](/pages/1.course-no-sql.md)
+1. [NoSQL. Concepts, uses, examples and highlights](/pages/1.nosql.md)
 2. [SCRUM. How we implemented it and work it](/pages/2.scrum-how-we-implemented-it-and-work-id.md)
 3. [GitFlow. And how to start bringing order to chaos](/pages/3.gitflow-and-how-to-start-bringing-order-to-chaos.md)
 4. [TestContainers. To the rescue in a massive legacy system migration](/pages/4.testcontainers-to-the-rescue-in-a-massive-legacy-system-migration.md)
