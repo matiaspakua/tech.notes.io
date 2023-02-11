@@ -1,6 +1,23 @@
 # 22. The Histoty of the project A-7 by David Parnas
 
-## Who is David Parnas?
+<style>
+  .back-button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+</style>
+
+<button class="back-button" onclick="window.history.back()">Back</button>
+
+## About David Parnas?
 
 David Lorge Parnas is a Canadian computer scientist and software engineer known for his contributions to the field of software engineering. He is best known for his work on information hiding, modularity, and software architecture. Parnas has made significant contributions to the understanding of how software should be designed and built, and his work has influenced the development of many software engineering practices and methodologies.
 
@@ -8,7 +25,7 @@ Parnas received his PhD in Computer Science from Carnegie Mellon University in 1
 
 Parnas is widely regarded as one of the pioneers of software engineering and his work continues to be highly influential in the field. He is widely published and has written many influential papers and articles on topics such as software architecture, design, and quality.
 
-## What is the A7E project?
+## The A-7 project
 
 The A7 project was a software development effort for the Canadian military. It was a large-scale project that aimed to develop a new command and control system for the Canadian Armed Forces. The project was notable for its use of advanced software engineering techniques and methodologies, and was one of the first projects to adopt many of the practices that are now considered standard in the field of software engineering.
 
@@ -16,7 +33,7 @@ David Parnas was one of the software engineers who worked on the A7 project, and
 
 The A7 project is widely regarded as a seminal moment in the history of software engineering, and its legacy continues to shape the field to this day. The project helped to establish many of the best practices and methodologies that are now widely used in the software development industry, and its lessons continue to inform new generations of software engineers.
 
-## Which are the Parnas's contributions from the A7E project?
+##  Parnas's contributions from the A7E project
 
 David Parnas is best known for his contributions to the field of software engineering after working on the A7 project, which was a software development effort for the Canadian military. During the course of the A7 project, Parnas developed and refined his ideas on software design, architecture, and modularity. These ideas had a significant impact on the software engineering community and are still widely cited today.
 
