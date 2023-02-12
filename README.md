@@ -1,14 +1,12 @@
 ![](images/tech_and_bread.jpeg)
 
-The content will be recorded without any particular order, just a list with the link to specific page where is the content.
+This web page enumerates its content without any particular order and without a specific structure or hierarchy. The items are usually displayed as numbered items, but the order of the items is arbitrary and not based on any specific criteria. This type of page is commonly used to present a list of items or topics in a straightforward and easy-to-read format.
 
 **IMPORTANT**: All the notes here represent my personal research and opinion. I will keep references to original author and copyrights.
 
 **Who I Am**: [My LinkedIn](https://www.linkedin.com/in/matiasmiguez/)
 
 ## Notes
-
-* This is the preliminar list.
 
 1. [NoSQL. Concepts, uses, examples and highlights](/pages/1.nosql.md)
 2. [SCRUM. How we implemented it and work it](/pages/2.scrum-how-we-implemented-it-and-work-id.md)
