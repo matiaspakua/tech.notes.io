@@ -17,12 +17,12 @@ This web page enumerates its content without any particular order and without a 
 7. [Python. How to format 96 k lines of SQL inserts for OracleDB](/pages/7.python-how-to-format-96-k-lines-of-sql-inserts-for-oracledb.md)
 8. [Software Architecture. Vertical Slicing Architectures](/pages/8.software-architecture-vertical-slicing-architectures.md)
 9. [CyberSecurity. H4ck3d and my first software security conference](/pages/9.cybersecurity-h4ck3d-and-my-first-software-security-conference.md)
-10. Java And Hibernate. Implementing multiple database for a monolith legacy code base
-11. Software Architecture. Those little decision records ADR
-12. Knowledge Base. Join, order, categorize a software product information.
-13. Clean Architecture. Just rearrange the code for clarity.
-14. Git. Keep the repository clear with semantic versioning, changelog and readme.
-15. Testing. Drafting a testing strategy. 
+10. [On Testing and Software Quality notes](/pages/10.on_testing_and_software_quality_notes.md)
+11. Java And Hibernate. Implementing multiple database for a monolith legacy code base
+12. Software Architecture. Those little decision records ADR
+13. Knowledge Base. Join, order, categorize a software product information.
+14. Clean Architecture. Just rearrange the code for clarity.
+15. Git. Keep the repository clear with semantic versioning, changelog and readme.
 16. XTREM TDD. A knowledge base for software engineer
 17. Traceability. Going backward and forward to better understand
 18. Waterfall. Those concepts that were there always, by Royce.
