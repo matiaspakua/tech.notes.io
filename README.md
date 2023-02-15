@@ -9,7 +9,7 @@ This web page enumerates its content without any particular order and without a 
 ## Notes
 
 1. [NoSQL. The basis of](/pages/1.nosql_the_basis_of.md)
-2. [SCRUM. How we implemented it and work it](/pages/2.scrum-how-we-implemented-it-and-work-id.md)
+2. [SCRUM. How we implemented it and works](/pages/2.scrum-how-we-implemented-it-and-works.md)
 3. [GitFlow. And how to start bringing order to chaos](/pages/3.gitflow-and-how-to-start-bringing-order-to-chaos.md)
 4. [TestContainers. To the rescue in a massive legacy system migration](/pages/4.testcontainers-to-the-rescue-in-a-massive-legacy-system-migration.md)
 5. [IntelliJ. Victor Rentea unleashing the kraken of the IDEs](/pages/5.intellij-victor-rentea-unleasing-the-craken-of-the-ides.md)
