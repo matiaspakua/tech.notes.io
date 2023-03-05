@@ -50,3 +50,6 @@ This web page enumerates its content without any particular order and without a 
 40. [Software Engineering at Google. A book, a web site](https://abseil.io/resources/swe-book)
 41. SBOM and microservices catalog, why is so important.
 42. [Extreme Programming Explained by Kent Beck](/pages/42_extreme_programming_explained.md)
+43. On Java 6, 8 and beyond
+44. Spring Framework
+45. On Unit Test, TDD and BDD
