@@ -53,3 +53,4 @@ This web page enumerates its content without any particular order and without a 
 43. On Java 6, 8 and beyond
 44. Spring Framework
 45. On Unit Test, TDD and BDD
+46. Event-Driven Architecture: Kafka
