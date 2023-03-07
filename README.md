@@ -10,7 +10,7 @@ This web page enumerates its content without any particular order and without a 
 
 1. [NoSQL. The basis of](/pages/1.nosql_the_basis_of.md)
 2. [Agile and SCRUM. The perks of know nothing](/pages/2.agile-and-scrum.md)
-3. [GitFlow. And how to start bringing order to chaos](/pages/3.gitflow-and-how-to-start-bringing-order-to-chaos.md)
+3. [Git and GitFlow](/pages/3.git_and_gitflow.md)
 4. [TestContainers. To the rescue in a massive legacy system migration](/pages/4.testcontainers-to-the-rescue-in-a-massive-legacy-system-migration.md)
 5. [IntelliJ. Victor Rentea unleashing the kraken of the IDEs](/pages/5.intellij-victor-rentea-unleasing-the-craken-of-the-ides.md)
 6. [RobotFramework. Development of libraries to test a Satellite](/pages/6.robotframework-development-of-libraries-to-test-a-satellite.md)
