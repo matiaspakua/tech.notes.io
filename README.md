@@ -55,3 +55,4 @@ This web page enumerates its content without any particular order and without a 
 45. On Unit Test, TDD and BDD
 46. Event-Driven Architecture: Kafka
 47. On Javascript
+48. OpenAPI, Swagger and RestAPI
