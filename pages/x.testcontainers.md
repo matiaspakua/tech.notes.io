@@ -1,4 +1,4 @@
-# 4. TestContainers. To the rescue in a massive legacy system migration
+# TestContainers. To the rescue in a massive legacy system migration
 
 <style>
   .back-button {

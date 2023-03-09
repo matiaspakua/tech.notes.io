@@ -1,4 +1,4 @@
-# 5. IntelliJ. Victor Rentea unleasing the craken of the IDEs
+# IntelliJ tips
 
 <style>
   .back-button {
@@ -16,6 +16,7 @@
 </style>
 
 <button class="back-button" onclick="window.location.href='https://matiaspakua.github.io/tech.notes.io'">All notes</button>
+
 
 ## Table of content
 

@@ -1,4 +1,4 @@
-# 9. CyberSecurity. H4ck3d and my first software security conference
+# CyberSecurity. H4ck3d and my first software security conference
 
 <style>
   .back-button {
@@ -15,16 +15,10 @@
   }
 </style>
 
-<button class="back-button" onclick="window.history.back()">Back</button>
+<button class="back-button" onclick="window.location.href='https://matiaspakua.github.io/tech.notes.io'">All notes</button>
 
 ## Introduction
 Excellent 3 days of the #H4CK3D event organized by Securetia and the Faculty of Engineering of the University of Palermo.
-
-## Highlights
-
-
-## Personal Notes
-
 
 ## References
 The complete schedule is at: https://lnkd.in/d4JPVZcS

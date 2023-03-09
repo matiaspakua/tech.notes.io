@@ -1,4 +1,4 @@
-# 36. Notes on user Stories
+# Notes on user Stories
 
 <style>
   .back-button {
@@ -15,7 +15,8 @@
   }
 </style>
 
-<button class="back-button" onclick="window.history.back()">Back</button>
+<button class="back-button" onclick="window.location.href='https://matiaspakua.github.io/tech.notes.io'">All notes</button>
+
 
 ## References
 Mike Cohn on User Stories: (https://vimeo.com/97516290)

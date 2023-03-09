@@ -1,4 +1,4 @@
-# 3. GitFlow. And how to start bringing order to chaos
+# GitFlow. And how to start bringing order to chaos
 
 <style>
   .back-button {

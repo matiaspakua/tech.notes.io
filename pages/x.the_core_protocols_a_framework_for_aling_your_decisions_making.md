@@ -1,4 +1,4 @@
-# 25. The Core-Protocols. A framework for aling your decision making
+# The Core-Protocols. A framework for aling your decision making
 <style>
   .back-button {
     background-color: #4CAF50; /* Green */
@@ -14,7 +14,8 @@
   }
 </style>
 
-<button class="back-button" onclick="window.history.back()">Back</button>
+<button class="back-button" onclick="window.location.href='https://matiaspakua.github.io/tech.notes.io'">All notes</button>
+
 
 ## Introduction
 
