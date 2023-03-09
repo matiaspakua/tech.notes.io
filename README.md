@@ -10,50 +10,45 @@ This web page enumerates its content without any particular order and without a 
 
 1. [NoSQL. The basis of](/pages/1.nosql_the_basis_of.md)
 2. [Agile and SCRUM. The perks of know nothing](/pages/2.agile-and-scrum.md)
-3. [Git and GitFlow](/pages/3.git_and_gitflow.md)
-4. [TestContainers. To the rescue in a massive legacy system migration](/pages/4.testcontainers-to-the-rescue-in-a-massive-legacy-system-migration.md)
-5. [IntelliJ. Victor Rentea unleashing the kraken of the IDEs](/pages/5.intellij-victor-rentea-unleasing-the-craken-of-the-ides.md)
-6. [RobotFramework. Development of libraries to test a Satellite](/pages/6.robotframework-development-of-libraries-to-test-a-satellite.md)
-7. [Python. How to format 96 k lines of SQL inserts for OracleDB](/pages/7.python-how-to-format-96-k-lines-of-sql-inserts-for-oracledb.md)
-8. [Software Architecture. Vertical Slicing Architectures](/pages/8.software-architecture-vertical-slicing-architectures.md)
-9. [CyberSecurity. H4ck3d and my first software security conference](/pages/9.cybersecurity-h4ck3d-and-my-first-software-security-conference.md)
-10. [On Testing and Software Quality notes](/pages/10.on_testing_and_software_quality_notes.md)
-11. Java And Hibernate. Implementing multiple database for a monolith legacy code base
-12. Software Architecture. Those little decision records ADR
-13. Knowledge Base. Join, order, categorize a software product information.
-14. Clean Architecture. Just rearrange the code for clarity.
-15. Git. Keep the repository clear with semantic versioning, changelog and readme.
-16. XTREM TDD. A knowledge base for software engineer
-17. Traceability. Going backward and forward to better understand
-18. [Waterfall. The misunderstood concept in software engineering](/pages/18.waterfall.md)
-19. [How To Speak by Patrick Winston](/pages/19.how_to_speak_by_patrick_winston.md)
-20. Rework. Another way to see and act on the modern work-life
-21. FailFast. How to improve debugging.
-22. [The Histoty of the project A-7 by David Parnas](/pages/22_the_history_of_the_project_A7_by_David_Parnas.md)
+3. [RobotFramework to test satellites](/pages/3.robotframework-to-test-satellites.md)
+4. [Waterfall](/pages/4.waterfall.md)
+5. [Gherkin and Automation](pages/5.gherkin_and_automation.md)
+6. [On Testing and Software and Quality notes](/pages/6.on_testing_and_software_quality_notes.md)
+7. [On Python Notes](/pages/7.on_python_notes.md)
+8. [Vertical Slicing Architectures](/pages/8.vertical_slicing_architectures.md)
+9. [Spring Framework Notes](/pages/9.spring_framework_notes.md)
+10. [Specialization Building Cloud Computing Sulitions at Scale](/pages/10.specialization_building_cloud_computing_solutions_at_scale.md)
+11. [The History of the project A7 by David Parnas](/pages/11.the_history_of_the_project_A7_by_David_Parnas.md)
+12. [Book: Extreme Programming Explained](/pages/12.book_extreme_programming_explained.md)
+13. [How to build a KnowledgeBase](/pages/13.how_to_build_a_knowledge_base.md)
+
+14. Java And Hibernate. Implementing multiple database for a monolith legacy code base
+15. Software Architecture. Those little decision records ADR
+16. Knowledge Base. Join, order, categorize a software product information.
+17. Clean Architecture. Just rearrange the code for clarity.
+18. Git. Keep the repository clear with semantic versioning, changelog and readme.
+19. XTREM TDD. A knowledge base for software engineer
+20. Traceability. Going backward and forward to better understand
+21. Rework. Another way to see and act on the modern work-life
+22. FailFast. How to improve debugging.
 23. GTD. Getting Things Done
 24. Books. The endless list of books that I wanna read
-25. [The Core-Protocols. A framework for aling your decision making](/pages/25_the_core_protocols_a_framework_for_aling_your_decisions_making.md)
-26. The Majestic Monolith by David Heinemeier Hansson
-27. RPAFramework a great extra to RobotFramework
-28. 4-D systems. How NASA builds high performing project teams
-29. [Specialization: Building Cloud Computing Solutions at Scale](pages/29_specialization_building_cloud_computing_solutions_at_scale.md)
-30. [Knowledge-Base. Main characteristics and pilot](/pages/30.knowledge-base_main_characteristics_and_pilot.md)
-31. [Software Design By Example. A book, a web site](https://third-bit.com/sdxjs/)
-32. [The Architecture of Open Source Applications. A book, a web site](http://aosabook.org/en/index.html)
-33. [On Agile by Martin Fowler](https://martinfowler.com/agile.html)
-34. [On Architecture by Martin Fowler](https://martinfowler.com/architecture/)
-35. [The C4 model for visualising software architecture by Simon Brown](https://c4model.com/)
-36. [Notes on user Stories](/pages/36.notes_on_user_stories.md)
-37. [Shape Up. A book, a web site](https://basecamp.com/shapeup)
-38. [Test Automation (spanish). A book, a web site](https://nicopaez.gitbook.io/test-automation/)
-39. [On Microservices. The complete reference guide](https://microservices.io/)
-40. [Software Engineering at Google. A book, a web site](https://abseil.io/resources/swe-book)
-41. SBOM and microservices catalog, why is so important.
-42. [Extreme Programming Explained by Kent Beck](/pages/42_extreme_programming_explained.md)
-43. On Java 6, 8 and beyond
-44. [Spring Framework](/pages/44.spring_framework.md)
-45. On Unit Test, TDD and BDD
-46. Event-Driven Architecture: Kafka
-47. On Javascript
-48. OpenAPI, Swagger and RestAPI
-49. [Specflow, BDD, Gherkin and Automation](/pages/49.specflow_ddd_gherkin_automation.md)
+25. The Majestic Monolith by David Heinemeier Hansson
+26. RPAFramework a great extra to RobotFramework
+27. 4-D systems. How NASA builds high performing project teams
+28. [Software Design By Example. A book, a web site](https://third-bit.com/sdxjs/)
+29. [The Architecture of Open Source Applications. A book, a web site](http://aosabook.org/en/index.html)
+30. [On Agile by Martin Fowler](https://martinfowler.com/agile.html)
+31. [On Architecture by Martin Fowler](https://martinfowler.com/architecture/)
+32. [The C4 model for visualising software architecture by Simon Brown](https://c4model.com/)
+33. Notes on user Stories
+34. [Shape Up. A book, a web site](https://basecamp.com/shapeup)
+35. [Test Automation (spanish). A book, a web site](https://nicopaez.gitbook.io/test-automation/)
+36. [On Microservices. The complete reference guide](https://microservices.io/)
+37. [Software Engineering at Google. A book, a web site](https://abseil.io/resources/swe-book)
+38. SBOM and microservices catalog, why is so important.
+39. On Java 6, 8 and beyond
+40. On Unit Test, TDD and BDD
+41. Event-Driven Architecture: Kafka
+37. On Javascript
+38. OpenAPI, Swagger and RestAPI
