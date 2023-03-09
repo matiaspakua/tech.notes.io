@@ -56,3 +56,4 @@ This web page enumerates its content without any particular order and without a 
 46. Event-Driven Architecture: Kafka
 47. On Javascript
 48. OpenAPI, Swagger and RestAPI
+49. [Specflow, BDD, Gherkin and Automation](/pages/49.specflow_ddd_gherkin_automation.md)
