@@ -21,10 +21,10 @@ This web page enumerates its content without any particular order and without a 
 11. [The History of the project A7 by David Parnas](/pages/11.the_history_of_the_project_A7_by_David_Parnas.md)
 12. [Book: Extreme Programming Explained](/pages/12.book_extreme_programming_explained.md)
 13. [How to build a KnowledgeBase](/pages/13.how_to_build_a_knowledge_base.md)
+14. [On Unit Test, TDD and BDD](/pages/14.on_unit_test_tdd_and_bdd.md)
 
-14. Java And Hibernate. Implementing multiple database for a monolith legacy code base
-15. Software Architecture. Those little decision records ADR
-16. Knowledge Base. Join, order, categorize a software product information.
+15. Java And Hibernate. Implementing multiple database for a monolith legacy code base
+16. Software Architecture. Those little decision records ADR
 17. Clean Architecture. Just rearrange the code for clarity.
 18. Git. Keep the repository clear with semantic versioning, changelog and readme.
 19. XTREM TDD. A knowledge base for software engineer
@@ -41,14 +41,13 @@ This web page enumerates its content without any particular order and without a 
 30. [On Agile by Martin Fowler](https://martinfowler.com/agile.html)
 31. [On Architecture by Martin Fowler](https://martinfowler.com/architecture/)
 32. [The C4 model for visualising software architecture by Simon Brown](https://c4model.com/)
-33. Notes on user Stories
 34. [Shape Up. A book, a web site](https://basecamp.com/shapeup)
 35. [Test Automation (spanish). A book, a web site](https://nicopaez.gitbook.io/test-automation/)
 36. [On Microservices. The complete reference guide](https://microservices.io/)
 37. [Software Engineering at Google. A book, a web site](https://abseil.io/resources/swe-book)
 38. SBOM and microservices catalog, why is so important.
 39. On Java 6, 8 and beyond
-40. On Unit Test, TDD and BDD
-41. Event-Driven Architecture: Kafka
-37. On Javascript
-38. OpenAPI, Swagger and RestAPI
+40. Event-Driven Architecture: Kafka
+41. On Javascript
+42. OpenAPI, Swagger and RestAPI
+43. Notes on user Stories
