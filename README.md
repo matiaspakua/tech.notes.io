@@ -24,11 +24,12 @@ This web page enumerates its content without any particular order and without a 
 14. [On Unit Test, TDD and BDD](/pages/14.on_unit_test_tdd_and_bdd.md)
 15. [On Java notes](/pages/15.on_java_notes.md)
 16. [On RestAPI Notes](/pages/16.on_rest_api_notes.md)
-17. Java And Hibernate. Implementing multiple database for a monolith legacy code base
-18. Software Architecture. Those little decision records ADR
-19. On Clean Architecture notes
-20. On Event-Driven Architecture notes
-21. On hexagonal Architecture notes
+17. [On Selenium Notes](/pages/17.on_selenium_notes.md)
+18. Java And Hibernate. Implementing multiple database for a monolith legacy code base
+19. Software Architecture. Documenting Architecture with ADR
+20. On Clean Architecture notes
+21. On Event-Driven Architecture notes
+22. On hexagonal Architecture notes
 22. On Javascript notes
 23. Git. Keep the repository clear with semantic versioning, changelog and readme.
 24. XTREM TDD. A knowledge base for software engineer
