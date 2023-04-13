@@ -23,7 +23,7 @@ This web page enumerates its content without any particular order and without a 
 13. [How to build a KnowledgeBase](/pages/13.how_to_build_a_knowledge_base.md)
 14. [On Unit Test, TDD and BDD](/pages/14.on_unit_test_tdd_and_bdd.md)
 15. [On Java notes](/pages/15.on_java_notes.md)
-16. [On RestAPI Notes](/pages/16.on_rest_api_notes.md)
+16. [On APis Notes](/pages/16.on_rest_api_notes.md)
 17. [On Selenium Notes](/pages/17.on_selenium_notes.md)
 18. Java And Hibernate. Implementing multiple database for a monolith legacy code base
 19. Software Architecture. Documenting Architecture with ADR
