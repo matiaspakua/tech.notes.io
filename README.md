@@ -8,15 +8,15 @@ This web page enumerates its content without any particular order and without a 
 
 ## Notes
 
-1. [NoSQL. The basis of](/pages/1.nosql_the_basis_of.md)
-2. [Agile and SCRUM. The perks of know nothing](/pages/2.agile-and-scrum.md)
-3. [RobotFramework to test satellites](/pages/3.robotframework-to-test-satellites.md)
-4. [Waterfall](/pages/4.waterfall.md)
-5. [Gherkin and Automation](pages/5.gherkin_and_automation.md)
-6. [On Testing and Software and Quality notes](/pages/6.on_testing_and_software_quality_notes.md)
-7. [On Python Notes](/pages/7.on_python_notes.md)
-8. [Vertical Slicing Architectures](/pages/8.vertical_slicing_architectures.md)
-9. [Spring Framework Notes](/pages/9.spring_framework_notes.md)
+1. [NoSQL. The basis of](/pages/01.nosql_the_basis_of.md)
+2. [Agile and SCRUM. The perks of know nothing](/pages/02.agile-and-scrum.md)
+3. [RobotFramework to test satellites](/pages/03.robotframework-to-test-satellites.md)
+4. [Waterfall](/pages/04.waterfall.md)
+5. [Gherkin and Automation](pages/05.gherkin_and_automation.md)
+6. [On Testing and Software and Quality notes](/pages/06.on_testing_and_software_quality_notes.md)
+7. [On Python Notes](/pages/07.on_python_notes.md)
+8. [Vertical Slicing Architectures](/pages/08.vertical_slicing_architectures.md)
+9. [Spring Framework Notes](/pages/09.spring_framework_notes.md)
 10. [Specialization Building Cloud Computing Sulitions at Scale](/pages/10.specialization_building_cloud_computing_solutions_at_scale.md)
 11. [The History of the project A7 by David Parnas](/pages/11.the_history_of_the_project_A7_by_David_Parnas.md)
 12. [Book: Extreme Programming Explained](/pages/12.book_extreme_programming_explained.md)
@@ -25,7 +25,7 @@ This web page enumerates its content without any particular order and without a 
 15. [On Java notes](/pages/15.on_java_notes.md)
 16. [On APis Notes](/pages/16.on_rest_api_notes.md)
 17. [On Selenium Notes](/pages/17.on_selenium_notes.md)
-18. Java And Hibernate. Implementing multiple database for a monolith legacy code base
+18. Java And Hibernate. Implementing multiple databases for a monolith legacy code base
 19. Software Architecture. Documenting Architecture with ADR
 20. On Clean Architecture notes
 21. On Event-Driven Architecture notes
