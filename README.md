@@ -35,6 +35,7 @@ This web page enumerates its content without any particular order and without a 
 25. [Test Automation (spanish). A book, a web site](https://nicopaez.gitbook.io/test-automation/)
 26. [On Microservices. The complete reference guide](https://microservices.io/)
 27. [Software Engineering at Google. A book, a web site](https://abseil.io/resources/swe-book)
+28. [On hexagonal Architecture notes](/pages/28.on_hexagonal_architecture_notes.md)
 
 ----
 
@@ -44,7 +45,7 @@ This web page enumerates its content without any particular order and without a 
 - Software Architecture. Documenting Architecture with ADR
 - On Clean Architecture notes
 - On Event-Driven Architecture notes
-- On hexagonal Architecture notes
+
 - On Javascript notes
 - Git. Keep the repository clear with semantic versioning, changelog and readme.
 - XTREM TDD. A knowledge base for software engineer
