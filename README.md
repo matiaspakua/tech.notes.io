@@ -25,31 +25,36 @@ This web page enumerates its content without any particular order and without a 
 15. [On Java notes](/pages/15.on_java_notes.md)
 16. [On APis Notes](/pages/16.on_rest_api_notes.md)
 17. [On Selenium Notes](/pages/17.on_selenium_notes.md)
-18. Java And Hibernate. Implementing multiple databases for a monolith legacy code base
-19. Software Architecture. Documenting Architecture with ADR
-20. On Clean Architecture notes
-21. On Event-Driven Architecture notes
-22. On hexagonal Architecture notes
-22. On Javascript notes
-23. Git. Keep the repository clear with semantic versioning, changelog and readme.
-24. XTREM TDD. A knowledge base for software engineer
-25. Traceability. Going backward and forward to better understand
-26. Rework. Another way to see and act on the modern work-life
-27. FailFast. How to improve debugging.
-28. GTD. Getting Things Done
-29. Books. The endless list of books that I wanna read
-30. The Majestic Monolith by David Heinemeier Hansson
-31. RPAFramework a great extra to RobotFramework
-32. 4-D systems. How NASA builds high performing project teams
-33. [Software Design By Example. A book, a web site](https://third-bit.com/sdxjs/)
-34. [The Architecture of Open Source Applications. A book, a web site](http://aosabook.org/en/index.html)
-35. [On Agile by Martin Fowler](https://martinfowler.com/agile.html)
-36. [On Architecture by Martin Fowler](https://martinfowler.com/architecture/)
-37. [The C4 model for visualising software architecture by Simon Brown](https://c4model.com/)
-38. [Shape Up. A book, a web site](https://basecamp.com/shapeup)
-39. [Test Automation (spanish). A book, a web site](https://nicopaez.gitbook.io/test-automation/)
-40. [On Microservices. The complete reference guide](https://microservices.io/)
-41. [Software Engineering at Google. A book, a web site](https://abseil.io/resources/swe-book)
-42. SBOM and microservices catalog, why is so important.
-43. OpenAPI
-44. On User Stories notes
+18. [Gi, Gitflow and Trunk Based development](/pages/18.git_and_gitflow_trunk_based_dev.md) 
+19. [Software Design By Example. A book, a web site](https://third-bit.com/sdxjs/)
+20. [The Architecture of Open Source Applications. A book, a web site](http://aosabook.org/en/index.html)
+21. [On Agile by Martin Fowler](https://martinfowler.com/agile.html)
+22. [On Architecture by Martin Fowler](https://martinfowler.com/architecture/)
+23. [The C4 model for visualising software architecture by Simon Brown](https://c4model.com/)
+24. [Shape Up. A book, a web site](https://basecamp.com/shapeup)
+25. [Test Automation (spanish). A book, a web site](https://nicopaez.gitbook.io/test-automation/)
+26. [On Microservices. The complete reference guide](https://microservices.io/)
+27. [Software Engineering at Google. A book, a web site](https://abseil.io/resources/swe-book)
+
+----
+
+## Pending...
+
+- Java And Hibernate. Implementing multiple databases for a monolith legacy code base
+- Software Architecture. Documenting Architecture with ADR
+- On Clean Architecture notes
+- On Event-Driven Architecture notes
+- On hexagonal Architecture notes
+- On Javascript notes
+- Git. Keep the repository clear with semantic versioning, changelog and readme.
+- XTREM TDD. A knowledge base for software engineer
+- Traceability. Going backward and forward to better understand
+- Rework. Another way to see and act on the modern work-life
+- FailFast. How to improve debugging.
+- GTD. Getting Things Done
+- The Majestic Monolith by David Heinemeier Hansson
+- RPAFramework a great extra to RobotFramework
+- 4-D systems. How NASA builds high performing project teams
+- SBOM and microservices catalog, why is so important.
+- OpenAPI
+- On User Stories notes
