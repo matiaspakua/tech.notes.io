@@ -22,7 +22,7 @@
 ## Introduction
 
 
-## Example of use
+## Example Configuration
 
 ```java
 @ContextConfiguration(classes = {AppConfig.class}, loader = AnnotationConfigContextLoader.class)
@@ -97,7 +97,32 @@ public abstract class StaticContainerInstantiation {
          */
     }
 }
+```
 
+## Example Test usage
+
+```java
+@RunWith(SpringJUnit4ClassRunner.class)
+public class ExampleTest extends StaticContainerInstantiation {
+    @Autowired
+    TestRepository testRepository;
+
+    @Before
+    public void cleanTable() {
+        this.testRepository.deleteAll();
+    }
+
+    @Test
+    public void given_NewApiKeyToSave_when_Save_then_ApiKeySaved_Ok() {
+
+        ApiKey apiKey = new ApiKey();
+        apiKey.setApiKey("key");
+        apiKey.setApiKeyName("system");
+
+        testRepository.save(apiKey);
+        Assert.assertTrue(apiKey.getId() != 0);
+    }
+  }
 ```
 
 ## References
