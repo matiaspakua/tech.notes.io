@@ -36,6 +36,7 @@ This web page enumerates its content without any particular order and without a 
 26. [On Microservices. The complete reference guide](https://microservices.io/)
 27. [Software Engineering at Google. A book, a web site](https://abseil.io/resources/swe-book)
 28. [On hexagonal Architecture notes](/pages/28.on_hexagonal_architecture_notes.md)
+29. [On microservices patterns and tools](/pages/29.on_microservices_patterns_and_tools.md)
 
 ----
 
