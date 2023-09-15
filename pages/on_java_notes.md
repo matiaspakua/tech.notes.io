@@ -1,4 +1,4 @@
-# 15. On JAVA notes and other POO concepts
+# On JAVA notes and other POO concepts
 
 <style>
   .back-button {

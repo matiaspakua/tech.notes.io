@@ -1,4 +1,4 @@
-# 06. On Testing and Software Quality notes
+# Git, GitFlow and trunk based development.
 
 <style>
   .back-button {
@@ -17,19 +17,9 @@
 
 <button class="back-button" onclick="window.location.href='https://matiaspakua.github.io/tech.notes.io'">All notes</button>
 
-## Table of Content
+## Table of content
 
-Legacy Systems
-Types of tests
-Techniques to improve quality
-Testing Strategy
-Testing Plan
 
 ## References
 
-https://craftbettersoftware.com/p/you-cant-add-quality-after-the-fact?utm_source=substack&utm_medium=email
-
-https://journal.optivem.com/p/software-product-quality
-
-https://craftbettersoftware.com/p/debugging-the-biggest-waste?utm_source=substack&utm_medium=email
-
+Vinvent Driessen Original idea: https://nvie.com/posts/a-successful-git-branching-model/

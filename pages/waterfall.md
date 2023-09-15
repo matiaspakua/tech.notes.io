@@ -1,4 +1,4 @@
-# 04. Waterfall. The misunderstood concept in software engineering
+# Waterfall. The misunderstood concept in software engineering
 
 <style>
   .back-button {

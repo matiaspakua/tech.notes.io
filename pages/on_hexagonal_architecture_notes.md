@@ -1,4 +1,4 @@
-# 18. Git, GitFlow and trunk based development.
+# On Hexagonal Architecture notes
 
 <style>
   .back-button {
@@ -17,9 +17,13 @@
 
 <button class="back-button" onclick="window.location.href='https://matiaspakua.github.io/tech.notes.io'">All notes</button>
 
-## Table of content
+## Table of content 
+
+
+## Introduction
 
 
 ## References
 
-Vinvent Driessen Original idea: https://nvie.com/posts/a-successful-git-branching-model/
+ - The original article: https://alistair.cockburn.us/hexagonal-architecture/
+ - https://journal.optivem.com/p/hexagonal-architecture-ports-and-adapters

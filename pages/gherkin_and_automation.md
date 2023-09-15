@@ -1,4 +1,4 @@
-# 05. Gherkin and Automation
+# Gherkin and Automation
 
 <style>
   .back-button {

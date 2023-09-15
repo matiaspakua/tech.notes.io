@@ -1,4 +1,4 @@
-# 11. The Histoty of the project A-7 by David Parnas
+# The Histoty of the project A-7 by David Parnas
 
 <style>
   .back-button {

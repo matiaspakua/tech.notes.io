@@ -1,4 +1,4 @@
-# 08. Software Architecture. Vertical Slicing Architectures
+# On Selenium Notes
 
 <style>
   .back-button {
@@ -19,9 +19,14 @@
 
 ## Table of content
 
-## Introduction
+
+
+## Introduction to Selenium
 
 
 ## References
 
-- [Victor Rentea](https://www.youtube.com/live/H7HWOlANX78?feature=share)
+- https://www.linkedin.com/learning/selenium-essential-training
+- https://www.linkedin.com/learning/learning-selenium/
+- https://www.linkedin.com/learning/test-automation-foundations
+- https://www.linkedin.com/learning/programming-foundations-software-testing-qa

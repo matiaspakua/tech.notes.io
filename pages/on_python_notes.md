@@ -1,4 +1,4 @@
-# 07. Python. How to format 96 k lines of SQL inserts for OracleDB
+# Python. How to format 96 k lines of SQL inserts for OracleDB
 
 <style>
   .back-button {

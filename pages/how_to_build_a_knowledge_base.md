@@ -1,4 +1,4 @@
-# 13. How to build a KnowledgeBase
+# How to build a KnowledgeBase
 
 <style>
   .back-button {

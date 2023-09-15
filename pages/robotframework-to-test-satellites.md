@@ -1,4 +1,4 @@
-# 03. RobotFramework to test a Satellite
+#  RobotFramework to test a Satellite
 
 <style>
   .back-button {

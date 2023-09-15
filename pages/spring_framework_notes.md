@@ -1,4 +1,4 @@
-# 09. Spring Framework Notes
+# Spring Framework Notes
 
 <style>
   .back-button {

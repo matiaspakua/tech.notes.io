@@ -1,4 +1,4 @@
-# 10. Specialization: Building Cloud Computing Solutions at Scale
+# Specialization: Building Cloud Computing Solutions at Scale
 
 <style>
   .back-button {

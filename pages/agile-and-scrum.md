@@ -1,4 +1,4 @@
-# 02. Agile and Scrum. The perks of know nothing
+# Agile and Scrum. The perks of know nothing
 
 <style>
   .back-button {

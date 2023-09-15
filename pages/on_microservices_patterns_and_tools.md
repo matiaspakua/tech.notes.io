@@ -1,4 +1,4 @@
-# 29. On microservices patterns and tools
+# On microservices patterns and tools
 
 <style>
   .back-button {

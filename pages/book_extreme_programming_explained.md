@@ -1,4 +1,4 @@
-# 12. Extreme Programming Explained by Kent Beck
+# Extreme Programming Explained by Kent Beck
 
 <style>
   .back-button {

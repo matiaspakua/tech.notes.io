@@ -1,4 +1,4 @@
-## 28. On Hexagonal Architecture notes
+# Software Architecture. Vertical Slicing Architectures
 
 <style>
   .back-button {
@@ -17,13 +17,11 @@
 
 <button class="back-button" onclick="window.location.href='https://matiaspakua.github.io/tech.notes.io'">All notes</button>
 
-## Table of content 
-
+## Table of content
 
 ## Introduction
 
 
 ## References
 
- - The original article: https://alistair.cockburn.us/hexagonal-architecture/
- - https://journal.optivem.com/p/hexagonal-architecture-ports-and-adapters
+- [Victor Rentea](https://www.youtube.com/live/H7HWOlANX78?feature=share)

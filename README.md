@@ -8,45 +8,44 @@ This web page enumerates its content without any particular order and without a 
 
 ## Notes
 
-1. [NoSQL. The basis of](/pages/01.nosql_the_basis_of.md)
-2. [Agile and SCRUM. The perks of know nothing](/pages/02.agile-and-scrum.md)
-3. [RobotFramework to test satellites](/pages/03.robotframework-to-test-satellites.md)
-4. [Waterfall](/pages/04.waterfall.md)
-5. [Gherkin and Automation](pages/05.gherkin_and_automation.md)
-6. [On Testing and Software and Quality notes](/pages/06.on_testing_and_software_quality_notes.md)
-7. [On Python Notes](/pages/07.on_python_notes.md)
-8. [Vertical Slicing Architectures](/pages/08.vertical_slicing_architectures.md)
-9. [Spring Framework Notes](/pages/09.spring_framework_notes.md)
-10. [Specialization Building Cloud Computing Sulitions at Scale](/pages/10.specialization_building_cloud_computing_solutions_at_scale.md)
-11. [The History of the project A7 by David Parnas](/pages/11.the_history_of_the_project_A7_by_David_Parnas.md)
-12. [Book: Extreme Programming Explained](/pages/12.book_extreme_programming_explained.md)
-13. [How to build a KnowledgeBase](/pages/13.how_to_build_a_knowledge_base.md)
-14. [On Unit Test, TDD and BDD](/pages/14.on_unit_test_tdd_and_bdd.md)
-15. [On Java notes](/pages/15.on_java_notes.md)
-16. [On APis Notes](/pages/16.on_rest_api_notes.md)
-17. [On Selenium Notes](/pages/17.on_selenium_notes.md)
-18. [Gi, Gitflow and Trunk Based development](/pages/18.git_and_gitflow_trunk_based_dev.md) 
-19. [Software Design By Example. A book, a web site](https://third-bit.com/sdxjs/)
-20. [The Architecture of Open Source Applications. A book, a web site](http://aosabook.org/en/index.html)
-21. [On Agile by Martin Fowler](https://martinfowler.com/agile.html)
-22. [On Architecture by Martin Fowler](https://martinfowler.com/architecture/)
-23. [The C4 model for visualising software architecture by Simon Brown](https://c4model.com/)
-24. [Shape Up. A book, a web site](https://basecamp.com/shapeup)
-25. [Test Automation (spanish). A book, a web site](https://nicopaez.gitbook.io/test-automation/)
-26. [On Microservices. The complete reference guide](https://microservices.io/)
-27. [Software Engineering at Google. A book, a web site](https://abseil.io/resources/swe-book)
-28. [On hexagonal Architecture notes](/pages/28.on_hexagonal_architecture_notes.md)
-29. [On microservices patterns and tools](/pages/29.on_microservices_patterns_and_tools.md)
+[NoSQL. The basis of](/pages/01.nosql_the_basis_of.md)
+[Agile and SCRUM. The perks of know nothing](/pages/02.agile-and-scrum.md)
+[RobotFramework to test satellites](/pages/03.robotframework-to-test-satellites.md)
+[Waterfall](/pages/04.waterfall.md)
+[Gherkin and Automation](pages/05.gherkin_and_automation.md)
+[On Testing and Software and Quality notes](/pages/06.on_testing_and_software_quality_notes.md)
+[On Python Notes](/pages/07.on_python_notes.md)
+[Vertical Slicing Architectures](/pages/08.vertical_slicing_architectures.md)
+[Spring Framework Notes](/pages/09.spring_framework_notes.md)
+[Specialization Building Cloud Computing Sulitions at Scale](/pages/10.specialization_building_cloud_computing_solutions_at_scale.md)
+[The History of the project A7 by David Parnas](/pages/11.the_history_of_the_project_A7_by_David_Parnas.md)
+[Book: Extreme Programming Explained](/pages/12.book_extreme_programming_explained.md)
+[How to build a KnowledgeBase](/pages/13.how_to_build_a_knowledge_base.md)
+[On Unit Test, TDD and BDD](/pages/14.on_unit_test_tdd_and_bdd.md)
+[On Java notes](/pages/15.on_java_notes.md)
+[On APis Notes](/pages/16.on_rest_api_notes.md)
+[On Selenium Notes](/pages/17.on_selenium_notes.md)
+[Git, Gitflow and Trunk Based development](/pages/18.git_and_gitflow_trunk_based_dev.md) 
+[Software Design By Example. A book, a web site](https://third-bit.com/sdxjs/)
+[The Architecture of Open Source Applications. A book, a web site](http://aosabook.org/en/index.html)
+[On Agile by Martin Fowler](https://martinfowler.com/agile.html)
+[On Architecture by Martin Fowler](https://martinfowler.com/architecture/)
+[The C4 model for visualising software architecture by Simon Brown](https://c4model.com/)
+[Shape Up. A book, a web site](https://basecamp.com/shapeup)
+[Test Automation (spanish). A book, a web site](https://nicopaez.gitbook.io/test-automation/)
+[On Microservices. The complete reference guide](https://microservices.io/)
+[Software Engineering at Google. A book, a web site](https://abseil.io/resources/swe-book)
+[On hexagonal Architecture notes](/pages/28.on_hexagonal_architecture_notes.md)
+[On microservices patterns and tools](/pages/29.on_microservices_patterns_and_tools.md)
 
 ----
 
-## Pending...
+## Pending...WIP
 
 - Java And Hibernate. Implementing multiple databases for a monolith legacy code base
 - Software Architecture. Documenting Architecture with ADR
 - On Clean Architecture notes
 - On Event-Driven Architecture notes
-
 - On Javascript notes
 - Git. Keep the repository clear with semantic versioning, changelog and readme.
 - XTREM TDD. A knowledge base for software engineer

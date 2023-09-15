@@ -1,4 +1,4 @@
-# 01. NoSQL. The basis of
+# NoSQL. The basis of
 
 <style>
   .back-button {
@@ -19,7 +19,7 @@
 
 ## Table of content 
 
-- [1. NoSQL. The basis of](#1-nosql-the-basis-of)
+- [NoSQL. The basis of](#1-nosql-the-basis-of)
   - [Table of content](#table-of-content)
   - [Introduction](#introduction)
   - [NoSQL Engines](#nosql-engines)

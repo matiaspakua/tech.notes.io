@@ -1,4 +1,4 @@
-# 16. On APIs Notes
+# On APIs Notes
 
 <style>
   .back-button {
