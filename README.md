@@ -10,7 +10,7 @@ This web page enumerates its content without any particular order and without a 
 
 ### General Topic
 - [NoSQL. The basis of](/pages/nosql_the_basis_of.md) 
-- [Specialization Building Cloud Computing Sulitions at Scale](/pages/specialization_building_clou-d_computing_solutions_at_scale.md)
+- [Specialization Building Cloud Computing Sulitions at Scale](/pages/general_topic/specialization_building_cloud_computing_solutions_at_scale.md)
 - [Shape Up. A book, a web site](https://basecamp.com/shapeup)
 - [How to build a KnowledgeBase](/pages/how_to_build_a_knowledge_base.md)
 - [On User Stories notes](/pages/on_user_stories_notes.md)
