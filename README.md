@@ -22,16 +22,17 @@ This web page enumerates its content without any particular order and without a 
 - [On APis Notes](/pages/on_rest_api_notes.md)
 - [Git, Gitflow and Trunk Based development](/pages/git_and_gitflow_trunk_based_dev.md) 
 - [On Gradle Notes](/pages/on_gradle_notes.md)
+- [IntelliJ tips by Victor Rentea](intellij_tips.md)
 ### Testing
 - [Gherkin and Automation](pages/gherkin_and_automation.md)
 - [On Testing and Software and Quality notes](/pages/on_testing_and_software_quality_notes.md)
-- [RobotFramework to test satellites](/pages/robotframework-to-test-satellites.md)
+- [RobotFramework to test satellites](robotframework_to_test_satellites.md)
 - [On Unit Test, TDD and BDD](/pages/on_unit_test_tdd_and_bdd.md)
 - [On Selenium Notes](/pages/on_selenium_notes.md)
 - [Test Automation (spanish). A book, a web site](https://nicopaez.gitbook.io/test-automation/)
 - [TestContainers: Introduction](/pages/testcontainers.md)
 ### Software Engineering
-- [Agile and SCRUM. The perks of know nothing](/pages/agile-and-scrum.md)
+- [Agile and SCRUM. The perks of know nothing](agile_and_scrum.md)
 - [Waterfall](/pages/waterfall.md)
 - [The History of the project A7 by David Parnas](/pages/the_history_of_the_project_A7_by_David_Parnas.md)
 - [Software Engineering at Google. A book, a web site](https://abseil.io/resources/swe-book)
@@ -45,6 +46,12 @@ This web page enumerates its content without any particular order and without a 
 - [On Microservices. The complete reference guide](https://microservices.io/)
 - [On hexagonal Architecture notes](/pages/on_hexagonal_architecture_notes.md)
 - [The Architecture of Open Source Applications. A book, a web site](http://aosabook.org/en/index.html)
+
+### Cybersecurity
+
+* [Conference h4cked](/pages/cybersecurity_h4ck3d.md)
+
+
 
 ----
 
@@ -64,5 +71,4 @@ This web page enumerates its content without any particular order and without a 
 - The Majestic Monolith by David Heinemeier Hansson
 - RPAFramework a great extra to RobotFramework
 - 4-D systems. How NASA builds high performing project teams
-- SBOM and microservices catalog, why is so important.
-- OpenAPI
+- SBOM and microservices catalog, why is so important. 

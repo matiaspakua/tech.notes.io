@@ -1,4 +1,4 @@
-# CyberSecurity. H4ck3d and my first software security conference
+# CyberSecurity H4ck3d conference
 
 <style>
   .back-button {
