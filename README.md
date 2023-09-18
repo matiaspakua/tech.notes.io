@@ -15,6 +15,7 @@ This web page enumerates its content without any particular order and without a 
 - [How to build a KnowledgeBase](/pages/how_to_build_a_knowledge_base.md)
 - [On User Stories notes](/pages/on_user_stories_notes.md)
 - [Xtrem TDD](https://xtrem-tdd.netlify.app/)
+- [How to Speak by Patrick Winston notes](/pages/how_to_speak_by_patrick_winston.md)
 ### Development
 - [Spring Framework Notes](/pages/spring_framework_notes.md)
 - [On Python Notes](/pages/on_python_notes.md)
@@ -24,6 +25,7 @@ This web page enumerates its content without any particular order and without a 
 - [Git, Gitflow and Trunk Based development](/pages/git_and_gitflow_trunk_based_dev.md) 
 - [On Gradle Notes](/pages/on_gradle_notes.md)
 - [IntelliJ tips by Victor Rentea](/pages/intellij_tips.md)
+- [Java Not Allowed Operations](/pages/java_not_allowed.md)
 ### Testing
 - [Gherkin and Automation](pages/gherkin_and_automation.md)
 - [On Testing and Software and Quality notes](/pages/on_testing_and_software_quality_notes.md)
