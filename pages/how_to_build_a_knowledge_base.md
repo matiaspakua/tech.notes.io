@@ -1,4 +1,4 @@
-# How to build a KnowledgeBase
+# How to build a Knowledge Base
 
 <style>
   .back-button {
@@ -41,26 +41,26 @@ Overall, a knowledge base can help to improve communication, collaboration, and 
 
 ## Hands-on 
 
-In practice, the structure, technology and attributes of a knowledge-base seem to be very obscure, complitated and some times hard to even think in implement. But with a little of organization and some basic tools availables, you can asemble a great base.
+In practice, the structure, technology and attributes of a knowledge-base seem to be very obscure, complicated and some times hard to even think in implement. But with a little of organisation and some basic tools available, you can assemble a great base.
 
-Code, development tools, support, documentation, communication tools, and any other support media used in the development of a software product must be organized. It is common that this aspect is not correctly resolved, which means that there is not a centralized repository (or knowledge base) to store and consult all the information associated with a project or product.
+Code, development tools, support, documentation, communication tools, and any other support media used in the development of a software product must be organised. It is common that this aspect is not correctly resolved, which means that there is not a centralised repository (or knowledge base) to store and consult all the information associated with a project or product.
 
-For this project, I decide to use the simples tools available:
+For this project, I decide to use the simplest tools available:
 
 ![](../images/30.Knowledge-base.png)
 
-## Characteristics of a KnowledgeBase
+## Characteristics of a Knowledge Base
 
 Some of the main characteristics of a software-based knowledge base are:
 
 1. **Digital**: A software-based knowledge base is digital and stored in a computer system or server.
 2. **Searchable**: It provides a search functionality for users to quickly find the information they need.
-3. **Categorized**: Information in the knowledge base is categorized and organized in a logical way to improve navigation.
+3. **Categorised**: Information in the knowledge base is categorised and organised in a logical way to improve navigation.
 4. **Up-to-date**: The knowledge base is updated regularly to reflect changes in the product or technology.
 5. **Collaborative**: Multiple users can contribute and edit the knowledge base to keep it current and accurate.
 6. **Scalable**: The knowledge base can accommodate an increasing volume of information and users as the product or company grows.
-7. **Accessible**: The knowledge base is accessible to authorized users, such as employees, customers, or partners, through a web portal or other means.
+7. **Accessible**: The knowledge base is accessible to authorised users, such as employees, customers, or partners, through a web portal or other means.
 
-Basically are the attributes of a Wiki, but inside a organization/company, when there is a legacy project is important to have all of those attributes on mind.
+Basically are the attributes of a Wiki, but inside a organisation/company, when there is a legacy project is important to have all of those attributes on mind.
 
 Not a minor issue, when you need to start from zero, maybe the best option is to use the simplest tools available, nothing fancy nether advanced tools.
