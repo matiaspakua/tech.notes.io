@@ -13,6 +13,7 @@ This web page enumerates its content without any particular order and without a 
 - [Specialization Building Cloud Computing Sulitions at Scale](/pages/specialization_building_clou-d_computing_solutions_at_scale.md)
 - [Shape Up. A book, a web site](https://basecamp.com/shapeup)
 - [How to build a KnowledgeBase](/pages/how_to_build_a_knowledge_base.md)
+- [On User Stories notes](/pages/on_user_stories_notes.md)
 ### Development
 - [Spring Framework Notes](/pages/spring_framework_notes.md)
 - [On Python Notes](/pages/on_python_notes.md)
@@ -20,6 +21,7 @@ This web page enumerates its content without any particular order and without a 
 - [On Java notes](/pages/on_java_notes.md)
 - [On APis Notes](/pages/on_rest_api_notes.md)
 - [Git, Gitflow and Trunk Based development](/pages/git_and_gitflow_trunk_based_dev.md) 
+- [On Gradle Notes](/pages/on_gradle_notes.md)
 ### Testing
 - [Gherkin and Automation](pages/gherkin_and_automation.md)
 - [On Testing and Software and Quality notes](/pages/on_testing_and_software_quality_notes.md)
@@ -27,6 +29,7 @@ This web page enumerates its content without any particular order and without a 
 - [On Unit Test, TDD and BDD](/pages/on_unit_test_tdd_and_bdd.md)
 - [On Selenium Notes](/pages/on_selenium_notes.md)
 - [Test Automation (spanish). A book, a web site](https://nicopaez.gitbook.io/test-automation/)
+- [TestContainers: Introduction](/pages/testcontainers.md)
 ### Software Engineering
 - [Agile and SCRUM. The perks of know nothing](/pages/agile-and-scrum.md)
 - [Waterfall](/pages/waterfall.md)
@@ -63,4 +66,3 @@ This web page enumerates its content without any particular order and without a 
 - 4-D systems. How NASA builds high performing project teams
 - SBOM and microservices catalog, why is so important.
 - OpenAPI
-- On User Stories notes
