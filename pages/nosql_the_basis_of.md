@@ -34,7 +34,7 @@
   - [Flexibility in MongoDB](#flexibility-in-mongodb)
   - [MongoDB. Example of basic use-case](#mongodb-example-of-basic-use-case)
   - [MongoDB Collections](#mongodb-collections)
-  - [Best Practices for modeling NoSQL databases](#best-practices-for-modeling-nosql-databases)
+  - [Best Practices for modelling NoSQL databases](#best-practices-for-modeling-nosql-databases)
   - [Martin Fowler's recommendations on NoSQL](#martin-fowlers-recommendations-on-nosql)
   - [Final thoughts. Selecting a NoSQL Database](#final-thoughts-selecting-a-nosql-database)
   - [References](#references)
@@ -77,9 +77,9 @@ Some of the most important NoSQL databases currently available:
 
  - **Redis**: An in-memory key-value store that supports advanced data structures such as hashes, lists, and sets, making it a popular choice for real-time applications.
 
- - **Couchbase**: A document-based NoSQL database that offers features such as full-text search, event-driven architecture, and flexible data modeling.
+ - **Couchbase**: A document-based NoSQL database that offers features such as full-text search, event-driven architecture, and flexible data modelling.
 
- - **Neo4j**: A graph database that is well suited for modeling complex relationships between data elements, making it a popular choice for recommendation engines and social networks.
+ - **Neo4j**: A graph database that is well suited for modelling complex relationships between data elements, making it a popular choice for recommendation engines and social networks.
 
  - **Amazon DynamoDB**: A managed NoSQL database offered by Amazon Web Services that is designed for high performance and scalability.
 
@@ -121,7 +121,7 @@ CAP theorem, also known as Brewer's theorem, states that it is impossible for a 
 
 NoSQL databases generally sacrifice Consistency in favor of Availability and Partition Tolerance, although the specifics of this trade-off can vary between different types of NoSQL databases. For example, some NoSQL databases prioritize consistency, while others prioritize partition tolerance.
 
-The CAP theorem is often used as a guide for choosing a database that is suitable for a particular use case, depending on the relative importance of consistency, availability, and partition tolerance for that application. NoSQL databases are often favored for applications that require very high availability and partition tolerance, or for storing and processing large amounts of unstructured or semi-structured data.
+The CAP theorem is often used as a guide for choosing a database that is suitable for a particular use case, depending on the relative importance of consistency, availability, and partition tolerance for that application. NoSQL databases are often favoured for applications that require very high availability and partition tolerance, or for storing and processing large amounts of unstructured or semi-structured data.
 
 <a name="when-not-to-use-nosql-databases"></a>
 ## When not to use NoSQL Databases
@@ -130,7 +130,7 @@ NoSQL databases are not well suited for certain use cases where the following ar
 
 1. **Transactions with multiple operations**: NoSQL databases do not typically provide ACID (Atomicity, Consistency, Isolation, Durability) transactions across multiple operations, which makes them inappropriate for applications that require complex transactions.
 
-2. **Strong consistency guarantees**: NoSQL databases generally prioritize availability and partition tolerance over consistency, which can lead to stale or incorrect data being served in certain scenarios. For applications where strong consistency guarantees are necessary, a traditional relational database may be a better choice.
+2. **Strong consistency guarantees**: NoSQL databases generally prioritise availability and partition tolerance over consistency, which can lead to stale or incorrect data being served in certain scenarios. For applications where strong consistency guarantees are necessary, a traditional relational database may be a better choice.
 
 3. **Structured and heavily-normalized data**: NoSQL databases often use flexible and unstructured data models, which can make it difficult to enforce strict relationships between data elements. For applications that require a highly structured and normalized data model, a relational database may be a better choice.
 
@@ -141,7 +141,7 @@ NoSQL databases are not well suited for certain use cases where the following ar
 It's important to keep in mind that NoSQL databases have evolved significantly over the past few years, and some NoSQL databases now provide features that address some of these limitations. However, for the use cases mentioned above, a relational database or other specialized solution may still be a better choice.
 
 <a name="Examples of when NOT to use NoSQL dabatases"></a>
-## Examples of when NOT to use NoSQL dabatases
+## Examples of when NOT to use NoSQL databases
 
 Here are a few real-world examples where NoSQL databases may not be the best choice:
 
@@ -166,9 +166,9 @@ There are many real-world use cases where NoSQL databases are highly recommended
 
 2. **Big Data Analytics**: NoSQL databases are often used for storing, processing, and analyzing large amounts of data generated from various sources, such as IoT devices and social media platforms.
 
-3. **E-commerce and Retail**: NoSQL databases can handle the large amounts of data generated by online shopping transactions and customer behavior, such as purchase history and customer preferences.
+3. **E-commerce and Retail**: NoSQL databases can handle the large amounts of data generated by online shopping transactions and customer behaviour, such as purchase history and customer preferences.
 
-4. **Gaming**: NoSQL databases are well-suited for handling high-frequency read/write operations required in gaming applications, such as storing user profiles, game scores, and leaderboards.
+4. **Gaming**: NoSQL databases are well-suited for handling high-frequency read/write operations required in gaming applications, such as storing user profiles, game scores, and leader boards.
 
 5. **Healthcare**: NoSQL databases can handle large amounts of unstructured patient data, such as electronic health records, imaging data, and lab results, making them well-suited for healthcare applications. BUT, be careful about which Engine and provider do you use, because of the explained in the previous section, item #03.
 
@@ -238,7 +238,7 @@ Sharding is a complex topic, and there are many factors to consider when impleme
 <a name="Flexibility in MongoDB"></a>
 ## Flexibility in MongoDB
 
-One of the main benefits of MongoDB is its ability to provide flexibility in the data structure. Unlike traditional relational databases, MongoDB is a document-oriented database, which means that documents within a collection can have different structures. This allows for greater flexibility in the data model and eliminates the need for rigid, predefined schemas.
+One of the main benefits of MongoDB is its ability to provide flexibility in the data structure. Unlike traditional relational databases, MongoDB is a document-oriented database, which means that documents within a collection can have different structures. This allows for greater flexibility in the data model and eliminates the need for rigid, predefined schema.
 
 Here's an example to demonstrate this flexibility:
 
@@ -404,12 +404,12 @@ db.sales.aggregate([
 
 **NOTE:** This pipeline groups the documents in the *sales* collection by the *seller* field and calculates the total sales amount for each seller. The *$group* operator groups the documents and the *$sum* operator calculates the sum of the *amount* field for each group. The result is a new set of documents that contains the *_id* (seller name) and the *totalSales* (sum of sales amount) for each group.
 
-These are just a few of the best practices for modeling a NoSQL database using MongoDB. By following these guidelines, you can create a scalable and performant data model that meets the specific needs of your application.
+These are just a few of the best practices for modelling a NoSQL database using MongoDB. By following these guidelines, you can create a scalable and performant data model that meets the specific needs of your application.
 
 <a name="Martin Fowler's recommendations on NoSQL"></a>
 ## Martin Fowler's recommendations on NoSQL
 
-In his writing, Fowler stresses the importance of understanding the trade-offs involved with NoSQL databases, such as their ability to scale horizontally and the increased complexity in data modeling. He also notes that NoSQL databases are not a one-size-fits-all solution, and that the choice of a database should be based on the specific needs and requirements of a project.
+In his writing, Fowler stresses the importance of understanding the trade-offs involved with NoSQL databases, such as their ability to scale horizontally and the increased complexity in data modelling. He also notes that NoSQL databases are not a one-size-fits-all solution, and that the choice of a database should be based on the specific needs and requirements of a project.
 
 Fowler has also discussed the concept of **polyglot persistence**, which involves using multiple databases, each with its own strengths and weaknesses, to handle different types of data and workloads. He believes that this approach allows organizations to make the most of the strengths of different databases while avoiding the limitations and complexity of a single monolithic database.
 
@@ -418,7 +418,7 @@ In conclusion, Fowler's perspective on NoSQL databases highlights the need for c
 <a name="Final thoughts. Selecting a NoSQL Database"></a>
 ## Final thoughts. Selecting a NoSQL Database
 
-Using the following table, helps in the moment of analyze the different choices of NoSQL databases keeping in mind the main constraints using the CAP theorem.
+Using the following table, helps in the moment of analyse the different choices of NoSQL databases keeping in mind the main constraints using the CAP theorem.
 
 ![CAP theorem and NoSQL](../images/CAP theorem and NoSQL.png)
 
@@ -446,4 +446,4 @@ Based on these constraints, you can compare different NoSQL engines and choose t
  - [Sharding](https://www.mongodb.com/docs/manual/sharding/)
  - [Cap theorem on wikipedia](https://en.wikipedia.org/wiki/CAP_theorem)
  - [Martin Fowler NoSQL](https://martinfowler.com/tags/noSQL.html)
- - ChatGPT, google, books, wikipedia for validate information and cross references.
+ - ChatGPT, google, books, Wikipedia for validate information and cross references.

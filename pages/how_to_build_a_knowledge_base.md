@@ -19,15 +19,15 @@
 
 ## Introduction
 
-A knowledge base is a centralized repository that contains information, data, and knowledge about a specific topic or domain. It is a collection of structured and unstructured data, such as articles, documents, manuals, procedures, and FAQs, that are organized and stored in a searchable format for easy access and retrieval. A knowledge base is typically used to provide support, guidance, and answers to common questions or issues for customers, employees, or other stakeholders. It can also be used for knowledge management and sharing within an organization to improve efficiency, productivity, and decision-making.
+A knowledge base is a centralised repository that contains information, data, and knowledge about a specific topic or domain. It is a collection of structured and unstructured data, such as articles, documents, manuals, procedures, and FAQs, that are organised and stored in a searchable format for easy access and retrieval. A knowledge base is typically used to provide support, guidance, and answers to common questions or issues for customers, employees, or other stakeholders. It can also be used for knowledge management and sharing within an organisation to improve efficiency, productivity, and decision-making.
 
-## Benefits of building a KnowledgeBase
+## Benefits of building a Knowledge-base
 
 Building a knowledge base in a software product company can provide several benefits, including:
 
 1. **Improved efficiency**: A knowledge base allows employees to quickly access information they need, reducing the time and effort required to find the right information.
 
-2. **Better decision-making**: With a knowledge base, employees have access to a centralized source of information, making it easier to make informed decisions.
+2. **Better decision-making**: With a knowledge base, employees have access to a centralised source of information, making it easier to make informed decisions.
 
 3. **Increased productivity**: By having quick access to relevant information, employees can complete tasks more efficiently, leading to increased productivity.
 
