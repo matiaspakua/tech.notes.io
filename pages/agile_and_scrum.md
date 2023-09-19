@@ -24,8 +24,8 @@
   - [The problem](#the-problem)
   - [Problem breakdown stages](#problem-breakdown-stages)
   - [Stage #01: Understand the current system/product. For this was needed:](#stage-01-understand-the-current-systemproduct-for-this-was-needed)
-  - [Stage #02: process and methodology reformulation (houston we have a problem)](#stage-02-process-and-methodology-reformulation-houston-we-have-a-problem)
-  - [Stage #03: deconstruction, stabilization and new hope](#stage-03-deconstruction-stabilization-and-new-hope)
+  - [Stage #02: process and methodology reformulation (Houston we have a problem)](#stage-02-process-and-methodology-reformulation-houston-we-have-a-problem)
+  - [Stage #03: deconstruction, stabilisation and new hope](#stage-03-deconstruction-stabilization-and-new-hope)
   - [Stage #04: Continuous flow of improvements, fixes and evolution](#stage-04-continuous-flow-of-improvements-fixes-and-evolution)
   - [Agile and SCRUM](#agile-and-scrum)
     - [Agile Methodology](#agile-methodology)
@@ -38,7 +38,7 @@
     - [Technical excellence by Alistair Cockburn](#technical-excellence-by-alistair-cockburn)
   - [Challenges when trying to implement an AGILE culture](#challenges-when-trying-to-implement-an-agile-culture)
   - [How to fix a bad agile](#how-to-fix-a-bad-agile)
-    - [Standar fixes](#standar-fixes)
+    - [Standard fixes](#standar-fixes)
     - [Advances fixes](#advances-fixes)
   - [Constant priority changes and new requirements](#constant-priority-changes-and-new-requirements)
   - [Better Agility](#better-agility)
@@ -56,13 +56,13 @@ After a year or so, a new team was assembled and was assigned to continue the de
 <a name="problem-breakdown-stages"></a>
 ## Problem breakdown stages
 
-The process we had walk through can be summarized in 4 big stages:
+The process we had walk through can be summarised in 4 big stages:
 
 ![Stages](../images/stages.png)
 
 ## Stage #01: Understand the current system/product. For this was needed:
 
-1. **Familiarize with the business domain**: Before diving into the code, it is important to understand the business domain that the system is serving. This helps to identify the main requirements and the critical business flows that the system should support.
+1. **Familiarise with the business domain**: Before diving into the code, it is important to understand the business domain that the system is serving. This helps to identify the main requirements and the critical business flows that the system should support.
 
 2. **Document review**: Go through the available documentation, like design documents, requirement specifications, and any technical documentation that has been created for the system. (if it exists, if not, start documenting).
 
@@ -107,7 +107,7 @@ Other common challenges include a lack of understanding or training in agile met
 
 ## Stage #04: Continuous flow of improvements, fixes and evolution 
 
-In the next 6 to 8 week after the stabilization phase, starts a development flow with the following improvements: 
+In the next 6 to 8 week after the stabilisation phase, starts a development flow with the following improvements: 
 
 1. **Increased productivity**: by focusing on iterative development, continuous feedback, and continuous improvement. By breaking down work into small, manageable chunks, the teams can work more efficiently and deliver high-quality software faster.
 
@@ -126,9 +126,9 @@ So far we talk about Agile Methodology and the SCRUM framework. So here is a bri
 
 ### Agile Methodology
 
-Agile methodology is an approach to software development that emphasizes flexibility and adaptability in the face of changing requirements, customer needs, and evolving technology. The Agile methodology is characterized by iterative and incremental development, early and continuous delivery of working software, close collaboration between developers and customers, and an emphasis on delivering value to the customer.
+Agile methodology is an approach to software development that emphasises flexibility and adaptability in the face of changing requirements, customer needs, and evolving technology. The Agile methodology is characterised by iterative and incremental development, early and continuous delivery of working software, close collaboration between developers and customers, and an emphasis on delivering value to the customer.
 
-Agile is based on a set of values and principles outlined in the Agile Manifesto, which emphasizes individuals and interactions, working software, customer collaboration, and responding to change. Agile teams work in short time-boxed iterations or sprints, typically lasting one to four weeks, and focus on delivering a working software product at the end of each iteration.
+Agile is based on a set of values and principles outlined in the Agile Manifesto, which emphasises individuals and interactions, working software, customer collaboration, and responding to change. Agile teams work in short time-boxed iterations or sprints, typically lasting one to four weeks, and focus on delivering a working software product at the end of each iteration.
 
 The Agile methodology includes several different frameworks or methodologies, including Scrum, Kanban, Extreme Programming (XP), and others. Each framework has its own specific practices and processes, but all are based on the Agile values and principles and share a focus on delivering high-quality software that meets the needs of the customer.
 
@@ -211,10 +211,10 @@ Cockburn also emphasizes that Agile methodologies require a collaborative and it
 
 ### Standar fixes
 
-1. **Energize sleepy standups**: if a daily standup runs more than 15 minutes, is a status meeting: Avoid this. The standup meeting needs to be focused on the team, the work to do and if there is a block.
+1. **Energize sleepy stand-ups**: if a daily stand-up runs more than 15 minutes, is a status meeting: Avoid this. The stand-up meeting needs to be focused on the team, the work to do and if there is a block.
 2. **Avoid negative retrospectives**: the world of work is not perfect, the people are not perfect, so focus on what can the team change to improve their day-a-day life. That's what matters.
 3. **Fill empty product review (demos)**: ensure that the people in the review cares about the review and give real feedback, otherwise it is very de-motivating to show something that nobody cares about.
-4. **To be agile, start being very structured**: Aa well-defined process or methodology can provide a structured approach for teams to apply agile practices, identify and address process gaps or bottlenecks, and ensure everyone is aligned on goals, roles, and responsibilities. Additionally, a well-defined process can also help teams to measure progress and identify areas for improvement. It is important to note that while a well-defined process or methodology can be beneficial for agile adoption, it should not be viewed as a rigid set of rules. Teams should remain flexible and adapt their approach as needed to deliver value to customers and achieve their goals. So my best advice to start with agile is to run the framework that you chose as they were intended, then after lots of practice, improve.
+4. **To be agile, start being very structured**: A well-defined process or methodology can provide a structured approach for teams to apply agile practices, identify and address process gaps or bottlenecks, and ensure everyone is aligned on goals, roles, and responsibilities. Additionally, a well-defined process can also help teams to measure progress and identify areas for improvement. It is important to note that while a well-defined process or methodology can be beneficial for agile adoption, it should not be viewed as a rigid set of rules. Teams should remain flexible and adapt their approach as needed to deliver value to customers and achieve their goals. So my best advice to start with agile is to run the framework that you chose as they were intended, then after lots of practice, improve.
 5. **Fix variable velocity**:  examine user stories, to be clear, complete and make sense and then understand clearly which is the deliverable for the end of the sprint.
 6. **Write useful user stories**: understand clearly the template of a user story, the intent and with clear idea that a user story is not a project requirement.
 7. **Avoid poor planning and improve bad estimates**: keep everybody involved and trained on the chosen technique, create a space of safety for the team to estimate without any penalization. Learn from the past.
@@ -293,4 +293,4 @@ Overall, while it is certainly helpful to have some knowledge and experience wit
 - [The Scrum Framework poster](https://www.scrum.org/resources/scrum-framework-poster)
 - [How to Fix bad Agile Course](https://www.linkedin.com/learning/how-to-fix-bad-agile)
 - [The role of the manager in modern agile projects, Alistair Cockburn](https://www.linkedin.com/posts/alistaircockburn_the-rold-of-the-manager-in-modern-agile-projects-activity-7033138672350744576-5oTc?utm_source=share&utm_medium=member_desktop)
-- ChatGPT, google, books, wikipedia for validate information and cross references.
+- ChatGPT, google, books, Wikipedia for validate information and cross references.

@@ -1,0 +1,18 @@
+{
+	"nodes":[
+		{"id":"05aaedeffcdea5d8","type":"file","file":"canvas/github_repository.png","x":-640,"y":-220,"width":848,"height":300},
+		{"id":"b7a993c0d043be4e","type":"text","text":"Github Repositoy: where I store all the notes and the github pages is deploy.","x":-380,"y":-460,"width":250,"height":130},
+		{"id":"63de2d46a36b41d0","type":"file","file":"canvas/obsidian_project.png","x":500,"y":-70,"width":675,"height":390},
+		{"id":"a48ae7f27df88a03","type":"text","text":"Local installation of Obsidian ","x":83,"y":160,"width":250,"height":60},
+		{"id":"8ca02b46d5ebe9f1","type":"text","text":"The Graph view of the repository show me the dependencies (links) of the pages","x":1301,"y":120,"width":250,"height":140},
+		{"id":"13576b3d418fd2d2","type":"text","text":"# And this, the CANVAS view","x":-255,"y":410,"width":540,"height":140},
+		{"id":"b3a53502e7a4d552","type":"file","file":"README.md","x":440,"y":440,"width":463,"height":506}
+	],
+	"edges":[
+		{"id":"c40837d78b7e98f7","fromNode":"b7a993c0d043be4e","fromSide":"bottom","toNode":"05aaedeffcdea5d8","toSide":"top"},
+		{"id":"a00dbaa4cd26333c","fromNode":"05aaedeffcdea5d8","fromSide":"bottom","toNode":"a48ae7f27df88a03","toSide":"left"},
+		{"id":"bb3b39542e9241c5","fromNode":"a48ae7f27df88a03","fromSide":"right","toNode":"63de2d46a36b41d0","toSide":"left"},
+		{"id":"47a74f2847b7cf4b","fromNode":"63de2d46a36b41d0","fromSide":"bottom","toNode":"b3a53502e7a4d552","toSide":"top"},
+		{"id":"c940f5070d16378f","fromNode":"63de2d46a36b41d0","fromSide":"right","toNode":"8ca02b46d5ebe9f1","toSide":"left"}
+	]
+}
