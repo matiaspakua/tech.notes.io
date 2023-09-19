@@ -21,31 +21,31 @@
 
 This is a very complete, hand-on, medium level specialization based on cloud computing. Goes from the basics to some advanced and very helpful examples. The examples show you the 3 main cloud vendors platform: AWS, Azure and GCP.
 
-![The Roadmap](../../cloud_specialization_the_roadmap.png)
+![The Roadmap](../../images/cloud_specialization_the_roadmap.png)
 
 ## Highlights
 
 **Courses list**:
 
 - 01: Cloud Computing Foundations
-- 02: Cloud Virtualization, Containers and APIs
+- 02: Cloud Virtualisation, Containers and APIs
 - 03: Cloud Data Engineering
 - 04: Cloud Machine Learning Engineering and MLOps
 
 
 ## 01: Cloud Computing Foundations
 
-**The concept of Technical discussion**: use tools or capabilities in the same place where the project lives to communicate, for exmaple, in a Git Repo like github, using markdown file helps to detail a step-by-step process, with code snipped, diagrams, images, and so forth. AKA: **Technical notes**.
+**The concept of Technical discussion**: use tools or capabilities in the same place where the project lives to communicate, for example, in a Git Repo like GitHub, using markdown file helps to detail a step-by-step process, with code snipped, diagrams, images, and so forth. AKA: **Technical notes**.
 
-**Tools fot tech notes**: Gist, Code Snippets.
+**Tools for tech notes**: Gist, Code Snippets.
 
-**Critical Thinkins**: key points:
- - Intellectual Humility: realize that you are NOT Right.
- - Courage: fight for what you velive
+**Critical Thinking**: key points:
+ - Intellectual Humility: realise that you are NOT Right.
+ - Courage: fight for what you belive
  - Empathy: go inside the mind of other.
  - Autonomy: go independently with your own ideas.
  - Integrity: be fair, be right, be sincere.
- - Perseverance: dont give up
+ - Perseverance: don't give up
  - Confidence in reason: faith in scientific facts,step-by-step
  - Fair-mindedness: accept criticism
 
@@ -58,22 +58,22 @@ Don´t be focus only in one think, but in multiple capabilities (aspects)
 3. Competent team-members
 4. Unified commitment (everyone on the same page)
 5. Collaborative climate (share, colab, learn)
-6. Standars of excellence (what is good?)
+6. Standard of excellence (what is good?)
 7. External support and recognition
-8. Principled ledearship (the leader need character)
+8. Principled leadership (the leader need character)
 
 **Technical Project Management**
-1. Build a Quaterly schedule (week-by-week), an high level estimation
+1. Build a Quarterly schedule (week-by-week), an high level estimation
 2. Weekly demo
-3. keep a clean ticket traking systema, with easy to see TASK. Need to be clear to see progress and status (KIS = keep it simple)
+3. keep a clean ticket tracking systems, with easy to see TASK. Need to be clear to see progress and status (KIS = keep it simple)
 
 <img width="556" alt="goals by week" src="https://user-images.githubusercontent.com/20072974/213302327-fd548e29-740d-472f-a99f-f755b6f8ebd0.png">
 
 **Project Management Anti-Patterns**
 - Hero Driven Development (the superman of the devs)
 - Crisis Driven Development (everyday is a crisis)
-- Hippo Driven Development (higehst Pay desition person)
-- Heavy Scrum (the ligher the process, the better, dont need to apply evething allways)
+- Hippo Driven Development (highest Pay desition person)
+- Heavy Scrum (the lighter the process, the better, don't need to apply everything always)
 - Faith in People vs Faith in Process
 
 ### Introduction to AWS Cloud Development
