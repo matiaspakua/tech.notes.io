@@ -37,7 +37,7 @@ This web page enumerates its content without any particular order and without a 
 - [On Selenium Notes](/pages/on_selenium_notes.md)
 - [Test Automation (spanish). A book, a web site](https://nicopaez.gitbook.io/test-automation/)
 - [TestContainers: Introduction](/pages/testcontainers.md)
-- [BDD with Cucumber for Java course](/pages/bdd_with_cucumber_java_notes.md) <span style="color:green"> ( In progress ) </span>.
+- [BDD with Cucumber for Java course](/pages/bdd_with_cucumber_java_notes.md) <span style="color:red"> ( In progress ) </span>
 ### Software Engineering
 
 - [Agile and SCRUM. The perks of know nothing](agile_and_scrum.md)
@@ -61,7 +61,7 @@ This web page enumerates its content without any particular order and without a 
 * [Conference h4cked](/pages/cybersecurity_h4ck3d.md)
 
 
-### Books in progress
+### Books in <span style="color:red"> in progress </span>
 
  - Modern Software Engineering: Doing What Works to Build Better Software Faster, By David Farley
  - ReWork: Change the Way You Work Forever, By David Heinemeier Hansson and Jason Fried
