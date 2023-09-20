@@ -22,7 +22,7 @@
 
 ## Introduction
 
-Stands for: Behaviour-Driven Development
+Stands for: Behaviour-Driven Development. BDD is an approach that collaboratively specifies the system's desired behaviour. Each time a piece of behaviour is agreed, we use that specification to "drive" the development of the code that will implement that behaviour.
 
 Objective: Reduce the GAP between business people and technical people.
 
@@ -32,7 +32,15 @@ BDD involve do 3 thinks:
 2. **Formulation**: Document the examples in a way can be automated.
 3. **Automation**: Code the example in a way can be automate.
 
-The combination of this 3 thinks is "Living Documentation".
+The combination of this 3 thinks is "Living Documentation". We call it "Living Documentation" because the documentation automatically tells us when it goes out of sync with the behaviour of the application. That's what special about it.
+
+We start by collaboratively _**discovering**_ the scope of the behaviour required by the story. Once we have agreed on that behaviour, we **_formulate_** the specification in business-readable language. Finally, we **_automate_** the formulated specification to verify that the system actually behaves as expected.
+
+BDD need that an Agile Process is in place and BDD need to be done JUST IN TIME, in the last responsible moment. Is important that the work is broken down into User Stories and on each user story there are written the Acceptance Criteria.
+
+Links to: [[on_user_stories_notes]]
+
+
 
 ## Reference
 
