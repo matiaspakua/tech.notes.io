@@ -9,6 +9,7 @@ This web page enumerates its content without any particular order and without a 
 ## Notes
 
 ### General Topic
+
 - [NoSQL. The basis of](/pages/nosql_the_basis_of.md) 
 - [Specialisation Building Cloud Computing Suctions at Scale](/pages/general_topic/specialization_building_cloud_computing_solutions_at_scale.md)
 - [Shape Up. A book, a web site](https://basecamp.com/shapeup)
@@ -17,6 +18,7 @@ This web page enumerates its content without any particular order and without a 
 - [Xtrem TDD](https://xtrem-tdd.netlify.app/)
 - [How to Speak by Patrick Winston notes](/pages/how_to_speak_by_patrick_winston.md)
 ### Development
+
 - [Spring Framework Notes](/pages/spring_framework_notes.md)
 - [On Python Notes](/pages/on_python_notes.md)
 - [Vertical Slicing Architectures](/pages/vertical_slicing_architectures.md)
@@ -27,6 +29,7 @@ This web page enumerates its content without any particular order and without a 
 - [IntelliJ tips by Victor Rentea](/pages/intellij_tips.md)
 - [Java Not Allowed Operations](/pages/java_not_allowed.md)
 ### Testing
+
 - [Gherkin and Automation](pages/gherkin_and_automation.md)
 - [On Testing and Software and Quality notes](/pages/on_testing_and_software_quality_notes.md)
 - [RobotFramework to test satellites](robotframework_to_test_satellites.md)
@@ -36,6 +39,7 @@ This web page enumerates its content without any particular order and without a 
 - [TestContainers: Introduction](/pages/testcontainers.md)
 - [BDD with Cucumber for Java course](/pages/bdd_with_cucumber_java_notes.md) <span style="color:green"> ( In progress ) </span>.
 ### Software Engineering
+
 - [Agile and SCRUM. The perks of know nothing](agile_and_scrum.md)
 - [Waterfall](/pages/waterfall.md)
 - [The History of the project A7 by David Parnas](/pages/the_history_of_the_project_A7_by_David_Parnas.md)
@@ -43,7 +47,8 @@ This web page enumerates its content without any particular order and without a 
 - [Book: Extreme Programming Explained](/pages/book_extreme_programming_explained.md)
 - [On Agile by Martin Fowler](https://martinfowler.com/agile.html)
 - [Software Design By Example. A book, a web site](https://third-bit.com/sdxjs/)
-### Architecture
+### Software and System Architecture
+
 - [On Architecture by Martin Fowler](https://martinfowler.com/architecture/)
 - [On microservices patterns and tools](/pages/on_microservices_patterns_and_tools.md)
 - [The C4 model for visualising software architecture by Simon Brown](https://c4model.com/)
@@ -56,10 +61,18 @@ This web page enumerates its content without any particular order and without a 
 * [Conference h4cked](/pages/cybersecurity_h4ck3d.md)
 
 
+### Books in progress
+
+ - Modern Software Engineering: Doing What Works to Build Better Software Faster, By David Farley
+ - ReWork: Change the Way You Work Forever, By David Heinemeier Hansson and Jason Fried
+
+### Books already read
+
+ - Extreme Programming Explained: Embrace Change, By Kent Beck
 
 ----
 
-## Pending...WIP
+## Pending notes
 
 - Java And Hibernate. Implementing multiple databases for a monolith legacy code base
 - Software Architecture. Documenting Architecture with ADR
@@ -68,7 +81,6 @@ This web page enumerates its content without any particular order and without a 
 - On Javascript notes
 - Git. Keep the repository clear with semantic versioning, changelog and readme.
 - Traceability. Going backward and forward to better understand
-- Rework. Another way to see and act on the modern work-life
 - FailFast. How to improve debugging.
 - GTD. Getting Things Done
 - The Majestic Monolith by David Heinemeier Hansson
