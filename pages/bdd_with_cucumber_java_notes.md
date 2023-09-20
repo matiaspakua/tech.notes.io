@@ -22,6 +22,17 @@
 
 ## Introduction
 
+Stands for: Behaviour-Driven Development
+
+Objective: Reduce the GAP between business people and technical people.
+
+BDD involve do 3 thinks:
+
+1. **Discovery**: Take a user story and: Explore, Discover and Agree over this system need/value.
+2. **Formulation**: Document the examples in a way can be automated.
+3. **Automation**: Code the example in a way can be automate.
+
+The combination of this 3 thinks is "Living Documentation".
 
 ## Reference
 

@@ -43,7 +43,7 @@ David Parnas is best known for his contributions to the field of software engine
 
 Some of Parnas' key contributions to the field of software engineering after the A7 project include:
 
-1. Information Hiding: Parnas introduced the concept of information hiding, which refers to the practice of encapsulating data and behavior within a module or component. This helps to reduce the coupling between modules and makes the software easier to maintain and understand.
+1. Information Hiding: Parnas introduced the concept of information hiding, which refers to the practice of encapsulating data and behaviour within a module or component. This helps to reduce the coupling between modules and makes the software easier to maintain and understand.
 
 2. Modularity: Parnas was an early advocate of modularity, which refers to the practice of breaking a system down into smaller, independent components. He showed that modular design can improve software quality, reduce costs, and increase efficiency.
 

@@ -25,19 +25,19 @@ API stands for Application Programming Interface. It is a set of protocols, rout
 
 APIs define how software components should interact and communicate with each other, allowing different software applications to integrate with each other. 
 
-APIs can be used to access data or functionality from external systems, such as web services, databases, or operating systems, and can also be used internally within an organization to expose functionality between different applications or services.
+APIs can be used to access data or functionality from external systems, such as web services, databases, or operating systems, and can also be used internally within an organisation to expose functionality between different applications or services.
 
 ## Rest API
 
 A REST (Representational State Transfer) API is a type of web service that uses HTTP methods to interact with resources identified by URLs (Uniform Resource Locators). In a REST API, the client sends a request to the server in a specific format, and the server sends back a response in another specific format.
 
-A REST API follows a set of architectural principles, such as being stateless, cacheable, and layered. It allows for easy scalability, as each resource can be managed independently, and can be accessed from a variety of devices and platforms.
+A REST API follows a set of architectural principles, such as being stateless, cache-able, and layered. It allows for easy scalability, as each resource can be managed independently, and can be accessed from a variety of devices and platforms.
 
 Typically, REST APIs use JSON (JavaScript Object Notation) as the data format for requests and responses, although other formats such as XML can also be used. They are widely used for building web and mobile applications, as well as for integrating different systems and services.
 
 ## API Contracts
 
-The software industry has adopted several patterns for capturing agreed upon API behavior in documentation and code. These agreements are often called "contracts". Two examples include Consumer Driven Contracts and Provider Driven Contracts. We'll provide resources for these patterns, but won't discuss them in detail in this course. Instead, we'll discuss a lightweight concept called API contracts.
+The software industry has adopted several patterns for capturing agreed upon API behaviour in documentation and code. These agreements are often called "contracts". Two examples include Consumer Driven Contracts and Provider Driven Contracts. We'll provide resources for these patterns, but won't discuss them in detail in this course. Instead, we'll discuss a lightweight concept called API contracts.
 
 ![API Contract](../images/api-contract-consumer-provider.png)
 
@@ -74,7 +74,7 @@ Example response contract:
 
 ## Why are API Contracts Important?
 
-API contracts are important because they communicate the behavior of a REST API. They provide specific details about the data being serialized (or deserialized) for each command and parameter being exchanged. The API contracts are written in such a way that can be easily translated into API provider and consumer functionality, and corresponding automated tests. We'll implement both API provider functionality and automated tests in the labs.
+API contracts are important because they communicate the behaviour of a REST API. They provide specific details about the data being serialised (or deserialized) for each command and parameter being exchanged. The API contracts are written in such a way that can be easily translated into API provider and consumer functionality, and corresponding automated tests. We'll implement both API provider functionality and automated tests in the labs.
 
 
 ## Example of a REST API request/response
@@ -107,7 +107,7 @@ Content-Type: application/json
 
 ## What is JSON?
 
-JSON (Javascript Object Notation) provides a data interchange format that represents the particular information of an object in a format that you can easily read and understand. We'll use JSON as our data interchange format for the Family Cash Card API.
+JSON (JavaScript Object Notation) provides a data interchange format that represents the particular information of an object in a format that you can easily read and understand. We'll use JSON as our data interchange format for the Family Cash Card API.
 
 
 ```json

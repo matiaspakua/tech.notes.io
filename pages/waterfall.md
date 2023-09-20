@@ -30,7 +30,7 @@
 
 Royce presents this model as a response to the increasing complexity of software projects and the need for a structured, disciplined approach to software development. However, he acknowledges the limitations of this approach, particularly when it comes to dealing with changing requirements or unexpected issues.
 
-Overall, the paper is an important historical document in the field of software engineering, as it helped to establish the Waterfall model as a widely accepted approach to software development. However, it has also been criticized for its inflexibility and its failure to account for the 
+Overall, the paper is an important historical document in the field of software engineering, as it helped to establish the Waterfall model as a widely accepted approach to software development. However, it has also been criticised for its inflexibility and its failure to account for the 
 iterative and collaborative nature of modern software development.
 
 ## The True meaning
