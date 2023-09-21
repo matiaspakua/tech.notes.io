@@ -49,15 +49,15 @@ This web page enumerates its content without any particular order and without a 
 ### Software and System Architecture
 
 - [On Architecture by Martin Fowler](https://martinfowler.com/architecture/)
-- [On microservices patterns and tools](on_microservices_patterns_and_tools.md)
+- [On microservices patterns and tools](/pages/sw_and_system_architecture/on_microservices_patterns_and_tools.md)
 - [The C4 model for visualising software architecture by Simon Brown](https://c4model.com/)
 - [On Microservices. The complete reference guide](https://microservices.io/)
-- [On hexagonal Architecture notes](on_hexagonal_architecture_notes.md)
+- [On hexagonal Architecture notes](/pages/sw_and_system_architecture/on_hexagonal_architecture_notes.md)
 - [The Architecture of Open Source Applications. A book, a web site](http://aosabook.org/en/index.html)
 
 ### Cybersecurity
 
-* [Conference h4cked](cybersecurity_h4ck3d.md)
+* [Conference h4cked](/pages/cybersecurity/cybersecurity_h4ck3d.md)
 
 
 ### Books in <span style="color:red"> in progress </span>
