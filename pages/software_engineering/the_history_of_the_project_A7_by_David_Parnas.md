@@ -59,4 +59,4 @@ These contributions have had a lasting impact on the field of software engineeri
 
 Amazon Book: Documenting Software Architectures: Views and Beyond 2nd Edition
 
-![A7E project](../images/history_of_a7e_project_by_Paul_Clements.jpeg)
+![A7E project](history_of_a7e_project_by_Paul_Clements.jpeg)

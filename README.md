@@ -10,13 +10,13 @@ This web page enumerates its content without any particular order and without a 
 
 ### General Topic
 
-- [NoSQL. The basis of](/pages/nosql_the_basis_of.md) 
-- [Specialisation Building Cloud Computing Suctions at Scale](/pages/general_topic/specialization_building_cloud_computing_solutions_at_scale.md)
+- [NoSQL. The basis of](/pages/general_topic/nosql_the_basis_of.md) 
+- [Specialisation Building Cloud Computing Suctions at Scale](/pages/general_topic/general_topic/specialization_building_cloud_computing_solutions_at_scale.md)
 - [Shape Up. A book, a web site](https://basecamp.com/shapeup)
-- [How to build a KnowledgeBase](/pages/how_to_build_a_knowledge_base.md)
-- [On User Stories notes](/pages/on_user_stories_notes.md)
+- [How to build a KnowledgeBase](/pages/general_topic/how_to_build_a_knowledge_base.md)
+- [On User Stories notes](/pages/general_topic/on_user_stories_notes.md)
 - [Xtrem TDD](https://xtrem-tdd.netlify.app/)
-- [How to Speak by Patrick Winston notes](/pages/how_to_speak_by_patrick_winston.md)
+- [How to Speak by Patrick Winston notes](/pages/general_topic/how_to_speak_by_patrick_winston.md)
 ### Development
 
 - [Spring Framework Notes](/pages/spring_framework_notes.md)
@@ -40,11 +40,10 @@ This web page enumerates its content without any particular order and without a 
 - [BDD with Cucumber for Java course](/pages/bdd_with_cucumber_java_notes.md) <span style="color:red"> ( In progress ) </span>
 ### Software Engineering
 
-- [Agile and SCRUM. The perks of know nothing](agile_and_scrum.md)
-- [Waterfall](/pages/waterfall.md)
-- [The History of the project A7 by David Parnas](/pages/the_history_of_the_project_A7_by_David_Parnas.md)
+- [Agile and SCRUM. The perks of know nothing](/pages/software_engineering/agile_and_scrum.md)
+- [Waterfall](/pages/software_engineering/waterfall.md)
+- [The History of the project A7 by David Parnas](/pages/software_engineering/the_history_of_the_project_A7_by_David_Parnas.md)
 - [Software Engineering at Google. A book, a web site](https://abseil.io/resources/swe-book)
-- [Book: Extreme Programming Explained](/pages/book_extreme_programming_explained.md)
 - [On Agile by Martin Fowler](https://martinfowler.com/agile.html)
 - [Software Design By Example. A book, a web site](https://third-bit.com/sdxjs/)
 ### Software and System Architecture
@@ -68,7 +67,7 @@ This web page enumerates its content without any particular order and without a 
 
 ### Books already read
 
- - Extreme Programming Explained: Embrace Change, By Kent Beck
+ - [Extreme Programming Explained](/pages/books/book_extreme_programming_explained.md)
 
 ----
 

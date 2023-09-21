@@ -191,7 +191,7 @@ The data in a MongoDB cluster can be accessed through a number of nodes, known a
 
 This basic architecture provides a scalable, flexible, and highly available solution for storing and accessing large amounts of semi-structured data.
 
-![NoSQL vs SQL](../images/mdb-vs-sql.png)
+![NoSQL vs SQL](mdb-vs-sql.png)
 
 <a name="MongoDB use-case"></a>
 ## MongoDB use-case
@@ -233,7 +233,7 @@ Here's a basic overview of how sharding works in MongoDB:
 
 Sharding is a complex topic, and there are many factors to consider when implementing sharding in MongoDB, such as the size of the data, the distribution of the data, and the queries that will be performed on the data. However, by following these basic steps, you can get started with sharding in MongoDB and take advantage of the increased performance, scalability, and availability that it offers.
 
-![Sharding](../images/sharding.png)
+![Sharding](sharding.png)
 
 <a name="Flexibility in MongoDB"></a>
 ## Flexibility in MongoDB

@@ -40,7 +40,7 @@ We start by collaboratively _**discovering**_ the scope of the behaviour requi
 
 BDD need that an Agile Process is in place and BDD need to be done JUST IN TIME, in the last responsible moment. Is important that the work is broken down into User Stories and on each user story there are written the Acceptance Criteria.
 
-Links to: [[on_user_stories_notes]] [link](/pages/on_user_stories_notes.md)
+Links to: [[on_user_stories_notes]] [link](on_user_stories_notes.md)
 
 ### Discovery Workshop
 

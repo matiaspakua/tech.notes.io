@@ -47,7 +47,7 @@ Code, development tools, support, documentation, communication tools, and any ot
 
 For this project, I decide to use the simplest tools available:
 
-![](../images/30.Knowledge-base.png)
+![](30.Knowledge-base.png)
 
 ## Characteristics of a Knowledge Base
 
