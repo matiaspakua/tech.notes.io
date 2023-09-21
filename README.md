@@ -21,7 +21,6 @@ This web page enumerates its content without any particular order and without a 
 
 - [Spring Framework Notes](/pages/development/spring_framework_notes.md)
 - [On Python Notes](/pages/development/on_python_notes.md)
-- [Vertical Slicing Architectures](/pages/development/vertical_slicing_architectures.md)
 - [On Java notes](/pages/development/on_java_notes.md)
 - [On API Notes](/pages/development/on_rest_api_notes.md)
 - [Git, Gitflow and Trunk Based development](/pages/development/git_and_gitflow_trunk_based_dev.md) 
@@ -54,6 +53,7 @@ This web page enumerates its content without any particular order and without a 
 - [On Microservices. The complete reference guide](https://microservices.io/)
 - [On hexagonal Architecture notes](/pages/sw_and_system_architecture/on_hexagonal_architecture_notes.md)
 - [The Architecture of Open Source Applications. A book, a web site](http://aosabook.org/en/index.html)
+- [Vertical Slicing Architectures](/pages/sw_and_system_architecture/vertical_slicing_architectures.md)
 
 ### Cybersecurity
 
