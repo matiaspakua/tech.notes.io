@@ -28,7 +28,7 @@ The idea of "unit testing" is to test individual units or components of software
 
 Different tests can be written at different levels of the system. At each level, there is a balance between the speed of execution, the “cost” to maintain the test, and the confidence it brings to system correctness. This hierarchy is often represented as a “testing pyramid”.
 
-![Testing pyramid](../images/test-pyramid.jpg)
+![Testing pyramid](test-pyramid.jpg)
 
 **Unit Tests**: A Unit Test exercises a small “unit” of the system that is isolated from the rest of the system. They should be simple and speedy. You want a high ratio of Unit Tests in your testing pyramid as they’re key to designing highly cohesive, loosely coupled software.
 
@@ -48,7 +48,7 @@ Another benefit of “test-driving” the application code is that the tests gui
 
 Software development teams love to move fast. So how do you go fast forever? By continuously improving and simplifying your code–refactoring. One of the only ways you can safely refactor is when you have a trustworthy test suite. Thus, the best time to refactor the code you're currently focusing on is during the TDD cycle. This is called the Red, Green, Refactor development loop:
 
-![TDD Cycle](../images/tdd-cycle.png)
+![TDD Cycle](tdd-cycle.png)
 
 1. **Red**: Write a failing test for the desired functionality.
 2. **Green**: Implement the simplest thing that can work to make the test pass.

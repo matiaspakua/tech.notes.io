@@ -50,7 +50,7 @@ All object are handled by Java using references: a bit pattern that point to a s
 
 Exist a special reference: NULL, that point to nothing.
 
-![Remote control for array](../images/object_reference.png)
+![Remote control for array](object_reference.png)
 
 ### Memory, Heap and Garbage Collection
 
@@ -148,7 +148,7 @@ In this example, we're overriding the equals() and hashCode() methods to check f
 
 In POO we say "a caller passes arguments to a method. A Method takes parameter from outside". And there are some rules about this. If a method takes parameters, you must pass it something when you call it. And that something must be a value of the appropriate TYPE (java cares aboout type!!).
 
-![Passing parameters to a method.](../images/passing_parameters.png)
+![Passing parameters to a method.](passing_parameters.png)
 
 Methods can return values or VOID (nothing). And again, if you define a return value, you must return it.
 

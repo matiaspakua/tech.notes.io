@@ -11,7 +11,7 @@ This web page enumerates its content without any particular order and without a 
 ### General Topic
 
 - [NoSQL. The basis of](/pages/general_topic/nosql_the_basis_of.md) 
-- [Specialisation Building Cloud Computing Suctions at Scale](/pages/general_topic/general_topic/specialization_building_cloud_computing_solutions_at_scale.md)
+- [Specialisation Building Cloud Computing Suctions at Scale](/pages/general_topic/specialization_building_cloud_computing_solutions_at_scale.md)
 - [Shape Up. A book, a web site](https://basecamp.com/shapeup)
 - [How to build a KnowledgeBase](/pages/general_topic/how_to_build_a_knowledge_base.md)
 - [On User Stories notes](/pages/general_topic/on_user_stories_notes.md)
@@ -19,25 +19,25 @@ This web page enumerates its content without any particular order and without a 
 - [How to Speak by Patrick Winston notes](/pages/general_topic/how_to_speak_by_patrick_winston.md)
 ### Development
 
-- [Spring Framework Notes](/pages/spring_framework_notes.md)
-- [On Python Notes](/pages/on_python_notes.md)
-- [Vertical Slicing Architectures](/pages/vertical_slicing_architectures.md)
-- [On Java notes](/pages/on_java_notes.md)
-- [On APis Notes](/pages/on_rest_api_notes.md)
-- [Git, Gitflow and Trunk Based development](/pages/git_and_gitflow_trunk_based_dev.md) 
-- [On Gradle Notes](/pages/on_gradle_notes.md)
-- [IntelliJ tips by Victor Rentea](/pages/intellij_tips.md)
-- [Java Not Allowed Operations](/pages/java_not_allowed.md)
+- [Spring Framework Notes](/pages/development/spring_framework_notes.md)
+- [On Python Notes](/pages/development/on_python_notes.md)
+- [Vertical Slicing Architectures](/pages/development/vertical_slicing_architectures.md)
+- [On Java notes](/pages/development/on_java_notes.md)
+- [On API Notes](/pages/development/on_rest_api_notes.md)
+- [Git, Gitflow and Trunk Based development](/pages/development/git_and_gitflow_trunk_based_dev.md) 
+- [On Gradle Notes](/pages/development/on_gradle_notes.md)
+- [IntelliJ tips by Victor Rentea](/pages/development/intellij_tips.md)
+- [Java Not Allowed Operations](/pages/development/java_not_allowed.md)
 ### Testing
 
-- [Gherkin and Automation](pages/gherkin_and_automation.md)
-- [On Testing and Software and Quality notes](/pages/on_testing_and_software_quality_notes.md)
-- [RobotFramework to test satellites](robotframework_to_test_satellites.md)
-- [On Unit Test, TDD and BDD](/pages/on_unit_test_tdd_and_bdd.md)
-- [On Selenium Notes](/pages/on_selenium_notes.md)
+- [Gherkin and Automation](/pages/testing/gherkin_and_automation.md)
+- [On Testing and Software and Quality notes](/pages/testing/on_testing_and_software_quality_notes.md)
+- [RobotFramework to test satellites](/pages/testing/robotframework_to_test_satellites.md)
+- [On Unit Test, TDD and BDD](/pages/testing/on_unit_test_tdd_and_bdd.md)
+- [On Selenium Notes](/pages/testing/on_selenium_notes.md)
 - [Test Automation (spanish). A book, a web site](https://nicopaez.gitbook.io/test-automation/)
-- [TestContainers: Introduction](/pages/testcontainers.md)
-- [BDD with Cucumber for Java course](/pages/bdd_with_cucumber_java_notes.md) <span style="color:red"> ( In progress ) </span>
+- [TestContainers: Introduction](/pages/testing/testcontainers.md)
+- [BDD with Cucumber for Java course](/pages/testing/bdd_with_cucumber_java_notes.md) <span style="color:red"> ( In progress ) </span>
 ### Software Engineering
 
 - [Agile and SCRUM. The perks of know nothing](/pages/software_engineering/agile_and_scrum.md)
@@ -49,15 +49,15 @@ This web page enumerates its content without any particular order and without a 
 ### Software and System Architecture
 
 - [On Architecture by Martin Fowler](https://martinfowler.com/architecture/)
-- [On microservices patterns and tools](/pages/on_microservices_patterns_and_tools.md)
+- [On microservices patterns and tools](on_microservices_patterns_and_tools.md)
 - [The C4 model for visualising software architecture by Simon Brown](https://c4model.com/)
 - [On Microservices. The complete reference guide](https://microservices.io/)
-- [On hexagonal Architecture notes](/pages/on_hexagonal_architecture_notes.md)
+- [On hexagonal Architecture notes](on_hexagonal_architecture_notes.md)
 - [The Architecture of Open Source Applications. A book, a web site](http://aosabook.org/en/index.html)
 
 ### Cybersecurity
 
-* [Conference h4cked](/pages/cybersecurity_h4ck3d.md)
+* [Conference h4cked](cybersecurity_h4ck3d.md)
 
 
 ### Books in <span style="color:red"> in progress </span>

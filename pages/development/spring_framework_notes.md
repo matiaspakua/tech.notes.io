@@ -65,7 +65,7 @@ The Spring Framework architecture follows a layered architecture and consists of
 
 8. **Spring Boot**: This module provides a set of tools for developing and deploying Spring applications quickly and easily.
 
-![Spring Framework layers](../images/spring-overview.png)
+![Spring Framework layers](spring-overview.png)
 
 ## Spring vs SpringBoot
 
@@ -83,7 +83,7 @@ Spring Boot is like a more opinionated version of Spring. It comes with a many p
 
 Spring Boot takes advantage of Spring Core’s Inversion of Control (IoC) container. Spring Boot allows you to configure how and when dependencies are provided to your application at runtime. This puts you in control of how your application operates in different scenarios.
 
-![](../images/spring-ioc-container.png)
+![](spring-ioc-container.png)
 
 For example, you might want to use a different database for local development than for your live, public-facing application. Your application code shouldn't care about this distinction; if it did, you’d have to hard-code every possible scenario into your application logic. Instead, Spring Boot allows you to provide an external configuration that specifies how and when such dependencies are used.
 
@@ -93,7 +93,7 @@ Let’s start with a concise definition of REST: Representational State Transfer
 
 Said another way, you can think of “state” being “value” and “Resource Representation” being an “object” or "thing". Therefore, REST is just a way to manage the values of things. Those things might be accessed via an API, and are often stored in a persistent data store, such as a database.
 
-![CRUP-REST-API](../images/crud-rest-api.png)
+![CRUP-REST-API](crud-rest-api.png)
 
 A frequently mentioned concept when speaking about REST is CRUD. 
 
