@@ -27,3 +27,5 @@
 
  - The original article: https://alistair.cockburn.us/hexagonal-architecture/
  - https://journal.optivem.com/p/hexagonal-architecture-ports-and-adapters
+ - [Webinar recap 🎥 - Understanding Hexagonal Architecture: Ports and Adapters | ShiftSync Community (tricentis.com)](https://shiftsync.tricentis.com/development-methodologies-47/webinar-recap-understanding-hexagonal-architecture-ports-and-adapters-513)
+ - 
