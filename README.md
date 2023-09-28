@@ -72,7 +72,7 @@ This web page enumerates its content without any particular order and without a 
 ### Technical Books already read
 
  * Applying UML and Patterns: An Introduction to Object-Oriented Analysis and Design and
-Iterative Development, **Craig Larman**
+Iterative Development, Craig Larman
  * Software Engineering, a practicioner aproach, by Roger Presmann
  * Thinking in Java 2nd Edition, by Bruce Eckel
  - [Extreme Programming Explained](/pages/books/book_extreme_programming_explained.md)
@@ -85,6 +85,7 @@ Iterative Development, **Craig Larman**
  * The Robots of Dawn  by Issac Asimov (1983)  
  * Robots and Empire  by Issac Asimov  (1985)
  * Exhalation, by Ted Chiang
+
 ----
 
 ## Pending notes
