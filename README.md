@@ -62,13 +62,29 @@ This web page enumerates its content without any particular order and without a 
 
 ### Books in <span style="color:red"> in progress </span>
 
- - Modern Software Engineering: Doing What Works to Build Better Software Faster, By David Farley
- - ReWork: Change the Way You Work Forever, By David Heinemeier Hansson and Jason Fried
+ - Modern Software Engineering: Doing What Works to Build Better Software Faster, By David Farley (66%)
+ - ReWork: Change the Way You Work Forever, By David Heinemeier Hansson and Jason Fried (71%)
+ - Refactoring: improving the design of existing code, by Martin Fowler (5%)
+ - The Mythical Man-Month: Essays on Software Engineering, by Fred Brooks (44%)
+ - Working effectively with legacy code, by Michael Feathers (5%)
+ - The Little Prince, by Antoine de Saint-Exupéry (60%)
 
-### Books already read
+### Technical Books already read
 
+ * Applying UML and Patterns: An Introduction to Object-Oriented Analysis and Design and
+Iterative Development, **Craig Larman**
+ * Software Engineering, a practicioner aproach, by Roger Presmann
+ * Thinking in Java 2nd Edition, by Bruce Eckel
  - [Extreme Programming Explained](/pages/books/book_extreme_programming_explained.md)
 
+### Others Books already read
+
+ * I, Robot by Issac Asimov (1950)  
+ * Caves of Steel  by Issac Asimov (1954)  
+ * The Naked Sun  by Issac Asimov (1957)  
+ * The Robots of Dawn  by Issac Asimov (1983)  
+ * Robots and Empire  by Issac Asimov  (1985)
+ * Exhalation, by Ted Chiang
 ----
 
 ## Pending notes
