@@ -45,6 +45,7 @@ This web page enumerates its content without any particular order and without a 
 - [Software Engineering at Google. A book, a web site](https://abseil.io/resources/swe-book)
 - [On Agile by Martin Fowler](https://martinfowler.com/agile.html)
 - [Software Design By Example. A book, a web site](https://third-bit.com/sdxjs/)
+- [What The Little Prince teach about engineering](/pages/software_engineering/what_the_little_prince_teach_about_engineering.md)
 ### Software and System Architecture
 
 - [On Architecture by Martin Fowler](https://martinfowler.com/architecture/)
