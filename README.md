@@ -68,6 +68,7 @@ This web page enumerates its content without any particular order and without a 
  - The Mythical Man-Month: Essays on Software Engineering, by Fred Brooks (44%)
  - Working effectively with legacy code, by Michael Feathers (5%)
  - The Little Prince, by Antoine de Saint-Exupéry (60%)
+ - Spring in Action, 5th Edition by Craig Walls (80%)
 
 ### Technical Books already read
 
@@ -75,6 +76,10 @@ This web page enumerates its content without any particular order and without a 
 Iterative Development, Craig Larman
  * Software Engineering, a practicioner aproach, by Roger Presmann
  * Thinking in Java 2nd Edition, by Bruce Eckel
+ * C Programming Language, 2nd Edition, by de Brian W. Kernighan and Dennis M. Ritchi
+ * Design Patterns Elements of Reusable Object-Oriented Software by Erich Gamma, Richard Helm, Ralph Johnson, John M. Vlissides
+ * Software Engineering, 10th Edition by Ian Sommerville
+ * 
  - [Extreme Programming Explained](/pages/books/book_extreme_programming_explained.md)
 
 ### Others Books already read
