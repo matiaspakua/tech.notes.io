@@ -17,7 +17,7 @@ This web page enumerates its content without any particular order and without a 
 - [On User Stories notes](/pages/general_topic/on_user_stories_notes.md)
 - [Xtrem TDD](https://xtrem-tdd.netlify.app/)
 - [How to Speak by Patrick Winston notes](/pages/general_topic/how_to_speak_by_patrick_winston.md)
-- [Notes on Masterclass Dev to Tech Lead](/pages/general_topic/dev_to_tech_lead) <span style="color:green"> ( New! ) </span>
+- [Notes on Masterclass Dev to Tech Lead](/pages/general_topic/dev_to_tech_lead.md) <span style="color:green"> ( New! ) </span>
 - [Design Thinking notes](/pages/general_topic/design_thinking_explained.md)<span style="color:green"> ( New! ) </span>
 ### Development
 
