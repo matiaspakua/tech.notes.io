@@ -2,7 +2,7 @@
 
 This are some notes from a Masterclass that I recently participate. In this meeting the speaker share some key aspect to be considered when a Senior Developer is promoted (or he/she intend to build a path to a engineering management role) to a management role.
 
-![Dev to Lead](/images/dev_to_lead.jpeg)
+![Dev to Lead](../../images/dev_to_lead.jpeg)
 ## The key aspect to be considered
 
 ### Aspect #1:  Understand the new role
