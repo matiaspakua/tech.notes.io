@@ -1,6 +1,6 @@
 ![](images/tech_and_bread.jpeg)
 
-This web page enumerates its content without any particular order and without a specific structure or hierarchy. The items are usually displayed as numbered items, but the order of the items is arbitrary and not based on any specific criteria. This type of page is commonly used to present a list of items or topics in a straightforward and easy-to-read format.
+Hello, this is my personal Tech Notes blog. The items are usually displayed as numbered items, but the order of the items is arbitrary and not based on any specific criteria. This type of page is commonly used to present a list of items or topics in a straightforward and easy-to-read format.
 
 **IMPORTANT**: All the notes here represent my personal research and opinion. I will keep references to original author and copyrights.
 
@@ -82,7 +82,6 @@ Iterative Development, Craig Larman
  * C Programming Language, 2nd Edition, by de Brian W. Kernighan and Dennis M. Ritchi
  * Design Patterns Elements of Reusable Object-Oriented Software by Erich Gamma, Richard Helm, Ralph Johnson, John M. Vlissides
  * Software Engineering, 10th Edition by Ian Sommerville
- * 
  - [Extreme Programming Explained](/pages/books/book_extreme_programming_explained.md)
 
 ### Others Books already read
@@ -93,6 +92,8 @@ Iterative Development, Craig Larman
  * The Robots of Dawn  by Issac Asimov (1983)  
  * Robots and Empire  by Issac Asimov  (1985)
  * Exhalation, by Ted Chiang
+ * The Lord Of the Rings (all three)
+ * Millenium Saga (Stieg Larson)
 
 ----
 
