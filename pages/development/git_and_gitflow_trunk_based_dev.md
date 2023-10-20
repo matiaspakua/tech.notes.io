@@ -39,6 +39,10 @@ The most important elements of the Git Flow approach are:
 - **Release Branches**: These support preparation of a new production release.
 - **Hotfix Branches**: These are very much like release branches in that they are also meant to prepare for a new production release, albeit unplanned.
 
+## GitFlow original diagram
+
+![Original Git flow](https://nvie.com/img/git-model@2x.png)
+
 ## References
 
 Vinvent Driessen Original idea: https://nvie.com/posts/a-successful-git-branching-model/
