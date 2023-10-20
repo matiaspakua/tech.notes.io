@@ -17,8 +17,9 @@
 
 <button class="back-button" onclick="window.location.href='https://matiaspakua.github.io/tech.notes.io'">All notes</button>
 
-## Introduction
+![xp programming](../../images/xp_programming.jpeg)
 
+## Introduction
 
 "Extreme Programming Explained: Embrace Change" is a book written by Kent Beck that describes the principles and practices of Extreme Programming (XP), a software development methodology. Here is a summary of the key concepts presented in the book:
 
