@@ -1,5 +1,22 @@
 # From Developer to Tech Lead
 
+<style>
+  .back-button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+</style>
+
+<button class="back-button" onclick="window.location.href='https://matiaspakua.github.io/tech.notes.io'">All notes</button>
+
 This are some notes from a Masterclass that I recently participate. In this meeting the speaker share some key aspect to be considered when a Senior Developer is promoted (or he/she intend to build a path to a engineering management role) to a management role.
 
 ![Dev to Lead](../../images/dev_to_lead.jpeg)

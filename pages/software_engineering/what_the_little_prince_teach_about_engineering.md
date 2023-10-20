@@ -1,5 +1,22 @@
 # What The Little Prince teach about engineering
 
+<style>
+  .back-button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+</style>
+
+<button class="back-button" onclick="window.location.href='https://matiaspakua.github.io/tech.notes.io'">All notes</button>
+
 ![The little prince](../../images/little_prince_sw_engineering.jpeg)
 
 "The Little Prince" by Antoine de Saint-Exupéry is a classic novella that imparts valuable life lessons and wisdom. While it's not directly related to being a great software engineer, there are some universal principles and themes from the book that can be applied to personal and professional growth, including a career in software engineering:
@@ -17,3 +34,7 @@
 6. **Connections and Relationships:** The book underscores the value of meaningful connections and relationships. In the tech industry, teamwork, collaboration, and effective communication are vital for success.
     
 7. **Simplicity:** The Little Prince appreciates the beauty of simplicity. In software engineering, simplicity in code and system design can lead to more maintainable and efficient solutions.
+
+## Reference
+
+_**The Little Prince**_ by Antoine de Saint-Exupéry
