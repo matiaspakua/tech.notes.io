@@ -1,0 +1,20 @@
+{
+	"nodes":[
+		{"id":"bd9803dad2a86df0","x":-34,"y":-380,"width":316,"height":60,"color":"1","type":"text","text":"1.Understand the problem"},
+		{"id":"e02bcc1e532a20a8","x":480,"y":8,"width":250,"height":60,"color":"2","type":"text","text":"2.Explore possible solutions"},
+		{"id":"41835e57cf15f527","x":-395,"y":560,"width":250,"height":60,"color":"4","type":"text","text":"4. Implement"},
+		{"id":"0cf312ab423bf60e","x":480,"y":530,"width":250,"height":60,"color":"3","type":"text","text":"3. Iterate"},
+		{"id":"302c3f0ed824f3c6","x":-645,"y":38,"width":250,"height":60,"color":"5","type":"text","text":"5. Apply it"},
+		{"id":"4db988c206e2eda7","x":-145,"y":240,"width":476,"height":192,"type":"file","file":"pages/general_topic/design_thinking_explained.md"},
+		{"id":"db7e01b3092f0ccf","x":-40,"y":-52,"width":250,"height":60,"color":"6","type":"text","text":"Problem-Solving process with 5 Stages"}
+	],
+	"edges":[
+		{"id":"92a33620ea3b9b24","fromNode":"bd9803dad2a86df0","fromSide":"right","toNode":"e02bcc1e532a20a8","toSide":"top"},
+		{"id":"db01f4b9087498d7","fromNode":"e02bcc1e532a20a8","fromSide":"bottom","toNode":"0cf312ab423bf60e","toSide":"top"},
+		{"id":"599b84d54892950d","fromNode":"0cf312ab423bf60e","fromSide":"bottom","toNode":"41835e57cf15f527","toSide":"bottom"},
+		{"id":"7555a5bfb9619364","fromNode":"41835e57cf15f527","fromSide":"top","toNode":"302c3f0ed824f3c6","toSide":"bottom"},
+		{"id":"9317b3e7327500f0","fromNode":"302c3f0ed824f3c6","fromSide":"top","toNode":"bd9803dad2a86df0","toSide":"left"},
+		{"id":"e5405f326a1ab9ad","fromNode":"4db988c206e2eda7","fromSide":"top","toNode":"db7e01b3092f0ccf","toSide":"bottom"},
+		{"id":"b290b5d113b58ceb","fromNode":"db7e01b3092f0ccf","fromSide":"top","toNode":"bd9803dad2a86df0","toSide":"bottom"}
+	]
+}
