@@ -19,6 +19,8 @@
 
 ## Introduction
 
+![git flow](../../images/git_flow.jpeg)
+
 The model introduces a set of procedures for a managed software development process. It uses a central “truth” repository, referred to as origin. Each developer pulls and pushes to origin. Besides the centralized push-pull relationships, each developer may also pull changes from other peers to form sub-teams.
 
 The central repository holds two main branches with an infinite lifetime: master and develop. The master branch at origin should be familiar to every Git user.
