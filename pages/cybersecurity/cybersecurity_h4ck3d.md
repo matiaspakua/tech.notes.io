@@ -20,6 +20,17 @@
 ## Introduction
 Excellent 3 days of the #H4CK3D event organized by Securetia and the Faculty of Engineering of the University of Palermo.
 
+## Day 1 summary
+
+  ### Highlights
+ - 🔒 SSL is essential for encrypting web traffic and ensuring data security.
+ - 🔑 Symmetric encryption uses the same key for encryption and decryption, while asymmetric encryption uses a pair of public and private keys.
+ - ⚠️ Symmetric encryption is vulnerable due to the need to transmit the encryption key.
+ - 🚀 Asymmetric encryption eliminates the risk of key transmission by using a public key for encryption and a private key for decryption.
+ - ⏳ Asymmetric encryption is slower than symmetric encryption.
+ - 🌐 SSL plays a crucial role in secure web communication and protects sensitive information.
+ - 📝 Understanding SSL and encryption methods is important for ensuring data privacy and security. 
+
 ## References
 The complete schedule is at: https://lnkd.in/d4JPVZcS
 

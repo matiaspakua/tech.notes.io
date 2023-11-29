@@ -19,6 +19,7 @@ Hello, this is my personal Tech Notes blog. The items are usually displayed as n
 - [How to Speak by Patrick Winston notes](/pages/general_topic/how_to_speak_by_patrick_winston.md)
 - [Notes on Masterclass Dev to Tech Lead](/pages/general_topic/dev_to_tech_lead.md)
 - [Design Thinking notes](/pages/general_topic/design_thinking_explained.md)
+- [Negotiation and Conflict Resolution](/pages/general_topic/negotiation_and_conflict_resolution_course.md)
 ### Development
 
 - [Spring Framework Notes](/pages/development/spring_framework_notes.md)
@@ -60,7 +61,7 @@ Hello, this is my personal Tech Notes blog. The items are usually displayed as n
 
 ### Cybersecurity
 
-* [Conference h4cked](/pages/cybersecurity/cybersecurity_h4ck3d.md)
+* [Conference h4cked 2022](/pages/cybersecurity/cybersecurity_h4ck3d.md) <span style="color:green"> ( New! ) </span>
 
 
 ### Books in <span style="color:red"> in progress </span>
