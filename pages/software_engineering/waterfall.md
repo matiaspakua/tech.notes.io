@@ -45,6 +45,18 @@ The waterfall model was never intended to be a prescription for software develop
 
 So, in summary, the paper critiques the Waterfall model and advocates for a more iterative and incremental approach, which aligns with modern agile methodologies.
 
+## Summary on the paper
+
+[Original paper]([41765.41801 (acm.org)](https://dl.acm.org/doi/pdf/10.5555/41765.41801))
+
+This article is about managing the development of large software systems. The author, Dr. Winston W. Royce, shares his personal views and experiences on how to achieve success in this challenging field. He proposes a five-step process that he believes can reduce the risks and costs of software development. Here are the main points of his article:
+
+- **Program design comes first**: The author suggests that a preliminary program design should be done before analysis and coding, based on the initial software requirements. This way, the program designer can ensure that the software will not fail due to storage, timing, or data flux issues. The program design should also be documented and communicated to the analysts and programmers.
+- **Document the design**: The author emphasizes the importance of documentation for software development. He argues that documentation is essential for communication, specification, and testing. He also claims that good documentation can save money and time in the long run, by allowing the use of test specialists, operation-oriented personnel, and effective redesign. He estimates that a 5 million dollar software project would require about 1,500 pages of documentation.
+- **Do it twice**: The author recommends building a pilot model of the software before the final version, in order to simulate the critical design and operation areas. He says that this can help to uncover and solve problems that are not easily analyzable, such as timing, storage, and data flux. He also says that this can reduce the dependence on human judgment, which is often optimistic and inaccurate.
+- **Plan, control and monitor testing**: The author acknowledges that testing is the most resource-intensive and risky phase of software development. He suggests some steps to improve the testing process, such as using test specialists, performing visual inspection, testing every logic path, and using the computer for final checkout. He also says that testing should be planned and staffed differently from analysis and coding.
+- **Involve the customer**: The author advises involving the customer in a formal way throughout the software development process, in order to avoid misunderstandings and disagreements. He says that the customer should commit himself to the software requirements, the preliminary program design, and the final product. He also says that the customer should be informed of the trade-offs and constraints involved in the software design.
+
 ## References
 
 [Managing the Development of Large Software Systems by Winston Royce](http://www-scf.usc.edu/~csci201/lectures/Lecture11/royce1970.pdf)
