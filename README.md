@@ -19,7 +19,7 @@ Hello, this is my personal Tech Notes blog. The items are usually displayed as n
 - [How to Speak by Patrick Winston notes](/pages/general_topic/how_to_speak_by_patrick_winston.md)
 - [Notes on Masterclass Dev to Tech Lead](/pages/general_topic/dev_to_tech_lead.md)
 - [Design Thinking notes](/pages/general_topic/design_thinking_explained.md)
-- [Negotiation and Conflict Resolution](/pages/general_topic/negotiation_and_conflict_resolution_course.md)
+- [Negotiation and Conflict Resolution](/pages/general_topic/negotiation_and_conflict_resolution_course.md) <span style="color:red"> in progress </span>
 ### Development
 
 - [Spring Framework Notes](/pages/development/spring_framework_notes.md)
