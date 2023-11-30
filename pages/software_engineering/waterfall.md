@@ -48,8 +48,6 @@ So, in summary, the paper critiques the Waterfall model and advocates for a more
 
 ## Summary on the paper
 
-[Original paper]([41765.41801 (acm.org)](https://dl.acm.org/doi/pdf/10.5555/41765.41801))
-
 This article is about managing the development of large software systems. The author, Dr. Winston W. Royce, shares his personal views and experiences on how to achieve success in this challenging field. He proposes a five-step process that he believes can reduce the risks and costs of software development. Here are the main points of his article:
 
 - **Program design comes first**: The author suggests that a preliminary program design should be done before analysis and coding, based on the initial software requirements. This way, the program designer can ensure that the software will not fail due to storage, timing, or data flux issues. The program design should also be documented and communicated to the analysts and programmers.
@@ -60,4 +58,4 @@ This article is about managing the development of large software systems. The au
 
 ## References
 
-[Managing the Development of Large Software Systems by Winston Royce](http://www-scf.usc.edu/~csci201/lectures/Lecture11/royce1970.pdf)
+[Original paper](https://dl.acm.org/doi/pdf/10.5555/41765.41801)
