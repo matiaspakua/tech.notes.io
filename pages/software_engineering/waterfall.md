@@ -18,15 +18,16 @@
 <button class="back-button" onclick="window.location.href='https://matiaspakua.github.io/tech.notes.io'">All notes</button>
 
 ## Table of content 
-- [18. Waterfall. The misunderstood concept in software engineering](#18-waterfall-the-misunderstood-concept-in-software-engineering)
+- [Waterfall. The misunderstood concept in software engineering](#18-waterfall-the-misunderstood-concept-in-software-engineering)
   - [Table of content](#table-of-content)
   - [The wrong meaning](#the-wrong-meaning)
   - [The True meaning](#the-true-meaning)
+  - [Summary of the paper](#summary-on-the-paper)
   - [References](#references)
 
 ## The wrong meaning
 
-"Managing the Development of Large Software Systems" is a paper published in 1970 by Winston W. Royce, which outlines a traditional sequential software development process that is sometimes referred to as the "Waterfall" model. The paper describes a linear approach to software development, where each phase of the development process (requirements, design, implementation, testing, and maintenance) is completed before the next phase can begin.
+"<mark style="background: #FFF3A3A6;">Managing the Development of Large Software Systems</mark>" is a paper published in 1970 by Winston W. Royce, which outlines a traditional sequential software development process that is sometimes referred to as the "Waterfall" model. The paper describes a linear approach to software development, where each phase of the development process (requirements, design, implementation, testing, and maintenance) is completed before the next phase can begin.
 
 Royce presents this model as a response to the increasing complexity of software projects and the need for a structured, disciplined approach to software development. However, he acknowledges the limitations of this approach, particularly when it comes to dealing with changing requirements or unexpected issues.
 
