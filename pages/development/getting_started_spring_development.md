@@ -184,7 +184,8 @@ Sorting allows you to specify the order in which the data should be retrieved.
     
     
     ```java 
-    Sort sort = Sort.by("lastName").descending(); List<User> sortedUsers = userRepository.findAll(sort);
+    Sort sort = Sort.by("lastName").descending(); 
+    List<User> sortedUsers = userRepository.findAll(sort);
     ```
     
     In this example, the code fetches all users and sorts them by the `lastName` attribute in descending order.
@@ -195,7 +196,8 @@ Sorting allows you to specify the order in which the data should be retrieved.
     
     
     ```java
-    Pageable pageable = PageRequest.of(0, 10, Sort.by("lastName").descending()); Page<User> resultPage = userRepository.findAll(pageable);
+    Pageable pageable = PageRequest.of(0, 10, Sort.by("lastName").descending()); 
+    Page<User> resultPage = userRepository.findAll(pageable);
     ```
     
     This example fetches the first page with 10 items, sorted by the `lastName` attribute in descending order.
@@ -238,5 +240,229 @@ Documentation on: [Specifications :: Spring Data JPA](https://docs.spring.io/spr
 
 ## QueryDSL
 
-From the documentation: [Querydsl - Unified Queries for Java](https://querydsl.com/)
+From the documentation: [Querydsl - Unified Queries for Java](https://querydsl.com/) is a framework that provides a type-safe and expressive DSL for building queries in Java. It allows developers to define queries using a fluent and statically-typed API rather than relying on string-based queries. QueryDSL is often used with JPA (Java Persistence API), Hibernate, and other database access technologies.
+### Key Features of QueryDSL:
 
+1. **Type-Safe Queries:**
+    - QueryDSL uses a type-safe API, which means that queries are checked at compile time. This reduces the likelihood of runtime errors in the query construction process.
+2. **Fluent API:**
+    - The API is designed to be fluent, making it easy to read and construct complex queries. QueryDSL leverages method chaining to create a concise and expressive syntax.
+3. **Domain-Specific Language:**
+    -  QueryDSL is designed to be a domain-specific language for querying databases. It provides a set of classes and methods that closely align with the concepts of SQL and database queries.
+4. **Integration with JPA and Hibernate:**
+     - QueryDSL seamlessly integrates with JPA and Hibernate, allowing developers to use it in conjunction with these popular Java persistence technologies. It works with JPA entities and supports the JPA query language.
+5. **Support for Different Query Types:**
+      - QueryDSL supports various types of queries, including SELECT, UPDATE, and DELETE queries. It covers a broad range of use cases for interacting with relational databases.
+
+### How QueryDSL Works:
+
+1. **Entity Mapping:**
+    
+    - Define JPA entities that represent your data model. These entities are typically annotated with JPA annotations.
+    
+    javaCopy code
+    
+    ```java 
+    @Entity public class User {
+    @Id     
+    @GeneratedValue(strategy = GenerationType.IDENTITY)     
+    private Long id;      
+    private String firstName;     
+    private String lastName;     
+    // ... }
+    ```
+    
+2. **QueryDSL Integration:**
+    
+    - Include QueryDSL as a dependency in your project. For example, if you're using Maven:
+    
+    xmlCopy code
+    
+    ```xml
+    <dependency>
+         <groupId>com.querydsl</groupId>     
+         <artifactId>querydsl-core</artifactId>     
+         <version>4.4.0</version> 
+	 </dependency>
+	 ```
+    
+3. **QueryDSL Annotation Processor:**
+    
+    - Use the QueryDSL annotation processor to generate Q-classes. These Q-classes represent query entities and provide a statically-typed way to reference entity properties.
+4. **Building Queries:**
+    
+    - Use QueryDSL to construct queries using the generated Q-classes. The API allows you to build queries for various operations, such as filtering, sorting, and joining.
+    
+    javaCopy code
+    
+    ```java
+    QUser qUser = QUser.user; 
+    List<User> users = queryFactory
+         .selectFrom(qUser)
+			  .where(qUser.firstName.eq("John"))       
+			  .orderBy(qUser.lastName.asc())     
+			  .fetch();
+    ```
+    
+    In this example, `qUser.firstName.eq("John")` represents a condition where the first name is equal to "John."
+    
+5. **Executing Queries:**
+    
+    - Execute the constructed queries using JPA or other database access technologies. QueryDSL provides the flexibility to work with different query execution mechanisms.
+
+## Query By Example
+
+Query by Example (QBE) is a user-friendly querying technique with a simple interface. It allows dynamic query creation and does not require you to write queries that contain field names. In fact, Query by Example does not require you to write queries by using store-specific query languages at all.
+
+Documentation: [Query by Example :: Spring Data Relational](https://docs.spring.io/spring-data/relational/reference/query-by-example.html)
+
+### Key Concepts and How It Works:
+
+1. **Example Entity:**
+    
+    - You create an instance of the entity you want to query (the example entity). Set the properties with the values you want to use as filters for the query.
+    
+    ```java
+    User exampleUser = new User(); 
+    exampleUser.setFirstName("John"); 
+    exampleUser.setLastName("Doe");
+    ```
+    
+2. **ExampleMatcher:**
+    
+    - Define an `ExampleMatcher` that specifies how the matching should be performed. The matcher allows you to configure options such as case sensitivity, string matching mode, and more.
+    
+    
+    ```java
+    ExampleMatcher matcher = ExampleMatcher.matching()
+         .withIgnoreCase()
+              .withMatcher("firstName",
+               ExampleMatcher.GenericPropertyMatchers.startsWith())     
+               
+               .withMatcher("lastName",  
+               ExampleMatcher.GenericPropertyMatchers.endsWith());
+               ```
+    
+    In this example, `withIgnoreCase()` makes the matching case-insensitive, and `withMatcher` configures specific matching criteria for individual properties.
+    
+3. **Example:**
+    
+    - Create an `Example` object using the example entity and the matcher.
+    
+    ```java
+    Example<User> example = Example.of(exampleUser, matcher);
+    ```
+    
+4. **Query Execution:**
+    
+    - Use the `Example` object in a Spring Data repository method. Spring Data repositories provide methods like `findAll(Example<T> example)` that accept an `Example` as a parameter.        
+    
+    ```java
+    List<User> result = userRepository.findAll(example);
+    ```
+    
+    The repository method dynamically constructs a query based on the provided example, and it retrieves entities that match the specified criteria.
+    
+
+### Example:
+
+Let's say you have a `User` entity:
+
+```java
+@Entity 
+public class User {
+	@Id     
+	@GeneratedValue(strategy = GenerationType.IDENTITY)     
+	private Long id;      
+	private String firstName;     
+	private String lastName;     
+	// getters and setters }
+```
+
+You can use Query by Example to find users with a specific first name and last name:
+
+```java
+User exampleUser = new User(); exampleUser.setFirstName("John"); 
+exampleUser.setLastName("Doe");
+ExampleMatcher matcher = ExampleMatcher
+	.matching()
+	.withIgnoreCase()
+	.withMatcher("firstName",ExampleMatcher.GenericPropertyMatchers.startsWith()) 
+	.withMatcher("lastName", ExampleMatcher.GenericPropertyMatchers.endsWith());  
+	
+	Example<User> example = Example.of(exampleUser, matcher);  
+	List<User> result = userRepository.findAll(example);
+```
+
+In this example, the query will find all users whose first name starts with "John" (case-insensitive) and last name ends with "Doe."
+
+## Spring Data REST
+
+Spring Data REST is part of the umbrella Spring Data project and makes it easy to build hypermedia-driven REST web services on top of Spring Data repositories.
+
+Spring Data REST builds on top of Spring Data repositories, analyzes your application’s domain model and exposes hypermedia-driven HTTP resources for aggregates contained in the model.
+
+As you can see, when Data Rest is configured, Spring add to the endpoints names an "s" to denote standard API notation.
+
+![](../../images/spring_data_rest.png)
+
+Documentation: [Spring Data REST](https://spring.io/projects/spring-data-rest)
+
+### Projections in Spring Data REST
+
+<mark style="background: #FFF3A3A6;">Projections in Spring Data REST allow you to shape the response of your API</mark> by defining a subset of the entity's properties that should be included. This is particularly useful when you don't need all the details of an entity and want to reduce the payload size.
+
+To use projections, you define an interface that declares the subset of properties you want. The interface serves as a view on the entity.
+
+**Example:**
+
+Assuming you have an entity `Person`:
+
+```java 
+@Entity 
+public class Person {     
+
+	@Id     
+	@GeneratedValue(strategy = GenerationType.IDENTITY)     
+	private Long id;          
+	private String firstName;     
+	private String lastName;     
+	private int age;     
+	// getters and setters }
+```
+
+You can create a projection interface like this:
+
+```java
+@Projection(name = "simplePerson", types = Person.class) 
+public interface SimplePersonProjection {     
+	String getFirstName();     
+	String getLastName(); 
+}
+```
+
+Then, when you request the `/persons` endpoint, you can include the projection:
+
+- **Request:** `/persons?projection=simplePerson`
+- **Response:**
+    
+    ```json
+    {   
+    "_embedded": {     
+	    "persons": 
+	    [       
+		    {         
+		    "firstName": "John",         
+		    "lastName": "Doe"       
+		    },       
+		    {         
+		    "firstName": "Jane",         
+		    "lastName": "Smith"       
+		    }     
+	    ]   
+		} 
+	}
+    ```
+    
+
+This response only includes the `firstName` and `lastName` properties, as defined in the `SimplePersonProjection` interface.
