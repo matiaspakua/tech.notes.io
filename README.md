@@ -29,7 +29,7 @@ Hello, this is my personal Tech Notes blog. The items are usually displayed as n
 - [Git, Gitflow and Trunk Based development](/pages/development/git_and_gitflow_trunk_based_dev.md) 
 - [On Gradle Notes](/pages/development/on_gradle_notes.md)
 - [IntelliJ tips by Victor Rentea](/pages/development/intellij_tips.md)
-- [Java Not Allowed Operations](/pages/development/java_not_allowed.md)
+- [Getting Started In Spring Development](/pages/development/getting_started_spring_development.md)
 ### Testing
 
 - [Gherkin and Automation](/pages/testing/gherkin_and_automation.md)
