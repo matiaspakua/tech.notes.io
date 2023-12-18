@@ -108,3 +108,135 @@ The naming convention for query methods is derived from the method name itself, 
 Spring Data facilitates fast failure. Query methods are verified at Bootstrap. 
 ![Fail Fast](../../images/query_method_verify_at_bootstrap.png)
 Here, course has not attributed named title. Spring Data throws a Spring Data query creation exception at startup. Without Spring Data, you would not know there was a syntax error until the query is actually invoked which is amazing.
+
+Even is possible to add other clauses that are shown in the official documentation:
+
+[Spring Data Commons - Reference Documentation](https://docs.spring.io/spring-data/commons/docs/3.0.0/reference/html/#repository-query-keywords)
+
+## Query-Annotated Method
+
+One reason to use query annotation is to encouraged to use non-native queries, because they are verified at Bootstrap. Native queries are only verified when invoked.
+
+Another reason to use @Query is that the query is just too complex for property expressions.
+
+![Native Query](../../images/query_native.png)
+
+## Paging and Sorting
+
+Paging and sorting are features that allow you to retrieve a subset of data from a larger dataset. These features are particularly useful when dealing with large result sets, as they enable efficient retrieval of only the necessary data.
+
+### Paging:
+
+Paging refers to dividing a large result set into smaller, manageable chunks or pages. It is useful when you don't need to load the entire dataset at once but rather load it incrementally.
+
+  
+In Spring Data, paging and sorting are features that allow you to retrieve a subset of data from a larger dataset. These features are particularly useful when dealing with large result sets, as they enable efficient retrieval of only the necessary data.
+
+### Paging:
+
+Paging refers to dividing a large result set into smaller, manageable chunks or pages. It is useful when you don't need to load the entire dataset at once but rather load it incrementally.
+
+1. **Method Declaration:**
+    
+    - To enable paging, your repository method should return a `Page` or `Slice` instead of a simple `List`.
+    - You need to provide a `Pageable` parameter to your method.
+    
+    
+    ```java 
+    Page<User> findAll(Pageable pageable);
+    ```
+    
+2. **Usage:**
+    
+    - When invoking this method, you can create a `PageRequest` to specify the page number, the number of items per page (page size), and optional sorting.
+    
+    ```java 
+    Pageable pageable = PageRequest.of(0, 10, Sort.by("lastName").descending());      Page<User> resultPage = userRepository.findAll(pageable);
+    ```
+    
+    In this example, the code fetches the first page with 10 items, sorted by the `lastName` attribute in descending order.
+    
+3. **Accessing Results:**
+    
+    - The `Page` object contains information about the current page, total number of pages, total number of items, and the actual content.
+    
+    
+    ```java 
+    List<User> users = resultPage.getContent();
+    ```
+
+### Sorting:
+
+Sorting allows you to specify the order in which the data should be retrieved.
+
+1. **Method Declaration:**
+    
+    - To enable sorting, you can provide a `Sort` parameter to your repository method.
+    
+    
+    ```java
+    List<User> findAll(Sort sort);
+    ```
+    
+2. **Usage:**
+    
+    - When invoking this method, you can create a `Sort` object to specify the sorting order.
+    
+    
+    ```java 
+    Sort sort = Sort.by("lastName").descending(); List<User> sortedUsers = userRepository.findAll(sort);
+    ```
+    
+    In this example, the code fetches all users and sorts them by the `lastName` attribute in descending order.
+    
+3. **Combining with Paging:**
+    
+    - You can combine paging and sorting by using a `Pageable` parameter that includes sorting information.
+    
+    
+    ```java
+    Pageable pageable = PageRequest.of(0, 10, Sort.by("lastName").descending()); Page<User> resultPage = userRepository.findAll(pageable);
+    ```
+    
+    This example fetches the first page with 10 items, sorted by the `lastName` attribute in descending order.
+    
+
+Spring Data automatically translates these method signatures into appropriate SQL queries, making it convenient for developers to work with paged and sorted data.
+
+## Specifications
+
+Specifications provide a way to define complex queries by encapsulating them in reusable components. Specifications are particularly useful when you need to dynamically build queries based on varying criteria. Spring Data JPA supports Specifications as a powerful abstraction for building queries.
+
+```java
+@Service
+public class DynamicQueryService {
+
+    private CourseRepo courseRepo;
+
+    public DynamicQueryService(CourseRepo courseRepo) {
+        this.courseRepo = courseRepo;
+    }
+
+    public List<Course> filterBySpecification(CourseFilter filter) {
+        Specification<Course> courseSpecification =
+                (root, query, criteriaBuilder) -> {
+                    List<Predicate> predicates = new ArrayList<>();
+                    filter.getDepartment().ifPresent(d ->
+                            predicates.add(criteriaBuilder.equal(root.get("department"), d)));
+                    filter.getCredits().ifPresent(c ->
+                            predicates.add(criteriaBuilder.equal(root.get("credits"), c)));
+                    filter.getInstructor().ifPresent(i ->
+                            predicates.add(criteriaBuilder.equal(root.get("instructor"), i)));
+                    return criteriaBuilder.and(predicates.toArray(new Predicate[0]));
+                };
+        return courseRepo.findAll(courseSpecification);
+    }
+}
+```
+
+Documentation on: [Specifications :: Spring Data JPA](https://docs.spring.io/spring-data/jpa/reference/jpa/specifications.html)
+
+## QueryDSL
+
+From the documentation: [Querydsl - Unified Queries for Java](https://querydsl.com/)
+
