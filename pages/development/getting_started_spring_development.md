@@ -44,7 +44,7 @@ More information in: [spring_framework_notes](spring_framework_notes.md)
 
 # Spring DATA
 
-# Repository Code
+### Repository Code
 
 Link: [This repo is for the Linkedin Learning course: Spring: Spring Data 2](https://github.com/LinkedInLearning/spring-spring-data-2-2508603)
 
@@ -466,3 +466,53 @@ Then, when you request the `/persons` endpoint, you can include the projection:
     
 
 This response only includes the `firstName` and `lastName` properties, as defined in the `SimplePersonProjection` interface.
+
+## Non-blocking Spring Data reactive repositories
+
+Reactive repositories are part of the Spring Data project that enables reactive programming support for interacting with databases. Traditional blocking database operations are replaced with reactive counterparts, allowing for more efficient handling of resources and scalability in applications.
+
+Documentation: [Spring | Reactive](https://spring.io/reactive)
+
+
+1. **Reactive Programming Model:**
+    
+    - Non-blocking Spring Data reactive repositories leverage the reactive programming model. In a reactive system, components react to events and process them asynchronously. This is in contrast to the traditional imperative programming model where tasks are executed sequentially.
+
+1. **WebFlux and Reactive Streams:**
+    
+    - Spring's WebFlux module, built on the Reactive Streams specification, provides the foundation for reactive programming in Spring. Reactive Streams define a standard for asynchronous stream processing with non-blocking backpressure.
+
+1. **Reactive Database Drivers:**
+    
+    - To support reactive interactions with databases, non-blocking Spring Data repositories use reactive database drivers. These drivers are designed to handle asynchronous, non-blocking communication with the database.
+
+4. **Repository Interface:**
+    
+    - Reactive repositories define interfaces that extend the `ReactiveCrudRepository` interface provided by Spring Data. This interface includes reactive methods for performing CRUD (Create, Read, Update, Delete) operations.
+
+    
+    ```java
+    public interface ReactivePersonRepository extends ReactiveCrudRepository<Person, String> {     
+	    Mono<Person> findByLastName(String lastName); 
+    }
+    ```
+    
+    In this example, `ReactivePersonRepository` extends `ReactiveCrudRepository` and includes a reactive method to find a person by last name.
+    
+5. **Reactive Types:**
+    
+    - Reactive repositories return reactive types such as `Mono` and `Flux` instead of blocking types like `Optional` or `List`. `Mono` represents a single value or an error, while `Flux` represents a stream of values.
+
+6. **Asynchronous Execution:**
+    
+    - When a reactive repository method is invoked, the operations are executed asynchronously, and the result is delivered through the reactive type. This allows the application to continue processing other tasks without waiting for the database operation to complete.        
+    
+    ```java
+    Mono<Person> personMono = reactivePersonRepository.findByLastName("Doe");
+    ```
+    
+    The `findByLastName` method returns a `Mono<Person>` that asynchronously retrieves a person with the specified last name.
+    
+7. **Integration with Reactive Web Framework:**
+    
+    - Non-blocking Spring Data reactive repositories are often used in conjunction with Spring WebFlux to build end-to-end reactive applications. Reactive controllers handle requests asynchronously, and the entire application stack supports reactive principles.
