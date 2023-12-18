@@ -59,4 +59,52 @@ More than an inversion of control framework, Spring now comprises a vast collect
 
 **Spring Data** is actually an umbrella of several sub-projects. There are several modules, and they all specialize in various data sources, but they all depend on commons. <mark style="background: #FFF3A3A6;">Commons</mark> abstracts away from any particular data source. No matter which data source, the goal is always the same. Have a way to convert Java object entities into target data source records and persist them, as well as convert the records back to entities. It can create entities which are then persisted as records to the data store. It can look up data source records by citing the entity attributes. It can update data source records by updating the entity and finally, delete the data source records by deleting the entity. 
 
-**The repository pattern** is an abstraction that is used by Spring Data Commons to accomplish these goals. It is followed throughout the Spring Data Project for creating, reading, updating, and deleting records by citing entities. A module for a particular data source has a repository that extends from the base one. So for example, Spring Data JPA, has a JPA repository. Spring Data MongoDB has a Mongo repository. Spring Data GemFire has a GemFire repository, and so on. Spring Data JPA is the most popular module. Therefore, our deep dive into coding with Spring Data common repositories will be in that chapter, as well as the querying chapter. Lessons learned from these chapters will be leveraged in Spring Data, MongoDB, and hence any other spring data module.
+**The repository pattern** is an abstraction that is used by Spring Data Commons to accomplish these goals. It is followed throughout the Spring Data Project for creating, reading, updating, and deleting records by citing entities. A module for a particular data source has a repository that extends from the base one. So for example, Spring Data JPA, has a JPA repository. Spring Data MongoDB has a Mongo repository. Spring Data GemFire has a GemFire repository, and so on. Spring Data JPA is the most popular module. 
+
+## CRUD Repository and JPA Repository
+
+In Spring Data, both `CrudRepository` and `JpaRepository` are interfaces that provide convenient methods for performing CRUD (Create, Read, Update, Delete) operations on entities. However, there are subtle differences between them.
+
+1. **`CrudRepository` Interface:**
+    
+    - **Role:** This is the most basic repository interface in Spring Data.
+    - **Key Methods:**
+        - `save(S entity)`: Saves the given entity.
+        - `findById(ID id)`: Retrieves an entity by its ID.
+        - `findAll()`: Returns all entities.
+        - `deleteById(ID id)`: Deletes an entity by its ID.
+    - **Usage:** Suitable for basic CRUD operations.
+
+2. **`JpaRepository` Interface:**
+    
+    - **Extension of `CrudRepository`:** `JpaRepository` extends `CrudRepository` and adds additional JPA-specific methods.
+    - **Key Methods (In addition to `CrudRepository`):**
+        - `getOne(ID id)`: Returns a reference to the entity with the given identifier. (Lazily loaded)
+        - `findAll(Sort sort)`: Returns all entities sorted by the given options.
+        - `flush()`: Flushes the persistence context, ensuring changes are synchronized with the database.
+    - **Usage:** Preferred when working with JPA (Java Persistence API) as it provides JPA-specific features.
+
+**Key Differences:**
+
+- **Additional Methods:** `JpaRepository` includes additional methods specific to JPA, like `getOne` and `flush`.
+- **Suitability:** `CrudRepository` is more general-purpose, while `JpaRepository` is tailored for JPA-related scenarios.
+- **Lazy Loading:** `getOne` in `JpaRepository` returns a reference to the entity that is lazily loaded, which can be useful in certain situations.
+
+**Choosing Between Them:**
+
+- If you need basic CRUD operations and want to stay agnostic to the underlying persistence technology, you can use `CrudRepository`.
+- If you are specifically working with JPA and want access to JPA-specific methods, `JpaRepository` is a better choice.
+
+But, beside all this, be aware of the Anti-Patterns: [The Spring Data JPA findById Anti-Pattern - Vlad Mihalcea](https://vladmihalcea.com/spring-data-jpa-findbyid/))
+
+## Property expression query methods
+
+**Query method** refers to a method signature in a Spring Data repository interface that follows a specific naming convention. Spring Data uses these method names to automatically generate queries based on the method's name, allowing you to perform database operations without writing explicit queries.
+
+The naming convention for query methods is derived from the method name itself, and Spring Data JPA translates it into a corresponding SQL or JPQL query. This mechanism is often referred to as "<mark style="background: #FFF3A3A6;">query derivation.</mark>"
+
+![Rules](../../images/query_methods_rules.png)
+
+Spring Data facilitates fast failure. Query methods are verified at Bootstrap. 
+![Fail Fast](../../images/query_method_verify_at_bootstrap.png)
+Here, course has not attributed named title. Spring Data throws a Spring Data query creation exception at startup. Without Spring Data, you would not know there was a syntax error until the query is actually invoked which is amazing.
