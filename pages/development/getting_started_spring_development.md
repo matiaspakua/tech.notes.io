@@ -17,7 +17,6 @@
 
 <button class="back-button" onclick="window.location.href='https://matiaspakua.github.io/tech.notes.io'">All notes</button>
 
-# # Getting Started In Spring Development
 ## Introduction to Spring
 
 The Spring framework is built and designed such that it provides <mark style="background: #FFF3A3A6;">comprehensive support</mark> for developing applications for the JVM, including abstractions for some of the most powerful and common enterprise systems integrations, specifically around common infrastructure. 
@@ -40,7 +39,7 @@ Now, back to the plumbing idea, Spring promotes <mark style="background: #FFF3A3
 
 One of the most powerful aspects of Spring Boot is that it provides <mark style="background: #FFF3A3A6;">auto-configuration</mark> of the application context so that you, as the developer, can leverage simple properties and conventions to configure the Beans loaded into the Bean Factory and used by the IoC container. 
 
-More information in: [[spring_framework_notes]]
+More information in: [spring_framework_notes](spring_framework_notes.md)
 
 
 # Spring DATA
@@ -53,7 +52,7 @@ Link: [This repo is for the Linkedin Learning course: Spring: Spring Data 2](htt
 
 Hibernate eliminated manually mapping logical objects to physical databases, asynchronous JavaScript and XML. Also known as Ajax. Websites
 
-![[spring_data_schema.svg]]
+![spring data schema](../../images/spring_data_schema.svg)
 
 
 More than an inversion of control framework, Spring now comprises a vast collection of enterprise solutions. One of the solutions is the Spring Data Project. <mark style="background: #FFF3A3A6;">Spring Data's mission is to provide a familiar, and consistent Spring-based programming model for data access while still retaining the special traits of the underlying data store</mark>. 
