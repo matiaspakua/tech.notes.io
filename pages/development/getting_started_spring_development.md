@@ -16,8 +16,13 @@
 </style>
 
 <button class="back-button" onclick="window.location.href='https://matiaspakua.github.io/tech.notes.io'">All notes</button>
-
-## Introduction to Spring
+ 
+1. [Learning Spring with Spring Boot](# 01. Learning Spring with Spring Boot)
+2. [Creating your First Spring Boot Microservice](# 02. Creating your First Spring Boot Microservice)
+3. [Extending, Securing and Dockerizing Spring Boot Microservices](#03. Extending, Securing and Dockerizing Spring Boot Microservices)
+4. [Spring DATA](# 04. Spring DATA))
+5. [Spring Security](# 05. Spring Security)
+# 01. Learning Spring with Spring Boot
 
 The Spring framework is built and designed such that it provides <mark style="background: #FFF3A3A6;">comprehensive support</mark> for developing applications for the JVM, including abstractions for some of the most powerful and common enterprise systems integrations, specifically around common infrastructure. 
 
@@ -42,7 +47,15 @@ One of the most powerful aspects of Spring Boot is that it provides <mark style=
 More information in: [spring_framework_notes](spring_framework_notes.md)
 
 
-# Spring DATA
+# 02. Creating your First Spring Boot Microservice
+
+// TODO
+
+# 03. Extending, Securing and Dockerizing Spring Boot Microservices
+
+// TODO
+
+# 04. Spring DATA
 
 ### Repository Code
 
@@ -517,7 +530,7 @@ Documentation: [Spring | Reactive](https://spring.io/reactive)
     
     - Non-blocking Spring Data reactive repositories are often used in conjunction with Spring WebFlux to build end-to-end reactive applications. Reactive controllers handle requests asynchronously, and the entire application stack supports reactive principles.
 
-# Spring Security
+# 05. Spring Security
 
 ![](../../images/spring_security.svg)
 
@@ -610,3 +623,8 @@ Forms-based authentication (FBA) offers several advantages over basic authentica
 - **Remember me:** A feature that allows users to remain logged in without having to enter their credentials every time they visit the application.
 
 **Conclusion:** FBA is a more secure and versatile authentication method than basic authentication. It is recommended for use in web applications that require a more user-friendly and customizable login experience.
+
+![](../../images/spring_form_based_authentication.png)
+
+## LDAP Authentication
+
