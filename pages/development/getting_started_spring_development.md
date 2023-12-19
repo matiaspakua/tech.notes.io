@@ -16,14 +16,18 @@
 </style>
 
 <button class="back-button" onclick="window.location.href='https://matiaspakua.github.io/tech.notes.io'">All notes</button>
- 
-1. [Learning Spring with Spring Boot](# 01. Learning Spring with Spring Boot)
-2. [Creating your First Spring Boot Microservice](# 02. Creating your First Spring Boot Microservice)
-3. [Extending, Securing and Dockerizing Spring Boot Microservices](#03. Extending, Securing and Dockerizing Spring Boot Microservices)
+
+This are the notes for the 6 courses Specialization PATH on Linkedin Learning.
+
+## Table of Content
+
+1. [Learning Spring with Spring Boot](#01)
+2. [Creating your First Spring Boot Microservice](#02)
+3. [Extending, Securing and Dockerizing Spring Boot Microservices](#03)
 4. [Spring DATA](# 04. Spring DATA)
 5. [Spring Security](# 05. Spring Security)
 
-<a name="01. Learning Spring with Spring Boot"></a>
+<a name="01"></a>
 # 01. Learning Spring with Spring Boot
 
 The Spring framework is built and designed such that it provides <mark style="background: #FFF3A3A6;">comprehensive support</mark> for developing applications for the JVM, including abstractions for some of the most powerful and common enterprise systems integrations, specifically around common infrastructure. 
@@ -48,11 +52,12 @@ One of the most powerful aspects of Spring Boot is that it provides <mark style=
 
 More information in: [spring_framework_notes](spring_framework_notes.md)
 
-
+<a name="02"></a>
 # 02. Creating your First Spring Boot Microservice
 
 // TODO
 
+<a name="03"></a>
 # 03. Extending, Securing and Dockerizing Spring Boot Microservices
 
 // TODO
@@ -655,7 +660,7 @@ Active Directory and LDAP are both directory services, but they are not the same
 
 **OAuth** 2 is an authorization framework, not an authentication framework. It allows applications to access user data without having direct access to user credentials.
     
-**OAuth 2 involves multiple components:** Resource owner (user), Client (application), Resource Server (website with protected data), Authorization Server (grants access tokens), Access Token (temporary token for access), Refresh Token (long-lived token for renewing access), Scopes (define the level of access granted).
+**OAuth 2 involves multiple components:** <mark style="background: #FFF3A3A6;">Resource owner</mark> (user), <mark style="background: #FFF3A3A6;">Client</mark> (application),<mark style="background: #FFF3A3A6;"> Resource Server</mark> (website with protected data),<mark style="background: #FFF3A3A6;"> Authorization Server </mark>(grants access tokens), <mark style="background: #FFF3A3A6;">Access Token</mark> (temporary token for access), <mark style="background: #FFF3A3A6;">Refresh Token</mark> (long-lived token for renewing access), <mark style="background: #FFF3A3A6;">Scopes</mark> (define the level of access granted).
 
 ![](../../images/OAuth2_components.png)
 
@@ -665,3 +670,26 @@ Active Directory and LDAP are both directory services, but they are not the same
 
 Documentation: [Workflow of OAuth 2.0 - GeeksforGeeks](https://www.geeksforgeeks.org/workflow-of-oauth-2-0/)
 
+## WebFlux Security (for Reactive spring)
+
+WebFlux Security is an extension of the Spring Security framework specifically designed for reactive applications built using Spring WebFlux. It provides a comprehensive set of features for securing reactive web applications, including authentication, authorization, and more.
+
+**Authentication**: WebFlux Security supports various authentication mechanisms, such as form-based authentication, basic authentication, and OpenID Connect. It also integrates with Spring Security's built-in user details services for managing user accounts and authentication credentials.
+
+**Authorization**: WebFlux Security enables fine-grained authorization control based on user roles, permissions, and access control lists (ACLs). It supports various authorization strategies, including URL-based authorization, method-level authorization, and reactive-style annotations.
+
+**Security Filters**: WebFlux Security employs a chain of security filters to intercept and protect incoming requests. These filters handle tasks like authentication, authorization, CSRF protection, and header configuration.
+
+**Integration with Spring Security**: WebFlux Security seamlessly integrates with the existing Spring Security infrastructure, enabling developers to reuse existing authentication and authorization configurations. It also integrates with other Spring Security features, such as session management, password encoding, and logging.
+
+**Key Features**
+
+- **Reactive-first design:** It is specifically designed for reactive applications, leveraging asynchronous processing and non-blocking I/O.
+    
+- **Fine-grained authorization:** It provides comprehensive authorization capabilities, including role-based access control (RBAC), method-level security, and reactive-style annotations.
+    
+- **Flexible authentication:** It supports various authentication mechanisms, including form-based, Basic, and OpenID Connect.
+    
+- **Integration with Spring Security:** It integrates seamlessly with the existing Spring Security infrastructure, enabling reuse of configurations and features.
+
+![](../../images/spring_flux_security.png)
