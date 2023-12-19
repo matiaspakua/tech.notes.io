@@ -27,7 +27,7 @@ Welcome to my personal Tech Notes blog. Here, information is presented in a stra
 - [Git, Gitflow and Trunk Based development](/pages/development/git_and_gitflow_trunk_based_dev.md) 
 - [On Gradle Notes](/pages/development/on_gradle_notes.md)
 - [IntelliJ tips by Victor Rentea](/pages/development/intellij_tips.md)
-- [Getting Started In Spring Development](/pages/development/getting_started_spring_development.md)
+- [Getting Started In Spring Development](/pages/development/getting_started_spring_development.md) <span style="color:red"> ( In progress ) </span>
 # Software and System Testing
 
 - [Gherkin and Automation](/pages/testing/gherkin_and_automation.md)
@@ -41,7 +41,7 @@ Welcome to my personal Tech Notes blog. Here, information is presented in a stra
 # Software Engineering
 
 - [Agile and SCRUM. The perks of know nothing](/pages/software_engineering/agile_and_scrum.md)
-- [Waterfall](/pages/software_engineering/waterfall.md)
+- [Waterfall: what really means the paper](/pages/software_engineering/waterfall.md)
 - [The History of the project A7 by David Parnas](/pages/software_engineering/the_history_of_the_project_A7_by_David_Parnas.md)
 - [Software Engineering at Google. A book, a web site](https://abseil.io/resources/swe-book)
 - [On Agile by Martin Fowler](https://martinfowler.com/agile.html)
@@ -64,7 +64,7 @@ Welcome to my personal Tech Notes blog. Here, information is presented in a stra
 
 # Books in <span style="color:red"> in progress </span>
 
- - Modern Software Engineering: Doing What Works to Build Better Software Faster, By David Farley (66%)
+ - Modern Software Engineering: Doing What Works to Build Better Software Faster, By David Farley (72%)
  - ReWork: Change the Way You Work Forever, By David Heinemeier Hansson and Jason Fried (71%)
  - Refactoring: improving the design of existing code, by Martin Fowler (5%)
  - The Mythical Man-Month: Essays on Software Engineering, by Fred Brooks (44%)
