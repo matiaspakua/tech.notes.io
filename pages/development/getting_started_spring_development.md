@@ -516,3 +516,41 @@ Documentation: [Spring | Reactive](https://spring.io/reactive)
 7. **Integration with Reactive Web Framework:**
     
     - Non-blocking Spring Data reactive repositories are often used in conjunction with Spring WebFlux to build end-to-end reactive applications. Reactive controllers handle requests asynchronously, and the entire application stack supports reactive principles.
+
+# Spring Security
+
+![[Spring Security.svg]]
+
+
+## Authentication
+
+Spring Security provides comprehensive support for [authentication](https://en.wikipedia.org/wiki/Authentication). Authentication is how we verify the identity of who is trying to access a particular resource. A common way to authenticate users is by requiring the user to enter a username and password. Once authentication is performed we know the identity and can perform authorization.
+
+Process to determinate WHO (identify a principal), that even can be a human or a machine. For example, System-2-System calls.
+
+Spring support:
+ - HTTP basic and digest [Digest access authentication - Wikipedia](https://en.wikipedia.org/wiki/Digest_access_authentication)
+ - X509 [X.509 - Wikipedia](https://en.wikipedia.org/wiki/X.509)
+ - form-based authentication [Form-Based Authentication (The Java EE 6 Tutorial) (oracle.com)](https://docs.oracle.com/cd/E19798-01/821-1841/bncbq/index.html#:~:text=Form%2Dbased%20authentication%20allows%20the,presents%20to%20the%20end%20user.)
+ - LDAP 
+ - Active Directory
+
+Other support is for OpenID, Jasig CAS and JAAS, Kerberos and SAML.
+
+Documentation: [Authentication :: Spring Security](https://docs.spring.io/spring-security/reference/features/authentication/index.html)
+
+## Authorization
+
+Process to determinate WHAT CAN DO a principal o also calling Access Control. Spring Security provides comprehensive support for [authorization](https://en.wikipedia.org/wiki/Authorization). Authorization is determining who is allowed to access a particular resource. Spring Security provides [defense in depth](https://en.wikipedia.org/wiki/Defense_in_depth_(computing)) by allowing for request based authorization and method based authorization.
+
+Having established [how users will authenticate](https://docs.spring.io/spring-security/reference/servlet/authentication/index.html), you also need to configure your application’s authorization rules.
+
+The advanced authorization capabilities within Spring Security represent one of the most compelling reasons for its popularity. Irrespective of how you choose to authenticate (whether using a Spring Security-provided mechanism and provider or integrating with a container or other non-Spring Security authentication authority), the authorization services can be used within your application in a consistent and simple way.
+
+Spring support:
+ - Web Request.
+ - Method invocation
+ - Domain object access control.
+
+Documentation: [Authorization :: Spring Security](https://docs.spring.io/spring-security/reference/features/authorization/index.html)
+
