@@ -519,7 +519,7 @@ Documentation: [Spring | Reactive](https://spring.io/reactive)
 
 # Spring Security
 
-![[Spring Security.svg]]
+![](../../images/spring_security.svg)
 
 
 ## Authentication
@@ -554,3 +554,59 @@ Spring support:
 
 Documentation: [Authorization :: Spring Security](https://docs.spring.io/spring-security/reference/features/authorization/index.html)
 
+## In-Memory Authentication (only for testing purposes)
+
+Spring Security’s `InMemoryUserDetailsManager` implements [UserDetailsService](https://docs.spring.io/spring-security/reference/servlet/authentication/passwords/user-details-service.html#servlet-authentication-userdetailsservice) to provide support for username/password based authentication that is stored in memory. `InMemoryUserDetailsManager` provides management of `UserDetails` by implementing the `UserDetailsManager` interface. `UserDetails`-based authentication is used by Spring Security when it is configured to [accept a username and password](https://docs.spring.io/spring-security/reference/servlet/authentication/passwords/in-memory.html#servlet-authentication-unpwd-input) for authentication.
+
+![](../../images/spring_basic_security.png)
+
+
+## JDBC User Authentication
+
+Spring Security’s `JdbcDaoImpl` implements [`UserDetailsService`](https://docs.spring.io/spring-security/reference/servlet/authentication/passwords/user-details-service.html#servlet-authentication-userdetailsservice) to provide support for username-and-password-based authentication that is retrieved by using JDBC. `JdbcUserDetailsManager` extends `JdbcDaoImpl` to provide management of `UserDetails` through the `UserDetailsManager` interface. `UserDetails`-based authentication is used by Spring Security when it is configured to [accept a username/password](https://docs.spring.io/spring-security/reference/servlet/authentication/passwords/index.html#servlet-authentication-unpwd-input) for authentication.
+
+
+![](../../images/JDBC_authentication.png)
+
+Documentation: [JDBC Authentication :: Spring Security](https://docs.spring.io/spring-security/reference/servlet/authentication/passwords/jdbc.html)
+
+## BCrypt (password encryption)
+
+By default Spring will use BCrypt encryption/decryption mechanism and IMPORTANT: never store passwords in plain text and even, using algorithm like SHA-256 are no longer considered secure because can be decoded using Brutal Force attack.
+
+Documentation: [Password Storage :: Spring Security](https://docs.spring.io/spring-security/reference/features/authentication/password-storage.html)
+
+## Applying Authorization
+
+<mark style="background: #FFF3A3A6;">Authorization is the process of determining what users are allowed to do</mark>. In this example, the application is only allowing users with the "user" role to view the "customers" and "/customers/**" pages. Users with the "admin" role are allowed to view all pages, including the "orders" page.
+
+**Key concepts:**
+
+- **GrantedAuthoritiesMapper:** This bean is used to map the roles from the database to the roles that Spring Security uses.
+- **antMatchers:** This method is used to specify which URLs should be protected by authorization.
+- **hasRole:** This method is used to check if the current user has the specified role.
+- **Thymeleaf extras, spring security 5:** This dependency is used to protect Thymeleaf pages from unauthorized users.
+- **sec:** This XML namespace is used to apply Spring Security tags to Thymeleaf pages.
+- **UnauthorizedException:** This exception is thrown when a user tries to access a page that they are not authorized to view.
+- **ForbiddenException:** This exception is thrown when a user tries to access a page that they do not have the required permissions for.
+
+![](../../images/spring_applying_authorization.png)
+
+Documentation: [15. Expression-Based Access Control (spring.io)](https://docs.spring.io/spring-security/site/docs/3.0.x/reference/el-access.html)
+
+## Form-Based Authentication
+
+Forms-based authentication (FBA) offers several advantages over basic authentication, including:
+
+- **Standardized login form:** FBA uses a standard HTML form to collect user credentials, which allows for more consistent and customizable login experiences.
+- **Ability to log out:** FBA provides a standard mechanism for users to log out of the application, which is not possible with basic authentication.
+- **Support for remember me:** FBA can store user credentials in a secure manner, allowing users to opt in to a "remember me" feature.
+- **Greater control:** FBA gives developers more control over the login experience, including the ability to customize the login form and define a custom logout page.
+
+**Key concepts:**
+
+- **Basic authentication:** A simple authentication method that sends user credentials in clear text over the wire.
+- **Forms-based authentication:** A more secure authentication method that uses a standard HTML form to collect user credentials.
+- **Remember me:** A feature that allows users to remain logged in without having to enter their credentials every time they visit the application.
+
+**Conclusion:** FBA is a more secure and versatile authentication method than basic authentication. It is recommended for use in web applications that require a more user-friendly and customizable login experience.
