@@ -1,14 +1,12 @@
 ![](images/tech_and_bread.jpeg)
 
-Hello, this is my personal Tech Notes blog. The items are usually displayed as numbered items, but the order of the items is arbitrary and not based on any specific criteria. This type of page is commonly used to present a list of items or topics in a straightforward and easy-to-read format.
+Welcome to my personal Tech Notes blog. Here, information is presented in a straightforward and easy-to-read format, allowing you to explore various topics and items freely.
 
 **IMPORTANT**: All the notes here represent my personal research and opinion. I will keep references to original author and copyrights.
 
 **Who I Am**: [My LinkedIn](https://www.linkedin.com/in/matiasmiguez/)
 
-## Notes
-
-### General Topic
+# General Topic
 
 - [NoSQL. The basis of](/pages/general_topic/nosql_the_basis_of.md) 
 - [Specialisation Building Cloud Computing Suctions at Scale](/pages/general_topic/specialization_building_cloud_computing_solutions_at_scale.md)
@@ -20,7 +18,7 @@ Hello, this is my personal Tech Notes blog. The items are usually displayed as n
 - [Notes on Masterclass Dev to Tech Lead](/pages/general_topic/dev_to_tech_lead.md)
 - [Design Thinking notes](/pages/general_topic/design_thinking_explained.md)
 - [Negotiation and Conflict Resolution](/pages/general_topic/negotiation_and_conflict_resolution_course.md) <span style="color:red"> in progress </span>
-### Development
+# Development
 
 - [Spring Framework Notes](/pages/development/spring_framework_notes.md)
 - [On Python Notes](/pages/development/on_python_notes.md)
@@ -30,7 +28,7 @@ Hello, this is my personal Tech Notes blog. The items are usually displayed as n
 - [On Gradle Notes](/pages/development/on_gradle_notes.md)
 - [IntelliJ tips by Victor Rentea](/pages/development/intellij_tips.md)
 - [Getting Started In Spring Development](/pages/development/getting_started_spring_development.md)
-### Testing
+# Software and System Testing
 
 - [Gherkin and Automation](/pages/testing/gherkin_and_automation.md)
 - [On Testing and Software and Quality notes](/pages/testing/on_testing_and_software_quality_notes.md)
@@ -40,7 +38,7 @@ Hello, this is my personal Tech Notes blog. The items are usually displayed as n
 - [Test Automation (spanish). A book, a web site](https://nicopaez.gitbook.io/test-automation/)
 - [TestContainers: Introduction](/pages/testing/testcontainers.md)
 - [BDD with Cucumber for Java course](/pages/testing/bdd_with_cucumber_java_notes.md) <span style="color:red"> ( In progress ) </span>
-### Software Engineering
+# Software Engineering
 
 - [Agile and SCRUM. The perks of know nothing](/pages/software_engineering/agile_and_scrum.md)
 - [Waterfall](/pages/software_engineering/waterfall.md)
@@ -49,7 +47,7 @@ Hello, this is my personal Tech Notes blog. The items are usually displayed as n
 - [On Agile by Martin Fowler](https://martinfowler.com/agile.html)
 - [Software Design By Example. A book, a web site](https://third-bit.com/sdxjs/)
 - [What The Little Prince teach about engineering](/pages/software_engineering/what_the_little_prince_teach_about_engineering.md) <span style="color:green"> ( New! ) </span>
-### Software and System Architecture
+# Software and System Architecture
 
 - [On Architecture by Martin Fowler](https://martinfowler.com/architecture/)
 - [On microservices patterns and tools](/pages/sw_and_system_architecture/on_microservices_patterns_and_tools.md)
@@ -59,12 +57,12 @@ Hello, this is my personal Tech Notes blog. The items are usually displayed as n
 - [The Architecture of Open Source Applications. A book, a web site](http://aosabook.org/en/index.html)
 - [Vertical Slicing Architectures](/pages/sw_and_system_architecture/vertical_slicing_architectures.md)
 
-### Cybersecurity
+# Cybersecurity
 
 * [Conference h4cked 2022](/pages/cybersecurity/cybersecurity_h4ck3d.md) <span style="color:green"> ( New! ) </span>
 
 
-### Books in <span style="color:red"> in progress </span>
+# Books in <span style="color:red"> in progress </span>
 
  - Modern Software Engineering: Doing What Works to Build Better Software Faster, By David Farley (66%)
  - ReWork: Change the Way You Work Forever, By David Heinemeier Hansson and Jason Fried (71%)
@@ -74,7 +72,7 @@ Hello, this is my personal Tech Notes blog. The items are usually displayed as n
  - The Little Prince, by Antoine de Saint-Exupéry (60%)
  - Spring in Action, 5th Edition by Craig Walls (80%)
 
-### Technical Books already read
+# Technical Books already read
 
  * Applying UML and Patterns: An Introduction to Object-Oriented Analysis and Design and
 Iterative Development, Craig Larman
@@ -85,7 +83,7 @@ Iterative Development, Craig Larman
  * Software Engineering, 10th Edition by Ian Sommerville
  - [Extreme Programming Explained](/pages/books/book_extreme_programming_explained.md)
 
-### Others Books already read
+# Others Books already read
 
  * I, Robot by Issac Asimov (1950)  
  * Caves of Steel  by Issac Asimov (1954)  
@@ -97,8 +95,7 @@ Iterative Development, Craig Larman
  * Millenium Saga (Stieg Larson)
 
 ----
-
-## Pending notes
+# Pending notes (to be digitalized)
 
 - Java And Hibernate. Implementing multiple databases for a monolith legacy code base
 - Software Architecture. Documenting Architecture with ADR
