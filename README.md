@@ -2,7 +2,7 @@
 
 Welcome to my personal Tech Notes blog. Here, information is presented in a straightforward and easy-to-read format, allowing you to explore various topics and items freely.
 
-**IMPORTANT**: All the notes here represent my personal research and opinion. I will keep references to original author and copyrights.
+**IMPORTANT**: All the notes here represent my personal research, learning progress and opinion. I will keep references to original author and copyrights.
 
 **Who I Am**: [My LinkedIn](https://www.linkedin.com/in/matiasmiguez/)
 
