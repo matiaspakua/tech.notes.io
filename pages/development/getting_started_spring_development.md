@@ -1,4 +1,4 @@
-# Getting Started In Spring Development
+## Getting Started In Spring Development
 
 <style>
   .back-button {
@@ -20,8 +20,10 @@
 1. [Learning Spring with Spring Boot](# 01. Learning Spring with Spring Boot)
 2. [Creating your First Spring Boot Microservice](# 02. Creating your First Spring Boot Microservice)
 3. [Extending, Securing and Dockerizing Spring Boot Microservices](#03. Extending, Securing and Dockerizing Spring Boot Microservices)
-4. [Spring DATA](# 04. Spring DATA))
+4. [Spring DATA](# 04. Spring DATA)
 5. [Spring Security](# 05. Spring Security)
+
+<a name="01. Learning Spring with Spring Boot"></a>
 # 01. Learning Spring with Spring Boot
 
 The Spring framework is built and designed such that it provides <mark style="background: #FFF3A3A6;">comprehensive support</mark> for developing applications for the JVM, including abstractions for some of the most powerful and common enterprise systems integrations, specifically around common infrastructure. 
@@ -627,4 +629,39 @@ Forms-based authentication (FBA) offers several advantages over basic authentica
 ![](../../images/spring_form_based_authentication.png)
 
 ## LDAP Authentication
+
+**LDAP (Lightweight Directory Access Protocol)** is a common authentication method for enterprise applications. It is lightweight, interoperable, and highly scalable. Spring Security LDAP provides full support for all native LDAP operations, including authentication and password-hashing.
+
+**Highlight:**
+
+- **LDAP** is a lightweight, interoperable, and highly scalable authentication method for enterprise applications.
+- **Spring Security LDAP** provides full support for all native LDAP operations, including authentication and password-hashing.
+
+**<mark style="background: #FFF3A3A6;">Spring LDAP Core</mark>** is a project that extends Spring Security to work with LDAP for purposes other than authentication. It provides a template pattern for LDAP, which allows you to query, search, create, update, and delete LDAP entries. It can be used for a variety of purposes, such as employee onboarding, HR management, physical security, learning systems, and asset management.
+
+## Active Directory <> LDAP
+
+Active Directory and LDAP are both directory services, but they are not the same thing. <mark style="background: #FFF3A3A6;">Active Directory is a more comprehensive service that provides a wider range of features, </mark>while LDAP is a lightweight directory access protocol that is used to access and manage directory services.
+
+**Highlight:**
+
+- Active Directory is not LDAP, but it implements an LDAP API.
+- Active Directory provides many more services than LDAP.
+- Active Directory is a popular enterprise solution for managing directory services.
+- Spring Security can be used to integrate with Active Directory using the Active Directory LDAP authentication provider.
+- There is a known issue with nested groups in Active Directory and Spring Security. You can find a solution for this on the Spring Security ticket tracker.
+
+## OAuth 2 and Spring Security
+
+**OAuth** 2 is an authorization framework, not an authentication framework. It allows applications to access user data without having direct access to user credentials.
+    
+**OAuth 2 involves multiple components:** Resource owner (user), Client (application), Resource Server (website with protected data), Authorization Server (grants access tokens), Access Token (temporary token for access), Refresh Token (long-lived token for renewing access), Scopes (define the level of access granted).
+
+![](../../images/OAuth2_components.png)
+
+**Common use cases for OAuth 2:** Third-party access (e.g., granting access to a Facebook profile), System-to-system communication, Securing web services between client and server.
+    
+**Types of OAuth 2 grants:** Authorization Code Grant (most common, used by social media), Implicit Grant (web and mobile apps), Client Credential Grant (system-to-system communication).
+
+Documentation: [Workflow of OAuth 2.0 - GeeksforGeeks](https://www.geeksforgeeks.org/workflow-of-oauth-2-0/)
 
