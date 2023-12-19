@@ -24,9 +24,10 @@ This are the notes for the 6 courses Specialization PATH on Linkedin Learning.
 1. [Learning Spring with Spring Boot](#01)
 2. [Creating your First Spring Boot Microservice](#02)
 3. [Extending, Securing and Dockerizing Spring Boot Microservices](#03)
-4. [Spring DATA](# 04. Spring DATA)
-5. [Spring Security](# 05. Spring Security)
+4. [Spring DATA](#04)
+5. [Spring Security](#05)
 
+---
 <a name="01"></a>
 # 01. Learning Spring with Spring Boot
 
@@ -52,16 +53,20 @@ One of the most powerful aspects of Spring Boot is that it provides <mark style=
 
 More information in: [spring_framework_notes](spring_framework_notes.md)
 
+---
 <a name="02"></a>
 # 02. Creating your First Spring Boot Microservice
 
 // TODO
 
+---
 <a name="03"></a>
 # 03. Extending, Securing and Dockerizing Spring Boot Microservices
 
 // TODO
 
+---
+<a name="04"></a>
 # 04. Spring DATA
 
 ### Repository Code
@@ -537,6 +542,9 @@ Documentation: [Spring | Reactive](https://spring.io/reactive)
     
     - Non-blocking Spring Data reactive repositories are often used in conjunction with Spring WebFlux to build end-to-end reactive applications. Reactive controllers handle requests asynchronously, and the entire application stack supports reactive principles.
 
+---
+
+<a name="05"></a>
 # 05. Spring Security
 
 ![](../../images/spring_security.svg)
