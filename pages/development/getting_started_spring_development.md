@@ -763,4 +763,10 @@ In a Spring and React application, the separation between the MVC layers is achi
 
 This separation of concerns and well-defined communication between the MVC layers make Spring and React applications highly maintainable and testable.
 
+![](../../images/spring_react_setup.png)
 
+The tools used in this project are:
+
+Materialize: [Documentation - Materialize (materializecss.com)](https://materializecss.com/)
+
+Adding components to the "client" side is straightforward, just select the component that you need, copy the code and customise as you need.
