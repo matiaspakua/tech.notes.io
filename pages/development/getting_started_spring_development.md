@@ -54,17 +54,103 @@ One of the most powerful aspects of Spring Boot is that it provides <mark style=
 
 More information in: [spring_framework_notes](spring_framework_notes.md)
 
+
+## Annotations
+
+- **<mark style="background: #FFF3A3A6;">Annotations</mark>** are a core component of the Java language and are used to provide metadata for code.
+- Spring uses annotations to provide **additional functionality** to code, often through proxy classes.
+- Proxy classes are created by Spring and provide the added behavior, such as transaction management or security.
+- Annotations are also used for **component scanning**, which allows Spring to automatically detect and configure beans.
+- When calling methods on a proxy class, the proxy behavior is applied.
+- Private method calls and class local method calls are not proxied, so the proxy behavior does not apply to them.
+
+Here are some additional points to note:
+
+- **Annotations are a powerful way to extend the Spring framework.**
+- **Annotations are widely used in Spring applications.**
+- **It is important to be aware of how annotations work in order to use them effectively.**
+
+## Data Access
+
+* Spring Data is a framework that <mark style="background: #FFF3A3A6;">simplifies data access</mark> in Java applications using the repository pattern and JPA.
+* It provides a common set of interfaces based on JPA that automatically generate data access behavior.
+* You can still use raw JDBC code if needed, but it is not recommended.
+* Spring Data is useful for <mark style="background: #FFF3A3A6;">removing boilerplate code</mark>, reducing data access complexity, and making data migration easier.
+* The key components of Spring Data are the repository interface, the entity object, and the data source.
+* The repository interface provides CRUD methods for data access.
+* The entity object is the data transfer object (DTO) for the data layer.
+* The data source is the connection to the database.
+* Spring Data can use local or embedded data sources for prototyping and then switch to a production data source.
+* Spring Data makes it easier to focus on business logic rather than data access code.
+
+For testing purposes you can use embedded database such as H2 o if you are in production, a remote database. Everything can be easy configure thought properties in Spring Data.
+
+## Service Tier 
+
+### IoC (inversion of control)
+
+* IoC (Inversion of Control) is a design pattern that allows a program to request the creation of objects from an external factory rather than creating them itself.
+* Spring <mark style="background: #FFF3A3A6;">uses IoC to manage the lifecycle of objects</mark> and their dependencies.
+* When using Spring, a developer only has access to the application context, not the raw BeanFactory.
+* The BeanFactory is the component of Spring that manages the **lifecycle of beans**.
+* The BeanFactory starts up by creating an initialization method for each bean and registering it.
+* Spring then builds a graph of the dependencies between beans and constructs them in the order they are needed.
+* **IMPORTANT**: <mark style="background: #FFB86CA6;">Singleton instances</mark> of beans are created and injected into other beans as needed.
+* Spring maintains the lifecycle of beans from start to finish.
+* **Thread safety** is important when using Spring, as Singleton instances of beans are shared between threads.
+* The BeanFactory is not typically used directly by developers, as the application context provides a higher-level abstraction.
+
+## API and Controllers
+
+* The MVC (Model-View-Controller) pattern is a common pattern for web application development.
+* The model contains all of the dynamic data for the page.
+* The view is the visual display that is populated from the model.
+* The controller is the logic portion of the MVC pattern.
+* The controller takes the initial web request, assembles the model, and selects the view.
+* Spring does not provide a template engine for you as a default selection.
+* Spring supports several template engines, such as Thymeleaf.
+* A Spring controller is a Spring bean that defines the methods that will handle web requests.
+* The controller can respond with a view or raw data.
+* The controller is the entry point for the web call itself as far as the code that you write.
+
+![](../../images/spring_mvc_pattern.png)
+
+## Exposing REST endpoints
+
+* Spring has a specialized controller called @RestController for creating RESTful web services.
+* @RestController is a stereotype of controller that adds response body to each method that exposes a request mapping.
+* Spring uses controllers in general for all RESTful web service endpoints.
+* The view is the JSON payload by default in RESTful web services.
+* Spring does all of the marshaling and unmarshaling for you into a JSON object or from JSON into a Java object.
+* You can convert JSON to XML or other content types with appropriate marshaling on the configuration of the application context.
+* Spring can even respond to the accepts header if you need to support multiple content types within your application.
+* Writing RESTful web services using Spring and Spring Boot is very straightforward.
+
 ---
 <a name="02"></a>
 # 02. Creating your First Spring Boot Microservice
 
-// TODO
+- Setting up the project
+- Building, deploying, and launching the microservice
+- Declaring Spring Data JPA repository interfaces
+- Invoking repositories
+- Using Spring Data query methods
+- Exposing RESTful APIs with Spring Data REST
+- Using the /search resource to invoke query methods
+- Paging and sorting
+- Declaring a new RESTController
+- Creating HTTP methods for updating and deleting data
+- Migrating microservices to a MongoDB repository
 
 ---
 <a name="03"></a>
 # 03. Extending, Securing and Dockerizing Spring Boot Microservices
 
-// TODO
+* Enhancing a Spring Boot microservice
+* Hardening the microservice
+* Configuring security with JSON web tokens
+* Leveraging Docker for MySQL database access
+* Dockerizing your microservice
 
 ---
 <a name="04"></a>
