@@ -18,6 +18,7 @@ Welcome to my personal Tech Notes blog. Here, information is presented in a stra
 - [Notes on Masterclass Dev to Tech Lead](/pages/general_topic/dev_to_tech_lead.md)
 - [Design Thinking notes](/pages/general_topic/design_thinking_explained.md)
 - [Negotiation and Conflict Resolution](/pages/general_topic/negotiation_and_conflict_resolution_course.md) <span style="color:red"> in progress </span>
+- [Tech Trends 2023](/pages/general_topic/tech_trends_2023.md) <span style="color:red"> in progress </span>
 # Development
 
 - [Spring Framework Notes](/pages/development/spring_framework_notes.md)
@@ -46,7 +47,7 @@ Welcome to my personal Tech Notes blog. Here, information is presented in a stra
 - [Software Engineering at Google. A book, a web site](https://abseil.io/resources/swe-book)
 - [On Agile by Martin Fowler](https://martinfowler.com/agile.html)
 - [Software Design By Example. A book, a web site](https://third-bit.com/sdxjs/)
-- [What The Little Prince teach about engineering](/pages/software_engineering/what_the_little_prince_teach_about_engineering.md) <span style="color:green"> ( New! ) </span>
+- [What The Little Prince teach about engineering](/pages/software_engineering/what_the_little_prince_teach_about_engineering.md) 
 # Software and System Architecture
 
 - [On Architecture by Martin Fowler](https://martinfowler.com/architecture/)
@@ -59,7 +60,7 @@ Welcome to my personal Tech Notes blog. Here, information is presented in a stra
 
 # Cybersecurity
 
-* [Conference h4cked 2022](/pages/cybersecurity/cybersecurity_h4ck3d.md) <span style="color:green"> ( New! ) </span>
+* [Conference h4cked 2022](/pages/cybersecurity/cybersecurity_h4ck3d.md)
 
 
 # Books in <span style="color:red"> in progress </span>
