@@ -26,6 +26,7 @@ This are the notes for the 6 courses Specialization PATH on Linkedin Learning.
 3. [Extending, Securing and Dockerizing Spring Boot Microservices](#03)
 4. [Spring DATA](#04)
 5. [Spring Security](#05)
+6. [Building Full-Stack Apps with React and Spring](#06)
 
 ---
 <a name="01"></a>
@@ -701,3 +702,65 @@ WebFlux Security is an extension of the Spring Security framework specifically d
 - **Integration with Spring Security:** It integrates seamlessly with the existing Spring Security infrastructure, enabling reuse of configurations and features.
 
 ![](../../images/spring_flux_security.png)
+
+
+---
+<a name="06"></a>
+# 06. Building Full-Stack Apps with React and Spring
+
+## Introduction
+
+1. Introduction to Spring and SpringBoot
+2. Introduction to REACT:
+
+Official Landing Page: [React](https://react.dev/)
+
+3. Introduction to REDUX (state management): 
+
+Official Landing Page: [Redux - A predictable state container for JavaScript apps. | Redux](https://redux.js.org/)
+
+4. Introduction to JEST for testing purpose
+
+Official Landing Page: [Jest · 🃏 Delightful JavaScript Testing (jestjs.io)](https://jestjs.io/)
+
+
+## MVC: Model-View-Controller pattern
+
+![](../../images/mvc.png)
+
+The Model-View-Controller (MVC) pattern is a widely used software design pattern that separates the application into three interconnected parts:
+
+- **Model:** The model represents the data of the application, including data structures, business logic, and rules. It encapsulates the data and manages its integrity.
+    
+- **View:** The view is responsible for presenting the data to the user in a user-friendly and interactive way. It handles the rendering of the user interface (UI) and user interactions.
+    
+- **Controller:** The controller acts as the intermediary between the model and the view. It receives user requests, communicates with the model to retrieve or modify data, and updates the view to reflect the changes.
+    
+
+In a Spring and React application, the MVC pattern is implemented as follows:
+
+- **Model:** Spring's data access components, such as repositories and service classes, act as the model. These components handle data retrieval, manipulation, and validation.
+    
+- **View:** React components form the view layer. They render HTML elements, handle user interactions, and communicate with the controller to fetch data or perform actions.
+    
+- **Controller:** Spring MVC controllers act as the controller layer. They handle incoming HTTP requests, extract relevant data from the request, interact with the model to perform operations, and send responses back to the view.
+    
+
+The MVC pattern promotes code modularity and reusability, making it a popular choice for developing large-scale web applications. It separates concerns between the business logic, UI presentation, and user interactions, leading to maintainable and testable code.
+
+In a Spring and React application, the separation between the MVC layers is achieved through well-defined communication mechanisms:
+
+- **Model to Controller:** The model exposes data through APIs or data access objects (DAOs) that are consumed by controllers.
+    
+- **Controller to View:** Controllers render view components using the React render API or by passing data to view components as props.
+    
+- **User Input to Controller:** User interactions, such as form submissions or button clicks, trigger HTTP requests that are handled by controllers.
+    
+- **Controller to Model:** Controllers send requests to the model for data retrieval, manipulation, or validation.
+    
+- **Model to View:** The model updates the view by sending events to the controller, which then updates the relevant React component state.
+    
+
+This separation of concerns and well-defined communication between the MVC layers make Spring and React applications highly maintainable and testable.
+
+
