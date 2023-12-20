@@ -60,3 +60,6 @@ Software development teams love to move fast. So how do you go fast forever? By 
 - [10 Pines videos](https://academia.10pines.com/webinars_and_videos)
 - [10 pines Diseño a la Gorra](https://academia.10pines.com/disenio_a_la_gorra)
 - [TDD Cycle Wikipedia](https://en.wikipedia.org/wiki/Test-driven_development)
+- Martin Fowler - TDD: https://martinfowler.com/bliki/TestDrivenDevelopment.html
+Robert C. Martin - Cycles of TDD: http://blog.cleancoder.com/uncle-bob/2014/12/17/TheCyclesOfTDD.html
+Robert C. Martin - ¿Por qué hacer TDD?: https://www.youtube.com/watch?v=GvAzrC6-spQ

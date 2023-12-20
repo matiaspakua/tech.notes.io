@@ -38,9 +38,9 @@ class SomeClass{
 
 ### the Java Virtual Machine
 
-One of the importan responsabilities of the JVM is "dinamic binding". At runtime, a java program can include new objects that were's even known to the original programmer, so the JVM have to allow a centain amount of flexibility.
+One of the important responsibilities of the JVM is "dynamic binding". At runtime, a java program can include new objects that were's even known to the original programmer, so the JVM have to allow a certain amount of flexibility.
 
-Another importan task of the JVM is avoid datatype violation and prevent access violation to memory, methods or classes.
+Another important task of the JVM is avoid datatype violation and prevent access violation to memory, methods or classes.
 
 There are some consideration about the size of a variable and what happens when you try to put a large value into a small variable: you get a "Spillage".
 
@@ -58,7 +58,7 @@ Every object created in java goes into an area of memory known as THE HEAP (AKA 
 
 ### Variables
 
-In Java varaibles can store two general types os things: primitives and references (never as a programmer you work directly with an object)
+In Java variables can store two general types os things: primitives and references (never as a programmer you work directly with an object)
 
 Java is a strongly typed language, so, java cares about type, so every variable must hace a type and a name.
 
@@ -100,7 +100,7 @@ public class BankAccount {
 }
 ```
 
-In this example, BankAccount is a Java object with state, behavior, and identity:
+In this example, BankAccount is a Java object with state, behaviour, and identity:
 
  - **State**: The BankAccount object has two pieces of state: accountNumber and balance.
  - **Behavior**: The BankAccount object has two behaviors: deposit and withdraw, which allow you to add or subtract money from the account.
@@ -154,7 +154,7 @@ Methods can return values or VOID (nothing). And again, if you define a return v
 
 **IMPORTANT**: Java is pass-by-value, that means pass-by-copy. With references, what happens is that the method copy the reference (the pointer) to the object.
 
-To manipulate objects we use Getters (accessors) and Setters (mutators). And here appear a new concept: **ENCAPSULATION**
+To manipulate objects we use Getters (assessors) and Setters (mutators). And here appear a new concept: **ENCAPSULATION**
 
 #### Encapsulation
 
@@ -407,39 +407,9 @@ Exception Handling: Exception handling is the mechanism that Java uses to handle
 
 
 What is the difference between Overloading and Overriding
-
-soluciones declarativas (por ejemplo el uso de colecciones con Stream, no utilizar únicamente for + if),
-Mejorar algunas cuestiones de modelado (por ejemplo con expresiones booleanas o fechas como strings
 SOLID
 CRUD
 MVC
-
-Tecnologías:
-Docker, Jenkins, Travis, and Kubernetes.
-Ruby on Rails 
-
-Testing:
-Testing
-Web Testing Selenium
-
-
-Java
-Stream
-Sort
-Filters
-Reduce
-Parallel
-
-Métodos de Ordenamiento
-Buble Sort
-
-
-
-
-Creemos que investigando más sobre estos conceptos: POO, SOLID y Clean Code podrás fortalecer mucho tu perfil profesional. Te comparto algunos artículos o contenido en videos, para fortalecer estos conceptos que para nosotros son de suma importancia: 
-
-
-SOLID
 Sandro Mancuso - SOLID: https://reversecoding.net/solid-principles-explained-sandro-mancuso/
 Clean Code
 https://medium.com/mindorks/how-to-write-clean-code-lessons-learnt-from-the-clean-code-robert-c-martin-9ffc7aef870c
@@ -447,14 +417,7 @@ https://medium.com/s/story/reflections-on-clean-code-8c9b683277ca
 https://williamdurand.fr/2013/06/03/object-calisthenics/
 https://sourcemaking.com/refactoring/smells
 Capitulo Nro 2 del libro Clean Code de Robert C. Martin
-
-
-TDD
-Martin Fowler - TDD: https://martinfowler.com/bliki/TestDrivenDevelopment.html
-Robert C. Martin - Cycles of TDD: http://blog.cleancoder.com/uncle-bob/2014/12/17/TheCyclesOfTDD.html
-Robert C. Martin - ¿Por qué hacer TDD?: https://www.youtube.com/watch?v=GvAzrC6-spQ
 Interaction Domain Driven Design (IDD)
 IDD - Sandro Mancuso vimeo.com/130256611
 Domain Driven Design (DDD)
 DDD - https://medium.com/the-coding-matrix/ddd-101-the-5-minute-tour-7a3037cf53b8
-
