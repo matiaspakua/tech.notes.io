@@ -63,7 +63,7 @@ Welcome to my personal Tech Notes blog. Here, information is presented in a stra
 * [Conference h4cked 2022](/pages/cybersecurity/cybersecurity_h4ck3d.md)
 
 
-# Books in <span style="color:red"> in progress </span>
+# Technical Books
 
  - Modern Software Engineering: Doing What Works to Build Better Software Faster, By David Farley (72%)
  - ReWork: Change the Way You Work Forever, By David Heinemeier Hansson and Jason Fried (71%)
