@@ -21,17 +21,16 @@ This is a very complete, hand-on, medium level specialization based on cloud com
 
 ![The Roadmap](../../images/cloud_specialization_the_roadmap.png)
 
-## Highlights
+# Table of Contents
 
-**Courses list**:
-
-- 01: Cloud Computing Foundations
-- 02: Cloud Virtualisation, Containers and APIs
-- 03: Cloud Data Engineering
-- 04: Cloud Machine Learning Engineering and MLOps
+1. [01: Cloud Computing Foundations](#01)
+2. [02: Cloud Virtualisation, Containers and APIs](#02)
+3. [03: Cloud Data Engineering](#03)
+4. [04: Cloud Machine Learning Engineering and MLOps](#04)
 
 
-# 01: Cloud Computing Foundations
+<a name="01"></a>
+# Course 01: Cloud Computing Foundations
 
 ## Technical discussions
 
@@ -322,6 +321,18 @@ resource "aws_instance" "example" {
 - **Outcome**: Continuous delivery is not optional; it’s a necessity. It ensures you’re continuously making things better rather than worse. It’s a systematic way of continually improving your source control and overall system.
 
 ![](../../images/cd_deep_dive.png)
+
+
+<a name="02"></a>
+# Course 02: Cloud Virtualisation, Containers and APIs
+
+
+<a name="03"></a>
+# Course 03: Cloud Data Engineering
+
+
+<a name="04"></a>
+# Course 04: Cloud Machine Learning Engineering and MLOps
 
 # References
 
