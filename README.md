@@ -9,7 +9,7 @@ Welcome to my personal Tech Notes blog. Here, information is presented in a stra
 # General Topic
 
 - [NoSQL. The basis of](/pages/general_topic/nosql_the_basis_of.md) 
-- [Specialisation Building Cloud Computing Suctions at Scale](/pages/general_topic/specialization_building_cloud_computing_solutions_at_scale.md)
+- [Specialisation Building Cloud Computing Suctions at Scale](/pages/general_topic/specialization_building_cloud_computing_solutions_at_scale.md)<span style="color:red"> in progress </span>
 - [Shape Up. A book, a web site](https://basecamp.com/shapeup)
 - [How to build a KnowledgeBase](/pages/general_topic/how_to_build_a_knowledge_base.md)
 - [On User Stories notes](/pages/general_topic/on_user_stories_notes.md)
