@@ -62,6 +62,9 @@ Welcome to my personal Tech Notes blog. Here, information is presented in a stra
 
 * [Conference h4cked 2022](/pages/cybersecurity/cybersecurity_h4ck3d.md)
 
+# Leadership
+
+ - [Resolución de Conflictos](/pages/leadership/resolucion_de_conflictos.md)
 
 # Technical Books
 
