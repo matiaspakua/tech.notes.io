@@ -101,3 +101,5 @@ Queda claro en éste punto, que se debe comenzar a trabajar en el conflicto GENU
 
 ![](componentes_conflicto.svg)
 
+## Ciclo del conflicto
+
