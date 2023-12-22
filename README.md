@@ -17,7 +17,6 @@ Welcome to my personal Tech Notes blog. Here, information is presented in a stra
 - [How to Speak by Patrick Winston notes](/pages/general_topic/how_to_speak_by_patrick_winston.md)
 - [Notes on Masterclass Dev to Tech Lead](/pages/general_topic/dev_to_tech_lead.md)
 - [Design Thinking notes](/pages/general_topic/design_thinking_explained.md)
-- [Negotiation and Conflict Resolution](/pages/general_topic/negotiation_and_conflict_resolution_course.md) <span style="color:red"> in progress </span>
 - [Tech Trends 2023](/pages/general_topic/tech_trends_2023.md) <span style="color:red"> in progress </span>
 # Development
 
