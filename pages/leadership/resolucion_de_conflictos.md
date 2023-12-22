@@ -38,8 +38,28 @@ Los conflictos son útiles y se consideran funcionales, siempre y cuando, exista
 1. Evita estancamiento (social, personal, profesional)
 2. Estimula intereses
 3. Origina cambios
-4. Establece indentidad
+4. Establece identidad
 5. Enseñan a enfrentar problemas
 6. Crear relaciones interpersonales mejores y más duraderas
 7. Permiten que nos conozcamos mejor a nosotros mismos.
+
+## Aproximación a los conflictos
+
+Un persona tiene una determinada capacidad de aproximación a un conflicto, dado su contexto personal y social. Asi como un mapa no es la verdadera representación de un territorio, sino una "abstracción", un conflicto es una abstracción que debe ser mapeada con diferentes abstracciones para ser trabajado. Aquí entra en juego las técnicas de resolución de conflictos, como por ejemplo la Negociación.
+
+Las <mark style="background: #FFF3A3A6;">Personas</mark> ante un ==> "<mark style="background: #FFF3A3A6;">conflicto</mark>" ==> actuamos según un <mark style="background: #FFF3A3A6;">estilo de comportamiento</mark>.
+
+El estilo de comportamiento depende de:
+ 1. La relación entre las partes.
+ 2. El asunto del conflicto.
+
+De estos aspectos se desprenden 5 tipos de comportamientos:
+
+| Estilo Acomodativo                                                                            | Estilo Colaborador                                                                                           | Estilo Evitador                                                                                                                                           | Estilo Controlador                                                                                                 | Estilo Compromisario                                                                                                         |
+| --------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------- |
+| + compromiso con la relación                                                                  | + compromiso relación                                                                                        | - compromiso relación                                                                                                                                     | + Interés en el asunto                                                                                             | - Interés en la relación                                                                                                     |
+| - compromiso con los intereses.                                                               | + compromiso intereses                                                                                       | - compromiso intereses                                                                                                                                    | + Interés en ganar o influir                                                                                       | - No invierte tiempo ni dinero ni energia                                                                                    |
+| <mark style="background: #FFB86CA6;">Se valora + la relación que el tema en conflicto.</mark> | <mark style="background: #FFB86CA6;">Motivado para alcanzar resultados satisfactorios en ambas partes</mark> | <mark style="background: #FFB86CA6;">Re-evalua la situación porque es poco probable encontrar una solución. Elige "posponer" o buscar un mediador.</mark> | <mark style="background: #FFB86CA6;">El tiempo es un factor crítico y se debe tomar una decisión inmediata.</mark> | <mark style="background: #FFB86CA6;">Puede aceptar y tener desencanto con el acuerdo y dejar cuestiones sin resolver.</mark> |
+
+## Tipos de Conflictos
 
