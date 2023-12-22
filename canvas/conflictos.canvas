@@ -10,7 +10,7 @@
 		{"id":"42002120483a674d","type":"text","text":"Transacción\n","x":40,"y":540,"width":250,"height":60,"color":"3"},
 		{"id":"d11b829de12ba6bb","type":"text","text":"Arbitraje","x":40,"y":631,"width":250,"height":60,"color":"3"},
 		{"id":"66254aacf54c6597","type":"text","text":"Negociación","x":40,"y":740,"width":250,"height":60,"color":"3"},
-		{"id":"5d76bda656ce6fc7","type":"text","text":"Identificar CAUSA RAIZ","x":-340,"y":1000,"width":250,"height":60,"color":"6"}
+		{"id":"5d76bda656ce6fc7","type":"text","text":"Identificar CAUSA RAIZ","x":-340,"y":840,"width":250,"height":60,"color":"6"}
 	],
 	"edges":[
 		{"id":"d6c47ef30d26838e","fromNode":"987aa85dbbd35e40","fromSide":"bottom","toNode":"ffb3309c46c12d43","toSide":"top"},

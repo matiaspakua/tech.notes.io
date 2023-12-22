@@ -78,7 +78,7 @@ De estos aspectos se desprenden 5 tipos de comportamientos:
 
 ## Resolución de conflictos
 
-![[conflictos_y_relaciones.svg]]
+![](conflictos_y_relaciones.svg)
 
 
 Para poder resolver conflictos hay que iniciar el proceso con dos elementos fundamentales:
@@ -99,5 +99,5 @@ Queda claro en éste punto, que se debe comenzar a trabajar en el conflicto GENU
 
 ## Componentes del conflicto
 
-![[componentes_conflicto.svg]]
+![](componentes_conflicto.svg)
 
