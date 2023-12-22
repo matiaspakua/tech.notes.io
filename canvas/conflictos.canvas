@@ -5,11 +5,12 @@
 		{"id":"902e4050aa562187","type":"text","text":"Tipos","x":55,"y":160,"width":250,"height":60,"color":"3"},
 		{"id":"2941ec27d6610286","type":"text","text":"Componentes","x":55,"y":270,"width":250,"height":60,"color":"3"},
 		{"id":"79073612dce843fc","type":"text","text":"Ciclo","x":55,"y":380,"width":250,"height":54,"color":"3"},
-		{"id":"f0e7207b5e5a4e28","x":-720,"y":240,"width":250,"height":120,"color":"1","type":"text","text":"tomar un rumbo:\n - Positivo\n - Negativo"},
-		{"id":"de1a60c6849bd97c","x":-340,"y":600,"width":250,"height":61,"color":"4","type":"text","text":"Técnicas de resolución"},
-		{"id":"42002120483a674d","x":40,"y":540,"width":250,"height":60,"color":"3","type":"text","text":"Transacción\n"},
-		{"id":"d11b829de12ba6bb","x":40,"y":631,"width":250,"height":60,"color":"3","type":"text","text":"Arbitraje"},
-		{"id":"66254aacf54c6597","x":40,"y":740,"width":250,"height":60,"color":"3","type":"text","text":"Negociación"}
+		{"id":"f0e7207b5e5a4e28","type":"text","text":"tomar un rumbo:\n - Positivo\n - Negativo","x":-720,"y":240,"width":250,"height":120,"color":"1"},
+		{"id":"de1a60c6849bd97c","type":"text","text":"Técnicas de resolución","x":-340,"y":600,"width":250,"height":61,"color":"4"},
+		{"id":"42002120483a674d","type":"text","text":"Transacción\n","x":40,"y":540,"width":250,"height":60,"color":"3"},
+		{"id":"d11b829de12ba6bb","type":"text","text":"Arbitraje","x":40,"y":631,"width":250,"height":60,"color":"3"},
+		{"id":"66254aacf54c6597","type":"text","text":"Negociación","x":40,"y":740,"width":250,"height":60,"color":"3"},
+		{"id":"5d76bda656ce6fc7","type":"text","text":"Identificar CAUSA RAIZ","x":-340,"y":1000,"width":250,"height":60,"color":"6"}
 	],
 	"edges":[
 		{"id":"d6c47ef30d26838e","fromNode":"987aa85dbbd35e40","fromSide":"bottom","toNode":"ffb3309c46c12d43","toSide":"top"},
@@ -20,6 +21,7 @@
 		{"id":"38fd0b248bc3a57d","fromNode":"ffb3309c46c12d43","fromSide":"bottom","toNode":"de1a60c6849bd97c","toSide":"top"},
 		{"id":"cb486723bb8d971c","fromNode":"de1a60c6849bd97c","fromSide":"right","toNode":"42002120483a674d","toSide":"left"},
 		{"id":"357fefbd4108d48f","fromNode":"de1a60c6849bd97c","fromSide":"right","toNode":"d11b829de12ba6bb","toSide":"left"},
-		{"id":"8134feaeb2eea835","fromNode":"de1a60c6849bd97c","fromSide":"right","toNode":"66254aacf54c6597","toSide":"left"}
+		{"id":"8134feaeb2eea835","fromNode":"de1a60c6849bd97c","fromSide":"right","toNode":"66254aacf54c6597","toSide":"left"},
+		{"id":"bf4fbbc101712708","fromNode":"de1a60c6849bd97c","fromSide":"bottom","toNode":"5d76bda656ce6fc7","toSide":"top"}
 	]
 }

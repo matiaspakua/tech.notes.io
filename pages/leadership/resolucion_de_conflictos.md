@@ -72,5 +72,32 @@ De estos aspectos se desprenden 5 tipos de comportamientos:
 
 ## Aspectos que influyen en el conflicto.
 
-1. Conflicto sub-yascente: se trata de aspectos íntimos y más personales. Asociados a la persona, sus vivencias y creencias. ==> "<mark style="background: #FFF3A3A6;">origen</mark>"
-1. Conflicto Personal o Estructural: Generalmente causado a partir del conflicto subyascente.
+1. Conflicto subyacente: se trata de aspectos íntimos y más personales. Asociados a la persona, sus vivencias y creencias. ==> "<mark style="background: #FFF3A3A6;">origen</mark>"
+2. Conflicto Personal o Estructural: Generalmente causado a partir del conflicto subyacente. Se manifiesta con las relaciones entre las personas, las habilidades sociales y de comunicación.
+3. Conflicto estructural. Asociado a los roles, las normas, malas relaciones de poder generalmente explican muchas de las tensiones.
+
+## Resolución de conflictos
+
+![[conflictos_y_relaciones.svg]]
+
+
+Para poder resolver conflictos hay que iniciar el proceso con dos elementos fundamentales:
+
+1. Separar a las personas del "verdadero problema" o problema aparente.
+2. Identificar la "causa raíz".
+
+El inicio del análisis se basa en identificar:
+
+1. asuntos: clarificar áreas de interés
+2. intereses: descubrir necesidades subyacentes.
+3. necesidades: identificar principios y valores
+4. posiciones: identificar bandos, partes interesadas, contexto externo.
+
+Luego de éste análisis preliminar surgirá que un conflicto es en esencia: <mark style="background: #FFF3A3A6;">GENUINO</mark> o <mark style="background: #FFB86CA6;">INNECESARIO</mark>.
+
+Queda claro en éste punto, que se debe comenzar a trabajar en el conflicto GENUINO.
+
+## Componentes del conflicto
+
+![[componentes_conflicto.svg]]
+
