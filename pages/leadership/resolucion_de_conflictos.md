@@ -103,3 +103,29 @@ Queda claro en éste punto, que se debe comenzar a trabajar en el conflicto GENU
 
 ## Ciclo del conflicto
 
+Los componentes del ciclo de un conflicto son los siguientes:
+
+1. **Identificación y escalada**: Se origina cuando se identifican problemas específicos y hay poca gente involucrada.
+2. **Establecimiento**: Se aplican tácticas, y los problemas se vuelven más generales con una mayor cantidad de personas implicadas.
+3. **Climax**: Es el punto máximo del conflicto donde ocurren transformaciones.
+4. **Desescalada**: El conflicto comienza a disminuir en intensidad.
+5. **Punto de no retorno**: El conflicto no puede volver a su estado original.
+
+La  gráfica lineal que muestra la progresión del conflicto con puntos marcados para “identificación/escalada”, “establecimiento”, “clímax”, “desescalada” y “punto de vuelta atrás”.
+
+![](../../images/ciclo_del_conflicto.jpg)
+
+Las causas de un estancamiento o el clímax pueden ser:
+
+1. Fracaso en las tácticas aplicadas
+2. Agotamiento de recursos, tácticas.
+3. Perdida de apoyo
+4. No se acepta el costo
+
+En el des-escalamiento (que ocurre luego de haber llegado al punto límite) sucede lo siguientes:
+
+1. Se incrementa la comunicación / contacto entre las partes.
+2. Construcción de momentos (acción sobre los problemas).
+3. Se establecen objetivos comunes.
+4. Comienzan las iniciativas de conciliación individuales.
+
