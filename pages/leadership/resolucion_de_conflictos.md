@@ -63,3 +63,14 @@ De estos aspectos se desprenden 5 tipos de comportamientos:
 
 ## Tipos de Conflictos
 
+1. **Relaciones**: emociones negativas, mala comunicación, malas expectativas.
+2. **Información**: falta de información, desinformación, ocultamiento.
+3. **Valores**: creencias incompatibles (bueno, malo). Aquí es importante destacar que la imposición de valores (propios) puede generar conflictos.
+4. **Intereses**: Competición de necesidades. Se asocia generalmente a cuestiones sustanciales (recursos, dinero, tiempo).
+5. **Conflicto Unilateral**: donde sólo una de las partes está inmersa en el conflicto.
+6. **Conflicto Bilateral**: donde ambas partes tienen intereses distintos y con aspectos mucho más complejos.
+
+## Aspectos que influyen en el conflicto.
+
+1. Conflicto sub-yascente: se trata de aspectos íntimos y más personales. Asociados a la persona, sus vivencias y creencias. ==> "<mark style="background: #FFF3A3A6;">origen</mark>"
+1. Conflicto Personal o Estructural: Generalmente causado a partir del conflicto subyascente.
