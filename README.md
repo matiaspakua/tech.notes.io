@@ -28,6 +28,7 @@ Welcome to my personal Tech Notes blog. Here, information is presented in a stra
 - [On Gradle Notes](/pages/development/on_gradle_notes.md)
 - [IntelliJ tips by Victor Rentea](/pages/development/intellij_tips.md)
 - [Getting Started In Spring Development](/pages/development/getting_started_spring_development.md) <span style="color:red"> ( In progress ) </span>
+- [Advance Your Spring Development Skills](/pages/development/advance_your_spring_development_skills.md)
 # Software and System Testing
 
 - [Gherkin and Automation](/pages/testing/gherkin_and_automation.md)
