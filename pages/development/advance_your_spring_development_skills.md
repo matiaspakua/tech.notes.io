@@ -71,6 +71,71 @@ Both load balancers are internal, meaning they serve traffic between internal in
 <a name="02"></a>
 # Performance Tuning in Spring Apps
 
+## Introduction
+
+Repository: [Performance Tuning in Spring Apps](https://github.com/matiaspakua/performance-spring-tools))
+
+Tools: 
+ * VisualVM: [VisualVM: Download](https://visualvm.github.io/download.html)
+ * Java Flight Recorder (JDK mission control)
+ * Glowroot: [Glowroot](https://glowroot.org/)
+ * Prometheus: [Prometheus - Monitoring system & time series database](https://prometheus.io/)
+
+
+IMPORTANT: to run the project, a link to the quoting service must be updated according to: https://github.com/spring-guides/gs-consuming-rest/issues/47#issuecomment-1079698023
+
+
+
+## Understanding Performance
+
+The big question: "<mark style="background: #FFF3A3A6;">How does your application perform?</mark>"
+
+The selected text discusses the importance of understanding performance in Spring-based applications. Here are the key points:
+
+- Understanding performance is crucial for Spring developers. It involves deconstructing and understanding the complexity of the question, “How does your application perform?”.
+- As a Spring developer, you likely have direct influence only over a small portion of your application, mainly the Java components.
+- It’s important to understand how to manage and measure the runtime JVM performance of your Java Spring project. Proficiency with JVM profiling and runtime parameters is an essential part of a Spring developer’s toolkit.
+- The Spring framework provides internal performance reporting metrics that allow a developer to gain more Spring specific insights into their application. These topics will be addressed in other portions of the course.
+
+![](../../images/jvm_profiling.png)
+
+
+ * **Performance Measurement**: It’s crucial to measure and make informed runtime configurations based on the anticipated performance of the systems your application depends on.
+ * **Infrastructure Understanding**: A Spring developer often has limited control over the virtual and physical infrastructure that the application is deployed on, and the networks it communicates over.
+ * **Resource Management**: Boosting the computing resources that host your application can enhance its performance. However, it’s essential to understand what your application needs in terms of computing resources.
+ * **Performance Profiling**: An accurate and holistic understanding of your application’s performance profile is the ultimate goal. This knowledge allows you to explain, improve, and extend the resilience of your application over its entire life cycle. 
+
+![](../../images/performance_visualvm1.png)
+
+## JVM Perfomance
+
+![](../../images/perfomance_essentials.png)
+
+ * **JVM Performance**: Understanding JVM performance is crucial for a Spring developer. The JVM is complex but approachable, and even basic knowledge can be beneficial.
+ * **Heap Performance**: The heap holds all objects in your application. Memory management and garbage collection occur here. You can influence heap behavior by setting max and min heap sizes.
+ * **CPU Performance**: This refers to the use of the host computer’s processing resources to execute your Java code. While developers have limited influence over CPU performance, understanding your needs and limitations can help make informed decisions about application design.
+ * **VisualVM Tool**: This tool is used to gain insight into an application and explore heap and CPU performance. It is bundled with JDK through Java 8 and is also available as a standalone download from a GitHub-hosted site.
+
+![](../../images/performance_visualvm2.png)
+
+## Transaction Profiling
+
+- **Application Runtime Monitoring**: This is a type of monitoring that provides a holistic view of your application’s performance. It offers insights into the transactions between your Java application and the external systems it depends on.
+ 
+- **Transactions**: These could be HTTP requests to APIs, database performances, or other service calls like to messaging platforms.
+
+- **Alerting**: This is another feature of application runtime monitoring frameworks.
+
+- **Glowroot**: An open-source Application Performance Monitoring (APM) solution that is easy to run locally. It’s a useful tool for understanding the possibilities for APM monitoring and what you can learn about your application’s performance. A demonstration of the application using Glowroot is mentioned to provide insight into its performance.
+
+ * Example of typical Glowroot dashboard:
+
+![](../../images/performance_glowroot.png)
+
+ * Example of a Query details:
+
+![](../../images/perfomance_glowroot_query.png)
+
 
 <a name="03"></a>
 # Spring Boot Observability: Deep Dive into Logging, Metrics, and Tracing
