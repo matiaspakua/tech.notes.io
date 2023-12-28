@@ -218,6 +218,22 @@ Then when you call the /actuator/health endpoint, a custom check is executed tha
 
 ## Spring Actuator Micrometer Metrics
 
+- **Micrometer Library**: This is the key to interfacing Spring applications with state-of-the-art runtime monitoring platforms. It provides an application metrics facade that supports numerous runtime monitoring systems, such as Prometheus and DataDog.
+
+![](../../images/performance_micrometer_library.png)
+
+- **Prometheus**: This is an application runtime monitoring tool that specializes in fine-grained and customizable event alerting, trending over time, and multi-application management.
+- **Integration**: When Spring leverages the Micrometer library to publish its metrics, it publishes them in formats that other runtime monitoring systems can consume and make actionable to the end user.
+
+After running the Demo API with the new metric variable to registry, we run Prometheus and configure the TARGET using the YML file given:
+
+![](../../images/performance_prometheus.png)
+
+### Types of metrics
+
+![](../../images/performance_types_of_metrics.png)
+
+## Spring Performance Monitor Interceptor
 
 
 
