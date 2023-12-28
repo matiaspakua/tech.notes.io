@@ -84,7 +84,10 @@ Highlights:
  - Use acceptance test driven development to build the DSL
  - Start with a simple scenario and grow the DSL as needed
  - Use the four-layer approach to separate concerns and avoid coupling
-6. The benefits of behavior-driven development
+
+![](../../images/foru_layer_testing_schema.png)
+
+1. The benefits of behavior-driven development
  - BDD can replace manual testing with automated tests quickly
  - BDD can run the tests all the time and give faster feedback
  - BDD can increase the determinism and control of the system

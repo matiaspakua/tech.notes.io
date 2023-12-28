@@ -80,9 +80,10 @@ Tools:
  * Java Flight Recorder (JDK mission control)
  * Glowroot: [Glowroot](https://glowroot.org/)
  * Prometheus: [Prometheus - Monitoring system & time series database](https://prometheus.io/)
+ * Micrometer: [Micrometer Application Observability](https://micrometer.io/)
 
 
-IMPORTANT: to run the project, a link to the quoting service must be updated according to: https://github.com/spring-guides/gs-consuming-rest/issues/47#issuecomment-1079698023
+**<mark style="background: #FF5582A6;">IMPORTANT</mark>**: to run the project, a link to the quoting service must be updated according to: https://github.com/spring-guides/gs-consuming-rest/issues/47#issuecomment-1079698023
 
 
 
@@ -203,6 +204,22 @@ management.endpoint.health.show-details=always
 management.endpoint.health.show-components=always
 management.endpoint.health.status.order=out-of-service,down,up
 ```
+
+## Actuators configuration
+
+Actuator can be customize extending from classes that are provided by the Actuators package as in this example:
+
+![](../../images/performance_actuators_custom.png)
+
+Then when you call the /actuator/health endpoint, a custom check is executed that validate is the current day is "weekend" (Saturday or Sunday):
+
+![](../../images/performance_actuator_health_endpoint.png)
+
+
+## Spring Actuator Micrometer Metrics
+
+
+
 
 <a name="03"></a>
 # Spring Boot Observability: Deep Dive into Logging, Metrics, and Tracing
