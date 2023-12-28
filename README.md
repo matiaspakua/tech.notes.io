@@ -65,6 +65,7 @@ Welcome to my personal Tech Notes blog. Here, information is presented in a stra
 # Leadership
 
  - [Resolución de Conflictos](/pages/leadership/resolucion_de_conflictos.md)
+ - [Emotional Intelligence](/pages/leadership/emotional_intelligence.md)
 
 # Technical Books
 
