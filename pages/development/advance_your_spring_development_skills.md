@@ -136,6 +136,73 @@ The selected text discusses the importance of understanding performance in Sprin
 
 ![](../../images/perfomance_glowroot_query.png)
 
+## Challenge JVM OutOfMemory
+
+To start, we need to confgure the proper profile in the Run SpringBootApp:
+
+*  application.properties: "demo.mode=challenge-jvm"
+
+Then, modify the run configuration for the JVM to change the heap size and do a Heap Dump for further analysis:
+
+```bash
+-Xmx100M 
+-Xms100M
+-XX:+HeapDumpOnOutOfMemoryError
+-javaagent:C:\Users\matia\workspace\perf_tools\glowroot\glowroot.jar
+```
+
+After the application crashes, a memory dump is generated and we can open and analyze it with the VisualVM tool:
+
+![](../../images/performance_visualvm_heap_dump.png)
+
+Heap Analysis:
+
+![](../../images/performance_heap_analysis.png)
+
+Code:
+
+![](../../images/performance_outOfMemoryError.png)
+
+
+## Spring Actuators
+
+Spring Boot Actuator is a sub-project of the Spring Boot Framework. It brings production-ready features to our application. The main benefit of using this library is that we get health and monitoring metrics from production-ready applications. 
+
+Here are some key points about Spring Boot Actuator:
+
+- **Operational Information**: The actuator mainly exposes operational information about the running application — health, metrics, info, dump, env, etc. It uses HTTP endpoints or JMX beans to enable us to interact with it.
+
+- **Endpoints**: Once this dependency is on the classpath, several endpoints are available for us out of the box. As with most Spring modules, we can easily configure or extend it in many ways.
+
+- **Production-Grade Tools**: With Actuator, you can get production-grade tools without having to actually implement these features yourself. You can expose detailed information about the running application, for example, its health, detailed metrics, JVM dump, environment variables, etc.
+
+- **Getting Started**: To enable the Spring Boot Actuator, you need to add the `spring-boot-actuator` dependency to your package manager. Here is how you can do it in Maven:
+
+
+    ```xml
+    <dependency>
+        <groupId> org.springframework.boot </groupId>
+        <artifactId> spring-boot-starter-actuator </artifactId>
+    </dependency>
+    ```
+
+- **Spring Boot 2.x Actuator**: In 2.x, the Actuator keeps its fundamental intent but simplifies its model, extends its capabilities, and incorporates better defaults. This version becomes technology-agnostic. It also simplifies its security model by merging it with the application one. The latest version now supports the CRUD model as opposed to the old read/write model.
+
+In essence, the Spring Boot Actuator is used for monitoring our app, gathering metrics, and understanding traffic or the state of our database. It becomes trivial with this dependency.
+
+ Spring Boot Actuator: Production-ready Features. https://docs.spring.io/spring-boot/docs/2.5.6/reference/html/actuator.html.
+
+![](../../images/spring_actuators_endpoints.png)
+
+To enable and disabled this configuration, go to the "application.properties" and add:
+
+```bash
+management.endpoints.web.exposure.include=*
+management.endpoints.jmx.exposure.include=*
+management.endpoint.health.show-details=always
+management.endpoint.health.show-components=always
+management.endpoint.health.status.order=out-of-service,down,up
+```
 
 <a name="03"></a>
 # Spring Boot Observability: Deep Dive into Logging, Metrics, and Tracing
