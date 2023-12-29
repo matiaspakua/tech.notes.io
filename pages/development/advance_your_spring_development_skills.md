@@ -420,6 +420,40 @@ In this example we use the Flight Recorder functionality to record the Spring Bo
 
 Blog with documentation: [Monitoring Java Applications with Flight Recorder | Baeldung](https://www.baeldung.com/java-flight-recorder-monitoring)
 
+
+## Compiling a performance profile
+
+- **Performance Measuring**: Gather all the evidence and procedures to generate the metrics.
+- **Translating Skills into Action**: translate the metrics into action, making performance work a practical part of everyday development workflow.
+- **Living Compilation of Metrics**: Teams are encouraged to generate and maintain a living compilation of metrics that are specific and useful to their application. This allows them to capture impactful decisions and decision trees, and surface the impacts of those decisions to their performance over time.
+- **Narrowing Down Metrics**: One of the challenges is narrowing down the field of possible things to measure, to things that are useful and relevant.
+- **Describing Application**: The first step is to describe your application in words, and also as a component diagram. This prepares you to identify the essential performance impacting parts of your system.
+
+![](../../images/performance_report_1.png)
+
+- **Breaking Out Metrics**: Once that step is done, metrics are suggested to be broken out into two categories: JVM metrics, and connected components. This is where the specifics of your Spring application become very relevant.
+- **Describing the loads** under which you need to operate. If these conversations have not yet taken place with your stakeholders in an official way, make some good guesses. Don't let this lack of direction or information stop you from taking the first steps to organizing your profile. 
+
+![](../../images/performance_report_2.png)
+
+ - **Capture a baseline set of metrics**. Basic metrics are okay to start with. In this example, we took a baseline load test, 10 concurrent threads, calculating prime numbers to 10,000, and snagged a screenshot of JVM performance, JVM memory, CPU performance, and also key indicators of our database and service calls, and transaction metrics. 
+
+![](../../images/performance_report_3.png))
+
+ - **Identify and communicate** areas in need of attention, such as our memory issues, or we can expand our test scenarios to cover a wider range of conditions. The main point here is to start simple and go from there.
+
+## Presenting your Work
+
+- **Importance of Presentation**: No matter what stage of your career you are in, presenting your work is an important part of the life of any developer.
+- **Challenges**: Communication is hard work, and application performance is a nuanced, multi-faceted discipline dependent on many variables.
+- **Four Principles**: 
+    - **Avoid Technical Jargon**: Use simple language that gets the point across quickly and keeps the audience engaged.
+    - **Use Visuals**: Utilize pictures and graphs as much as possible to aid in your presentations.
+    - **Summarize and Go Deeper**: Start with a summary of what's important and be prepared to delve into more details if necessary.
+    - **Explain Trade-offs**: Equip your audience to ask more questions by explaining the trade-offs of different solutions. 
+
+This recommendations are particularly useful for formal and semi-formal events such as iteration demos or architectural reviews.
+
 ---
 
 <a name="03"></a>
