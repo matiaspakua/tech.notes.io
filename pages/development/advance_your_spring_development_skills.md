@@ -235,6 +235,108 @@ After running the Demo API with the new metric variable to registry, we run Prom
 
 ## Spring Performance Monitor Interceptor
 
+- **Performance Monitor Interceptor**: It provides easy-to-configure targeted performance logging. It’s an aspect-oriented functionality within the org.spring.framework.AOP.interceptor package.
+- **Integration**: The Performance Monitor Interceptor integrates seamlessly with Log4j or your existing logging infrastructure to track specific performance concerns unique to your application.
+ - **Aspect-Oriented Solution**: The solution involves creating an aspect class that declares advices and pointcuts. An advice is a bit of externalized behavior, a pointcut is an expression that describes points in the execution of your application where you want advice to be applied.
+ - **Application**: It’s useful when there’s a method or a service call that you want to track carefully or have some reason to be concerned about.
+
+![](../../images/performance_aop_call_chain.png)
+
+- **Pairing with Monitor Method**: The demo controller entry points are paired with a monitor method, which is linked to the performance monitor interceptor. This results in log outputs and generic timings for each endpoint invocation.
+- **Stopwatch Instance**: Each endpoint invocation triggers the performance monitor interceptor, which initiates a stopwatch instance. This stopwatch measures the running time of the invoked method in nanoseconds.
+- **Customization**: You can create a custom performance monitor interceptor. This custom class extends the abstract monitoring interceptor from the Spring framework’s AOP package.
+- **Invoke Under Trace Method**: The custom class overrides the ‘invoke under trace’ method to capture additional metrics about the traced method. This customization requires some coding, which is not detailed in the selected text.
+
+Documentation: [Aspect Oriented Programming with Spring :: Spring Framework](https://docs.spring.io/spring-framework/reference/core/aop.html)
+
+### When to use Interceptors
+
+Interceptors that can be applied before, after, or around method executions. Here are some scenarios where you might consider using it:
+
+1. **Targeted Performance Logging**: If you need to log performance metrics for specific methods in your application.
+2. **Aspect-Oriented Solutions**: If you're implementing aspect-oriented solutions, this interceptor can be used to declare advices and pointcuts.
+3. **Intercepting Client Requests**: Spring Interceptors can be used to intercept client requests before they are handled by the controller. They can also be used to intercept the response before it is sent back to the client.
+4. **Execution Chain Processing**: You can use this method to break or continue the processing of the execution chain.
+
+However, it's important to note that target objects should not normally know about Spring AOP, as this creates a dependency on Spring API. Target objects should be plain POJOs (Plain Old Java Objects) as far as possible. If used, this interceptor will normally be the first in the interceptor chain. 
+
+### Example of intercepting a client request
+
+```java
+@Configuration
+public class RestClientConfig {
+    @Bean
+    public RestTemplate restTemplate() {
+        RestTemplate restTemplate = new RestTemplate();
+        List<ClientHttpRequestInterceptor> interceptors = restTemplate.getInterceptors();
+        if (CollectionUtils.isEmpty(interceptors)) {
+            interceptors = new ArrayList<>();
+        }
+        interceptors.add(new RestTemplateHeaderModifierInterceptor());
+        restTemplate.setInterceptors(interceptors);
+        return restTemplate;
+    }
+}
+
+public class RestTemplateHeaderModifierInterceptor implements ClientHttpRequestInterceptor {
+    @Override
+    public ClientHttpResponse intercept(HttpRequest request, byte[] body, ClientHttpRequestExecution execution) throws IOException {
+        ClientHttpResponse response = execution.execute(request, body);
+        response.getHeaders().add("Internal Payment Gateway", "Payment");
+        return response;
+    }
+}
+```
+
+In this example, `RestTemplateHeaderModifierInterceptor` is an interceptor that adds a custom header "<mark style="background: #FFF3A3A6;">Internal Payment Gateway</mark>" to every response. This interceptor will be invoked for every incoming request for a payment.
+
+Interceptors are useful for several reasons:
+1. **Cross-cutting concerns**: Interceptors are often used to implement cross-cutting concerns such as transaction management, security, or logging.
+2. **Global application of logic**: Interceptors provide a quick and easy way to apply the same logic globally (or to a set of pages) without needing to mess around with individual controllers.
+3. **Modifying requests and responses**: Interceptors allow you to modify requests and responses. For example, you can add or modify headers, or even deny the request based on certain conditions.
+4. **Logging**: Interceptors can be used to log requests and responses for every HTTP request.
+
+## AOP Performance
+
+- **AOP vs OOP**: AOP introduces modularity into systems by means of the aspect, while Object-Oriented Programming (OOP) does so by means of the object.
+- **Cross-Cutting Concerns**: <mark style="background: #FFF3A3A6;">AOP modularizes cross-cutting concerns like logging and security, which are important but can muddy up good OOP design</mark>.
+- **Spring Framework and AOP**: The Spring framework simplifies the configuration of AOP behaviors using annotations. Spring practitioners often depend on the Spring AOP and/or the AspectJ libraries.
+- **Weaving**: An AOP-aware system combines native code with aspect code to produce a running application, a process called weaving. Weaving can be done at compile time, post-compile time, or runtime.
+- **Performance Concerns**: The overhead introduced by weaving is generally not a concern for most Spring applications, as per many academic studies on AOP.
+  
+![](../../images/performance_weaving.png)
+
+### Weaving in deep
+
+Weaving is a crucial process in Aspect-Oriented Programming (AOP). It's the process where the aspect code (additional behavior) is combined with the main application code.
+
+![](../../images/performance_aop_weaving.png)
+
+1. **Aspect Weaver**: An aspect weaver is a metaprogramming utility for aspect-oriented languages. It takes instructions specified by aspects (isolated representations of significant concepts in a program) and generates the final implementation code.
+
+2. **Weaving Process**: The weaver integrates aspects into the locations specified by the software as a pre-compilation step. By merging aspects and classes (representations of the structure of entities in the program), the weaver generates a woven class.
+
+3. **Advice, Pointcuts, and Join Points**: Aspect weavers take instructions known as advice specified through the use of pointcuts and join points, special segments of code that indicate what methods should be handled by aspect code. The implementation of the aspect then specifies whether the related code should be added before, after, or throughout the related methods.
+
+4. **Weaving Time**: Weaving can be done at compile time, post-compile time, or runtime. Compile-time weaving modifies the byte code before the program runs. Post-compile weaving (also known as binary weaving) modifies the byte code after the program has been compiled but before it runs. Load-time weaving modifies the byte code as the program runs.
+
+5. **Benefits of Weaving**: By doing this, aspect weavers improve modularity, keeping code in one place that would otherwise have been interspersed throughout various, unrelated classes. This ensures that any existing object-oriented code will still be valid aspect-oriented code and that development will feel like a natural extension of the object-oriented language.
+
+Remember, the choice of using weaving and its type depends on your specific use case and requirements. Always consider the trade-offs in terms of complexity, maintainability, and performance.
+
+- [Aspect weaver](https://en.wikipedia.org/wiki/Aspect_weaver)
+
+
+### Important concepts
+
+![](../../images/performance_concepts.png)
+
+
+
+
+
+
+
 
 
 <a name="03"></a>
