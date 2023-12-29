@@ -76,9 +76,10 @@ Both load balancers are internal, meaning they serve traffic between internal in
 
 Repository: [Performance Tuning in Spring Apps](https://github.com/matiaspakua/performance-spring-tools))
 
-Tools: 
+## Tools
+
  * VisualVM: [VisualVM: Download](https://visualvm.github.io/download.html)
- * Java Flight Recorder (JDK mission control)
+ * Java Flight Recorder [JDK Mission Control (JMC) 8 ](https://www.oracle.com/java/technologies/javase/products-jmc8-downloads.html)
  * Glowroot: [Glowroot](https://glowroot.org/)
  * Prometheus: [Prometheus - Monitoring system & time series database](https://prometheus.io/)
  * Micrometer: [Micrometer Application Observability](https://micrometer.io/)
@@ -409,6 +410,15 @@ context.close();
 }
 ```
 
+### Java Flight Recorder
+
+In this example we use the Flight Recorder functionality to record the Spring Boot Startup process and view its metrics in the Flight Recorder Application:
+
+![](../../images/performance_startup_flight_recorder_conf.png)
+
+![](../../images/performance_startup_flight_recorder.png)
+
+Blog with documentation: [Monitoring Java Applications with Flight Recorder | Baeldung](https://www.baeldung.com/java-flight-recorder-monitoring)
 
 ---
 
