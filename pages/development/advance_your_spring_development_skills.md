@@ -341,7 +341,7 @@ Remember, the choice of using weaving and its type depends on your specific use 
 
 ### Connection pooling
 
-![](../../imagesperformance_connection_pooling.png)
+![](../../images/performance_connection_pooling.png)
 
 
 ### Hibernate Caching
@@ -354,10 +354,14 @@ Remember, the choice of using weaving and its type depends on your specific use 
 The JPA and Hibernate second-level cache - Vlad Mihalcea. https://vladmihalcea.com/jpa-hibernate-second-level-cache/.
 The JPA and Hibernate first-level cache - Vlad Mihalcea. https://vladmihalcea.com/jpa-hibernate-first-level-cache/.
 
-### Lazy Loading
 
+### Metrics in prometheus
 
+ * Example: connection pool
+![](../../images/performance_connection_pool_metric.png)
 
+ * Example: hibernate query execution:
+![](../../images/performance_hibernate_query_execution.png)
 
 
 
