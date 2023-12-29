@@ -365,9 +365,49 @@ The JPA and Hibernate first-level cache - Vlad Mihalcea. https://vladmihalcea.co
 
 ## Application StartUP time
 
+- **Startup Activities**: Spring applications involve many activities during startup, including loading context and initializing beans. This can sometimes lead to slower startup times.
+- **Impact of Long Startup Time**: A long startup time can hinder continuous integration and deployment automated testing. It can also be inconvenient for developers, especially when multiple restarts are required throughout the day.
+- **Indicator of Bloated Dependencies**: A long startup time can indicate bloated dependencies in a Spring Boot application. It's important to keep an eye on startup time and remove unnecessary dependencies.
+- **Observability**:  Once an application is deemed to take too long to start, it's crucial to understand what's happening under the hood to make decisions about streamlining processes.
 
+In this example, we add a "BufferingApplicationStartup" class to the context of the spring project to get metrics:
 
+![](../../images/performance_startup_metric.png)
 
+On this metrics we can filter by some criteria:
+
+```java
+public static void main(String[] args) {
+
+AbstractApplicationContext context = new ClassPathXmlApplicationContext("/META-INF/spring/application.xml",
+
+DemoClientApplication.class);
+
+DemoProperties props = (DemoProperties) context.getBean("appProperties");
+
+SpringApplication demoApplication = new SpringApplication(DemoClientApplication.class);
+
+// Below lines require JVM parameters in order to run. This is covered in lesson
+
+BufferingApplicationStartup bas = new BufferingApplicationStartup(10000);
+
+// Adding FILTER
+bas.addFilter(startupStep -> startupStep.getName().startsWith("spring.beans.instantiate"));
+
+demoApplication.setApplicationStartup(bas);
+
+demoApplication.run(args);
+
+logger.info("Open this application in your browser at http://localhost:"
+
++ props.getRuntimeProperties().getProperty("server.port", ""));
+
+demoManager = new DemoManager(props);
+
+context.close();
+
+}
+```
 
 
 ---
