@@ -16,6 +16,7 @@
 </style>
 
 <button class="back-button" onclick="window.location.href='https://matiaspakua.github.io/tech.notes.io'">All notes</button>
+---
 
 This are the notes for the 6 courses Specialization PATH on Linkedin Learning.
 
@@ -331,6 +332,29 @@ Remember, the choice of using weaving and its type depends on your specific use 
 
 ![](../../images/performance_concepts.png)
 
+## Hibernate Performance
+
+- **Hibernate**: It's a prevalent solution for connecting applications to data stores, allowing configuration-based mapping of database tables, rows, and columns directly to Java objects. This is known as Object-Relational Mapping (ORM).
+- **Performance**: While Hibernate often performs well, the actual database interactions can become invisible and may not be fully understood by developers or support teams.
+- **Connection Pooling**: This is a technique that saves the expense of making a new database connection every time data is needed. It maintains a pool of JDBC connections that an application can borrow from, use, and then return to the pool for reuse.
+- **Pool Properties**: The size of the pool and the timeout of the connections are important properties to consider. Monitoring these metrics is crucial for maintaining a high-performing and resilient application.
+
+### Connection pooling
+
+![](../../imagesperformance_connection_pooling.png)
+
+
+### Hibernate Caching
+
+- **What is the second-level cache**: The second-level cache is a mechanism that allows JPA and Hibernate to store the entity loaded state array, which is an array of Java objects representing the entity attributes, in a cache that can be shared by multiple concurrent requests1.
+- **Why use the second-level cache**: The second-level cache can help you improve the performance of your data access layer by reducing the query load on the database, especially for read-write transactions that need to be executed on the Primary node.
+- **How the second-level cache works**: When fetching an entity, Hibernate first checks the first-level cache, which is bound to the current Thread. If the entity is not found there, Hibernate checks the second-level cache, which is enabled by configuration. If the entity is not found in the second-level cache either, Hibernate loads it from the database using an SQL query.
+- **How to scale the second-level cache**: The second-level cache can be scaled by using a distributed system, such as Redis, to store the cached data. This way, the cache size is not limited by the memory of a single node, and the cache is not cold when new application nodes are added.
+
+The JPA and Hibernate second-level cache - Vlad Mihalcea. https://vladmihalcea.com/jpa-hibernate-second-level-cache/.
+The JPA and Hibernate first-level cache - Vlad Mihalcea. https://vladmihalcea.com/jpa-hibernate-first-level-cache/.
+
+### Lazy Loading
 
 
 
@@ -338,14 +362,21 @@ Remember, the choice of using weaving and its type depends on your specific use 
 
 
 
+
+
+
+
+---
 
 <a name="03"></a>
 # Spring Boot Observability: Deep Dive into Logging, Metrics, and Tracing
 
+---
 
 <a name="04"></a>
 # Advanced Spring: Spring Boot Actuator
 
+---
 
 <a name="05"></a>
 # Advanced Spring: Application Events
