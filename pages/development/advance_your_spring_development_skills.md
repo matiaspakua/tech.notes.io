@@ -363,7 +363,7 @@ The JPA and Hibernate first-level cache - Vlad Mihalcea. https://vladmihalcea.co
  * Example: hibernate query execution:
 ![](../../images/performance_hibernate_query_execution.png)
 
-
+## Application StartUP time
 
 
 
