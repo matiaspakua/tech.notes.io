@@ -1,4 +1,4 @@
-# Curso Resolución de Conflictos
+# Curso Negociación y resolución de conflictos
 
 <style>
   .back-button {

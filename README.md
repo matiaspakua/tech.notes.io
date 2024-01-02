@@ -64,7 +64,7 @@ Welcome to my personal Tech Notes blog. Here, information is presented in a stra
 
 # Leadership
 
- - [Resolución de Conflictos](/pages/leadership/resolucion_de_conflictos.md)
+ - [Negociación y resolución de conflictos](/pages/leadership/resolucion_de_conflictos.md)
  - [Emotional Intelligence](/pages/leadership/emotional_intelligence.md) <span style="color:red"> in progress </span>
  - Gestión del tiempo (Time Management)
 
