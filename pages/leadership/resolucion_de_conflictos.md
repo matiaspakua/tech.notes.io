@@ -16,7 +16,9 @@
 </style>
 
 <button class="back-button" onclick="window.location.href='https://matiaspakua.github.io/tech.notes.io'">All notes</button>
+---
 
+<a name="01"></a>
 # Introducción
 
 **Que es un conflicto**? En términos generales, un conflicto es una situación en la cual dos o más personas con intereses distintos entran en confrontación, oposición o emprenden acciones mutuamente antagonistas, con el objetivo de dañar, eliminar a la parte rival o arrebatarle poder de algún tipo en favor de la propia persona o grupo.
@@ -76,9 +78,10 @@ De estos aspectos se desprenden 5 tipos de comportamientos:
 2. Conflicto Personal o Estructural: Generalmente causado a partir del conflicto subyacente. Se manifiesta con las relaciones entre las personas, las habilidades sociales y de comunicación.
 3. Conflicto estructural. Asociado a los roles, las normas, malas relaciones de poder generalmente explican muchas de las tensiones.
 
-## Resolución de conflictos
+<a name="02"></a>
+# Resolución de conflictos
 
-![](conflictos_y_relaciones.svg)
+![](../../images/conflictos_y_relaciones.svg)
 
 
 Para poder resolver conflictos hay que iniciar el proceso con dos elementos fundamentales:
@@ -99,7 +102,7 @@ Queda claro en éste punto, que se debe comenzar a trabajar en el conflicto GENU
 
 ## Componentes del conflicto
 
-![](componentes_conflicto.svg)
+![](../../images/componentes_conflicto.svg)
 
 ## Ciclo del conflicto
 
@@ -129,3 +132,51 @@ En el des-escalamiento (que ocurre luego de haber llegado al punto límite) suce
 3. Se establecen objetivos comunes.
 4. Comienzan las iniciativas de conciliación individuales.
 
+## Técnicas de Gestión de Conflictos
+
+1. Transacción
+2. Arbitraje
+3. Negociación
+
+Estas técnicas se relacionan además con el nivel de asertividad y cooperación, por lo tanto, combinando éstos factores, se reconocer 5 modos o tipos de técnicas.
+
+![](../../images/modos_gestion_conflictos.png)
+
+### Técnica de transacción
+
+Se trata de un acuerdo entre las partes, sin una mediación de un tercero. Las propiedades de una "transacción" son:
+
+1. Consensual
+2. Bilateral
+3. Onerosa
+4. Obligatoria
+
+### Técnica de Arbitraje
+
+Se recurre a una persona/entidad tercerizada, que actuará de mediador objetivo. Esta técnica generalmente es las recomendada cuando el conflicto entre las partes impide que el juicio objetivo de cada una se oriente a buscar una solución. Las características más importantes de ésta técnica son:
+
+ 1. Rapidez
+ 2. Especialización (del mediador / arbitro)
+ 3. Confidencialidad.
+
+
+## El proceso de mediación
+
+La mediación es un mecanismo que ya se comenzó a utilizar en China, Japón y Africa. Actualmente la "mediación" como concepto se aplica al mundo empresarial y judicial principalmente. Esta forma de aplicar la mediación comenzó en los años 60 en EEUU y luego en los años 70 en Europa.
+
+## Beneficiarios de la mediación
+
+El o los principales beneficiados en los procesos de mediación son: las persona y en general la sociedad.
+
+1. Ventajas
+	1. Agiliza la resolución de conflictos y acuerdos.
+	2. disminuye la carga emocional
+	3. tiene una mayor confidencialidad
+	4. aumenta los compromisos de las partes
+	5. es mucho más flexible
+	6. produce acuerdos bilaterales
+2. Desventajas:
+	1. No voluntariedad
+	2. Alguna de las partes puede obstaculizar el proceso
+	3. dificultad en casos donde exista violencia
+	4. asimetría de poder.
