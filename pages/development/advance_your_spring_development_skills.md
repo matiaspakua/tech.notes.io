@@ -37,11 +37,11 @@ This are the notes for the 6 courses Specialization PATH on Linkedin Learning.
 
 In software engineering, **Load Balancing** is the practice of <mark style="background: #FFF3A3A6;">distributing</mark> computational workloads across multiple servers. This process ensures that no single server bears too much demand. By spreading the work evenly, load balancing improves application responsiveness. It also increases the <mark style="background: #FFF3A3A6;">availability</mark> of applications and websites for users. Load balancers evaluate client requests by examining application-level characteristics (the IP address, the HTTP header, and the contents of the request). The load balancer then looks at the servers and determines which server to send the request to.
 
-Load balancing has a significant impact on **user experience**. By dividing user requests among multiple servers, user wait time is vastly cut down. This results in a better user experience. Long page load times, and poor response times to user actions, create a bad user experience. Waiting for content to load becomes frustrating for users and may provoke them into leaving the site or application altogether. Load balancers handle traffic spikes by moving data efficiently, optimizing application delivery resource usage, and preventing server overloads. That way, the website performance stays high, and users remain satisfied.
+Load balancing has a significant impact on **user experience**. By dividing user requests among multiple servers, user wait time is vastly cut down. This results in a <mark style="background: #FFF3A3A6;">better user experience</mark>. Long page load times, and poor response times to user actions, create a bad user experience. Waiting for content to load becomes frustrating for users and may provoke them into leaving the site or application altogether. Load balancers handle traffic spikes by moving data efficiently, optimizing application delivery resource usage, and preventing server overloads. That way, the website performance stays high, and users remain satisfied.
 
 With Google Cloud Platform (GCP), load balancing is a software cloud-based offering to automatically facilitate shift of traffic from one instance to another when traffic or load is increased.
 
-- GCP has eight load balancer offerings that vary by flow of traffic, traffic type, and global or regional support.
+- **GCP has eight load balancer** offerings that vary by flow of traffic, traffic type, and global or regional support.
 - **Flow of traffic** can be external (from the internet) or internal (from within the network).
 
 ![](../../images/load_balancer_external_traffic.png)
@@ -53,9 +53,9 @@ With Google Cloud Platform (GCP), load balancing is a software cloud-based offer
 
 Google Cloud Platform (GCP) offer two types of internal load balancers:
 
-- **Internal TCP and UDP Load Balancer**: This type is ideal for serving TCP traffic, which is suitable for data that needs to be retransmitted if dropped, like photos. It also serves UDP traffic, which is ideal for video streaming.
+- **Internal TCP and UDP Load Balancer**: This type is ideal for serving TCP traffic, which is suitable for<mark style="background: #FFF3A3A6;"> data that needs to be retransmitted</mark> if dropped, like photos. It also serves UDP traffic, which is ideal for video streaming.
 
-- **Internal HTTP and HTTPS Load Balancer**: This type serves HTTP and HTTPS traffic, which is typically seen with Java backend APIs.
+- **Internal HTTP and HTTPS Load Balancer**: This type serves HTTP and HTTPS traffic, which is typically seen with Java<mark style="background: #FFF3A3A6;"> backend APIs</mark>.
 
 Both load balancers are internal, meaning they serve traffic between internal instances and not from the external internet. They are assigned an internal IP address used for internal instances or clients to forward traffic to. Both types only support instances deployed in a single region. The choice between the two depends on the type of traffic and the application's requirements.
 

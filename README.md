@@ -69,7 +69,7 @@ Welcome to my personal Tech Notes blog. Here, information is presented in a stra
 
 # Technical Books
 
- - Modern Software Engineering: Doing What Works to Build Better Software Faster, By David Farley (72%)
+ - Modern Software Engineering: Doing What Works to Build Better Software Faster, By David Farley (86%)
  - ReWork: Change the Way You Work Forever, By David Heinemeier Hansson and Jason Fried (71%)
  - Refactoring: improving the design of existing code, by Martin Fowler (5%)
  - The Mythical Man-Month: Essays on Software Engineering, by Fred Brooks (44%)
