@@ -159,8 +159,8 @@ Se recurre a una persona/entidad tercerizada, que actuará de mediador objetivo.
  2. Especialización (del mediador / arbitro)
  3. Confidencialidad.
 
-
-## El proceso de mediación
+<a name="03"></a>
+# El proceso de mediación
 
 La mediación es un mecanismo que ya se comenzó a utilizar en China, Japón y Africa. Actualmente la "mediación" como concepto se aplica al mundo empresarial y judicial principalmente. Esta forma de aplicar la mediación comenzó en los años 60 en EEUU y luego en los años 70 en Europa.
 
@@ -180,3 +180,73 @@ El o los principales beneficiados en los procesos de mediación son: las persona
 	2. Alguna de las partes puede obstaculizar el proceso
 	3. dificultad en casos donde exista violencia
 	4. asimetría de poder.
+
+## El mediador
+
+Se trata de un profesional cuya principales características deben ser:
+1. Neutral
+2. Imparcial
+3. debe ayudar de forma pacífica
+4. debe ser un buen comunicador
+5. debe estar capacitado
+
+| **Funciones** | **Habilidades** |
+| --- | --- |
+| Facilitar | Motivar  |
+| Ayudar | Escuchar |
+| Crear condiciones | Generar clima de confianza |
+| Afrontar situaciones | Flexible, neutral |
+| Capacidad de decidir | Paciencia |
+| Saber cuando derivar | Imparcial |
+| | Confianza en el proceso |
+
+### Comunicación
+
+* <mark style="background: #FFB86CA6;">INTERNA</mark>: dentro de la misma empresa, entre trabajadores, se puede dar de forma ascendente o descendente.
+* <mark style="background: #FFB86CA6;">EXTERNA</mark>: Anuncios, aviso, notificaciones o comunicaciones publicas.
+
+### Requisitos de la mediación
+
+Para que una mediación sea exitosa, se deben dar ciertas condiciones y requisitos:
+
+1. Voluntariedad
+2. Imparcialidad
+3. Neutralidad
+4. Confidencialidad
+5. Presencialidad
+6. Buena Fé de las partes
+7. Flexibilidad
+8. Independencia
+
+### Modelo de Mediación
+
+Dentro de los aspecto teóricos, existe 4 modelos muy conocidos.
+
+a. <mark style="background: #FFF3A3A6;">Modelo de Harvard (lineal)</mark>
+
+Se trata de una negociación colaborativa, donde se descartan gran parte de las "emociones" y se busca una solución "objetiva".
+
+b. <mark style="background: #FFF3A3A6;">Bush & Folger (transformativo)</mark>
+
+Se basa en empoderar a las personas para que crean en si mismas. Se enfoca en potenciar las emociones y las relaciones.
+
+c. <mark style="background: #FFF3A3A6;">Sara Cobb (modelo circular o narrativo)</mark>
+
+Se enfoca en los conflictos con altas cargas emocionales. En éste modelo se estudia a fondo el contexto social, cultural, situación personal de las partes y sus contextos particulares.
+
+d. <mark style="background: #FFF3A3A6;">Modelo interdisciplinario (AIEEF-Bustelo)</mark>
+
+Reconoce que los conflictos complejos requieren enfoques holísticos que consideren múltiples factores.
+
+## Etapas del proceso de Mediación
+
+### Fases del proceso
+
+Un proceso de mediación consta de las siguientes fases:
+
+1. **<mark style="background: #FFF3A3A6;">Pre-mediación</mark>**: esta fase es muy importante, el resto dependen de esta etapa. Se debe crear un clima de confianza, aplicar un lenguaje en primera persona, usar el parafraseo y armar acuerdos iniciales.
+2. **Mediación**
+3. **Pos-mediación**
+
+## Mediación
+
