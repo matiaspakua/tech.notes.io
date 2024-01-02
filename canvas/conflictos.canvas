@@ -1,6 +1,6 @@
 {
 	"nodes":[
-		{"id":"987aa85dbbd35e40","type":"file","file":"pages/leadership/resolucion_de_conflictos.md","x":-240,"y":-120,"width":420,"height":200},
+		{"id":"987aa85dbbd35e40","type":"file","file":"pages/leadership/resolucion_de_conflictos.md","x":-660,"y":-120,"width":900,"height":200},
 		{"id":"ffb3309c46c12d43","type":"text","text":"Conflicto","x":-340,"y":240,"width":250,"height":60,"color":"2"},
 		{"id":"902e4050aa562187","type":"text","text":"Tipos","x":55,"y":160,"width":250,"height":60,"color":"3"},
 		{"id":"2941ec27d6610286","type":"text","text":"Componentes","x":55,"y":270,"width":250,"height":60,"color":"3"},
@@ -8,9 +8,17 @@
 		{"id":"f0e7207b5e5a4e28","type":"text","text":"tomar un rumbo:\n - Positivo\n - Negativo","x":-720,"y":240,"width":250,"height":120,"color":"1"},
 		{"id":"de1a60c6849bd97c","type":"text","text":"Técnicas de resolución","x":-340,"y":600,"width":250,"height":61,"color":"4"},
 		{"id":"42002120483a674d","type":"text","text":"Transacción\n","x":40,"y":540,"width":250,"height":60,"color":"3"},
-		{"id":"d11b829de12ba6bb","type":"text","text":"Arbitraje","x":40,"y":631,"width":250,"height":60,"color":"3"},
+		{"id":"d11b829de12ba6bb","type":"text","text":"Arbitraje / mediación","x":40,"y":631,"width":250,"height":60,"color":"3"},
 		{"id":"66254aacf54c6597","type":"text","text":"Negociación","x":40,"y":740,"width":250,"height":60,"color":"3"},
-		{"id":"5d76bda656ce6fc7","type":"text","text":"Identificar CAUSA RAIZ","x":-340,"y":840,"width":250,"height":60,"color":"6"}
+		{"id":"5d76bda656ce6fc7","type":"text","text":"Identificar CAUSA RAIZ","x":-340,"y":840,"width":250,"height":60,"color":"6"},
+		{"id":"6fdc847c5ca9f751","type":"text","text":"Mediación","x":-40,"y":1040,"width":250,"height":60,"color":"4"},
+		{"id":"c7064549ff493a4b","type":"text","text":"Mediador","x":-560,"y":980,"width":250,"height":60,"color":"5"},
+		{"id":"261bb6666ddc8569","type":"text","text":"Modelos (teóricos) existen 4.","x":-560,"y":1100,"width":250,"height":60,"color":"1"},
+		{"id":"961be70004aa0aac","type":"text","text":"1. Cuéntame","x":-800,"y":1440,"width":250,"height":60,"color":"4"},
+		{"id":"2621bd02dcda3e0d","type":"text","text":"Proceso::\n\tPre-mediación\n\t Mediación\n\t Pos-Mediación","x":-560,"y":1220,"width":250,"height":120,"color":"3"},
+		{"id":"26e397364d9d03d8","type":"text","text":"2. Aclaremonos","x":-520,"y":1470,"width":250,"height":60,"color":"4"},
+		{"id":"b4595a7a6ad14f65","type":"text","text":"3. Negociación","x":-240,"y":1530,"width":250,"height":60,"color":"4"},
+		{"id":"1f950bf46910bf4d","type":"text","text":"4. Acuerdos","x":60,"y":1560,"width":250,"height":60,"color":"4"}
 	],
 	"edges":[
 		{"id":"d6c47ef30d26838e","fromNode":"987aa85dbbd35e40","fromSide":"bottom","toNode":"ffb3309c46c12d43","toSide":"top"},
@@ -22,6 +30,14 @@
 		{"id":"cb486723bb8d971c","fromNode":"de1a60c6849bd97c","fromSide":"right","toNode":"42002120483a674d","toSide":"left"},
 		{"id":"357fefbd4108d48f","fromNode":"de1a60c6849bd97c","fromSide":"right","toNode":"d11b829de12ba6bb","toSide":"left"},
 		{"id":"8134feaeb2eea835","fromNode":"de1a60c6849bd97c","fromSide":"right","toNode":"66254aacf54c6597","toSide":"left"},
-		{"id":"bf4fbbc101712708","fromNode":"de1a60c6849bd97c","fromSide":"bottom","toNode":"5d76bda656ce6fc7","toSide":"top"}
+		{"id":"bf4fbbc101712708","fromNode":"de1a60c6849bd97c","fromSide":"bottom","toNode":"5d76bda656ce6fc7","toSide":"top"},
+		{"id":"143b8d3550778dbc","fromNode":"d11b829de12ba6bb","fromSide":"right","toNode":"6fdc847c5ca9f751","toSide":"right"},
+		{"id":"8ddea9d23e55477c","fromNode":"6fdc847c5ca9f751","fromSide":"left","toNode":"c7064549ff493a4b","toSide":"right"},
+		{"id":"9fa3af91d33fb0c6","fromNode":"6fdc847c5ca9f751","fromSide":"left","toNode":"261bb6666ddc8569","toSide":"right"},
+		{"id":"eb26bcd7991a4df7","fromNode":"6fdc847c5ca9f751","fromSide":"left","toNode":"2621bd02dcda3e0d","toSide":"right"},
+		{"id":"37429c9ef786faa7","fromNode":"2621bd02dcda3e0d","fromSide":"bottom","toNode":"961be70004aa0aac","toSide":"top"},
+		{"id":"b3a3e66e8686f582","fromNode":"2621bd02dcda3e0d","fromSide":"bottom","toNode":"26e397364d9d03d8","toSide":"top"},
+		{"id":"2ccba55223c8dcf0","fromNode":"2621bd02dcda3e0d","fromSide":"bottom","toNode":"b4595a7a6ad14f65","toSide":"top"},
+		{"id":"aef9a54dd6d3655a","fromNode":"2621bd02dcda3e0d","fromSide":"bottom","toNode":"1f950bf46910bf4d","toSide":"top"}
 	]
 }

@@ -33,6 +33,8 @@ Un conflicto, además de su definición tiene otros componentes:
 
 ![[conflictos.canvas]]
 
+![](../../images/conflictos_canvas.png)
+
 ## Utilidad de los conflictos
 
 Los conflictos son útiles y se consideran funcionales, siempre y cuando, exista un compromiso para alcanzar una resolución.
@@ -249,4 +251,43 @@ Un proceso de mediación consta de las siguientes fases:
 3. **Pos-mediación**
 
 ## Mediación
+
+El método de mediación está organizado en 4 grandes etapas:
+
+### 1. Cuéntame
+
+El proceso arranca con una escucha activa y análisis de situación y contexto. Aqui se define el "nombre" del problema/conflicto. Se intenta obtener el punto de vista y opiniones de todas las partes involucradas. Se busca información, se profundiza.
+
+### 2. Aclarémonos
+
+En ésta etapa se intenta realizar legitimación en base a la información recabada. Se construyen las historias, se realizar reformulaciones asertivas. Se ensambla una pirámide de interés:
+
+![](../../images/piramide_de_intereses.png)
+
+### 3. Negociación
+
+Se aplican técnicas como lluvia de ideas, se listan todas las opciones, se analizan alternativas. Se busca la creatividad, flexibilidad y apertura al análisis de nuevas ideas o propuestas.
+
+Uno de los aspectos más importantes en ésta etapa y además de los más difíciles en todo el proceso de resolución de conflictos es: "<mark style="background: #FFF3A3A6;">SEPARAR AL PROBLEMA (RAIZ) DE LAS PERSONAS</mark>".
+
+### 4. Acuerdos
+
+La etapa final de la mediación busca la generación y consolidación de acuerdos con objetivos pactados de forma bilateral, responsabilidad de todas las partes, establecimiento de tiempos/fechas para puntos de control o resolución.
+
+Los acuerdos, dependiendo del tipo de conflicto pueden ser de tipo "provisionales" o "definitivos."
+
+## Pos-mediación
+
+Luego de generados los acuerdos en la etapa de mediación, comienza la siguiente fase de la resolución de conflictos, llamada pos-mediación, que consisten básicamente en revisar los acuerdo y monitorear su cumplimiento. Es un proceso de seguimiento y control.
+
+## Técnicas de Mediación
+
+Existe una gran cantidad de técnicas de aplicación para la tarea de mediación, de las cuales las más conocidas y utilizadas son las siguientes:
+
+1. **Preguntas**: abiertas, cerradas, lineales, circulares, reflexivas, estratégicas.
+2. **Legitimación**:  intentar separar a las personas del problema. Evitar preconceptos y prejuicios.
+3. **Control del proceso**: seguimiento y control para que las partes se responsabilicen. Mantener el hilo conductor para llegar a acuerdos.
+4. Co-Mediación: involucrar a más de 1 mediador de ser necesario.
+5. Re-Equilibrar.
+6. Reforzamiento.
 
