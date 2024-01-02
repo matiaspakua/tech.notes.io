@@ -169,9 +169,7 @@ Code:
 
 ## Spring Actuators
 
-Spring Boot Actuator is a sub-project of the Spring Boot Framework. It brings production-ready features to our application. The main benefit of using this library is that we get health and monitoring metrics from production-ready applications. 
-
-Here are some key points about Spring Boot Actuator:
+Spring Boot Actuator is a sub-project of the Spring Boot Framework. It brings production-ready features to our application. The main benefit of using this library is that <mark style="background: #FFF3A3A6;">we get health and monitoring metrics</mark> from production-ready applications. 
 
 - **Operational Information**: The actuator mainly exposes operational information about the running application — health, metrics, info, dump, env, etc. It uses HTTP endpoints or JMX beans to enable us to interact with it.
 
@@ -191,7 +189,7 @@ Here are some key points about Spring Boot Actuator:
 
 - **Spring Boot 2.x Actuator**: In 2.x, the Actuator keeps its fundamental intent but simplifies its model, extends its capabilities, and incorporates better defaults. This version becomes technology-agnostic. It also simplifies its security model by merging it with the application one. The latest version now supports the CRUD model as opposed to the old read/write model.
 
-In essence, the Spring Boot Actuator is used for monitoring our app, gathering metrics, and understanding traffic or the state of our database. It becomes trivial with this dependency.
+In essence, the <mark style="background: #FFF3A3A6;">Spring Boot Actuator is used for monitoring our app</mark>, gathering metrics, and understanding traffic or the state of our database. It becomes trivial with this dependency.
 
  Spring Boot Actuator: Production-ready Features. https://docs.spring.io/spring-boot/docs/2.5.6/reference/html/actuator.html.
 
@@ -324,10 +322,7 @@ Weaving is a crucial process in Aspect-Oriented Programming (AOP). It's the proc
 
 5. **Benefits of Weaving**: By doing this, aspect weavers improve modularity, keeping code in one place that would otherwise have been interspersed throughout various, unrelated classes. This ensures that any existing object-oriented code will still be valid aspect-oriented code and that development will feel like a natural extension of the object-oriented language.
 
-Remember, the choice of using weaving and its type depends on your specific use case and requirements. Always consider the trade-offs in terms of complexity, maintainability, and performance.
-
 - [Aspect weaver](https://en.wikipedia.org/wiki/Aspect_weaver)
-
 
 ### Important concepts
 
