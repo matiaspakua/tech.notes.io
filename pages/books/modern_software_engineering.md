@@ -86,6 +86,8 @@
 2. Working iteratively encourage us to think in smaller batches and to take modularity and separation of concerns.
 3. Iterate, learn, adapt to new tech: as Kent Beck says in Extreme programming: <mark style="background: #FFF3A3A6;">"Embrace change!</mark>".
 
+Reference to my notes of Extreme Programming:  [XP](book_extreme_programming_explained.md)
+
 ## 5. Feedback
 
 1. **Importance** of: <mark style="background: #FFF3A3A6;">without feedback, there is no opportunity to learn</mark>. Feedback allows us to establish a source of evidence for our decisions.
