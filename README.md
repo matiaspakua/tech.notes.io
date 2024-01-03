@@ -62,9 +62,9 @@ Welcome to my personal Tech Notes blog. Here, information is presented in a stra
 
 # Leadership
 
- - [What The Little Prince teach about engineering](/pages/software_engineering/what_the_little_prince_teach_about_engineering.md) 
- - [Notes on Masterclass Dev to Tech Lead](/pages/general_topic/dev_to_tech_lead.md)
- - [How to Speak by Patrick Winston notes](/pages/general_topic/how_to_speak_by_patrick_winston.md)
+ - [What The Little Prince teach about engineering](/pages/leadership/what_the_little_prince_teach_about_engineering.md) 
+ - [Notes on Masterclass Dev to Tech Lead](/pages/leadership/dev_to_tech_lead.md)
+ - [How to Speak by Patrick Winston notes](/pages/leadership/how_to_speak_by_patrick_winston.md)
  - [Negociación y resolución de conflictos](/pages/leadership/resolucion_de_conflictos.md)
  - [Emotional Intelligence](/pages/leadership/emotional_intelligence.md) <span style="color:red"> in progress </span>
  - Gestión del tiempo (Time Management)
