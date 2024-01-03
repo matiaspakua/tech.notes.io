@@ -19,7 +19,7 @@
 
 ![](../../images/modern_software_engineering.jpg)
 
-# Introduction
+## 1. Introduction
 
 1. **Engineering**  - The practical application of science. Software engineer need to become experts at learning.
 2. **What is software Engineering**? Software engineering is the application of an empirical, scientific approach to finding efficient, economic solutions to practical problems. We must become experts at learning and experts at managing complexity.
@@ -42,7 +42,7 @@
 	4. Controlling variables
 	5. Continuos delivery
 
-## 1. What is Engineering?
+## 2. What is Engineering?
 
 1. The first software engineer: **Margaret Hamilton**. Her approach was the focus on how thinks fail - <mark style="background: #FFF3A3A6;">the ways in which we get thinks wrong: "failing safely"</mark>. The assumption is that we can never code for every scenario, so how do we code in ways that allow our systems to cope with unexpected and still make progress?
 
@@ -54,7 +54,7 @@
 4. Design engineering is a deeply exploratory approach to gaining knowledge.
 5. Trade-offs: one of the key trade-off that is vital to consider in the production of software, is "<mark style="background: #FFF3A3A6;">coupling</mark>".
 
-## 2. Fundamentals of an Engineering Approach
+## 3. Fundamentals of an Engineering Approach
 
 1. **The important of measurements**: The most important concepts are: stability and throughput. Stability is tracked by:
 	1. Change Failure Rate
@@ -79,4 +79,12 @@
 	5. coupling
 
 # Optimize for Learning
+
+## 4. Working Iteratively
+
+1. **Iteration** allows us to learn, react and adapt. It's at the heart of all exploratory learning and is fundamental to any real knowledge acquisition.
+2. Working iteratively encourage us to think in smaller batches and to take modularity and separation of concerns.
+3. Iterate, learn, adapt to new tech: as Kent Beck says in Extreme programming: <mark style="background: #FFF3A3A6;">"Embrace change!</mark>".
+
+## 5. Feedback
 
