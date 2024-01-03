@@ -14,8 +14,6 @@ Welcome to my personal Tech Notes blog. Here, information is presented in a stra
 - [How to build a KnowledgeBase](/pages/general_topic/how_to_build_a_knowledge_base.md)
 - [On User Stories notes](/pages/general_topic/on_user_stories_notes.md)
 - [Xtrem TDD](https://xtrem-tdd.netlify.app/)
-- [How to Speak by Patrick Winston notes](/pages/general_topic/how_to_speak_by_patrick_winston.md)
-- [Notes on Masterclass Dev to Tech Lead](/pages/general_topic/dev_to_tech_lead.md)
 - [Design Thinking notes](/pages/general_topic/design_thinking_explained.md)
 - [Tech Trends 2023](/pages/general_topic/tech_trends_2023.md) <span style="color:red"> in progress </span>
 # Development
@@ -47,7 +45,7 @@ Welcome to my personal Tech Notes blog. Here, information is presented in a stra
 - [Software Engineering at Google. A book, a web site](https://abseil.io/resources/swe-book)
 - [On Agile by Martin Fowler](https://martinfowler.com/agile.html)
 - [Software Design By Example. A book, a web site](https://third-bit.com/sdxjs/)
-- [What The Little Prince teach about engineering](/pages/software_engineering/what_the_little_prince_teach_about_engineering.md) 
+
 # Software and System Architecture
 
 - [On Architecture by Martin Fowler](https://martinfowler.com/architecture/)
@@ -64,32 +62,34 @@ Welcome to my personal Tech Notes blog. Here, information is presented in a stra
 
 # Leadership
 
+ - [What The Little Prince teach about engineering](/pages/software_engineering/what_the_little_prince_teach_about_engineering.md) 
+ - [Notes on Masterclass Dev to Tech Lead](/pages/general_topic/dev_to_tech_lead.md)
+ - [How to Speak by Patrick Winston notes](/pages/general_topic/how_to_speak_by_patrick_winston.md)
  - [Negociación y resolución de conflictos](/pages/leadership/resolucion_de_conflictos.md)
  - [Emotional Intelligence](/pages/leadership/emotional_intelligence.md) <span style="color:red"> in progress </span>
  - Gestión del tiempo (Time Management)
 
-# Technical Books
+# Technical Books in progress
 
- - Modern Software Engineering: Doing What Works to Build Better Software Faster, By David Farley (86%)
+ - The Mythical Man-Month: Essays on Software Engineering, by Fred Brooks (44%)
+ - The Little Prince, by Antoine de Saint-Exupéry (95%)
  - ReWork: Change the Way You Work Forever, By David Heinemeier Hansson and Jason Fried (71%)
  - Refactoring: improving the design of existing code, by Martin Fowler (5%)
- - The Mythical Man-Month: Essays on Software Engineering, by Fred Brooks (44%)
  - Working effectively with legacy code, by Michael Feathers (5%)
- - The Little Prince, by Antoine de Saint-Exupéry (60%)
  - Spring in Action, 5th Edition by Craig Walls (80%)
 
-# Technical Books already read
+# Technical Books readed
 
- * Applying UML and Patterns: An Introduction to Object-Oriented Analysis and Design and
-Iterative Development, Craig Larman
- * Software Engineering, a practicioner aproach, by Roger Presmann
+ * Applying UML and Patterns: An Introduction to Object-Oriented Analysis and Design and Iterative Development, Craig Larman
  * Thinking in Java 2nd Edition, by Bruce Eckel
  * C Programming Language, 2nd Edition, by de Brian W. Kernighan and Dennis M. Ritchi
  * Design Patterns Elements of Reusable Object-Oriented Software by Erich Gamma, Richard Helm, Ralph Johnson, John M. Vlissides
  * Software Engineering, 10th Edition by Ian Sommerville
+ * Software Engineering: A Practitioner's Approach, 8th Edition, Roger Pressmann
  - [Extreme Programming Explained](/pages/books/book_extreme_programming_explained.md)
+ - Modern Software Engineering: Doing What Works to Build Better Software Faster, By David Farley
 
-# Others Books already read
+# Others Books
 
  * I, Robot by Issac Asimov (1950)  
  * Caves of Steel  by Issac Asimov (1954)  
