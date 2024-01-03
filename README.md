@@ -87,7 +87,7 @@ Welcome to my personal Tech Notes blog. Here, information is presented in a stra
  * Software Engineering, 10th Edition by Ian Sommerville
  * Software Engineering: A Practitioner's Approach, 8th Edition, Roger Pressmann
  - [Extreme Programming Explained](/pages/books/book_extreme_programming_explained.md)
- - Modern Software Engineering: Doing What Works to Build Better Software Faster, By David Farley
+ - [Modern Software Engineering: Doing What Works to Build Better Software Faster, By David Farley](/pages/books/modern_software_engineering.md)
 
 # Others Books
 
