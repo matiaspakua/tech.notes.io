@@ -123,3 +123,12 @@ Hexagonal Architecture: [Hexagonal architecture – Alistair Cockburn](https://a
 
 ## Being Experimental
 
+1. **Definition**. Richard Feyman: "Science is the belief in the ignorance of experts". "Have no respect whatsoever for authority; forget who said it and instead look what he start with, where he ends up, and ask yourself, 'it is reasonable?'".
+2. **Hypothesis, Measurement and Controlling the Variables**. To gather feedback and make useful measurements, we need to control the variables.
+3. **Experiments**: we can run literally millions of experiments every second if we want, using unit tests. What I am thinking of is organizing our development around a series of iterative experiments that make tiny predictions.
+4. **Creating new knowledge:** we can create a new experiment, a test, that define the new knowledge that we expect to observe, and then we can add knowledge in the form of working code that meet that needs.
+
+# Optimize for Managing Complexity
+
+## 9. Modularity
+
