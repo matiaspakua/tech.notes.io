@@ -132,3 +132,10 @@ Hexagonal Architecture: [Hexagonal architecture – Alistair Cockburn](https://a
 
 ## 9. Modularity
 
+1. **Good design:** the cornerstones are: modularity and separation of concerns. How can we create code and systems that will grow and evolve over time but that are appropriately compartmentalized to limit damage if we maje a mistake?
+2. **The importance of testability**: if our test are difficult to write, it means that our design is poor.
+3. **Improve modularity**: we need to be clear what it is that we are measuring, and we need to be crear of the value of our measurements. We need to identity if the system the "points of measurements." The key is to understand the scope of measurement that make sense and work to make those measurements easy to achieve and stable in terms of the results that they generate.
+4. **Service and modularity**: one of the most important aspects is: "information hiding", this is one the essences of design. The concept of a "service" in software terms is that it represent a boundary.
+5. **Deployability and modularity**: accomplish this independence is to take the modularity of the system so seriously that each module is, in terms of build, test and deployment, independent from every other module.
+6. **Modularity at different scale**: Testing when done well exposes something important and true about the nature of out code, the nature of our design, and the nature of the problem that we are solving.
+7. **Modularity in Human System**: truly decouple system, we can parallelised all we want. Micro-services are an organizational scalability play; they don't really have any other advantage, but let's be clear, this is a big advantage if scalability is your problem. If we need small team to efficiently create good, high-quality work, then we need to "decouple". We need modular organizations as well as modular software. 
