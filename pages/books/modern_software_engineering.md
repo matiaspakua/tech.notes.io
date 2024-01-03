@@ -139,3 +139,13 @@ Hexagonal Architecture: [Hexagonal architecture – Alistair Cockburn](https://a
 5. **Deployability and modularity**: accomplish this independence is to take the modularity of the system so seriously that each module is, in terms of build, test and deployment, independent from every other module.
 6. **Modularity at different scale**: Testing when done well exposes something important and true about the nature of out code, the nature of our design, and the nature of the problem that we are solving.
 7. **Modularity in Human System**: truly decouple system, we can parallelised all we want. Micro-services are an organizational scalability play; they don't really have any other advantage, but let's be clear, this is a big advantage if scalability is your problem. If we need small team to efficiently create good, high-quality work, then we need to "decouple". We need modular organizations as well as modular software. 
+
+## 10. Cohesion
+
+1. **Modularity and cohesion**: good design in software is really about the way in which we organize the code in the system that we create.
+2. <mark style="background: #FFF3A3A6;">**The primary goal of code is to communicate ideas to humans**</mark>.
+3. Context matters: one effective tool to drive this kind of decision making is domain driven design (DDD).
+4. **High-Performance Software**: to achieve this, we need to do the maximum amount of work for the smallest number of instructions.
+5. **Link to coupling**: <mark style="background: #FFB86CA6;">Coupling</mark>: given two lines of code, A and B, they are coupled when B mush change behavior only because A changed. <mark style="background: #ADCCFFA6;">Cohesion</mark>: the are cohesive when change to A allows B to change so that both add new value.
+6. **Cost of poor cohesion**: there is a simple, subjetive way to spot poor cohesion. If you have ever read a piece of code and thought "I don't know what this code does," it is probably because the cohesion is poor.
+7. **Cohesion in human system**: one of the leading predictors of high performance measured in terms of throughput and stability, is the ability of teams to make their own decisions without the need to ask permission of anyone outside the team.
