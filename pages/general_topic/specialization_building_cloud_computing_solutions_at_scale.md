@@ -363,6 +363,19 @@ Reference: [Containers vs VMs (redhat.com)](https://www.redhat.com/en/topics/con
 <a name="04"></a>
 # Course 04: Cloud Machine Learning Engineering and MLOps
 
+## MLOps
+
+### Definition
+
+Machine learning + DepOps (Development and operations.)
+
+![](../../images/MLOps_deep_dive.png)
+
+### Edge Machine Learning
+
+Edge-based machine learning is the process of <mark style="background: #FFF3A3A6;">running machine learning models on an edge device to collect, process, and recognize patterns within datasets</mark>. The device itself has everything it needs, and in many cases, the hardware is optimized to be able to do it at low power. Edge-based processing allows you to do things on the device, and there are many examples of edge-based devices such as Coral TPU, AWS DeepLens, DeepRacer, and Intel neural compute stick. These devices can run without needing to talk to the internet, and there are a lot of applications in the future.
+
+
 # References
 
 Course #01: https://www.coursera.org/learn/cloud-computing-foundations-duke/home/welcome

@@ -149,3 +149,7 @@ Hexagonal Architecture: [Hexagonal architecture – Alistair Cockburn](https://a
 5. **Link to coupling**: <mark style="background: #FFB86CA6;">Coupling</mark>: given two lines of code, A and B, they are coupled when B mush change behavior only because A changed. <mark style="background: #ADCCFFA6;">Cohesion</mark>: the are cohesive when change to A allows B to change so that both add new value.
 6. **Cost of poor cohesion**: there is a simple, subjetive way to spot poor cohesion. If you have ever read a piece of code and thought "I don't know what this code does," it is probably because the cohesion is poor.
 7. **Cohesion in human system**: one of the leading predictors of high performance measured in terms of throughput and stability, is the ability of teams to make their own decisions without the need to ask permission of anyone outside the team.
+
+## 11. Separation of concerns
+
+1. **Definition**: 
