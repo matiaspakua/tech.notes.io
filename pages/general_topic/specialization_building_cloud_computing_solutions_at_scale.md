@@ -375,6 +375,28 @@ Machine learning + DepOps (Development and operations.)
 
 Edge-based machine learning is the process of <mark style="background: #FFF3A3A6;">running machine learning models on an edge device to collect, process, and recognize patterns within datasets</mark>. The device itself has everything it needs, and in many cases, the hardware is optimized to be able to do it at low power. Edge-based processing allows you to do things on the device, and there are many examples of edge-based devices such as Coral TPU, AWS DeepLens, DeepRacer, and Intel neural compute stick. These devices can run without needing to talk to the internet, and there are a lot of applications in the future.
 
+### Edge ML and 5G
+
+  The proliferation of edge-based devices, which can do prediction on the physical device and are more powerful than your laptop at specific tasks is in the near future. 
+  
+  These devices can have a camera and hardware that can do the prediction and then go into a cloud environment. The theory behind edge-based machine learning is also covered. One of the interesting things about 5G is that it could potentially get rid of fiber networks. Additionally, these devices could be put in locations where they’re able to also have this fiber speed. It’s opening up a new opportunity. The offline aspects of edge-based machine learning are also interesting, especially in situations like self-driving cars or drones where it’s making life or death decisions. If it can’t talk to the network, that’s a big problem.
+
+5G is the fifth generation of cellular technology, designed to increase speed, reduce latency, and improve flexibility of wireless services. It has a theoretical peak speed of **20 Gbps**, which is **20 times faster** than 4G . 5G also promises lower latency, which can improve the performance of business applications as well as other digital experiences such as online gaming, videoconferencing, and self-driving cars. 
+
+5G networks are virtualized and software-driven, and they exploit cloud technologies. The 5G network will also simplify mobility, with seamless open roaming capabilities between cellular and Wi-Fi access. The new Wi-Fi 6 wireless standard (also known as 802.11ax) shares traits with 5G, including improved performance. 
+
+5G technology works by using higher radio frequencies that are less cluttered, called 'millimeter waves' (mmwaves). These waves allow for it to carry more information at a much faster rate. 5G New Radio, the global standard for a more capable 5G wireless air interface, will cover spectrums not used in 4G. New antennas will incorporate technology known as massive MIMO (multiple input, multiple output), which enables multiple transmitters and receivers to transfer more data at the same time. 
+
+5G networks can create software-defined subnetwork constructs known as network slices. These slices enable network administrators to dictate network functionality based on users and devices. 5G also enhances digital experiences through machine-learning (ML)-enabled automation.
+
+**References:**
+- What Is 5G? - How Does 5G Network Technology Work - Cisco. https://www.cisco.com/c/en/us/solutions/what-is-5g.html.
+- What is 5G Technology and How Does it Work? - TWI. https://www.twi-global.com/technical-knowledge/faqs/What-is-5G.
+- How 5G Works | HowStuffWorks. https://electronics.howstuffworks.com/5g.htm.
+
+### Hardware Inference Model Solutions in Edge Machine Learning
+
+
 
 # References
 
