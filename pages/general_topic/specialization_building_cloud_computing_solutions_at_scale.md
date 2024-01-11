@@ -415,10 +415,41 @@ In summary, a container registry is an essential tool for <mark style="backgroun
 - **Workflow**: The basic workflow involves creating a Kubernetes cluster, deploying your application into the cluster, exposing the port for external access, and auto-scaling based on traffic demands.
 - **Cluster Architecture**: A Kubernetes cluster consists of multiple nodes, each containing multiple pods, which in turn can contain multiple containers.
 
+![](../../images/kubernetes.png)
 
 
+![](../../images/kubernetes_hierarchy.png)
 
+## Autoscaling Kubernetes 
 
+One of the “killer” features of Kubernetes is the ability to set up auto-scaling via the Horizontal Pod Autoscaler. How does this work? The <mark style="background: #FFF3A3A6;">Kubernetes HPA</mark> (Horizontal Pod Autoscaler) will automatically scale the number of pods (remember they can contain multiple containers) in a replication controller, deployment or replica set. Thee scaling uses CPU utilization, memory, or custom metrics defined in the Kubernetes Metrics Server.
+
+![](../../images/kubernetes_autoscaling.png)
+
+## Introduction to Microservices
+
+- **Microservice Architecture**: Microservices are small, specialized, and autonomous services that are a significant part of new Cloud-native architectures. They are a part of a larger DevOps practice which includes continuous delivery, continuous integration, and best practices around monitoring and alerting.
+- **Types of Microservice Architectures**: The text discusses different types of microservice architectures, including event-driven web services. The success or failure of a project can depend on the chosen architecture.
+- **Serverless Computing**: Serverless is a paradigm where you can run code without provisioning servers, eliminating the need to worry about low-level details of provisioning machines. AWS Lambda, Google Cloud Functions, and Azure functions are examples of this, where they can map to different events. This is considered one of the best advancements in modern computing.
+
+![](../../images/microservices_architecture.png)
+
+ - **Reference**:  [What are microservices?](https://microservices.io/)
+
+## Microservices characterictics
+
+- **Characteristics**: Microservices are small, autonomous, and specialized. They do one task very well and can independently interact with systems like databases or authentication services.
+- **Benefits**: Microservices offer speed in application development and simplicity due to their small size. They allow for easy isolation of services like authentication, database, or business logic.
+- **Functionality**: At its core, a microservice is a function that maps to a URL or an event. This provides a high degree of reliability.
+
+## Where to Run Microservices
+
+- **Containers**: Microservices can be run in containers, such as Google Cloud’s Cloud Run service, which allows you to deploy a microservice without managing anything.
+- **Kubernetes**: Alternatively, microservices can be deployed to more complex systems like Kubernetes.
+- **Cloud Native Capabilities**: Microservices can also be run using cloud native capabilities. All cloud platforms now allow you to write a function that maps to an event, such as AWS Lambda, Google Cloud Functions, or Azure Functions.
+- **Holistic Platforms**: Another option is to develop a microservice on a holistic platform, such as Elastic Beanstalk or Google App Engine, which can map together authentication and other services. These platforms could be places where you could run microservices.
+
+![](../../images/microservices_ecosystem.png)
 
 
 ---
