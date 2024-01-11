@@ -24,6 +24,11 @@ This is a very complete, hand-on, medium level specialization based on cloud com
 
 - **Link to the Specialization in Coursera**: [Building Cloud Computing Solutions at Scale Specialization - Duke University & Coursera](https://www.coursera.org/specializations/building-cloud-computing-solutions-at-scale)
 
+
+- Link to the final project: [matiaspakua/ml-demo-project: Demostration project for the Specialization Building Cloud Computing Solutions at Scale](https://github.com/matiaspakua/ml-demo-project)
+
+--- 
+
 # Table of Contents
 
 1. [01: Cloud Computing Foundations](#01)
@@ -43,7 +48,7 @@ This is a very complete, hand-on, medium level specialization based on cloud com
 
 **Critical Thinking**: key points:
  - **Intellectual Humility**: realise that you are NOT Right.
- - **Courage**: fight for what you belive
+ - **Courage**: fight for what you believe
  - **Empathy**: go inside the mind of other.
  - **Autonomy**: go independently with your own ideas.
  - **Integrity**: be fair, be right, be sincere.
@@ -83,23 +88,23 @@ The key takeaway is that effective technical project management is about making 
 
 ## Project Management Anti-Patterns
 
-1. **Hero Driven Development:**
+1. **<mark style="background: #FFF3A3A6;">Hero Driven Development:</mark>**
     - Reliance on a hero who constantly saves the day.
     - Working nights and weekends, leading to burnout.
     - Indicates a lack of rigor in the development process.
-2. **Crisis-Driven Development:**
+2. **<mark style="background: #FFF3A3A6;">Crisis-Driven Development:</mark>**
     - Relying on crises to drive development.
     - Continuous firefighting and fixing mistakes.
     - Results in a chaotic and unsustainable work environment.
-3. **HIPPO Driven Development:**
+3. **<mark style="background: #FFF3A3A6;">HIPPO Driven Development:</mark>**
     - Decision-making driven by the "Highest-Paid Person's Opinion" (HIPPO).
     - Random changes based on executive input disrupt development.
     - Advocates for a more structured and pre-planned decision-making process.
-4. **Heavy Scrum:**
+4. **<mark style="background: #FFF3A3A6;">Heavy Scrum:</mark>**
     - Overreliance on mimicking successful processes.
     - Mimicking without understanding the underlying principles.
     - Emphasizes the importance of a lighter, more effective process.
-5. **Faith in People vs. Process:**
+5. **<mark style="background: #FFF3A3A6;">Faith in People vs. Process:</mark>**
     - Emphasizes the need for both faith in people and an effective process.
     - Caution against blind trust without incremental progress.
     - Advocates for a process where results are demonstrated incrementally.
@@ -278,7 +283,7 @@ Repo: https://github.com/matiaspakua/python-scaffold
 
 ## Infrastructure as Code (IaC)
 
-1. **Infrastructure as Code (IaC)**: A DevOps practice that manages infrastructure in a descriptive model, using the same versioning as source code.
+1. **Infrastructure as Code (IaC)**: <mark style="background: #FFF3A3A6;">A DevOps practice that manages infrastructure in a descriptive model, using the same versioning as source code.</mark>
 2. **Benefits of IaC**: IaC solves the problem of environment drift, enables consistent and repeatable deployments, and supports testing in production-like environments.
 3. **Idempotence**: A principle of IaC that ensures a deployment command always sets the target environment into the same configuration, regardless of the starting state.
 
@@ -358,7 +363,9 @@ Reference: [Containers vs VMs (redhat.com)](https://www.redhat.com/en/topics/con
 
 ## How Do Spot Instances Work?
 
-You can launch a spot instance using the AWS API or in the AWS console. Once you set up the key components of launching a spot instance, you’ll need to bid on an instance. You can bid what price you’d like to pay for the launch of a virtual machine. It could be up to 90% off, so it’s a huge savings. The key components of launching a spot instance are the size of the virtual machine, the security group, and the rules in the SSH key PEM file. The security group is important because it determines which port you can talk to when you launch the machine. Another component of the SSH mechanism is that you’ll have to use a PEM file and this will be the SSH key that will allow you to connect to that spot instance. Finally, if you wanted to do a separate API call, you would have to assign a role to the spot instance so that it had the ability to make those connections.
+ - The key components of launching a spot instance are the <mark style="background: #FFF3A3A6;">size</mark> of the virtual machine, the <mark style="background: #FFF3A3A6;">security group</mark>, and the <mark style="background: #FFF3A3A6;">rules in the SSH</mark> key PEM file. 
+ - The security group is important because it determines which port you can talk to when you launch the machine. Another component of the SSH mechanism is that you’ll have to use a PEM file and this will be the SSH key that will allow you to connect to that spot instance. 
+ - Finally, if you wanted to do a separate API call, you would have to assign a role to the spot instance so that it had the ability to make those connections.
 
 ![](../../images/spot_instance.png)
 
@@ -372,15 +379,53 @@ You can launch a spot instance using the AWS API or in the AWS console. Once you
 4. **Job Management**: Containers are useful in job management, especially when building and reproducing jobs repeatedly.
 5. **Portability and Usability**: Containers offer portability, which is particularly beneficial in DevOps and Data Sciences. They allow the runtime to be included with your project, making it completely reproducible. This is a key tenant of science.
 
+## Docker
+
+Docker is a product composed of Docker Desktop and Docker Hub. Docker Desktop is an application installed on your computer for local development. It includes a <mark style="background: #FFF3A3A6;">container runtime, developer tools, and a GUI</mark>. 
+
+It can interface with<mark style="background: #FFF3A3A6;"> Kubernetes to launch and control clusters</mark>. Docker Hub allows you to check things into a public or private repository, automate container builds via GitHub, and pull and use certified images. 
+
+Docker Desktop is more of a development environment, while Docker Hub is a collaborative environment. When using Docker, you can leverage the knowledge of core developers by pulling base images for your projects.
+
+![](../../images/docker_intro.png)
+
+Using DockerHub and Docker locally example:
+
+![](../../images/docker_hub_development.png)
+
+## Container Registry
+
+A container registry is a <mark style="background: #FFF3A3A6;">repository of container images</mark>. It is used to store and access these images for cloud-native applications³. Container registries can be public or private, and they play a crucial role in the deployment and scaling of applications that use microservices³.
+
+Microsoft Azure, for example, offers the Azure Container Registry, a fully managed, geo-replicated service that supports Docker and OCI images and artifacts¹. It provides features such as security, compliance, scalability, and automation for building, storing, and deploying container images and Helm charts¹. It also supports Azure Container Registry Tasks, a suite of services to build, manage, and patch container images².
+
+In summary, a container registry is an essential tool for <mark style="background: #FFF3A3A6;">managing the lifecycle of containers, from development to deployment</mark>¹²³.
+
+(1) What is a container registry? - Red Hat. https://www.redhat.com/en/topics/cloud-native-apps/what-is-a-container-registry.
+(2) Azure Container Registry | Microsoft Azure. https://azure.microsoft.com/en-us/products/container-registry/.
+(3) Azure Container Registry documentation | Microsoft Learn. https://learn.microsoft.com/en-us/azure/container-registry/.
+
+![](../../images/aws_container_registry.png)
+
+## Introduction to Kubernetes
+
+- **What is Kubernetes**: Kubernetes is an orchestration layer for containers, developed by Google in 2014. It's a useful tool for managing containerized applications.
+- **Installation**: It can be installed via Docker Desktop on Windows or Mac, or for more advanced users, using "Kubectl" and "Curl" commands.
+- **Key Features**: Kubernetes offers highly available architecture, auto-scaling, a rich ecosystem, service discovery, health management, and secrets and configuration management.
+- **Workflow**: The basic workflow involves creating a Kubernetes cluster, deploying your application into the cluster, exposing the port for external access, and auto-scaling based on traffic demands.
+- **Cluster Architecture**: A Kubernetes cluster consists of multiple nodes, each containing multiple pods, which in turn can contain multiple containers.
 
 
 
 
 
+
+
+---
 <a name="03"></a>
 # Course 03: Cloud Data Engineering
 
-
+---
 <a name="04"></a>
 # Course 04: Cloud Machine Learning Engineering and MLOps
 
