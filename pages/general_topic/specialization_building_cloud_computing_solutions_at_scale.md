@@ -15,11 +15,14 @@
 
 <button class="back-button" onclick="window.location.href='https://matiaspakua.github.io/tech.notes.io'">All notes</button>
 
+--- 
 # Introduction
 
 This is a very complete, hand-on, medium level specialization based on cloud computing. Goes from the basics to some advanced and very helpful examples. The examples show you the 3 main cloud vendors platform: AWS, Azure and GCP.
 
 ![The Roadmap](../../images/cloud_specialization_the_roadmap.png)
+
+- **Link to the Specialization in Coursera**: [Building Cloud Computing Solutions at Scale Specialization - Duke University & Coursera](https://www.coursera.org/specializations/building-cloud-computing-solutions-at-scale)
 
 # Table of Contents
 
@@ -28,7 +31,7 @@ This is a very complete, hand-on, medium level specialization based on cloud com
 3. [03: Cloud Data Engineering](#03)
 4. [04: Cloud Machine Learning Engineering and MLOps](#04)
 
-
+--- 
 <a name="01"></a>
 # Course 01: Cloud Computing Foundations
 
@@ -323,6 +326,7 @@ resource "aws_instance" "example" {
 ![](../../images/cd_deep_dive.png)
 
 
+---
 <a name="02"></a>
 # Course 02: Cloud Virtualisation, Containers and APIs
 
@@ -353,6 +357,23 @@ resource "aws_instance" "example" {
 Reference: [Containers vs VMs (redhat.com)](https://www.redhat.com/en/topics/containers/containers-vs-vms)
 
 ## How Do Spot Instances Work?
+
+You can launch a spot instance using the AWS API or in the AWS console. Once you set up the key components of launching a spot instance, you’ll need to bid on an instance. You can bid what price you’d like to pay for the launch of a virtual machine. It could be up to 90% off, so it’s a huge savings. The key components of launching a spot instance are the size of the virtual machine, the security group, and the rules in the SSH key PEM file. The security group is important because it determines which port you can talk to when you launch the machine. Another component of the SSH mechanism is that you’ll have to use a PEM file and this will be the SSH key that will allow you to connect to that spot instance. Finally, if you wanted to do a separate API call, you would have to assign a role to the spot instance so that it had the ability to make those connections.
+
+![](../../images/spot_instance.png)
+
+## Containers
+
+### When to use containers?
+
+1. **Cloud Native Environment**: Containers are excellent for building a cloud native environment due to advancements in managed Container Services and Kubernetes services.
+2. **Microservices**: Containers work well with the microservice workflow, where one service does one thing. They allow you to build something that’s reproducible.
+3. **DevOps**: Containers fit well into DevOps workflows. They allow you to programmatically build the Container and the source code, and deploy them using infrastructure as code.
+4. **Job Management**: Containers are useful in job management, especially when building and reproducing jobs repeatedly.
+5. **Portability and Usability**: Containers offer portability, which is particularly beneficial in DevOps and Data Sciences. They allow the runtime to be included with your project, making it completely reproducible. This is a key tenant of science.
+
+
+
 
 
 
@@ -394,9 +415,16 @@ These devices can have a camera and hardware that can do the prediction and then
 - What is 5G Technology and How Does it Work? - [TWI](https://www.twi-global.com/technical-knowledge/faqs/What-is-5G)
 - How 5G Works - HowStuffWorks [link](https://electronics.howstuffworks.com/5g.htm)
 
-### Hardware Inference Model Solutions in Edge Machine Learning
 
+### Using AI API
 
+The Boto 3 library is a Python-based library that can do many things on AWS. 
+
+Documentation: [AWS SDK for Python (amazon.com)](https://aws.amazon.com/sdk-for-python/)
+
+You can talk to any service in this case, including the AWS comprehensive service. You can write a script or function in Python that allows you to give it an image and then it can find what is in that image. You can also recognize text and put that into a fully server-less application like AWS Elastic Beanstalk. 
+
+The advantage of using an <mark style="background: #FFF3A3A6;">AI API is that you can really focus on the ML component and its engineering</mark>. You’re not focused on training a model that will probably do a worse job than the API that you can call from AWS comprehend. This is really a concept called <mark style="background: #FFB86CA6;">comparative advantage or CA</mark> and it says do the things that you’re the best at, let other people that are better at a specific thing do that. It’s the same concept when you’re using these AI APIs as focus on the building of the software and then call out to these other APIs and let them do the heavy lifting.
 
 # References
 
