@@ -451,6 +451,40 @@ One of the “killer” features of Kubernetes is the ability to set up auto-sca
 
 ![](../../images/microservices_ecosystem.png)
 
+## Operationalizing microservices
+
+
+![](../../images/operationalizing_microservices.png)
+
+A critical factor in developing a microservice is to think about the feedbaࢤ loop. In this diagram, a GitOps style workflow implements. • 
+
+-  Application stored in Git
+ - Changes in Git trigger the continuous delivery server, which tests and deploys it to a new environment. This environment configures as code Infrastructure as Code (IaC).
+ - The microservice, which could be a containerized service. It runs in Kubernetes or a FaaS (Function as a Service) running on AWS Lambda. This microservice has logging, metrics, and instrumentation included.
+ - A load test using a tool like locust
+ - When the performance and auto-scaling is verified, the code is merged to production and deployed
+
+Metrics can be deployed and viewed in Prometheus: [Advance Your Spring Development Skills | Tech-Notes (matiaspakua.github.io)](https://matiaspakua.github.io/tech.notes.io/pages/development/advance_your_spring_development_skills.html#02)
+
+![](../../images/microservices_monitoring.png)
+
+## Five-Why’s and Kaizen 
+
+One way our troubled company could have swapped Voodoo for a sane alert process was to use the Five Why’s method. In a nutshell, it originated from Kaizen, a process of continuous improvement, from the Japanese Automobile industry post-WWII. The Five Why’s strategy is to keep asking questions until the root cause appears. 
+
+Learn about the Five Whys in the following screencast. 
+[Video Link](https://www.youtube.com/watߴ?v=9jS3cwjIJEo)
+[Learn about Continuous Improvement in the following screencast](https://www.youtube.com/watߴ?v=mZVbUbYwFQo)
+
+## Introduction to Flask
+
+This lesson focuses on **Flask**, a popular lightweight web framework in Python. It’s widely used for building microservices and mapping Python code to web URL routes.
+
+**APIs**, which define interactions between services, and **JSON** (JavaScript Object Notation), a common data-interchange format used with APIs. When building a microservice, the core components are a Flask application, an API, and JSON. These elements work together to form a microservice.
+
+![](../../images/flask_microservicios.png)
+
+
 
 ---
 <a name="03"></a>
