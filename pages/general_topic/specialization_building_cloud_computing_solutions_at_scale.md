@@ -478,12 +478,78 @@ Learn about the Five Whys in the following screencast.
 
 ## Introduction to Flask
 
+**Official Documentation**: [Welcome to Flask — Flask Documentation](https://flask.palletsprojects.com/en/3.0.x/)
+
 This lesson focuses on **Flask**, a popular lightweight web framework in Python. It’s widely used for building microservices and mapping Python code to web URL routes.
 
 **APIs**, which define interactions between services, and **JSON** (JavaScript Object Notation), a common data-interchange format used with APIs. When building a microservice, the core components are a Flask application, an API, and JSON. These elements work together to form a microservice.
 
 ![](../../images/flask_microservicios.png)
 
+## Introduction to Serverless Microservices
+
+**Serverless Architecture** is an application delivery model where cloud providers automatically intercept user requests and computing events to dynamically allocate and scale compute resources. This allows you to run applications without having to provision, configure, manage, or maintain server infrastructure. 
+
+**A Serverless REST API**
+
+Assuming AWS as the cloud vendor, a Serverless REST API consists of three main components:
+
+1. **API Gateway**: This is responsible for receiving HTTP requests. It acts as the entry point for the client to interact with the serverless application.
+
+2. **Lambda Functions**: These are the functions that are triggered by the API Gateway. They receive these requests and execute upon them. The code for these functions is written by developers and can be in any language supported by AWS Lambda.
+
+3. **DynamoDB**: This is a NoSQL database service provided by AWS, which is used to store and retrieve data. The Lambda functions interact with DynamoDB to fetch or store data as per the request.
+
+In this architecture, when a client sends an HTTP request, the API Gateway receives it and triggers the corresponding Lambda function. The Lambda function then processes the request, interacts with DynamoDB if necessary, and sends the response back to the client via the API Gateway.
+
+ - A Guide to Serverless Architecture. https://www.serverless.com/blog/serverless-architecture.
+ - What is Serverless Architecture | Google Cloud. https://cloud.google.com/discover/what-is-serverless-architecture.
+ - serverless/examples: Serverless Examples - GitHub. https://github.com/serverless/examples.
+
+
+## AWS Step function
+
+ - **Official Documentation**: [What is AWS Step Functions? - AWS Step Functions](https://docs.aws.amazon.com/step-functions/latest/dg/welcome.html)
+
+![](../../images/aws_step_function_ec2Isolation.png)
+
+
+## AWS S3 trigger
+
+![](../../images/aws_s3_trigger.png)
+
+## AWS Serverless Application Model (SAM)
+
+The AWS Serverless Application Model (AWS SAM) is a toolkit designed to enhance the developer experience of building and running serverless applications on AWS. It consists of two main components:
+
+- **AWS SAM template specification**: This is an open-source framework that allows you to define your serverless application infrastructure on AWS. It's built on AWS CloudFormation, meaning you can use the AWS CloudFormation syntax directly within your AWS SAM template. It also offers its own unique syntax that focuses specifically on speeding up serverless development. The AWS SAM syntax is abstract, short-hand, and transformational, allowing you to define your infrastructure quickly, in fewer lines of code, and with a lower chance of errors.
+
+- **AWS SAM command line interface (AWS SAM CLI)**: This is a command line tool that you can use with AWS SAM templates and supported third-party integrations to build and run your serverless applications. It allows you to select from starter templates or choose a custom template location to begin a new project, package your function dependencies, simulate events, test APIs, invoke functions, configure your application's deployment settings, create secure continuous integration and delivery (CI/CD) pipelines, view important information about your deployed resources, gather logs, and utilize built-in monitoring tools such as AWS X-Ray.
+
+In essence, AWS SAM helps you manage your serverless application through the authoring, building, deploying, testing, and monitoring phases of your development lifecycle. It also enables you to define permissions between your AWS resources and automatically sync local changes to the cloud, speeding up your development and cloud testing workflows. It's best utilized when used with AWS SAM and AWS CloudFormation templates, but it also works with third-party products such as Terraform.
+
+
+## Event-Driven vs. Polling
+
+A key advantage of serverless programming is the ability to write code that reacts to events, rather than continuously checking for results.
+
+**Event-Driven Programming**: This is a programming paradigm where the flow of the program is determined by events such as user actions, sensor outputs, or messages from other programs. In serverless architectures, functions are triggered by events.
+
+**Polling**: This is a coding technique where your program continually checks for conditions to be met. It’s like repeatedly asking, “Is the data ready yet?” until the answer is yes. While polling can be simple to implement, it can lead to inefficiencies. 
+
+The key difference between the two lies in how they handle waiting for something to happen. 
+
+In the context of serverless programming, event-driven architectures are often preferred because they allow the system to be more responsive and efficient. Instead of continuously checking for changes (polling), the system can sit idle and react when an event occurs. 
+
+## Introduction to Monitoring and Alerts
+
+- **Alerting Importance**: Alerting plays a crucial role in organizations, especially in SaaS companies. It helps identify issues and fix them promptly.
+- **Alerting Challenges**:  As the software products faced more problems and the team didn’t have time to fix them due to a rapid development cycle, the alerts became disruptive, often waking the team up at odd hours.
+- **Alerting Evaluation**: evaluate the alerts and try to find discernible pattern.
+- **Alerting Experiment**: in a experiment a company turn off the alerts for a month as an experiment, and nothing adverse happened. This led to the realization that they had been caught in a “cargo cult” way of thinking about alerts, which was more damaging than helpful.
+- **Key Takeaway**: having too many alerts can be counterproductive. It’s essential to ensure that alerts are meaningful and actionable.
+
+![](../../images/metrics_and_logs.png)
 
 
 ---
