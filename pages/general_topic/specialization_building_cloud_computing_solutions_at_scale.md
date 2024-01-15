@@ -596,11 +596,46 @@ An excelent tools for monitoring is prometheus:
 Reference: [Five whys - Wikipedia](https://en.wikipedia.org/wiki/Five_whys)
 
 
-
-
 ---
 <a name="03"></a>
 # Course 03: Cloud Data Engineering
+
+## The Problem with Concurrency in Python
+
+- **Python and Concurrency**: the challenges of concurrency in Python, which originated from the early days of the internet when multi-core machines were not common. Python uses a mechanism called the Global Interpreter Lock (GIL) that locks Python threads to one core.
+    
+- **Limitations of GIL**: While GIL is not a problem for single-core machines, it becomes a bottleneck when dealing with multi-core systems as it prevents Python from fully utilizing all cores. This makes Python less suitable for certain server problems that require high levels of concurrency.
+    
+- **Alternative Solutions**: cloud-based solutions like AWS Lambda and SQS to achieve high levels of concurrency, effectively treating the cloud as an operating system. Take care for using Python for building servers due to its concurrency limitations.
+
+## Introduction to the End of Moore's Law
+
+![](../../images/end_moore_law.png)
+
+- **End of Moore’s Law**:  states that the speed of single programs has stopped growing. This is attributed to the inefficiencies introduced by multi-core machines and the diminishing returns of parallel code execution.
+
+**Moore's Law** is an observation made by Gordon Moore, co-founder of Intel, in 1965. <mark style="background: #FFF3A3A6;">He noticed that the number of transistors that could fit on a microchip was doubling approximately every two years</mark>². This led to an increase in computing power and a decrease in cost over time².
+
+<mark style="background: #FFF3A3A6;">However, experts predict that Moore's Law will end sometime in the 2020s.</mark> This is because as transistors become smaller, they will reach a physical limit where they can't be made any smaller. Additionally, as circuits get smaller, they generate more heat, which can cause them to fail.
+
+The end of Moore's Law doesn't mean the end of technological progress. <mark style="background: #FFF3A3A6;">Instead, it signifies a shift in focus from miniaturization of existing technologies to the introduction of new devices, integration technologies, and computing </mark>architectures. For example, the industry is moving towards Application Specific Integrated Circuits (ASICs) like GPUs and Tensor Processing Units (TPUs), which are designed for specific tasks and offer high levels of parallel processing.
+
+<mark style="background: #BBFABBA6;">So, the end of Moore's Law is not a dead-end, but rather a new beginning for information technology.</mark>
+
+- **Shift to ASICS**: As a response to this challenge, the industry is shifting towards Application Specific Integrated Circuits (ASICS), such as GPUs. These devices, like NVIDIA GPUs, are designed for parallel coding and are supported by toolkits like CUDA.
+    
+- **Emergence of TPUs**: Tensor Processing Units (TPUs), designed to work with machine learning frameworks like TensorFlow, are emerging as a new player. Google, for instance, has been using TPUs since 2015 for various applications including search and translation.
+    
+- **CPU vs ASICs**: While CPUs are designed for general-purpose processing, ASICs like GPUs and TPUs are tailored for specific tasks, offering a potential solution to the challenges posed by the end of Moore’s law.
+
+## CUDA
+
+![](../../images/cuda.png)
+
+## ASIC
+
+![](../../images/asic.png)
+
 
 ---
 <a name="04"></a>
