@@ -551,6 +551,49 @@ In the context of serverless programming, event-driven architectures are often p
 
 ![](../../images/metrics_and_logs.png)
 
+## Load Testing
+
+- **Effective Load Testing**: is a type of performance testing that simulates realistic user traffic and workload on a system or application.
+- **Load Testing Tools**:  such as JMeter, LoadRunner, Gatling, and Locust.
+- **Load Testing Process**:  defining the test objectives, designing the test scenarios, executing the test, and analyzing the results.
+- **Load Testing Metrics**: response time, throughput, error rate, and resource utilization.
+
+Tool: [Locust - A modern load testing framework](https://locust.io/)
+
+![](../../images/locust_main.png)
+
+![](../../images/locust_graph.png)
+
+
+An excelent tools for monitoring is prometheus: 
+
+## Introduction to Kaizen
+
+![](../../images/kaizen.png)
+
+- **Continuous Improvement in Sports and Software**: Just as athletes strive to enhance their performance, continuous improvement applies to source code or cloud-based projects. The goal is to constantly seek ways to make things better, more visible, and reliable.
+    
+- **Learning from Past Failures**: The failure was attributed to the lack of a continuous improvement process.
+    
+- **Systematic Improvement**: The solution to past-failures involved identifying how to make things better systematically, not fixing everything at once, but piece-by-piece, finding bugs, and making it continuously tested and improved.
+    
+- **Daily Choice**: Continuous improvement is a daily choice that your team or company can make. It involves trying to do just a little bit at a time to fix a problem, get to the root cause, and ultimately have a reliable product.
+    
+- <mark style="background: #FFF3A3A6;">**Risk of Degradation**: While you can continuously improve, you can also continuously degrade. Even successful projects need daily improvements to prevent degradation. The expression “you’re either getting better or you’re getting worse” is emphasized.</mark>
+
+## What are the 'Five Whys'?
+
+- **Five Whys Method**: This interactive technique iteratively questions the cause of a problem, and is often used in conjunction with kaizen for continuous improvement.
+    
+- **Hypothetical Scenario**:  The Five Whys method is applied to this scenario to identify the root cause.
+    
+- **Root Cause Identification**: Through a series of “why” questions, it’s revealed that the root cause of the delay is a miscommunication issue where the CEO was unaware of the proper procedure for making feature requests.
+    
+- **Solution**: The Five Whys method helps to uncover these subtle miscommunications, leading to a permanent solution. It’s applicable not just for late features, but also for software bugs and misinformation.
+
+<mark style="background: #FFF3A3A6;">This method emphasizes the importance of understanding the root cause of a problem for effective problem-solving and continuous improvement.</mark>
+
+Reference: [Five whys - Wikipedia](https://en.wikipedia.org/wiki/Five_whys)
 
 
 
