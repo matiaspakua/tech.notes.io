@@ -552,6 +552,9 @@ In the context of serverless programming, event-driven architectures are often p
 ![](../../images/metrics_and_logs.png)
 
 
+
+
+
 ---
 <a name="03"></a>
 # Course 03: Cloud Data Engineering
