@@ -628,14 +628,39 @@ The end of Moore's Law doesn't mean the end of technological progress. <mark sty
     
 - **CPU vs ASICs**: While CPUs are designed for general-purpose processing, ASICs like GPUs and TPUs are tailored for specific tasks, offering a potential solution to the challenges posed by the end of Moore’s law.
 
+ - **Paper**: [The Past is Prologue: A New Golden Age for Computer Architecture](https://riscv.org/wp-content/uploads/2018/12/A-New-Golden-Age-for-Computer-Architecture-History-Challenges-and-Opportunities-David-Patterson-.pdf)
+
+
 ## CUDA
 
 ![](../../images/cuda.png)
+
+- **Numba**: is a library that allows for GPU programming or Just-In-Time compilation. It offers various techniques and examples for usage.
+
+- **CUDA Coding**: CUDA is a method of GPU programming specific to Nvidia. 
 
 ## ASIC
 
 ![](../../images/asic.png)
 
+- **ASICs**: ASIC stands for Application Specific Integrated Circuit. Unlike a CPU, which is designed for many tasks, an ASIC is a chip designed for a specific purpose.
+    
+- **TPUs**: Tensor Processing Units (TPUs) are ASICs designed by Google to optimize machine learning code using the TensorFlow framework. They can even run TensorFlow Lite models on edge-based devices.
+    
+- **GPUs**: Graphics Processing Units (GPUs) are ASICs designed for graphics programming. They have many cores for parallel processing, making them different from CPUs.
+    
+- **Intel Neural Compute Stick**: This is an edge-based compute stick optimized for inference on the edge. It can be plugged into a mobile computing framework like Raspberry Pi for predictions.
+    
+- **Future of ASICs**: The prevalence of ASICs is expected to increase, especially in computer vision. It’s important to master these technologies for future developments.
+
+## Comparison
+
+ - CPU:
+![](../../images/cpu.png)
+ - GPU:
+![](../../images/gpu.png)
+ - TPU:
+![](../../images/tpu.png)
 
 ---
 <a name="04"></a>
