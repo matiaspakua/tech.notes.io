@@ -744,9 +744,63 @@ Techniques for debugging Python code, a critical component in modern Data System
 
 - **Software Engineering Best Practices**:  develop distributed systems that apply best practices like logging instrumentation and continuous delivery. These techniques are crucial for building a functional distributed system.
 
+## Introduction to Big Data
 
+- **Definition of Big Data**: <mark style="background: #FFF3A3A6;">Big data is a term that refers to data sets that are too large to be handled by traditional data-processing software and typically can’t fit on a laptop.</mark>
+- **Tool Limitations**: Tools like pandas in Python are designed for smaller data sets and require 10 times the amount of RAM as the data set. This makes it impractical for handling big data on a laptop.
+- **Big Data Tools**: In the big data world, tools like Spark or Athena are used. These tools can distribute the load across multiple machines, making it possible to handle big data.
+- **Right Tool for the Job**: Just like choosing the right vehicle for a specific journey, it’s important to choose the right tool for the data job at hand.
 
+## The three V's of Big Data
 
+![](../../images/big_data_challenges.png)
+
+- **Variety**: Big data comes in many forms such as CSV, binary, SQL files, APIs, and key-value databases. This variety requires specialized tools like AWS Glue for data wrangling.
+- **Velocity**: The speed at which data is generated can be a challenge. For instance, a social media company could have millions of requests per second. Solutions include stream processing systems like Spark or batch processing.
+- **Volume**: The sheer size of big data, which can be in terabytes or petabytes, necessitates the use of specialized tools and sufficient resources in terms of CPU, memory, and disk IO. This volume of data typically can’t be handled on a laptop.
+
+Web Reference: [Chapter05 Cloud Storage Pragmatic AI Labs and Solutions](https://paiml.com/docs/home/books/cloud-computing-for-data/chapter05-cloud-storage/#the-three-vs-of-big-data--variety-velocity-and-volume)
+
+## Data Lakes
+
+- **Data Lake Concept**: A data lake is a large storage repository that holds a vast amount of raw data in its native format until it is needed. It’s similar to a lake that holds water for a town or city.
+- **Data Processing**: Once the data flows into this lake, it can be processed in the same spot that the data lives. This is a key takeaway with a data lake.
+- **S3 and Scalability**: S3 has higher reliability and the ability to infinitely scale up in terms of the requests. You can directly access that S3 location, and do analytics on the data lake.
+- **Machine Learning**: If the data is already in S3 or whatever cloud-based data lake system you’re using, your machine learning system can directly access that data, process it, do the training, and then put the model back down into the data lake.
+- **Cost Efficiency**: It’s a very low cost storage system, potentially much lower than buying that hard.
+
+## Big Data Processing
+
+![](../../images/big_data_processing.png)
+
+- **Big Data Pipeline**: a pipeline includes historical data, real-time data, and predictive data. Each type of data requires different tools and technologies due to the nature of the time-based approach to big data processing.
+- **Historical Data**: This refers to past data, such as sales or customer numbers. It’s used to report what happened in the past and requires specialized tools for queries.
+- **Real-Time Data**: This involves current data, such as ad bidding networks or spark data for real-time predictions.
+- **Predictive Data**: This is future-oriented and includes machine learning, deep learning, forecasting, fraud detection, and recommendation engines.
+- **Data Engineering Problem**:  a real-world data engineering problem is when you start with a local computer and a one-gigabyte file. You’ll need to preprocess the data, realize the need for more specialized tools, break up the process into many steps, and perform a parallel copy operation, such as copying 1,000 files to the data lake S3. Later, a sentiment analysis system can be triggered.
+
+## Feedback data loop
+
+![](../../images/big_data_feedback_loop.png)
+
+- **Data Feedback Loop**:  This loop begins with users generating data, which eventually builds up into big data characterized by the three V’s: velocity, variety, and volume.
+- **Analytics and Predictions**: The big data can be transformed into analytics and predictions using artificial intelligence, machine learning, and deep learning techniques.
+- **Product Creation**: <mark style="background: #FFF3A3A6;">The ultimate goal of the data feedback loop is to turn these analytics and predictions into a product, such as a recommendation system, a translation service, or a self-driving car.</mark>
+- **Holistic Approach**: is very important considering the entire cycle of the data feedback loop when creating AI or machine learning products.
+
+## The Challenges of Big-Data engineering
+
+Different modes of transportation solve various problems. A car can get you into the city at your convenience but only transports a few people. A train or metro transports thousands but has a specific schedule. A bike can go 50 miles in a day but typically only carries one person and is slower than a car. A tractor can easily dig a trench in an hour to take a team of people a week, but it isn't ideal for a commute to work.
+
+Big Data Platforms are similar in that they can move data around, just like a tractor can move dirt around. So what are five limitations to Big Data Platforms?
+
+ 1. **Specialized Skills**: Big Data platforms often require specialized skills and knowledge to use efficiently. They may be secured with firewalls or private clouds, making it difficult to transfer and use data between multiple teams.
+2. **Complexity and Cost**: Working with big data can be complex and expensive. It requires investments in storage solutions, analytics tools, and cybersecurity and governance programs.
+3. **Data Overload**: A large amount of data can be difficult to wade through and is liable to produce flukes that are too difficult to detect. This can make it challenging to yield clear correlations and answers needed to make informed decisions.
+4. **Privacy and Security**: Big data platforms can potentially expose sensitive information, such as company data that competitors could use, financial data that could give hackers access to accounts, or personal user information that could be used for identity theft.
+5. **Ethical Challenges**: The misuse of big data can lead to data workflows bypassing the intent of privacy and data protection law, as well as ethical mandates.
+
+## Introduction to Data Engineering
 
 ---
 <a name="04"></a>
@@ -796,9 +850,6 @@ The advantage of using an <mark style="background: #FFF3A3A6;">AI API is that yo
 
 # References
 
-Course #01: https://www.coursera.org/learn/cloud-computing-foundations-duke/home/welcome
-
-Notes from pragmatic IA Lab: https://paiml.com/docs/home/books/cloud-computing-for-data/chapter01-getting-started/
-
 Repo with example: [noahgift/gcp-flask-ml-deploy: This is a project to auto-deploy with an ML payload (github.com)](https://github.com/noahgift/gcp-flask-ml-deploy)
 
+Web Book: [Cloud Computing for Data Pragmatic AI Labs and Solutions](https://paiml.com/docs/home/books/cloud-computing-for-data/)
