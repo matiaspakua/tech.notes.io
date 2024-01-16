@@ -662,6 +662,92 @@ The end of Moore's Law doesn't mean the end of technological progress. <mark sty
  - TPU:
 ![](../../images/tpu.png)
 
+## Introduction to Distributed Systems
+
+## Instrumentation
+
+The key aspects of building logging instrumentation for a distributed system to monitor and debug the system’s behavior.
+
+- **Logging and Instrumentation**: These are crucial for building a system in the cloud. They provide insights into the system’s performance, such as CPU usage, memory, and Disk I/O.
+    
+- **Data Science for Software Engineering**: Logging and instrumentation can be seen as data science for software engineering, providing valuable data about the system.
+    
+- **Visibility Across the System**: Having a centralized location for logs is essential for identifying problems in a distributed system. For example, if a few nodes out of a hundred have issues, proper logging can help pinpoint these nodes.
+    
+- **Importance for Software Engineers**: Setting up logging instrumentation is a critical skill for high-tier software engineers, as it enables effective system maintenance.
+  
+## CAP Theorem & Amdahl’s Law
+
+![](../../images/cap_theorem.png)
+
+- **CAP Theorem**: <mark style="background: #FFF3A3A6;">This is a fundamental theorem in distributed computing, stating that there’s a trade-off between consistency, availability, and fault-tolerance. You can only have two out of these three.</mark>
+    
+- **Consistency, Availability, and Fault-Tolerance**: Consistency ensures the same data is received for every request. Availability ensures every request receives a response. Fault-tolerance ensures the system continues to function even when messages drop between nodes.
+    
+- **Relational Databases and CAP Theorem**: Historically, consistency was the primary driver of relational databases, often leading to scale issues due to the trade-off between fault-tolerance and availability.
+    
+- **Read Replicas**: These are associated with a relational database and are highly available. However, they may compromise on fault-tolerance and consistency.
+    
+- **Key-Value Databases**: These databases, like Amazon DynamoDB, have furthered the trade-off between consistency, availability, and fault-tolerance. DynamoDB is eventually consistent, allowing it to scale out to any number of requests.
+
+![](../../images/ahmdehl_law.png)
+
+- **Amdahl’s Law**: <mark style="background: #FFF3A3A6;">This law describes the diminishing returns of parallelization. Even if you distribute tasks across all cores, the speedup is not proportional to the number of cores due to the overhead of distributing and locking the code.</mark>
+    
+- **Python and GIL**: Python has the Global Interpreter Lock (GIL) which restricts execution to one core, limiting its ability to distribute tasks among many cores.
+    
+- **Diminishing Returns**: Even with highly parallel operations, such as deep learning tasks, the benefits taper off after a certain number of cores. For example, doubling the speed with highly parallel code doesn’t yield significant benefits after about 50 cores.
+    
+- **Real-World Multicore Programming**: In practical scenarios, most code isn’t purely parallel and may involve waiting for network or disk operations. Thus, multicore programming often doesn’t provide a large return on investment for everyday tasks. It’s more beneficial for specialized tasks like deep learning.
+    
+- **Dependence on Problem and Environment**: The effectiveness of parallel processing depends on the type of problem you’re working with and the environment you’re running it on.
+
+## Elasticity
+
+Highlights the system’s ability to adapt to varying loads by spinning up more resources like Virtual Machines or networking.
+
+![](../../images/elasticity.png)
+
+- **Elasticity in Cloud Computing**: <mark style="background: #FFF3A3A6;">Elasticity is a key attribute of modern cloud computing best practices. It allows automatic scaling of resources based on demand, which is crucial for efficient resource management and cost savings.</mark>
+    
+- **Scale Up**: When demand increases (e.g., during Christmas or the Super Bowl), the system can automatically add new nodes based on CPU metrics. For instance, if any node reaches 75% CPU usage, the system can increase the number of nodes from 5 to 10.
+    
+- **Scale Down**: Conversely, when demand decreases, the system can also scale down. For example, if the CPU usage of the machines drops below 25%, the system can reduce the number of nodes to a minimum of three.
+    
+- **Importance**: Mastering elasticity is crucial for effective cloud engineering. It allows for automated response to demand fluctuations, ensuring optimal resource utilization and cost efficiency.
+
+
+## High Availability
+
+Explains the concept of a highly available architecture, which can respond to requests despite increased traffic.
+
+![](../../images/availability.png)
+
+- Reference to Load Balancer: [[advance_your_spring_development_skills]]
+
+The concept of **High Availability** in cloud computing, often referred to as “Nine Nines”. Here are the key points:
+
+- **High Availability**: <mark style="background: #FFF3A3A6;">This is a characteristic of a system that aims to ensure an agreed level of operational performance for a higher than normal period.</mark>
+    
+- **Nine Nines**: It’s a measure of the durability or availability of a system. The more nines, the more reliable the system is. For instance, “Five Nines” (99.999%) means the system is guaranteed to be operational 99.999% of the time.
+    
+- **Importance**: High availability is crucial in today’s digital age where any downtime can lead to significant losses. Therefore, systems are designed to be resilient with redundancies to reduce the chances of downtime.
+    
+- **Chat Support**: The text also mentions a chat support feature, indicating the system’s commitment to provide immediate assistance to users.
+
+
+## Python Debugging
+
+Techniques for debugging Python code, a critical component in modern Data Systems.
+
+![](../../images/cloud_computing_debbuging.png)
+
+- **Software Engineering Best Practices**:  develop distributed systems that apply best practices like logging instrumentation and continuous delivery. These techniques are crucial for building a functional distributed system.
+
+
+
+
+
 ---
 <a name="04"></a>
 # Course 04: Cloud Machine Learning Engineering and MLOps
