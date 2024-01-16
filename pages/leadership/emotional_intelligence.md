@@ -40,7 +40,7 @@ Emotional intelligence, or EQ, is the ability to be aware of your emotions and t
 - **Nature of Emotions**: Emotions are complex constructs in our brain that guide our responses to events. They can vary in intensity and can be pleasant or unpleasant.
 - **Individual Variation**: There is significant variation in emotional responses among individuals, and even within the same individual at different times.
 - **Impact of Emotions**: Emotions can affect our behavior and relationships, and play a role in how we interpret the world.
-- **Building Emotional Awareness**: The text suggests a practice of self-reflection, especially after challenging situations, to better understand and manage emotions.
+- **Building Emotional Awareness**: practice of self-reflection, especially after challenging situations, to better understand and manage emotions.
 
 ### Managing your Mindset
 
@@ -56,7 +56,7 @@ Emotional intelligence, or EQ, is the ability to be aware of your emotions and t
 - **Concept of Flow**: Flow is a term from positive psychology. It refers to the state of being so absorbed in an activity that you enjoy and are good at, that time seems to stand still.
 - **Benefits of Flow**: Working in a state of flow can enhance your performance, develop your skills, and support your psychological wellbeing. It can also help you tackle challenges effectively and increase your chances of reaching your potential.
 - **Flow and Emotions**: Flow is a positive experience emotionally. It can lead to feelings of engagement, interest, and achievement, translating to positive emotions.
-- **Reflection**: The text encourages reflection on what activities induce a state of flow for you, challenging and stretching you in a positive way.
+- **Reflection**: on what activities induce a state of flow for you, challenging and stretching you in a positive way.
 
 
 --- 

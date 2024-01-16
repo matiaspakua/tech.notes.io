@@ -429,7 +429,7 @@ One of the “killer” features of Kubernetes is the ability to set up auto-sca
 ## Introduction to Microservices
 
 - **Microservice Architecture**: Microservices are small, specialized, and autonomous services that are a significant part of new Cloud-native architectures. They are a part of a larger DevOps practice which includes continuous delivery, continuous integration, and best practices around monitoring and alerting.
-- **Types of Microservice Architectures**: The text discusses different types of microservice architectures, including event-driven web services. The success or failure of a project can depend on the chosen architecture.
+- **Types of Microservice Architectures**: event-driven web services. The success or failure of a project can depend on the chosen architecture.
 - **Serverless Computing**: Serverless is a paradigm where you can run code without provisioning servers, eliminating the need to worry about low-level details of provisioning machines. AWS Lambda, Google Cloud Functions, and Azure functions are examples of this, where they can map to different events. This is considered one of the best advancements in modern computing.
 
 ![](../../images/microservices_architecture.png)
@@ -732,8 +732,6 @@ The concept of **High Availability** in cloud computing, often referred to as �
 - **Nine Nines**: It’s a measure of the durability or availability of a system. The more nines, the more reliable the system is. For instance, “Five Nines” (99.999%) means the system is guaranteed to be operational 99.999% of the time.
     
 - **Importance**: High availability is crucial in today’s digital age where any downtime can lead to significant losses. Therefore, systems are designed to be resilient with redundancies to reduce the chances of downtime.
-    
-- **Chat Support**: The text also mentions a chat support feature, indicating the system’s commitment to provide immediate assistance to users.
 
 
 ## Python Debugging
