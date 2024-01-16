@@ -802,6 +802,18 @@ Big Data Platforms are similar in that they can move data around, just like a tr
 
 ## Introduction to Data Engineering
 
+<mark style="background: #FFF3A3A6;">Data engineering is the practice of building pipelines that transport or transform data periodically</mark>. It involves:
+
+- **Software Engineering**: Data engineering is centered around software engineering best practices for data movement and transport.
+- **Big Data Operations**: Data engineers may work with big data tools like Spark.
+- **Event-Driven Infrastructures**: They could build event-driven infrastructures using tools like AdaBoost lambda.
+- **Routine Jobs**: Data engineers may handle routine tasks, such as nightly jobs that gather analytics and generate sales forecasts for the executive team.
+
+## Batch vs. Streaming vs. Events
+
+
+
+
 ---
 <a name="04"></a>
 # Course 04: Cloud Machine Learning Engineering and MLOps

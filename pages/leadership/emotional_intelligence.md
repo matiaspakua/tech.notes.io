@@ -27,7 +27,9 @@ Emotional intelligence, or EQ, is the ability to be aware of your emotions and t
 
 - **Four Quadrants of EQ**: The four quadrants of emotional intelligence are self-awareness, self-management, social awareness, and relationship management.
 
-## Emotions
+## Being Self-Aware
+
+### Emotions
 
 ![](../../images/emotions_cycle.png)
 
@@ -36,14 +38,16 @@ Emotional intelligence, or EQ, is the ability to be aware of your emotions and t
 - **Impact of Emotions**: Emotions can affect our behavior and relationships, and play a role in how we interpret the world.
 - **Building Emotional Awareness**: The text suggests a practice of self-reflection, especially after challenging situations, to better understand and manage emotions.
 
-## Managing your Minset
+### Managing your Mindset
 
 - **Information Processing**: Your brain is constantly processing a multitude of information from your surroundings and your body, even when you're not consciously aware of it.
 - **Cognitive Shortcuts**: To avoid feeling overwhelmed, your brain uses cognitive shortcuts to focus on important information and make quick decisions.
 - **Emotional Triggers**: Certain events or situations can trigger negative emotional responses, leading to unhelpful interpretations of the situation and potentially detrimental behavioral responses.
 - **Self-Reflection**: It's beneficial to pause, reflect, and identify recurring emotional responses or thought patterns that may be hindering your progress or well-being.
 
-## Finding your Flow
+### Finding your Flow
+
+![](../../images/finding_your_flow.png)
 
 - **Concept of Flow**: Flow is a term from positive psychology. It refers to the state of being so absorbed in an activity that you enjoy and are good at, that time seems to stand still.
 - **Benefits of Flow**: Working in a state of flow can enhance your performance, develop your skills, and support your psychological wellbeing. It can also help you tackle challenges effectively and increase your chances of reaching your potential.
@@ -59,3 +63,57 @@ Emotional intelligence, or EQ, is the ability to be aware of your emotions and t
 
 ---
 
+## Managing Your Self
+
+### Disrupting thoughts and emotional intelligence
+
+![](../../images/disrupting_thoughts.png)
+
+The <mark style="background: #FFF3A3A6;">ABCDE model from cognitive behavioral coaching methodology</mark>, is a step-by-step process to manage challenges and emotions:
+
+- **Activating Event**: The situation you’re in.
+- **Beliefs**: Your thoughts and emotional responses to the event.
+- **Consequences**: The outcome of your response to the event.
+- **Disrupting Thought**: Replacing your beliefs and feelings about the event with more useful ones for a better result.
+- **Effect**: The outcome of changing your beliefs, feelings, and potentially your emotions about the situation.
+
+Take importance of <mark style="background: #FFF3A3A6;">being objective</mark> when describing the event and considering your beliefs about it. The goal is to disrupt negative or unhelpful beliefs and observe the effect of this change on the situation.
+
+### Dealing with stressful situations
+
+![](../../images/stressful_situations.png)
+
+- **Emotional Impulse**: Acting on emotional impulse means being led by emotions, which can be both positive and negative. The outcome depends on the situation and the type of emotion.
+
+- **Reaction Time**: The time between experiencing a thought, feeling, and responding can be quick. Slowing down reaction time is key to managing emotional responses.
+
+- **Steps to Manage Emotions**:
+    - **Step 1**: Identify when you’re reacting emotionally and feel that you could be more objective.
+    - **Step 2**: When emotions such as anger or fear arise, take a step back and give yourself some breathing space. Regulate your breathing with deep, long breaths.
+    - **Step 3**: Give yourself time to recover and let your body settle. Avoid making decisions until your emotions have settled.
+    - **Finally**: Choose how you will respond. You may stick with your initial reaction or decide on an alternative approach. The key is to give yourself time to consider your response.
+
+### Shift perspective to shape behavior
+
+![](../../images/shift_perspective.png)
+
+- **Open-mindedness**: Encourages seeing things from different points of view, which can lead to new learnings and better understanding of situations.
+
+- **Active Seeking**: Suggests actively seeking out alternative opinions and arguments, which can lead to innovative approaches to challenges.
+
+- **Questioning and Listening**: Recommends asking more questions and listening to others’ views to broaden perspective and build relationships.
+
+- **Networking**: Advocates spending time with new people outside of one’s normal peer group to gain different perspectives.
+
+- **Reading**: Stresses the importance of reading broadly and continuously learning to explore alternative points of view. Even a simple routine of reading during commute or before bed can help.
+
+- **Outcome**: The ability to broaden personal perspective is a common skill displayed by high performing individuals. It helps in making informed decisions and building successful relationships.
+
+## Social Awareness
+
+![](../../images/social_awareness.png)
+
+- **Emotional Intelligence**: Developing self-awareness and social awareness is crucial for enhancing emotional intelligence. This involves understanding how you process information and applying it to build collaborative and rewarding relationships.
+- **Sensory Audit**: A sensory audit, where you focus on what you see, hear, and feel, can help develop social awareness. This involves paying attention to the details of your surroundings and using your senses to process information about others.
+- **Interpersonal Dynamics**: By observing facial expressions, body language, and tone of voice, you can gain insights into what people are thinking and the dynamics between people.
+- **Mindfulness**: The technique requires mindfulness and practice to step outside of oneself and immerse in the surroundings. It’s about noticing the information that is often in front of us but overlooked due to juggling various demands, priorities, and emotions.
