@@ -128,3 +128,38 @@ Take importance of <mark style="background: #FFF3A3A6;">being objective</mark> w
 - **Understanding Perspectives**: shifting the focus from empathy to understanding perspectives. This involves acknowledging and respecting others’ views without necessarily feeling their emotions.
 - **Active Exploration**: It encourages active exploration of others’ perspectives during interactions, asking questions to learn more, and avoiding assumptions about others’ experiences.
 - **Preparation**: Before interacting with others, it’s beneficial to remind oneself of the intention to understand the other person’s perspective and to reflect on what is already known about them.
+
+### Listen to improve social awareness
+
+![](../../images/active_listening.png)
+
+- **Effective Communication**: Communication is a two-way process involving both providing and gathering information. <mark style="background: #FFF3A3A6;">The key to effective communication is listening.</mark>
+- **Building Relationships**: Listening to others, including their words, tone, and body language, is crucial for building effective and strong relationships.
+- **Understanding Others**: By listening and interpreting the other person’s message, you can find a strong middle ground, build a collaborative relationship, and find solutions when facing challenges.
+- **Improving Listening Skills**: Reflect on your communication style and if you’d like to improve your listening skills, there are practical ways to do this, such as noting what you would like to learn before heading into meetings.
+
+## 4. Managing Relationships
+
+### Authentic adaptability
+
+- **Communication Strengths**: <mark style="background: #FFF3A3A6;">Being authentic and playing to your communication strengths can make others feel comfortable around you</mark>, helping to build trust over time. It’s important to be aware of your natural communication style and flex it as needed.
+- **Adaptability**: <mark style="background: #FFF3A3A6;">There are times when you need to adapt your communication style, especially in different circumstances.</mark> This could involve changing your tone depending on the energy level of the person you’re communicating with.
+- **Self-awareness**: Reflecting on your communication strengths, such as clear messaging, active listening, and making genuine connections, can help you improve. If unsure, seek feedback from others.
+- **Mindful Communication**: A<mark style="background: #FFF3A3A6;">lways communicate in a way that aligns with your values and feels genuine to you</mark>. Be mindful of communicating in a way that ensures you’re heard and understood by the other person. This could involve matching energy levels, tone of voice, or mirroring body language.
+
+### EQ and positive conflict management
+
+![](.../../images/positive_conflict_management.png)
+
+- **Healthy Conflicts**: Healthy conflicts at work can spark debates, helping people to consider alternative perspectives and often resulting in teams pushing the boundaries of what is achievable.
+- **Respectful Challenges**: Creating environments where people can respectfully challenge ideas, perspectives, and opinions creates a healthy culture.
+- **Emotional Intelligence**: Emotional intelligence plays a key role in managing conflict in a positive way.
+- **Rules of Engagement**: Agreeing on the rules of engagement with team members, such as what constitutes a healthy debate and how to address challenges, can help create a robust support system.
+- **Conflict Management**: Although conflict can be challenging to navigate, it’s a crucial part of the continuous improvement process. Managing differences of opinion can strengthen relationships when done well.
+
+### Communicate intention and impact
+
+- **Perception and Impact**: How you come across to others may not align with your intentions. The impact you make is more about how others perceive you and your message.
+- **Adaptability in Communication**: Being adaptable and flexible in communication is key. Instead of focusing on the exact message, concentrate on the intention and what you want the other person to take away from the interaction.
+- **Understanding Intentions**: If people understand your intentions, even if the execution isn’t perfect, they’re more likely to engage with you, leading to trust-building.
+- **Confidence and Authenticity**: Focusing on intent can boost your confidence and help you come across as natural and authentic. It also provides the freedom to make mistakes, as long as you can explain your intentions.
