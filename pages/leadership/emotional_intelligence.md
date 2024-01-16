@@ -27,7 +27,11 @@ Emotional intelligence, or EQ, is the ability to be aware of your emotions and t
 
 - **Four Quadrants of EQ**: The four quadrants of emotional intelligence are self-awareness, self-management, social awareness, and relationship management.
 
-## Being Self-Aware
+### Quadrants of EQ
+
+![](../../images/quadrants_eq.png)|
+
+## 1. Being Self-Aware
 
 ### Emotions
 
@@ -63,7 +67,7 @@ Emotional intelligence, or EQ, is the ability to be aware of your emotions and t
 
 ---
 
-## Managing Your Self
+## 2. Managing Your Self
 
 ### Disrupting thoughts and emotional intelligence
 
@@ -109,7 +113,7 @@ Take importance of <mark style="background: #FFF3A3A6;">being objective</mark> w
 
 - **Outcome**: The ability to broaden personal perspective is a common skill displayed by high performing individuals. It helps in making informed decisions and building successful relationships.
 
-## Social Awareness
+## 3. Social Awareness
 
 ![](../../images/social_awareness.png)
 
@@ -117,3 +121,10 @@ Take importance of <mark style="background: #FFF3A3A6;">being objective</mark> w
 - **Sensory Audit**: A sensory audit, where you focus on what you see, hear, and feel, can help develop social awareness. This involves paying attention to the details of your surroundings and using your senses to process information about others.
 - **Interpersonal Dynamics**: By observing facial expressions, body language, and tone of voice, you can gain insights into what people are thinking and the dynamics between people.
 - **Mindfulness**: The technique requires mindfulness and practice to step outside of oneself and immerse in the surroundings. It’s about noticing the information that is often in front of us but overlooked due to juggling various demands, priorities, and emotions.
+
+### Looking past empathy: Connecting with perspective
+
+- **Empathy and Emotional Intelligence**: Empathy, the ability to understand and share the feelings of others, is often seen as a key component of emotional intelligence. However, for some people, particularly those who are neurodivergent, empathizing can be challenging or emotionally draining.
+- **Understanding Perspectives**: shifting the focus from empathy to understanding perspectives. This involves acknowledging and respecting others’ views without necessarily feeling their emotions.
+- **Active Exploration**: It encourages active exploration of others’ perspectives during interactions, asking questions to learn more, and avoiding assumptions about others’ experiences.
+- **Preparation**: Before interacting with others, it’s beneficial to remind oneself of the intention to understand the other person’s perspective and to reflect on what is already known about them.
