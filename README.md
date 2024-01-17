@@ -66,7 +66,7 @@ Welcome to my personal Tech Notes blog. Here, information is presented in a stra
  - [Notes on Masterclass Dev to Tech Lead](/pages/leadership/dev_to_tech_lead.md)
  - [How to Speak by Patrick Winston notes](/pages/leadership/how_to_speak_by_patrick_winston.md)
  - [Negociación y resolución de conflictos](/pages/leadership/resolucion_de_conflictos.md)
- - [Emotional Intelligence](/pages/leadership/emotional_intelligence.md) <span style="color:red"> in progress </span>
+ - [Emotional Intelligence](/pages/leadership/emotional_intelligence.md)
  - Gestión del tiempo (Time Management)
 
 # Technical Books in progress
