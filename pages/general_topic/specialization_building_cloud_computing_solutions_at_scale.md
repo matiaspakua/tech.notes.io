@@ -24,6 +24,7 @@ This is a very complete, hand-on, medium level specialization based on cloud com
 
 - **Link to the Specialization in Coursera**: [Building Cloud Computing Solutions at Scale Specialization - Duke University & Coursera](https://www.coursera.org/specializations/building-cloud-computing-solutions-at-scale)
 
+# Final Project: ML Image Classification 
 
 - Link to the final project: [matiaspakua/ml-demo-project: Demostration project for the Specialization Building Cloud Computing Solutions at Scale](https://github.com/matiaspakua/ml-demo-project)
 
