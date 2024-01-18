@@ -1025,8 +1025,71 @@ Building a social network from scratch involves leveraging influencer marketing 
 
 ## Cloud Databases
 
+### One Size Does Not Fit All in the Cloud?
+
+- **One Size Fit Database**: The CTO of Amazon, Werner Vogel, said that there is no single database that fits all use cases. Different databases have different characteristics and trade-offs.
+- 
+- **Examples of Databases**: Depending on the problem, different databases may be more suitable. For example, a transactional database may be good for banking operations, while a content management system may benefit from an eventually consistent database. A graph database may be useful for social network analysis.
+
+-**Cloud Computing and Database Choice**: When building applications in the cloud, such as on AWS, there are many databases to choose from. It’s important to pick the right database for the right task, and not rely on just one database for everything.
+
+Examples are: Google BigQuery, AWS Aurora, DynamoDB, RedShift
+
+Introduction: [BigQuery - Wikipedia](https://en.wikipedia.org/wiki/BigQuery)
+
+- **BigQuery and Redshift**: BigQuery is a cloud-based data warehouse that competes with AWS Redshift. Both have pros and cons, but BigQuery has the advantage of allowing machine learning inside its system.
+
+## Cloud Storage
+
+The concept of economies of scale and how it applies to cloud storage. Some of the benefits of cloud storage are lower cost, higher access, and more possibilities.
+
+- **Cloud Storage**: Cloud storage is a service that allows users to store data on remote servers that are managed by a cloud provider, such as AWS, Google, or Microsoft. Users can access their data from any device and location, as long as they have an internet connection.
+- **Types of Cloud Storage**: There are different types of cloud storage, depending on the needs and preferences of the users. Some of the common types are:
+    - **Object Storage**: This type of storage treats data as objects, rather than files or blocks. Each object has a unique identifier, metadata, and data. Object storage is suitable for storing unstructured data, such as images, videos, or documents.
+    - **File Storage**: This type of storage organizes data in a hierarchical structure of folders and files, similar to a local file system. File storage is suitable for storing structured data, such as spreadsheets, databases, or code.
+    - **Block Storage**: This type of storage divides data into fixed-sized blocks, each with a unique address. Block storage is suitable for storing low-latency, high-performance data, such as operating systems, applications, or virtual machines.
+- **Examples of Cloud Storage**: Some of the popular cloud storage services are:
+    - **Amazon S3**: This is an object storage service that offers scalability, durability, security, and performance. It can store any amount of data, from anywhere on the web.
+    - **Google Drive**: This is a file storage service that allows users to store, sync, and share files online. It also integrates with other Google services, such as Gmail, Docs, and Photos.
+    - **Microsoft Azure Blob Storage**: This is a block storage service that offers high availability, redundancy, and scalability. It can store large amounts of unstructured data, such as text, binary, or media.
+
+**Summary:** Cloud storage is a service that leverages economies of scale to offer lower cost, higher access, and more possibilities for storing data on remote servers. There are different types of cloud storage, such as object, file, and block storage, depending on the data structure and use case. Some of the popular cloud storage services are Amazon S3, Google Drive, and Microsoft Azure Blob Storage.
+
+More Documentation: [Chapter05 Cloud Storage Pragmatic AI Labs and Solutions](https://paiml.com/docs/home/books/cloud-computing-for-data/chapter05-cloud-storage/#cloud-storage-types)
 
 
+### Cloud Storage: deep dive
+
+- **Cloud Storage**: Cloud storage is a service that allows you to store data on remote servers that are managed by cloud providers. You can access your data from anywhere and anytime via the internet or a private connection. Cloud storage offers infinite CPU, disk I/O, and storage capacity, which enables you to build sophisticated solutions using cloud companies.
+- **Data Lake**: A data lake is a central component of cloud storage, where you can store any type of data, such as files, images, videos, etc. You can also build various pipelines on top of the data lake, such as machine learning, data engineering, business analytics, or web hosting. A data lake is flexible, scalable, and reliable, with 11 9’s of availability.
+- **Pricing**: Cloud storage also offers different pricing options, depending on how frequently you access your data. You can pay less for infrequently accessed data, or archive your data using services like AWS Glacier. This way, you can optimize your costs and only pay for what you use.
+- **Offerings**: Cloud storage also offers different types of storage, such as object storage, databases, and search engines. You can choose the best storage for your use case, or use multiple storage types together. For example, you can use a relational database, a key-value database, a graph database, or a search engine, depending on your data structure and query needs. AWS has many offerings, such as S3, DynamoDB, Neptune, and Elasticsearch.
+
+![](../../images/cloud_storage_deep_dive.png()
+
+Examples are:
+
+![](../../images/aws_cloud_storage.png)
+
+- **EFS**: EFS is a cloud storage service that allows you to mount a shared network file system on multiple machines. It is based on NFS, which was created by Sun Microsystems. EFS has advanced features, such as automatic scaling, performance, and archiving.
+- **Workflow**: You can use EFS to simplify your workflow by launching spot instances or serverless functions that have the same mount point. You can run scripts, computer vision, or machine learning jobs on the file system, and write the results back to it. You don't need to deploy software or spin up big data systems. EFS is a useful feature for cloud workflows.
+
+![](../../images/cloud_storage_efs_nfs.png)
+
+### Amazon AWS S3
+
+Amazon S3 is a cloud storage service that offers several capabilities to help support your data resiliency and backup needs. Some of these capabilities are:
+
+- **Versioning**: You can use versioning to preserve, retrieve, and restore every version of every object stored in your Amazon S3 bucket. With versioning, you can easily recover from both unintended user actions and application failures.
+- **Replication**: You can use replication to automatically and asynchronously copy objects across buckets in different AWS Regions. This can help you mitigate against regional disasters, comply with regulatory requirements, or improve data availability.
+- **Lifecycle Management**: You can use lifecycle management to define rules that tell Amazon S3 to transition objects to less expensive storage classes, archive them, or delete them. This can help you optimize your costs and only pay for what you use.
+- **Object Lock**: You can use object lock to prevent objects from being deleted or overwritten for a fixed amount of time or indefinitely. This can help you meet regulatory requirements that require write-once-read-many (WORM) storage or simply add an extra layer of protection against object changes and deletion.
+- **Encryption**: You can use encryption to protect your data at rest and in transit. Amazon S3 supports both server-side and client-side encryption, and integrates with AWS Key Management Service (AWS KMS) and AWS CloudHSM to manage your encryption keys.
+
+In summary, Amazon S3 provides various features to enhance your data resiliency and backup, such as versioning, replication, lifecycle management, object lock, and encryption. These features can help you mitigate data loss, corruption, or breach, and recover from disasters.
+
+
+Official Web: [Amazon S3](http://aws.amazon.com/s3/)
 
 ---
 <a name="04"></a>
@@ -1039,6 +1102,8 @@ Building a social network from scratch involves leveraging influencer marketing 
 Machine learning + DepOps (Development and operations.)
 
 ![](../../images/MLOps_deep_dive.png)
+
+Machine learning engineering is the field of applying machine learning models to real-world problems and deploying them in production environments. Machine learning engineers use DevOps principles and practices, such as microservices and continuous delivery, to build, test, and maintain machine learning systems. Machine learning engineers work with data, algorithms, and software to create solutions for various domains, such as self-driving cars or wildlife detection. 
 
 ### Edge Machine Learning
 
