@@ -26,9 +26,12 @@ This is a very complete, hand-on, medium level specialization based on cloud com
 
 # Final Project: ML Image Classification 
 
+![](../../images/ml_demo_project.png)
+
 - Link to the final project: [matiaspakua/ml-demo-project: Demostration project for the Specialization Building Cloud Computing Solutions at Scale](https://github.com/matiaspakua/ml-demo-project)
 
 --- 
+---
 
 # Table of Contents
 
