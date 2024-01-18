@@ -6,6 +6,8 @@ Welcome to my personal Tech Notes blog. Here, information is presented in a stra
 
 **Who I Am**: [My LinkedIn](https://www.linkedin.com/in/matiasmiguez/)
 
+ - GitHub Pages deploy Status: [![pages-build-deployment](https://github.com/matiaspakua/tech.notes.io/actions/workflows/pages/pages-build-deployment/badge.svg?branch=main)](https://github.com/matiaspakua/tech.notes.io/actions/workflows/pages/pages-build-deployment)
+
 # General Topic
 
 - [NoSQL. The basis of](/pages/general_topic/nosql_the_basis_of.md) 
