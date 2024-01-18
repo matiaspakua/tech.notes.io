@@ -986,6 +986,29 @@ AWS cloud security operations are crucial but often overlooked. <mark style="bac
 ![](../../images/shared_security_model.png)
 
 
+## AWS Cloud Security Operations
+
+**AWS Trusted Advisor** is a system that provides checks for cost optimization, performance, security, fault tolerance, and service limits. It can identify potential savings, performance improvements, security risks, and architectural issues. It also monitors service usage to prevent exceeding limits.
+
+**AWS CloudTrail** is a powerful, often underutilized service that monitors system activity. It’s the first place to check if a security breach is suspected. It provides an audit trail detailing what’s happening, who’s involved, when it occurred, and includes usernames and timestamps.
+
+## Encrypt at Rest and Transit
+
+Encryption is a critical aspect of data security and involves three key concepts:
+
+- **In Transit Encryption**: This refers to the encryption of data while it’s being transferred from one place to another, such as from your personal computer to a bank’s website. This prevents intercepted data from being readable.
+    
+- **At Rest Encryption**: This refers to the encryption of data when it’s stored somewhere, like in the cloud. Even if the data is stolen, it remains secure because it’s encrypted.
+    
+- **Encryption Keys**: These are the only means to decrypt the data. It’s crucial to manage who has access to these keys. Even if data is encrypted, it’s not secure if unauthorized individuals have access to the keys.
+    
+
+These concepts are fundamental to encryption and are considered industry best practices. They also align with the principle of least privilege, which states that only those who need access to data should have it.
+
+![](../../images/data_encryption_rest_transit.png)
+
+## Introduction to Extract, Transform, Load (ETL)
+
 ---
 <a name="04"></a>
 # Course 04: Cloud Machine Learning Engineering and MLOps
