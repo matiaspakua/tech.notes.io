@@ -813,7 +813,66 @@ Big Data Platforms are similar in that they can move data around, just like a tr
 
 ## Batch vs. Streaming vs. Events
 
+![](../../images/batch_streaming_events.png)
 
+In Data Engineering, there are three key paradigms: **Batch Data**, **Streaming Data**, and **Events**.
+
+- **Batch Data**: This involves tasks like collecting data from a sales database at night and performing a forecast. These jobs are common and relatively simple to implement.
+- **Streaming Data**: This is more challenging as the data is constantly updated. An example is a stock ticker where decisions need to be made on how to handle the incoming data stream.
+- **Events**: Often used in cloud computing, events allow you to respond and write code to an event. For instance, uploading an image to a storage bucket could trigger a piece of code that converts the image format.
+
+## Events engineering: example
+
+Events are a powerful concept in Data Engineering because they don't consume resources until necessary. Here is an exercise:
+
+- 1) Explain how you could replace a traditional Hadoop system that runs nightly with a serverless data engineering system.
+- 2) Describe three weaknesses and three strengths of your design in comparison to Hadoop.
+
+### Answers
+
+**What is Hadoop**: The Apache Hadoop software library is a framework that allows for the distributed processing of large data sets across clusters of computers using simple programming models. It is designed to scale up from single servers to thousands of machines, each offering local computation and storage. Rather than rely on hardware to deliver high-availability, the library itself is designed to detect and handle failures at the application layer, so delivering a highly-available service on top of a cluster of computers, each of which may be prone to failures.
+
+![](../../images/hadoop_architecture.png)
+
+ - Reference: [Hadoop - Architecture - GeeksforGeeks](https://www.geeksforgeeks.org/hadoop-architecture/)
+
+
+1. **Replacing a traditional Hadoop system with a serverless data engineering system:** A serverless data engineering system can be implemented using cloud-based services like AWS Lambda, Google Cloud Functions, or Azure Functions. Here’s a high-level overview of how it could work:
+    
+    - **Data Ingestion**: Use event-driven services (like AWS S3 events or Google Cloud Storage triggers) to trigger a function whenever new data is added. This function could perform initial data validation and transformation.
+    - **Data Processing**: Use cloud functions to process the data. These functions can be triggered by the successful completion of the ingestion functions. The processing might involve complex computations, aggregations, or machine learning model predictions.
+    - **Data Storage**: Store the processed data in a suitable storage service like AWS S3, Google Cloud Storage, or Azure Blob Storage.
+    - **Data Analysis**: Use services like AWS Athena, Google BigQuery, or Azure Data Lake Analytics to run SQL-like queries on the processed data.
+
+
+2. **Strengths and weaknesses compared to Hadoop:**
+    
+    - **Strengths**:
+        - **Scalability**: Serverless architectures can scale automatically based on the workload, which is a significant advantage over Hadoop clusters that have a fixed number of nodes.
+        - **Cost**: With serverless, you only pay for the compute time you consume. There is no charge when your code is not running.
+        - **Maintenance**: Serverless architectures eliminate the need for system maintenance, as the cloud provider manages the servers.
+    - **Weaknesses**:
+        - **Cold Start**: Serverless functions can experience a “cold start” (i.e., a delay) if they haven’t been used recently, which could impact performance.
+        - **Long-Running Tasks**: Serverless functions are typically designed for short-lived tasks. Long-running tasks can be more challenging to implement in a serverless architecture.
+        - **Data Locality**: Hadoop takes advantage of data locality by moving computation close to where the data resides in the cluster, which can be more efficient for certain types of large-scale data processing tasks. This is not the case with serverless.
+
+The choice between Hadoop and a serverless architecture depends on the specific requirements of your data engineering tasks. It’s essential to consider factors like the volume of data, the complexity of the processing tasks, cost, and the required latency of the analytics results.
+
+## CLI and Containerized CLI's
+
+A containerized Command-Line Interface (CLI) can indeed add significant value to a CLI. 
+
+- **Environment Isolation**: Containers encapsulate everything an application needs to run (code, runtime, system tools, libraries) and ensure that it works uniformly across different environments. This isolation prevents conflicts between different versions of libraries and tools used in different applications.
+    
+- **Portability**: Since containers include everything needed to run an application, they can be easily moved between different systems and cloud platforms. This portability is a significant advantage in today’s multi-cloud world.
+    
+- **Efficiency**: Containers are lightweight and require less system resources than traditional virtual machines, as they share the host system’s kernel, and don’t require a full operating system per application.
+    
+- **Microservices Architecture**: Containers are ideal for microservices-based architectures, where each service runs in its own container and communicates with other services. This architecture can make applications easier to scale and update.
+    
+- **CI/CD Integration**: Containers can be integrated into CI/CD pipelines, allowing for automated testing and deployment. Each build can create a container with the application, which can then be tested and deployed to production.
+    
+These benefits make containerized CLIs a powerful tool in modern software development and operations. However, it’s important to note that like any technology, containers are not a silver bullet and should be used judiciously based on the requirements of the project.
 
 
 ---
