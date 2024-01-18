@@ -963,6 +963,27 @@ The principle of least privilege is a key security goal. It suggests that <mark 
 
  - Wikipedia: [Principle of least privilege - Wikipedia](https://en.wikipedia.org/wiki/Principle_of_least_privilege)
 
+### Cloud Security with IAM on AWS
+
+AWS Identity and Access Management (IAM) is a web service that helps you securely control access to AWS resources. It allows you to manage permissions centrally, controlling which AWS resources users can access. 
+
+Key features of IAM include:
+- **Shared Access**: You can grant others permission to use resources in your AWS account without sharing your password or access key.
+- **Granular Permissions**: You can grant different permissions to different people for different resources.
+- **Secure Access for Applications on EC2**: IAM can securely provide credentials for applications running on EC2 instances.
+- **Multi-Factor Authentication (MFA)**: You can add two-factor authentication to your account and individual users for extra security.
+
+IAM uses the principle of least privilege, meaning users should only have access to the resources they need. This limits potential security risks. It's important to note that IAM users, groups, and roles are concerned with authentication, while IAM policies deal with authorization. 
+
+![](../../images/iam_schema.png)
+
+Wikipedia: [Identity management - Wikipedia](https://en.wikipedia.org/wiki/Identity_management)
+
+### AWS Shared Security Model
+
+AWS cloud security operations are crucial but often overlooked. <mark style="background: #FFF3A3A6;">The shared security model is a partnership between AWS and the customer to secure applications</mark>. Customers are responsible for their data and operating systems, while AWS handles foundational services like compute storage, infrastructure, regions, and availability zones. AWS ensures physical security, hardware security, network configuration, and virtualization. This includes controlling physical access to data centers, purchasing secure hardware, and setting up secure network configurations and virtualizations. Examples of physical security measures include need-based access, 24/7 security guards, and two-factor authentication.
+
+![](../../images/shared_security_model.png)
 
 
 ---
