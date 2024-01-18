@@ -1009,6 +1009,25 @@ These concepts are fundamental to encryption and are considered industry best pr
 
 ## Introduction to Extract, Transform, Load (ETL)
 
+ETL, standing for Extract, Transform, and Load, is a crucial process in data engineering pipelines. It involves extracting data from a source, which may not be in a clean form, transforming it by potentially decompressing it, changing its format, or removing corrupted or missing values, and then loading it into a new system, such as a business intelligence database. ETL is a fundamental concept to consider when building data pipelines, as most data engineering operations involve these processes.
+
+![](../../images/generic_etl.png)
+
+### Real-World Problems in ETL: building a social network
+
+Building a social network from scratch involves leveraging influencer marketing to attract users. This process involves identifying potential partners who can send the right signal to your platform. In this case, a list of sports personalities from around the world was obtained from a third-party system and stored in a database. A nightly job was set up in a custom-built jobs framework to run periodically. A Mechanical Turk job was created to clean up the data by asking people worldwide to find the social media handles of these personalities. If the majority of the results agreed on a handle, a full record was created and stored in the database. This cycle of obtaining a rough record and augmenting it with cleaned-up data is a key aspect of the data engineering pipeline.
+
+- **Data Engineering Pipeline**: The speaker describes how he built a data engineering pipeline to predict the page views per post for users on his platform, using social media metadata from Amazon Mechanical Turk and machine learning models.
+
+- **Iterative Process**:building a data pipeline from scratch is an iterative process that can take a long time and requires multiple loops to get the data right.
+- 
+- **Edge Cases**: the edge cases that he encountered in building the pipeline, such as the difficulty of data input, the quality of the data collectors, and the ambiguity of the names of the users.
+
+## Cloud Databases
+
+
+
+
 ---
 <a name="04"></a>
 # Course 04: Cloud Machine Learning Engineering and MLOps
