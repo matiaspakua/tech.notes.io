@@ -874,6 +874,32 @@ A containerized Command-Line Interface (CLI) can indeed add significant value to
     
 These benefits make containerized CLIs a powerful tool in modern software development and operations. However, it’s important to note that like any technology, containers are not a silver bullet and should be used judiciously based on the requirements of the project.
 
+## Kaizen + CI/CD
+
+![](../../images/kaizen_ci_cd.png)
+
+## Mapping Functions to CLI
+
+![](../../images/python_functions.png)
+
+The versatility of functions in Python:
+
+- **Mathematical Calculations**: Functions can be used to perform mathematical operations like addition, squaring, calculus, and derivatives.
+- **Parallel Computing**: Functions are frequently used in distributed computing. They can be mapped to processes, particularly with the multiprocessing module in Python.
+- **Asynchronous Code**: Functions are useful for network-based concurrency.
+- **Decorators**: In Python, decorators are used to modify the functionality of a function or class. They “wrap” around another function or class, allowing you to add or change behaviors.
+- **Data Science**: Functions are commonly used in data science, especially with pandas where they are applied to data frames for row-by-row processing.
+- **GPU Programming/High-Performance Computing**: Python’s Numba library allows you to write code that communicates with a GPU, enhancing computational performance.
+- **Command Line Tools**: Functions can be mapped to build command line tools, providing a straightforward way to create utilities.
+
+ **Example repo from Noah Gift**: [noahgift/python-data-engineering-cookbook: Some recipes for data engineering with Python](https://github.com/noahgift/python-data-engineering-cookbook)
+
+
+## Serverless Data Engineering
+
+
+
+
 
 ---
 <a name="04"></a>
