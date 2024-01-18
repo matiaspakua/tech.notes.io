@@ -897,7 +897,71 @@ The versatility of functions in Python:
 
 ## Serverless Data Engineering
 
+### Introduction
 
+Serverless computing is a cloud computing model where the cloud provider manages the servers. Developers focus on writing the application’s business logic without worrying about the underlying infrastructure, its maintenance, or scaling. AWS Lambda and AWS Athena are examples of serverless services. AWS Lambda allows you to write functions in supported languages and AWS manages running and scaling your function. AWS Athena lets you analyze data in Amazon S3 using standard SQL without managing any servers. The key aspect of serverless computing is the abstraction of servers, leading to quicker development times and lower costs.
+
+### Serverless Concepts: Service Model
+
+![](../../images/serverless_models.png)
+
+The three main service models: Infrastructure as a Service (IaaS), Platform as a Service (PaaS), and Serverless.
+
+- **IaaS**: This is the most basic cloud service model, providing the infrastructure such as virtual machines and other resources like virtual-machine disk image library, block and file-based storage, firewalls, load balancers, IP addresses, virtual local area networks etc.
+- **PaaS**: This model is a level above the IaaS. It provides the runtime environment for applications, development and deployment tools, etc. The developers can manage the applications and services they develop, but cannot manage the underlying infrastructure.
+- **Serverless**: In this model, developers can simply create and run the applications or services directly on the cloud, without worrying about the underlying infrastructure. The cloud provider manages the infrastructure, hence the term “Serverless”.
+
+### Serverless Concepts: Functions
+
+![](../../images/serverless_functions.png)
+
+<mark style="background: #FFF3A3A6;">The serverless computing and the power of functions</mark>. Here are the key points:
+
+- **Serverless and Functions**: Serverless computing, such as AWS Lambda, is essentially Function as a Service (FaaS). The core of any serverless application is a function, which can be as simple as a Python function that takes an input, processes it, and returns an output.
+    
+- **Versatility of Functions**: Functions are versatile and can be applied to various computer science techniques. For instance, you can use a function for <mark style="background: #FFF3A3A6;">GPU</mark> programming, build command-line tools, create web services, perform data science operations, and even solve machine learning problems.
+    
+- **Distributed System and Small Code**: Cloud computing is a distributed system that works well with the concept of using a small piece of code to perform operations. This is the essence of serverless computing.
+    
+- **Power of Encapsulation**: The power of serverless technology lies in encapsulating a task in a small amount of code and connecting these pieces together.    
+
+### Serverless Concepts: Ecosystem
+
+![](../../images/aws_serverless_ecosystem.png)
+
+![](../../images/gcp_serverless_ecosystem.png)
+
+![](../../images/azure_serverless_ecosystem.png)
+
+ - **Main services:**
+AWS Lambda + AWS Cloud9: [noahgift/awslambda: AWS Lambda](https://github.com/noahgift/awslambda) 
+
+### Serverless cookbook
+
+The evolution of cloud computing, from monolithic architectures to the modern era of DevOps, serverless, and microservices. The key points:
+
+- **Pre-Cloud Era (1970-2005)**: This era was dominated by monolithic frameworks, relational databases, CGI web request models, and server-side templating. This approach is computationally expensive, inefficient, difficult to debug, and prone to security issues.
+    
+- **Modern Era (2010-2030)**: This era is characterized by the rise of DevOps, which advocates for microservices and serverless architectures. Microservices are easier to maintain due to their specialized tasks and lower complexity.
+    
+
+The shift from monolithic to microservices and serverless architectures represents a significant advancement in cloud computing. It allows for more efficient use of resources, easier debugging, improved security, and overall better maintainability.
+
+![](../../images/evolution_cloud_computing.png)
+
+
+## Data Governance
+
+Data governance is a crucial aspect of <mark style="background: #FFF3A3A6;">cloud security</mark> and is vital to a company’s health. It involves determining who should have access to data, considering worst-case scenarios, and ensuring data is encrypted both at rest and in transit. A breach in data security, especially for companies with large user bases, could pose an existential threat. Many organizations have a dedicated data governance officer to handle these responsibilities.
+
+
+### The Principle of Least Privilege
+
+The principle of least privilege is a key security goal. It suggests that <mark style="background: #FFF3A3A6;">individuals should only have access to the resources they need</mark>, limiting potential security risks. This concept applies to various scenarios, from mail delivery to cloud computing. By granting access only to necessary resources, we protect all parties involved and prevent the creation of large security holes. This approach is one of the most effective ways to set up security.
+
+![](../../images/least_priviledge_principle.png)
+
+ - Wikipedia: [Principle of least privilege - Wikipedia](https://en.wikipedia.org/wiki/Principle_of_least_privilege)
 
 
 
