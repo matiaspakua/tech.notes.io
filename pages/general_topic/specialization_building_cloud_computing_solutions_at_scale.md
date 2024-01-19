@@ -1181,6 +1181,21 @@ Example of: AutoML Computer Vision architecture:
 
 ![](../../images/AutoML_omputer_vision_architecture.png)
 
+An AutoML computer vision pipeline can be used to build production-quality models. The process involves the following steps:
+
+1. **Source Data**: You need images for training, such as 1,000 images of birds and 1,000 images of dogs for binary classification.
+    
+2. **Upload Data**: The images are uploaded into a cloud-based environment like GCP’s AutoML Vision, an open-source solution like Ludwig, or even local software like Apple’s Create ML.
+    
+3. **Specify Model**: You specify the type of model you want to train, in this case, a classifier to differentiate between a bird and a dog.
+    
+4. **Train Model**: The model is trained, which could require special resources like a GPU for increased accuracy. The process is touchless, with no need for a data scientist to tweak the neural networks.
+    
+5. **Deploy Model**: Once trained, the model is ready for deployment. Depending on the framework used, you could download a JavaScript version of it, make predictions directly on a hosted version via an API, or even download it into a mobile app.
+    
+
+<mark style="background: #FFF3A3A6;">The key idea is that AutoML allows for the automation of machine learning, focusing more on the logic of the problem you’re trying to solve.</mark> As long as you understand the business logic, you can use AutoML to continuously train and update the model as you acquire more data.
+
 
 ### Edge ML and 5G
 
