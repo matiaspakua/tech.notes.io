@@ -1125,7 +1125,29 @@ Edge-based machine learning is the process of <mark style="background: #FFF3A3A6
 
 ### Building a ML Microservice
 
+A machine learning microservice is a specific application of the microservices trend in DevOps. It allows for the creation of succinct, specific services that are easier to debug. For instance, a microservice could be designed to predict the height or weight of Major League Baseball players based on input data.
 
+The adoption of microservices for machine learning and DevOps is driven by their compatibility with DevOps principles, such as continuous delivery. This allows for new changes to be deployed into a production-ready environment as they’re made. The application code is also integrated with the infrastructure code.
+
+Microservices, which reject the old practice of building monolithic applications, are driving the field of machine learning engineering. In essence, a machine learning microservice is a specific, manageable piece of a larger system that can be developed, deployed, and debugged independently.
+
+### Monolithic vs Microservices
+
+A **Monolithic application** is a traditional model where all components (authentication, data, logic) are interwoven within a single codebase. This could be as large as 20,000 lines of code. Debugging issues, such as problems with the authentication system, requires going through the entire application, leading to maintainability and complexity issues.
+
+On the other hand, a **Microservice** is an approach where each component is its own separate, independent service. For instance, there’s a distinct service for authentication, another for data handling, and another for logic. Each service communicates using lightweight API operations and performs a single function, supporting multiple applications.
+
+The key difference is that Microservices are built as independent components that run as services, making it quicker to develop code, automate, and recover from mistakes. This architecture is particularly beneficial for machine learning. It allows for faster starts, easier mistake identification, and quicker recovery.
+
+### Introduction to Continuous Delivery for Machine Learning
+
+Continuous delivery for machine learning is the practice of maintaining your software, including the code for machine learning predictions, in a deployable state. This involves several unique considerations:
+
+1. **Data Versioning**: You need to know the version of the data your model was trained with.
+2. **Data Drift**: You need to monitor if the underlying data has changed significantly (drifted) from the version used for training the model.
+3. **Model Versioning**: If there’s significant data drift, it may necessitate deploying a new version of the model.
+
+The underlying data is a core component in this process, making it crucial to pay attention to these aspects when implementing continuous delivery for machine learning. This approach ensures that your machine learning systems are always up-to-date and ready for deployment.
 
 
 ### Edge ML and 5G
