@@ -1169,6 +1169,17 @@ In the final project of this specialization, I develop a very simple flask app t
 
 Repo: [matiaspakua/ml-demo-project: Demostration project for the Specialization Building Cloud Computing Solutions at Scale](https://github.com/matiaspakua/ml-demo-project)
 
+## Introduction to AutoML
+
+<mark style="background: #FFF3A3A6;">AutoML, or Automated Machine Learning, is a technology that automates many aspects of machine learning.</mark> It allows users to upload data (like images), select an option to train a model, and then receive a model that can make predictions (like differentiating between a cat and a dog).
+
+The adoption of AutoML is increasing, with more companies using it to create tools and speed up their processes, potentially by 10, 100, or even 1000 times. One of the key advantages of AutoML is that it enables individuals without advanced computer science degrees to participate in creating machine learning models.
+
+<mark style="background: #FFF3A3A6;">In essence, AutoML is the automation of machine learning</mark>.
+
+Example of: AutoML Computer Vision architecture:
+
+![](../../images/AutoML_omputer_vision_architecture.png)
 
 
 ### Edge ML and 5G
