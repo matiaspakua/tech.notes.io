@@ -1149,6 +1149,27 @@ Continuous delivery for machine learning is the practice of maintaining your sof
 
 The underlying data is a core component in this process, making it crucial to pay attention to these aspects when implementing continuous delivery for machine learning. This approach ensures that your machine learning systems are always up-to-date and ready for deployment.
 
+### What is a Data Drift?
+
+![](../../images/ml_data_drift.png)
+
+Data Drift is a crucial concept in machine learning operations. <mark style="background: #FFF3A3A6;">It allows for the detection and alerting of changes in a new dataset, the analysis of historical data for drift, and the profiling of new data over time.</mark>
+
+For instance, consider a dataset of baby weights at birth stored in a data store like Amazon S3. If an observation a year later shows a significant increase in baby weight (e.g., from 10 pounds at birth to 30 pounds), this represents a large data drift. This change, which is three times the initial data, would necessitate training a new model to reflect these changes.
+
+Alerts can be set up to ensure the <mark style="background: #FFF3A3A6;">accuracy of predictions</mark>, such as predicting which babies might need hospitalization. If a model trained on the initial data is used, it may not apply to older babies.
+
+Data drift is a vital monitoring mechanism, akin to checking tire pressure or monitoring altitude when flying an airplane, but specifically tailored for machine learning. Regular alerts can help maintain the accuracy and relevance of machine learning models over time.
+
+### Example of a CI/CD ML demo app in Flask
+
+In the final project of this specialization, I develop a very simple flask app that uses all the concept previously mention:
+
+![](../../images/ml_demo_project_ci_cd_deploy.png)
+
+Repo: [matiaspakua/ml-demo-project: Demostration project for the Specialization Building Cloud Computing Solutions at Scale](https://github.com/matiaspakua/ml-demo-project)
+
+
 
 ### Edge ML and 5G
 
