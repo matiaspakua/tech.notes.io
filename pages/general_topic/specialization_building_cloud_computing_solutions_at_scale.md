@@ -1105,9 +1105,28 @@ Machine learning + DepOps (Development and operations.)
 
 Machine learning engineering is the field of applying machine learning models to real-world problems and deploying them in production environments. Machine learning engineers use DevOps principles and practices, such as microservices and continuous delivery, to build, test, and maintain machine learning systems. Machine learning engineers work with data, algorithms, and software to create solutions for various domains, such as self-driving cars or wildlife detection. 
 
+### Machine Learning Architecture
+
+![](../../images/machine_learning_architecture.png)
+
+A typical machine learning architecture consists of a **microservice** with an API for handling requests. This service receives serialized data via a JSON payload and makes predictions. The microservice is composed of three main components:
+
+1. A **web application code** (e.g., a Python Flask app).
+2. A **pre-built model** that’s included in the project.
+3. A **container technology** (either serverless or Docker).
+
+The model is deployed through continuous delivery of data and the application, which are checked into source control. The data comes from a **data lake infrastructure** that allows for the detection of data drift. <mark style="background: #FFF3A3A6;">If the data changes by more than 25% from the last model build,</mark> it triggers a rebuild and redeployment of the model.
+
+This<mark style="background: #FFF3A3A6;"> dynamic feedback loop</mark> is a crucial component of the system. Lastly, a production system includes a **monitoring dashboard** and health alerts to assess the service’s success. This dashboard monitors everything from response time latency to the accuracy of the model’s predictions. This is a non-optional component in a production environment. In essence, these are the key elements needed to build a machine learning system.
+
 ### Edge Machine Learning
 
 Edge-based machine learning is the process of <mark style="background: #FFF3A3A6;">running machine learning models on an edge device to collect, process, and recognize patterns within datasets</mark>. The device itself has everything it needs, and in many cases, the hardware is optimized to be able to do it at low power. Edge-based processing allows you to do things on the device, and there are many examples of edge-based devices such as Coral TPU, AWS DeepLens, DeepRacer, and Intel neural compute stick. These devices can run without needing to talk to the internet, and there are a lot of applications in the future.
+
+### Building a ML Microservice
+
+
+
 
 ### Edge ML and 5G
 
