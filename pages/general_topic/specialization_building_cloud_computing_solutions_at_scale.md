@@ -1196,6 +1196,24 @@ An AutoML computer vision pipeline can be used to build production-quality model
 
 <mark style="background: #FFF3A3A6;">The key idea is that AutoML allows for the automation of machine learning, focusing more on the logic of the problem you’re trying to solve.</mark> As long as you understand the business logic, you can use AutoML to continuously train and update the model as you acquire more data.
 
+### Introduction to No Code/Low Code (YAGNI)
+
+No Code/Low Code is an emerging trend in data science that allows professionals to solve problems without necessarily needing to write code. This approach, encapsulated by the expression “You Ain’t Gonna Need It” (YAGNI), leverages solutions provided by cloud platforms and tech giants:
+
+1. **Apple**: Offers low code machine learning tools for computer vision and email.
+2. **Google Cloud Platform (GCP)**: Provides Low Code/No Code tools, including AutoML for computer vision.
+3. **Amazon Web Services (AWS)**: Supports Low Code/No Code solutions, offering a range of capabilities from tabular data (useful for business analytics) to AI APIs for computer vision and Natural Language Processing (NLP).
+4. **Azure**: Offers numerous APIs, including those for computer vision and AutoML.
+
+These platforms can be used for Exploratory Data Analysis (EDA), modeling, and digestion. They allow business analytics, business intelligence, and data science professionals to leverage existing tools to solve problems, potentially without writing any code. This approach can lead to efficient problem-solving and analysis.
+
+Example documentation in APPLE CREATE ML: [Create ML Overview - Machine Learning - Apple Developer](https://developer.apple.com/machine-learning/create-ml/)
+
+![](../../images/apple_create_ml.png)
+
+## Ludwig AutoML
+
+
 
 ### Edge ML and 5G
 
