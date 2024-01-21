@@ -1213,6 +1213,17 @@ Example documentation in APPLE CREATE ML: [Create ML Overview - Machine Learning
 
 ## Ludwig AutoML
 
+Official documentation: [Ludwig](https://ludwig.ai/latest/)
+
+Ludwig is an open-source, code-free tool that simplifies the process of training machine learning models. It allows users to train models using a configuration file and their data, without needing detailed knowledge of machine learning or coding. Ludwig supports various data types including binary, numerical, categorical, set, bag, and sequence. The training process involves combining a dataset with a YAML file and running a script. Compared to proprietary systems, Ludwig offers advantages such as no need for a costly cloud-based API, the ability to run on a local machine, and the potential for high performance with a GPU. It caters to specific user needs with its open-source auto ML capabilities.
+
+### Cloud AutoML
+
+<mark style="background: #FFF3A3A6;">Cloud-based AutoML is a solution that automatically finds the correct values for a machine learning algorithm.</mark> It can handle tasks like computer vision, text classification, and translation. The gradient of cloud-based AutoML allows you to start with a managed machine learning platform like SageMaker, which automates many aspects of machine learning, or use a pre-trained model via an API. There are also tools that allow automatic training of, for example, a computer vision problem by uploading files to the cloud-based system and training them with a click of a button. <mark style="background: #FFF3A3A6;">The end result can be downloaded and used in a mobile device or physical hardware, such as a Coral TPU for edge-based machine learning on a laptop or drone, or an Intel video stick.</mark> The cloud provides the flexibility to do it yourself, do it automatically, or use a pre-trained model.
+
+### Cloud AutoML workflow
+
+![](../../images/cloud_AutoML_workflow.png)
 
 
 ### Edge ML and 5G
