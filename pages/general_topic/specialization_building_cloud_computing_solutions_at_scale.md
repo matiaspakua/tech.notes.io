@@ -1269,6 +1269,16 @@ The advantage of using an <mark style="background: #FFF3A3A6;">AI API is that yo
 
 ![](../../images/core_components_cloud_application.png)
 
+### Checklist for Building Professional Web Services
+
+- A professional web service should have an **automated deployment process**. This is a must-have for professional cloud development.
+- The service should include **testing and linting** to ensure the quality of the code.
+- The service should be **elastic**, meaning it can scale up or down as needed.
+- **Monitoring and logging** should be in place to identify any problems.
+- Even if you’re using a Platform as a Service (PaaS) tool like Google App Engine, Azure App Services, or Beanstalk, you should always verify that your service is elastic. Don’t guess, always check.
+- Once the service has been deployed, consider triggering a **nightly test**. This could be a load test that runs at midnight in a staging environment. This ensures that your app is performing correctly and can handle the load.
+- Not guessing about the performance of your service. Just as you would have a smoke detector in your house to alert you to problems, you should have tests in place to alert you to any issues with your service. Don’t assume that what happened today will be what happens in the future.
+
 # References
 
 Repo with example: [noahgift/gcp-flask-ml-deploy: This is a project to auto-deploy with an ML payload (github.com)](https://github.com/noahgift/gcp-flask-ml-deploy)
