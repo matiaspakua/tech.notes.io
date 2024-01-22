@@ -1094,18 +1094,8 @@ Official Web: [Amazon S3](http://aws.amazon.com/s3/)
 ---
 <a name="04"></a>
 # Course 04: Cloud Machine Learning Engineering and MLOps
-
-## MLOps
-
-### Definition
-
-Machine learning + DepOps (Development and operations.)
-
-![](../../images/MLOps_deep_dive.png)
-
-Machine learning engineering is the field of applying machine learning models to real-world problems and deploying them in production environments. Machine learning engineers use DevOps principles and practices, such as microservices and continuous delivery, to build, test, and maintain machine learning systems. Machine learning engineers work with data, algorithms, and software to create solutions for various domains, such as self-driving cars or wildlife detection. 
-
-### Machine Learning Architecture
+ 
+## Machine Learning Architecture
 
 ![](../../images/machine_learning_architecture.png)
 
@@ -1225,6 +1215,17 @@ Ludwig is an open-source, code-free tool that simplifies the process of training
 
 ![](../../images/cloud_AutoML_workflow.png)
 
+An example repository where is user Apple AutoML: [noahgift/Apple-CreateML-AutoML-Recipes: Some recipes around Apple CreateML (github.com)](https://github.com/noahgift/Apple-CreateML-AutoML-Recipes)
+
+## MLOps
+
+### Definition
+
+Machine learning + DepOps (Development and operations.)
+
+![](../../images/MLOps_deep_dive.png)
+
+Machine learning engineering is the field of applying machine learning models to real-world problems and deploying them in production environments. Machine learning engineers use DevOps principles and practices, such as microservices and continuous delivery, to build, test, and maintain machine learning systems. Machine learning engineers work with data, algorithms, and software to create solutions for various domains, such as self-driving cars or wildlife detection.
 
 ### Edge ML and 5G
 
@@ -1245,6 +1246,14 @@ These devices can have a camera and hardware that can do the prediction and then
 - What is 5G Technology and How Does it Work? - [TWI](https://www.twi-global.com/technical-knowledge/faqs/What-is-5G)
 - How 5G Works - HowStuffWorks [link](https://electronics.howstuffworks.com/5g.htm)
 
+### What problems solve Edge ML?
+
+1. **Real-time Decision Making**: One of the primary advantages of Edge ML <mark style="background: #FFF3A3A6;">is its ability to operate in low-latency environments. In applications where real-time responses are critical, such as autonomous vehicles or industrial automation</mark>, relying on cloud-based machine learning models can introduce significant delays due to data transmission and processing. Edge ML eliminates this bottleneck by processing data locally, enabling instantaneous decision-making.
+
+2. **Privacy and Data Security**: Another unique problem that Edge ML solves is the issue of privacy and data security. With traditional machine learning models, sensitive data often needs to be transmitted to remote servers for processing. This raises concerns about data privacy and potential security breaches. Edge ML addresses this challenge by <mark style="background: #FFF3A3A6;">keeping data locally and performing computations on the device itself, reducing the risk of data exposure</mark>.
+
+3. **Decentralized Processing**: As the demand for real-time and decentralized processing increases, <mark style="background: #FFF3A3A6;">Edge ML brings the power of artificial intelligence (AI) to the edge of the network</mark>, without relying on cloud or centralized servers.
+
 
 ### Using AI API
 
@@ -1255,6 +1264,10 @@ Documentation: [AWS SDK for Python (amazon.com)](https://aws.amazon.com/sdk-for-
 You can talk to any service in this case, including the AWS comprehensive service. You can write a script or function in Python that allows you to give it an image and then it can find what is in that image. You can also recognize text and put that into a fully server-less application like AWS Elastic Beanstalk. 
 
 The advantage of using an <mark style="background: #FFF3A3A6;">AI API is that you can really focus on the ML component and its engineering</mark>. You’re not focused on training a model that will probably do a worse job than the API that you can call from AWS comprehend. This is really a concept called <mark style="background: #FFB86CA6;">comparative advantage or CA</mark> and it says do the things that you’re the best at, let other people that are better at a specific thing do that. It’s the same concept when you’re using these AI APIs as focus on the building of the software and then call out to these other APIs and let them do the heavy lifting.
+
+## Core Components of a Cloud Application
+
+![](../../images/core_components_cloud_application.png)
 
 # References
 
