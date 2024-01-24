@@ -33,8 +33,10 @@ This is a very complete, hand-on, medium level specialization based on cloud com
 
 ## Live App
 
- - The app is live in this URL: [ML Image Classificator](https://ml-demo-project-app.azurewebsites.net/)
+ - The app is live in AZURE in this URL: [ML Image Classificator](https://ml-demo-project-app.azurewebsites.net/)
 
+
+ - Or in AWS EC2 in this URL: [ML Image Classificator](http://ec2-54-90-167-155.compute-1.amazonaws.com:8080/)
 
 
 --- 
