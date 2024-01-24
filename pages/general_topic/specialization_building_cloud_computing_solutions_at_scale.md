@@ -30,6 +30,13 @@ This is a very complete, hand-on, medium level specialization based on cloud com
 
 - Link to the final project: [matiaspakua/ml-demo-project: Demostration project for the Specialization Building Cloud Computing Solutions at Scale](https://github.com/matiaspakua/ml-demo-project)
 
+
+## Live App
+
+ - The app is live in this URL: [ML Image Classificator](https://ml-demo-project-app.azurewebsites.net/)
+
+
+
 --- 
 ---
 
