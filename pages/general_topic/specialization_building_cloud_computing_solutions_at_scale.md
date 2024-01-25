@@ -1074,7 +1074,7 @@ More Documentation: [Chapter05 Cloud Storage Pragmatic AI Labs and Solutions](ht
 - **Pricing**: Cloud storage also offers different pricing options, depending on how frequently you access your data. You can pay less for infrequently accessed data, or archive your data using services like AWS Glacier. This way, you can optimize your costs and only pay for what you use.
 - **Offerings**: Cloud storage also offers different types of storage, such as object storage, databases, and search engines. You can choose the best storage for your use case, or use multiple storage types together. For example, you can use a relational database, a key-value database, a graph database, or a search engine, depending on your data structure and query needs. AWS has many offerings, such as S3, DynamoDB, Neptune, and Elasticsearch.
 
-![](../../images/cloud_storage_deep_dive.png()
+![](../../images/cloud_storage_deep_dive.png)
 
 Examples are:
 
