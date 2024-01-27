@@ -47,7 +47,7 @@ Welcome to my personal Tech Notes blog. Here, information is presented in a stra
 - [Software Engineering at Google. A book, a web site](https://abseil.io/resources/swe-book)
 - [On Agile by Martin Fowler](https://martinfowler.com/agile.html)
 - [Software Design By Example. A book, a web site](https://third-bit.com/sdxjs/)
-- [Software engineering timeline](/pages/software_engineering/software_engineering_timeline.md)
+- [Software engineering timeline](/pages/software_engineering/software_engineering_timeline.md) <span style="color:green"> New, in progress... </span>
 
 # Software and System Architecture
 
