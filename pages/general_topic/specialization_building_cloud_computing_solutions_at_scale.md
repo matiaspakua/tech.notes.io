@@ -35,8 +35,11 @@ This is a very complete, hand-on, medium level specialization based on cloud com
 
  - The app is live in AZURE in this URL: [ML Image Classificator](https://ml-demo.azurewebsites.net/)
 
-
  - Or in AWS EC2 in this URL: [ML Image Classificator](http://ec2-54-90-167-155.compute-1.amazonaws.com:8080/)
+
+## Run locally the app:
+
+ - [Link to the repo README with instructions](https://github.com/matiaspakua/ml-demo-project/blob/main/README.md#run-locally)
 
 
 --- 
