@@ -159,3 +159,8 @@ Hexagonal Architecture: [Hexagonal architecture – Alistair Cockburn](https://a
 5. **Ports and adapters**: Is best fit when traslade information that crosses between bounded contexts.
 6. What is an API. Application Programming Interface (API) is all the information that is exposed to consumers of a service, or library, that expose that API. In combination with **ports and adapters** create the consisten level of abstraction. The rule is: <mark style="background: #FFF3A3A6;">always add Ports and Adapters where the code that you talk to is in different scope of evaluation.</mark> 
 
+### 12. Information Hiding and Abstraction.
+
+* **Information hiding**: its based on hiding the behavior of the code. It includes implementation details as well as any data that it may or may nor use.
+* **The Big balls of mud problem**. The first point are the Organizational and cultural problems. Here, the main and most importan advice is that we need to own the responsibility for the quality of the code that we work on.
+![](../../images/big_ball_of_mud.png)
