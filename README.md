@@ -58,7 +58,7 @@ Welcome to my personal Tech Notes blog. Here, information is presented in a stra
 - [On hexagonal Architecture notes](/pages/sw_and_system_architecture/on_hexagonal_architecture_notes.md)
 - [The Architecture of Open Source Applications. A book, a web site](http://aosabook.org/en/index.html)
 - [Vertical Slicing Architectures](/pages/sw_and_system_architecture/vertical_slicing_architectures.md)
-- [Sustainable Software Architecture](/pages/sw_and_system_architecture/sustainable_software_architecture.md)
+- [Sustainable Software Architecture](/pages/sw_and_system_architecture/sustainable_software_architecture.md) <span style="color:green"> New, in progress... </span>
 
 # Cybersecurity
 
@@ -91,7 +91,7 @@ Welcome to my personal Tech Notes blog. Here, information is presented in a stra
  * Software Engineering, 10th Edition by Ian Sommerville
  * Software Engineering: A Practitioner's Approach, 8th Edition, Roger Pressmann
  - [Extreme Programming Explained](/pages/books/book_extreme_programming_explained.md)
- - [Modern Software Engineering: Doing What Works to Build Better Software Faster, By David Farley](/pages/books/modern_software_engineering.md)
+ - [Modern Software Engineering: Doing What Works to Build Better Software Faster, By David Farley](/pages/books/modern_software_engineering.md) <span style="color:green"> New, in progress... </span>
 
 # Others Books
 

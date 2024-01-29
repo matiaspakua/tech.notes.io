@@ -20,4 +20,4 @@
 
 ## Cycles create technical debt
 
-![](../../images/big_ball_of_mud.png
+![](../../images/big_ball_of_mud.png)
