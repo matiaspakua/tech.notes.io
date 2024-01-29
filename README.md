@@ -58,6 +58,7 @@ Welcome to my personal Tech Notes blog. Here, information is presented in a stra
 - [On hexagonal Architecture notes](/pages/sw_and_system_architecture/on_hexagonal_architecture_notes.md)
 - [The Architecture of Open Source Applications. A book, a web site](http://aosabook.org/en/index.html)
 - [Vertical Slicing Architectures](/pages/sw_and_system_architecture/vertical_slicing_architectures.md)
+- [Sustainable Software Architecture](/pages/sw_and_system_architecture/sustainable_software_architecture.md)
 
 # Cybersecurity
 
