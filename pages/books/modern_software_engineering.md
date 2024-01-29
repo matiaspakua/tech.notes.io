@@ -152,4 +152,10 @@ Hexagonal Architecture: [Hexagonal architecture – Alistair Cockburn](https://a
 
 ## 11. Separation of concerns
 
-1. **Definition**: 
+1. **Definition**: is defined as "a design principle for separating a computer program into distinct sections such that each section addresses a separate concern". Stuff that is unrelated is far apart, and the stuff that is relates is close together.
+2. **Dependency Injection**: is where dependencies of a piece of code are supplied to it as parameters, rather that created by.
+3. **Essential and Accidental complexity**: <mark style="background: #FFF3A3A6;">The Essential complexity </mark>of a system is the complexity that is inherent in solving the problem that you are trying to solve. <mark style="background: #FFF3A3A6;">The accidental complexity</mark> is everything else, the problems that we are forced to solve as a side effect of doing something useful with computer. 
+4. **Testeability**: if we work to ensure that our code is easy to test, the we must separate the concern or our test will lack focus.
+5. **Ports and adapters**: Is best fit when traslade information that crosses between bounded contexts.
+6. What is an API. Application Programming Interface (API) is all the information that is exposed to consumers of a service, or library, that expose that API. In combination with **ports and adapters** create the consisten level of abstraction. The rule is: <mark style="background: #FFF3A3A6;">always add Ports and Adapters where the code that you talk to is in different scope of evaluation.</mark> 
+
