@@ -75,8 +75,7 @@ Welcome to my personal Tech Notes blog. Here, information is presented in a stra
 
 # Technical Books in progress
 
- - The Mythical Man-Month: Essays on Software Engineering, by Fred Brooks (44%)
- - The Little Prince, by Antoine de Saint-Exupéry (95%)
+ - The Mythical Man-Month: Essays on Software Engineering, by Fred Brooks (51%) 
  - ReWork: Change the Way You Work Forever, By David Heinemeier Hansson and Jason Fried (71%)
  - Refactoring: improving the design of existing code, by Martin Fowler (5%)
  - Working effectively with legacy code, by Michael Feathers (5%)
@@ -90,8 +89,8 @@ Welcome to my personal Tech Notes blog. Here, information is presented in a stra
  * Design Patterns Elements of Reusable Object-Oriented Software by Erich Gamma, Richard Helm, Ralph Johnson, John M. Vlissides
  * Software Engineering, 10th Edition by Ian Sommerville
  * Software Engineering: A Practitioner's Approach, 8th Edition, Roger Pressmann
- - [Extreme Programming Explained](/pages/books/book_extreme_programming_explained.md)
- - [Modern Software Engineering: Doing What Works to Build Better Software Faster, By David Farley](/pages/books/modern_software_engineering.md) <span style="color:green"> New, in progress... </span>
+ * [Extreme Programming Explained](/pages/books/book_extreme_programming_explained.md)
+ * [Modern Software Engineering: Doing What Works to Build Better Software Faster, By David Farley](/pages/books/modern_software_engineering.md) <span style="color:green"> New, in progress... </span>
 
 # Others Books
 
@@ -103,6 +102,7 @@ Welcome to my personal Tech Notes blog. Here, information is presented in a stra
  * Exhalation, by Ted Chiang
  * The Lord Of the Rings (all three)
  * Millenium Saga (Stieg Larson)
+ * The Little Prince, by Antoine de Saint-Exupéry
 
 ----
 # Pending notes (to be digitalized)
