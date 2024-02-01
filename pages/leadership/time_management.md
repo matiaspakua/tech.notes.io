@@ -28,3 +28,8 @@ Muchos frentes de batalla abiertos (distracciones) + otras complicaciones
 4. Ser muy atento de los "ladrones" del tiempo.
 5. Evitar el "desorden".
   
+## Programación Eficaz del Tiempo
+
+Cuadrante de prioridades:
+
+![](../../images/cuadrante_gestion_tiempo.png)
