@@ -145,3 +145,6 @@ La capacidad anticipatoria y el pensamiento complejo están estrechamente relaci
 - **Resolución de problemas:** Facilita la identificación de soluciones a problemas complejos.
 - **Adaptabilidad:** Permite adaptarse mejor a los cambios y a las nuevas situaciones.
 - **Innovación:** Favorece la creatividad y la innovación.
+
+### Mejorar la administración del tiempo
+
