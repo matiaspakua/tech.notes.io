@@ -148,3 +148,49 @@ La capacidad anticipatoria y el pensamiento complejo están estrechamente relaci
 
 ### Mejorar la administración del tiempo
 
+1. Principio de delegación, saber delegar es un aspecto fundamental.
+2. Reuniones de trabajo (se estima que entre un 30% hasta un 50% del tiempo en las empresas se dedica a reuniones)
+
+Ahora <mark style="background: #FFF3A3A6;">¿para qué sirven las reuniones?</mark>. 
+
+1. Difundir información y toma de decisiones son los dos mayores objetivos.
+2. Intercambio de ideas, mejoras en la integración y compromiso (son los objetivos secundarios.)
+
+## Reuniones
+
+Estar siempre atento al "<mark style="background: #BBFABBA6;">peligro de REUNIONITIS</mark>" (las malas reuniones, recurrentes, obsesivas en cantidad y duración)
+
+Existen una serie de criterios a tener en cuenta para mejorar las reuniones:
+1. Tener una "orden del día"
+2. Preguntarse si ¿Se puede evitar la reunión?
+3. Generar un acta/minuta
+
+### Tipos de Reuniones
+
+1. Informativas
+2. Formativas
+3. Toma de decisiones
+
+En cualquiera de los casos, el objetivo de "tener" reuniones es ==> Cumplir con determinados objetivos.
+
+### Antes de la Reunión
+
+Un ejemplo de un proceso y pasos a seguir puede ser el siguiente:
+
+![](../../images/antes_de_una_reunion.png)
+
+### Inicio de la Reunión
+
+1. Puntualidad
+2. Ver la orden del día
+3. Establecer bien claro el "objetivo"
+4. Claridad y precisión en el desarrollo
+5. Priorización de los temas tratados
+
+### Desarrollo de la Reunión
+
+Mantener el foco constante en los siguientes dos aspectos:
+
+1. <mark style="background: #FFF3A3A6;">Efectividad</mark>
+2. <mark style="background: #BBFABBA6;">Comunicación</mark>
+
