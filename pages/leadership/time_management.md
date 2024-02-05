@@ -194,3 +194,22 @@ Mantener el foco constante en los siguientes dos aspectos:
 1. <mark style="background: #FFF3A3A6;">Efectividad</mark>
 2. <mark style="background: #BBFABBA6;">Comunicación</mark>
 
+### Estrategias de conducción de Reuniones
+
+![](../../images/estrategia_conduccion_reuniones.png)
+
+### Finalización de una Reunión
+
+Generar los siguientes artefactos:
+
+1. Acta o minuta ==> MUY IMPORANTE.
+2. Evaluar la reunión
+3. En caso de existir Action Items, realizar un seguimiento y monitoreo sobre las acciones.
+
+### Otros aspectos de las reuniones
+
+1. **Dirección de Reuniones**: Aspectos al iniciar la reunión, finalizar, resumir lo hablado, gestionar los tiempos, gestionar la participación, realizar aclaraciones, votación en caso de ser necesario.
+2. **Toma de Decisiones**: Existen distintas técnicas como el consenso, la votación, subgrupo, delegación.
+3. **Dificultades comunes**: El silencio de los participantes, la desviación de la atención, un "saboteador" y las evasiones de los participantes.
+4. **Técnicas de Conducción**: La reformulación es una buena herramienta para dar dinámica, también existe la re-estimulación donde se pretende "animar" a los participantes con diferentes propuestas: preguntas test, complemento,  puntos de vista, preguntas ECO, preguntas rebote, preguntas recuerdo.
+
