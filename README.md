@@ -70,7 +70,8 @@ Welcome to my personal Tech Notes blog. Here, information is presented in a stra
 * Application Security in DevSecOps
 * DevSecOps: Building a Secure Continuous Delivery Pipeline
 * Developing Secure Software
-* 
+* [IT Security Foundations: Core Concepts](/pages/cybersecurity/it_security_foundations_core_concepts.md)
+* [Programming Foundations: Web Security](/pages/cybersecurity/programming_foundations_web_security.md)
 
 # Leadership
 
