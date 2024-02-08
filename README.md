@@ -72,6 +72,7 @@ Welcome to my personal Tech Notes blog. Here, information is presented in a stra
 * Developing Secure Software
 * [IT Security Foundations: Core Concepts](/pages/cybersecurity/it_security_foundations_core_concepts.md)
 * [Programming Foundations: Web Security](/pages/cybersecurity/programming_foundations_web_security.md)
+* [DevOps Foundations: DevSecOps](/pages/cybersecurity/dev_sec_ops_foundations.md)
 
 # Leadership
 
