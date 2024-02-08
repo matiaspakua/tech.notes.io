@@ -63,6 +63,14 @@ Welcome to my personal Tech Notes blog. Here, information is presented in a stra
 # Cybersecurity
 
 * [Conference h4cked 2022](/pages/cybersecurity/cybersecurity_h4ck3d.md)
+* [Learning the Owasp Top 10](/pages/cybersecurity/learning_owasp_top_10.md)
+* [Cybersecurity Foundations](/pages/cybersecurity/cybersecurity_foundations.md)
+* Learning Threat Modeling for Security Professionals
+* IT Security Foundations: Operating System Security
+* Application Security in DevSecOps
+* DevSecOps: Building a Secure Continuous Delivery Pipeline
+* Developing Secure Software
+* 
 
 # Leadership
 
