@@ -149,7 +149,7 @@ Take importance of <mark style="background: #FFF3A3A6;">being objective</mark> w
 
 ### EQ and positive conflict management
 
-![](.../../images/positive_conflict_management.png)
+![](../../images/positive_conflict_management.png)
 
 - **Healthy Conflicts**: Healthy conflicts at work can spark debates, helping people to consider alternative perspectives and often resulting in teams pushing the boundaries of what is achievable.
 - **Respectful Challenges**: Creating environments where people can respectfully challenge ideas, perspectives, and opinions creates a healthy culture.
