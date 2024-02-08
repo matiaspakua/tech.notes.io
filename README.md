@@ -73,6 +73,33 @@ Welcome to my personal Tech Notes blog. Here, information is presented in a stra
  - [Emotional Intelligence](/pages/leadership/emotional_intelligence.md)
  - [Gestión del tiempo (Time Management)](/pages/leadership/time_management.md) <span style="color:green"> New, in progress... </span>
 
+# Software Engineering Specialization (postgraduate)
+
+<mark style="background: #FFF3A3A6;">Módulo Ingeniería de Productos de Software  </mark>
+
+- Ingeniería de Requerimientos
+- Modelado de Software con Objetos
+- Arquitecturas de Software
+- Mediciones de Software y Sistemas
+  
+<mark style="background: #FFF3A3A6;">Módulo Gestión de Proyectos de Desarrollo  </mark>
+- Planeamiento y Estimación de Proyectos de Software
+- Administración del Riesgo en Desarrollo de Software
+- Gestión de Recursos Humanos y Conducción de Equipos
+- Métodos de Desarrollo de Software 
+  
+<mark style="background: #FFF3A3A6;">Módulo Gestión de la Calidad de Software  </mark>
+- Testing de Software
+- Calidad de Software
+  
+<mark style="background: #FFF3A3A6;">Módulo Complementarias:  </mark>
+- Marketing
+- Contratos y Aspectos Legales de Software 
+- Ética Profesional 
+
+<mark style="background: #FFF3A3A6;">Proyecto Final</mark>
+  - DevSecOps desde la perspectiva de QA Automation
+
 # Technical Books in progress
 
  - The Mythical Man-Month: Essays on Software Engineering, by Fred Brooks (51%) 
@@ -103,20 +130,3 @@ Welcome to my personal Tech Notes blog. Here, information is presented in a stra
  * The Lord Of the Rings (all three)
  * Millenium Saga (Stieg Larson)
  * The Little Prince, by Antoine de Saint-Exupéry
-
-----
-# Pending notes (to be digitalized)
-
-- Java And Hibernate. Implementing multiple databases for a monolith legacy code base
-- Software Architecture. Documenting Architecture with ADR
-- On Clean Architecture notes
-- On Event-Driven Architecture notes
-- On Javascript notes
-- Git. Keep the repository clear with semantic versioning, changelog and readme.
-- Traceability. Going backward and forward to better understand
-- FailFast. How to improve debugging.
-- GTD. Getting Things Done
-- The Majestic Monolith by David Heinemeier Hansson
-- RPAFramework a great extra to RobotFramework
-- 4-D systems. How NASA builds high performing project teams
-- SBOM and microservices catalogue, why is so important. 
