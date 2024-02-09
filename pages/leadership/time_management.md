@@ -226,3 +226,21 @@ En éstas dinámicas se sugiere el uso de un tablero para la visualización de l
 ![](../../images/time_managemen_dinamica_66_flow.png)
 
 ## Trabajo en Equipo
+
+1. Se trata de una capacidad <mark style="background: #BBFABBA6;">innata</mark> del ser humano.
+2. Es una <mark style="background: #FFF3A3A6;">sumatoria</mark> de habilidades > habilidades individuales (es tanto una condición genética como un elemento social) 
+3. Genera una <mark style="background: #FFF3A3A6;">Sinergia</mark>, comunicación y colaboración.
+
+### Características
+1. Personas unidas
+2. Requiere de habilidades específicas y complementarias.
+3. Tiene un objetivo y un propósito.
+4. Requiere de compromiso y responsabilidad de parte de todos.
+### Cuando "NO" funciona un equipo
+<mark style="background: #BBFABBA6;">1.</mark> Falta de liderazgo.
+<mark style="background: #BBFABBA6;">2. </mark>Objetivos mal definidos.
+<mark style="background: #BBFABBA6;">3. </mark>Escasa o mala comunicación
+<mark style="background: #BBFABBA6;">4. </mark>Desmotivación
+<mark style="background: #BBFABBA6;">5. </mark>Complejidad (y falta de formación)
+<mark style="background: #BBFABBA6;">6. </mark>Falta de reconocimiento.
+<mark style="background: #BBFABBA6;">7. </mark>Falta de relación entre miembros del equipo.
