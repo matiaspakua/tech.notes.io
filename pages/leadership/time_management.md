@@ -238,9 +238,16 @@ En éstas dinámicas se sugiere el uso de un tablero para la visualización de l
 4. Requiere de compromiso y responsabilidad de parte de todos.
 ### Cuando "NO" funciona un equipo
 <mark style="background: #BBFABBA6;">1.</mark> Falta de liderazgo.
+
 <mark style="background: #BBFABBA6;">2. </mark>Objetivos mal definidos.
+
 <mark style="background: #BBFABBA6;">3. </mark>Escasa o mala comunicación
+
 <mark style="background: #BBFABBA6;">4. </mark>Desmotivación
+
 <mark style="background: #BBFABBA6;">5. </mark>Complejidad (y falta de formación)
+
 <mark style="background: #BBFABBA6;">6. </mark>Falta de reconocimiento.
+
 <mark style="background: #BBFABBA6;">7. </mark>Falta de relación entre miembros del equipo.
+
