@@ -213,3 +213,16 @@ Generar los siguientes artefactos:
 3. **Dificultades comunes**: El silencio de los participantes, la desviación de la atención, un "saboteador" y las evasiones de los participantes.
 4. **Técnicas de Conducción**: La reformulación es una buena herramienta para dar dinámica, también existe la re-estimulación donde se pretende "animar" a los participantes con diferentes propuestas: preguntas test, complemento,  puntos de vista, preguntas ECO, preguntas rebote, preguntas recuerdo.
 
+## Dinámica 66 (Philips)
+
+La dinámica 66, también conocida como "método Philips 66", es una técnica de dinámica de grupos que se utiliza para fomentar la participación activa y la generación de ideas en reuniones con un número elevado de participantes. Se basa en la organización del grupo en subgrupos de 6 personas que discuten un tema específico durante 6 minutos.
+
+![](../../images/time_management_dinamica_66.png)
+
+En estas dinámicas es conveniente que un moderador lleve el hilo conductor (lenguaje, tiempos, foco).
+
+En éstas dinámicas se sugiere el uso de un tablero para la visualización de las ideas, propuestas, soluciones, etc. Tanto los objetivos y los temas a tratar deben ser bien aclarados y enfocados en todo momento. Finalmente, se deben generar "accionables" (notas, documentos, etc.) con los resultados de los análisis para poder llevar el registro de lo acordado y luego mantener un seguimiento, monitoreo o trazabilidad de ser necesario. Los artefactos generados son una importante fuente de conocimiento para luego poder comunicar información relevante.
+
+![](../../images/time_managemen_dinamica_66_flow.png)
+
+## Trabajo en Equipo
