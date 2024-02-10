@@ -232,11 +232,14 @@ En éstas dinámicas se sugiere el uso de un tablero para la visualización de l
 3. Genera una <mark style="background: #FFF3A3A6;">Sinergia</mark>, comunicación y colaboración.
 
 ### Características
+
 1. Personas unidas
 2. Requiere de habilidades específicas y complementarias.
 3. Tiene un objetivo y un propósito.
 4. Requiere de compromiso y responsabilidad de parte de todos.
+
 ### Cuando "NO" funciona un equipo
+
 <mark style="background: #BBFABBA6;">1.</mark> Falta de liderazgo.
 
 <mark style="background: #BBFABBA6;">2. </mark>Objetivos mal definidos.
