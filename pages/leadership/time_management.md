@@ -326,3 +326,38 @@ La escucha activa es una forma de comunicación que va más allá de simplemente
 	 * No emitir opiniones prematuras.
 
 ### Gestión de Conflictos
+
+<mark style="background: #BBFABBA6;">Def.</mark> situación en la que dos o más personas o grupos dentro de una organización tienen diferentes objetivos, intereses o necesidades, lo que genera una percepción de incompatibilidad y oposición entre ellos.
+
+Todo conflicto puede generar lo siguiente:
+
+1. Imán a otros conflicto, generar nuevos.
+2. Puede traer "progreso" si son correctamente gestionados.
+3. Se puede ver como una oportunidad o una ventaja.
+
+Existen varios "<mark style="background: #ADCCFFA6;">tipos</mark>" de conflictos:
+
+1. Relación o de comunicación
+2. Información
+3. Intereses
+4. Valores (ideas / creencias)
+5. Roles, poder, autoridad.
+
+Las "<mark style="background: #FFF3A3A6;">fases</mark>" de un conflicto son:
+
+1. Oculto o larvado (origen)
+2. Manifestación
+3. Explosión
+4. Agotamiento
+5. Resolución
+
+### Estrategias para abordar conflictos
+
+1. **Competir**: se aplica cuando solo una parte conoce los hechos o en medidas de emergencia.
+2. **Acomodarse**: cuando el conflicto tiene poca importancia.
+3. **Eludir**: se aplica cuando hay poca información o no el equipo no se ve afectado directamente.
+4. **Compromiso**: Cuando ambas partes confían y pueden ganar en forma equitativa.
+5. **Colaboración**: cuando ambas partes están seguras que pueden ganar.
+
+### Resolución de Conflictos
+
