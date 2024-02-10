@@ -305,3 +305,24 @@ Un equipo EEE es básicamente un equipo de alto rendimiento, donde entre los mie
 
 ### Habilidades de Integración
 
+1. Escucha activa
+2. Comunicación (verbal y escrita)
+3. Solución de problemas
+4. Asignación de trabajo
+5. Delegación
+6. Objetivos realistas
+
+### Escucha Activa
+
+La escucha activa es una forma de comunicación que va más allá de simplemente oír lo que la otra persona dice. Se trata de prestar atención plena al mensaje, tanto verbal como no verbal, con el objetivo de comprender en profundidad lo que la persona está comunicando.
+
+ * El <mark style="background: #FFF3A3A6;">otro me interesa</mark>, escuchar "realmente"
+ * <mark style="background: #FFF3A3A6;">Leer entre líneas</mark> (aquí el pensamiento sistémico es importante para entender el contexto)
+ * <mark style="background: #FFF3A3A6;">Empatía</mark> (parafrasear, atención).
+ * Observar el <mark style="background: #FFF3A3A6;">lenguaje corporal</mark>.
+ * <mark style="background: #BBFABBA6;">Evitar</mark>:
+	 * Distraernos (celular, chat, interrupciones exteriores).
+	 * No interrumpir, no juzgar.
+	 * No emitir opiniones prematuras.
+
+### Gestión de Conflictos
