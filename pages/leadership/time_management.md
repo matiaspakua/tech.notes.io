@@ -213,7 +213,7 @@ Generar los siguientes artefactos:
 3. **Dificultades comunes**: El silencio de los participantes, la desviación de la atención, un "saboteador" y las evasiones de los participantes.
 4. **Técnicas de Conducción**: La reformulación es una buena herramienta para dar dinámica, también existe la re-estimulación donde se pretende "animar" a los participantes con diferentes propuestas: preguntas test, complemento,  puntos de vista, preguntas ECO, preguntas rebote, preguntas recuerdo.
 
-## Dinámica 66 (Philips)
+### Dinámica 66 (Philips)
 
 La dinámica 66, también conocida como "método Philips 66", es una técnica de dinámica de grupos que se utiliza para fomentar la participación activa y la generación de ideas en reuniones con un número elevado de participantes. Se basa en la organización del grupo en subgrupos de 6 personas que discuten un tema específico durante 6 minutos.
 
@@ -251,3 +251,24 @@ En éstas dinámicas se sugiere el uso de un tablero para la visualización de l
 
 <mark style="background: #BBFABBA6;">7. </mark>Falta de relación entre miembros del equipo.
 
+### Características de "Buenos" Equipos
+
+1. Grado de cohesión. Atracción y relación entre los miembros de los equipos; Resistencia a abandonar el equipo; interés en los objetivos y las metas.
+2. Tienen una meta, objetivo y valores bien definidos. Generalmente trasladados desde la organización o creados orgánicamente (interno) en el equipo.
+3. Equipo se caracteriza por cumplir con las siguientes características:
+	a. Una organización interna clara.
+	b. Funciones especificas o especialización.
+	c. normas pre-establecidas
+	d. Dirección (norte)
+	e. Calendario de actividades, eventos y team-building.
+	f. Respeto mutuo.
+4. Hay <mark style="background: #FFF3A3A6;">medidores</mark> bien definidos (tanto interno como a nivel organizacional):
+	a. Mecanismo de feedback.
+	b. Recomensas ==> <mark style="background: #BBFABBA6;">IMPORTANTE</mark>
+	c. Objetivos claros.
+
+### Definición de Metas
+
+![](../../images/equipos_definicion_de_metas.png)
+
+### Planificación Eficaz
