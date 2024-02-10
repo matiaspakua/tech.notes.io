@@ -267,7 +267,7 @@ En éstas dinámicas se sugiere el uso de un tablero para la visualización de l
 	f. Respeto mutuo.
 4. Hay <mark style="background: #FFF3A3A6;">medidores</mark> bien definidos (tanto interno como a nivel organizacional):
 	a. Mecanismo de feedback.
-	b. Recomensas ==> <mark style="background: #BBFABBA6;">IMPORTANTE</mark>
+	b. Recompensas ==> <mark style="background: #BBFABBA6;">IMPORTANTE</mark>
 	c. Objetivos claros.
 
 ### Definición de Metas
@@ -275,3 +275,14 @@ En éstas dinámicas se sugiere el uso de un tablero para la visualización de l
 ![](../../images/equipos_definicion_de_metas.png)
 
 ### Planificación Eficaz
+
+Para una planificación eficaz, se requiere de "buenos equipo" (o lo que comúnmente se conoce como equipos de "alto rendimiento"). Estos equipos se denominan EEE:
+
+1. E => **Equilibrados**: habilidades, técnicas y motivación homogéneamente distribuidos.
+2. E => **Eficaces**: gestión, organización, metas, procesos.
+3. E => **Energéticos**: interés, motivación, feedback.
+
+Un equipo EEE es básicamente un equipo de alto rendimiento, donde entre los miembros del equipo existe mucha cohesión.
+
+### Habilidades de Integración
+
