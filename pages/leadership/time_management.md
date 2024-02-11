@@ -407,3 +407,24 @@ La rueda de futuros es un marco de lluvia de ideas para visualizar las consecuen
 Es una herramienta de planificación y previsión estratégica que se utiliza para explorar y visualizar las posibles consecuencias e impactos de un evento, tendencia o decisión en particular. Es una técnica versátil empleada en estudios de futuros, planificación de escenarios y procesos de toma de decisiones para comprender mejor la interconexión de varios factores y sus implicaciones para el futuro. La Rueda del Futuro es una representación visual que se asemeja a una rueda, con el evento o idea central en su núcleo y múltiples radios que se ramifican para explorar factores y consecuencias relacionados.
 
 ![](../../images/rueda_del_futuro_glenn.png)
+
+### Gestión "VIRTUAL" de equipos de alto rendimiento
+
+1. <mark style="background: #FFF3A3A6;">Retroalimentar</mark> al equipo y en base a la información obtenida, accionar para mejorar las condiciones de trabajo, comunicación y relación.
+2. Dar el <mark style="background: #FFF3A3A6;">ejemplo</mark>. Siempre las mejoras prácticas, comienzan por uno mismo.
+3. Poner <mark style="background: #FFF3A3A6;">"metas"</mark> claves (importantes) y reiterarlas para mantener el foco y el compromiso.
+4. Establecer <mark style="background: #FFF3A3A6;">reglas</mark> claras, calendarios, reuniones y los horarios de "disponibilidad" aconsejados.
+5. Mantener la <mark style="background: #FFF3A3A6;">flexibilidad horaria</mark>.
+6. Usar indicadores sencillos para realizar <mark style="background: #FFF3A3A6;">seguimiento</mark> del trabajo (tableros, dashboards).
+7. Fomentar la relación del equipo:
+	a. compartir la visión de la compañía
+	b. involucrar al equipo.
+	c. felicitar, comunicar, ayudar.
+	d. formentar el trabajo en equipo.
+8. Crear una atmósfera de enseñanza y aprendizaje continuo (<mark style="background: #FFF3A3A6;">seguridad psicológica</mark>.)
+
+**Conclusión**:
+
+1. Armar un "código de conducta" y comunicarlo.
+2. Comunicación clara y con canales bien definidos.
+3. Metas claras.
