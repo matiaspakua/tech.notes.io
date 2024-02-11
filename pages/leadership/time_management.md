@@ -389,3 +389,21 @@ Son aquellas que cumple con las siguientes condiciones:
 5. Tratar de tener momentos de desintoxicación digital.
 
 ### Planes de Acción (equipos de alto rendimiento y gestión del tiempo)
+
+**Método SSC (Start-Stop-Continue)**
+
+El método Start-Stop-Continue, es una herramienta sencilla y efectiva para la mejora continua. Se utiliza para reflexionar sobre un proceso o proyecto, identificando qué aspectos se deben iniciar, detener y continuar para optimizar el rendimiento.
+
+**Pasos del método SSC:**
+
+1. Start (Iniciar): Identificar las acciones o prácticas que se deberían empezar a realizar para mejorar el proceso o proyecto.
+2. Stop (Detener): Identificar las acciones o prácticas que se deberían dejar de realizar porque no son útiles o incluso perjudiciales.
+3. Continue (Continuar): Identificar las acciones o prácticas que se están realizando correctamente y que se deberían continuar haciendo.
+
+### Método de Predicciones (Rueda del Futuro)
+
+La rueda de futuros es un marco de lluvia de ideas para visualizar las consecuencias futuras de una tendencia o evento en particular. Fue desarrollado por Jerome Glenn (1971). 
+
+Es una herramienta de planificación y previsión estratégica que se utiliza para explorar y visualizar las posibles consecuencias e impactos de un evento, tendencia o decisión en particular. Es una técnica versátil empleada en estudios de futuros, planificación de escenarios y procesos de toma de decisiones para comprender mejor la interconexión de varios factores y sus implicaciones para el futuro. La Rueda del Futuro es una representación visual que se asemeja a una rueda, con el evento o idea central en su núcleo y múltiples radios que se ramifican para explorar factores y consecuencias relacionados.
+
+![](../../images/rueda_del_futuro_glenn.png)
