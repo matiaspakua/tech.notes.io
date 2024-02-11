@@ -361,3 +361,31 @@ Las "<mark style="background: #FFF3A3A6;">fases</mark>" de un conflicto son:
 
 ### Resolución de Conflictos
 
+1. Por sobre todo, la dirección (lideres y mandos medios) deben definir bien los "objetivos".
+2. Luego, armar un esquema donde los <mark style="background: #FFF3A3A6;">"éxitos del individuo"</mark>, dependan en gran medida de los <mark style="background: #BBFABBA6;">"éxitos del grupo"</mark>.
+3. Luego están las herramientas, procesos y prácticas => [Notas en resolución de Conflictos](/pages/leadership/resolucion_de_conflictos.md).
+
+## Personas de Alto Rendimiento
+
+Son aquellas que cumple con las siguientes condiciones:
+
+1. Manejo de sus emociones ("emotional thinking") ==> [](/pages/leadership/emotional_intelligence.md)
+2. Capaces de "neutralizar" personas difíciles (negativas, conflictivas)
+3. Saben poner "limites". Ponen distancia. 
+4. Siempre están pensando en: ¿Cómo se puede solucionar el problema X?
+5. Identifican las batallas a pelear (eligen)
+6. Se enfocan en las soluciones, NO en los problemas.
+7. Saben perdonar, pero NO olvidan (parte del aprender del pasado para no repetir el problema.)
+8. Tienen conciencia de si mismos: deportes, hobby, duermen bien. No son Workholics.
+9. Generalmente tienen una red de apoyo (networking, mentores.)
+10. Son muy habiles organizando el tiempo (time management). Por ejemplo, aplican Pareto => 80/20, el 20% de su tiempo saben dirigirlo a lo más critico e importante, y el 80% restante a todo lo accesorio.
+
+### Stress laboral (como evitarlo)
+
+1. Lo más importante y difundido globalmente: <mark style="background: #FFF3A3A6;">CUIDARNOS A NOSOTROS MISMOS</mark>.
+2. Dormir bien.
+3. Hacer actividad física regularmente.
+4. Tratar de tener un estilo de vida saludable.
+5. Tratar de tener momentos de desintoxicación digital.
+
+### Planes de Acción (equipos de alto rendimiento y gestión del tiempo)
