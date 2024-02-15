@@ -1,1 +1,1 @@
-# Software Requiriments
+# Requerimientos de Software
