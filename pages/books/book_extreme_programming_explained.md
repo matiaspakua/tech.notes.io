@@ -17,6 +17,8 @@
 
 <button class="back-button" onclick="window.location.href='https://matiaspakua.github.io/tech.notes.io'">All notes</button>
 
+---
+
 ![xp programming](../../images/xp_programming.jpeg)
 
 ## Introduction
