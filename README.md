@@ -8,6 +8,8 @@ Welcome to my personal Tech Notes blog. Here, information is presented in a stra
 
  - GitHub Pages deploy Status: [![pages-build-deployment](https://github.com/matiaspakua/tech.notes.io/actions/workflows/pages/pages-build-deployment/badge.svg?branch=main)](https://github.com/matiaspakua/tech.notes.io/actions/workflows/pages/pages-build-deployment)
 
+--- 
+
 # General Topic
 
 - [NoSQL. The basis of](/pages/general_topic/nosql_the_basis_of.md) 
@@ -18,6 +20,7 @@ Welcome to my personal Tech Notes blog. Here, information is presented in a stra
 - [Xtrem TDD](https://xtrem-tdd.netlify.app/)
 - [Design Thinking notes](/pages/general_topic/design_thinking_explained.md)
 - [Tech Trends 2023](/pages/general_topic/tech_trends_2023.md) <span style="color:red"> in progress </span>
+
 # Development
 
 - [Spring Framework Notes](/pages/development/spring_framework_notes.md)
@@ -29,6 +32,7 @@ Welcome to my personal Tech Notes blog. Here, information is presented in a stra
 - [IntelliJ tips by Victor Rentea](/pages/development/intellij_tips.md)
 - [Getting Started In Spring Development](/pages/development/getting_started_spring_development.md)
 - [Advance Your Spring Development Skills](/pages/development/advance_your_spring_development_skills.md) <span style="color:red"> in progress </span>
+
 # Software and System Testing
 
 - [Gherkin and Automation](/pages/testing/gherkin_and_automation.md)
@@ -39,6 +43,7 @@ Welcome to my personal Tech Notes blog. Here, information is presented in a stra
 - [Test Automation (spanish). A book, a web site](https://nicopaez.gitbook.io/test-automation/)
 - [TestContainers: Introduction](/pages/testing/testcontainers.md)
 - [BDD with Cucumber for Java course](/pages/testing/bdd_with_cucumber_java_notes.md) <span style="color:red"> ( In progress ) </span>
+
 # Software Engineering
 
 - [Agile and SCRUM. The perks of know nothing](/pages/software_engineering/agile_and_scrum.md)
@@ -83,6 +88,8 @@ Welcome to my personal Tech Notes blog. Here, information is presented in a stra
  - [Emotional Intelligence](/pages/leadership/emotional_intelligence.md)
  - [Gestión del tiempo (Time Management)](/pages/leadership/time_management.md)
 
+---
+
 # Software Engineering Specialization (postgraduate)
 
 <mark style="background: #FFF3A3A6;">Módulo Ingeniería de Productos de Software  </mark>
@@ -109,6 +116,8 @@ Welcome to my personal Tech Notes blog. Here, information is presented in a stra
 
 <mark style="background: #FFF3A3A6;">Proyecto Final</mark>
   - DevSecOps desde la perspectiva de QA Automation
+
+---
 
 # Technical Books in progress
 
