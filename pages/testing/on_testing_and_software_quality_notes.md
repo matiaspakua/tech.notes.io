@@ -20,9 +20,13 @@
 ## Table of Content
 
 Legacy Systems
+
 Types of tests
+
 Techniques to improve quality
+
 Testing Strategy
+
 Testing Plan
 
 ## References
