@@ -27,7 +27,7 @@ I worked in the Aerospace area. This company started a new space program that co
 
 Artificial Satellite: An artificial satellite is a man-made object that is intentionally placed into orbit around a planet, moon, or other celestial body. These satellites are launched from Earth and are used for a variety of purposes, such as scientific research, communication, navigation, weather observation, and military surveillance. Artificial satellites can be placed in a variety of orbits depending on their intended use, including low Earth orbit (LEO), geostationary orbit (GEO), and polar orbit. A satellite consists of two main components: the payload and the service platform.
 
-![Generic SAtellite](generic_satellite.jpg)
+![Generic SAtellite](../../images/generic_satellite.jpg)
 
 **The payload** is the part of the satellite that performs the mission-specific functions. It can include instruments, sensors, cameras, antennas, and other equipment that are designed to gather data, transmit information, or perform other tasks. The payload is usually located on the top of the satellite and is protected by a special cover that shields it from the harsh environment of space.
 
@@ -53,7 +53,7 @@ A generic artificial satellite typically consists of several components:
 
 Overall, a satellite must be designed to withstand the harsh conditions of space and be capable of performing its intended mission for an extended period of time.
 
-![Satellite Overview](satellite_overview.png)
+![Satellite Overview](../../images/satellite_overview.png)
 
 ## The problem
 
@@ -102,7 +102,7 @@ First, the satellite (the SUT/DUT) is a complex system, that mean:  is a system 
 Each component of the system (the satellite) has it own behaviour, interfaces and connections. To test a fully integrated satellite is a tremendous endeavour. For this reason existen, during the project lifetime, many testing stages (as in a software system), that start with a simple unit and then progresively each unit is connected and integrated with other unit and so forth.
 
 
-![Satellite Environment Context](satellite_environment_context.png)
+![Satellite Environment Context](../../images/satellite_environment_context.png)
 
 Each unit of the system is called: "subsystem" and each subsystem are interconnected using different communication Buses, depending of a set of constraint associated with the subsystem functionality. 
 
@@ -116,7 +116,7 @@ Now is time to talk about the high level idea for the testing platform.
 
 2. Then, is needed a visual console, where to retrieve telemetry, data, information, status, health and any information userful. This componente require more than one mechanism to see, process and analyze any kind of information that is retrieve from the SUT/DUT or any other component, even from componentes that are not part of the SUT/DUT, like the underling infraestructure.
 
-![System Overview](system_overview.png)
+![System Overview](../../images/system_overview.png)
 
 
 ## RobotFramework
@@ -135,7 +135,7 @@ The Robot Framework is a generic test automation framework, and its architecture
 
 4. **Test Environment**: This component provides the infrastructure and resources required to run tests, such as the SUT, test data, test libraries, and other tools and utilities needed for testing.
 
-![RobotFramework Overview](robot_framework_overwiew.png)
+![RobotFramework Overview](../../images/robot_framework_overwiew.png)
 
 ## Python and RobotFramework
 
