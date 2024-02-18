@@ -39,7 +39,7 @@ Typically, REST APIs use JSON (JavaScript Object Notation) as the data format fo
 
 The software industry has adopted several patterns for capturing agreed upon API behaviour in documentation and code. These agreements are often called "contracts". Two examples include Consumer Driven Contracts and Provider Driven Contracts. We'll provide resources for these patterns, but won't discuss them in detail in this course. Instead, we'll discuss a lightweight concept called API contracts.
 
-![API Contract](api-contract-consumer-provider.png)
+![API Contract](../../images/api-contract-consumer-provider.png)
 
 We define an API contract as a formal agreement between a software provider and a consumer that abstractly communicates how to interact with each other. This contract defines how API providers and consumers interact, what data exchanges looks like, and how to communicate success and failure cases.
 

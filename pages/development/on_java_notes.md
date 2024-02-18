@@ -50,7 +50,7 @@ All object are handled by Java using references: a bit pattern that point to a s
 
 Exist a special reference: NULL, that point to nothing.
 
-![Remote control for array](object_reference.png)
+![Remote control for array](../../images/object_reference.png)
 
 ### Memory, Heap and Garbage Collection
 
@@ -148,7 +148,7 @@ In this example, we're overriding the equals() and hashCode() methods to check f
 
 In POO we say "a caller passes arguments to a method. A Method takes parameter from outside". And there are some rules about this. If a method takes parameters, you must pass it something when you call it. And that something must be a value of the appropriate TYPE (java cares aboout type!!).
 
-![Passing parameters to a method.](passing_parameters.png)
+![Passing parameters to a method.](../../images/passing_parameters.png)
 
 Methods can return values or VOID (nothing). And again, if you define a return value, you must return it.
 
@@ -406,18 +406,12 @@ Exception Handling: Exception handling is the mechanism that Java uses to handle
 **Primitive types**: Java has both primitive types (such as int, double, boolean, etc.) and object types (such as String, Integer, Double, etc.). Primitives types are not objects, they are basic data types that represent simple values. However, in Java, the primitive types are wrapped by their corresponding object types, such as Integer, Double, etc. These object types provide additional functionality and allow the primitive types to be treated like objects in certain contexts, such as passing them as arguments to methods that expect objects or using them in collections that require objects. This process is known as "autoboxing" and "unboxing".
 
 
-What is the difference between Overloading and Overriding
-SOLID
-CRUD
-MVC
-Sandro Mancuso - SOLID: https://reversecoding.net/solid-principles-explained-sandro-mancuso/
-Clean Code
-https://medium.com/mindorks/how-to-write-clean-code-lessons-learnt-from-the-clean-code-robert-c-martin-9ffc7aef870c
-https://medium.com/s/story/reflections-on-clean-code-8c9b683277ca
-https://williamdurand.fr/2013/06/03/object-calisthenics/
-https://sourcemaking.com/refactoring/smells
-Capitulo Nro 2 del libro Clean Code de Robert C. Martin
-Interaction Domain Driven Design (IDD)
-IDD - Sandro Mancuso vimeo.com/130256611
-Domain Driven Design (DDD)
-DDD - https://medium.com/the-coding-matrix/ddd-101-the-5-minute-tour-7a3037cf53b8
+# References
+
+* Sandro Mancuso - SOLID: https://reversecoding.net/solid-principles-explained-sandro-mancuso/
+* Clean Code: https://medium.com/mindorks/how-to-write-clean-code-lessons-learnt-from-the-clean-code-robert-c-martin-9ffc7aef870c
+* https://medium.com/s/story/reflections-on-clean-code-8c9b683277ca
+* https://williamdurand.fr/2013/06/03/object-calisthenics/
+* https://sourcemaking.com/refactoring/smells
+* IDD - Sandro Mancuso vimeo.com/130256611
+ * DDD - https://medium.com/the-coding-matrix/ddd-101-the-5-minute-tour-7a3037cf53b8
