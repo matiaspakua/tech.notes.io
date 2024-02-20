@@ -1,5 +1,24 @@
 # A reflection on Software Engineering: A Journey of Creativity and Rigor
 
+<style>
+  .back-button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+</style>
+
+<button class="back-button" onclick="window.location.href='https://matiaspakua.github.io/tech.notes.io'">All notes</button>
+
+---
+
 Software engineering is a fascinating discipline that combines creativity and rigor to solve real-world problems. It’s not just about writing code, but about following a well-defined process that ensures quality, efficiency, and performance. I will explain how this process is illustrated in the image below, which I created, put in my LinkedIn profile and I intent to expose how I understand Software Engineering (so far...):
 
 ![](../../images/software_engineering_banner.png)
