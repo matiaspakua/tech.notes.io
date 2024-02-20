@@ -22,6 +22,7 @@ If you find typo's, errors, missing images, missing pages or anythings else, ple
 - [Xtrem TDD](https://xtrem-tdd.netlify.app/)
 - [Design Thinking notes](/pages/general_topic/design_thinking_explained.md)
 - [Tech Trends 2023](/pages/general_topic/tech_trends_2023.md) <span style="color:red"> in progress </span>
+- [A reflection on Software Engineering: A Journey of Creativity and Rigor](/pages/general_topic/reflection_on_software_engineering.md)
 
 # Development
 
