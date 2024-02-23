@@ -17,7 +17,11 @@
 
 <button class="back-button" onclick="window.location.href='https://matiaspakua.github.io/tech.notes.io'">All notes</button>
 
-## Data BuildTools (DBT)
+---
+
+# The Latest
+
+### Data BuildTools (DBT)
 
 The topic "Data BuildTools (DBT)" covers a tool designed to address the increasing complexity of data analysis in rapidly growing companies. DBT, or the Data Build Tool, serves as a framework around SQL, providing structure, testing, and documentation for transforming and modeling data in the data warehouse. Key points include:
 
@@ -47,7 +51,7 @@ The topic "Data BuildTools (DBT)" covers a tool designed to address the increasi
 DBT serves as a valuable tool for teams looking to streamline and enhance their data analytics processes, providing a structured framework for managing SQL transformations and fostering collaboration among team members.
 
 
-## Microsoft Dev Box
+### Microsoft Dev Box
 
 Microsoft Dev Box is an Azure service that allows developers to create and use high-performance cloud-based workstations for coding. It offers several key benefits:
 
@@ -62,3 +66,20 @@ Microsoft Dev Box is an Azure service that allows developers to create and use h
 5. **Integration with existing Microsoft tools**: Seamlessly integrates with Microsoft 365 and Windows licenses, offering a familiar development environment for teams already using these tools.
 
 Microsoft Dev Box presents a option for companies and teams seeking a secure, efficient, and self-service way to provision and manage developer workstations, especially those already invested in the Microsoft ecosystem.
+
+### OpenAI API
+
+###AI Pair Programming
+
+### GPT-4
+
+### Copilot for business 1.0
+
+### ChatGPT
+
+### The Merge
+
+### Prompt Engineering
+
+
+# Artificial Intelligence
