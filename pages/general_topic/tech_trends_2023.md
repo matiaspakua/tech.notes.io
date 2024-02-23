@@ -69,7 +69,7 @@ Microsoft Dev Box presents a option for companies and teams seeking a secure, ef
 
 ### OpenAI API
 
-###AI Pair Programming
+### AI Pair Programming
 
 ### GPT-4
 
@@ -83,3 +83,28 @@ Microsoft Dev Box presents a option for companies and teams seeking a secure, ef
 
 
 # Artificial Intelligence
+
+### Generative AI
+### Github Copilot
+### Facial Recognition
+
+# Web3 and related
+
+### Web3
+### Metaverse
+
+# Development Tools
+
+### No-Code
+### Cross-Platform development tools
+### Excel and Javascript
+
+# Security
+
+### Zero trust
+
+# Technology Business
+
+### Chip Shortage
+### Windows Store Improvements
+### Android Apps on Windows 11
