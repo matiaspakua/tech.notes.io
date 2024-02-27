@@ -45,6 +45,28 @@
 
 And important concept to notice is that "software development" is unplannable (cannot be planned in advance).
 
+## Side Effects of tech debt
+
+ 1) Types of technical debt
+ 2) Architecture erosion
+ 3) high-cost of mantainance (bugfix, add new feature, overall mantainance)
+ 4) Continuos refactorings, improvements and related tasks
+
+The graphic below show how the evolution of technical debt affect the evolution of a software product:
+
+![](../../images/impact_technical_debt.png)
+
+
+### Test Coverage
+
+
+
 ## Cycles create technical debt
 
 ![](../../images/big_ball_of_mud.png)
+
+
+# Reference:
+
+ - https://www.linkedin.com/learning/sustainable-software-architecture
+ - 
