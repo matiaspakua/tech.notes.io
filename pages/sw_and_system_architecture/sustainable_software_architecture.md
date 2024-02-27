@@ -19,6 +19,9 @@
 ## Software architecture and sustainability
 
 - **Software architecture**: the structure of a software product, consisting of elements, their externally visible properties, and their relationships.
+
+-> Important to notice that EVERY software has a architecture underline.
+
 - **Software archeology**: the process of recovering the original architecture of a software product from the source code, when it is not documented or known.
 
 ![](../../images/software_archeology.jpeg)
@@ -32,6 +35,15 @@
 - **Unplannable process**: software development is an unplannable process over a long period of time. The new software usually changes business processes and has effects when integrating into the target organization that are rarely fully predictable.
 - **Sustainable software architecture**: to achieve this, one should take care to have as little technical debt as possible. It should be maintainable and extensible.
 - **Comic "technicaldebts.xls"**: a humorous illustration of how technical debt is often handled in practice, with issues simply being logged in a spreadsheet rather than being addressed.
+
+## Origin of tech debt
+
+- Old technology (libraries, frameworks, SDK and on)
+- Lack of knowledge on software architecture
+- Complex or big systems.
+- Lack of knowledge of business and clients (final users).
+
+And important concept to notice is that "software development" is unplannable (cannot be planned in advance).
 
 ## Cycles create technical debt
 
