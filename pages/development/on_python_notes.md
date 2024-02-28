@@ -1,4 +1,4 @@
-# Python. How to format 96 k lines of SQL inserts for OracleDB
+# Python
 
 <style>
   .back-button {
@@ -16,14 +16,17 @@
 </style>
 
 <button class="back-button" onclick="window.location.href='https://matiaspakua.github.io/tech.notes.io'">All notes</button>
-
-## Table of content
+---
 
 ## Introduction
+
+Ref curso de python Instituto Balseiro + INVAP: https://fiolj.github.io/intro-python-IB/clase_00.html
+
+
+## Example
+
 This is an example of the flexibility and easy user of python, where we solve a simple problem with a simple script in less than 5 minutes.
 
-
-## The script
 ```python
 # open both files
 with open('swift-list.sql','r') as firstfile, open('swift-list-batch.sql','a') as secondfile:
@@ -46,9 +49,3 @@ with open('swift-list.sql','r') as firstfile, open('swift-list-batch.sql','a') a
             secondfile.write(select_batch)
             secondfile.write(insert_all)
 ```
-
-
-
-## References
-
-Python and SQL.
