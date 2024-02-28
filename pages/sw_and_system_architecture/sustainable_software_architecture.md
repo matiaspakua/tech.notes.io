@@ -57,6 +57,8 @@ The graphic below show how the evolution of technical debt affect the evolution 
 ![](../../images/impact_technical_debt.png)
 
 
+-> In the "Ideal World" we are situated at the bottom, where we had a team capacity and with each change or new feature, we can improve or fix a little of the architecture.
+
 ### Test Coverage
 
 
