@@ -59,11 +59,44 @@ The graphic below show how the evolution of technical debt affect the evolution 
 
 -> In the "Ideal World" we are situated at the bottom, where we had a team capacity and with each change or new feature, we can improve or fix a little of the architecture.
 
-### Test Coverage
+### Types of Tech Debt
 
+1. **Test Debt**: Low test coverage leads to design and architectural debt. Without test we can't improve the design or make refactors.
+2. **Design and Architectural Debt**: Poorly designed code structures become complex and "big ball of mud" situations.
+3. **Implementation Debt**: Code smells like long methods, large classes, and code duplication.
+
+### Managing Technical Debt
+
+1. **Refactoring**: Step-by-step improvement of code quality to reduce debt.
+2. **Balance** new features with architectural improvements.
 
 
 ## Cycles create technical debt
+
+### First: what is a Big Ball of mud
+
+A "big ball of mud" refers to a **complex and poorly-organized codebase**. It lacks a clear structure, making it difficult to understand, maintain, and modify. 
+
+The key characteristics of a "big ball of mud":
+
+* **Disorganized structure:** The code lacks proper modularity and separation of concerns, leading to tangled dependencies and interwoven functionality.
+* **Code smells:** The codebase exhibits various "code smells" like long methods, large classes, and code duplication, indicating potential problems and difficulty in understanding the logic.
+* **Lack of documentation:** There might be minimal or outdated documentation, making it challenging to understand the purpose and functionality of different parts of the code.
+* **Inconsistent design principles:** The code may have been written adhering to different design principles at different times, leading to inconsistencies and making it difficult to reason about the overall architecture.
+
+The "big ball of mud" metaphor aptly depicts the situation as a tangled mess, similar to a ball of mud, where individual parts are difficult to distinguish and manipulate. This situation can arise due to various factors, such as:
+
+* Lack of initial planning or poor architectural design.
+* Short-term fixes and code hacks accumulating over time.
+* Limited knowledge sharing and inconsistent coding practices within the development team.
+
+The presence of a "big ball of mud" can significantly impact software development efforts by:
+
+* **Increasing maintenance costs:** It becomes challenging and time-consuming to make changes or fix bugs due to the lack of clarity and organization.
+* **Reducing development speed:**  Understanding the existing codebase takes significant effort, hindering the implementation of new features.
+* **Decreasing code quality:** The lack of maintainability and clarity can lead to further problems, creating a vicious cycle.
+
+Software engineers aim to avoid "big ball of mud" situations by implementing good coding practices, utilizing appropriate design patterns, and focusing on code maintainability throughout the development process. Additionally, techniques like refactoring can help improve the structure and clarity of existing codebases that might be exhibiting signs of this anti-pattern.
 
 ![](../../images/big_ball_of_mud.png)
 
