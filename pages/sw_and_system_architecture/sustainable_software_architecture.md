@@ -70,6 +70,17 @@ The graphic below show how the evolution of technical debt affect the evolution 
 1. **Refactoring**: Step-by-step improvement of code quality to reduce debt.
 2. **Balance** new features with architectural improvements.
 
+## SW architecture and cognitive psychology
+
+First we will start understanding where the developers spend their time, the graphic below is an approximation:
+
+![](../../images/development_time_pie_chart.png)
+
+That 70% explain why is so important to had a well defined architecture and behind that is a human reason: the human brain is trained to understand "structures"
+
+![](../../images/software_architecture_structures_human_brain.png)
+
+
 
 ## Cycles create technical debt
 
