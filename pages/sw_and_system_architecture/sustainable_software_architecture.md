@@ -76,11 +76,20 @@ First we will start understanding where the developers spend their time, the gra
 
 ![](../../images/development_time_pie_chart.png)
 
+The human brain has a limited capacity. The brain can only remember about 30,000 lines of code and that developers spend most of their time reading and understanding existing code.
+
 That 70% explain why is so important to had a well defined architecture and behind that is a human reason: the human brain is trained to understand "structures"
 
 ![](../../images/software_architecture_structures_human_brain.png)
 
+### Chunking
 
+**Chunking** is a method of facilitating **short-term memory** by **grouping individual pieces of information into larger, more familiar groups**. When you chunk information, you break up long strings of data into smaller, more manageable units or “chunks.” These chunks are easier to commit to memory than a longer uninterrupted string of information.
+
+Here’s how it works:
+
+ * **Limited Short-Term Memory**: Our short-term memory has a capacity for about four chunks of information. While some research suggests people can store between five and nine units of information, chunking allows us to “hack” these limits by organizing data into meaningful groups.
+ * **Patterns and Connections**: Our brains naturally seek patterns and make connections. Chunking leverages this tendency. By separating disparate elements into larger blocks, we make them easier to recall. This process isn’t just crucial for memory; it’s also a source of creativity. As Steve Jobs once said, “Creativity is just connecting things”
 
 ## Cycles create technical debt
 
