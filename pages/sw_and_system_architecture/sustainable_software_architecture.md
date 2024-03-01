@@ -110,10 +110,33 @@ In software development, we have something that perfectly captures this principl
 
 ## Layered Architecture
 
+Layered architectures are a design approach in software development, introduced for better organization and maintainability.
+
+**Types of Layering**
+
+- **Technical Layering:** Divides the system based on technical aspects (e.g., presentation, application, domain, infrastructure layers). Classes in higher layers can use classes in lower layers, but not vice-versa.
+- **Domain Layering:** Splits the system into modules based on business domains. Also enforces a directional relationship between these modules for cleaner dependencies.
+
+**Benefits of Layered Architectures**
+
+- **Modularity:** Components and responsibilities are separated, making code easier to manage, change, and test.
+- **Hierarchy:** Defines clear dependencies, improving code organization.
+- **Refactoring guidance:** Architecture analysis tools like <mark style="background: #FFF3A3A6;">Sotograph</mark> can identify violations of layering principles, indicating areas to restructure.
+
+**Example Systems**
+
+- **Well-Layered System:** The first system (250k lines of code) demonstrates effective layering in both technical and domain aspects. This results in few architectural violations and easier maintenance.
+
 ![](../../images/sotfware_architecture_layering.png)
 
+**Poorly-Layered System:** The second system (10 million lines of code), while technically layered, has a massive, tangled application/domain layer ("big ball of mud"). This leads to complex dependencies, difficult deployments, and reliance on a risky "forward-only" strategy.
 
 ![](../../images/software_architecture_real_world_example.png)
+
+
+- Layered architectures promote maintainability and scalability when applied effectively.
+- Both technical and domain layering are important considerations.
+- Architectural analysis tools can visualize design structure and potential weaknesses.
 
 ---
 
