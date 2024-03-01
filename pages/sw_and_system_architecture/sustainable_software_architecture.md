@@ -97,6 +97,16 @@ Here’s how it works:
 
 The second structure building process is that our brain tries to form hierarchies to remember as much as possible. Cognitive scientists have done a lot of research and found out that our brain loves hierarchies. We can remember hierarchical structures much better than net-like structures without an order.  In software, we have a suitable architectural principle, the **layering** or layered architectures. When we build our software in layers, we definitely support our brain.
 
+### Schemata
+
+And finally, our brain has developed another structure building process, which is our ability to form schemata. And that's really the best of all. Schema is an abstract idea of some part of the world. And it helps us to understand the world quickly. It's a mental framework that allows us to fill in the gaps and make associations based on our existing knowledge.
+
+Here's a breakdown of the concept:
+
+ * **Formation**: Schemas are formed through experiences and learning. As we encounter similar situations or concepts repeatedly, our brain develops a schema to represent them.
+ * **Function**: Schemas help us organize and interpret information by providing a context for new experiences. They allow us to make predictions, fill in missing information, and draw conclusions based on what we already know.
+
+In software development, we have something that perfectly captures this principle of schemata. We have **design and architecture patterns**, but they only work if we use them consistently. So our well structured architecture with which we save time in maintenance and extension needs pattern consistency
 
 ---
 
