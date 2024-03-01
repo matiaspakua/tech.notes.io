@@ -251,7 +251,47 @@ Software engineers aim to avoid "big ball of mud" situations by implementing goo
 ![](../../images/big_ball_of_mud.png)
 
 
+## Architecture Reviews
+
+**Purpose:**
+
+- Identify technical debt and overall software system health.
+- Gather information from stakeholders, architects, and developers.
+- Analyze source code using architecture analysis tools.
+- Recommend refactorings and improvements.
+
+**Process:**
+
+1. **Interviews:** With stakeholders, development team, and architects.
+2. **Transcripts the interviews** to keep logs
+3. **Document Review:** Architecture documentation, coding guidelines, test coverage.
+4. **Analysis Workshop:**
+    - Import code into analysis tool.
+    - Discuss structure with development team and architects.
+5. **Identify refactoring** for violations.
+6. **Quality Report:**
+    - Based on modularity, layering, and pattern consistency.
+    - Includes a Modularity Maturity Index (MMI) score (0-10).
+7. **Results and report to clients**
+	- Generate final quality reports
+	- Generate a list of prioritized refactorings
+
+**MMI Scoring:**
+
+- 0-4: Poor condition
+- 4-8: Mediocre condition
+- 8-10: Very good condition
+
+![](../../images/software_architecture_review_process.png)
+
+**Key Takeaways:**
+
+- Code size and language don't dictate architecture quality.
+- Well-targeted reviews can benefit the development team.
+- Continuous improvement using reviews helps maintain sustainable software architecture.
+- Avoid excessive documentation for audits; focus on open communication and transparency.
+
 # Reference:
 
- - https://www.linkedin.com/learning/sustainable-software-architecture
- - 
+ - [Sustainable Software Architecture](https://www.linkedin.com/learning/sustainable-software-architecture)
+ - [Anti-pattern - Wikipedia](https://en.wikipedia.org/wiki/Anti-pattern#Software_engineering_anti-patterns)
