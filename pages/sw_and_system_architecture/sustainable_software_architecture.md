@@ -82,6 +82,8 @@ That 70% explain why is so important to had a well defined architecture and behi
 
 ![](../../images/software_architecture_structures_human_brain.png)
 
+Software architecture benefits from these principles: Techniques like modularity, layering, and design patterns mirror these cognitive processes, making code easier to understand and maintain.
+
 ### Chunking
 
 **Chunking** is a method of facilitating **short-term memory** by **grouping individual pieces of information into larger, more familiar groups**. When you chunk information, you break up long strings of data into smaller, more manageable units or “chunks.” These chunks are easier to commit to memory than a longer uninterrupted string of information.
@@ -90,6 +92,13 @@ Here’s how it works:
 
  * **Limited Short-Term Memory**: Our short-term memory has a capacity for about four chunks of information. While some research suggests people can store between five and nine units of information, chunking allows us to “hack” these limits by organizing data into meaningful groups.
  * **Patterns and Connections**: Our brains naturally seek patterns and make connections. Chunking leverages this tendency. By separating disparate elements into larger blocks, we make them easier to recall. This process isn’t just crucial for memory; it’s also a source of creativity. As Steve Jobs once said, “Creativity is just connecting things”
+
+### Hierarchies
+
+The second structure building process is that our brain tries to form hierarchies to remember as much as possible. Cognitive scientists have done a lot of research and found out that our brain loves hierarchies. We can remember hierarchical structures much better than net-like structures without an order.  In software, we have a suitable architectural principle, the **layering** or layered architectures. When we build our software in layers, we definitely support our brain.
+
+
+---
 
 ## Cycles create technical debt
 
