@@ -167,6 +167,36 @@ Modularity is a principle to create <mark style="background: #FFF3A3A6;">self-co
 
 ![](../../images/software_architecture_metrics.png)
 
+## Design Patterns
+
+**Negative Example:**
+
+- Misusing design patterns (e.g., factory class doing calculations) hinders code understanding and debugging.
+- Inconsistent pattern usage disrupts expected behavior and relationships.
+
+**Benefits of Design Patterns:**
+
+- **Modularity:**
+    - Each pattern defines clear responsibilities for implementing classes.
+    - Promotes separation of concerns and reduces complexity.
+- **Layering:**
+    - Patterns enforce hierarchical relationships between layers (e.g., view shouldn't call controller directly).
+    - Improves maintainability and reduces coupling between layers.
+
+![](../../images/software_architecture_pattern_consistency.png)
+
+**Pattern Analysis:**
+
+- **Mapping:** Identify patterns and their relationships in the codebase.
+- **Visualization:** Use tools to map source code to identified patterns and visualize layer violations.
+- **Evaluation:** Analyze violations and collaborate with developers to ensure correct pattern usage.
+
+**Key Takeaways:**
+
+- Use design patterns consistently and correctly to reap their benefits.
+- Misused patterns can lead to technical debt and hinder development.
+- Aim for clean and consistent patterns, avoiding "annual rings" of bad practices.
+
 ---
 
 ## Cycles create technical debt
