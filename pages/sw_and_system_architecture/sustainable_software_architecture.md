@@ -197,11 +197,33 @@ Modularity is a principle to create <mark style="background: #FFF3A3A6;">self-co
 - Misused patterns can lead to technical debt and hinder development.
 - Aim for clean and consistent patterns, avoiding "annual rings" of bad practices.
 
----
-
 ## Cycles create technical debt
 
-### First: what is a Big Ball of mud
+- **Cycles** in code (classes depending on each other) are major contributors to technical debt.
+- They **increase coupling**, making code harder to understand, maintain, and modify.
+- Cycles **decrease modularity**, hindering separation of concerns and making refactoring difficult.
+
+**Examples:**
+
+- **Large class cycle:** Over time, small cycles can merge into large, unmanageable ones, sucking in more classes like black holes.
+- **Plugin manager cycle:** Bidirectional dependencies between classes can create cycles, causing tight coupling and limiting flexibility.
+- **Helper class abuse:** Helper classes used indiscriminately can become central to a cycle, hindering proper architecture.
+- **Giant build unit:** Excessive class and code concentration in a single unit creates a massive, difficult-to-maintain cycle.
+
+![](../../images/software_architecture_cyclic_classes.png)
+
+
+**Solutions:**
+
+- **Refactor code** to eliminate or reduce cycles.
+- **Use design patterns** correctly to avoid introducing new cycles.
+- **Maintain proper modularity** to prevent tight coupling and cycles.
+
+**Takeaway:**
+
+Ignoring cycles leads to an ever-growing burden of technical debt. Proactive management and proper architecture are crucial for maintaining a clean and maintainable codebase.
+
+### Last: what is a Big Ball of mud
 
 A "big ball of mud" refers to a **complex and poorly-organized codebase**. It lacks a clear structure, making it difficult to understand, maintain, and modify. 
 
