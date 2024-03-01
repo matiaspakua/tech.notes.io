@@ -138,6 +138,35 @@ Layered architectures are a design approach in software development, introduced 
 - Both technical and domain layering are important considerations.
 - Architectural analysis tools can visualize design structure and potential weaknesses.
 
+## Modularity
+
+Modularity is a principle to create <mark style="background: #FFF3A3A6;">self-contained units (modules)</mark> with clear interfaces for interaction with other units.
+
+- Promotes:
+    - **High cohesion:** Classes within a module work together for a specific task.
+    - **Loose coupling:** Modules depend minimally on other modules, minimizing impact of changes.
+    - **Single responsibility principle:** Each module has one clear responsibility.
+
+- Benefits:
+    - Easier maintenance, modification, and testing.
+    - Reduced technical debt (complexity and rework) due to clear structure.
+
+**Implementing Modularity:**
+
+- Map the modular architecture to your code structure (e.g., packages, projects).
+- Ensure modules are reflected in code organization (avoid scattered elements).
+
+![](../../images/software_architecture_modules_colors.png)
+
+**Identifying Issues:**
+
+- Measure and analyze code metrics like:
+    - **File size**: Investigate large files (potentially violating single responsibility).
+    - **Method length**: Excessive length suggests refactoring for smaller, focused methods.
+    - **Cyclomatic complexity**: High values indicate intricate logic, potentially needing modularization.
+
+![](../../images/software_architecture_metrics.png)
+
 ---
 
 ## Cycles create technical debt
