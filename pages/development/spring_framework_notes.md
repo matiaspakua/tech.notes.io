@@ -17,9 +17,9 @@
 
 <button class="back-button" onclick="window.location.href='https://matiaspakua.github.io/tech.notes.io'">All notes</button>
 
-## Table of Content
+---
 
-## Example project (Github)
+## Example project: Card Cash Application Spring training
 
 [https://github.com/matiaspakua/cashCardSpringBoot](https://github.com/matiaspakua/cashCardSpringBoot)
 
@@ -149,6 +149,36 @@ That’s all it takes to tell Spring: “create a REST Controller”. The Contro
 
 A Controller method can be designated a handler method, to be called when a request that the method knows how to handle (called a “matching request”) is received.
 
+
+## API Contracts & JSON
+
+The software industry has adopted several patterns for capturing agreed upon API behavior in documentation and code. These agreements are often called "contracts". Two examples include Consumer Driven Contracts and Provider Driven Contracts. 
+
+We define an API contract as a formal agreement between a software provider and a consumer that abstractly communicates how to interact with each other. This contract defines how API providers and consumers interact, what data exchanges looks like, and how to communicate success and failure cases.
+
+The provider and consumers do not have to share the same programming language, only the same API contracts. 
+
+ ```bash
+ 
+Request
+  URI: /cashcards/{id}
+  HTTP Verb: GET
+  Body: None
+
+Response:
+  HTTP Status:
+    200 OK if the user is authorized and the Cash Card was successfully retrieved
+    401 UNAUTHORIZED if the user is unauthenticated or unauthorized
+    404 NOT FOUND if the user is authenticated and authorized but the Cash Card cannot be found
+  Response Body Type: JSON
+  Example Response Body:
+    {
+      "id": 99,
+      "amount": 123.45
+    }
+```
+
+---
 ## Java Records
 
 Commonly, we write classes to simply hold data, such as database results, query results, or information from a service.
