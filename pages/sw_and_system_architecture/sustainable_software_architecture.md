@@ -276,13 +276,17 @@ Software engineers aim to avoid "big ball of mud" situations by implementing goo
 	- Generate final quality reports
 	- Generate a list of prioritized refactorings
 
+![](../../images/software_architecture_review_process.png)
+
+ The **Modularity Maturity Index or MMI**. This index makes it clear whether an architecture has a modular structure, and is therefore a maintainable and extendable architecture. The MMI ranks systems on a scale from zero to 10. Systems that have a score between zero and four are in poor condition. Systems between four and eight are in mediocre condition. And systems between eight and 10 are in very good condition.
+
+![](../../images/MMI_index.png)
+
 **MMI Scoring:**
 
 - 0-4: Poor condition
 - 4-8: Mediocre condition
 - 8-10: Very good condition
-
-![](../../images/software_architecture_review_process.png)
 
 **Key Takeaways:**
 
@@ -291,7 +295,10 @@ Software engineers aim to avoid "big ball of mud" situations by implementing goo
 - Continuous improvement using reviews helps maintain sustainable software architecture.
 - Avoid excessive documentation for audits; focus on open communication and transparency.
 
+![](../../images/software_architecture_structured.png)
+
 # Reference:
 
  - [Sustainable Software Architecture](https://www.linkedin.com/learning/sustainable-software-architecture)
  - [Anti-pattern - Wikipedia](https://en.wikipedia.org/wiki/Anti-pattern#Software_engineering_anti-patterns)
+ - [4. Improve Your Architecture with the Modularity Maturity Index - Software Architecture Metrics [Book] (oreilly.com)](https://www.oreilly.com/library/view/software-architecture-metrics/9781098112226/ch04.html)
