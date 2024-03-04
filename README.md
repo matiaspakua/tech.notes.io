@@ -55,7 +55,7 @@ IMPORTANT: All the notes shared here reflect my personal research, learning jour
 - [Software Engineering at Google. A book, a web site](https://abseil.io/resources/swe-book)
 - [On Agile by Martin Fowler](https://martinfowler.com/agile.html)
 - [Software Design By Example. A book, a web site](https://third-bit.com/sdxjs/)
-- [Software engineering timeline](/pages/software_engineering/software_engineering_timeline.md) <span style="color:green"> New, in progress... </span>
+- [Software engineering timeline](/pages/software_engineering/software_engineering_timeline.md) <span style="color:red"> New, in progress... </span>
 
 # Software and System Architecture
 
@@ -93,32 +93,18 @@ IMPORTANT: All the notes shared here reflect my personal research, learning jour
 
 ---
 
-# Software Engineering Specialization (postgraduate)
+# Software Engineering Specialization (UCA postgraduate completed)
 
-<mark style="background: #FFF3A3A6;">Módulo Ingeniería de Productos de Software  </mark>
+ - [Materias y notas de la especialización](/pages/sw_eng_specialization/landing.md)
 
-- Ingeniería de Requerimientos
-- Modelado de Software con Objetos
-- Arquitecturas de Software
-- Mediciones de Software y Sistemas
-  
-<mark style="background: #FFF3A3A6;">Módulo Gestión de Proyectos de Desarrollo  </mark>
-- Planeamiento y Estimación de Proyectos de Software
-- Administración del Riesgo en Desarrollo de Software
-- Gestión de Recursos Humanos y Conducción de Equipos
-- Métodos de Desarrollo de Software 
-  
-<mark style="background: #FFF3A3A6;">Módulo Gestión de la Calidad de Software  </mark>
-- Testing de Software
-- Calidad de Software
-  
-<mark style="background: #FFF3A3A6;">Módulo Complementarias:  </mark>
-- Marketing
-- Contratos y Aspectos Legales de Software 
-- Ética Profesional 
 
-<mark style="background: #FFF3A3A6;">Proyecto Final</mark>
-  - DevSecOps desde la perspectiva de QA Automation
+---
+
+# Master in Information Technologies (UP postgraduate incompleted)
+
+
+ - [Materias y notas del master](/pages/master_information_tech/landing.md)
+
 
 ---
 
