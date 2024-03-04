@@ -1,14 +1,14 @@
 ![](images/tech_and_bread.jpeg)
 
-Welcome to my personal Tech Notes blog. Here, information is presented in a straightforward and easy-to-read format, allowing you to explore various topics and items freely.
+Welcome to my personal Tech Notes blog! 🚀 Here, you'll find information presented in a clear and accessible format, allowing you to freely explore various topics and items.
 
-**Who I Am?**: [https://www.linkedin.com/in/matiasmiguez/](https://www.linkedin.com/in/matiasmiguez/)
+Who I Am? Connect with me on LinkedIn: [Matias Miguez](https://www.linkedin.com/in/matiasmiguez/) 🤝
 
-**GitHub Pages deploy Status**: [![pages-build-deployment](https://github.com/matiaspakua/tech.notes.io/actions/workflows/pages/pages-build-deployment/badge.svg?branch=main)](https://github.com/matiaspakua/tech.notes.io/actions/workflows/pages/pages-build-deployment)
+GitHub Pages Deploy Status: [![pages-build-deployment](https://github.com/matiaspakua/tech.notes.io/actions/workflows/pages/pages-build-deployment/badge.svg?branch=main)](https://github.com/matiaspakua/tech.notes.io/actions/workflows/pages/pages-build-deployment) 🛠️
 
-If you find typo's, errors, missing images, missing pages or anythings else, please let me know to fix it. My contact email is: [matiaspakua@gmail.com](mailto:matiaspakua@gmail.com)
+If you come across any typos, errors, missing images, or pages, please don't hesitate to reach out. You can contact me via email at matiaspakua@gmail.com. 📧
 
-**IMPORTANT**: All the notes here represent my personal research, learning progress and opinion. I will keep references to original author and copyrights.
+IMPORTANT: All the notes shared here reflect my personal research, learning journey, and opinions. I always provide references to the original authors and respect copyrights. 🔍📚
 
 --- 
 
