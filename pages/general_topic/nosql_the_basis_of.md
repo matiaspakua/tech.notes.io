@@ -1,4 +1,4 @@
-# NoSQL. The basis of
+# Introduction and notes on NoSQL Databases
 
 <style>
   .back-button {

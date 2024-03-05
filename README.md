@@ -14,7 +14,7 @@ IMPORTANT: All the notes shared here reflect my personal research, learning jour
 
 # General Topic
 
-- [NoSQL. The basis of](/pages/general_topic/nosql_the_basis_of.md) 
+- [Introduction and notes on NoSQL Databases](/pages/general_topic/nosql_the_basis_of.md) 
 - [Specialisation Building Cloud Computing Solutions at Scale](/pages/general_topic/specialization_building_cloud_computing_solutions_at_scale.md)
 - [Shape Up. A book, a web site](https://basecamp.com/shapeup)
 - [How to build a KnowledgeBase](/pages/general_topic/how_to_build_a_knowledge_base.md)
