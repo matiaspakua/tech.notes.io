@@ -21,7 +21,7 @@
 
 ## What is a User Story?
 
-User stories were created to be "placeholders for a conversation." They allow us to defer detailed analysis until we're confident that the behaviour they describe actually needs to be developed.
+User stories were created to be "placeholders for a conversation." They allow us to defer detailed analysis until we're confident that the behaviour they describe actually needs to be developed. <mark style="background: #FFF3A3A6;">They represent VALUE for the users</mark>.
 
 User stories are a core practice in Agile methodologies, used to capture and describe features from the perspective of the end user. They provide a concise and clear way to understand what the user needs and why it's important, promoting collaboration and focus within development teams.
 
@@ -41,11 +41,61 @@ User stories are a core practice in Agile methodologies, used to capture and des
 * **Valuable:** Each user story should deliver value to the end user.
 * **Testable:** Each user story should be testable, so that you can know when it is complete.
 
-## Examples of user stories
+## Examples of simple user stories (post-its)
 
-* **As a customer, I want to be able to search for products by name so that I can easily find what I'm looking for.**
-* **As a website administrator, I want to be able to add new products to the website so that I can keep my inventory up-to-date.**
-* **As a mobile app user, I want to be able to track my order status so that I know when my package will arrive.**
+ - Example 01:
+
+**As a** customer, 
+**I want to** be able to search for products by name 
+**so that** I can easily find what I'm looking for.
+
+ - Example 02: 
+
+**As a** website administrator, 
+**I want to** be able to add new products to the website 
+**so that I** can keep my inventory up-to-date.
+
+ - Example 03: 
+
+**As a** mobile app user, 
+**I want to** be able to track my order status 
+**so that** I know when my package will arrive.
+
+## Anatomy of user stories
+
+User stories consist of key components that provide a clear picture of the desired functionality. The essential parts of a user story:
+
+1. **The User (Actor):** This identifies the individual who will benefit from the feature. It can be a specific user role (e.g., administrator, customer) or a user persona representing a target user group.
+    
+2. **The Goal (Action):** This describes what the user wants to achieve with the feature. Focus on the action the user performs (e.g., "I want to search for products by category").
+    
+3. **The Benefit (Why):** This explains the motivation behind the user's goal. It highlights the value the user gets by completing the action (e.g., "So that I can easily find the items I'm looking for").
+    
+
+These three components form the core structure of a user story, often phrased as: "As a [User], I want to [Goal] so that [Benefit]."
+
+Optionally, user stories can also include:
+
+4. **Acceptance Criteria:** This acts as a checklist outlining the specific conditions that must be met for the feature to be considered successful. These criteria ensure everyone agrees on what "done" looks like (e.g., "The search results should be paginated with 10 items per page").
+
+## Gherkin, Cucumber and acceptance criterias
+
+Gherkin is a **domain-specific language (DSL)** designed specifically to express software behavior in a natural, human-readable way. It focuses on describing what the system should do from the user's perspective, making it easier for both technical and non-technical stakeholders to understand the acceptance criteria.
+
+Here's how Gherkin is associated with Cucumber:
+
+- **Cucumber** is a popular open-source **Behavior Driven Development (BDD)** framework. BDD emphasizes building software based on user stories and scenarios.
+- **Gherkin** serves as the **language** used within Cucumber to write these scenarios. It provides a structured format with keywords like "Given", "When", "Then", and "And" to define the preconditions, actions, and expected outcomes for a particular user interaction.
+
+Why are Gherkin and Cucumber useful for acceptance criteria?
+
+- **Clarity and Collaboration:** Gherkin promotes clear communication between developers, testers, and product owners. Everyone involved can understand the expected behavior in plain language, reducing misunderstandings and ensuring everyone is on the same page about what "done" means.
+- **Focus on Behavior:** The focus on user behavior in scenarios helps ensure the software is built around user needs and delivers value.
+- **Maintainability and Traceability:** Acceptance criteria written in Gherkin can be easily maintained alongside the code, allowing for traceability between requirements and implementation. This makes it easier to verify if the implemented features meet the user's needs.
+- **Automation Potential:** Gherkin scenarios can be used as the basis for automated acceptance tests. Cucumber tools can parse these scenarios and translate them into executable tests, streamlining the testing process.
+
+In essence, Gherkin provides a structured and collaborative way to define acceptance criteria in a language everyone understands. This improves clarity, promotes BDD principles, and lays the groundwork for potential test automation.
+
 
 ## User story slicing
 
