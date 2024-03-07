@@ -34,7 +34,6 @@
 - **Creeping process**: as a system gets more complex and larger over time, it would need new rework structures, i.e., an architecture that is appropriate for its size and complexity. If this is not noticed or acted upon, it leads to technical debt.
 - **Unplannable process**: software development is an unplannable process over a long period of time. The new software usually changes business processes and has effects when integrating into the target organization that are rarely fully predictable.
 - **Sustainable software architecture**: to achieve this, one should take care to have as little technical debt as possible. It should be maintainable and extensible.
-- **Comic "technicaldebts.xls"**: a humorous illustration of how technical debt is often handled in practice, with issues simply being logged in a spreadsheet rather than being addressed.
 
 ## Origin of tech debt
 
