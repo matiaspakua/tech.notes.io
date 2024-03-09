@@ -21,10 +21,10 @@
 
 <mark style="background: #FFF3A3A6;">Módulo Ingeniería de Productos de Software  </mark>
 
-- Ingeniería de Requerimientos
-- Modelado de Software con Objetos
-- Arquitecturas de Software
-- Mediciones de Software y Sistemas
+- [Ingeniería de Requerimientos](/pages/sw_eng_specialization/software_requirements.md)
+- [Modelado de Software con Objetos](/pages/sw_eng_specialization/software_modeling_with_objects.md)
+- [Arquitecturas de Software](/pages/sw_eng_specialization/software_architecture.md)
+- [Mediciones de Software y Sistemas](/pages/sw_eng_specialization/software_and_systems_measurements.md)
   
 <mark style="background: #FFF3A3A6;">Módulo Gestión de Proyectos de Desarrollo  </mark>
 - Planeamiento y Estimación de Proyectos de Software
