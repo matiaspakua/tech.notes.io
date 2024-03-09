@@ -44,3 +44,12 @@
 <mark style="background: #FFF3A3A6;">Proyecto Final</mark>
 
 - [DevSecOps desde la perspectiva de QA Automation](/pages/sw_eng_specialization/final_projects_specialization.md)
+
+
+## Notas de cada materia
+
+![](../../images/final_notes_1.png)
+
+![](../../images/final_notes_1.png)
+
+![](../../images/sw_eng_specialization_title.png)
