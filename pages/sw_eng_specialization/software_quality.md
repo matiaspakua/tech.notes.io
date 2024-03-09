@@ -1,5 +1,24 @@
 # Calidad de Software
 
+<style>
+  .back-button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+</style>
+
+<button class="back-button" onclick="window.location.href='https://matiaspakua.github.io/tech.notes.io'">All notes</button>
+
+--- 
+
 ## Contenidos
 
 Introducción a la calidad. Aseguramiento, control y mejora de la calidad. La calidad en el ciclo de vida del producto de software. El proceso de desarrollo de software. Estándares de calidad del producto. Gestión de Procesos. Conceptos básicos Definición, medición, control y mejora. Modelado de procesos, herramientas, métodos. Desarrollo de un modelo de procesos de desarrollo de software. Calidad asociada a los procesos. Dominios de la Ingeniería de Software relacionada a los procesos de desarrollo. 
