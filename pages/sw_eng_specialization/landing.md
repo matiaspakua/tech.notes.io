@@ -33,13 +33,13 @@
 - [Métodos de Desarrollo de Software](/pages/sw_eng_specialization/software_development_methods.md)
   
 <mark style="background: #FFF3A3A6;">Módulo Gestión de la Calidad de Software  </mark>
-- Testing de Software
-- Calidad de Software
+- [Testing de Software](/pages/sw_eng_specialization/software_testing.md)
+- [Calidad de Software](/pages/sw_eng_specialization/software_quality.md)
   
 <mark style="background: #FFF3A3A6;">Módulo Complementarias:  </mark>
-- Marketing
-- Contratos y Aspectos Legales de Software 
-- Ética Profesional 
+- [Marketing](/pages/sw_eng_specialization/marketing.md)
+- [Contratos y Aspectos Legales de Software](/pages/sw_eng_specialization/software_legal_aspects_and_contracts.md)
+- [Ética Profesional](/pages/sw_eng_specialization/prefessional_ethics.md)
 
 <mark style="background: #FFF3A3A6;">Proyecto Final</mark>
-  - DevSecOps desde la perspectiva de QA Automation
+  -[DevSecOps desde la perspectiva de QA Automation](/pages/sw_eng_specialization/final_projects_specialization.md)
