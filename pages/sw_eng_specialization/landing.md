@@ -50,6 +50,6 @@
 
 ![](../../images/final_notes_1.png)
 
-![](../../images/final_notes_1.png)
+![](../../images/final_notes_2.png)
 
 ![](../../images/sw_eng_specialization_title.png)
