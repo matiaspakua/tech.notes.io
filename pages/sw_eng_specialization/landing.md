@@ -27,10 +27,10 @@
 - [Mediciones de Software y Sistemas](/pages/sw_eng_specialization/software_and_systems_measurements.md)
   
 <mark style="background: #FFF3A3A6;">Módulo Gestión de Proyectos de Desarrollo  </mark>
-- Planeamiento y Estimación de Proyectos de Software
-- Administración del Riesgo en Desarrollo de Software
-- Gestión de Recursos Humanos y Conducción de Equipos
-- Métodos de Desarrollo de Software 
+- [Planeamiento y Estimación de Proyectos de Software](/pages/sw_eng_specialization/sofware_projects_scheduling_and_estimation.md)
+- [Administración del Riesgo en Desarrollo de Software](/pages/sw_eng_specialization/software_development_risk_management.md)
+- [Gestión de Recursos Humanos y Conducción de Equipos](/pages/sw_eng_specialization/team_driving_and_human_resource_management.md)
+- [Métodos de Desarrollo de Software](/pages/sw_eng_specialization/software_development_methods.md)
   
 <mark style="background: #FFF3A3A6;">Módulo Gestión de la Calidad de Software  </mark>
 - Testing de Software
