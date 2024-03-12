@@ -110,11 +110,12 @@ IMPORTANT: All the notes shared here reflect my personal research, learning jour
 
 # Technical Books in progress
 
- - The Mythical Man-Month: Essays on Software Engineering, by Fred Brooks (51%) 
+ - The Mythical Man-Month: Essays on Software Engineering, by Fred Brooks (60%) 
  - ReWork: Change the Way You Work Forever, By David Heinemeier Hansson and Jason Fried (71%)
  - Refactoring: improving the design of existing code, by Martin Fowler (5%)
  - Working effectively with legacy code, by Michael Feathers (5%)
  - Spring in Action, 5th Edition by Craig Walls (80%)
+ - HEAD FIRST JAVA, 3RD EDITION: A BRAIN-FRIENDLY GUIDE (70%)
 
 # Technical Books readed
 
@@ -142,3 +143,5 @@ IMPORTANT: All the notes shared here reflect my personal research, learning jour
  * The Lord Of the Rings (all three)
  * Millenium Saga (Stieg Larson)
  * The Little Prince, by Antoine de Saint-Exupéry
+ * El Alquimista, Paulo Cohelo
+ * 100 Años de Soledad, Gabriel Garcia Marquez
