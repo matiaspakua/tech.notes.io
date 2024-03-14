@@ -173,4 +173,6 @@ Hexagonal Architecture: [Hexagonal architecture – Alistair Cockburn](https://a
 
 * **Improve abstraction through testing**: apply testability on design, this is writing the specification (test) like an act of design. This is a practical, pragmatic, light weight approach to design by CONTRACT.
 
-* ** Porwer of Abstraction**: 
+* ** Abstractions from the problem domain**: The "thinking like a Engineer" means: thinking about the ways in which thinks can go wrong.
+
+![](../../images/thinks_can_go_wrong.png)
