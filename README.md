@@ -1,4 +1,4 @@
-![](images/tech_and_bread.jpeg)
+![](https://media.licdn.com/dms/image/D4D16AQHEKBEQ_3QiEw/profile-displaybackgroundimage-shrink_350_1400/0/1710450624677?e=1715817600&v=beta&t=v0Gx9hLy8rzP2g9iW0sS2Y9HZXn36RzluAPfuLxwNQM)
 
 Welcome to my personal Tech Notes blog! 🚀 Here, you'll find information presented in a clear and accessible format, allowing you to freely explore various topics and items.
 
@@ -146,3 +146,8 @@ IMPORTANT: All the notes shared here reflect my personal research, learning jour
  * The Little Prince, by Antoine de Saint-Exupéry
  * El Alquimista, Paulo Cohelo
  * 100 Años de Soledad, Gabriel Garcia Marquez
+
+
+# Always Work in Progress...
+
+![](images/tech_and_bread.jpeg)
