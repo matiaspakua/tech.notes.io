@@ -132,13 +132,13 @@ Hexagonal Architecture: [Hexagonal architecture – Alistair Cockburn](https://a
 
 ## 9. Modularity
 
-1. **Good design:** the cornerstones are: modularity and separation of concerns. How can we create code and systems that will grow and evolve over time but that are appropriately compartmentalized to limit damage if we maje a mistake?
+1. **Good design:** the cornerstones are: modularity and separation of concerns. How can we create code and systems that will grow and evolve over time but that are appropriately compartmentalized to limit damage if we make a mistake?
 2. **The importance of testability**: if our test are difficult to write, it means that our design is poor.
-3. **Improve modularity**: we need to be clear what it is that we are measuring, and we need to be crear of the value of our measurements. We need to identity if the system the "points of measurements." The key is to understand the scope of measurement that make sense and work to make those measurements easy to achieve and stable in terms of the results that they generate.
+3. **Improve modularity**: we need to be clear what it is that we are measuring, and we need to be clear of the value of our measurements. We need to identity if the system the "points of measurements." The key is to understand the scope of measurement that make sense and work to make those measurements easy to achieve and stable in terms of the results that they generate.
 4. **Service and modularity**: one of the most important aspects is: "information hiding", this is one the essences of design. The concept of a "service" in software terms is that it represent a boundary.
 5. **Deployability and modularity**: accomplish this independence is to take the modularity of the system so seriously that each module is, in terms of build, test and deployment, independent from every other module.
 6. **Modularity at different scale**: Testing when done well exposes something important and true about the nature of out code, the nature of our design, and the nature of the problem that we are solving.
-7. **Modularity in Human System**: truly decouple system, we can parallelised all we want. Micro-services are an organizational scalability play; they don't really have any other advantage, but let's be clear, this is a big advantage if scalability is your problem. If we need small team to efficiently create good, high-quality work, then we need to "decouple". We need modular organizations as well as modular software. 
+7. **Modularity in Human System**: truly decouple system, we can parallelized all we want. Micro-services are an organizational scalability play; they don't really have any other advantage, but let's be clear, this is a big advantage if scalability is your problem. If we need small team to efficiently create good, high-quality work, then we need to "decouple". We need modular organizations as well as modular software. 
 
 ## 10. Cohesion
 
@@ -147,7 +147,7 @@ Hexagonal Architecture: [Hexagonal architecture – Alistair Cockburn](https://a
 3. Context matters: one effective tool to drive this kind of decision making is domain driven design (DDD).
 4. **High-Performance Software**: to achieve this, we need to do the maximum amount of work for the smallest number of instructions.
 5. **Link to coupling**: <mark style="background: #FFB86CA6;">Coupling</mark>: given two lines of code, A and B, they are coupled when B mush change behavior only because A changed. <mark style="background: #ADCCFFA6;">Cohesion</mark>: the are cohesive when change to A allows B to change so that both add new value.
-6. **Cost of poor cohesion**: there is a simple, subjetive way to spot poor cohesion. If you have ever read a piece of code and thought "I don't know what this code does," it is probably because the cohesion is poor.
+6. **Cost of poor cohesion**: there is a simple, subjective way to spot poor cohesion. If you have ever read a piece of code and thought "I don't know what this code does," it is probably because the cohesion is poor.
 7. **Cohesion in human system**: one of the leading predictors of high performance measured in terms of throughput and stability, is the ability of teams to make their own decisions without the need to ask permission of anyone outside the team.
 
 ## 11. Separation of concerns
@@ -156,23 +156,26 @@ Hexagonal Architecture: [Hexagonal architecture – Alistair Cockburn](https://a
 2. **Dependency Injection**: is where dependencies of a piece of code are supplied to it as parameters, rather that created by.
 3. **Essential and Accidental complexity**: <mark style="background: #FFF3A3A6;">The Essential complexity </mark>of a system is the complexity that is inherent in solving the problem that you are trying to solve. <mark style="background: #FFF3A3A6;">The accidental complexity</mark> is everything else, the problems that we are forced to solve as a side effect of doing something useful with computer. 
 4. **Testeability**: if we work to ensure that our code is easy to test, the we must separate the concern or our test will lack focus.
-5. **Ports and adapters**: Is best fit when traslade information that crosses between bounded contexts.
-6. What is an API. Application Programming Interface (API) is all the information that is exposed to consumers of a service, or library, that expose that API. In combination with **ports and adapters** create the consisten level of abstraction. The rule is: <mark style="background: #FFF3A3A6;">always add Ports and Adapters where the code that you talk to is in different scope of evaluation.</mark> 
+5. **Ports and adapters**: Is best fit when translade information that crosses between bounded contexts.
+6. What is an API. Application Programming Interface (API) is all the information that is exposed to consumers of a service, or library, that expose that API. In combination with **ports and adapters** create the consistent level of abstraction. The rule is: <mark style="background: #FFF3A3A6;">always add Ports and Adapters where the code that you talk to is in different scope of evaluation.</mark> 
 
 ### 12. Information Hiding and Abstraction.
 
 * **Information hiding**: its based on hiding the behavior of the code. It includes implementation details as well as any data that it may or may nor use.
 
-* **The Big balls of mud problem**. The first point are the Organizational and cultural problems. Here, the main and most importan advice is that we need to own the responsibility for the quality of the code that we work on.
+* **The Big balls of mud problem**. The first point are the Organizational and cultural problems. Here, the main and most important advice is that we need to own the responsibility for the quality of the code that we work on.
 
 ![](../../images/big_ball_of_mud.png)
 
-* **Organizational and cultural problems**: we need to own the responsability for the quality of the code that we work on. It is ur **duty of care** to do a good job. Our Aim should be todo whatever it takes to build better software faster. This is improve QUALITY. The foundation of a professional approach are: refactor, test, take time to create great designs, fix bugs, collaborate, communicate and learn.
+* **Organizational and cultural problems**: we need to own the responsibility for the quality of the code that we work on. It is our **duty of care** to do a good job. Our Aim should be to do whatever it takes to build better software faster. This is improve QUALITY. The foundation of a professional approach are: refactor, test, take time to create great designs, fix bugs, collaborate, communicate and learn.
 
-* **Technical problems and problems design and the Fear of over engineering**: We need to apply the aproach that when we design our solution (code), we can return to it at any point in the future ehan we have learned something new and change it. Here the main problem to fix is the **FRAGILITY OF OUR CODE**. We have three aproach to this: 1) the HERO-Programmer model (exist a super programmer that can do and fix everything); 2) Abstraction and 3) Testing. This is abstract = hiding the complexity and testing = validate the soluction.
+* **Technical problems and problems design and the Fear of over engineering**: We need to apply the approach that when we design our solution (code), we can return to it at any point in the future when we have learned something new and change it. Here the main problem to fix is the **FRAGILITY OF OUR CODE**. We have three approach to this: 1) the HERO-Programmer model (exist a super programmer that can do and fix everything); 2) Abstraction and 3) Testing. This is abstract = hiding the complexity and testing = validate the solution.
 
 * **Improve abstraction through testing**: apply testability on design, this is writing the specification (test) like an act of design. This is a practical, pragmatic, light weight approach to design by CONTRACT.
 
 * ** Abstractions from the problem domain**: The "thinking like a Engineer" means: thinking about the ways in which thinks can go wrong.
 
 ![](../../images/thinks_can_go_wrong.png)
+
+* **Isolate Third-Party systems and code**:  always insulate your code from third-party code with your own abstractions. Thinks carefully about what you allow "inside" your code.  For example, inside our code only allow language concepts that are native, nothing outside this.
+* **Always prefer to hide information**. Period.
