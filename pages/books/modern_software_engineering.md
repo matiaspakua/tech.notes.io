@@ -209,4 +209,7 @@ Hexagonal Architecture: [Hexagonal architecture – Alistair Cockburn](https://a
 | Incidental | Change together for no reason (breaking API contract) |
 
 7. **Prefer loose coupling.** to achieve high performance, the code need to be simple. Efficient code that can be easily and, even better, predictably ,understood by our compilers and hardware.
-8. **DRY is to simplistic**. 
+8. **DRY is to simplistic**. DRY is short for "Don't repeat yourself". It is a short hand description of our desire to have a single canonical representation of each piece of behavior in our system. 
+9. ASYNC as a tool for loose coupling: we prefer async where is possible, because of the great quantity of fail points in a SYNC pattern. Example: 
+
+![](../../images/failure_points_in_SYNC_COMM.png)
