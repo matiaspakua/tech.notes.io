@@ -164,3 +164,5 @@ Hexagonal Architecture: [Hexagonal architecture – Alistair Cockburn](https://a
 * **Information hiding**: its based on hiding the behavior of the code. It includes implementation details as well as any data that it may or may nor use.
 * **The Big balls of mud problem**. The first point are the Organizational and cultural problems. Here, the main and most importan advice is that we need to own the responsibility for the quality of the code that we work on.
 ![](../../images/big_ball_of_mud.png)
+* **Organizational and cultural problems**: we need to own the responsability for the quality of the code that we work on. It is ur **duty of care** to do a good job. Our Aim should be todo whatever it takes to build better software faster. This is improve QUALITY. The foundation of a professional approach are: refactor, test, take time to create great designs, fix bugs, collaborate, communicate and learn.
+* **Technical problems and problems design**: 
