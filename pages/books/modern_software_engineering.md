@@ -17,6 +17,8 @@
 
 <button class="back-button" onclick="window.location.href='https://matiaspakua.github.io/tech.notes.io'">All notes</button>
 
+---
+
 ![](../../images/modern_software_engineering.jpg)
 
 ## 1. Introduction
@@ -103,7 +105,7 @@ Reference to my notes of Extreme Programming:  [XP](book_extreme_programming_exp
 1. **Definition**: "incremental design is directly related to any modular design application, in which components can be freely substituted if improved to ensure better performance."
 2. **Importance of Modularity**: divide the problem into pieces aimed at solving a single part of the problem.
 3. **Organizational incrementalism**: One of the huge benefits that modularity brings is "isolation".  Modular organizations are more flexible, mode scalable and more efficient.
-4. Tools: Feedback, experimentation, Refactoring, Version control, testing. A test-driven approach to automated testing demand that we create  mini executable specifications for the changes that we make to our systems. Keeping the test as simple as we can and by designing our system as testeable code.
+4. **Tools**: Feedback, experimentation, Refactoring, Version control, testing. A test-driven approach to automated testing demand that we create  mini executable specifications for the changes that we make to our systems. Keeping the test as simple as we can and by designing our system as testeable code.
 5. **Limit the impact of change**: Applying patterns as: <mark style="background: #FFF3A3A6;">Port & Adapter</mark>. At any interface point between two components of the system that we want to decouple, a port, we define a separate piece of code to translate inputs and outputs, the adapter.
 
 ![](../../images/hexagonal_architecture.png)
@@ -157,25 +159,31 @@ Hexagonal Architecture: [Hexagonal architecture – Alistair Cockburn](https://a
 3. **Essential and Accidental complexity**: <mark style="background: #FFF3A3A6;">The Essential complexity </mark>of a system is the complexity that is inherent in solving the problem that you are trying to solve. <mark style="background: #FFF3A3A6;">The accidental complexity</mark> is everything else, the problems that we are forced to solve as a side effect of doing something useful with computer. 
 4. **Testeability**: if we work to ensure that our code is easy to test, the we must separate the concern or our test will lack focus.
 5. **Ports and adapters**: Is best fit when translade information that crosses between bounded contexts.
-6. What is an API. Application Programming Interface (API) is all the information that is exposed to consumers of a service, or library, that expose that API. In combination with **ports and adapters** create the consistent level of abstraction. The rule is: <mark style="background: #FFF3A3A6;">always add Ports and Adapters where the code that you talk to is in different scope of evaluation.</mark> 
+6. **What is an API**. Application Programming Interface (API) is all the information that is exposed to consumers of a service, or library, that expose that API. In combination with **ports and adapters** create the consistent level of abstraction. The rule is: <mark style="background: #FFF3A3A6;">always add Ports and Adapters where the code that you talk to is in different scope of evaluation.</mark> 
 
-### 12. Information Hiding and Abstraction.
+## 12. Information Hiding and Abstraction.
 
-* **Information hiding**: its based on hiding the behavior of the code. It includes implementation details as well as any data that it may or may nor use.
+1. **Information hiding**: its based on hiding the behavior of the code. It includes implementation details as well as any data that it may or may nor use.
 
-* **The Big balls of mud problem**. The first point are the Organizational and cultural problems. Here, the main and most important advice is that we need to own the responsibility for the quality of the code that we work on.
+2. *The Big balls of mud problem**. The first point are the Organizational and cultural problems. Here, the main and most important advice is that we need to own the responsibility for the quality of the code that we work on.
 
 ![](../../images/big_ball_of_mud.png)
 
-* **Organizational and cultural problems**: we need to own the responsibility for the quality of the code that we work on. It is our **duty of care** to do a good job. Our Aim should be to do whatever it takes to build better software faster. This is improve QUALITY. The foundation of a professional approach are: refactor, test, take time to create great designs, fix bugs, collaborate, communicate and learn.
+3. *Organizational and cultural problems**: we need to own the responsibility for the quality of the code that we work on. It is our **duty of care** to do a good job. Our Aim should be to do whatever it takes to build better software faster. This is improve QUALITY. The foundation of a professional approach are: refactor, test, take time to create great designs, fix bugs, collaborate, communicate and learn.
 
-* **Technical problems and problems design and the Fear of over engineering**: We need to apply the approach that when we design our solution (code), we can return to it at any point in the future when we have learned something new and change it. Here the main problem to fix is the **FRAGILITY OF OUR CODE**. We have three approach to this: 1) the HERO-Programmer model (exist a super programmer that can do and fix everything); 2) Abstraction and 3) Testing. This is abstract = hiding the complexity and testing = validate the solution.
+4. **Technical problems and problems design and the Fear of over engineering**: We need to apply the approach that when we design our solution (code), we can return to it at any point in the future when we have learned something new and change it. Here the main problem to fix is the **FRAGILITY OF OUR CODE**. We have three approach to this: 1) the HERO-Programmer model (exist a super programmer that can do and fix everything); 2) Abstraction and 3) Testing. This is abstract = hiding the complexity and testing = validate the solution.
 
-* **Improve abstraction through testing**: apply testability on design, this is writing the specification (test) like an act of design. This is a practical, pragmatic, light weight approach to design by CONTRACT.
+5. **Improve abstraction through testing**: apply testability on design, this is writing the specification (test) like an act of design. This is a practical, pragmatic, light weight approach to design by CONTRACT.
 
-* ** Abstractions from the problem domain**: The "thinking like a Engineer" means: thinking about the ways in which thinks can go wrong.
+6. ** Abstractions from the problem domain**: The <mark style="background: #FFF3A3A6;">"thinking like a Engineer" means: thinking about the ways in which thinks can go wrong.</mark>
 
 ![](../../images/thinks_can_go_wrong.png)
 
-* **Isolate Third-Party systems and code**:  always insulate your code from third-party code with your own abstractions. Thinks carefully about what you allow "inside" your code.  For example, inside our code only allow language concepts that are native, nothing outside this.
-* **Always prefer to hide information**. Period.
+7. **Isolate Third-Party systems and code**:  always insulate your code from third-party code with your own abstractions. Thinks carefully about what you allow "inside" your code.  For example, inside our code only allow language concepts that are native, nothing outside this.
+8. **Always prefer to hide information**. Period.
+
+## 13. Managing coupling
+
+**<mark style="background: #FFF3A3A6;">Def. Coupling</mark>** is defined as "the degree of interdependence between software modules; a measure of how closely connected two routines or modules are; the strength of the relationships between modules".
+
+1. **Cost of coupling**: 
