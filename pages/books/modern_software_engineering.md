@@ -186,4 +186,27 @@ Hexagonal Architecture: [Hexagonal architecture – Alistair Cockburn](https://a
 
 **<mark style="background: #FFF3A3A6;">Def. Coupling</mark>** is defined as "the degree of interdependence between software modules; a measure of how closely connected two routines or modules are; the strength of the relationships between modules".
 
-1. **Cost of coupling**: 
+1. **Cost of coupling**:  The real reason why attributes of our systems like MODULARITY, and COHESION and techniques like ABSTRACTION and SEPARATION OF CONCERNS matter is because they help us reduce the "coupling" in our systems. So, in general, we should aim to <mark style="background: #FFF3A3A6;">prefer looser coupling over tighter coupling.</mark>
+2. **Scaling Up**. There is a fairly serious limit on the size of a software development team, before adding more people that only will slows down. To decrease this problems, the team needs a coordination as efficient as possible, and the best way to do this is **continuous integration**. ==> see also the Conway's law: "any organization that design a system will produce a design whose structure is a copy of the organization's communication pattern."
+3. **Microservices**: the general concept is to reduce the level of coupling. To do this, the need to be:
+	1. Small
+	2. Focused on one task
+	3. Aligned with a bounded context.
+	4. Autonomous
+	5. Independently deployable ==> This is the KEY defining characteristic of a microservice.
+	6. Loosely coupled.
+4. Also is important to mention that <mark style="background: #FFF3A3A6;">Microservices is an organizational scaling pattern</mark>.
+5. **Decoupling may mean mode code**. With this in the table: we should optimize for thinking, not for typing!!!!.
+6. **Loose coupling isn't the only kind that matters**: The Nygard model of coupling:
+
+
+| **Type**     | **Effect**     |
+| --- | --- |
+| Operational    | A consumer can't run without a provider     |
+| Developmental | Changes in producers and consumers must be coordinated |
+| Semantic | Change together because of shared concepts |
+| Functional | Change together because of shared responsibility |
+| Incidental | Change together for no reason (breaking API contract) |
+
+7. **Prefer loose coupling.** to achieve high performance, the code need to be simple. Efficient code that can be easily and, even better, predictably ,understood by our compilers and hardware.
+8. **DRY is to simplistic**. 
