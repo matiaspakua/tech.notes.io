@@ -162,8 +162,15 @@ Hexagonal Architecture: [Hexagonal architecture – Alistair Cockburn](https://a
 ### 12. Information Hiding and Abstraction.
 
 * **Information hiding**: its based on hiding the behavior of the code. It includes implementation details as well as any data that it may or may nor use.
+
 * **The Big balls of mud problem**. The first point are the Organizational and cultural problems. Here, the main and most importan advice is that we need to own the responsibility for the quality of the code that we work on.
+
 ![](../../images/big_ball_of_mud.png)
+
 * **Organizational and cultural problems**: we need to own the responsability for the quality of the code that we work on. It is ur **duty of care** to do a good job. Our Aim should be todo whatever it takes to build better software faster. This is improve QUALITY. The foundation of a professional approach are: refactor, test, take time to create great designs, fix bugs, collaborate, communicate and learn.
+
 * **Technical problems and problems design and the Fear of over engineering**: We need to apply the aproach that when we design our solution (code), we can return to it at any point in the future ehan we have learned something new and change it. Here the main problem to fix is the **FRAGILITY OF OUR CODE**. We have three aproach to this: 1) the HERO-Programmer model (exist a super programmer that can do and fix everything); 2) Abstraction and 3) Testing. This is abstract = hiding the complexity and testing = validate the soluction.
-* **Improve abstraction through testing**: 
+
+* **Improve abstraction through testing**: apply testability on design, this is writing the specification (test) like an act of design. This is a practical, pragmatic, light weight approach to design by CONTRACT.
+
+* ** Porwer of Abstraction**: 
