@@ -119,6 +119,8 @@ IMPORTANT: All the notes shared here reflect my personal research, learning jour
 
 # Technical Books readed
 
+ * [Extreme Programming Explained](/pages/books/book_extreme_programming_explained.md) <span style="color:red"> Read done, writing notes in progress... </span>
+ * [Modern Software Engineering: Doing What Works to Build Better Software Faster, By David Farley](/pages/books/modern_software_engineering.md) <span style="color:red"> Read done, writing notes in progress... </span>
  * Applying UML and Patterns: An Introduction to Object-Oriented Analysis and Design and Iterative Development, Craig Larman
  * Thinking in Java 2nd Edition, by Bruce Eckel
  * C Programming Language, 2nd Edition, by de Brian W. Kernighan and Dennis M. Ritchi
@@ -129,8 +131,7 @@ IMPORTANT: All the notes shared here reflect my personal research, learning jour
  * Design Patterns: Elements of Reusable Object-Oriented Software
  * Structured Computer Organization, 5 ed. Tanenbaum
  * Computer Networks, 5 ed. Tanenbaum
- * [Extreme Programming Explained](/pages/books/book_extreme_programming_explained.md)
- * [Modern Software Engineering: Doing What Works to Build Better Software Faster, By David Farley](/pages/books/modern_software_engineering.md) <span style="color:green"> New, in progress... </span>
+
 
 # Others Books
 
