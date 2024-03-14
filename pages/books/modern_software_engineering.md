@@ -1,4 +1,4 @@
-# Modern Software Engineering: Doing What Works to Build Better Software Faste
+# Modern Software Engineering: Doing What Works to Build Better Software Faster
 
 <style>
   .back-button {
