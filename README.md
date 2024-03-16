@@ -119,8 +119,8 @@ IMPORTANT: All the notes shared here reflect my personal research, learning jour
 
 # Technical Books readed
 
+* [Modern Software Engineering: Doing What Works to Build Better Software Faster, By David Farley](/pages/books/modern_software_engineering.md)
  * [Extreme Programming Explained](/pages/books/book_extreme_programming_explained.md) <span style="color:red"> Read done, writing notes in progress... </span>
- * [Modern Software Engineering: Doing What Works to Build Better Software Faster, By David Farley](/pages/books/modern_software_engineering.md) <span style="color:red"> Read done, writing notes in progress... </span>
  * Applying UML and Patterns: An Introduction to Object-Oriented Analysis and Design and Iterative Development, Craig Larman
  * Thinking in Java 2nd Edition, by Bruce Eckel
  * C Programming Language, 2nd Edition, by de Brian W. Kernighan and Dennis M. Ritchi
