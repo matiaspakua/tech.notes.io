@@ -142,6 +142,9 @@ Hexagonal Architecture: [Hexagonal architecture – Alistair Cockburn](https://a
 6. **Modularity at different scale**: Testing when done well exposes something important and true about the nature of out code, the nature of our design, and the nature of the problem that we are solving.
 7. **Modularity in Human System**: truly decouple system, we can parallelized all we want. Micro-services are an organizational scalability play; they don't really have any other advantage, but let's be clear, this is a big advantage if scalability is your problem. If we need small team to efficiently create good, high-quality work, then we need to "decouple". We need modular organizations as well as modular software. 
 
+![](../../images/modularity.png)
+
+
 ## 10. Cohesion
 
 1. **Modularity and cohesion**: good design in software is really about the way in which we organize the code in the system that we create.
@@ -152,6 +155,8 @@ Hexagonal Architecture: [Hexagonal architecture – Alistair Cockburn](https://a
 6. **Cost of poor cohesion**: there is a simple, subjective way to spot poor cohesion. If you have ever read a piece of code and thought "I don't know what this code does," it is probably because the cohesion is poor.
 7. **Cohesion in human system**: one of the leading predictors of high performance measured in terms of throughput and stability, is the ability of teams to make their own decisions without the need to ask permission of anyone outside the team.
 
+![](../../images/cohesion.png)
+
 ## 11. Separation of concerns
 
 1. **Definition**: is defined as "a design principle for separating a computer program into distinct sections such that each section addresses a separate concern". Stuff that is unrelated is far apart, and the stuff that is relates is close together.
@@ -161,9 +166,13 @@ Hexagonal Architecture: [Hexagonal architecture – Alistair Cockburn](https://a
 5. **Ports and adapters**: Is best fit when translade information that crosses between bounded contexts.
 6. **What is an API**. Application Programming Interface (API) is all the information that is exposed to consumers of a service, or library, that expose that API. In combination with **ports and adapters** create the consistent level of abstraction. The rule is: <mark style="background: #FFF3A3A6;">always add Ports and Adapters where the code that you talk to is in different scope of evaluation.</mark> 
 
+![](../../images/separation_of_concerns.png)
+
 ## 12. Information Hiding and Abstraction.
 
 1. **Information hiding**: its based on hiding the behavior of the code. It includes implementation details as well as any data that it may or may nor use.
+
+![](../../images/abstraction_and_information_hiding.png)
 
 2. *The Big balls of mud problem**. The first point are the Organizational and cultural problems. Here, the main and most important advice is that we need to own the responsibility for the quality of the code that we work on.
 
