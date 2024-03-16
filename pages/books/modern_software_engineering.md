@@ -213,3 +213,110 @@ Hexagonal Architecture: [Hexagonal architecture – Alistair Cockburn](https://a
 9. ASYNC as a tool for loose coupling: we prefer async where is possible, because of the great quantity of fail points in a SYNC pattern. Example: 
 
 ![](../../images/failure_points_in_SYNC_COMM.png)
+
+10. **Loose coupling human system**: CI is built on the idea of optimizing the feedback loops in development to the extend that we have, in essence, continuous feedback on the quality of our work.
+11. Summary: high quality code can be achieve in three ways:
+	1. Design more decoupled systems.
+	2. Work with interfaces (contracts)
+	3. Get feedback quickly to identify problems early.
+
+# Tools to support Engineering in Software
+
+## 14. The tools of an engineering discipline
+
+1. What is software development? Solve problems, and build some checks into our process before dive into production. This checks are the <mark style="background: #FFF3A3A6;">"test"</mark>.
+2. **Testability as a tool**. if we are going to test our software, then the it makes sense that, to make out lives easier, <mark style="background: #FFF3A3A6;">we should make out software easy to test</mark>.
+3. Designing to improve the testability of our code makes us design higher quality code.
+4. **Measurement points**: If the want out code to be testeable, we need to be able to control the variables. This is, a measurement point is a place where we can examine the behavior of out system without compromising its integrity.
+
+Example: calculator.
+
+```java
+public class Calculator {
+    
+    public int add(int a, int b) {
+        return a + b;
+    }
+
+    public int subtract(int a, int b) {
+        return a - b;
+    }
+
+    public int multiply(int a, int b) {
+        return a * b;
+    }
+
+    public double divide(int a, int b) {
+        if (b == 0) {
+            throw new IllegalArgumentException("Cannot divide by zero");
+        }
+        return (double) a / b;
+    }
+}
+
+```
+
+Let's break down why this code is easy to test:
+
+1. **Modularity**: Each method in the `Calculator` class performs a specific operation (addition, subtraction, multiplication, and division). This makes it easier to isolate and test individual behaviors.
+    
+2. **Clear Input and Output**: Each method takes input parameters and returns a result. This makes it straightforward to provide inputs and verify outputs during testing.
+    
+3. **No External Dependencies**: The methods in this class do not rely on external resources or dependencies, such as databases or network connections. This simplifies testing because you don't need to set up complex environments for testing.
+    
+4. **Error Handling**: The `divide` method includes error handling to handle division by zero. This ensures that the method behaves predictably in all scenarios and allows for testing of edge cases.
+
+Now, let's write some unit tests using JUnit to verify the behavior of these methods:
+
+```java
+import org.junit.Test;
+import static org.junit.Assert.*;
+
+public class CalculatorTest {
+
+    @Test
+    public void testAdd() {
+        Calculator calculator = new Calculator();
+        int result = calculator.add(3, 5);
+        assertEquals(8, result);
+    }
+
+    @Test
+    public void testSubtract() {
+        Calculator calculator = new Calculator();
+        int result = calculator.subtract(10, 4);
+        assertEquals(6, result);
+    }
+
+    @Test
+    public void testMultiply() {
+        Calculator calculator = new Calculator();
+        int result = calculator.multiply(2, 3);
+        assertEquals(6, result);
+    }
+
+    @Test
+    public void testDivide() {
+        Calculator calculator = new Calculator();
+        double result = calculator.divide(10, 2);
+        assertEquals(5.0, result, 0.0001); // delta is set to account for floating point precision
+    }
+
+    @Test(expected = IllegalArgumentException.class)
+    public void testDivideByZero() {
+        Calculator calculator = new Calculator();
+        calculator.divide(10, 0);
+    }
+}
+	 
+```
+
+In this test code, we can identify the measurements points:
+
+- Input: `a` and `b` are the input parameters.
+- Output: The quotient of `a` divided by `b` is returned as the output.
+- Exception Handling: If `b` is zero, an `IllegalArgumentException` is thrown.
+
+5. **Problems with achieving testability**. technical difficulties, cultural problems, difficult at the edges of our system. The most difficult problem always ends to be: <mark style="background: #FFF3A3A6;">"people"</mark>.
+6. **How to improve Testability**. If the test before you is difficult to write, the design of the code that you are working with is poor and needs to be improved.
+7. **Deployability**. CD is on the idea of working so that our software is always in a releasable state.
