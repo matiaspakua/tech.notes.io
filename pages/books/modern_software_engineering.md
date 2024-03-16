@@ -319,4 +319,8 @@ In this test code, we can identify the measurements points:
 
 5. **Problems with achieving testability**. technical difficulties, cultural problems, difficult at the edges of our system. The most difficult problem always ends to be: <mark style="background: #FFF3A3A6;">"people"</mark>.
 6. **How to improve Testability**. If the test before you is difficult to write, the design of the code that you are working with is poor and needs to be improved.
-7. **Deployability**. CD is on the idea of working so that our software is always in a releasable state.
+7. **Deployability**. CD is on the idea of working so that our software is always in a releasable state. The other concept here is "releasebility", which implies some features completeness and utility to users. The difference is that "deployability" means that the software is safe to release into production, even if some features are not yet ready for use and are hidden in some ways.
+8. **Controlling the Variables**. this means that we want the same result every time that we deploy our software.
+
+## 15. The modern software Engineer.
+
