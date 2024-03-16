@@ -23,7 +23,7 @@
 
 ## 1. Introduction
 
-1. **Engineering**  - The practical application of science. Software engineer need to become experts at learning.
+1. **Engineering**:  The practical application of science. Software engineer need to become experts at learning.
 2. **What is software Engineering**? Software engineering is the application of an empirical, scientific approach to finding efficient, economic solutions to practical problems. We must become experts at learning and experts at managing complexity.
 3. To become experts at "<mark style="background: #FFF3A3A6;">learning</mark>" must apply:
 	1. Iteration
@@ -42,7 +42,7 @@
 	2. Deployability
 	3. Speed
 	4. Controlling variables
-	5. Continuos delivery
+	5. Continuous delivery
 
 ## 2. What is Engineering?
 
@@ -324,3 +324,13 @@ In this test code, we can identify the measurements points:
 
 ## 15. The modern software Engineer.
 
+1. **What's make a modern software engineer?** Testability, deployability, speed, controlling the variables and continuous delivery.
+
+---
+
+<mark style="background: #FFF3A3A6;">**Engineering as a human process**. Engineering is the application of an empirical , scientific approach to finding efficient, economic solutions to practical problems.
+</mark>
+
+---
+
+2. **Digitally disruptive organizations**. Control the variables, keep relates ideas close together with cohesion, and keep unrelated ideas apart with modularity, separation of concerns, abstraction, and reductions in coupling.
