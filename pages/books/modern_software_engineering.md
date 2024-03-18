@@ -219,12 +219,12 @@
 
 7. **Prefer loose coupling.** to achieve high performance, the code need to be simple. Efficient code that can be easily and, even better, predictably ,understood by our compilers and hardware.
 8. **DRY is to simplistic**. DRY is short for "Don't repeat yourself". It is a short hand description of our desire to have a single canonical representation of each piece of behavior in our system. 
-9. ASYNC as a tool for loose coupling: we prefer async where is possible, because of the great quantity of fail points in a SYNC pattern. Example: 
+9. **ASYNC as a tool for loose coupling**: we prefer async where is possible, because of the great quantity of fail points in a SYNC pattern. Example: 
 
 ![](../../images/failure_points_in_SYNC_COMM.png)
 
 10. **Loose coupling human system**: CI is built on the idea of optimizing the feedback loops in development to the extend that we have, in essence, continuous feedback on the quality of our work.
-11. Summary: high quality code can be achieve in three ways:
+11. **Summary**: high quality code can be achieve in three ways:
 	1. Design more decoupled systems.
 	2. Work with interfaces (contracts)
 	3. Get feedback quickly to identify problems early.
@@ -233,12 +233,12 @@
 
 ## 14. The tools of an engineering discipline
 
-1. What is software development? Solve problems, and build some checks into our process before dive into production. This checks are the <mark style="background: #FFF3A3A6;">"test"</mark>.
+1. **What is software development?** Solve problems, and build some checks into our process before dive into production. This checks are the <mark style="background: #FFF3A3A6;">"test"</mark>.
 2. **Testability as a tool**. if we are going to test our software, then the it makes sense that, to make out lives easier, <mark style="background: #FFF3A3A6;">we should make out software easy to test</mark>.
-3. Designing to improve the testability of our code makes us design higher quality code.
+3. **Designing to improve the testability** of our code makes us design higher quality code.
 4. **Measurement points**: If the want out code to be testeable, we need to be able to control the variables. This is, a measurement point is a place where we can examine the behavior of out system without compromising its integrity.
 
-Example: calculator.
+**Example**: calculator.
 
 ```java
 public class Calculator {
