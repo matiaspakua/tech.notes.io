@@ -85,24 +85,24 @@
 ## 4. Working Iteratively
 
 1. **Iteration** allows us to learn, react and adapt. It's at the heart of all exploratory learning and is fundamental to any real knowledge acquisition.
-2. Working iteratively encourage us to think in smaller batches and to take modularity and separation of concerns.
-3. Iterate, learn, adapt to new tech: as Kent Beck says in Extreme programming: <mark style="background: #FFF3A3A6;">"Embrace change!</mark>".
+2. Working iteratively encourage us to think in smaller batches and to take **modularity and separation of concerns**.
+3. **Iterate, learn, adapt** to new tech: as Kent's says in this book: <mark style="background: #FFF3A3A6;">"Embrace change!</mark>".
 
-Reference to my notes of Extreme Programming:  [XP](book_extreme_programming_explained.md)
+- **REFERENCE**:  my notes of Extreme Programming:  [XP](book_extreme_programming_explained.md)
 
 ## 5. Feedback
 
-1. **Importance** of: <mark style="background: #FFF3A3A6;">without feedback, there is no opportunity to learn</mark>. Feedback allows us to establish a source of evidence for our decisions.
+1. **Importance**: <mark style="background: #FFF3A3A6;">without feedback, there is no opportunity to learn</mark>. Feedback allows us to establish a source of evidence for our decisions.
 2. **Feedback in coding**: with UNIT TEST!!!!
 3. **Feedback in Integration**: Continuos Integration (CI) is about evaluating every change to the system along with every other change to the system as frequently as possible, as close to "continuously".
 4. **Feedback in design**: TDD as a practice, is what give us most feedback in design. <mark style="background: #FFF3A3A6;">If the test are hard to write</mark>, that tells that somethings important about the quality of the code and the design.
 5. **Feedback in product Design:**  adding telemetry to our systems that allows us to gather data about which features of our systems are used, and how they are used, is now the norm.
-6. Modern times: we are going to "Business and IT" ==> "Digital Business". The telemetry can provide insights into what customer wants, needs and behaviour that event the customers themselves are not conscious of.
+6. **Modern times**: we are going to "Business and IT" ==> "Digital Business". The telemetry can provide insights into what customer wants, needs and behaviour that event the customers themselves are not conscious of.
 7. **Feedback in Organization and Culture**: All this concepts of feedback are generally not apply in the Organization and in the culture. When people apply this kind of approach they get much better result: "Lean Thinking" => The Toyoya Waty is an example of this.
 
 ## 6. Incrementalism
 
-1. **Definition**: "incremental design is directly related to any modular design application, in which components can be freely substituted if improved to ensure better performance."
+1. **Definition**: incremental design is directly related to any modular design application, in which components can be freely substituted if improved to ensure better performance.
 2. **Importance of Modularity**: divide the problem into pieces aimed at solving a single part of the problem.
 3. **Organizational incrementalism**: One of the huge benefits that modularity brings is "isolation".  Modular organizations are more flexible, mode scalable and more efficient.
 4. **Tools**: Feedback, experimentation, Refactoring, Version control, testing. A test-driven approach to automated testing demand that we create  mini executable specifications for the changes that we make to our systems. Keeping the test as simple as we can and by designing our system as testeable code.
@@ -110,9 +110,9 @@ Reference to my notes of Extreme Programming:  [XP](book_extreme_programming_exp
 
 ![](../../images/hexagonal_architecture.png)
 
-Hexagonal Architecture: [Hexagonal architecture – Alistair Cockburn](https://alistair.cockburn.us/hexagonal-architecture/)
+- **REFERENCE**: Hexagonal Architecture: [Hexagonal architecture – Alistair Cockburn](https://alistair.cockburn.us/hexagonal-architecture/)
 
-6. **Speed of feedback:**  the fast, better.
+6. **Speed of feedback:**  the fastest, better.
 7. **Incremental design**: the agile concepts is based on the premise that we can begin work before we have all the answers. Accepting the we don't know, doubting what we do know, and working to learn fast is a step from dogma toward engineering. 
 8. **Avoid over-engineering**: never add code for thinks that I don't know are needed now. The important concept with code is that code need to be simple and small, that allows me to change when I learn new thinks.
 
@@ -125,7 +125,7 @@ Hexagonal Architecture: [Hexagonal architecture – Alistair Cockburn](https://a
 
 ## 8. Being Experimental
 
-1. **Definition**. Richard Feyman: "Science is the belief in the ignorance of experts". "Have no respect whatsoever for authority; forget who said it and instead look what he start with, where he ends up, and ask yourself, 'it is reasonable?'".
+1. **Definition**. Richard Feyman says "Science is the belief in the ignorance of experts". "Have no respect whatsoever for authority; forget who said it and instead look what he start with, where he ends up, and ask yourself, 'it is reasonable?'".
 2. **Hypothesis, Measurement and Controlling the Variables**. To gather feedback and make useful measurements, we need to control the variables.
 3. **Experiments**: we can run literally millions of experiments every second if we want, using unit tests. What I am thinking of is organizing our development around a series of iterative experiments that make tiny predictions.
 4. **Creating new knowledge:** we can create a new experiment, a test, that define the new knowledge that we expect to observe, and then we can add knowledge in the form of working code that meet that needs.
