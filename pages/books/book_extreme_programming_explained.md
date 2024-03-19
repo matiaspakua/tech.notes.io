@@ -47,7 +47,7 @@
 
 11. KIS: keep it simple. Always.
 
-## What is XP?
+## 01 What is XP?
 
 1. Extreme Programming is about social change. It is about beign open about what we are capable of doing and then doing it and, it is about writing great code that is really good for business. Do you best and then deal with the consecuences. THAT EXTREME!!!!
 2. It is reliad on oral communication, test and source code to communicate system structure and intent.
@@ -65,6 +65,12 @@
    6. Embrace business changes.
    7. Avoid "false" feature rich.
    8. Avoid staff turnover (mantains good teams together).
+
+## 02 Learning to Drive
+
+1. What is driving? is about constantly paying attention, making a little correction this way, a little correction that way. This is the paradigm for XP. <mark style="background: #FFF3A3A6;">Stay aware. Adapt. Change</mark>. The problem is our inability to cope with change.
+
+## 03 Values, Principles and Practices
 
 
 
