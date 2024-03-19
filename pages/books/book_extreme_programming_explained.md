@@ -72,7 +72,13 @@
 
 ## 03 Values, Principles and Practices
 
+1. **Practices**: the kind of knowledge associated with techniques to do something.
+2. **Values**: are the roots of the thinks we like and don't like in a situation. Making values explicit is important because without values, practices quickly become rote.
+3. Bringing values together with practices means that the programmer can perform practice, in this case **root-cause** analysis, at effective times and for good reasons. Values bring purpose to practices.
+4. Principles: are domain-specific guidelines for life.
 
+![](../../images/xp_practices_values_principles.png)
+Image from the book Extreme programming by Kent Beck
 
 ## References
 
