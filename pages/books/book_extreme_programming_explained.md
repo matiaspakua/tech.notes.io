@@ -21,7 +21,7 @@
 
 ![xp programming](../../images/xp_programming.jpeg)
 
-## Introduction
+# Introduction
 
 "Extreme Programming Explained: Embrace Change" is a book written by Kent Beck that describes the principles and practices of Extreme Programming (XP), a software development methodology. Here is a summary of the key concepts presented in the book:
 
@@ -46,6 +46,27 @@
 10. Don't put in anything that's not in the spec (no matter how temped you are to put in functionality "for the future").
 
 11. KIS: keep it simple. Always.
+
+## What is XP?
+
+1. Extreme Programming is about social change. It is about beign open about what we are capable of doing and then doing it and, it is about writing great code that is really good for business. Do you best and then deal with the consecuences. THAT EXTREME!!!!
+2. It is reliad on oral communication, test and source code to communicate system structure and intent.
+3. The more "humanely" I treated myself and others, the more productive we all became.
+4. Technique also matters. We are technical people in a technical field.
+5. Book recommendation: Colin Turnbull in The Mountain people and the Forest People.
+6. You can do your best work even when there are constraints.
+7. You can't control others expentaction.
+8. How XP address the risks in the development process:
+   1. Schedule slips: short release cycles, a few months at most.
+   2. Project canceled.
+   3. Keeps the system in deployable condition. Problems are not allowed to accumulate.
+   4. Keep defect rate low.
+   5. Avoid business misunderstood.
+   6. Embrace business changes.
+   7. Avoid "false" feature rich.
+   8. Avoid staff turnover (mantains good teams together).
+
+
 
 ## References
 
