@@ -80,6 +80,15 @@
 ![](../../images/xp_practices_values_principles.png)
 Image from the book Extreme programming by Kent Beck
 
+## 04 Values
+
+1. What actually matters is not how any given person behaves as much as how the individuals behave as part of a team and as part of an organization.
+2. **Communication**: when you encounter a problem, ask yourselves if the problem was caused by a lack of communication.
+3. **Simplicity**: what is simplest thing that could possible work? just to bias tour thinking toward eliminating waster complexity.
+4. XP team strive to generate as much feedback as they can handle as quickly as possible. They try to shorten the feedback cycle to minutes or hours instead of weeks or months. The sooner you know, the sooner you can adapt.
+5. **Courage**: courage is effective action the the fact of fear. If you know what the problem is, do something about it. Period.
+6. **Respect**: if members of a team don't care about each other and what are doing, XP won't work.
+
 ## References
 
 - Web: http://www.extremeprogramming.org/rules.html
