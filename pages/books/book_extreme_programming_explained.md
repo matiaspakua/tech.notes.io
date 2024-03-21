@@ -94,21 +94,23 @@ Image from the book Extreme programming by Kent Beck
 1. **Traceability**: In the development of safety-critical systems, the principle of traceability is at work. At any time you should be able to trace a path from the work done back to an explicit expressed need from the user.
 2. **Humanity**: The magic of great teams is that after the team members develop trust they find that they are free to be more themselves as a result of their work together.
 3. **Economics**: Somebody has to pay for all this. Software development that doesn't acknowledge economics risks the hollow victory of a "technical success".
-4. **Mutual benefit**: this is the most important XP principle. The computer business is really a people business and mantaining working relationships is important (and HARD). XP solves the communication-with-the-future problem in mutually beneficial ways:
+4. **Mutual benefit**: this is the most important XP principle. The computer business is really a people business and maintaining working relationships is important (and HARD). XP solves the communication-with-the-future problem in mutually beneficial ways:
    a. I write automated tests that help me design and implement better today.
    b. I carefully refactor to remove accidental complexity.
    c choose names from a coherent and explicit set of metaphors which speeds my development.
 5. **Self-Similarity**: try copying the structure of one solution into a new context, even at different scales.
 6. **Improvement**: the cycle is to do the best you can today, striving for the awareness and understanding necessary to do better tomorrow. Put improvement to work by not waiting for perfection. Find a starting place, get started, and improve from there.
-7. **Diversity**: Conflict is the inevitable companion of diversity. Two ideas about design present an opportunity, not a problem. The principle of diversity suggets that the programmers should work together on the problem and both opinions should be valued.
-8. **Reflection**: good teams don't just do their work, they think about how they are working and why they are working. They analyze why they succeeded or failed. They don't try to hide their mistakes, but expose them and learm from them. Shared meals and coffee breaks provide an informal setting for shared reflection.
-9. **Flow**: The principle of flow suggets that for improvement, deploy smaller increments of value ever more frequently.
-10. **Opportunity**: Learn to see problems as opportunities for change. As you begin practicing XP, you will certanly encounter problems. Part of being extreme is consciounsly choosing to transform each problem into an opportunity.
-11. **Redundancy**: What you hope to achieve is few enough defect to mantain trust both within the team and with the customer.
-12. **Failure**: If you're having trouble succeding, fail.
-13. **Quality**: Sacrificing quality is not effective as a mean of control. Quality is not a control variable.Projects don't go faster by accepting lower quality. They don't go slower by demanding higher quality. Pushing quality higher often results in faster delivery; while lowering quality standars often results in later, less predictable delivery. People need to do work they are proud of.
+7. **Diversity**: Conflict is the inevitable companion of diversity. Two ideas about design present an opportunity, not a problem. The principle of diversity suggest that the programmers should work together on the problem and both opinions should be valued.
+8. **Reflection**: good teams don't just do their work, they think about how they are working and why they are working. They analyze why they succeeded or failed. They don't try to hide their mistakes, but expose them and learn from them. Shared meals and coffee breaks provide an informal setting for shared reflection.
+9. **Flow**: The principle of flow suggest that for improvement, deploy smaller increments of value ever more frequently.
+10. **Opportunity**: Learn to see problems as opportunities for change. As you begin practicing XP, you will certainly encounter problems. Part of being extreme is consciously choosing to transform each problem into an opportunity.
+11. **Redundancy**: What you hope to achieve is few enough defect to maintain trust both within the team and with the customer.
+12. **Failure**: If you're having trouble succeeding, fail.
+13. **Quality**: Sacrificing quality is not effective as a mean of control. Quality is not a control variable.Projects don't go faster by accepting lower quality. They don't go slower by demanding higher quality. Pushing quality higher often results in faster delivery; while lowering quality standard often results in later, less predictable delivery. People need to do work they are proud of.
 14. **Baby Steps**: Prefer baby steps (small changes) over big, longer, complicated steps.
-15. **Accepted Responsability**: Responsability cannot be assigned: it can only be accepted.
+15. **Accepted Responsibility**: Responsibility cannot be assigned: it can only be accepted.
+
+## Practices
 
 ## References
 
