@@ -112,7 +112,11 @@ Image from the book Extreme programming by Kent Beck
 
 ## Practices
 
+
+
 ## References
 
 - Web: http://www.extremeprogramming.org/rules.html
 - Book on amazon: (https://www.amazon.com/Extreme-Programming-Explained-Embrace-Change/dp/0321278658)
+- http://www.extremeprogramming.org/
+- 
