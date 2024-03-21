@@ -112,6 +112,7 @@ Image from the book Extreme programming by Kent Beck
 
 ## Practices
 
+![](../../images/xp_practices.png)
 
 
 ## References
