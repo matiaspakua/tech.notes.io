@@ -134,9 +134,7 @@ Image from the book Extreme programming by Kent Beck
 9. **10 (Ten) minutes build**: automatically build the whole system and run all of the tests in ten minutes. An automated build becomes a stress reliever at crunch time. "Did we make a mistake?, Let's just build and see."
 10. **Continuous integration**:
 
-## References
+# References
 
-- Web: http://www.extremeprogramming.org/rules.html
-- Book on amazon: (https://www.amazon.com/Extreme-Programming-Explained-Embrace-Change/dp/0321278658)
-- http://www.extremeprogramming.org/
-- 
+- Web about XP Programming: [Link](http://www.extremeprogramming.org/rules.html)
+- [Book on amazon](https://www.amazon.com/Extreme-Programming-Explained-Embrace-Change/dp/0321278658)
