@@ -127,8 +127,7 @@ IMPORTANT: All the notes shared here reflect my personal research, learning jour
  * Design Patterns Elements of Reusable Object-Oriented Software by Erich Gamma, Richard Helm, Ralph Johnson, John M. Vlissides
  * Software Engineering, 10th Edition by Ian Sommerville
  * Software Engineering: A Practitioner's Approach, 8th Edition, Roger Pressmann
- * The Object Primer, 3rd Edition, Scott Ambler
- * Design Patterns: Elements of Reusable Object-Oriented Software
+ * The Object Primer, 3rd Edition, Scott Ambler 
  * Structured Computer Organization, 5 ed. Tanenbaum
  * Computer Networks, 5 ed. Tanenbaum
 
