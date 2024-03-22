@@ -110,9 +110,17 @@ Image from the book Extreme programming by Kent Beck
 14. **Baby Steps**: Prefer baby steps (small changes) over big, longer, complicated steps.
 15. **Accepted Responsibility**: Responsibility cannot be assigned: it can only be accepted.
 
-## Practices
+# Practices
 
 ![](../../images/xp_practices.png)
+
+## 07 Primary Practices
+
+1. **Sit together**: no matter what the client says the problem is, it is always a people problem. Technical fixes alone are not enough. It is important to sit together, to communicate with all senses.
+2. **Whole team**: include in the team people with all the skills and perspectives necessary for the project to succeed. The size of the team here is important, because we need to build trust, and trust born of collaboration.
+3. **Informative Workspace**: build a workspace where the important information is visible.
+
+![](../../images/xp_informative_workspace.png)
 
 
 ## References
