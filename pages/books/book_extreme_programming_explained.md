@@ -122,6 +122,17 @@ Image from the book Extreme programming by Kent Beck
 
 ![](../../images/xp_informative_workspace.png)
 
+4. **Energized Work**: work only as many hours as you can be productive and only as many hours as you can sustain.
+5. **Pair Programming**: help you to: keep each other on task; improve the brainstorm refinements to the system; clarify ideas; take initiative when your partner is stuck; hold each other accountable to the team's practices.
+6. **Stories**: plan using units of customer-visible functionality.
+7. **Weekly cycles**: plan work a week at a time. Have a meeting at the beginning of every week. during this meeting:
+	1. review progress to date vs expected progress, blockers and other issues.
+	2. Make the customer pick this week stories.
+	3. Break the stories into tasks.
+	4. <mark style="background: #FFF3A3A6;">Start the week by writing automates tests that will run when the stories are completed</mark>, then work the rest of the week on code to pass the tests. the goal is to have a deployable software at the end of the week.
+8. **Quarterly cycle**: Plan the work a quarter at a time.
+9. **10 (Ten) minutes build**: automatically build the whole system and run all of the tests in ten minutes. An automated build becomes a stress reliever at crunch time. "Did we make a mistake?, Let's just build and see."
+10. **Continuous integration**:
 
 ## References
 
