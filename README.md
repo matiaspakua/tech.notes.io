@@ -6,7 +6,7 @@ Welcome to my personal Tech Notes blog! 🚀 Here, you'll find information prese
 
 **GitHub Pages Deploy Status**: [![pages-build-deployment](https://github.com/matiaspakua/tech.notes.io/actions/workflows/pages/pages-build-deployment/badge.svg?branch=main)](https://github.com/matiaspakua/tech.notes.io/actions/workflows/pages/pages-build-deployment) 🛠️
 
-**Contact**: If you come across any typos, errors, missing images, or pages, please don't hesitate to reach out. You can contact me via email at [GMAIL](mailtto:matiaspakua@gmail.com). 📧
+**Contact**: If you come across any typos, errors, missing images, or pages, please don't hesitate to reach out. You can contact me via email at [GMAIL](mailto:matiaspakua@gmail.com). 📧
 
 <mark style="background: #BBFABBA6;">IMPORTANT</mark>: All the notes shared here reflect my personal research, learning journey, and opinions. I always provide references to the original authors and respect copyrights. 🔍📚
 
