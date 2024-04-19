@@ -145,11 +145,25 @@ Image from the book Extreme programming by Kent Beck
 ---
 ### Test-First programming AKA TDD 
 
+Write failing automated test before changing any code. Why:
+
+1. Reduce scope creep
+2. Improve coupling and cohesion
+3. Improve "trust"
+4. Create rhythm
+
 ![](../../images/xp_test_first_programming.png)
 
+
+### Incremental Design
+
+1. Invest in the design of the system every day. Doing this, XP teams improve confident in their ability to adapt the design to future requirements.
+2. Without daily attention to design, the cost of change does "skyrocket". The result is poorly designed, brittle, hard-to-change systems.
+3. Design done close to when it is used is more efficient.
+
+
+
 ---
-
-
 # References
 
 - Web about XP Programming: [Link](http://www.extremeprogramming.org/rules.html)
