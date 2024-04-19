@@ -109,8 +109,7 @@ Welcome to my personal Tech Notes blog! 🚀 Here, you'll find information prese
 ---
 
 # Technical Books in progress
-
- - The Mythical Man-Month: Essays on Software Engineering, by Fred Brooks (60%) 
+ 
  - ReWork: Change the Way You Work Forever, By David Heinemeier Hansson and Jason Fried (71%)
  - Refactoring: improving the design of existing code, by Martin Fowler (5%)
  - Working effectively with legacy code, by Michael Feathers (5%)
@@ -119,8 +118,9 @@ Welcome to my personal Tech Notes blog! 🚀 Here, you'll find information prese
 
 # Technical Books readed
 
-* [Modern Software Engineering: Doing What Works to Build Better Software Faster, By David Farley](/pages/books/modern_software_engineering.md)
+ * [Modern Software Engineering: Doing What Works to Build Better Software Faster, By David Farley](/pages/books/modern_software_engineering.md)
  * [Extreme Programming Explained](/pages/books/book_extreme_programming_explained.md) <span style="color:red"> Read done, writing notes in progress... </span>
+ * [The Mythical Man-Month: Essays on Software Engineering, by Fred Brooks](/pages/books/the_mythical_man_month.md)  <span style="color:red"> Read done, writing notes in progress... </span>
  * Applying UML and Patterns: An Introduction to Object-Oriented Analysis and Design and Iterative Development, Craig Larman
  * Thinking in Java 2nd Edition, by Bruce Eckel
  * C Programming Language, 2nd Edition, by de Brian W. Kernighan and Dennis M. Ritchi
