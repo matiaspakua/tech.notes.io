@@ -25,3 +25,16 @@
  * **Business Leaders**: Partner with companies that have generative AI models or use open-source models for their projects.
  * **Creative Users**: Use pre-built generative AI models from repositories like GitHub and then combine them with AI notebooks (like Google Colab) to run the model.
  * **General Users**: Access generative AI through online services or apps like DALL-E, Midjourney, etc.
+
+## Using Generative AI Models for Content Creation
+
+**Generative AI Models**: The core element, a set of algorithms trained on specific data to create new content.
+
+ - User Access Levels:
+ * **Beginners**: Use pre-built applications with minimal customization (e.g., Midjourney, Lensa).
+ * **Intermediate Users**: Utilize AI notebooks (e.g., Google Colab) with pre-existing generative AI models for more control.
+ * **Advanced Users (Creative Technologists)**: Access generative AI models directly from code repositories (e.g., GitHub) and integrate them into notebooks for maximum customization.
+ * **Programmers**: Create their own notebooks using model code from repositories.
+ * **AI Notebooks (e.g., Google Colab)**: Platforms specifically designed to run generative AI model code, often offering customization options for the generated content.
+ * **Creative Applications**: Pre-built interfaces that utilize generative AI models for specific creative tasks (e.g., avatar creation).
+ * **Generated Outcome**: The final creative product produced by a user through a generative AI service or notebook.
