@@ -62,11 +62,16 @@
 
 - **GAN Mechanics**: GANs consist of two parts, **The Generator** and **The Discriminator**, which work together in a competitive game to create realistic data. The Generator attempts to create data that is indistinguishable from real data, while The Discriminator tries to detect the difference.
 
+![](../../images/gan_schema.png)
+
 - **Real-World Applications**: GANs have been used by **Audi** for wheel design inspiration, by **Beko** for creating a brand-funded AI film, and in **financial fraud detection** to generate synthetic transaction data for training fraud detection models.
 
 - **Versatility of GANs**: The same GAN model can be applied to diverse fields, showcasing its versatility in creating new styles for automotive design, producing visual effects for films, and solving financial fraud detection problems.
 
-![](../../images/gan_schema.png)
+![](../../images/generative_ai_gan_model.png)
+
+
+
 
 # Reference
 
