@@ -68,7 +68,14 @@
 
 - **Versatility of GANs**: The same GAN model can be applied to diverse fields, showcasing its versatility in creating new styles for automotive design, producing visual effects for films, and solving financial fraud detection problems.
 
-![](../../images/generative_ai_gan_model.png)
+### VAE and Anomaly Detection
+
+- **Variational Autoencoders (VAE)**: A type of generative AI model used for anomaly detection by learning from a dataset of normal data.
+- **Anomaly Detection Applications**: VAEs are applied in various fields such as fraud detection in financial transactions, manufacturing quality control, and network security
+- **Real-World Examples**: Companies like Uber and Google use VAEs for detecting financial fraud and network intrusions, respectively.
+- **Healthcare Utilization**: VAEs help in medical anomaly detection, like predicting sepsis risk from electronic health records at Children's National Hospital.
+
+![](../../images/generative_ai_vae_model.png)
 
 
 
