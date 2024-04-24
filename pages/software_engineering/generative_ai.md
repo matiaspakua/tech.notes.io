@@ -59,3 +59,7 @@
  [Example comparison]
 
 ### Generative Adversarial Networks (GANs)
+
+
+# Reference
+

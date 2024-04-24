@@ -56,6 +56,7 @@ Welcome to my personal Tech Notes blog! 🚀 Here, you'll find information prese
 - [On Agile by Martin Fowler](https://martinfowler.com/agile.html)
 - [Software Design By Example. A book, a web site](https://third-bit.com/sdxjs/)
 - [Software engineering timeline](/pages/software_engineering/software_engineering_timeline.md) <span style="color:red"> New, in progress... </span>
+- [Generative AI](/pages/software_engineering/generative_ai.md)
 
 # Software and System Architecture
 
