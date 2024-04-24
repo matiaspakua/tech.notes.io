@@ -1,5 +1,7 @@
 # Generative IA
 
+![](../../images/generative_ai.jpeg)
+
 ## Introduction
 
 **Concept**: Generative AI is a technology that can create new content, like images, text, or music, based on existing data.
