@@ -1,13 +1,39 @@
 # Generative IA
 
-<style> .back-button { background-color: #4CAF50; /* Green */ border: none; color: white; padding: 15px 32px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; margin: 4px 2px; cursor: pointer; } </style>
-All notes
+<style>
+  .back-button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+</style>
+
+<button class="back-button" onclick="window.location.href='https://matiaspakua.github.io/tech.notes.io'">All notes</button>
 
 # Table of content
 
  * Introduction
  * Differents types of generative IA
  * Understanding how Generative AI works
+ * Using Generative AI Models for Content Creation
+ * Main models
+ * Text to image applications
+ * Generative Adversarial Networks (GANs)
+ * VAE and Anomaly Detection
+ * Future predictions
+ * The Future of Jobs
+ * Moral and executive skill set required to work with GenAI
+ * Caution when working with generative AI
+ * Reference
+
+---
 
 ![](../../images/generative_ai.jpeg)
 
@@ -36,6 +62,8 @@ All notes
  * **Business Leaders**: Partner with companies that have generative AI models or use open-source models for their projects.
  * **Creative Users**: Use pre-built generative AI models from repositories like GitHub and then combine them with AI notebooks (like Google Colab) to run the model.
  * **General Users**: Access generative AI through online services or apps like DALL-E, Midjourney, etc.
+
+![](https://upload.wikimedia.org/wikipedia/commons/1/16/GenAI_Agent.png)
 
 ### Using Generative AI Models for Content Creation
 
@@ -127,7 +155,7 @@ These topics collectively paint a picture of a future where generative AI plays 
 
 5. **Understanding Capabilities and Limitations**: Deepening the team's understanding of generative AI capabilities and limitations helps mitigate risks associated with blind reliance on AI decision-making. Striking a balance between leveraging AI to enhance creativity and maintaining human oversight is essential.
 
-### Caution when working with generative AI:
+### Caution when working with generative AI
 
 1. **Human Superiority Complex**: The greatest bias in AI is not based on race, ethnicity, or gender, but rather on humans' inferiority complex. Placing AI on a pedestal above humans or viewing humans as incapable beings can lead to skewed perceptions of AI's role and capabilities.
 
@@ -139,10 +167,13 @@ These topics collectively paint a picture of a future where generative AI plays 
 
 5. **Modeling Tools after Humans**: Designing AI tools to mirror human judgment and capabilities necessitates addressing human insecurities and limitations. Approaching AI as a tool to augment and empower humans rather than compete or replace them is crucial for creating AI systems that contribute positively to humanity's progress.
 
+---
 
 # Reference
 
+ * [Generative artificial intelligence Wikipedi](https://en.wikipedia.org/wiki/Generative_artificial_intelligence)
  * [A Beginner's Guide to Generative AI | Pathmind](https://wiki.pathmind.com/generative-adversarial-network-gan)
  * [What is Generative AI?](https://www.nvidia.com/en-us/glossary/generative-ai/)
  * [Introduction to Generative AI](https://www.linkedin.com/learning/what-is-generative-ai/)
+ * [Generative Models OpenAI](https://openai.com/research/generative-models)
 
