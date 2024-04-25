@@ -1,5 +1,14 @@
 # Generative IA
 
+<style> .back-button { background-color: #4CAF50; /* Green */ border: none; color: white; padding: 15px 32px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; margin: 4px 2px; cursor: pointer; } </style>
+All notes
+
+# Table of content
+
+ * Introduction
+ * Differents types of generative IA
+ * Understanding how Generative AI works
+
 ![](../../images/generative_ai.jpeg)
 
 ## Introduction
@@ -133,5 +142,7 @@ These topics collectively paint a picture of a future where generative AI plays 
 
 # Reference
 
-[A Beginner's Guide to Generative AI | Pathmind](https://wiki.pathmind.com/generative-adversarial-network-gan)
+ * [A Beginner's Guide to Generative AI | Pathmind](https://wiki.pathmind.com/generative-adversarial-network-gan)
+ * [What is Generative AI?](https://www.nvidia.com/en-us/glossary/generative-ai/)
+ * [Introduction to Generative AI](https://www.linkedin.com/learning/what-is-generative-ai/)
 
