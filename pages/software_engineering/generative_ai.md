@@ -65,6 +65,8 @@
 
 ![](https://upload.wikimedia.org/wikipedia/commons/1/16/GenAI_Agent.png)
 
+[Example of generic AI generative architecture - High Level]
+
 ### Using Generative AI Models for Content Creation
 
 **Generative AI Models**: The core element, a set of algorithms trained on specific data to create new content.
