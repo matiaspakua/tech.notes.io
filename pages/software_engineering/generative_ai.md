@@ -106,6 +106,18 @@
 These topics collectively paint a picture of a future where generative AI plays a significant role in reshaping the job market, while emphasizing the continued importance of uniquely human skills and creativity.
 
 
+### Moral and executive skill set required to work with GenAI
+
+1. **Caution and Quality Control**: Leaders and executives should approach generative AI tools with caution, consistently assessing whether the generated results meet quality and satisfaction standards. Just because AI generates content doesn't guarantee its greatness or readiness for final use.
+
+2. **Moral Compass and Responsibility**: It's crucial for founders and executives in generative AI companies to prioritize transparency, fairness, empathy, and responsibility. Establishing an ethical foundation within the organization through boards or councils ensures alignment with ethical principles.
+
+3. **Ethical Guidance and Education**: Providing ethical guidance and education to all employees on effectively using generative AI tools helps overcome fears, challenges, and biases. As technology evolves, understanding the distinction between human and AI-generated content becomes increasingly important.
+
+4. **Human-Centered Approach**: Maintaining human consciousness at the center of generative AI companies and solutions ensures human decision-makers remain in control. This approach aligns content with company values and goals, serving the betterment of humanity.
+
+5. **Understanding Capabilities and Limitations**: Deepening the team's understanding of generative AI capabilities and limitations helps mitigate risks associated with blind reliance on AI decision-making. Striking a balance between leveraging AI to enhance creativity and maintaining human oversight is essential.
+
 
 # Reference
 
