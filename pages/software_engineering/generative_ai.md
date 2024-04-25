@@ -174,7 +174,7 @@ These topics collectively paint a picture of a future where generative AI plays 
 # Reference
 
  * [Generative artificial intelligence Wikipedi](https://en.wikipedia.org/wiki/Generative_artificial_intelligence)
- * [A Beginner's Guide to Generative AI | Pathmind](https://wiki.pathmind.com/generative-adversarial-network-gan)
+ * [A Beginner's Guide to Generative AI](https://wiki.pathmind.com/generative-adversarial-network-gan)
  * [What is Generative AI?](https://www.nvidia.com/en-us/glossary/generative-ai/)
  * [Introduction to Generative AI](https://www.linkedin.com/learning/what-is-generative-ai/)
  * [Generative Models OpenAI](https://openai.com/research/generative-models)
