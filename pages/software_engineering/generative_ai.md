@@ -91,9 +91,9 @@
 - **Main Tools**: The three primary services are Midjourney, DALL-E, and Stable Diffusion, each with unique characteristics akin to different operating systems.
 - **Industrial Uses**: Examples include Cuebric for film backgrounds, Stitch Fix for fashion, and various marketing campaigns using generative AI for efficiency and a unique aesthetic.
 
-![](../../images/generative_ai_text_to_image_comparison.jpeg)
+![](https://upload.wikimedia.org/wikipedia/commons/6/69/Th%C3%A9%C3%A2tre_D%E2%80%99op%C3%A9ra_Spatial.png)
 
- [Example comparison]
+[Example image Wikipedia]
 
 ### Generative Adversarial Networks (GANs)
 
