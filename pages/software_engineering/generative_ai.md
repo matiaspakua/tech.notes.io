@@ -118,6 +118,18 @@ These topics collectively paint a picture of a future where generative AI plays 
 
 5. **Understanding Capabilities and Limitations**: Deepening the team's understanding of generative AI capabilities and limitations helps mitigate risks associated with blind reliance on AI decision-making. Striking a balance between leveraging AI to enhance creativity and maintaining human oversight is essential.
 
+### Caution when working with generative AI:
+
+1. **Human Superiority Complex**: The greatest bias in AI is not based on race, ethnicity, or gender, but rather on humans' inferiority complex. Placing AI on a pedestal above humans or viewing humans as incapable beings can lead to skewed perceptions of AI's role and capabilities.
+
+2. **Emphasis on Human Creativity and Decision-Making**: Despite popular headlines suggesting otherwise, it's crucial to recognize that humans are the architects behind AI algorithms and oversee their implementation. Highlighting the central role of human creativity and decision-making in the process is essential.
+
+3. **Risk of Dehumanization**: Overemphasis on AI and technology in storytelling workflows risks dehumanizing the creative process and may lead to the elimination of human jobs in the future. Instead, the focus should be on highlighting humans' integral role in AI creation and utilization.
+
+4. **Correction of Collective Sentiments**: Despite common phrases attributing achievements to AI, efforts should be made to center actions and self-expression around humans. Acknowledging that humans create art using generative AI tools and collaborate to advance human-benefiting technologies is essential.
+
+5. **Modeling Tools after Humans**: Designing AI tools to mirror human judgment and capabilities necessitates addressing human insecurities and limitations. Approaching AI as a tool to augment and empower humans rather than compete or replace them is crucial for creating AI systems that contribute positively to humanity's progress.
+
 
 # Reference
 
