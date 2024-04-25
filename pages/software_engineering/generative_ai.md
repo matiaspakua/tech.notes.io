@@ -20,7 +20,7 @@
 # Table of content
 
  * Introduction
- * Differents types of generative IA
+ * Different types of generative IA
  * Understanding how Generative AI works
  * Using Generative AI Models for Content Creation
  * Main models
