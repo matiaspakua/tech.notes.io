@@ -190,7 +190,16 @@ Link: [Conway's law - Wikipedia](https://en.wikipedia.org/wiki/Conway%27s_law)
 
 ### Team Continuity
 
+1. <mark style="background: #FFF3A3A6;">Keep effective teams together</mark>.
+2. Value in software is created not just by what people know and do but also by their relationships and what they accomplish together.
 
+### Shrinking teams
+
+1. As a team grows in capability, keep its workload constant but gradually reduce its size.
+
+### Root-Cause analysis
+
+1. 
 
 ### 
 
