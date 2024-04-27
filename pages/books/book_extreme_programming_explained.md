@@ -161,7 +161,38 @@ Write failing automated test before changing any code. Why:
 2. Without daily attention to design, the cost of change does "skyrocket". The result is poorly designed, brittle, hard-to-change systems.
 3. Design done close to when it is used is more efficient.
 
+## 08 Getting Started
 
+1. How to decide what to change first? Look at what you are doing and what do you want to achieve. Choose the first practice on that path.
+2. One option is to use XP-Style planning. Write stories about improving your software development process.
+3. Changes begins with awareness. Awareness of the need for change comes from feelings, instincts, facts, or feedback from outsiders.
+4. Changes always start at home. the only person you can actually change is yourself.
+
+## 09 Corollary Practices
+
+### Real customer involvement
+
+1. No customer at all, or a "proxy" for a real customer, leads to waste your develop feature that aren't used.
+2. <mark style="background: #FFF3A3A6;">If the customer knew how messed up software development was, they'dd never trust us</mark>. ==> GOOD POINT!! Are you sure they trust you now? Software reflect the organization that builds it. Like the CONWAY's LAW:
+
+![](../../images/conways_law_example.jpeg)
+
+"Organizations which design systems (in the broad sense used here) are constrained to produce designs which are copies of the communication structures of these organizations."
+
+— Melvin E. Conway, How Do Committees Invent?
+
+
+Link: [Conway's law - Wikipedia](https://en.wikipedia.org/wiki/Conway%27s_law)
+
+### Incremental deployment
+
+1. When replacing a legacy system, gradually take over its workloads beginning very early in the project.
+
+### Team Continuity
+
+
+
+### 
 
 ---
 # References
