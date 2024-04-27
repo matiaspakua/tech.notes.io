@@ -199,7 +199,14 @@ Link: [Conway's law - Wikipedia](https://en.wikipedia.org/wiki/Conway%27s_law)
 
 ### Root-Cause analysis
 
-1. 
+1.  Every time a defect is found after development, eliminate the defect and it cause.
+2. In XP, this is the process for responding to a defect:
+	1. Write an automated system-level test that demonstrate the defect, including the desire behavior.
+	2. Write a unit test with the smallest possible scope that also reproduce the defect.
+	3. Fix the system so the unit test works.
+	4. Figure out why the defect was created and wasn't caught ==> <mark style="background: #FFF3A3A6;">Apply the 5W (five whys</mark>).
+
+![](../../images/xp_root_cause_analysis_process.png)
 
 ### 
 
