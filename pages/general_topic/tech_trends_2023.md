@@ -153,6 +153,8 @@ Key Ideas:
 4. **Decentralization and Trustlessness**: Blockchain technology is decentralized and trustless, meaning there is no central authority or intermediary. Unlike traditional banking systems where a bank serves as the single source of truth, in blockchain, everyone has a copy of the ledger, and transactions are verified by consensus among participants.
 
 
+Reference: [Ethereum the Merge](https://ethereum.org/en/roadmap/merge/)
+
 ### Prompt Engineering
 
 
