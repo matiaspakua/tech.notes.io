@@ -19,6 +19,8 @@
 
 ---
 
+![](../../images/tech_trends.jpeg)
+
 # The Latest
 
 ### Data BuildTools (DBT)
