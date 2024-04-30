@@ -131,6 +131,15 @@ Key Ideas:
 
 ### ChatGPT
 
+1. **Introduction to ChatGPT**: ChatGPT is an online application launched in November 2022, allowing users to converse with a technology known as GPT (Generative Pre-trained Transformer).
+
+2. **Understanding GPT**: GPT stands for Generative Pre-trained Transformer, with the goal of generating new content based on its pre-training with up to 175 billion parameters. GPT utilizes transformers, which excel at understanding human-written sentences, to process data and generate content.
+
+3. **Creation and Mission of OpenAI**: ChatGPT was created by OpenAI, a company aiming to develop Artificial General Intelligences (AGIs) that can understand any intellectual task humans can. OpenAI's mission is to create AI systems that benefit humanity without replacing it, with other notable products including DALL·E 2 for creating realistic art and Whisper for speech recognition and synthesis.
+
+4. **Approaches to Creative Tasks**: Developers have created models and algorithms that attempt to replicate how humans solve creative problems, enabling computers to perform tasks traditionally associated with human creativity. An example is provided, illustrating how algorithms mimic human approaches to creative tasks, such as observing artists using reference materials for portraits.
+
+
 ### The Merge
 
 ### Prompt Engineering
