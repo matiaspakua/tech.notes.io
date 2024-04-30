@@ -73,7 +73,6 @@ Microsoft Dev Box presents a option for companies and teams seeking a secure, ef
 
 **Integration of Generative AI through APIs**
 
-Key Ideas:
 1. **Current Usage of AI**: Presently, AI systems like chatbots require specific prompts to function, but this is just a temporary phase in the journey towards integrating AI seamlessly into our daily lives.
 2. **APIs and Specialized Data Services**: APIs allow applications to access specialized data services without human intervention. For example, weather apps call upon APIs to fetch real-time weather data.
 3. **Future Integration of Generative AI**: Generative AI services will be integrated invisibly into various applications through their APIs, becoming an integral part of our interactions.
@@ -119,6 +118,8 @@ Key Ideas:
 
 ### Copilot for business 1.0
 
+![](https://github.githubassets.com/assets/copilot-enterprise-badge-d0b5a182388f.png)
+
 1. **Introduction to Copilot for Business**: GitHub Copilot has been upgraded since its release in June 2022, and now includes a version tailored for business use.
 
 2. **Usage and Satisfaction Metrics**: Copilot has been widely adopted by developers, generating a significant portion of code across various programming languages, with Java developers particularly relying on it. High levels of satisfaction have been reported, with developers completing tasks faster and having better focus on more satisfying work.
@@ -163,12 +164,39 @@ Reference: [Ethereum the Merge](https://ethereum.org/en/roadmap/merge/)
 
 ![](https://promptengineering.org/content/images/size/w1000/2023/09/What-is-Prompt-Engineering.png)
 
+- **Definition and Components**: A prompt is a means of communication with AI, ranging from simple questions to complex constructs with instructions, input data, examples, and code.
+- **Prompt Engineering**: This emerging discipline involves managing complex prompts at scale, necessary for products with AI backends. It encompasses design, quality assurance (QA), and feedback loops, often involving human evaluation.
+- **Evolution and Self-Referencing**: Prompt engineering is rapidly evolving and includes experiments where AI generates prompts for other AI models, leading to AI systems potentially communicating with each other.
+- **Challenges and Management**: Managing prompt engineering at scale involves ensuring AI doesn’t deviate from intended behavior, maintaining quality, and productionizing the system for consistent operation.
+- **Impact**: Generative AI and prompt engineering will be transformative for the industry and the world.
 
 Reference: [What is Prompt Engineering?](https://promptengineering.org/what-is-prompt-engineering/)
 
 # Artificial Intelligence
 
 ### Generative AI
+
+![](https://upload.wikimedia.org/wikipedia/commons/3/34/Unraveling_AI_Complexity_-_A_Comparative_View_of_AI%2C_Machine_Learning%2C_Deep_Learning%2C_and_Generative_AI.png)
+
+- **Pattern Recognition and Prediction**: The human brain's ability to store information and create rules to predict outcomes is paralleled in generative AI, which can also learn to predict and create new patterns.
+
+- **Biometrics and Face Recognition**: Generative AI can recognize and analyze patterns in biometric data, such as faces, by mapping out distances between facial features.
+
+- **Creation of New Patterns**: A significant advancement in generative AI is its ability to generate new patterns it has been trained to recognize, like creating images of noses or faces from learned data.
+
+- **Applications in Deep Fakes and Music**: Generative AI's pattern generation is used in creating deep fakes by replacing faces in images and in composing original music by learning from various genres.
+
+- **Generative AI in Text**: Technologies like GPT-3, trained on extensive data, can produce human-like text, exemplified by tools like GitHub's Copilot, which assists in coding.
+
+- **Limitations of Generative AI**: Despite its capabilities, generative AI requires vast data sets, may not always yield desired results, and is limited to recombining known patterns rather than creating entirely new concepts.
+
+- **Role in Data Processing**: Currently, generative AI excels at processing large data sets, offering numerous options, and reducing the time needed for repetitive tasks.
+
+![](../../images/generative_AI_introduction.png)
+
+
+**Reference**: [File:Unraveling AI Complexity - A Comparative View of AI, Machine Learning, Deep Learning, and Generative AI.png - Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Unraveling_AI_Complexity_-_A_Comparative_View_of_AI,_Machine_Learning,_Deep_Learning,_and_Generative_AI.png)
+
 ### Github Copilot
 ### Facial Recognition
 
