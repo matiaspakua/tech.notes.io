@@ -117,7 +117,17 @@ Key Ideas:
 
 ### Copilot for business 1.0
 
+1. **Introduction to Copilot for Business**: GitHub Copilot has been upgraded since its release in June 2022, and now includes a version tailored for business use.
 
+2. **Usage and Satisfaction Metrics**: Copilot has been widely adopted by developers, generating a significant portion of code across various programming languages, with Java developers particularly relying on it. High levels of satisfaction have been reported, with developers completing tasks faster and having better focus on more satisfying work.
+
+3. **Improvements in OpenAI Codex**: OpenAI Codex, the AI model behind Copilot, has been enhanced with a new model called Fill In the Middle (FIM), which considers both preceding and succeeding code to provide more contextually relevant suggestions. A new lightweight client-side model has been introduced to track user preferences and behavior, resulting in more accurate suggestions.
+
+4. **Enhanced Security Measures**: Copilot has improved in preventing the suggestion of insecure code, ensuring better code quality and security for users.
+
+5. **GitHub for Business Features**: GitHub for Business offers enterprise-grade features such as license and policy management, as well as support for proxy and corporate VPN. The business plan comes at a higher price point compared to the individual plan but provides additional functionalities tailored for enterprise use.
+
+6. **Flexibility in Usage**: Companies can choose to use Copilot without storing their code on GitHub, providing flexibility in their development workflows. Developers can integrate Copilot with other popular editors like JetBrains Visual Studio and Neovim.
 
 ### ChatGPT
 
