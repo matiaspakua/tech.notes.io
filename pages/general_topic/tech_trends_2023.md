@@ -1,4 +1,4 @@
-# Tech Trends (2023)
+# Tech Trends (2023 so far and 2024)
 
 <style>
   .back-button {
