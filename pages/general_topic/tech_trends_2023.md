@@ -87,8 +87,23 @@ Key Ideas:
 
 ### AI Pair Programming
 
-
-
+1. **Introduction to AI Pair Programming**:
+   - AI pair programming is becoming increasingly prevalent, with tools like ChatGPT, Microsoft Bing, and GitHub Copilot leading the way.
+   - These tools generate code based on prompts, detect errors, explain code, add comments, reformat code, translate languages, and write tests.
+2. **How AI Pair Programming Works**:
+   - Code is treated as language, and large language models like ChatGPT are trained to generate code based on their training data.
+   - Generative AI interprets prompts and responds by statistically guessing the next word, assembling sentences that resemble code.
+   - However, AI tools mainly rely on existing coding patterns from their training data and may struggle with newer standards.
+3. **Comparison of AI Pair Programming Tools**:
+   - ChatGPT functions as an interface between humans and data but may lack awareness of newer coding standards.
+   - Microsoft Bing sources the internet for information and provides references for its output, making it suitable for online searches.
+   - GitHub Copilot works like a collaborator inside a code editor, suggesting code based on comments and providing real-time access to source material.
+4. **Implications and Recommendations**:
+   - AI programming tools are valuable aids for programmers but won't replace human programmers anytime soon.
+   - Incorporating tools like GitHub Copilot into the development process can significantly speed up coding.
+   - Using AI tools requires awareness of their limitations, such as their tendency to repeat old coding patterns and lack of awareness of modern standards.
+5. **Future Outlook**:
+   - Pair programming with AI is becoming the new norm and can benefit programmers at all skill levels.
 
 ### GPT-4
 
