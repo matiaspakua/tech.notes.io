@@ -131,6 +131,8 @@ Key Ideas:
 
 ### ChatGPT
 
+![](https://cdn.openai.com/chatgpt/consumer_desktop.svg)
+
 1. **Introduction to ChatGPT**: ChatGPT is an online application launched in November 2022, allowing users to converse with a technology known as GPT (Generative Pre-trained Transformer).
 
 2. **Understanding GPT**: GPT stands for Generative Pre-trained Transformer, with the goal of generating new content based on its pre-training with up to 175 billion parameters. GPT utilizes transformers, which excel at understanding human-written sentences, to process data and generate content.
@@ -157,6 +159,10 @@ Reference: [Ethereum the Merge](https://ethereum.org/en/roadmap/merge/)
 
 ### Prompt Engineering
 
+![](https://promptengineering.org/content/images/size/w1000/2023/09/What-is-Prompt-Engineering.png)
+
+
+Reference: [What is Prompt Engineering?](https://promptengineering.org/what-is-prompt-engineering/)
 
 # Artificial Intelligence
 
