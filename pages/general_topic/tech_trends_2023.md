@@ -107,7 +107,17 @@ Key Ideas:
 
 ### GPT-4
 
+1. **Introduction to GPT-4**: GPT-4 is introduced as a significant upgrade to the GPT series, likened to advancements in video game controllers over time.
+2. **Understanding GPT**: GPT stands for Generative Pre-trained Transformer, a neural network trained on vast amounts of data to generate new content based on human input.
+3. **Improvements in GPT-4**: GPT-4 excels in reasoning and provides more concise answers compared to GPT-3, although it is slightly slower and requires more computational power. OpenAI has focused on reducing hallucinations, biases, and improving safety in the results.
+4. **Applications and Availability**: GPT-4 is available through OpenAI's ChatGPT Plus subscription, as well as being integrated into Microsoft's Bing, Microsoft 365, and Azure. It has demonstrated improved performance, such as surpassing the bar exam within the top 10th percentile.
+5. **Key Features of GPT-4**: GPT-4 can handle larger inputs, up to 25,000 words of text, and produce longer outputs. It offers steerability, allowing better control over personality, verbosity, and style.  An exciting new feature is the ability to understand photos and graphics, enabling tasks like recipe generation from fridge contents or interpreting data from screenshots.
+6. **Integration and Adoption**: GPT-4 is being integrated into various products and services, including ChatGPT, GitHub's Co-Pilot, Duolingo, Stripe, and Morgan Stanley. Microsoft's Semantic Kernel SDK aims to simplify the integration of GPT and other AI features into applications, with features being rolled into Microsoft 365.
+7. **Impact and Future Outlook**: GPT-4 is expected to revolutionize interactions with technology, offering new features, improved accuracy, and enhanced creativity.
+
 ### Copilot for business 1.0
+
+
 
 ### ChatGPT
 
