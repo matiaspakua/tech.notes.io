@@ -282,7 +282,18 @@ Reference: [What is Prompt Engineering?](https://promptengineering.org/what-is-p
 
 # Security
 
-### Zero trust
+## Zero trust
+
+1. **Evolution from Traditional Security Model**: The traditional security model based on a secure perimeter is no longer sufficient due to changes in work environments, including cloud services, mobile devices, and remote work.
+2. **Introduction to Zero Trust Model**: Zero trust security model moves away from the idea of a single secure perimeter and instead evaluates security at the individual level for devices, users, and interactions.
+3. **Authentication and Authorization**: Devices are enrolled into an access management system and provided with certificates or credentials to prove their identity. Users are authenticated through identity providers, and access to resources is determined based on specific authorizations.
+4. **Mutual Authentication**: Resources also authenticate themselves to ensure they are legitimate, preventing impersonation of secure resources. Mutual authentication is a core principle of the zero trust model.
+5. **No Implicit Trust**: There is no implicit trust of devices, users, or resources, regardless of their location or status within the network. Each interaction is subject to authentication and authorization checks.
+6. **Granular Access Controls**: Access to resources is granted based on specific criteria, such as device approval, user permissions, and data access rights. Session-specific authorizations may be provided for individual interactions.
+7. **Defense in Depth**: Zero trust employs multiple layers of security, including encryption of communication channels, to mitigate security risks. This approach is often referred to as defense in depth.
+8. **Adoption and Resources**: Zero trust is gaining traction in designing information access systems, and many cloud and enterprise service providers offer resources and case studies demonstrating its benefits and implementation strategies.
+9. **Planning and Coordination**: Building a zero trust system requires careful planning and coordination, tailored to the organization's needs and security requirements.
+10. **Benefits and Future Trends**: While no security model can fully prevent security problems, the zero trust model provides a robust way to mitigate security risks in modern work environments, enabling secure access to resources from various devices and locations.
 
 # Technology Business
 
