@@ -244,7 +244,18 @@ Reference: [What is Prompt Engineering?](https://promptengineering.org/what-is-p
 
 # Development Tools
 
-### No-Code
+### No-Code (Low-Code)
+
+1. **Introduction to No-Code Movement**: No-code or low-code as an alternative to traditional programming, is growing in relevance and significance.
+2. **Role of Software in Modern World**: Software plays a crucial role in various aspects of life, from personal devices like computers and phones to complex systems like medical equipment and agricultural machinery.
+3. **Limitations of Traditional Programming**: Despite the prevalence of professional programmers, there's a gap between the demand for applications and the available resources to build them, leading to unmet needs and missed opportunities.
+4. **Definition of No-Code Systems**: No-code systems are visual drag-and-drop tools that allow users to create mobile or web applications without extensive coding knowledge. These tools empower users to build application interfaces, connect them to data sources, and customize logic.
+5. **Citizen Developers**: The concept of citizen developers refers to non-technical individuals, such as business analysts or office administrators, who use no-code platforms to create applications tailored to their specific needs.
+6. **Overview of Power Platform**: Microsoft's Power Platform is highlighted as an example of a no-code platform, consisting of various tools like Power BI, Power Automate, Power Virtual Agents, and Power Apps, which facilitate data analysis, workflow automation, chatbot creation, and custom business app development.
+7. **Rise in Adoption of No-Code Platforms**: The ease of use and accessibility.
+8. **Future Growth and Potential**: Predictions by Gartner suggest significant growth in the low-code market, with no-code and low-code development expected to account for a significant portion of application development activity by 2024.
+9. **Promise of No-Code Platforms**: No-code platforms promise to democratize application development within organizations, enabling individuals to create and share applications easily without concerns about shadow IT.
+
 ### Cross-Platform development tools
 ### Excel and Javascript
 
