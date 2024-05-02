@@ -257,7 +257,28 @@ Reference: [What is Prompt Engineering?](https://promptengineering.org/what-is-p
 9. **Promise of No-Code Platforms**: No-code platforms promise to democratize application development within organizations, enabling individuals to create and share applications easily without concerns about shadow IT.
 
 ### Cross-Platform development tools
+
+1. **Need for Cross-Platform Development**: With the demand for software products to run across multiple platforms such as Android, iOS, Windows, and web browsers, the use of cross-platform development toolkits becomes essential to efficiently utilize resources.
+2. **Trade-offs of Native Development**: While developing separate native versions for each platform can offer great performance and platform-specific design, it comes with the cost of requiring developers skilled in each platform's language and ongoing maintenance for each version.
+3. **Efficiency of Cross-Platform Tools**: Cross-platform development tools allow developers to build apps with a single code base, reducing development time and resource requirements.
+4. **Challenges and Hazards**: Some cross-platform toolkits in the past have shown initial promise but later fizzled out. It's important to choose tools with ongoing support and promise for the future.
+5. **Available Cross-Platform Toolkits**: Several cross-platform toolkits are available today, each with its own strengths and considerations:
+   - Ionic and React Native: Utilize web development technologies like HTML, CSS, and JavaScript, suitable for developers familiar with web development.
+   - Xamarin: Owned and supported by Microsoft, uses C# with the .NET framework, provides tight integration with Visual Studio, and supports deployment on various platforms including Android, iOS, and Windows.
+   - Flutter: Supported by Google, uses Dart programming language, offers high-performance apps, and supports deployment on multiple platforms including Android, iOS, Windows, and web.
+6. **Considerations in Toolkit Selection**: When selecting a toolkit, developers should consider factors such as existing skills, desired app performance, platform support, and integration with development environments.
+7. **Importance of Research and Experimentation**: Investing in a cross-platform toolkit requires thorough research, experimentation, and trust in the vendor's support and commitment.
+8. **Benefits of Choosing the Right Toolkit**: By selecting the right toolkit for the project, developers can save costs associated with creating and maintaining separate versions of the app for different platforms.
+
 ### Excel and Javascript
+
+1. **Introduction of JavaScript APIs for Excel**: Microsoft announced support for JavaScript-based APIs in Excel, allowing developers to create custom data types and functions within the spreadsheet software.
+2. **Leveraging JavaScript's Popularity**: Despite JavaScript's association with web development, it is one of the world's most widely used programming languages. By opening up Excel to JavaScript, Microsoft taps into a massive community of developers familiar with the language.
+3. **Comparison with Office Scripts**: The new JavaScript APIs differ from the Office Scripts feature released in 2020, which is limited to certain customers and works only in the web-based version of Excel. In contrast, JavaScript APIs for Office add-ins are available to all users across multiple platforms.
+4. **Overview of JavaScript APIs**: The Excel JavaScript API provides access to various Excel objects such as worksheets, ranges, tables, and charts, while the common API allows access to user interface features like dialogues and client settings.
+5. **Custom Data Types and Functions**: Developers can define custom data types to manage images, arrays, and more, and create custom functions within Excel. This allows for more flexibility and efficiency in handling data and calculations.
+6. **Availability and Documentation**: While the feature was initially available as a preview only on Office for Windows, developers can start experimenting with it if they have a Windows-based development system. Extensive documentation and sample scripts are provided for developers to get started.
+7. **Benefits of Integration**: Despite being unlikely partners, the integration of JavaScript and Excel brings together two tech communities, potentially creating greater synergy and efficiency in data management and calculation tasks.
 
 # Security
 
