@@ -134,7 +134,7 @@ DBT serves as a valuable tool for teams looking to streamline and enhance their 
 
 ### Copilot for business 1.0
 
-![](https://github.githubassets.com/assets/copilot-enterprise-badge-d0b5a182388f.png)
+![](../../images/copilot_for_business .png)
 
 1. **Introduction to Copilot for Business**: GitHub Copilot has been upgraded since its release in June 2022, and now includes a version tailored for business use.
 2. **Usage and Satisfaction Metrics**: Copilot has been widely adopted by developers, generating a significant portion of code across various programming languages, with Java developers particularly relying on it. High levels of satisfaction have been reported, with developers completing tasks faster and having better focus on more satisfying work.
@@ -145,7 +145,7 @@ DBT serves as a valuable tool for teams looking to streamline and enhance their 
 
 ### ChatGPT
 
-![](https://cdn.openai.com/chatgpt/consumer_desktop.svg)
+![](../../images/chatGPT.png)
 
 1. **Introduction to ChatGPT**: ChatGPT is an online application launched in November 2022, allowing users to converse with a technology known as GPT (Generative Pre-trained Transformer).
 2. **Understanding GPT**: GPT stands for Generative Pre-trained Transformer, with the goal of generating new content based on its pre-training with up to 175 billion parameters. GPT utilizes transformers, which excel at understanding human-written sentences, to process data and generate content.
@@ -154,7 +154,7 @@ DBT serves as a valuable tool for teams looking to streamline and enhance their 
 
 ### Ethereum - The Merge
 
-![](https://ethereum.org/_next/image/?url=%2Fupgrades%2Fmerge.png&w=828&q=75)
+![](../../images/ethereum_the_merge.png)
 
 1. **Introduction to the Ethereum Merge**: In September 2022, Ethereum, one of the largest blockchains and platforms for Web3, underwent a significant technological shift known as "The Merge."
 2. **Transition from Proof of Work to Proof of Stake**:  The underlying consensus model of Ethereum shifted from proof of work to proof of stake. This transition has implications for the security and operation of the Ethereum network.
@@ -165,7 +165,7 @@ Reference: [Ethereum the Merge](https://ethereum.org/en/roadmap/merge/)
 
 ### Prompt Engineering
 
-![](https://promptengineering.org/content/images/size/w1000/2023/09/What-is-Prompt-Engineering.png)
+![](../../images/prompt_engineering.png)
 
 - **Definition and Components**: A prompt is a means of communication with AI, ranging from simple questions to complex constructs with instructions, input data, examples, and code.
 - **Prompt Engineering**: This emerging discipline involves managing complex prompts at scale, necessary for products with AI backends. It encompasses design, quality assurance (QA), and feedback loops, often involving human evaluation.
@@ -179,7 +179,7 @@ Reference: [What is Prompt Engineering?](https://promptengineering.org/what-is-p
 
 ### Generative AI
 
-![](https://upload.wikimedia.org/wikipedia/commons/3/34/Unraveling_AI_Complexity_-_A_Comparative_View_of_AI%2C_Machine_Learning%2C_Deep_Learning%2C_and_Generative_AI.png)
+![](../../images/artificial_intelligence.png)
 
 - **Pattern Recognition and Prediction**: The human brain's ability to store information and create rules to predict outcomes is paralleled in generative AI, which can also learn to predict and create new patterns.
 - **Biometrics and Face Recognition**: Generative AI can recognize and analyze patterns in biometric data, such as faces, by mapping out distances between facial features.
