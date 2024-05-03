@@ -299,6 +299,8 @@ Reference: [What is Prompt Engineering?](https://promptengineering.org/what-is-p
 
 ### Chip Shortage
 
+![](../../images/chips_vendors_by_country.png)
+
 1. **Global Shipping Disruptions**: Aftermath of the COVID-19 pandemic led to unbalanced global shipping, impacting the movement of products, including chips, from manufacturers to customers.
 2. **Geographic Concentration of Chip Factories**: Most of the world's high-capacity chip factories are located in Europe, the Middle East, and Southeast Asia, leading to supply chain vulnerabilities.
 3. **Efforts to Increase Manufacturing Diversity**: There's an effort to open new chip fabs in the U.S. and elsewhere to increase geographic diversity of manufacturing, but it will take time due to the complexity of fab technology and processes.
