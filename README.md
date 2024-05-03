@@ -21,7 +21,7 @@ Welcome to my personal Tech Notes blog! 🚀 Here, you'll find information prese
 - [On User Stories notes](/pages/general_topic/on_user_stories_notes.md)
 - [Xtrem TDD](https://xtrem-tdd.netlify.app/)
 - [Design Thinking notes](/pages/general_topic/design_thinking_explained.md)
-- [Tech Trends 2023](/pages/general_topic/tech_trends_2023.md) <span style="color:red"> in progress </span>
+- [Tech Trends 2023](/pages/general_topic/tech_trends_2023.md)
 - [A reflection on Software Engineering: A Journey of Creativity and Rigor](/pages/general_topic/reflection_on_software_engineering.md)
 
 # Development
@@ -34,7 +34,7 @@ Welcome to my personal Tech Notes blog! 🚀 Here, you'll find information prese
 - [On Gradle Notes](/pages/development/on_gradle_notes.md)
 - [IntelliJ tips by Victor Rentea](/pages/development/intellij_tips.md)
 - [Getting Started In Spring Development](/pages/development/getting_started_spring_development.md)
-- [Advance Your Spring Development Skills](/pages/development/advance_your_spring_development_skills.md) <span style="color:red"> in progress </span>
+- [Advance Your Spring Development Skills](/pages/development/advance_your_spring_development_skills.md)
 
 # Software and System Testing
 
@@ -55,7 +55,7 @@ Welcome to my personal Tech Notes blog! 🚀 Here, you'll find information prese
 - [Software Engineering at Google. A book, a web site](https://abseil.io/resources/swe-book)
 - [On Agile by Martin Fowler](https://martinfowler.com/agile.html)
 - [Software Design By Example. A book, a web site](https://third-bit.com/sdxjs/)
-- [Software engineering timeline](/pages/software_engineering/software_engineering_timeline.md) <span style="color:red"> New, in progress... </span>
+- [Software engineering timeline](/pages/software_engineering/software_engineering_timeline.md) <span style="color:red"> In progress... </span>
 - [Generative AI](/pages/software_engineering/generative_ai.md)
 
 # Software and System Architecture
