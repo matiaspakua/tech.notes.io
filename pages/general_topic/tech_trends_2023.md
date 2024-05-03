@@ -298,5 +298,24 @@ Reference: [What is Prompt Engineering?](https://promptengineering.org/what-is-p
 # Technology Business
 
 ### Chip Shortage
+
+1. **Global Shipping Disruptions**: Aftermath of the COVID-19 pandemic led to unbalanced global shipping, impacting the movement of products, including chips, from manufacturers to customers.
+2. **Geographic Concentration of Chip Factories**: Most of the world's high-capacity chip factories are located in Europe, the Middle East, and Southeast Asia, leading to supply chain vulnerabilities.
+3. **Efforts to Increase Manufacturing Diversity**: There's an effort to open new chip fabs in the U.S. and elsewhere to increase geographic diversity of manufacturing, but it will take time due to the complexity of fab technology and processes.
+4. **Timing and Size of Orders**: Car manufacturers canceled chip orders early in the pandemic due to low demand, leading to disruptions when demand later increased, and orders had to be placed after other competitors.
+5. **Finite Capacity of Chip Fabs**: Fabs have a limited capacity to produce chips, leading to delays as everyone competes for production slots.
+6. **Hoarding and Overordering**: Rumors suggest that some organizations have been overordering chips, leading to hoarding and further restricting chip supply for other purposes.
+7. **Illnesses and Factory Closures**: Illnesses, closures, and capacity reductions at chip factories due to the pandemic affected chip production.
+8. **Delays in Shipping and Raw Materials**: Delays in shipping and availability of raw materials, such as silicon, further contribute to the chip shortage.
+9. **Impact on Various Industries**: Chip shortages affect various industries beyond tech, impacting the production of cars, appliances, and other consumer goods.
+10. **Chips in Diverse Applications**: Chips are used in various applications, from high-end electronics to mundane tasks like controlling car engines or alarm clocks.
+11. **Just-in-Time Manufacturing**: Many industries rely on just-in-time manufacturing, leading to a lack of stockpiled chips and exacerbating the impact of the shortage.
+12. **Challenges in Switching Designs**: Switching to different chips incurs costs and delays due to testing, regulatory approval, and changes in specifications.
+13. **Continued Delays in Production**: Until the supply chain issues are resolved, delays in the production of various products, from laptops to cars, will persist.
+
+References:
+ * https://www.reuters.com/technology/global-manufacturers-see-chip-shortage-easing-2022-07-21/
+ * https://www.datapandas.org/ranking/semiconductor-manufacturing-by-country
+
 ### Windows Store Improvements
 ### Android Apps on Windows 11
