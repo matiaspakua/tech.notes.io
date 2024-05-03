@@ -18,10 +18,36 @@
 <button class="back-button" onclick="window.location.href='https://matiaspakua.github.io/tech.notes.io'">All notes</button>
 
 ---
+# Table of Contents
 
+1. The Latest tech trends 2023 and 2024
+	- Data BuildTools (DBT)
+	- Microsoft Dev Box
+	- OpenAI API: Integration of Generative AI through APIs
+	- AI Pair Programming
+	- GPT-4
+	- Copilot for business 1.0
+	- ChatGPT
+	- Ethereum - The Merge
+	- Prompt Engineering	
+2. Artificial Intelligence
+	- Generative AI
+	- Github Copilot
+	- Facial Recognition
+3. Web3 and related
+	- Web3
+	- Metaverse
+4. Development Tools
+	- No-Code (Low-Code)
+	- Cross-Platform development tools
+	- Excel and Javascript
+5. Security: Zero trust
+6. Technology Business. Chip Shortage
+
+---
 ![](../../images/tech_trends.jpeg)
 
-# The Latest
+# The Latest tech trends 2023 and 2024
 
 ### Data BuildTools (DBT)
 
@@ -55,23 +81,13 @@ DBT serves as a valuable tool for teams looking to streamline and enhance their 
 
 ### Microsoft Dev Box
 
-Microsoft Dev Box is an Azure service that allows developers to create and use high-performance cloud-based workstations for coding. It offers several key benefits:
-
 1. **Self-service environment**: Developers can choose from pre-configured dev boxes with all necessary tools, code repositories, and software development kits, enabling them to start working immediately.
-
 2. **Fast provisioning**: Dev boxes can be deployed in minutes, eliminating the need for IT involvement and long wait times.
-
 3. **Centralized management and security**: IT administrators have centralized control over dev boxes through tools like Microsoft Intune and Endpoint Manager, ensuring security, compliance, and cost management.
-
 4. **Collaboration and flexibility**: Developers can work on multiple projects, collaborate with team members through shared dev boxes, and scale resources up or down based on workload.
-
 5. **Integration with existing Microsoft tools**: Seamlessly integrates with Microsoft 365 and Windows licenses, offering a familiar development environment for teams already using these tools.
 
-Microsoft Dev Box presents a option for companies and teams seeking a secure, efficient, and self-service way to provision and manage developer workstations, especially those already invested in the Microsoft ecosystem.
-
-### OpenAI API
-
-**Integration of Generative AI through APIs**
+### OpenAI API: Integration of Generative AI through APIs
 
 1. **Current Usage of AI**: Presently, AI systems like chatbots require specific prompts to function, but this is just a temporary phase in the journey towards integrating AI seamlessly into our daily lives.
 2. **APIs and Specialized Data Services**: APIs allow applications to access specialized data services without human intervention. For example, weather apps call upon APIs to fetch real-time weather data.
@@ -121,15 +137,10 @@ Microsoft Dev Box presents a option for companies and teams seeking a secure, ef
 ![](https://github.githubassets.com/assets/copilot-enterprise-badge-d0b5a182388f.png)
 
 1. **Introduction to Copilot for Business**: GitHub Copilot has been upgraded since its release in June 2022, and now includes a version tailored for business use.
-
 2. **Usage and Satisfaction Metrics**: Copilot has been widely adopted by developers, generating a significant portion of code across various programming languages, with Java developers particularly relying on it. High levels of satisfaction have been reported, with developers completing tasks faster and having better focus on more satisfying work.
-
 3. **Improvements in OpenAI Codex**: OpenAI Codex, the AI model behind Copilot, has been enhanced with a new model called Fill In the Middle (FIM), which considers both preceding and succeeding code to provide more contextually relevant suggestions. A new lightweight client-side model has been introduced to track user preferences and behavior, resulting in more accurate suggestions.
-
 4. **Enhanced Security Measures**: Copilot has improved in preventing the suggestion of insecure code, ensuring better code quality and security for users.
-
 5. **GitHub for Business Features**: GitHub for Business offers enterprise-grade features such as license and policy management, as well as support for proxy and corporate VPN. The business plan comes at a higher price point compared to the individual plan but provides additional functionalities tailored for enterprise use.
-
 6. **Flexibility in Usage**: Companies can choose to use Copilot without storing their code on GitHub, providing flexibility in their development workflows. Developers can integrate Copilot with other popular editors like JetBrains Visual Studio and Neovim.
 
 ### ChatGPT
@@ -137,26 +148,18 @@ Microsoft Dev Box presents a option for companies and teams seeking a secure, ef
 ![](https://cdn.openai.com/chatgpt/consumer_desktop.svg)
 
 1. **Introduction to ChatGPT**: ChatGPT is an online application launched in November 2022, allowing users to converse with a technology known as GPT (Generative Pre-trained Transformer).
-
 2. **Understanding GPT**: GPT stands for Generative Pre-trained Transformer, with the goal of generating new content based on its pre-training with up to 175 billion parameters. GPT utilizes transformers, which excel at understanding human-written sentences, to process data and generate content.
-
 3. **Creation and Mission of OpenAI**: ChatGPT was created by OpenAI, a company aiming to develop Artificial General Intelligences (AGIs) that can understand any intellectual task humans can. OpenAI's mission is to create AI systems that benefit humanity without replacing it, with other notable products including DALL·E 2 for creating realistic art and Whisper for speech recognition and synthesis.
-
 4. **Approaches to Creative Tasks**: Developers have created models and algorithms that attempt to replicate how humans solve creative problems, enabling computers to perform tasks traditionally associated with human creativity. An example is provided, illustrating how algorithms mimic human approaches to creative tasks, such as observing artists using reference materials for portraits.
-
 
 ### Ethereum - The Merge
 
 ![](https://ethereum.org/_next/image/?url=%2Fupgrades%2Fmerge.png&w=828&q=75)
 
 1. **Introduction to the Ethereum Merge**: In September 2022, Ethereum, one of the largest blockchains and platforms for Web3, underwent a significant technological shift known as "The Merge."
-
 2. **Transition from Proof of Work to Proof of Stake**:  The underlying consensus model of Ethereum shifted from proof of work to proof of stake. This transition has implications for the security and operation of the Ethereum network.
-
 3. **Explanation of Blockchain Mechanics**: Blocks on a blockchain are immutable containers where transactions are stored. Once transactions are added to a block and locked, altering the block triggers an alarm, ensuring the immutability of the blockchain.
-   
 4. **Decentralization and Trustlessness**: Blockchain technology is decentralized and trustless, meaning there is no central authority or intermediary. Unlike traditional banking systems where a bank serves as the single source of truth, in blockchain, everyone has a copy of the ledger, and transactions are verified by consensus among participants.
-
 
 Reference: [Ethereum the Merge](https://ethereum.org/en/roadmap/merge/)
 
@@ -179,21 +182,14 @@ Reference: [What is Prompt Engineering?](https://promptengineering.org/what-is-p
 ![](https://upload.wikimedia.org/wikipedia/commons/3/34/Unraveling_AI_Complexity_-_A_Comparative_View_of_AI%2C_Machine_Learning%2C_Deep_Learning%2C_and_Generative_AI.png)
 
 - **Pattern Recognition and Prediction**: The human brain's ability to store information and create rules to predict outcomes is paralleled in generative AI, which can also learn to predict and create new patterns.
-
 - **Biometrics and Face Recognition**: Generative AI can recognize and analyze patterns in biometric data, such as faces, by mapping out distances between facial features.
-
 - **Creation of New Patterns**: A significant advancement in generative AI is its ability to generate new patterns it has been trained to recognize, like creating images of noses or faces from learned data.
-
 - **Applications in Deep Fakes and Music**: Generative AI's pattern generation is used in creating deep fakes by replacing faces in images and in composing original music by learning from various genres.
-
 - **Generative AI in Text**: Technologies like GPT-3, trained on extensive data, can produce human-like text, exemplified by tools like GitHub's Copilot, which assists in coding.
-
 - **Limitations of Generative AI**: Despite its capabilities, generative AI requires vast data sets, may not always yield desired results, and is limited to recombining known patterns rather than creating entirely new concepts.
-
 - **Role in Data Processing**: Currently, generative AI excels at processing large data sets, offering numerous options, and reducing the time needed for repetitive tasks.
 
 ![](../../images/generative_AI_introduction.png)
-
 
 **Reference**: [File:Unraveling AI Complexity - A Comparative View of AI, Machine Learning, Deep Learning, and Generative AI.png - Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Unraveling_AI_Complexity_-_A_Comparative_View_of_AI,_Machine_Learning,_Deep_Learning,_and_Generative_AI.png)
 
@@ -318,6 +314,3 @@ Reference: [What is Prompt Engineering?](https://promptengineering.org/what-is-p
 References:
  * https://www.reuters.com/technology/global-manufacturers-see-chip-shortage-easing-2022-07-21/
  * https://www.datapandas.org/ranking/semiconductor-manufacturing-by-country
-
-### Windows Store Improvements
-### Android Apps on Windows 11
