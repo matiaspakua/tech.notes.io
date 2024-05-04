@@ -218,6 +218,9 @@ Reference: [What is Prompt Engineering?](https://promptengineering.org/what-is-p
 - **Developer Responsibility**: Developers should prioritize privacy and informed consent, and stay informed about AI bias and relevant legislation like GDPR and CPRA.
 - **Implementation Ethics**: Organizations should implement facial recognition responsibly, requiring informed consent and considering privacy laws.
 
+![](../../images/facial_recognition.png)
+
+
 # Web3 and related
 
 ### Web3
