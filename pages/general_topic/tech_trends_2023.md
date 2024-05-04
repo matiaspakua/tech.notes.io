@@ -229,6 +229,8 @@ Reference: [What is Prompt Engineering?](https://promptengineering.org/what-is-p
 - **User Empowerment**: Shifting power from intermediaries to individuals, enabling direct interactions and transactions.
 - **Future Outlook**: The concept of Web 3.0 is still in development, with meaningful implementation expected to be 5 to 10 years away.
 
+**Reference**: [Web3 - Wikipedia](https://en.wikipedia.org/wiki/Web3)
+
 ### Metaverse
 
 - **Definition and Experience**: The Metaverse is described as an evolution of the internet, offering an immersive experience that blends the digital and physical worlds.
@@ -290,6 +292,10 @@ Reference: [What is Prompt Engineering?](https://promptengineering.org/what-is-p
 8. **Adoption and Resources**: Zero trust is gaining traction in designing information access systems, and many cloud and enterprise service providers offer resources and case studies demonstrating its benefits and implementation strategies.
 9. **Planning and Coordination**: Building a zero trust system requires careful planning and coordination, tailored to the organization's needs and security requirements.
 10. **Benefits and Future Trends**: While no security model can fully prevent security problems, the zero trust model provides a robust way to mitigate security risks in modern work environments, enabling secure access to resources from various devices and locations.
+
+![](../../images/zero-trust.png)
+
+**Reference:** [Zero trust security model - Wikipedia](https://en.wikipedia.org/wiki/Zero_trust_security_model)
 
 # Technology Business
 
