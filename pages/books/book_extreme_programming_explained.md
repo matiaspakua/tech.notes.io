@@ -221,6 +221,20 @@ Link: [Conway's law - Wikipedia](https://en.wikipedia.org/wiki/Conway%27s_law)
 
 1. There is only one code stream. You can develop in a temporary branch, but never let it live longer that a few hours.
 
+### Daily Deployment
+
+1. Put new software into production every night.
+
+### Negotiated Scope Contract
+
+1. Write contracts for software development that fix time, cost and quality but call for an ongoing negotiation of the precise scope of the system.
+
+### Pay-Per-Use
+
+1. Write pay-per-use systems, you charge for every time the system is used.
+2. Connecting money flow directly to software development provides accurate, timely information with which to drive improvement.
+
+## 10 The whole XP Team
 
 
 ---
