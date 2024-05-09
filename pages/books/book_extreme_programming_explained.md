@@ -208,7 +208,20 @@ Link: [Conway's law - Wikipedia](https://en.wikipedia.org/wiki/Conway%27s_law)
 
 ![](../../images/xp_root_cause_analysis_process.png)
 
-### 
+### Shared Code
+
+1. Anyone on the team can improve any part of the system at any time.
+
+### Code and Tests
+
+1. Mantain only the code and the test as permanent artifacts.
+2. Any artifact contribuiting to those two sources of value are themselves valuable. Everything else is waste.
+
+### Single Code Base
+
+1. There is only one code stream. You can develop in a temporary branch, but never let it live longer that a few hours.
+
+
 
 ---
 # References
