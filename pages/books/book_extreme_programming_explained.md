@@ -253,7 +253,22 @@ Link: [Conway's law - Wikipedia](https://en.wikipedia.org/wiki/Conway%27s_law)
 
 ### Technical Writers
 
-1.
+1. The XP philosophy is to start where you are now and move towards the ideal. From Where you are now, could you improve a little bit?
+
+### Human Resources
+
+1. How much incentive does a person have to help others if he will be evaluated on individual performance?
+2. Teams have solved the evaluation problem in two ways:
+	3. Either by continuing individual goals, reviews, and raises or,
+ 	4. By movieng to team-based incentives and raieses.
+
+### Roles
+
+1. Roles in a madure XP team aren't fixed and rigid. NOTE the importance of the word: "MADURE".
+2. The goals is not for people to fill abstract roles, but for each team member to contribute all he can to the team.
+
+## 11 The Theory of Constraints
+
 
 ---
 # References
