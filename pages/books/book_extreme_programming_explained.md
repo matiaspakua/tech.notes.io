@@ -236,6 +236,24 @@ Link: [Conway's law - Wikipedia](https://en.wikipedia.org/wiki/Conway%27s_law)
 
 ## 10 The whole XP Team
 
+1. In a good team, they have to work togheter as a group for each to be successful.
+2. Principle of flow: suggests that more value is created in a smooth, steady stream of software than in occasional large deployments.
+
+### Testers
+
+1. Testers on a XP team help customers choose and write automated system-level test in advance of implementation and coach programmers on testing techniques.
+
+### Architects
+
+1. Architects on an XP team look for and execute large-scale refactorings, write system-level tests that stress the architecture, and implements stories.
+
+### Project Managers
+
+1. PM act as team historians, reminding the team how much progress it has made.
+
+### Technical Writers
+
+1.
 
 ---
 # References
