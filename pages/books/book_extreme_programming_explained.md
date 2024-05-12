@@ -269,6 +269,30 @@ Link: [Conway's law - Wikipedia](https://en.wikipedia.org/wiki/Conway%27s_law)
 
 ## 11 The Theory of Constraints
 
+![](../../images/theory_of_constraints_and_bottleneck.png)
+
+ * Image Reference: [Harnessing Efficiency: The Theory of Constraints in Software Development](https://www.eferro.net/2023/11/harnessing-efficiency-theory-of.html)
+
+1. The theory of constrains says that in any system there is one constraint at a time (occasionally two).
+2. To improve overall system throughput you have to first find the constraints;
+3. Make it sure it is working full speed (performance tests here);
+4. Then find ways either increasing the capacity of the constraint, offloading some of the work onto non-constraints, or eliminating the constraint entirely.
+
+![](../../images/theory_of_constraints.png)
+
+5. There is always a constraints (always)!
+6. When eliminate one constraint we create another.
+7. Micro-optimization in never enough.
+8. To improve our results we must look at the whole situation before deciding what to change.
+
+=> <mark style="background: #FFF3A3A6;">The theory of constraints shares with other theories of organizational change the assumption that the whole organization is focused on overall throughput, not on micro-optimization</mark>.
+
+=> <mark style="background: #BBFABBA6;">If everyone is trying to make sure his function is not seen as the constraint, no change will happen.</mark>
+
+9. So, it's clear that software development is a "human" process not a factory.
+10. Executive sponsorship and strong relationship with people outside the team are crucial to applying XP, precisely because applying XP will shift the structure of work in the rest of the organization as soon as software development gets its act together.
+
+## 12 Planning: Managing Scope
 
 ---
 # References
