@@ -173,7 +173,7 @@ Write failing automated test before changing any code. Why:
 ### Real customer involvement
 
 1. No customer at all, or a "proxy" for a real customer, leads to waste your develop feature that aren't used.
-2. <mark style="background: #FFF3A3A6;">If the customer knew how messed up software development was, they'dd never trust us</mark>. ==> GOOD POINT!! Are you sure they trust you now? Software reflect the organization that builds it. Like the CONWAY's LAW:
+2. <mark style="background: #FFF3A3A6;">If the customer knew how messed up software development was, they'd never trust us</mark>. ==> GOOD POINT!! Are you sure they trust you now? Software reflect the organization that builds it. Like the CONWAY's LAW:
 
 ![](../../images/conways_law_example.jpeg)
 
@@ -214,8 +214,8 @@ Link: [Conway's law - Wikipedia](https://en.wikipedia.org/wiki/Conway%27s_law)
 
 ### Code and Tests
 
-1. Mantain only the code and the test as permanent artifacts.
-2. Any artifact contribuiting to those two sources of value are themselves valuable. Everything else is waste.
+1. Maintain only the code and the test as permanent artifacts.
+2. Any artifact contributing to those two sources of value are themselves valuable. Everything else is waste.
 
 ### Single Code Base
 
@@ -245,7 +245,7 @@ Link: [Conway's law - Wikipedia](https://en.wikipedia.org/wiki/Conway%27s_law)
 
 ### Architects
 
-1. Architects on an XP team look for and execute large-scale refactorings, write system-level tests that stress the architecture, and implements stories.
+1. Architects on an XP team look for and execute large-scale refactoring, write system-level tests that stress the architecture, and implements stories.
 
 ### Project Managers
 
@@ -260,11 +260,11 @@ Link: [Conway's law - Wikipedia](https://en.wikipedia.org/wiki/Conway%27s_law)
 1. How much incentive does a person have to help others if he will be evaluated on individual performance?
 2. Teams have solved the evaluation problem in two ways:
 	3. Either by continuing individual goals, reviews, and raises or,
- 	4. By movieng to team-based incentives and raieses.
+ 	4. By moving to team-based incentives and raises.
 
 ### Roles
 
-1. Roles in a madure XP team aren't fixed and rigid. NOTE the importance of the word: "MADURE".
+1. Roles in a mature XP team aren't fixed and rigid. NOTE the importance of the word: "MATURE".
 2. The goals is not for people to fill abstract roles, but for each team member to contribute all he can to the team.
 
 ## 11 The Theory of Constraints
