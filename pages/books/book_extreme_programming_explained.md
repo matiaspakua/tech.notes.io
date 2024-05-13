@@ -294,6 +294,18 @@ Link: [Conway's law - Wikipedia](https://en.wikipedia.org/wiki/Conway%27s_law)
 
 ## 12 Planning: Managing Scope
 
+1. Planning in XP is like shopping for groceries.
+2. There are 3 variables by which to manage projects:
+	1. speed;
+	2. quality;
+	3. price;
+3. The sponsor gets to fix two of these variables and the team gets to estimate the third.
+4. If the plan in unacceptable, the negotiation starts.
+5. **On Pair Programming**: <mark style="background: #FFF3A3A6;">One of the objections to pairing is pairing cuts effective programming in half</mark>. In my experience (clearly: Kent's), pairs are more than twice as effective. The actual time required for me to complete tasks solo versus paired, accounting for debugging time, is more than double; so by pairing you actually **come out ahead in completed, clean code**.
+6. When thinks aren't going well is when most need to adhere to our values and principles and modify our practices to remain as effective as possible.
+
+## 13 Testing: Early, Often and Automated
+
 ---
 # References
 
