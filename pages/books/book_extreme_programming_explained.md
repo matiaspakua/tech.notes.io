@@ -307,8 +307,15 @@ Link: [Conway's law - Wikipedia](https://en.wikipedia.org/wiki/Conway%27s_law)
 
 ## 13 Testing: Early, Often and Automated
 
+1. <mark style="background: #FFF3A3A6;">Defects destroy the trust requiered for effective software development.</mark>
+2. The customer need to be able to trust the software. The managers need to be able to trust reports of progress. The programmers need to be able to trust each other.
+3. Defects destroy this trust. Without trust, people spend much of their time defending themselves against the possibility that someone else may have a mistake.
+4. Another goal of development is to reduce the occurence of defects to a level where trust can reasonably grow on the team.
+5. You can write code to fit a mold or mold to fit code. You can do whichever creates the most benefit.
+6. Folk wisdom is software development teaches that interfaces shouldn't be unduly influenced by implementation. Writing a test first is a concrete way to achieve this separation.
+
 ---
 # References
 
 - Web about XP Programming: [Link](http://www.extremeprogramming.org/rules.html)
-- [Book on amazon](https://www.amazon.com/Extreme-Programming-Explained-Embrace-Change/dp/0321278658)
+- Book: [XP Book on amazon](https://www.amazon.com/Extreme-Programming-Explained-Embrace-Change/dp/0321278658)
