@@ -314,6 +314,22 @@ Link: [Conway's law - Wikipedia](https://en.wikipedia.org/wiki/Conway%27s_law)
 5. You can write code to fit a mold or mold to fit code. You can do whichever creates the most benefit.
 6. Folk wisdom is software development teaches that interfaces shouldn't be unduly influenced by implementation. Writing a test first is a concrete way to achieve this separation.
 
+## 14 Designing: The value of time
+
+1. Design is make makes software so valuable.
+2. BDUF (Big design upfront) isn't no design up front, it's a Little Design Up Front (LDUF) or Enough Design Up Front (ENUF).
+3. Far from "design nothing", the XP strategy is "design always".
+4. Careful thought woruld lead to a good enough answer, but experience would lead to a better answer.
+5. Another factor in deciding when to design is the "cost". If you design early, the initial cost the design is simply the time you spend.
+6. A particulary important design problem is the design of databases. Here is a good process:
+	- Start with a empty dababase.
+ 	- Use automated script to create a V0 (flyway, liquibase, etc)
+  	- Sequentially number the scripts.
+  
+![](../../images/database_change_management.png)
+
+Reference: https://medium.com/@KeivanDamirchi/database-change-management-946af9c02169
+
 ---
 # References
 
