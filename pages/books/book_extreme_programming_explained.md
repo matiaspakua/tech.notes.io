@@ -334,6 +334,15 @@ Reference: https://medium.com/@KeivanDamirchi/database-change-management-946af9c
 8. Make a habit of improving the design that affects you today. Make a public list of bigger improvements that neet to be tacled over time. (Tech debt)
 9. Design is deferred until it can be made in the light of experience and the desicions can be used immediately.
 
+### Simplicity
+
+1. XP teams prefer simple solutions where possible.
+2. Appropiate for the intended audience (don't overcomplicate, simple is better)
+3. Communicative (represent in the system every idea, clearly)
+4. Factored <==> DRY
+5. Minimal: try that the system had the fewest elements possible.
+
+
 ---
 # References
 
