@@ -322,9 +322,9 @@ Link: [Conway's law - Wikipedia](https://en.wikipedia.org/wiki/Conway%27s_law)
 4. Careful thought woruld lead to a good enough answer, but experience would lead to a better answer.
 5. Another factor in deciding when to design is the "cost". If you design early, the initial cost the design is simply the time you spend.
 6. A particulary important design problem is the design of databases. Here is a good process:
-	- Start with a empty dababase.
- 	- Use automated script to create a V0 (flyway, liquibase, etc)
-  	- Sequentially number the scripts.
+   a. Start with a empty dababase.
+   b. Use automated script to create a V0 (flyway, liquibase, etc)
+   c. Sequentially number the scripts.
   
 ![](../../images/database_change_management.png)
 
