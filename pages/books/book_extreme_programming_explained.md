@@ -330,6 +330,10 @@ Link: [Conway's law - Wikipedia](https://en.wikipedia.org/wiki/Conway%27s_law)
 
 Reference: https://medium.com/@KeivanDamirchi/database-change-management-946af9c02169
 
+7. The most powerfull design heuristic I know is: "Once and only Once". Data, structure, or logic should exist in only one place in the system. I discover the need for design investment by spotting duplication. (DRY = Don't repeat yourself).
+8. Make a habit of improving the design that affects you today. Make a public list of bigger improvements that neet to be tacled over time. (Tech debt)
+9. Design is deferred until it can be made in the light of experience and the desicions can be used immediately.
+
 ---
 # References
 
