@@ -342,6 +342,29 @@ Reference: https://medium.com/@KeivanDamirchi/database-change-management-946af9c
 4. Factored <==> DRY
 5. Minimal: try that the system had the fewest elements possible.
 
+## 15 Scaling XP
+
+### Number of people
+
+When faced with a big problem I work in three steps:
+
+1. Turn the problem into smaller problems.
+2. Apply simple solutions.
+3. Apply complex solutions if any problem left.
+
+Faced with the apparent need for larger team, first ask if a small team can solve the problem. If that doesn't work, begin the project with a small team, then split the work amount autonomous teams.
+
+### Time
+
+Projects that start and stop frequently, with the team scattered at each shutdown, are more difficult to maintain over time. In this case, XP teams often write a "<mark style="background: #FFF3A3A6;">Rosetta Stone</mark>" document before shutting down the project.
+
+![](https://upload.wikimedia.org/wikipedia/commons/b/bf/Rosetta_Stone.jpg)
+
+**Reference**: Rosetta Stone Wikipedia.
+
+### Problem and Solution Complexity
+
+1. Sometime systems grow
 
 ---
 # References
