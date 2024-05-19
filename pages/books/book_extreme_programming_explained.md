@@ -364,7 +364,13 @@ Projects that start and stop frequently, with the team scattered at each shutdow
 
 ### Problem and Solution Complexity
 
-1. Sometime systems grow
+1. Sometime systems grow big and complicated, out of proportion to the problem they solve. The challenge is to stop making the problem worse. It is difficult for a struggling team to keep going when every defect fixed creates three more.
+2. The XP strategy for dealing with excess complexity is always the same: chip away at the complexity while continuing to deliver.
+3. Brighten the corner where you are. If you are fixing a defect in an area, clean up while you are there.
+
+### Consequences of Failure
+
+
 
 ---
 # References
