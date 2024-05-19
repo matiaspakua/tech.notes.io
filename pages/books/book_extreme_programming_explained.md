@@ -21,7 +21,7 @@
 
 ![xp programming](../../images/xp_programming.jpeg)
 
-# Introduction
+# Section 1: Exporing XP
 
 "Extreme Programming Explained: Embrace Change" is a book written by Kent Beck that describes the principles and practices of Extreme Programming (XP), a software development methodology. Here is a summary of the key concepts presented in the book:
 
@@ -111,7 +111,7 @@
 14. **Baby Steps**: Prefer baby steps (small changes) over big, longer, complicated steps.
 15. **Accepted Responsibility**: Responsibility cannot be assigned: it can only be accepted.
 
-# Practices
+## 06 Practices
 
 ![](../../images/xp_practices.png)
 
@@ -369,6 +369,10 @@ Projects that start and stop frequently, with the team scattered at each shutdow
 3. Brighten the corner where you are. If you are fixing a defect in an area, clean up while you are there.
 
 ### Consequences of Failure
+
+1. Traceability, the ability to link what has changed in a system to why it changed, is built into XP, although the information isn't routinely recorder.
+
+# Section 2. Philosophy of XP
 
 
 
