@@ -380,6 +380,14 @@ Projects that start and stop frequently, with the team scattered at each shutdow
 
 ## 18 Taylorism and software
 
+1. Frederick Taylor was the first industrial engineer.
+2. He applied the method of science: observation, hypothesis and experimentation.
+3. Taylorism has some positive effects and negative ones. The negative ones are the assumptions that: things usually go according to plan; micro-optimization leads to macro-optimization; <mark style="background: #FFF3A3A6;">people are mostly interchangeable and need to be told what to do</mark>.
+4. The first step of social engineering in Taylorism is the separation of planning from execution.
+5. The second step of Taylorism social engineering is the creation of a separate quality department.
+6. Having a separate quality department sends the message that quality is exactly as important to engineering as marketing or sales. <mark style="background: #FFF3A3A6;">No one in engineering is responsible for quality, someone else is.</mark>.
+7. Putting QA as a separate department within the engineering organization also sends the message that engineering and quality are separate, parallel activities.
+
 
 
 ---
