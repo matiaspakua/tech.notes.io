@@ -374,6 +374,12 @@ Projects that start and stop frequently, with the team scattered at each shutdow
 
 # Section 2. Philosophy of XP
 
+## 17 Creation Story
+
+1. At the end of the day, I had laid out the basics of XP: an always-deployable system to which features, chosen by the customer, are added and automatically tested on a fixed heartbeat.
+
+## 18 Taylorism and software
+
 
 
 ---
