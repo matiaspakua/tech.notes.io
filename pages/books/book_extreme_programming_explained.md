@@ -397,7 +397,12 @@ Projects that start and stop frequently, with the team scattered at each shutdow
 5. Taiichi Ohno, the spiritual leader of TPS, says the greatest waste is the waste of overproduction.
 6. If you make something and can't sell it, the effort that went into making it is lost.
 
+## 20 Applying XP
 
+1. Teams needd to emphasize their commitment to the organizational goals and show how their style of work supports these goals.
+2. The way to begin organizational change is still to start with yourself.
+3. It is the one change you have control over. First develop your skills, then put then into service. Leading by example is a powerful form of leadership.
+4. <mark style="background: #FFF3A3A6;">Choosing a Coach. just because you understand the words doesn't mean you understand.</mark>
 
 ---
 # References
