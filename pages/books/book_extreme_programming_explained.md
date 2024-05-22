@@ -413,6 +413,12 @@ Projects that start and stop frequently, with the team scattered at each shutdow
 1. The most beneficial outcome for everyone involved is well-paying jobs (relatively speaking) for programmers everywhere and delighted customers who are willing to pay for much more software because it is so much valuable.
 2. Organizations addicted to high labor counts need to gradually reduce their team sizes while increasing throughput.
 
+## 23 The timeless ways of programming
+
+1. The architect <mark style="background: #FFF3A3A6;">Christopher Alexander </mark>(Design Pattern book inspiration author) describes a time not so long age when people knew how to design and build spaces for themselves, uniquely fitted to their own needs and to their climate culture.
+2. Alexander's dream was to return the power of designing space to the people whose lives were most affected by it.
+3. Harmony and balance are the aims of XP. Writing test is a good thing in itself, but it is only preparation for the bigger task: Fostering strong relationships between the diverse people who come together to make money with software.
+
 
 
 ---
