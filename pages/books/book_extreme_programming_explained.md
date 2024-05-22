@@ -125,6 +125,9 @@
 
 4. **Energized Work**: work only as many hours as you can be productive and only as many hours as you can sustain.
 5. **Pair Programming**: help you to: keep each other on task; improve the brainstorm refinements to the system; clarify ideas; take initiative when your partner is stuck; hold each other accountable to the team's practices.
+
+![](../../images/pair_programming.jpeg)
+
 6. **Stories**: plan using units of customer-visible functionality.
 7. **Weekly cycles**: plan work a week at a time. Have a meeting at the beginning of every week. during this meeting:
 	1. review progress to date vs expected progress, blockers and other issues.
