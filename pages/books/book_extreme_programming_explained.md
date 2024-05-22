@@ -419,7 +419,11 @@ Projects that start and stop frequently, with the team scattered at each shutdow
 2. Alexander's dream was to return the power of designing space to the people whose lives were most affected by it.
 3. Harmony and balance are the aims of XP. Writing test is a good thing in itself, but it is only preparation for the bigger task: Fostering strong relationships between the diverse people who come together to make money with software.
 
+## 24 Community and XP
 
+1. A supportive community is a great asset in software development.
+
+## 25 Conclusion
 
 ---
 # References
