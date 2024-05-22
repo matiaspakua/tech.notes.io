@@ -423,7 +423,12 @@ Projects that start and stop frequently, with the team scattered at each shutdow
 
 1. A supportive community is a great asset in software development.
 
-## 25 Conclusion
+## 25 Other notes
+
+1.  Book reference: Quality is Free: breaks out the zero-sum model of the four variable: time; scope; cost; and quality. <mark style="background: #FFF3A3A6;">You can't get software out the door faster by lowering quality. Instead, you get software out the door faster by raising quality</mark>.
+
+
+
 
 ---
 # References
