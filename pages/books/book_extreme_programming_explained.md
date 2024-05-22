@@ -388,6 +388,15 @@ Projects that start and stop frequently, with the team scattered at each shutdow
 6. Having a separate quality department sends the message that quality is exactly as important to engineering as marketing or sales. <mark style="background: #FFF3A3A6;">No one in engineering is responsible for quality, someone else is.</mark>.
 7. Putting QA as a separate department within the engineering organization also sends the message that engineering and quality are separate, parallel activities.
 
+## 19 Toyota Production System
+
+1. Toyota eliminates wasted effort at every step of the process of producing cars.
+2. Every worker is responsible for the whole production line. 
+3. If anyone spot a defect he pulls a cord that stops the whole line. To finding the root cause of the problem and fixing it.
+4. The whole organization is a quality organization.
+5. Taiichi Ohno, the spiritual leader of TPS, says the greatest waste is the waste of overproduction.
+6. If you make something and can't sell it, the effort that went into making it is lost.
+
 
 
 ---
