@@ -404,6 +404,12 @@ Projects that start and stop frequently, with the team scattered at each shutdow
 3. It is the one change you have control over. First develop your skills, then put then into service. Leading by example is a powerful form of leadership.
 4. <mark style="background: #FFF3A3A6;">Choosing a Coach. just because you understand the words doesn't mean you understand.</mark>
 
+## 21 Purity
+
+1. The values, principles, and practices are there to provide guidance, challenge and accountability.
+
+
+
 ---
 # References
 
