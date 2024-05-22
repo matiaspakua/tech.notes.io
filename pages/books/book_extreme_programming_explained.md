@@ -408,6 +408,11 @@ Projects that start and stop frequently, with the team scattered at each shutdow
 
 1. The values, principles, and practices are there to provide guidance, challenge and accountability.
 
+## 22 Offshore development
+
+1. The most beneficial outcome for everyone involved is well-paying jobs (relatively speaking) for programmers everywhere and delighted customers who are willing to pay for much more software because it is so much valuable.
+2. Organizations addicted to high labor counts need to gradually reduce their team sizes while increasing throughput.
+
 
 
 ---
