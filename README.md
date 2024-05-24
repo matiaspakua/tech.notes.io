@@ -120,7 +120,7 @@ Welcome to my personal Tech Notes blog! 🚀 Here, you'll find information prese
 # Technical Books readed
 
  * [Modern Software Engineering: Doing What Works to Build Better Software Faster, By David Farley](/pages/books/modern_software_engineering.md)
- * [Extreme Programming Explained](/pages/books/book_extreme_programming_explained.md) <span style="color:red"> Read done, writing notes in progress... </span>
+ * [Extreme Programming Explained](/pages/books/book_extreme_programming_explained.md)
  * [The Mythical Man-Month: Essays on Software Engineering, by Fred Brooks](/pages/books/the_mythical_man_month.md)  <span style="color:red"> Read done, writing notes in progress... </span>
  * Applying UML and Patterns: An Introduction to Object-Oriented Analysis and Design and Iterative Development, Craig Larman
  * Thinking in Java 2nd Edition, by Bruce Eckel
