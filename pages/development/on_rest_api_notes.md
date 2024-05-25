@@ -17,7 +17,9 @@
 
 <button class="back-button" onclick="window.location.href='https://matiaspakua.github.io/tech.notes.io'">All notes</button>
 
-## Table of Content
+## General Overview of Concepts
+
+![](../../images/api_concepts_mindmap.png)
 
 ## Introduction
 
