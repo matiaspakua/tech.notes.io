@@ -17,6 +17,8 @@
 
 <button class="back-button" onclick="window.location.href='https://matiaspakua.github.io/tech.notes.io'">All notes</button>
 
+![](../../images/git_gitflow_mindmap.png)
+
 ## Introduction
 
 ![git flow](../../images/git_flow.jpeg)
