@@ -109,6 +109,7 @@ Welcome to my personal Tech Notes blog! 🚀 Here, you'll find information prese
 
 # Technical Books in progress
  
+ -	Clean Code: A Handbook of Agile Software Craftsmanship by Robert C. Martin (13%)
  - ReWork: Change the Way You Work Forever, By David Heinemeier Hansson and Jason Fried (71%)
  - Refactoring: improving the design of existing code, by Martin Fowler (5%)
  - Working effectively with legacy code, by Michael Feathers (5%)
