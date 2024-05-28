@@ -92,6 +92,29 @@ Welcome to my personal Tech Notes blog! 🚀 Here, you'll find information prese
  - [Emotional Intelligence](/pages/leadership/emotional_intelligence.md)
  - [Gestión del tiempo (Time Management)](/pages/leadership/time_management.md)
 
+# Technical Books readed
+
+ * [Modern Software Engineering: Doing What Works to Build Better Software Faster, By David Farley](/pages/books/modern_software_engineering.md)
+ * [Extreme Programming Explained](/pages/books/book_extreme_programming_explained.md)
+ * [The Mythical Man-Month: Essays on Software Engineering, by Fred Brooks](/pages/books/the_mythical_man_month.md)  <span style="color:red"> Read done, writing notes in progress... </span>
+ * Applying UML and Patterns: An Introduction to Object-Oriented Analysis and Design and Iterative Development, Craig Larman
+ * Thinking in Java 2nd Edition, by Bruce Eckel
+ * C Programming Language, 2nd Edition, by de Brian W. Kernighan and Dennis M. Ritchie
+ * Design Patterns Elements of Reusable Object-Oriented Software by Erich Gamma, Richard Helm, Ralph Johnson, John M. Vlissides
+ * Software Engineering, 10th Edition by Ian Sommerville
+ * Software Engineering: A Practitioner's Approach, 8th Edition, Roger Pressmann
+ * The Object Primer, 3rd Edition, Scott Ambler 
+ * Structured Computer Organization, 5 ed. Tanenbaum
+ * Computer Networks, 5 ed. Tanenbaum
+
+# Technical Books in progress
+ 
+ - ReWork: Change the Way You Work Forever, By David Heinemeier Hansson and Jason Fried (71%)
+ - Refactoring: improving the design of existing code, by Martin Fowler (5%)
+ - Working effectively with legacy code, by Michael Feathers (5%)
+ - Spring in Action, 5th Edition by Craig Walls (80%)
+ - HEAD FIRST JAVA, 3RD EDITION: A BRAIN-FRIENDLY GUIDE (70%)
+
 ---
 
 # Software Engineering Specialization (UCA postgraduate completed)
@@ -109,30 +132,6 @@ Welcome to my personal Tech Notes blog! 🚀 Here, you'll find information prese
 
 ---
 
-# Technical Books in progress
- 
- - ReWork: Change the Way You Work Forever, By David Heinemeier Hansson and Jason Fried (71%)
- - Refactoring: improving the design of existing code, by Martin Fowler (5%)
- - Working effectively with legacy code, by Michael Feathers (5%)
- - Spring in Action, 5th Edition by Craig Walls (80%)
- - HEAD FIRST JAVA, 3RD EDITION: A BRAIN-FRIENDLY GUIDE (70%)
-
-# Technical Books readed
-
- * [Modern Software Engineering: Doing What Works to Build Better Software Faster, By David Farley](/pages/books/modern_software_engineering.md)
- * [Extreme Programming Explained](/pages/books/book_extreme_programming_explained.md)
- * [The Mythical Man-Month: Essays on Software Engineering, by Fred Brooks](/pages/books/the_mythical_man_month.md)  <span style="color:red"> Read done, writing notes in progress... </span>
- * Applying UML and Patterns: An Introduction to Object-Oriented Analysis and Design and Iterative Development, Craig Larman
- * Thinking in Java 2nd Edition, by Bruce Eckel
- * C Programming Language, 2nd Edition, by de Brian W. Kernighan and Dennis M. Ritchi
- * Design Patterns Elements of Reusable Object-Oriented Software by Erich Gamma, Richard Helm, Ralph Johnson, John M. Vlissides
- * Software Engineering, 10th Edition by Ian Sommerville
- * Software Engineering: A Practitioner's Approach, 8th Edition, Roger Pressmann
- * The Object Primer, 3rd Edition, Scott Ambler 
- * Structured Computer Organization, 5 ed. Tanenbaum
- * Computer Networks, 5 ed. Tanenbaum
-
-
 # Others Books
 
  * I, Robot by Issac Asimov (1950)  
@@ -142,7 +141,7 @@ Welcome to my personal Tech Notes blog! 🚀 Here, you'll find information prese
  * Robots and Empire  by Issac Asimov  (1985)
  * Exhalation, by Ted Chiang
  * The Lord Of the Rings (all three)
- * Millenium Saga (Stieg Larson)
+ * Millenium Saga (Stieg Larson) I, II and III
  * The Little Prince, by Antoine de Saint-Exupéry
  * El Alquimista, Paulo Cohelo
  * 100 Años de Soledad, Gabriel Garcia Marquez
