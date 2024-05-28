@@ -141,11 +141,14 @@ Welcome to my personal Tech Notes blog! 🚀 Here, you'll find information prese
  * The Robots of Dawn  by Issac Asimov (1983)  
  * Robots and Empire  by Issac Asimov  (1985)
  * Exhalation, by Ted Chiang
- * The Lord Of the Rings (all three)
+ * The Lord Of the Rings (all three), The hobbit and The Simarilion
  * Millenium Saga (Stieg Larson) I, II and III
  * The Little Prince, by Antoine de Saint-Exupéry
  * El Alquimista, Paulo Cohelo
  * 100 Años de Soledad, Gabriel Garcia Marquez
+ * Imperio. En la Arena Estelar.
+ * Cuentos completos de Robots.
+ * 1984. George Orwell (23%)
 
 
 # Always Work in Progress...
