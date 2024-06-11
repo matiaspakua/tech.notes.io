@@ -1,18 +1,18 @@
 ![](https://media.licdn.com/dms/image/D4D16AQFQoPD2dpVULQ/profile-displaybackgroundimage-shrink_350_1400/0/1717705315523?e=1723680000&v=beta&t=3B-PMw6h5RcVHJ2AT_pPyoBukJhCR7riZBafiv1Ae8w)
 
-Welcome to my personal Tech Notes blog! 🚀 Here, you'll find information presented in a clear and accessible format, allowing you to freely explore various topics and items.
+¡Bienvenidos a mi blog personal de Notas Tecnológicas! 🚀 Aquí encontrarás información que he ido recopilando sobre cursos, libros, notas, universidad, posgrados y cualquier otra fuente.
 
-**Who I Am?** Connect with me on LinkedIn: [Matias Miguez](https://www.linkedin.com/in/matiasmiguez/) 🤝
+**¿Quién soy?** Conéctate conmigo en LinkedIn y hablemos: [Matias Miguez](https://www.linkedin.com/in/matiasmiguez/) 🤝
 
-**GitHub Pages Deploy Status**: [![pages-build-deployment](https://github.com/matiaspakua/tech.notes.io/actions/workflows/pages/pages-build-deployment/badge.svg?branch=main)](https://github.com/matiaspakua/tech.notes.io/actions/workflows/pages/pages-build-deployment) 🛠️
+**Estado de despliegue en GitHub Pages:**: [![pages-build-deployment](https://github.com/matiaspakua/tech.notes.io/actions/workflows/pages/pages-build-deployment/badge.svg?branch=main)](https://github.com/matiaspakua/tech.notes.io/actions/workflows/pages/pages-build-deployment) 🛠️
 
-**Contact**: If you come across any typos, errors, missing images, or pages, please don't hesitate to reach out. You can contact me via email at [GMAIL](mailto:matiaspakua@gmail.com). 📧
+**Contacto**: Si encuentras algún error tipográfico, imágenes faltantes o problemas en las páginas, no dudes en ponerte en contacto conmigo. Puedes escribirme a [GMAIL](mailto:matiaspakua@gmail.com). 📧
 
-<mark style="background: #BBFABBA6;">IMPORTANT</mark>: All the notes shared here reflect my personal research, learning journey, and opinions. I always provide references to the original authors and respect copyrights. 🔍📚
+<mark style="background: #BBFABBA6;">IMPORTANTE</mark>: Todas las notas compartidas aquí reflejan mi investigación personal, mi camino de aprendizaje y mis opiniones. Siempre proporciono referencias a los autores originales y respeto los derechos de autor. 🔍📚
 
 --- 
 
-# General Topic
+# General (sin categoria específica)
 
 - [Introduction and notes on NoSQL Databases](/pages/general_topic/nosql_the_basis_of.md) 
 - [Specialisation Building Cloud Computing Solutions at Scale](/pages/general_topic/specialization_building_cloud_computing_solutions_at_scale.md)
@@ -24,7 +24,7 @@ Welcome to my personal Tech Notes blog! 🚀 Here, you'll find information prese
 - [Tech Trends 2023](/pages/general_topic/tech_trends_2023.md)
 - [A reflection on Software Engineering: A Journey of Creativity and Rigor](/pages/general_topic/reflection_on_software_engineering.md)
 
-# Development
+# Desarrollo, Programación
 
 - [Spring Framework Notes](/pages/development/spring_framework_notes.md)
 - [On Python Notes](/pages/development/on_python_notes.md)
@@ -47,7 +47,7 @@ Welcome to my personal Tech Notes blog! 🚀 Here, you'll find information prese
 - [TestContainers: Introduction](/pages/testing/testcontainers.md)
 - [BDD with Cucumber for Java course](/pages/testing/bdd_with_cucumber_java_notes.md) <span style="color:red"> ( In progress ) </span>
 
-# Software Engineering
+# Ingeniería de Software
 
 - [Agile and SCRUM. The perks of know nothing](/pages/software_engineering/agile_and_scrum.md)
 - [Waterfall: what really means the paper](/pages/software_engineering/waterfall.md)
@@ -58,7 +58,7 @@ Welcome to my personal Tech Notes blog! 🚀 Here, you'll find information prese
 - [Software engineering timeline](/pages/software_engineering/software_engineering_timeline.md) <span style="color:red"> In progress... </span>
 - [Generative AI](/pages/software_engineering/generative_ai.md)
 
-# Software and System Architecture
+# Software y Arquitectura de sistemas
 
 - [On Architecture by Martin Fowler](https://martinfowler.com/architecture/)
 - [On microservices patterns and tools](/pages/sw_and_system_architecture/on_microservices_patterns_and_tools.md)
@@ -69,7 +69,7 @@ Welcome to my personal Tech Notes blog! 🚀 Here, you'll find information prese
 - [Vertical Slicing Architectures](/pages/sw_and_system_architecture/vertical_slicing_architectures.md)
 - [Sustainable Software Architecture](/pages/sw_and_system_architecture/sustainable_software_architecture.md)
 
-# Cybersecurity
+# Cyberseguridad
 
 * [Conference h4cked 2022](/pages/cybersecurity/cybersecurity_h4ck3d.md)
 * [Learning the Owasp Top 10](/pages/cybersecurity/learning_owasp_top_10.md)
@@ -83,7 +83,7 @@ Welcome to my personal Tech Notes blog! 🚀 Here, you'll find information prese
 * [Programming Foundations: Web Security](/pages/cybersecurity/programming_foundations_web_security.md)
 * [DevOps Foundations: DevSecOps](/pages/cybersecurity/dev_sec_ops_foundations.md)
 
-# Leadership
+# Liderazgo y colaboración
 
  - [What The Little Prince teach about engineering](/pages/leadership/what_the_little_prince_teach_about_engineering.md) 
  - [Notes on Masterclass Dev to Tech Lead](/pages/leadership/dev_to_tech_lead.md)
@@ -92,7 +92,7 @@ Welcome to my personal Tech Notes blog! 🚀 Here, you'll find information prese
  - [Emotional Intelligence](/pages/leadership/emotional_intelligence.md)
  - [Gestión del tiempo (Time Management)](/pages/leadership/time_management.md)
 
-# Technical Books readed
+# Libros Técnicos leidos
 
  * [Modern Software Engineering: Doing What Works to Build Better Software Faster, By David Farley](/pages/books/modern_software_engineering.md)
  * [Extreme Programming Explained](/pages/books/book_extreme_programming_explained.md)
@@ -107,7 +107,7 @@ Welcome to my personal Tech Notes blog! 🚀 Here, you'll find information prese
  * Structured Computer Organization, 5 ed. Tanenbaum
  * Computer Networks, 5 ed. Tanenbaum
 
-# Technical Books in progress
+# Libros técnicos (en curso)
  
  -	Clean Code: A Handbook of Agile Software Craftsmanship by Robert C. Martin (13%)
  - ReWork: Change the Way You Work Forever, By David Heinemeier Hansson and Jason Fried (71%)
@@ -118,14 +118,14 @@ Welcome to my personal Tech Notes blog! 🚀 Here, you'll find information prese
 
 ---
 
-# Software Engineering Specialization (UCA postgraduate completed)
+# UCA posgrado de Especialización en Ingeniería de Software
 
  - [Materias y notas de la especialización](/pages/sw_eng_specialization/landing.md)
 
 
 ---
 
-# Master in Information Technologies (UP postgraduate incompleted)
+# Universidad de Palermo Master en tecnología de la Información
 
 
  - [Materias y notas del master](/pages/master_information_tech/landing.md)
@@ -133,7 +133,7 @@ Welcome to my personal Tech Notes blog! 🚀 Here, you'll find information prese
 
 ---
 
-# Others Books
+# Otros Libros, Novelas, etc.
 
  * I, Robot by Issac Asimov (1950)  
  * Caves of Steel  by Issac Asimov (1954)  
@@ -151,6 +151,6 @@ Welcome to my personal Tech Notes blog! 🚀 Here, you'll find information prese
  * 1984. George Orwell (23%)
 
 
-# Always Work in Progress...
+# Blog siempre en trabajo en progreso, como el pan de cada día!!
 
 ![](images/tech_and_bread.jpeg)
