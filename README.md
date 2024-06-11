@@ -1,4 +1,4 @@
-![](https://media.licdn.com/dms/image/D4D16AQHEKBEQ_3QiEw/profile-displaybackgroundimage-shrink_350_1400/0/1710450624677?e=1715817600&v=beta&t=v0Gx9hLy8rzP2g9iW0sS2Y9HZXn36RzluAPfuLxwNQM)
+![](https://media.licdn.com/dms/image/D4D16AQFQoPD2dpVULQ/profile-displaybackgroundimage-shrink_350_1400/0/1717705315523?e=1723680000&v=beta&t=3B-PMw6h5RcVHJ2AT_pPyoBukJhCR7riZBafiv1Ae8w)
 
 Welcome to my personal Tech Notes blog! 🚀 Here, you'll find information presented in a clear and accessible format, allowing you to freely explore various topics and items.
 
