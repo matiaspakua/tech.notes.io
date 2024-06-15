@@ -1,6 +1,16 @@
-remote_theme: poole/lanyon@v1.2.0
+remote_theme: pages-themes/cayman@v0.2.0
 plugins:
   - jekyll-remote-theme
 
 title: Tech-Notes
 description: Blog de notas sobre Software, Ingeniería y Tecnología
+
+# Include custom CSS
+markdown: kramdown
+highlighter: rouge
+
+sass:
+  style: compressed
+
+include:
+  - assets/css/custom.css
