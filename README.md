@@ -38,9 +38,7 @@
 - [Gherkin and Automation](/pages/testing/gherkin_and_automation.md)
 - [RobotFramework to test satellites](/pages/testing/robotframework_to_test_satellites.md)
 - [On Unit Test, TDD and BDD](/pages/testing/on_unit_test_tdd_and_bdd.md)
-- [On Selenium Notes](/pages/testing/on_selenium_notes.md)
 - [Test Automation (spanish). A book, a web site](https://nicopaez.gitbook.io/test-automation/)
-- [TestContainers: Introduction](/pages/testing/testcontainers.md)
 - [BDD with Cucumber for Java course](/pages/testing/bdd_with_cucumber_java_notes.md) <span style="color:red"> ( In progress ) </span>
 
 # Ingeniería de Software
@@ -57,7 +55,6 @@
 # Software y Arquitectura de sistemas
 
 - [On Architecture by Martin Fowler](https://martinfowler.com/architecture/)
-- [On microservices patterns and tools](/pages/sw_and_system_architecture/on_microservices_patterns_and_tools.md)
 - [The C4 model for visualising software architecture by Simon Brown](https://c4model.com/)
 - [On Microservices. The complete reference guide](https://microservices.io/)
 - [On hexagonal Architecture notes](/pages/sw_and_system_architecture/on_hexagonal_architecture_notes.md)
@@ -68,13 +65,7 @@
 # Cyberseguridad
 
 * [Conference h4cked 2022](/pages/cybersecurity/cybersecurity_h4ck3d.md)
-* [Learning the Owasp Top 10](/pages/cybersecurity/learning_owasp_top_10.md)
 * [Cybersecurity Foundations](/pages/cybersecurity/cybersecurity_foundations.md)
-* Learning Threat Modeling for Security Professionals
-* IT Security Foundations: Operating System Security
-* Application Security in DevSecOps
-* DevSecOps: Building a Secure Continuous Delivery Pipeline
-* Developing Secure Software
 * [IT Security Foundations: Core Concepts](/pages/cybersecurity/it_security_foundations_core_concepts.md)
 * [Programming Foundations: Web Security](/pages/cybersecurity/programming_foundations_web_security.md)
 * [DevOps Foundations: DevSecOps](/pages/cybersecurity/dev_sec_ops_foundations.md)
