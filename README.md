@@ -27,19 +27,15 @@
 # Desarrollo, Programación
 
 - [Spring Framework Notes](/pages/development/spring_framework_notes.md)
-- [On Python Notes](/pages/development/on_python_notes.md)
 - [On Java notes](/pages/development/on_java_notes.md)
 - [On API Notes](/pages/development/on_rest_api_notes.md)
 - [Git, Gitflow and Trunk Based development](/pages/development/git_and_gitflow_trunk_based_dev.md) 
-- [On Gradle Notes](/pages/development/on_gradle_notes.md)
-- [IntelliJ tips by Victor Rentea](/pages/development/intellij_tips.md)
 - [Getting Started In Spring Development](/pages/development/getting_started_spring_development.md)
 - [Advance Your Spring Development Skills](/pages/development/advance_your_spring_development_skills.md)
 
 # Software and System Testing
 
 - [Gherkin and Automation](/pages/testing/gherkin_and_automation.md)
-- [On Testing and Software and Quality notes](/pages/testing/on_testing_and_software_quality_notes.md)
 - [RobotFramework to test satellites](/pages/testing/robotframework_to_test_satellites.md)
 - [On Unit Test, TDD and BDD](/pages/testing/on_unit_test_tdd_and_bdd.md)
 - [On Selenium Notes](/pages/testing/on_selenium_notes.md)
