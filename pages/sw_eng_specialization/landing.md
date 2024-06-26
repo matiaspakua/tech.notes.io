@@ -39,7 +39,7 @@
 <mark style="background: #FFF3A3A6;">Módulo Complementarias:  </mark>
 - [Marketing](/pages/sw_eng_specialization/marketing.md)
 - [Contratos y Aspectos Legales de Software](/pages/sw_eng_specialization/software_legal_aspects_and_contracts.md)
-- [Ética Profesional](/pages/sw_eng_specialization/prefessional_ethics.md)
+- [Ética Profesional](/pages/sw_eng_specialization/professional_ethics.md)
 
 <mark style="background: #FFF3A3A6;">Proyecto Final</mark>
 
