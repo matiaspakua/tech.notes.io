@@ -21,6 +21,10 @@
 
 - [1. Introducción](#1.introduction)
 - [2. Marco Teórico](#2.marco_teorico)
+	- [2.1. Conceptos y Prácticas Fundamentales](#2.1_conceptos_practicas_fundamentales)
+	- [2.2. Pilares de la Ingeniería de Software](#2.2_pilares_ingenieria_software)
+	- [2.3. Cultura y las personas](#2.3_cultura_personas)
+	- [2.4 Enfoque de Calidad](#2.4_enfoque_calidad)
 
 <a name="1.introduction"></a>
 # 1. Introducción
@@ -53,11 +57,13 @@ Cada disciplina (Dev, Sec y Ops) tienen sus propios flujos de trabajo, procesos 
 <a name="2.marco_teorico"></a>
 # 2. Marco Teórico
 
-## Conceptos y Prácticas Fundamentales 
+<a name="2.1_conceptos_practicas_fundamentales"></a>
+## 2.1. Conceptos y Prácticas Fundamentales 
 
 En la primera parte del presente trabajo se abordarán los conceptos teóricos que servirán de base para dar forma a la propuesta de implementación de la metodología DevSecOps, vista desde la perspectiva de QA Automation.
 
-## Pilares de la Ingeniería de Software
+<a name="2.2_pilares_ingenieria_software"></a>
+## 2.2. Pilares de la Ingeniería de Software
 
 El primer concepto sienta las bases del presente trabajo. Los pilares de la ingeniería de software, según lo definido por ([Pressman, 2006, 24] son: “La base que soporta la ingeniería del software es un enfoque de calidad”. Adicionalmente al enfoque clásico de Pressman, se decidió incluir un pilar que representa a<mark style="background: #FFF3A3A6;"> la cultura de la organización</mark> y a <mark style="background: #BBFABBA6;">las personas</mark> que dan vida a una organización, según se esquematiza en la Fig. 2.
 
@@ -67,5 +73,24 @@ El primer concepto sienta las bases del presente trabajo. Los pilares de la inge
 
 **Figura 2: Pilares de la Ingeniería del Software (basado en “Pressman,2006,24”)**
 
-## Cultura y las personas
+
+<a name="2.3_cultura_personas"></a>
+## 2.3. Cultura y las personas
+
+Para el éxito en la implementación de cualquier estrategía de desarrollo de productos de software es importante que exista una buena cultura en la organización [Organizational Culture. 2018], que se enfoque en los <mark style="background: #FFF3A3A6;">procesos</mark>, las <mark style="background: #BBFABBA6;">personas</mark> y la <mark style="background: #ADCCFFA6;">cultura</mark> como se muestra en la Fig. 3. Una “buena” cultura debe promover el bienestar común e individual, generar entusiasmo en las personas, establecer los objetivos y estrategías de la empresa en sinergía con las personas, y sobre todo, deber ser una “cultura compartida”. Esta cultura debe ser comunicada y entendida sin ambigüedades.
+
+La importancia de que las personas estén “motivadas” y “positivas” para llevar adelante el desarrollo y la mejora continua es un pilar fundamental del éxito de una organización.
+
+Los aspectos técnicos (conocimientos técnicos, conocimientos especializados sobre tecnologías y herramientas, etc), se pueden adquirir de diversas formas, pero los aspectos más humanos como el bienestar laboral, el ámbito laboral y todos aquellos aspectos que hacen a tener una cultura sana son matices que se deben trabajar desde el inicio, de forma ardua y nunca descuidar.
+
+**Referencia:** Development Cooperation Handbook/The development aid organization/Organizational Culture. (2018, February 22). Wikibooks, The Free Textbook Project. Retrieved 19:04, February 20, 2022 from https://en.wikibooks.org/w/index.php?title=Development_Cooperation_Handbook/The_development_aid_organization/Organizational_Culture&oldid=3377380.
+
+![](../../images/fig_3_cultura_procesos_personas_organizacion.png)
+
+**Figura 3: Cultura, Procesos, Personas y Organización.**
+
+Con esta base, se propone llevar adelante la implementación de la metodología DevSecOps desde la perspectiva de QA Automation.
+
+<a name="2.4_enfoque_calidad"></a>
+## 2.4 Enfoque de Calidad
 
