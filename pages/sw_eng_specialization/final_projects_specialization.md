@@ -20,6 +20,7 @@
 # Indice
 
 - [1. Introducción](#1.introduction)
+- [2. Marco Teórico](#2.marco_teorico)
 
 <a name="1.introduction"></a>
 # 1. Introducción
@@ -48,3 +49,23 @@ A grandes rasgos, las tareas a realizar para lograr este objetivo involucran:
 Como introducción, la Fig. 1 ilustra un posible camino a recorrer para un producto de software. Las 3 capas horizontales representan las 3 disciplinas del ciclo de vida que se deben integrar y sincronizar con la disciplina de QA Automation: Dev (<mark style="background: #FFF3A3A6;">desarrollo</mark>), Sec (<mark style="background: #BBFABBA6;">Security</mark>) y Ops (<mark style="background: #ADCCFFA6;">Operaciones</mark>). La disciplina de QA Automation aparece de forma transversal durante el ciclo de desarrollo y se involucra de diversas maneras y con diferentes artefactos, dependiendo del estado de evolución del producto en ese momento. QA Automation debe contemplarse desde etapas tempranas para ayudar a refinar desde la idea del producto a desarrollar hasta la entrega al cliente final, asegurando en cada etapa poder cumplir con determinados aspectos de la calidad.
 
 Cada disciplina (Dev, Sec y Ops) tienen sus propios flujos de trabajo, procesos y herramientas, pero todas comparten la misma necesidad desde QA: definir lineamientos de calidad, escribir pruebas, automatizar las tareas repetitivas y documentar el proceso, los artefactos intermedios y los resultados obtenidos para dejar evidencia del proceso y del producto.
+
+<a name="2.marco_teorico"></a>
+# 2. Marco Teórico
+
+## Conceptos y Prácticas Fundamentales 
+
+En la primera parte del presente trabajo se abordarán los conceptos teóricos que servirán de base para dar forma a la propuesta de implementación de la metodología DevSecOps, vista desde la perspectiva de QA Automation.
+
+## Pilares de la Ingeniería de Software
+
+El primer concepto sienta las bases del presente trabajo. Los pilares de la ingeniería de software, según lo definido por ([Pressman, 2006, 24] son: “La base que soporta la ingeniería del software es un enfoque de calidad”. Adicionalmente al enfoque clásico de Pressman, se decidió incluir un pilar que representa a la cultura de la organización y a las personas que dan vida a una organización, según se esquematiza en la Fig. 2.
+
+**Referencia**:  Pressman, R. S. (2006). Ingeniería del software: un enfoque práctico (V. Campos Olguín, E. Pineda Rojas, & J. E. Murrieta Murrieta, Trans.). McGraw-Hill.
+
+![](../../images/fig_2_pilares_de_la_ingenieria_del_software.png)
+
+**Figura 2: Pilares de la Ingeniería del Software (basado en “Pressman,2006,24”)**
+
+## Cultura y las personas
+
