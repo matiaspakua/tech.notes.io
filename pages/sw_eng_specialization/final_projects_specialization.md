@@ -107,3 +107,6 @@ Como se muestra en la Fig. 4, DevOps no solo incluye las fases de desarrollo (De
 ![](../../images/fig_4_QA_automation_como_pilar_de_DevOps.png)
 
 **Fig. 4. QA Automation como pilar de DevOps**
+
+
+## 2.5. Metodologías y Prácticas
