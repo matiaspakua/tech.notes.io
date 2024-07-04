@@ -16,10 +16,8 @@
 
 - [Introduction and notes on NoSQL Databases](/pages/general_topic/nosql_the_basis_of.md) 
 - [Specialisation Building Cloud Computing Solutions at Scale](/pages/general_topic/specialization_building_cloud_computing_solutions_at_scale.md)
-- [Shape Up. A book, a web site](https://basecamp.com/shapeup)
 - [How to build a KnowledgeBase](/pages/general_topic/how_to_build_a_knowledge_base.md)
 - [On User Stories notes](/pages/general_topic/on_user_stories_notes.md)
-- [Xtrem TDD](https://xtrem-tdd.netlify.app/)
 - [Design Thinking notes](/pages/general_topic/design_thinking_explained.md)
 - [Tech Trends 2023](/pages/general_topic/tech_trends_2023.md)
 - [A reflection on Software Engineering: A Journey of Creativity and Rigor](/pages/general_topic/reflection_on_software_engineering.md)
@@ -46,19 +44,12 @@
 - [Agile and SCRUM. The perks of know nothing](/pages/software_engineering/agile_and_scrum.md)
 - [Waterfall: what really means the paper](/pages/software_engineering/waterfall.md)
 - [The History of the project A7 by David Parnas](/pages/software_engineering/the_history_of_the_project_A7_by_David_Parnas.md)
-- [Software Engineering at Google. A book, a web site](https://abseil.io/resources/swe-book)
-- [On Agile by Martin Fowler](https://martinfowler.com/agile.html)
-- [Software Design By Example. A book, a web site](https://third-bit.com/sdxjs/)
 - [Software engineering timeline](/pages/software_engineering/software_engineering_timeline.md) <span style="color:red"> In progress... </span>
 - [Generative AI](/pages/software_engineering/generative_ai.md)
 
 # Software y Arquitectura de sistemas
 
-- [On Architecture by Martin Fowler](https://martinfowler.com/architecture/)
-- [The C4 model for visualising software architecture by Simon Brown](https://c4model.com/)
-- [On Microservices. The complete reference guide](https://microservices.io/)
 - [On hexagonal Architecture notes](/pages/sw_and_system_architecture/on_hexagonal_architecture_notes.md)
-- [The Architecture of Open Source Applications. A book, a web site](http://aosabook.org/en/index.html)
 - [Vertical Slicing Architectures](/pages/sw_and_system_architecture/vertical_slicing_architectures.md)
 - [Sustainable Software Architecture](/pages/sw_and_system_architecture/sustainable_software_architecture.md)
 
@@ -102,6 +93,19 @@
  - Working effectively with legacy code, by Michael Feathers (5%)
  - Spring in Action, 5th Edition by Craig Walls (80%)
  - HEAD FIRST JAVA, 3RD EDITION: A BRAIN-FRIENDLY GUIDE (70%)
+
+# Web interesantes / libros
+
+- [Shape Up. A book, a web site](https://basecamp.com/shapeup)
+- [Xtrem TDD](https://xtrem-tdd.netlify.app/)
+- [Software Engineering at Google. A book, a web site](https://abseil.io/resources/swe-book)
+- [On Agile by Martin Fowler](https://martinfowler.com/agile.html)
+- [Software Design By Example. A book, a web site](https://third-bit.com/sdxjs/)
+- [On Architecture by Martin Fowler](https://martinfowler.com/architecture/)
+- [The C4 model for visualising software architecture by Simon Brown](https://c4model.com/)
+- [On Microservices. The complete reference guide](https://microservices.io/)
+- [The Architecture of Open Source Applications. A book, a web site](http://aosabook.org/en/index.html)
+
 
 ---
 
