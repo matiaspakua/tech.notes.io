@@ -1,4 +1,4 @@
-# Proyecto Final de Posgrado de Especialización: DevSecOps desde la perspectiva de QA Automation
+# TPF Especialización: DevSecOps desde la perspectiva de QA Automation
 
 <style>
   .back-button {
@@ -94,3 +94,16 @@ Con esta base, se propone llevar adelante la implementación de la metodología 
 <a name="2.4_enfoque_calidad"></a>
 ## 2.4 Enfoque de Calidad
 
+El aseguramiento de la calidad o QA [Quality assurance, 2022] es una forma de prevenir errores y defectos en los productos y evitar problemas al entregar productos o servicios a los clientes. La norma ISO 9000 define QA como "parte de la gestión de la calidad centrada en proporcionar <mark style="background: #FFF3A3A6;">confianza</mark> en que se cumplirán los requisitos de calidad".
+
+**Referencia:** Wikipedia contributors. (2022, January 2). Quality assurance. In Wikipedia, The Free Encyclopedia. Retrieved 18:47, February 20, 2022, from https://en.wikipedia.org/w/index.php?title=Quality_assurance&oldid=1063244260
+
+El enfoque de gestión de calidad del presente trabajo incluye los aspectos asociados al testing manual y automatizado, además de la mención a Robotic Process Automation [RPA, 2022], y se abordarán aspectos de la organización y gestión de todos los elementos que agreguen valor al producto de software final.
+
+**Referencia:** Wikipedia contributors. (2022, January 27). Robotic process automation. In Wikipedia, The Free Encyclopedia. Retrieved 19:16, February 20, 2022, from https://en.wikipedia.org/w/index.php?title=Robotic_process_automation&oldid=1068323418
+
+Como se muestra en la Fig. 4, DevOps no solo incluye las fases de desarrollo (Dev ) y de operación o puesta en producción (Ops), sino que el tercer pilar de de la metodología es QA, con lo cual la importancia de QA es fundamental.
+
+![](../../images/fig_4_QA_automation_como_pilar_de_DevOps.png)
+
+**Fig. 4. QA Automation como pilar de DevOps**
