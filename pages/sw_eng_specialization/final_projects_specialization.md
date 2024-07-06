@@ -25,6 +25,8 @@
 	- [2.2. Pilares de la Ingeniería de Software](#2.2_pilares_ingenieria_software)
 	- [2.3. Cultura y las personas](#2.3_cultura_personas)
 	- [2.4 Enfoque de Calidad](#2.4_enfoque_calidad)
+	- [2.5 Metodologías y Prácticas](#2.5.metodologia_practicas)
+		- [2.5.1. Práctica: Organización de la Información](#2.5.1.practica_organizacion_informacion)
 
 <a name="1.introduction"></a>
 # 1. Introducción
@@ -115,7 +117,7 @@ Como se muestra en la Fig. 4, DevOps no solo incluye las fases de desarrollo (De
 A continuación se listan y explican brevemente algunas de las prácticas esenciales que se deben considerar para aplicar la metodología DevSecOps y QA Automation.
 
 <a name="2.5.1.practica_organizacion_informacion"></a>
-### Práctica: Organización de la Información
+### 2.5.1. Práctica: Organización de la Información
 
 Esta práctica se entiende como: el código, las herramientas de desarrollo, soporte, documentación, las herramientas de comunicación, y cualquier otro medio de soporte que se use en el desarrollo de un producto de software, deben estar organizadas. Es común que este aspecto no esté correctamente resuelto, lo cual provoca que no haya un <mark style="background: #FFF3A3A6;">repositorio centralizado</mark> (o base de conocimiento) para almacenar y consultar toda la información asociada a un proyecto o producto.
 
