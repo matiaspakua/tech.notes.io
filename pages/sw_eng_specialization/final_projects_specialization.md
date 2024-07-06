@@ -27,6 +27,7 @@
 	- [2.4 Enfoque de Calidad](#2.4_enfoque_calidad)
 	- [2.5 Metodologías y Prácticas](#2.5.metodologia_practicas)
 		- [2.5.1. Práctica: Organización de la Información](#2.5.1.practica_organizacion_informacion)
+		- [2.5.2. Práctica: Artefactos](#2.5.2.practica_artefactos)
 
 <a name="1.introduction"></a>
 # 1. Introducción
@@ -134,3 +135,37 @@ Luego de resolver como la información se va a organizar, queda resolver los Pro
 
 **Fig. 5. Organización de procesos, información, prácticas.**
 
+<a name="2.5.2.practica_artefactos"></a>
+### 2.5.2. Práctica: Artefactos
+
+El ciclo de los procesos comienza y termina generalmente con el cliente o usuario final, ya sea desde la definición del producto o la notificación de mejoras o defectos.
+
+Un <mark style="background: #FFF3A3A6;">artefacto</mark> [Storz, 2022] define un elemento de utilidad, que se utiliza en una o varias etapas de los procesos para aportar valor al producto final. Cada proceso se comunica con el resto utilizando artefactos (actúan como interfaces). Un artefacto es cualquier tipo de elemento definido, identificado y almacenado en la base de conocimientos de la organización.
+
+**Referencia:** Storz, C. (2022, January 31). What Is An Artifact Repository? What Is An Artifact Repository? https://harness.io/blog/what-is-artifact-repository/ 
+
+Un proceso se comunica con otro utilizando, en la mayoría de los casos, uno o varios artefactos. En la Fig. 6 se muestran ejemplos de distintos tipos de artefactos, típicamente generados durante el desarrollo de un producto.
+
+![](../../images/fig_6_ejemplos_atefactos_generados_producto_software.png)
+
+**Fig. 6 Ejemplos de Artefactos generados en un producto de Software**
+
+Es importante que exista uno o varios repositorios de artefactos, según el tipo o categoría de los artefactos. Cuando se trata de artefactos de software (por ejemplo: ejecutables, binarios, archivos de configuración de servicios, etc.) es recomendable usar herramientas específicas que se puedan integrar en la infraestructura de desarrollo. Cuando se trata de artefactos como pueden ser: diagramas, documentos, o notas, se debería usar otro tipo de repositorio acorde al tipo de artefactos, por ejemplo un disco en la nube.
+
+![](../../images/fig_7_flujo_vida_uso_artefactos.png)
+
+**Fig. 7 Flujo de vida y uso de los Artefactos**
+
+Algunas de las principales características de los artefactos y de un repositorio de artefactos son:
+
+- Control de Acceso    
+- Almacenamiento
+- Distribución
+- Organización
+- Respaldo
+
+La Fig. 7 representa el un flujo de vida típico de artefactos, divido en 3 etapas:
+
+1. Definición de artefactos.
+2. Actualización, modificación y trabajo colaborativo sobre los artefactos.
+3. Identificación, almacenamiento y disponibilización de los artefactos.
