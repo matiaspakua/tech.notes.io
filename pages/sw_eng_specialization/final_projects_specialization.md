@@ -186,3 +186,20 @@ Un concepto importante de la trazabilidad es el de traza: “Huella, vestigio.�
 
 **Referencia:** (REAL ACADEMIA ESPAÑOLA: Diccionario de la lengua española, 23.ª ed., [versión 23.5 en línea]. <https://dle.rae.es> 01/03/2022.)
 
+![](../../images/fig_9_trazabilidad_entre_artefactos.png)
+
+**Fig. 9. Trazabilidad entre artefactos**
+
+Para lograr trazabilidad, hay varios aspectos a considerar:
+
+1. Tener la información disponible en una base de conocimiento centralizada. Ver. 2.5.1.
+2. Tener la información fácilmente identificada, caracterizada, categorizada y ordenada;
+3. Tener toda la información representada de alguna manera que se pueda recuperar y visualizar (formatos y herramientas disponibles);
+4. Tener la información bajo control de acceso (roles, privilegios, permisos);  
+5. Asegurar la trazabilidad hacia atrás y hacia adelante Fig. 10 en cada elemento de información [Pitchford et al., 2021]:
+
+**Referencia:** Pitchford, M., Hurley, F., Dahad, N., & Roy, A. (2021, July 19). DevSecOps brings defense in depth to embedded security. Embedded.com. Retrieved February 23, 2022, from https://www.embedded.com/devsecops-brings-defense-in-depth-to-embedded-security/ 
+
+![](../../images/fig_10_trazabilidad_adelante_hacia_atras.png)
+
+**Fig. 10 Trazabilidad hacia adelante (Forward) y hacia atrás (Backward)**
