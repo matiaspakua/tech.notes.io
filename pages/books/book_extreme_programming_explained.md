@@ -25,8 +25,10 @@
 
 # Table of Contents
 
- - [1. Exploring XP](#1.exploring_xp)
-	 - [1.1. What is XP?](#1.1.what_is_xp)
+ - [Section 1: Exporing XP](#1.exploring_xp)
+	 - [01 What is XP?](#1.1.what_is_xp)
+	 - [02 Learning to Drive](#1.2.learning_to_drive)
+	 - [03 Values, Principles and Practices](#1.3.values_principles_practices)
 
 <a name="1.exploring_xp"></a>
 # Section 1: Exporing XP
