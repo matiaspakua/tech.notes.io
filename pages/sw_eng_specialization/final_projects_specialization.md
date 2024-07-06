@@ -92,6 +92,8 @@ La importancia de que las personas estén “motivadas” y “positivas” para
 
 **Figura 3: Cultura, Procesos, Personas y Organización.**
 
+Analizaremos que DevSecOps no solo implica la adición de herramientas de seguridad, sino también <mark style="background: #BBFABBA6;">la cultura de colaboración</mark> entre los equipos de desarrollo, operaciones y seguridad. La cultura y las prácticas deben estar bien integradas para ser efectivas.
+
 Con esta base, se propone llevar adelante la implementación de la metodología DevSecOps desde la perspectiva de QA Automation.
 
 <a name="2.4_enfoque_calidad"></a>
