@@ -141,3 +141,33 @@ Link: https://matiaspakua.github.io/tech.notes.io/pages/sw_eng_specialization/fi
 #qaautomation
 #softwareengineeing
 #softwareartifacts
+
+
+****
+24/07/2024
+***
+
+TPF: DevSecOps desde la perspectiva de QA Automation
+
+Siguiendo con la publicación de mi TPF, va el Post 07.
+
+👇
+
+---
+
+2.5. Metodologías y Prácticas
+
+2.5.3. Práctica: Trazabilidad.
+
+Una práctica indispensable de QA es asegurar la trazabilidad en el desarrollo de un producto de software.
+
+ - Concepto de "Camino de Migas"
+ - Trazabilidad hacia adelante y hacia atrás.
+ - Importancia de la Traza para el bugfixing y análisis de causa raíz.
+
+Link: https://matiaspakua.github.io/tech.notes.io/pages/sw_eng_specialization/final_projects_specialization.html#2.5.3.practica_trazabilidad
+
+#devsecops
+#qaautomation
+#softwareengineeing
+#softwaretraceability

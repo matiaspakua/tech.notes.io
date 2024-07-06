@@ -192,10 +192,10 @@ Un concepto importante de la trazabilidad es el de traza: “Huella, vestigio.�
 
 Para lograr trazabilidad, hay varios aspectos a considerar:
 
-1. Tener la información disponible en una base de conocimiento centralizada. Ver. 2.5.1.
-2. Tener la información fácilmente identificada, caracterizada, categorizada y ordenada;
-3. Tener toda la información representada de alguna manera que se pueda recuperar y visualizar (formatos y herramientas disponibles);
-4. Tener la información bajo control de acceso (roles, privilegios, permisos);  
+1. Tener la información <mark style="background: #FFF3A3A6;">disponible</mark> en una base de conocimiento centralizada. Ver. 2.5.1.
+2. Tener la información fácilmente <mark style="background: #BBFABBA6;">identificada</mark>, caracterizada, categorizada y ordenada;
+3. Tener toda la información representada de alguna manera que se pueda <mark style="background: #ADCCFFA6;">recuperar y visualizar </mark>(formatos y herramientas disponibles);
+4. Tener la información bajo <mark style="background: #FFF3A3A6;">control de acceso</mark> (roles, privilegios, permisos);  
 5. Asegurar la trazabilidad hacia atrás y hacia adelante Fig. 10 en cada elemento de información [Pitchford et al., 2021]:
 
 **Referencia:** Pitchford, M., Hurley, F., Dahad, N., & Roy, A. (2021, July 19). DevSecOps brings defense in depth to embedded security. Embedded.com. Retrieved February 23, 2022, from https://www.embedded.com/devsecops-brings-defense-in-depth-to-embedded-security/ 

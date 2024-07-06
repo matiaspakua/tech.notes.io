@@ -21,6 +21,14 @@
 
 ![xp programming](../../images/xp_programming.jpeg)
 
+---
+
+# Table of Contents
+
+ - [1. Exploring XP](#1.exploring_xp)
+	 - [1.1. What is XP?](#1.1.what_is_xp)
+
+<a name="1.exploring_xp"></a>
 # Section 1: Exporing XP
 
 "Extreme Programming Explained: Embrace Change" is a book written by Kent Beck that describes the principles and practices of Extreme Programming (XP), a software development methodology. Here is a summary of the key concepts presented in the book:
@@ -47,6 +55,7 @@
 
 11. <mark style="background: #FFF3A3A6;">KIS: keep it simple. Always.</mark>
 
+<a name="1.1.what_is_xp"></a>
 ## 01 What is XP?
 
 1. Extreme Programming is about social change. It is about being open about what we are capable of doing and then doing it and, it is about writing great code that is really good for business. Do you best and then deal with the consequences. THAT EXTREME!!!!
@@ -66,10 +75,12 @@
    7. Avoid "false" feature rich.
    8. Avoid staff turnover (maintains good teams together).
 
+<a name="1.2.learning_to_drive"></a>
 ## 02 Learning to Drive
 
 1. What is driving? is about constantly paying attention, making a little correction this way, a little correction that way. This is the paradigm for XP. <mark style="background: #FFF3A3A6;">Stay aware. Adapt. Change</mark>. The problem is our inability to cope with change.
 
+<a name="1.3.values_principles_practices"></a>
 ## 03 Values, Principles and Practices
 
 1. **Practices**: the kind of knowledge associated with techniques to do something.
@@ -81,6 +92,7 @@
 
 **Reference**: Image from the book Extreme programming by Kent Beck
 
+<a name="1.4.values"></a>
 ## 04 Values
 
 1. What actually matters is not how any given person behaves as much as how the individuals behave as part of a team and as part of an organization.
@@ -90,6 +102,7 @@
 5. **Courage**: courage is effective action the the fact of fear. If you know what the problem is, do something about it. Period.
 6. **Respect**: if members of a team don't care about each other and what are doing, XP won't work.
 
+<a name="1.5.principles"></a>
 ## 05 Principles
 
 1. **Traceability**: In the development of safety-critical systems, the principle of traceability is at work. At any time you should be able to trace a path from the work done back to an explicit expressed need from the user.
@@ -111,10 +124,12 @@
 14. **Baby Steps**: Prefer baby steps (small changes) over big, longer, complicated steps.
 15. **Accepted Responsibility**: Responsibility cannot be assigned: it can only be accepted.
 
+<a name="1.6.practices"></a>
 ## 06 Practices
 
 ![](../../images/xp_practices.png)
 
+<a name="1.7.primary_practices"></a>
 ## 07 Primary Practices
 
 1. **Sit together**: no matter what the client says the problem is, it is always a people problem. Technical fixes alone are not enough. It is important to sit together, to communicate with all senses.
@@ -150,6 +165,8 @@
 	4. Rhythm.
 
 ---
+
+<a name="1.7.1.test_first_programming_tdd"></a>
 ### Test-First programming AKA TDD 
 
 Write failing automated test before changing any code. Why:
@@ -162,12 +179,14 @@ Write failing automated test before changing any code. Why:
 ![](../../images/xp_test_first_programming.png)
 
 
+<a name="1.7.2.incremental_design"></a>
 ### Incremental Design
 
 1. Invest in the design of the system every day. Doing this, XP teams improve confident in their ability to adapt the design to future requirements.
 2. Without daily attention to design, the cost of change does "skyrocket". The result is poorly designed, brittle, hard-to-change systems.
 3. Design done close to when it is used is more efficient.
 
+<a name="1.8.getting_started"></a>
 ## 08 Getting Started
 
 1. How to decide what to change first? Look at what you are doing and what do you want to achieve. Choose the first practice on that path.
@@ -175,8 +194,10 @@ Write failing automated test before changing any code. Why:
 3. Changes begins with awareness. Awareness of the need for change comes from feelings, instincts, facts, or feedback from outsiders.
 4. Changes always start at home. the only person you can actually change is yourself.
 
+<a name="1.9.corollary_practices"></a>
 ## 09 Corollary Practices
 
+<a name="1.9.1.real_customer_involvement"></a>
 ### Real customer involvement
 
 1. No customer at all, or a "proxy" for a real customer, leads to waste your develop feature that aren't used.
@@ -191,19 +212,23 @@ Write failing automated test before changing any code. Why:
 
 Link: [Conway's law - Wikipedia](https://en.wikipedia.org/wiki/Conway%27s_law)
 
+<a name="1.9.2.incremental_deployment"></a>
 ### Incremental deployment
 
 1. When replacing a legacy system, gradually take over its workloads beginning very early in the project.
 
+<a name="1.9.3.team_continuity"></a>
 ### Team Continuity
 
 1. <mark style="background: #FFF3A3A6;">Keep effective teams together</mark>.
 2. Value in software is created not just by what people know and do but also by their relationships and what they accomplish together.
 
+<a name="1.9.4.shrinking_teams"></a>
 ### Shrinking teams
 
 1. As a team grows in capability, keep its workload constant but gradually reduce its size.
 
+<a name="1.9.5.root_cause_analysis"></a>
 ### Root-Cause analysis
 
 1.  Every time a defect is found after development, eliminate the defect and it cause.
@@ -215,53 +240,66 @@ Link: [Conway's law - Wikipedia](https://en.wikipedia.org/wiki/Conway%27s_law)
 
 ![](../../images/xp_root_cause_analysis_process.png)
 
+
+<a name="1.9.6.shared_code"></a>
 ### Shared Code
 
 1. Anyone on the team can improve any part of the system at any time.
 
+<a name="1.9.6.code_and_test"></a>
 ### Code and Tests
 
 1. Maintain only the code and the test as permanent artifacts.
 2. Any artifact contributing to those two sources of value are themselves valuable. Everything else is waste.
 
+<a name="1.9.7.single_code_base"></a>
 ### Single Code Base
 
 1. There is only one code stream. You can develop in a temporary branch, but never let it live longer that a few hours.
 
+<a name="1.9.8.daily_deployment"></a>
 ### Daily Deployment
 
 1. Put new software into production every night.
 
+<a name="1.9.9.negotiated_scope_contract"></a>
 ### Negotiated Scope Contract
 
 1. Write contracts for software development that fix time, cost and quality but call for an ongoing negotiation of the precise scope of the system.
 
+<a name="1.9.10.pay_per_use"></a>
 ### Pay-Per-Use
 
 1. Write pay-per-use systems, you charge for every time the system is used.
 2. Connecting money flow directly to software development provides accurate, timely information with which to drive improvement.
 
+<a name="1.10.the_whole_xp_team"></a>
 ## 10 The whole XP Team
 
 1. In a good team, they have to work together as a group for each to be successful.
 2. Principle of flow: suggests that more value is created in a smooth, steady stream of software than in occasional large deployments.
 
+<a name="1.10.1.testers"></a>
 ### Testers
 
 1. Testers on a XP team help customers choose and write automated system-level test in advance of implementation and coach programmers on testing techniques.
 
+<a name="1.10.2.architects"></a>
 ### Architects
 
 1. Architects on an XP team look for and execute large-scale refactoring, write system-level tests that stress the architecture, and implements stories.
 
+<a name="1.10.3.project_managers"></a>
 ### Project Managers
 
 1. PM act as team historians, reminding the team how much progress it has made.
 
+<a name="1.10.4.technical_writers"></a>
 ### Technical Writers
 
 1. The XP philosophy is to start where you are now and move towards the ideal. From Where you are now, could you improve a little bit?
 
+<a name="1.10.5_human_resources"></a>
 ### Human Resources
 
 1. How much incentive does a person have to help others if he will be evaluated on individual performance?
@@ -269,11 +307,14 @@ Link: [Conway's law - Wikipedia](https://en.wikipedia.org/wiki/Conway%27s_law)
 	* Either by continuing individual goals, reviews, and raises or,
 	* By moving to team-based incentives and raises.
 
+<a name="1.10.5.roles"></a>
 ### Roles
 
 1. Roles in a mature XP team aren't fixed and rigid. NOTE the importance of the word: "MATURE".
 2. The goals is not for people to fill abstract roles, but for each team member to contribute all he can to the team.
 
+
+<a name="1.11.the_theory_of_constraints"></a>
 ## 11 The Theory of Constraints
 
 ![](../../images/theory_of_constraints_and_bottleneck.png)
@@ -299,6 +340,7 @@ Link: [Conway's law - Wikipedia](https://en.wikipedia.org/wiki/Conway%27s_law)
 9. So, it's clear that software development is a "human" process not a factory.
 10. Executive sponsorship and strong relationship with people outside the team are crucial to applying XP, precisely because applying XP will shift the structure of work in the rest of the organization as soon as software development gets its act together.
 
+<a name="1.12.planning_managing_scope"></a>
 ## 12 Planning: Managing Scope
 
 1. Planning in XP is like shopping for groceries.
@@ -311,6 +353,7 @@ Link: [Conway's law - Wikipedia](https://en.wikipedia.org/wiki/Conway%27s_law)
 5. **On Pair Programming**: <mark style="background: #FFF3A3A6;">One of the objections to pairing is pairing cuts effective programming in half</mark>. In my experience (clearly: Kent's), pairs are more than twice as effective. The actual time required for me to complete tasks solo versus paired, accounting for debugging time, is more than double; so by pairing you actually **come out ahead in completed, clean code**.
 6. When thinks aren't going well is when most need to adhere to our values and principles and modify our practices to remain as effective as possible.
 
+<a name="1.13.testing_early_often_and_automated"></a>
 ## 13 Testing: Early, Often and Automated
 
 1. <mark style="background: #FFF3A3A6;">Defects destroy the trust requiered for effective software development.</mark>
@@ -320,6 +363,7 @@ Link: [Conway's law - Wikipedia](https://en.wikipedia.org/wiki/Conway%27s_law)
 5. You can write code to fit a mold or mold to fit code. You can do whichever creates the most benefit.
 6. Folk wisdom is software development teaches that interfaces shouldn't be unduly influenced by implementation. Writing a test first is a concrete way to achieve this separation.
 
+<a name="1.14_designing_the_value_of_time"></a>
 ## 14 Designing: The value of time
 
 1. Design is make makes software so valuable.
@@ -340,6 +384,7 @@ Reference: https://medium.com/@KeivanDamirchi/database-change-management-946af9c
 8. Make a habit of improving the design that affects you today. Make a public list of bigger improvements that neet to be tacled over time. (Tech debt)
 9. Design is deferred until it can be made in the light of experience and the desicions can be used immediately.
 
+<a name="1.14.1.simplicity"></a>
 ### Simplicity
 
 1. XP teams prefer simple solutions where possible.
@@ -348,8 +393,10 @@ Reference: https://medium.com/@KeivanDamirchi/database-change-management-946af9c
 4. Factored <==> DRY
 5. Minimal: try that the system had the fewest elements possible.
 
+<a name="1.15.scaling_xp"></a>
 ## 15 Scaling XP
 
+<a name="1.15.1.number_of_people"></a>
 ### Number of people
 
 When faced with a big problem I work in three steps:
@@ -360,6 +407,7 @@ When faced with a big problem I work in three steps:
 
 Faced with the apparent need for larger team, first ask if a small team can solve the problem. If that doesn't work, begin the project with a small team, then split the work amount autonomous teams.
 
+<a name="1.15.2.time"></a>
 ### Time
 
 Projects that start and stop frequently, with the team scattered at each shutdown, are more difficult to maintain over time. In this case, XP teams often write a "<mark style="background: #FFF3A3A6;">Rosetta Stone</mark>" document before shutting down the project.
@@ -368,22 +416,27 @@ Projects that start and stop frequently, with the team scattered at each shutdow
 
 **Reference**: Rosetta Stone Wikipedia.
 
+<a name="1.15.3.problem_and_solution_complexity"></a>
 ### Problem and Solution Complexity
 
 1. Sometime systems grow big and complicated, out of proportion to the problem they solve. The challenge is to stop making the problem worse. It is difficult for a struggling team to keep going when every defect fixed creates three more.
 2. The XP strategy for dealing with excess complexity is always the same: chip away at the complexity while continuing to deliver.
 3. Brighten the corner where you are. If you are fixing a defect in an area, clean up while you are there.
 
+<a name="1.15.4.consequences_of_failure"></a>
 ### Consequences of Failure
 
 1. Traceability, the ability to link what has changed in a system to why it changed, is built into XP, although the information isn't routinely recorder.
 
+<a name="2.philosophy_of_xp"></a>
 # Section 2. Philosophy of XP
 
+<a name="2.1.creation_story"></a>
 ## 17 Creation Story
 
 1. At the end of the day, I had laid out the basics of XP: an always-deployable system to which features, chosen by the customer, are added and automatically tested on a fixed heartbeat.
 
+<a name="2.2.taylorism_and_software"></a>
 ## 18 Taylorism and software
 
 1. Frederick Taylor was the first industrial engineer.
@@ -394,6 +447,7 @@ Projects that start and stop frequently, with the team scattered at each shutdow
 6. Having a separate quality department sends the message that quality is exactly as important to engineering as marketing or sales. <mark style="background: #FFF3A3A6;">No one in engineering is responsible for quality, someone else is.</mark>.
 7. Putting QA as a separate department within the engineering organization also sends the message that engineering and quality are separate, parallel activities.
 
+<a name="2.3.toyota_production_system"></a>
 ## 19 Toyota Production System
 
 1. Toyota eliminates wasted effort at every step of the process of producing cars.
@@ -403,6 +457,7 @@ Projects that start and stop frequently, with the team scattered at each shutdow
 5. Taiichi Ohno, the spiritual leader of TPS, says the greatest waste is the waste of overproduction.
 6. If you make something and can't sell it, the effort that went into making it is lost.
 
+<a name="2.4.applying_xp"></a>
 ## 20 Applying XP
 
 1. Teams needd to emphasize their commitment to the organizational goals and show how their style of work supports these goals.
@@ -410,30 +465,33 @@ Projects that start and stop frequently, with the team scattered at each shutdow
 3. It is the one change you have control over. First develop your skills, then put then into service. Leading by example is a powerful form of leadership.
 4. <mark style="background: #FFF3A3A6;">Choosing a Coach. just because you understand the words doesn't mean you understand.</mark>
 
+<a name="2.5.purity"></a>
 ## 21 Purity
 
 1. The values, principles, and practices are there to provide guidance, challenge and accountability.
 
+<a name="2.6.offshore_development"></a>
 ## 22 Offshore development
 
 1. The most beneficial outcome for everyone involved is well-paying jobs (relatively speaking) for programmers everywhere and delighted customers who are willing to pay for much more software because it is so much valuable.
 2. Organizations addicted to high labor counts need to gradually reduce their team sizes while increasing throughput.
 
+<a name="2.7.the_timeless_ways_of_programming"></a>
 ## 23 The timeless ways of programming
 
 1. The architect <mark style="background: #FFF3A3A6;">Christopher Alexander </mark>(Design Pattern book inspiration author) describes a time not so long age when people knew how to design and build spaces for themselves, uniquely fitted to their own needs and to their climate culture.
 2. Alexander's dream was to return the power of designing space to the people whose lives were most affected by it.
 3. Harmony and balance are the aims of XP. Writing test is a good thing in itself, but it is only preparation for the bigger task: Fostering strong relationships between the diverse people who come together to make money with software.
 
+<a name="2.8.community_and_xp"></a>
 ## 24 Community and XP
 
 1. A supportive community is a great asset in software development.
 
+<a name="2.9.other_notes"></a>
 ## 25 Other notes
 
 1.  Book reference: Quality is Free: breaks out the zero-sum model of the four variable: time; scope; cost; and quality. <mark style="background: #FFF3A3A6;">You can't get software out the door faster by lowering quality. Instead, you get software out the door faster by raising quality</mark>.
-
-
 
 
 ---
