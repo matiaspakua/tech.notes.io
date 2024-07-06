@@ -109,4 +109,26 @@ Como se muestra en la Fig. 4, DevOps no solo incluye las fases de desarrollo (De
 **Fig. 4. QA Automation como pilar de DevOps**
 
 
+<a name="2.5.metodologia_practicas"></a>
 ## 2.5. Metodologías y Prácticas
+
+A continuación se listan y explican brevemente algunas de las prácticas esenciales que se deben considerar para aplicar la metodología DevSecOps y QA Automation.
+
+<a name="2.5.1.practica_organizacion_informacion"></a>
+### Práctica: Organización de la Información
+
+Esta práctica se entiende como: el código, las herramientas de desarrollo, soporte, documentación, las herramientas de comunicación, y cualquier otro medio de soporte que se use en el desarrollo de un producto de software, deben estar organizadas. Es común que este aspecto no esté correctamente resuelto, lo cual provoca que no haya un <mark style="background: #FFF3A3A6;">repositorio centralizado</mark> (o base de conocimiento) para almacenar y consultar toda la información asociada a un proyecto o producto.
+
+En la Fig. 5 se resalta el hecho de tener como guía, por sobre los procesos y prácticas, a la organización de la información, donde las principales características que se deben asegurar son:
+
+- Organización
+- Centralización
+- Sincronización
+- Colaboración 
+
+Luego de resolver como la información se va a organizar, queda resolver los Procesos y Prácticas que se asocian comúnmente al desarrollo de productos de software.
+
+![](../../images/fig_5_organizacion_procesos_informacion_practicas.png)
+
+**Fig. 5. Organización de procesos, información, prácticas.**
+
