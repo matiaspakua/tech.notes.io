@@ -107,3 +107,37 @@ Link: https://matiaspakua.github.io/tech.notes.io/pages/sw_eng_specialization/fi
 #softwareengineeing
 #git
 #versioncontrol
+
+
+****
+20/07/2024
+***
+
+TPF: DevSecOps desde la perspectiva de QA Automation
+
+Siguiendo con la publicación de mi TPF, va el Post 06.
+
+👇
+
+---
+
+2.5. Metodologías y Prácticas
+
+2.5.2. Práctica: Artefactos
+
+Un "artefacto" define un elemento de utilidad, que se utiliza en una o varias etapas de los procesos para aportar valor al producto final.
+
+Algunas de las principales características de los artefactos y de un repositorio de artefactos son:
+
+- 🔒 **Control de Acceso**
+- 🗄️ **Almacenamiento**
+- 🚚 **Distribución**
+- 📂 **Organización**
+- 💾 **Respaldo**
+
+Link: https://matiaspakua.github.io/tech.notes.io/pages/sw_eng_specialization/final_projects_specialization.html#2.5.2.practica_artefactos
+
+#devsecops
+#qaautomation
+#softwareengineeing
+#softwareartifacts

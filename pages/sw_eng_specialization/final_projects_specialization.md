@@ -158,11 +158,11 @@ Es importante que exista uno o varios repositorios de artefactos, según el tipo
 
 Algunas de las principales características de los artefactos y de un repositorio de artefactos son:
 
-- Control de Acceso    
-- Almacenamiento
-- Distribución
-- Organización
-- Respaldo
+- 🔒 **Control de Acceso**
+- 🗄️ **Almacenamiento**
+- 🚚 **Distribución**
+- 📂 **Organización**
+- 💾 **Respaldo**
 
 La Fig. 7 representa el un flujo de vida típico de artefactos, divido en 3 etapas:
 
