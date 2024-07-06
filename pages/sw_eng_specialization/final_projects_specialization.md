@@ -28,6 +28,7 @@
 	- [2.5 Metodologías y Prácticas](#2.5.metodologia_practicas)
 		- [2.5.1. Práctica: Organización de la Información](#2.5.1.practica_organizacion_informacion)
 		- [2.5.2. Práctica: Artefactos](#2.5.2.practica_artefactos)
+		- [2.5.3. Práctica: Trazabilidad](#2.5.3.practica_trazabilidad)
 
 <a name="1.introduction"></a>
 # 1. Introducción
@@ -171,3 +172,17 @@ La Fig. 7 representa el un flujo de vida típico de artefactos, divido en 3 etap
 1. Definición de artefactos.
 2. Actualización, modificación y trabajo colaborativo sobre los artefactos.
 3. Identificación, almacenamiento y disponibilización de los artefactos.
+
+<a name="2.5.3.practica_trazabilidad"></a>
+### 2.5.3. Práctica: Trazabilidad
+
+Una práctica indispensable de QA es asegurar la <mark style="background: #FFF3A3A6;">trazabilidad</mark> en el desarrollo de un producto de software. La trazabilidad es una característica esencial de un producto de software porque permite tener un hilo conductor, un **“camino de migas” (“breadcrumb trail”)** o inicio y un fin para una determinada funcionalidad. La Fig. 8 representa la idea conceptual de la trazabilidad, es decir, tener en claro el hilo conductor del desarrollo de un producto, desde un inicio, por ejemplo la definición de una nueva funcionalidad, hasta la UI/UX de usuario al utilizar dicha funcionalidad.
+
+![](../../images/fig_8_concepto_trazabilidad.png)
+
+**Fig 8. Concepto de Trazabilidad.**
+
+Un concepto importante de la trazabilidad es el de traza: “Huella, vestigio.” [DRAE, 2022]. La traza es lo que permite rastrear el origen (backward) o la etapa siguiente (forward) de una funcionalidad en un producto de software.
+
+**Referencia:** (REAL ACADEMIA ESPAÑOLA: Diccionario de la lengua española, 23.ª ed., [versión 23.5 en línea]. <https://dle.rae.es> 01/03/2022.)
+
