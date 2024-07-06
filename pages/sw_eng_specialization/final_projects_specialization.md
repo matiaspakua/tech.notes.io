@@ -123,10 +123,10 @@ Esta práctica se entiende como: el código, las herramientas de desarrollo, sop
 
 En la Fig. 5 se resalta el hecho de tener como guía, por sobre los procesos y prácticas, a la organización de la información, donde las principales características que se deben asegurar son:
 
-- Organización
-- Centralización
-- Sincronización
-- Colaboración 
+- 📚 **Base de conocimientos Centralizada**
+- 📂 **Organización de la información**
+- 🔄 **Sincronización de la información**
+- 🤝 **Colaboración**
 
 Luego de resolver como la información se va a organizar, queda resolver los Procesos y Prácticas que se asocian comúnmente al desarrollo de productos de software.
 

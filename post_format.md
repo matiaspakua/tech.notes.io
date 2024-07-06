@@ -74,3 +74,36 @@ Link: https://matiaspakua.github.io/tech.notes.io/pages/sw_eng_specialization/fi
 #qaautomation
 #softwareengineeing
 #rpa
+
+
+****
+17/07/2024
+***
+
+TPF: DevSecOps desde la perspectiva de QA Automation
+
+Siguiendo con la publicación de mi TPF, va el Post 05.
+
+👇
+
+---
+
+2.5. Metodologías y Prácticas
+
+A continuación se listan y explican brevemente algunas de las prácticas esenciales que se deben considerar para aplicar la metodología DevSecOps y QA Automation.
+
+2.5.1. Práctica: Organización de la Información
+
+Las principales características:
+- 📚 **Base de conocimientos Centralizada**
+- 📂 **Organización de la información**
+- 🔄 **Sincronización de la información**
+- 🤝 **Colaboración**
+
+Link: https://matiaspakua.github.io/tech.notes.io/pages/sw_eng_specialization/final_projects_specialization.html#2.5.1.practica_organizacion_informacion
+
+#devsecops
+#qaautomation
+#softwareengineeing
+#git
+#versioncontrol
