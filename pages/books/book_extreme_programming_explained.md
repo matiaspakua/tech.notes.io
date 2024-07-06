@@ -29,6 +29,18 @@
 	 - [01 What is XP?](#1.1.what_is_xp)
 	 - [02 Learning to Drive](#1.2.learning_to_drive)
 	 - [03 Values, Principles and Practices](#1.3.values_principles_practices)
+	 - [04 Values](#1.4.values)
+	 - [05 Principles](#1.5.principles)
+	 - [06 Practices](#1.6.practices)
+	 - [07 Primary Practices](#1.7.primary_practices)
+		 - [Test-First programming AKA TDD](#1.7.1.test_first_programming_tdd)
+		 - [Incremental Design](#1.7.2.incremental_design)
+	 - [](#)
+	 - [](#)
+	 - [](#)
+	 - [](#)
+	 - [](#)
+	 - [](#)
 
 <a name="1.exploring_xp"></a>
 # Section 1: Exporing XP
