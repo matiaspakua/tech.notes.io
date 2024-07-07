@@ -188,9 +188,13 @@ Siguiendo con la publicación de mi TPF, va el Post 08.
 
 2.5.4. Práctica: Identificación
 
+📌 Identificación y su importancia: auditoria, trazabilidad, organización.
+📋 Requisitos del Software
+📑Casos de Uso
+🧪 Pruebas de Software
+📂 Documentos del Proyecto
 
-
-Link: https://matiaspakua.github.io/tech.notes.io/pages/sw_eng_specialization/final_projects_specialization.html#2.5.3.practica_trazabilidad
+Link: https://matiaspakua.github.io/tech.notes.io/pages/sw_eng_specialization/final_projects_specialization.html#2.5.4.practica_identificacion
 
 #devsecops
 #qaautomation
