@@ -29,6 +29,7 @@
 		- [2.5.1. Práctica: Organización de la Información](#2.5.1.practica_organizacion_informacion)
 		- [2.5.2. Práctica: Artefactos](#2.5.2.practica_artefactos)
 		- [2.5.3. Práctica: Trazabilidad](#2.5.3.practica_trazabilidad)
+		- [2.5.4. Práctica: Identificación](#2.5.4.practica_identificacion)
 
 <a name="1.introduction"></a>
 # 1. Introducción
@@ -204,7 +205,43 @@ Para lograr trazabilidad, hay varios aspectos a considerar:
 
 **Fig. 10 Trazabilidad hacia adelante (Forward) y hacia atrás (Backward)**
 
-### Análisis de Causa Raiz (XP by K. Beck)
+### Análisis de Causa Raíz (XP by K. Beck)
 
 Link: https://matiaspakua.github.io/tech.notes.io/pages/books/book_extreme_programming_explained.html#1.9.5.root_cause_analysis
 
+
+<a name="2.5.4.practica_identificacion"></a>
+### 2.5.4. Práctica: Identificación
+
+La <mark style="background: #FFF3A3A6;">identificación</mark> de los elementos de información o artefactos es importante tanto desde el punto de vista de QA como en la operación. Para identificar los artefactos, un posible ejemplo es definir la siguiente nomenclatura general:
+
+![](../../images/practica_identificacion.png)
+
+Todos los artefactos deben ser identificados y almacenados en la base de conocimiento y se debe usar el ID de los artefactos para asociar y/o referenciar otros artefactos o documentos de cualquier tipo, de modo tal de asegurar trazabilidad en el proceso.
+
+La identificación adecuada de artefactos es crucial en la ingeniería de software para asegurar la trazabilidad, la organización y la gestión eficiente de los componentes y documentos a lo largo del ciclo de vida del proyecto. Aquí te proporciono algunos ejemplos adicionales de identificación de artefactos en diferentes áreas de la ingeniería de software:
+
+#### Requisitos del Software
+
+   - **ID de Requisitos:** REQ-001, REQ-002, REQ-003
+   - **Descripción:** Cada requisito funcional y no funcional se asigna un ID único que se usa en toda la documentación del proyecto para referenciar de manera clara y consistente.
+   - **Utilidad:** Facilita el seguimiento de la implementación de los requisitos, la gestión de cambios y la verificación de que todos los requisitos han sido cumplidos.
+
+#### Casos de Uso
+
+   - **ID de Casos de Uso:** UC-LOGIN-001, UC-REGISTER-002
+   - **Descripción:** Cada caso de uso tiene un ID único que describe la funcionalidad específica que aborda.
+   - **Utilidad:** Mejora la claridad en la documentación y permite a los desarrolladores y testers referirse a casos de uso específicos sin ambigüedad.
+
+#### Pruebas de Software
+
+   - **ID de Casos de Prueba:** TC-LOGIN-001, TC-REGISTER-002
+   - **ID de Scripts de Prueba:** TS-LOGIN-AUTOMATION-001, TS-REGISTER-AUTOMATION-002
+   - **Descripción:** Cada caso de prueba y script de prueba automatizado recibe un ID único.
+   - **Utilidad:** Facilita la trazabilidad entre los requisitos, los casos de uso y las pruebas, asegurando que todos los aspectos han sido verificados y validados adecuadamente.
+
+#### Documentos del Proyecto
+
+   - **ID de Documentos:** DOC-SRS-001, DOC-TESTPLAN-002
+   - **Descripción:** Los documentos clave del proyecto, como las especificaciones de requisitos del software (SRS) y los planes de prueba, se identifican con IDs únicos.
+   - **Utilidad:** Facilita la organización, el acceso y la referencia cruzada de los documentos, asegurando que todos los miembros del equipo puedan localizar y utilizar la información necesaria de manera eficiente.

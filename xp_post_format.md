@@ -1,5 +1,5 @@
 ****
-10/07/2024
+12/07/2024
 ***
 
 XP - Notas del libro Extreme Programming de Kent Beck
