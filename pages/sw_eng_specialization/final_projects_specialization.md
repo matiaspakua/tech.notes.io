@@ -223,25 +223,27 @@ La identificación adecuada de artefactos es crucial en la ingeniería de softwa
 
 #### Requisitos del Software
 
-   - **ID de Requisitos:** REQ-001, REQ-002, REQ-003
+   - **ID de Requisitos:** <mark style="background: #FFF3A3A6;">REQ-001</mark>, REQ-002, REQ-003
    - **Descripción:** Cada requisito funcional y no funcional se asigna un ID único que se usa en toda la documentación del proyecto para referenciar de manera clara y consistente.
    - **Utilidad:** Facilita el seguimiento de la implementación de los requisitos, la gestión de cambios y la verificación de que todos los requisitos han sido cumplidos.
 
 #### Casos de Uso
 
-   - **ID de Casos de Uso:** UC-LOGIN-001, UC-REGISTER-002
+   - **ID de Casos de Uso:** <mark style="background: #FFF3A3A6;">UC-LOGIN-001</mark>, UC-REGISTER-002
    - **Descripción:** Cada caso de uso tiene un ID único que describe la funcionalidad específica que aborda.
    - **Utilidad:** Mejora la claridad en la documentación y permite a los desarrolladores y testers referirse a casos de uso específicos sin ambigüedad.
 
 #### Pruebas de Software
 
-   - **ID de Casos de Prueba:** TC-LOGIN-001, TC-REGISTER-002
+   - **ID de Casos de Prueba:** <mark style="background: #FFF3A3A6;">TC-LOGIN-001</mark>, TC-REGISTER-002
    - **ID de Scripts de Prueba:** TS-LOGIN-AUTOMATION-001, TS-REGISTER-AUTOMATION-002
    - **Descripción:** Cada caso de prueba y script de prueba automatizado recibe un ID único.
    - **Utilidad:** Facilita la trazabilidad entre los requisitos, los casos de uso y las pruebas, asegurando que todos los aspectos han sido verificados y validados adecuadamente.
 
 #### Documentos del Proyecto
 
-   - **ID de Documentos:** DOC-SRS-001, DOC-TESTPLAN-002
+   - **ID de Documentos:**<mark style="background: #FFF3A3A6;"> DOC-SRS-001</mark>, DOC-TESTPLAN-002
    - **Descripción:** Los documentos clave del proyecto, como las especificaciones de requisitos del software (SRS) y los planes de prueba, se identifican con IDs únicos.
    - **Utilidad:** Facilita la organización, el acceso y la referencia cruzada de los documentos, asegurando que todos los miembros del equipo puedan localizar y utilizar la información necesaria de manera eficiente.
+
+![](../../images/fig_9.1_practica_identificacion_trazabilidad.png)

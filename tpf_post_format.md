@@ -171,3 +171,28 @@ Link: https://matiaspakua.github.io/tech.notes.io/pages/sw_eng_specialization/fi
 #qaautomation
 #softwareengineeing
 #softwaretraceability
+
+****
+27/07/2024
+***
+
+TPF: DevSecOps desde la perspectiva de QA Automation
+
+Siguiendo con la publicación de mi TPF, va el Post 08.
+
+👇
+
+---
+
+2.5. Metodologías y Prácticas
+
+2.5.4. Práctica: Identificación
+
+
+
+Link: https://matiaspakua.github.io/tech.notes.io/pages/sw_eng_specialization/final_projects_specialization.html#2.5.3.practica_trazabilidad
+
+#devsecops
+#qaautomation
+#softwareengineeing
+#softwaretraceability
