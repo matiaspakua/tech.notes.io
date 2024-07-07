@@ -203,3 +203,8 @@ Para lograr trazabilidad, hay varios aspectos a considerar:
 ![](../../images/fig_10_trazabilidad_adelante_hacia_atras.png)
 
 **Fig. 10 Trazabilidad hacia adelante (Forward) y hacia atrás (Backward)**
+
+### Análisis de Causa Raiz (XP by K. Beck)
+
+Link: https://matiaspakua.github.io/tech.notes.io/pages/books/book_extreme_programming_explained.html#1.9.5.root_cause_analysis
+
