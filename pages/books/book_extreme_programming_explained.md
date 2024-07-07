@@ -181,33 +181,33 @@
 <a name="1.7.primary_practices"></a>
 ## 07 Primary Practices
 
-1. **Sit together**: no matter what the client says the problem is, it is always a people problem. Technical fixes alone are not enough. It is important to sit together, to communicate with all senses.
-2. **Whole team**: include in the team people with all the skills and perspectives necessary for the project to succeed. The size of the team here is important, because we need to build trust, and trust born of collaboration.
-3. **Informative Workspace**: build a workspace where the important information is visible.
+1. 👥 **Sit together**: no matter what the client says the problem is, it is always a people problem. Technical fixes alone are not enough. It is important to sit together, to communicate with all senses.
+2. 👥 **Whole team**: include in the team people with all the skills and perspectives necessary for the project to succeed. The size of the team here is important, because we need to build trust, and trust born of collaboration.
+3. 🛠️ **Informative Workspace**: build a workspace where the important information is visible.
 
 ![](../../images/xp_informative_workspace.png)
 
-4. **Energized Work**: work only as many hours as you can be productive and only as many hours as you can sustain.
-5. **Pair Programming**: help you to: keep each other on task; improve the brainstorm refinements to the system; clarify ideas; take initiative when your partner is stuck; hold each other accountable to the team's practices.
+4. 🛠️ **Energized Work**: work only as many hours as you can be productive and only as many hours as you can sustain.
+5. 🤝 **Pair Programming**: help you to: keep each other on task; improve the brainstorm refinements to the system; clarify ideas; take initiative when your partner is stuck; hold each other accountable to the team's practices.
 
 ![](../../images/pair_programming.jpeg)
 
-6. **Stories**: plan using units of customer-visible functionality.
-7. **Weekly cycles**: plan work a week at a time. Have a meeting at the beginning of every week. during this meeting:
+6. 📖 **Stories**: plan using units of customer-visible functionality.
+7. 🔄 **Weekly cycles**: plan work a week at a time. Have a meeting at the beginning of every week. during this meeting:
 	1. review progress to date vs expected progress, blockers and other issues.
 	2. Make the customer pick this week stories.
 	3. Break the stories into tasks.
 	4. <mark style="background: #FFF3A3A6;">Start the week by writing automates tests that will run when the stories are completed</mark>, then work the rest of the week on code to pass the tests. the goal is to have a deployable software at the end of the week.
-8. **Quarterly cycle**: Plan the work a quarter at a time.
-9. **10 (Ten) minutes build**: automatically build the whole system and run all of the tests in ten minutes. An automated build becomes a stress reliever at crunch time. "Did we make a mistake?, Let's just build and see."
+8. 🔄 **Quarterly cycle**: Plan the work a quarter at a time.
+9. ⏱️ **10 (Ten) minutes build**: automatically build the whole system and run all of the tests in ten minutes. An automated build becomes a stress reliever at crunch time. "Did we make a mistake?, Let's just build and see."
 
 ![](../../images/10_minutes_build.jpeg)
 
-10. **Continuous integration**: the integration step is unpredictable but can easily take more time that the original programming. The longer you wait to integrate, the more it costs and the more unpredictable the cost become.  Waiting for the compiler and the tests is a natural time to talk about what we're just done together and how we might have done it better.
+10. 🔄 **Continuous integration**: the integration step is unpredictable but can easily take more time that the original programming. The longer you wait to integrate, the more it costs and the more unpredictable the cost become.  Waiting for the compiler and the tests is a natural time to talk about what we're just done together and how we might have done it better.
 
 ![](../../images/xp_continuous_integration.png)
 
-11. **Test-First Programming**:  writing a failing automated test before changing any code. But why?
+11. 🧪 **Test-First Programming**:  writing a failing automated test before changing any code. But why?
 	1. Avoid scope creep.
 	2. Validate coupling and cohesion.
 	3. Improve trust.
@@ -218,7 +218,7 @@
 <a name="1.7.1.test_first_programming_tdd"></a>
 ### Test-First programming AKA TDD 
 
-Write failing automated test before changing any code. Why:
+🧪 Write failing automated test before changing any code. Why:
 
 1. Reduce scope creep
 2. Improve coupling and cohesion
