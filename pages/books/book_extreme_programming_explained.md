@@ -46,17 +46,36 @@
 		- [Code and Tests](#1.9.6.code_and_test)
 		- [Single Code Base](#1.9.7.single_code_base)
 		- [Daily Deployment](#1.9.8.daily_deployment)
-	- [](#)
-	- [](#)
-	- [](#)
-	- [](#)
-	- [](#)
-	- [](#)
-	- [](#)
-	- [](#)
-	- [](#)
-	- [](#)
-	- [](#)
+		- [Negotiated Scope Contract](#1.9.9.negotiated_scope_contract)
+		- [1.9.10.pay_per_use](#1.9.10.pay_per_use)
+	- [10 The whole XP Team](#1.10.the_whole_xp_team)
+		- [Testers](#1.10.1.testers)
+		- [Architects](#1.10.2.architects)
+		- [Project Managers](#1.10.3.project_managers)
+		- [Technical Writers](#1.10.4.technical_writers)
+		- [Human Resources](#1.10.5_human_resources)
+		- [Roles](#1.10.5.roles)
+	- [11 The Theory of Constraints](#1.11.the_theory_of_constraints)
+	- [12 Planning: Managing Scope](#1.12.planning_managing_scope)
+	- [13 Testing: Early, Often and Automated](#1.13.testing_early_often_and_automated)
+	- [14 Designing: The value of time](#1.14_designing_the_value_of_time)
+		- [Simplicity](#1.14.1.simplicity)
+	- [15 Scaling XP](#1.15.scaling_xp)
+		- [Number of people](#1.15.1.number_of_people)
+		- [Time](#1.15.2.time)
+		- [Problem and Solution Complexity](#1.15.3.problem_and_solution_complexity)
+		- [Consequences of Failure](#1.15.4.consequences_of_failure)
+- [Section 2. Philosophy of XP](#2.philosophy_of_xp)
+	- [17 Creation Story](#2.1.creation_story)
+	- [18 Taylorism and software](#2.2.taylorism_and_software)
+	- [19 Toyota Production System](#2.3.toyota_production_system)
+	- [20 Applying XP](#2.4.applying_xp)
+	- [21 Purity](#2.5.purity)
+	- [22 Offshore development](#2.6.offshore_development)
+	- [23 The timeless ways of programming](#2.7.the_timeless_ways_of_programming)
+	- [24 Community and XP](#2.8.community_and_xp)
+	- [25 Other notes](#2.9.other_notes)
+- [References](#3.references)
 
 <a name="1.exploring_xp"></a>
 # Section 1: Exporing XP
@@ -525,6 +544,8 @@ Projects that start and stop frequently, with the team scattered at each shutdow
 
 
 ---
+
+<a name="3.references"></a>
 # References
 
 - Web about XP Programming: [Link](http://www.extremeprogramming.org/rules.html)
