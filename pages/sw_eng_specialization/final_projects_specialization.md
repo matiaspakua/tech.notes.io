@@ -31,6 +31,7 @@
 		- [2.5.3. Práctica: Trazabilidad](#2.5.3.practica_trazabilidad)
 		- [2.5.4. Práctica: Identificación](#2.5.4.practica_identificacion)
 		- [2.5.5. Práctica: Base de Conocimiento](#2.5.5.practica_base_conocimiento)
+		- [2.5.6. Práctica: Arquitectura de alto nivel de Procesos](#2.5.6.practica_arquitectura_alto_nivel_procesos)
 
 <a name="1.introduction"></a>
 # 1. Introducción
@@ -290,3 +291,16 @@ Un ejemplo de estructura podría ser el siguiente:
 		├── TEST-2024-06-25.log 
 		└── TEST-2024-06-26.log
 
+
+<a name="2.5.6.practica_arquitectura_alto_nivel_procesos"></a>
+### 2.5.6. Práctica: Arquitectura de alto nivel de Procesos
+
+Al comienzo o inclusive en etapas tardías, se recomienda armar una arquitectura de alto nivel de los distintos procesos. Definir los procesos como “cajas negras” con sus interfaces, para luego desarrollar la especificación de cada proceso, es un paso importante para articular los componentes y personas que van a desarrollar un producto.
+
+Para tener éxito con DevSecOps y QA Automation es imperativo definir la arquitectura de alto nivel y los procesos asociados. Tiene que estar claro y bien definido cuál es el camino del producto y del desarrollo (“continuous develop | testing | integration | delivery | security | etc..”).
+
+Si bien los procesos definen un conjunto de normas, prácticas y herramientas para cada conjunto de tareas o etapa del desarrollo de un producto, no es estrictamente necesario que cada proceso sea llevado a cabo por personas distintas. La metodología DevSecOps promueve que los equipos sean multi-disciplinarios y auto-organizados con el objetivo, a largo plazo, de que éstos procesos puedan ser llevados adelante por el mismo equipo. Parte de “acelerar” el desarrollo de un producto de software se basa en ésta idea.
+
+La premisa es que un mismo equipo lleve adelante todos los procesos, que sea una “construcción colectiva”, que se debe realizar de forma iterativa e incremental por el mismo equipo, acompañado de la cultura de la organización.
+
+En la Fig. 12 se presenta un ejemplo de un diagrama de arquitectura de alto nivel para los procesos asociados a la implementación de la metodología DevSecOps y QA.
