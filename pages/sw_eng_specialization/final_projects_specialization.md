@@ -249,6 +249,7 @@ Todos los artefactos deben ser identificados y almacenados en la base de conocim
 
 ![](../../images/fig_9.1_practica_identificacion_trazabilidad.png)
 
+**Fig. 10.1. Ejemplo de trazabilidad de artefactos**
 
 <a name="2.5.5.practica_base_conocimiento"></a>
 ### 2.5.5. Práctica: Base de Conocimiento
@@ -279,12 +280,13 @@ Un ejemplo de estructura podría ser el siguiente:
 		├── TS-LOGIN-AUTOMATION-001-LoginTestScript.py 
 		└── TS-REGISTER-AUTOMATION-002-RegisterTestScript.py
 	├── configs/ 
-			├── CFG-DB-CONN-001-DatabaseConnectionConfig.yaml 
-			├── CFG-API-ENDPOINT-002-APIEndpointsConfig.yaml 
-			└── CFG-LOGGING-003-LoggingConfig.yaml
+		├── CFG-DB-CONN-001-DatabaseConnectionConfig.yaml 
+		├── CFG-API-ENDPOINT-002-APIEndpointsConfig.yaml 
+		└── CFG-LOGGING-003-LoggingConfig.yaml
 	├── scripts/ 
 		├── backup.sh 
 		└── cleanup.sh
 	└── logs/
 		├── TEST-2024-06-25.log 
 		└── TEST-2024-06-26.log
+
