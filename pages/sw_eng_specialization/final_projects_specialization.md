@@ -30,6 +30,7 @@
 		- [2.5.2. Práctica: Artefactos](#2.5.2.practica_artefactos)
 		- [2.5.3. Práctica: Trazabilidad](#2.5.3.practica_trazabilidad)
 		- [2.5.4. Práctica: Identificación](#2.5.4.practica_identificacion)
+		- [2.5.5. Práctica: Base de Conocimiento](#2.5.5.practica_base_conocimiento)
 
 <a name="1.introduction"></a>
 # 1. Introducción
@@ -247,3 +248,43 @@ Todos los artefactos deben ser identificados y almacenados en la base de conocim
    - **Utilidad:** Facilita la organización, el acceso y la referencia cruzada de los documentos, asegurando que todos los miembros del equipo puedan localizar y utilizar la información necesaria de manera eficiente.
 
 ![](../../images/fig_9.1_practica_identificacion_trazabilidad.png)
+
+
+<a name="2.5.5.practica_base_conocimiento"></a>
+### 2.5.5. Práctica: Base de Conocimiento
+
+Todos los artefactos se recomienda almacenarlos en un <mark style="background: #FFF3A3A6;">repositorio único</mark> (por ejemplo, un disco en la nube) que permita identificar al proyecto o producto y del cual se pueda recuperar la información almacenada.
+
+![](../../images/fig_11_concepto_base_conocimiento_centralizada_nube.png)
+
+**Fig. 11. Concepto de Base de Conocimiento Centralizada y en la Nube**
+
+Se propone armar una estructura de directorios para almacenar y categorizar los artefactos asociados a cada producto. La organización de directorios debe ser compatible y fácil de identificar con los procesos que se aplican en el producto de software. Este aspecto es importante para la recuperación, identificación y almacenamiento de los artefactos que allí se almacenarán.
+
+Un ejemplo de estructura podría ser el siguiente:
+
+
+/project-root/ 
+
+	├── README.md 
+	├── docs/ 
+
+		├── DOC-SRS-001-Specification.md 
+		├── DOC-TESTPLAN-002-TestPlan.md 
+		├── DOC-ARCHITECTURE-003-ArchitectureDiagram.md 
+		└── DOC-RELEASE-004-ReleaseNotes.md
+	├── tests/
+		├── TC-LOGIN-001-UserLoginTestCase.md 
+		├── TC-REGISTER-002-UserRegisterTestCase.md 
+		├── TS-LOGIN-AUTOMATION-001-LoginTestScript.py 
+		└── TS-REGISTER-AUTOMATION-002-RegisterTestScript.py
+	├── configs/ 
+			├── CFG-DB-CONN-001-DatabaseConnectionConfig.yaml 
+			├── CFG-API-ENDPOINT-002-APIEndpointsConfig.yaml 
+			└── CFG-LOGGING-003-LoggingConfig.yaml
+	├── scripts/ 
+		├── backup.sh 
+		└── cleanup.sh
+	└── logs/
+		├── TEST-2024-06-25.log 
+		└── TEST-2024-06-26.log
