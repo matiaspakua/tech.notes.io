@@ -32,6 +32,7 @@
 		- [2.5.4. Práctica: Identificación](#2.5.4.practica_identificacion)
 		- [2.5.5. Práctica: Base de Conocimiento](#2.5.5.practica_base_conocimiento)
 		- [2.5.6. Práctica: Arquitectura de alto nivel de Procesos](#2.5.6.practica_arquitectura_alto_nivel_procesos)
+		- [2.5.7. Práctica: Integración Continua (CI)](#2.5.7.practica_integracion_continua)
 
 <a name="1.introduction"></a>
 # 1. Introducción
@@ -304,3 +305,21 @@ Si bien los procesos definen un conjunto de normas, prácticas y herramientas pa
 La premisa es que un mismo equipo lleve adelante todos los procesos, que sea una “construcción colectiva”, que se debe realizar de forma iterativa e incremental por el mismo equipo, acompañado de la cultura de la organización.
 
 En la Fig. 12 se presenta un ejemplo de un diagrama de arquitectura de alto nivel para los procesos asociados a la implementación de la metodología DevSecOps y QA.
+
+
+
+**Figura 12: Arquitectura de Procesos de Alto Nivel.**
+
+<a name="2.5.7.practica_integracion_continua"></a>
+### 2.5.7. Práctica: Integración Continua (CI)
+
+Históricamente uno de los mayores problemas en la producción o desarrollo de software es la llamada integración. Se trata de la etapa en donde se juntan todas las partes y comienza a tomar forma el producto final que deberá ser enviado a producción.
+
+Las principales características de la Integración Continua [Fowler, 2006] (CI) son:
+
+1. Integración en cada cambio.
+2. Repositorio centralizado, organizado con un "mainline"
+3. Testing y tareas automatizadas. En todos los niveles.
+4. Resultado: producto estable.
+
+**Referencia: ** Fowler, M. (2006, May 1). Continuous Integration. Martin Fowler. Retrieved February 20, 2022, from https://martinfowler.com/articles/continuousIntegration.html
