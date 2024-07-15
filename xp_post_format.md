@@ -32,7 +32,7 @@ Post inicial: https://www.linkedin.com/posts/matiasmiguez_uca-devsecops-qaautoma
 
 
 ***
-xx/07/2024
+16/07/2024
 ***
 
 **XP - Notas del libro Extreme Programming de Kent Beck**
