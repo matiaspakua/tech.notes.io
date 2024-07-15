@@ -154,25 +154,41 @@
 <a name="1.5.principles"></a>
 ## 05 Principles
 
-1. **Traceability**: In the development of safety-critical systems, the principle of traceability is at work. At any time you should be able to trace a path from the work done back to an explicit expressed need from the user.
-2. **Humanity**: The magic of great teams is that after the team members develop trust they find that they are free to be more themselves as a result of their work together.
-3. **Economics**: Somebody has to pay for all this. Software development that doesn't acknowledge economics risks the hollow victory of a "technical success".
-4. **Mutual benefit**: this is the most important XP principle. The computer business is really a people business and maintaining working relationships is important (and HARD). XP solves the communication-with-the-future problem in mutually beneficial ways:
-   a. I write automated tests that help me design and implement better today.
-   b. I carefully refactor to remove accidental complexity.
-   c choose names from a coherent and explicit set of metaphors which speeds my development.
-5. **Self-Similarity**: try copying the structure of one solution into a new context, even at different scales.
-6. **Improvement**: the cycle is to do the best you can today, striving for the awareness and understanding necessary to do better tomorrow. Put improvement to work by not waiting for perfection. Find a starting place, get started, and improve from there.
-7. **Diversity**: Conflict is the inevitable companion of diversity. Two ideas about design present an opportunity, not a problem. The principle of diversity suggest that the programmers should work together on the problem and both opinions should be valued.
-8. **Reflection**: good teams don't just do their work, they think about how they are working and why they are working. They analyze why they succeeded or failed. They don't try to hide their mistakes, but expose them and learn from them. Shared meals and coffee breaks provide an informal setting for shared reflection.
-9. **Flow**: The principle of flow suggest that for improvement, deploy smaller increments of value ever more frequently.
-10. **Opportunity**: Learn to see problems as opportunities for change. As you begin practicing XP, you will certainly encounter problems. Part of being extreme is consciously choosing to transform each problem into an opportunity.
-11. **Redundancy**: What you hope to achieve is few enough defect to maintain trust both within the team and with the customer.
-12. **Failure**: If you're having trouble succeeding, fail.
-13. **Quality**: Sacrificing quality is not effective as a mean of control. Quality is not a control variable.Projects don't go faster by accepting lower quality. They don't go slower by demanding higher quality. Pushing quality higher often results in faster delivery; while lowering quality standard often results in later, less predictable delivery. People need to do work they are proud of.
-14. **Baby Steps**: Prefer baby steps (small changes) over big, longer, complicated steps.
-15. **Accepted Responsibility**: Responsibility cannot be assigned: it can only be accepted.
-
+- **🔗 Traceability**: In the development of safety-critical systems, the principle of traceability is at work. At any time you should be able to trace a path from the work done back to an explicit expressed need from the user.
+    
+- **🤝 Humanity**: The magic of great teams is that after the team members develop trust they find that they are free to be more themselves as a result of their work together.
+    
+- **💰 Economics**: Somebody has to pay for all this. Software development that doesn't acknowledge economics risks the hollow victory of a "technical success".
+    
+- **🔄 Mutual benefit**: This is the most important XP principle. The computer business is really a people business and maintaining working relationships is important (and HARD). XP solves the communication-with-the-future problem in mutually beneficial ways:
+    
+    a. 🧪 I write automated tests that help me design and implement better today.
+    
+    b. 🧹 I carefully refactor to remove accidental complexity.
+    
+    c. 📝 I choose names from a coherent and explicit set of metaphors which speeds my development.
+    
+- **🌀 Self-Similarity**: Try copying the structure of one solution into a new context, even at different scales.
+    
+- **📈 Improvement**: The cycle is to do the best you can today, striving for the awareness and understanding necessary to do better tomorrow. Put improvement to work by not waiting for perfection. Find a starting place, get started, and improve from there.
+    
+- **🌍 Diversity**: Conflict is the inevitable companion of diversity. Two ideas about design present an opportunity, not a problem. The principle of diversity suggests that the programmers should work together on the problem and both opinions should be valued.
+    
+- **🔍 Reflection**: Good teams don't just do their work, they think about how they are working and why they are working. They analyze why they succeeded or failed. They don't try to hide their mistakes, but expose them and learn from them. Shared meals and coffee breaks provide an informal setting for shared reflection.
+    
+- **🌊 Flow**: The principle of flow suggests that for improvement, deploy smaller increments of value ever more frequently.
+    
+- **🌱 Opportunity**: Learn to see problems as opportunities for change. As you begin practicing XP, you will certainly encounter problems. Part of being extreme is consciously choosing to transform each problem into an opportunity.
+    
+- **🔁 Redundancy**: What you hope to achieve is few enough defects to maintain trust both within the team and with the customer.
+    
+- **❌ Failure**: If you're having trouble succeeding, fail.
+    
+- **🏅 Quality**: Sacrificing quality is not effective as a means of control. Quality is not a control variable. Projects don't go faster by accepting lower quality. They don't go slower by demanding higher quality. Pushing quality higher often results in faster delivery, while lowering quality standards often results in later, less predictable delivery. People need to do work they are proud of.
+    
+- **👶 Baby Steps**: Prefer baby steps (small changes) over big, longer, complicated steps.
+    
+- **✅ Accepted Responsibility**: Responsibility cannot be assigned; it can only be accepted.
 <a name="1.6.practices"></a>
 ## 06 Practices
 
@@ -247,14 +263,14 @@
 ## 09 Corollary Practices
 
 <a name="1.9.1.real_customer_involvement"></a>
-### Real customer involvement
+### 👥 Real customer involvement
 
 1. No customer at all, or a "proxy" for a real customer, leads to waste your develop feature that aren't used.
 2. <mark style="background: #FFF3A3A6;">If the customer knew how messed up software development was, they'd never trust us</mark>. ==> GOOD POINT!! Are you sure they trust you now? Software reflect the organization that builds it. Like the CONWAY's LAW:
 
 ![](../../images/conways_law_example.jpeg)
 
-**"Organizations which design systems (in the broad sense used here) are constrained to produce designs which are copies of the communication structures of these organizations."**
+📜 **Conway's Law**:  "Organizations which design systems (in the broad sense used here) are constrained to produce designs which are copies of the communication structures of these organizations."
 
 — Melvin E. Conway, How Do Committees Invent?
 
@@ -262,25 +278,25 @@
 Link: [Conway's law - Wikipedia](https://en.wikipedia.org/wiki/Conway%27s_law)
 
 <a name="1.9.2.incremental_deployment"></a>
-### Incremental deployment
+### 📈 Incremental deployment
 
 1. When replacing a legacy system, gradually take over its workloads beginning very early in the project.
 
 <a name="1.9.3.team_continuity"></a>
-### Team Continuity
+### 🛠️ Team Continuity
 
 1. <mark style="background: #FFF3A3A6;">Keep effective teams together</mark>.
 2. Value in software is created not just by what people know and do but also by their relationships and what they accomplish together.
 
 <a name="1.9.4.shrinking_teams"></a>
-### Shrinking teams
+### 🔄 Shrinking teams
 
 1. As a team grows in capability, keep its workload constant but gradually reduce its size.
 
 <a name="1.9.5.root_cause_analysis"></a>
-### Root-Cause analysis
+### 🕵️‍♂️ Root-Cause analysis
 
-1.  Every time a defect is found after development, eliminate the defect and it cause.
+1. Every time a defect is found after development, eliminate the defect and it cause.
 2. In XP, this is the process for responding to a defect:
 	1. Write an automated system-level test that demonstrate the defect, including the desire behavior.
 	2. Write a unit test with the smallest possible scope that also reproduce the defect.
@@ -291,33 +307,33 @@ Link: [Conway's law - Wikipedia](https://en.wikipedia.org/wiki/Conway%27s_law)
 
 
 <a name="1.9.6.shared_code"></a>
-### Shared Code
+### 🖥️ Shared Code
 
 1. Anyone on the team can improve any part of the system at any time.
 
 <a name="1.9.6.code_and_test"></a>
-### Code and Tests
+### 📂Code and Tests
 
 1. Maintain only the code and the test as permanent artifacts.
 2. Any artifact contributing to those two sources of value are themselves valuable. Everything else is waste.
 
 <a name="1.9.7.single_code_base"></a>
-### Single Code Base
+### 📦 Single Code Base
 
 1. There is only one code stream. You can develop in a temporary branch, but never let it live longer that a few hours.
 
 <a name="1.9.8.daily_deployment"></a>
-### Daily Deployment
+### 🚀 Daily Deployment
 
 1. Put new software into production every night.
 
 <a name="1.9.9.negotiated_scope_contract"></a>
-### Negotiated Scope Contract
+### 🤝 Negotiated Scope Contract
 
 1. Write contracts for software development that fix time, cost and quality but call for an ongoing negotiation of the precise scope of the system.
 
 <a name="1.9.10.pay_per_use"></a>
-### Pay-Per-Use
+### 💰 Pay-Per-Use
 
 1. Write pay-per-use systems, you charge for every time the system is used.
 2. Connecting money flow directly to software development provides accurate, timely information with which to drive improvement.
