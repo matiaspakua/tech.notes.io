@@ -1,4 +1,4 @@
-****
+***
 12/07/2024
 ***
 
@@ -29,3 +29,29 @@ Post inicial: https://www.linkedin.com/posts/matiasmiguez_uca-devsecops-qaautoma
 #PairProgramming 
 #TDD 
 #CICD
+
+
+***
+xx/07/2024
+***
+
+**XP - Notas del libro Extreme Programming de Kent Beck**
+
+Siguiendo con las notas del libro de XP, aquí va otro resumen de las citas que más me gustaron y me han sido útiles en el TFF de investigación (y claro, en cualquier otro ámbito de la ingeniería del software):
+
+09 Prácticas Corolarias
+
+- 👥 **Qué significa involucrar "realmente" al cliente/usuario.**
+- 📜 **La Ley de Conway**
+- 📈 **Desarrollo incremental**
+- 🛠️ **Continuidad del equipo => "Mantener los equipos efectivos juntos"**
+- 🔄 **Reducción de equipos**
+- 🕵️‍♂️ **Análisis de Causa Raíz**
+- 🖥️ **Código compartido**
+- 📂 **Artefactos, Código y pruebas**
+- 📦 **Código base único**
+- 🚀 **Deploy diarios**
+- 🤝 **Negociar el alcance de los contratos**
+- 💰 **Concepto de "pagar-por-uso"**
+
+Link: 
