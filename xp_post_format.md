@@ -54,4 +54,11 @@ Siguiendo con las notas del libro de XP, aquí va otro resumen de las citas que 
 - 🤝 **Negociar el alcance de los contratos**
 - 💰 **Concepto de "pagar-por-uso"**
 
-Link: 
+Link: https://matiaspakua.github.io/tech.notes.io/pages/books/book_extreme_programming_explained.html#1.9.corollary_practices
+
+
+#ExtremeProgramming
+#XPPractices
+#SoftwareEngineering
+#AgileDevelopment
+#ContinuousImprovement
