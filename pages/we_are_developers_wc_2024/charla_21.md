@@ -1,0 +1,1 @@
+# Fake it until you "make if". API integration testing with testcontainers and wiremock
