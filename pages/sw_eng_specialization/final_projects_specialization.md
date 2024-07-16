@@ -306,7 +306,7 @@ La premisa es que un mismo equipo lleve adelante todos los procesos, que sea una
 
 En la Fig. 12 se presenta un ejemplo de un diagrama de arquitectura de alto nivel para los procesos asociados a la implementación de la metodología DevSecOps y QA.
 
-
+![](../../images/fig_12_arquitectura_procesos_alto_nivel.png)
 
 **Figura 12: Arquitectura de Procesos de Alto Nivel.**
 
