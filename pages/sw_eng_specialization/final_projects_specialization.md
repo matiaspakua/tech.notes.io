@@ -323,3 +323,13 @@ Las principales características de la Integración Continua [Fowler, 2006] (CI)
 4. Resultado: producto estable.
 
 **Referencia: ** Fowler, M. (2006, May 1). Continuous Integration. Martin Fowler. Retrieved February 20, 2022, from https://martinfowler.com/articles/continuousIntegration.html
+
+La integración continua incluye alguna o todas las siguiente fases, que son justamente las etapas que se deben integrar durante el desarrollo de un producto de software. Al considerar las fases de la Fig. 13, integrarlas y ordenarlas de forma “continua”, se pueden ver como si fuera una tubería o **pipeline**:
+
+![](../../images/fig_13_fases_comunes_pipeline_Integracion_continua.png)
+
+**Fig. 13: Fases comunes de un pipeline de Integración Continua**
+
+Para entender la importancia de CI, se usará la analogía de un rompecabezas Fig. 14. Cada módulo de software es único, tiene una funcionalidad, se debe articular en una parte determinada, y para hacer que esa articulación funcione se deben respetar sus interfaces. Pero además, se debe validar que la posición donde se colocó corresponda a la función del módulo, y que además el módulo cumpla con su funcionalidad tanto individual como para todo el sistema:
+
+![](../../images/fig_14_concepto_integracion_rompecabezas.png)
