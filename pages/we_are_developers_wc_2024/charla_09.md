@@ -1,0 +1,1 @@
+# Specifications as the better way of software development
