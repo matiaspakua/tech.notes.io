@@ -333,3 +333,42 @@ La integración continua incluye alguna o todas las siguiente fases, que son jus
 Para entender la importancia de CI, se usará la analogía de un rompecabezas Fig. 14. Cada módulo de software es único, tiene una funcionalidad, se debe articular en una parte determinada, y para hacer que esa articulación funcione se deben respetar sus interfaces. Pero además, se debe validar que la posición donde se colocó corresponda a la función del módulo, y que además el módulo cumpla con su funcionalidad tanto individual como para todo el sistema:
 
 ![](../../images/fig_14_concepto_integracion_rompecabezas.png)
+
+**Fig. 14 Concepto de Integración. Rompecabezas.**
+
+Siguiendo con las características o propiedades que son importantes para lograr CI, surge la práctica de hacer un “**build self-testing**” que consiste en una compilación y prueba de que un producto se pueda generar correctamente. La práctica de build self-testing es muy útil cuando se hacen commits al mainline a diario.
+
+La Fig. 15 muestra un posible checklist para determinar qué tanto se adhiere al concepto de CI.
+
+Cada commit es conveniente que genere la ejecución de un “build” en un servidor de integración preparado con una copia de un ambiente, ya sea de desarrollo, testing o producción. Luego de disparar la ejecución de un build, se debe asegurar que se ejecute por completo sin problemas y si no fuera el caso, repararlo debe ser una prioridad. Con la maduración de la práctica, se deben pensar y mejorar los <mark style="background: #FFF3A3A6;">“tiempos de ejecución”</mark> de los builds, tratando de acelerarlos cuando sea posible. Para acelerar o mejorar los builds, es conveniente armar pipelines de integración con etapas (o stages) y los servidores que ejecuten los build deberían poder ser configurables para reproducir los ambientes y todas las dependencias necesarias para generar una versión del producto.
+
+![](https://martinfowler.com/bliki/images/ci-certification/sketch.png)
+
+**Fig. 15 Checklist verificación de adherencia a Continuous Integration. Imagen Fuente (Fowler, 2017)**
+
+**Referencia:** Fowler, M. (2017, January 18). ContinuousIntegrationCertification. Martin Fowler. Retrieved February 20, 2022, from https://martinfowler.com/bliki/ContinuousIntegrationCertification.html
+
+Todas estas consideraciones ayudan a la calidad del producto, la fluidez del desarrollo, y como adicional, permiten que sea fácil que cualquier persona pueda obtener el último ejecutable con los últimos cambios. 
+
+En resumen, la aplicación de CI provee la siguiente lista de beneficios:
+
+ - Visibilidad del proceso de desarrollo 
+ - Reducción de riesgos 
+ - Eliminación de puntos ciegos al reducir las etapas de integración intermedias. 
+ - Reducción de la cantidad de errores en producción 
+ - Aceleración en la generación y publicación de nuevas features 
+ - Obtención rápida de feedback 
+ - Mejora en la comunicación y colaboración
+
+Algunas prácticas recomendadas para iniciar con CI son:
+
+ - Repositorio centralizado (Fowler, 2020)
+ - Automatizar el build
+ - Comenzar con testing automatizado (poco es mejor que nada)
+ - Acelerar el build: 10 minutes rules de la metodología XP (Beck & Andres, 2004, 49)
+ - Buscar ayuda en la experiencia
+
+**Referencia:** Fowler, M. (2020, 05 28). Patterns for Managing Source Code Branches. Martin Fowler. Retrieved March 29, 2022, from https://martinfowler.com/articles/branching-patterns.html
+
+**Referencia:** Beck, K., & Andres, C. (2004). Extreme Programming Explained: Embrace Change. Pearson Education
+
