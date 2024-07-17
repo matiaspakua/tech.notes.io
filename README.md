@@ -70,6 +70,10 @@
  - [Emotional Intelligence](/pages/leadership/emotional_intelligence.md)
  - [Gestión del tiempo (Time Management)](/pages/leadership/time_management.md)
 
+# WeAreDevelopers World Congress 2024 Berlin
+
+Charlas --> [Notas de las charlas](/pages/we_are_developers_wc_2024/landing.md)
+
 # Libros Técnicos leidos
 
  * [Modern Software Engineering: Doing What Works to Build Better Software Faster, By David Farley](/pages/books/modern_software_engineering.md)
