@@ -200,3 +200,88 @@ Link: https://matiaspakua.github.io/tech.notes.io/pages/sw_eng_specialization/fi
 #qaautomation
 #softwareengineeing
 #softwaretraceability
+
+****
+DD/MM/2024
+***
+
+TPF: DevSecOps desde la perspectiva de QA Automation
+
+Siguiendo con la publicación de mi TPF, va el Post 09.
+
+👇
+
+---
+
+2.5. Metodologías y Prácticas
+
+--> 2.5.5. Práctica: Base de Conocimiento
+
+ - 📦 Concepto de Artefacto
+ - 📚 Centralización de la información
+ - 🔄 Distribución y accesibilidad (nube)
+ - 📂 Estructurar y organizar la información
+
+
+Link: https://matiaspakua.github.io/tech.notes.io/pages/sw_eng_specialization/final_projects_specialization.html#2.5.5.practica_base_conocimiento
+
+#devsecops
+#qaautomation
+#softwareengineeing
+#softwareknowledgebase
+
+****
+DD/MM/2024
+***
+
+TPF: DevSecOps desde la perspectiva de QA Automation
+
+Siguiendo con la publicación de mi TPF, va el Post 10.
+
+👇
+
+---
+
+2.5. Metodologías y Prácticas
+
+--> 2.5.6. Práctica: Arquitectura de alto nivel de Procesos
+
+Procesos de alto nivel
+Tener el camino del producto (entender la línea de producción / desarrollo)
+Equipos multi-disciplinarios
+Aplicar criterio para evitar alta "carga cognitiva"
+
+Link: https://matiaspakua.github.io/tech.notes.io/pages/sw_eng_specialization/final_projects_specialization.html#2.5.6.practica_arquitectura_alto_nivel_procesos
+
+#devsecops
+#qaautomation
+#softwareengineeing
+#softwareprocess
+
+****
+DD/MM/2024
+***
+
+TPF: DevSecOps desde la perspectiva de QA Automation
+
+Siguiendo con la publicación de mi TPF, va el Post 11.
+
+👇
+
+---
+
+2.5. Metodologías y Prácticas
+
+--> 2.5.7. Práctica: Integración Continua (CI)
+
+El mayor problema: Integración.
+Integración continua: armar el rompecabezas.
+Pipeline y tiempos de ejecución.
+Beneficios de CI
+
+Link: https://matiaspakua.github.io/tech.notes.io/pages/sw_eng_specialization/final_projects_specialization.html#2.5.7.practica_integracion_continua
+
+#devsecops
+#qaautomation
+#softwareengineeing
+#softwareprocess
