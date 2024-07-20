@@ -144,7 +144,7 @@ Link: https://matiaspakua.github.io/tech.notes.io/pages/sw_eng_specialization/fi
 
 
 ****
-24/07/2024
+23/07/2024
 ***
 
 TPF: DevSecOps desde la perspectiva de QA Automation
@@ -173,7 +173,7 @@ Link: https://matiaspakua.github.io/tech.notes.io/pages/sw_eng_specialization/fi
 #softwaretraceability
 
 ****
-27/07/2024
+25/07/2024
 ***
 
 TPF: DevSecOps desde la perspectiva de QA Automation
@@ -202,7 +202,7 @@ Link: https://matiaspakua.github.io/tech.notes.io/pages/sw_eng_specialization/fi
 #softwaretraceability
 
 ****
-DD/MM/2024
+29/07/2024
 ***
 
 TPF: DevSecOps desde la perspectiva de QA Automation
@@ -231,7 +231,7 @@ Link: https://matiaspakua.github.io/tech.notes.io/pages/sw_eng_specialization/fi
 #softwareknowledgebase
 
 ****
-DD/MM/2024
+31/07/2024
 ***
 
 TPF: DevSecOps desde la perspectiva de QA Automation
@@ -259,7 +259,7 @@ Link: https://matiaspakua.github.io/tech.notes.io/pages/sw_eng_specialization/fi
 #softwareprocess
 
 ****
-DD/MM/2024
+02/08/2024
 ***
 
 TPF: DevSecOps desde la perspectiva de QA Automation
