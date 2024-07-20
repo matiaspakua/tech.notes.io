@@ -278,6 +278,7 @@ El mayor problema: Integración.
 Integración continua: armar el rompecabezas.
 Pipeline y tiempos de ejecución.
 Beneficios de CI
+Estrategia de Rollback (siempre puede salir algo mal)
 
 Link: https://matiaspakua.github.io/tech.notes.io/pages/sw_eng_specialization/final_projects_specialization.html#2.5.7.practica_integracion_continua
 
