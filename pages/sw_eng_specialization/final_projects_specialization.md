@@ -356,6 +356,16 @@ Cada commit es conveniente que genere la ejecución de un “build” en un serv
 
 **Referencia:** Fowler, M. (2017, January 18). ContinuousIntegrationCertification. Martin Fowler. Retrieved February 20, 2022, from https://martinfowler.com/bliki/ContinuousIntegrationCertification.html
 
+--- 
+
+### "Siempre" puede salir algo mal
+
+**UPDATE: 19/07/2024**. El mundo despertó con uno de los mayores fallos informáticos de la historia, el cual afecto a infraestructura critica: aeropuertos, hospitales, sistemas financieros y bancos entre muchos otros. La causa fue una actualización de un driver de seguridad (Crowdstrike) en los sistemas Windows. El resultado: la pantalla azul de la muerte (un sistema inaccesible).
+
+**Lección aprendida:** se puede desarrollar procesos, métodos, herramientas y pipelines con altísima calidad, pero igualmente pueden ocurrir errores, por lo tanto, nuestros procesos y pipelines de CI deben tener preparados mecanismos de recuperación ante fallas criticas: GREEN/BLUE deployment, CANARY deploy, etc.
+
+--- 
+
 Todas estas consideraciones ayudan a la calidad del producto, la fluidez del desarrollo, y como adicional, permiten que sea fácil que cualquier persona pueda obtener el último ejecutable con los últimos cambios. 
 
 En resumen, la aplicación de CI provee la siguiente lista de beneficios:
