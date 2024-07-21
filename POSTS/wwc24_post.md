@@ -32,3 +32,12 @@ A lo largo de las siguientes semana(s) iré compartiendo mis notas de las 20 cha
 20. Serverless Java in action: cloud agnostic design patterns and tips >> Kevin Dubois & Daniel Oh
 
 Link al programa completo ==> [WeAreDevelopers World Congress • July 2024 • Berlin, Germany](https://www.wearedevelopers.com/world-congress/program/)
+
+K-Lagan
+
+#WWC24
+#wearedevs
+#softwaredevelopment
+#ai
+#cybersecurity
+#softwarearchitecture

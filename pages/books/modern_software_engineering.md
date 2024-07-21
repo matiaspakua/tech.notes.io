@@ -21,7 +21,18 @@
 
 ![](../../images/modern_software_engineering.jpg)
 
-## 1. Introduction
+---
+
+# Table of Contents
+
+- [Introduction](#introduction)
+- [Optimize for Learning]()
+- [Optimize for Managing Complexity]()
+- [Tools to support Engineering in Software]()
+- [References]()
+
+<a name="introduction"></a>
+# Introduction
 
 1. **Engineering**:  The practical application of science. Software engineer need to become experts at learning.
 2. **What is software Engineering**? Software engineering is the application of an empirical, scientific approach to finding efficient, economic solutions to practical problems. We must become experts at learning and experts at managing complexity.
@@ -44,6 +55,7 @@
 	4. Controlling variables
 	5. Continuous delivery
 
+<a name="2_what_is_engineering?"></a>
 ## 2. What is Engineering?
 
 1. The first software engineer: **Margaret Hamilton**. Her approach was the focus on how thinks fail - <mark style="background: #FFF3A3A6;">the ways in which we get thinks wrong: "failing safely"</mark>. The assumption is that we can never code for every scenario, so how do we code in ways that allow our systems to cope with unexpected and still make progress?
@@ -56,6 +68,7 @@
 4. **Design engineering** is a deeply exploratory approach to gaining knowledge.
 5. **Trade-offs**: one of the key trade-off that is vital to consider in the production of software, is "<mark style="background: #FFF3A3A6;">coupling</mark>".
 
+<a name="3_fundamentals_engineering_approach"></a>
 ## 3. Fundamentals of an Engineering Approach
 
 1. **The important of measurements**: The most important concepts are stability and throughput. Stability is tracked by:
@@ -80,8 +93,10 @@
 	4. Information hiding/abstraction
 	5. Coupling
 
+<a name="optimize_for_learning"></a>
 # Optimize for Learning
 
+<a name="4_working_iteratively"></a>
 ## 4. Working Iteratively
 
 1. **Iteration** allows us to learn, react and adapt. It's at the heart of all exploratory learning and is fundamental to any real knowledge acquisition.
@@ -90,6 +105,7 @@
 
 - **REFERENCE**:  my notes of Extreme Programming:  [XP](book_extreme_programming_explained.md)
 
+<a name="5_feedback"></a>
 ## 5. Feedback
 
 1. **Importance**: <mark style="background: #FFF3A3A6;">without feedback, there is no opportunity to learn</mark>. Feedback allows us to establish a source of evidence for our decisions.
@@ -100,6 +116,7 @@
 6. **Modern times**: we are going to "Business and IT" ==> "Digital Business". The telemetry can provide insights into what customer wants, needs and behaviour that event the customers themselves are not conscious of.
 7. **Feedback in Organization and Culture**: All this concepts of feedback are generally not apply in the Organization and in the culture. When people apply this kind of approach they get much better result: "Lean Thinking" => The Toyoya Waty is an example of this.
 
+<a name="5_incrementalism"></a>
 ## 6. Incrementalism
 
 1. **Definition**: incremental design is directly related to any modular design application, in which components can be freely substituted if improved to ensure better performance.
@@ -116,6 +133,7 @@
 7. **Incremental design**: the agile concepts is based on the premise that we can begin work before we have all the answers. Accepting the we don't know, doubting what we do know, and working to learn fast is a step from dogma toward engineering. 
 8. **Avoid over-engineering**: never add code for thinks that I don't know are needed now. The important concept with code is that code need to be simple and small, that allows me to change when I learn new thinks.
 
+<a name="7_empiricism"></a>
 ## 7. Empiricism
 
 1. **Definition**: Empiricism, in the philosophy of science, is defined as "emphasizing evidence, especially as discovered in experiments".
@@ -123,6 +141,7 @@
 3. **Avoid Self-deception**: "<mark style="background: #FFF3A3A6;">The first principle is that you must not fool yourself and you are the easiest person to fool.</mark>"
 4. **Guided by Reality**: the best way to start is to assume that what you know, and what you think, is probably wrong and then figure out how you could find our how it is wrong.
 
+<a name="8_being_experimental"></a>
 ## 8. Being Experimental
 
 1. **Definition**. Richard Feyman says "Science is the belief in the ignorance of experts". "Have no respect whatsoever for authority; forget who said it and instead look what he start with, where he ends up, and ask yourself, 'it is reasonable?'".
@@ -130,8 +149,10 @@
 3. **Experiments**: we can run literally millions of experiments every second if we want, using unit tests. What I am thinking of is organizing our development around a series of iterative experiments that make tiny predictions.
 4. **Creating new knowledge:** we can create a new experiment, a test, that define the new knowledge that we expect to observe, and then we can add knowledge in the form of working code that meet that needs.
 
+<a name="optimize_managing_complexity"></a>
 # Optimize for Managing Complexity
 
+<a name="9_modularity"></a>
 ## 9. Modularity
 
 1. **Good design:** the cornerstones are modularity and separation of concerns. How can we create code and systems that will grow and evolve over time but that are appropriately compartmentalized to limit damage if we make a mistake?
@@ -144,7 +165,7 @@
 
 ![](../../images/modularity.png)
 
-
+<a name="10_cohesion"></a>
 ## 10. Cohesion
 
 1. **Modularity and cohesion**: good design in software is really about the way in which we organize the code in the system that we create.
@@ -157,6 +178,7 @@
 
 ![](../../images/cohesion.png)
 
+<a name="11_separation_concerns"></a>
 ## 11. Separation of concerns
 
 1. **Definition**: is defined as "a design principle for separating a computer program into distinct sections such that each section addresses a separate concern". Stuff that is unrelated is far apart, and the stuff that is relates is close together.
@@ -168,6 +190,7 @@
 
 ![](../../images/separation_of_concerns.png)
 
+<a name="12_information_hiding_abstraction"></a>
 ## 12. Information Hiding and Abstraction.
 
 1. **Information hiding**: its based on hiding the behavior of the code. It includes implementation details as well as any data that it may or may nor use.
@@ -191,6 +214,7 @@
 7. **Isolate Third-Party systems and code**:  always insulate your code from third-party code with your own abstractions. Thinks carefully about what you allow "inside" your code. For example, inside our code only allow language concepts that are native, nothing outside this.
 8. **Always prefer to hide information**. Period.
 
+<a name="13_managing_coupling"></a>
 ## 13. Managing coupling
 
 **<mark style="background: #FFF3A3A6;">Def. Coupling</mark>** is defined as "the degree of interdependence between software modules; a measure of how closely connected two routines or modules are; the strength of the relationships between modules".
