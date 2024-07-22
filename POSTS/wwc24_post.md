@@ -1,16 +1,22 @@
-WeAreDevelopers World Congress Berlin 2024
+Hola K-LAGAN, me llamo Matias Miguez, hace 1 año y poco más que estoy en Barcelona gracias a K-LAGAN. Actualmente me desarrollo como Desarrollador para el cliente AXA Partners. Soy un apasionado de la tecnología en general, desarrollador y como se llama a veces, un "techie". 
 
-Del 17 al 19 de Julio tuvo lugar en Berlin el WeAreDevelopers World Congress 2024, el cual reunió a miles de desarrolladores, speakers, cargos directivos de empresa, leyendas de la tecnología, entusiastas y más.
+Dejo aquí mi LinkedIn para que conectemos, hablemos, compartamos contenido y más:   https://www.linkedin.com/in/matiasmiguez/
 
-Link a la web ==> [WeAreDevelopers World Congress • July 2024 • Berlin, Germany](https://www.wearedevelopers.com/world-congress/)
+Les cuento un poco por donde anduve. Hace poco más de 6 meses, surgió la idea de ir a un congreso de desarrolladores llamado: WeAreDevelopers. Fue la primera vez que asistí a un congreso internacional de ésta magnitud, asi que desde diciembre del año pasado que vengo organizando éste viaje. La idea surgió principalmente por la curiosidad de ver y escuchar lo que habla en el mundo de la tecnología de primera mano y de la voz de los principales referentes a nivel mundial. Ahora, los detalle:
 
-Durante dos día (18 y 19, el miércoles 17/07 tuvo lugar un "pre-checking event" en distintas locaciones de la ciudad), se dieron una gran cantidad de charlas sobre todo tipo de temas asociados al mundo de la tecnología.
+==> 💻 WeAreDevelopers World Congress Berlin 2024 💻 <==
 
-A nivel personal puede ver, escuchar y hasta estrechar la mano de personas que han influenciado enormemente el mundo tecnológico actual, de lo cual me llevo una gran cantidad de aprendizaje y entusiasmo (también muchas ganas de profundizar en tantos temas que no se si me da la vida).
+Del 17 al 19 de julio tuvo lugar en Berlín el WeAreDevelopers World Congress, el cual reunió a miles de desarrolladores, speakers, cargos directivos de empresas, leyendas de la tecnología, entusiastas y más. 🌍💻
 
-A lo largo de las siguientes semana(s) iré compartiendo mis notas de las 20 charlas a las cuales asistí ("si" => 20 charlas, fueron 2 días intensos). Adelanto la lista y agradezco a los speakers:
+Link a la web => https://www.wearedevelopers.com/world-congress/
 
-1. Evolutionary Architecture: the art of making decisions  >> Jose Enrique Calderon Sanz
+Durante dos días (18 y 19, ya que el miércoles 17/07 fue un "pre-checking event" en distintas locaciones de la ciudad), se llevaron a cabo una gran cantidad de charlas y talleres asociados al mundo de la tecnología.
+
+Fue genial ver, escuchar y hasta estrechar la mano de personas que han influenciado enormemente el mundo tecnológico, de lo cual me llevo una gran cantidad de aprendizaje, entusiasmo y muchas ganas de profundizar en tantos temas que no sé si me dará la vida. 🤝✨
+
+A lo largo de las siguientes semanas iré compartiendo mis notas de las 20 charlas a las cuales asistí (¡sí, 20 charlas! Fueron dos días intensos). Adelanto la lista: 📚👏
+
+1. Evolutionary Architecture: the art of making decisions >> Jose Enrique Calderon Sanz
 2. Architecture Antipattern >> Andreas Voigt
 3. Next Level Enterprise Architecture: Modular, Flexible, Scalable and IA ready? >> Maik Wietheger & Jan-Christoph Schlieker
 4. Architecting the future: leveraging AI, Cloud, and data for business Sucess >> Panelistas: Christian Ertler & Marc Binder & Karin Janina Schweizer & Tomislav Tipuric
@@ -31,13 +37,9 @@ A lo largo de las siguientes semana(s) iré compartiendo mis notas de las 20 cha
 19. Modern data Architectures need software engineering >> Matthias Niehoff
 20. Serverless Java in action: cloud agnostic design patterns and tips >> Kevin Dubois & Daniel Oh
 
-Link al programa completo ==> [WeAreDevelopers World Congress • July 2024 • Berlin, Germany](https://www.wearedevelopers.com/world-congress/program/)
+Link al programa completo ==> https://www.wearedevelopers.com/world-congress/program/
 
-K-Lagan
+En las próximas semanas ampliare el contenido en post de LinkedIn, pero además voy a realizar algunas "píldoras formativas" en K-LAGAN para compartir lo que se hablo en el congreso, organizado por temas y con casos prácticos para sea algo del estilo hands-on!
 
-#WWC24
-#wearedevs
-#softwaredevelopment
-#ai
-#cybersecurity
-#softwarearchitecture
+Nos vemos pronto!
+Un saludo. Matias
