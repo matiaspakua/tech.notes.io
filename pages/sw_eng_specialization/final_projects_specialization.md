@@ -210,7 +210,7 @@ Para lograr trazabilidad, hay varios aspectos a considerar:
 
 ### Análisis de Causa Raíz (XP by K. Beck)
 
-Link: https://matiaspakua.github.io/tech.notes.io/pages/books/book_extreme_programming_explained.html#1.9.5.root_cause_analysis
+Link: [XP book notes: Root Analysis](https://matiaspakua.github.io/tech.notes.io/pages/books/book_extreme_programming_explained.html#1.9.5.root_cause_analysis)
 
 
 <a name="2.5.4.practica_identificacion"></a>
