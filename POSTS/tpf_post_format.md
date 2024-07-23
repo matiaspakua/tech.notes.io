@@ -246,10 +246,10 @@ Siguiendo con la publicación de mi TPF, va el Post 10.
 
 --> 2.5.6. Práctica: Arquitectura de alto nivel de Procesos
 
-Procesos de alto nivel
-Tener el camino del producto (entender la línea de producción / desarrollo)
-Equipos multi-disciplinarios
-Aplicar criterio para evitar alta "carga cognitiva"
+🔄 Procesos de alto nivel
+🚀 Tener el camino del producto (entender la línea de producción / desarrollo)
+🤝 Equipos multi-disciplinarios
+🧠 Aplicar criterio para evitar alta "carga cognitiva"
 
 Link: https://matiaspakua.github.io/tech.notes.io/pages/sw_eng_specialization/final_projects_specialization.html#2.5.6.practica_arquitectura_alto_nivel_procesos
 
@@ -274,11 +274,12 @@ Siguiendo con la publicación de mi TPF, va el Post 11.
 
 --> 2.5.7. Práctica: Integración Continua (CI)
 
-El mayor problema: Integración.
-Integración continua: armar el rompecabezas.
-Pipeline y tiempos de ejecución.
-Beneficios de CI
-Estrategia de Rollback (siempre puede salir algo mal)
+🔄  El mayor problema: Integración.
+🧩 Integración continua: armar el rompecabezas.   
+⏱️ ⏩ Pipeline y tiempos de ejecución. 
+🧪 Testing automatizado
+🛠️ Beneficios de CI  
+🔙⚠️ Estrategia de Rollback (siempre puede salir algo mal) 
 
 Link: https://matiaspakua.github.io/tech.notes.io/pages/sw_eng_specialization/final_projects_specialization.html#2.5.7.practica_integracion_continua
 
