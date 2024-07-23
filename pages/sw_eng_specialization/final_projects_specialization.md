@@ -310,7 +310,7 @@ En la Fig. 12 se presenta un ejemplo de un diagrama de arquitectura de alto nive
 
 **Figura 12: Arquitectura de Procesos de Alto Nivel.**
 
-Otro aspecto importante a tener en cuenta respecto a ésta práctica es que se debe analizar a los equipos, contextos y complejidad de los procesos y las herramientas y tecnologías asociadas a cada uno. Tener en cuenta la <mark style="background: #FFF3A3A6;">carga cognitiva</mark> que se asigna, debido a que en equipos poco maduros y sin suficiente capacidad para afrontar la masiva cantidad de conceptos a manejar, puede generar efectos adversos en lugar de positivo. 
+Otro aspecto importante a tener en cuenta respecto a ésta práctica es que se debe analizar a los equipos, contextos y complejidad de los procesos y las herramientas y tecnologías asociadas a cada uno. Tener en cuenta la <mark style="background: #FFF3A3A6;">carga cognitiva</mark> 🧠 que se asigna, debido a que en equipos poco maduros y sin suficiente capacidad para afrontar la masiva cantidad de conceptos a manejar, puede generar efectos adversos en lugar de positivo. 
 
 Como todo lo que se desarrollara en el presente trabajo: para cada punto, además de los conceptos técnicos y específicos, aplicar en primera medida:
 
@@ -338,7 +338,7 @@ La integración continua incluye alguna o todas las siguiente fases, que son jus
 
 **Fig. 13: Fases comunes de un pipeline de Integración Continua**
 
-Para entender la importancia de CI, se usará la analogía de un rompecabezas Fig. 14. Cada módulo de software es único, tiene una funcionalidad, se debe articular en una parte determinada, y para hacer que esa articulación funcione se deben respetar sus interfaces. Pero además, se debe validar que la posición donde se colocó corresponda a la función del módulo, y que además el módulo cumpla con su funcionalidad tanto individual como para todo el sistema:
+Para entender la importancia de CI, se usará la analogía de un rompecabezas 🧩Fig. 14. Cada módulo de software es único, tiene una funcionalidad, se debe articular en una parte determinada, y para hacer que esa articulación funcione se deben respetar sus interfaces. Pero además, se debe validar que la posición donde se colocó corresponda a la función del módulo, y que además el módulo cumpla con su funcionalidad tanto individual como para todo el sistema:
 
 ![](../../images/fig_14_concepto_integracion_rompecabezas.png)
 
@@ -358,7 +358,7 @@ Cada commit es conveniente que genere la ejecución de un “build” en un serv
 
 --- 
 
-### "Siempre" puede salir algo mal
+### "Siempre" puede salir algo mal 🔙⚠️
 
 **UPDATE: 19/07/2024**. El mundo despertó con uno de los mayores fallos informáticos de la historia, el cual afecto a infraestructura critica: aeropuertos, hospitales, sistemas financieros y bancos entre muchos otros. La causa fue una actualización de un driver de seguridad (Crowdstrike) en los sistemas Windows. El resultado: la pantalla azul de la muerte (un sistema inaccesible).
 
@@ -380,11 +380,11 @@ En resumen, la aplicación de CI provee la siguiente lista de beneficios:
 
 Algunas prácticas recomendadas para iniciar con CI son:
 
- - Repositorio centralizado (Fowler, 2020)
- - Automatizar el build
- - Comenzar con testing automatizado (poco es mejor que nada)
- - Acelerar el build: 10 minutes rules de la metodología XP (Beck & Andres, 2004, 49)
- - Buscar ayuda en la experiencia
+ - 📚 Repositorio centralizado (Fowler, 2020)
+ - 🤖Automatizar el build
+ - 🧪 Comenzar con testing automatizado (poco es mejor que nada)
+ - ⏱️ ⏩Acelerar el build: 10 minutes rules de la metodología XP (Beck & Andres, 2004, 49)
+ - 🧠 Buscar ayuda en la experiencia
 
 **Referencia:** Fowler, M. (2020, 05 28). Patterns for Managing Source Code Branches. Martin Fowler. Retrieved March 29, 2022, from https://martinfowler.com/articles/branching-patterns.html
 
