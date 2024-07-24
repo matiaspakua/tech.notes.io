@@ -38,7 +38,9 @@
 - [11. Separation of concerns](#11_separation_concerns)
 - [12. Information Hiding and Abstraction.(#12_information_hiding_abstraction)
 - [13. Managing coupling](#13_managing_coupling)
-- [References]()
+- [14. The tools of an engineering discipline](#14_tools_engineering_discipline)
+- [15. The modern software Engineer](#15_modern_software_engineer)
+- [References](#references)
 
 <a name="introduction"></a>
 # Introduction
@@ -264,6 +266,7 @@
 
 # Tools to support Engineering in Software
 
+<a name="14_tools_engineering_discipline"></a>
 ## 14. The tools of an engineering discipline
 
 1. **What is software development?** Solve problems, and build some checks into our process before dive into production. This checks are the <mark style="background: #FFF3A3A6;">"test"</mark>.
@@ -364,6 +367,7 @@ In this test code, we can identify the measurements points:
 7. **Deployability**. CD is on the idea of working so that our software is always in a releasable state. The other concept here is "releasebility", which implies some features completeness and utility to users. The difference is that "deployability" means that the software is safe to release into production, even if some features are not yet ready for use and are hidden in some ways.
 8. **Controlling the Variables**. this means that we want the same result every time that we deploy our software.
 
+<a name="15_modern_software_engineer"></a>
 ## 15. The modern software Engineer.
 
 1. **What's make a modern software engineer?** Testability, deployability, speed, controlling the variables and continuous delivery.
@@ -377,7 +381,7 @@ In this test code, we can identify the measurements points:
 
 2. **Digitally disruptive organizations**. Control the variables, keep relates ideas close together with cohesion, and keep unrelated ideas apart with modularity, separation of concerns, abstraction, and reductions in coupling.
 
-
+<a name="references"></a>
 # References
 
 [Amazon.com: Modern Software Engineering: Doing What Works to Build Better Software Faster: by Farley, David](https://www.amazon.com/Modern-Software-Engineering-Discipline-Development/dp/0137314914)
