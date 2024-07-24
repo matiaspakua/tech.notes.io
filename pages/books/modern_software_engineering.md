@@ -36,7 +36,7 @@
 - [9. Modularity](#9_modularity)
 - [10. Cohesion](#10_cohesion)
 - [11. Separation of concerns](#11_separation_concerns)
-- [12. Information Hiding and Abstraction.(#12_information_hiding_abstraction)
+- [12. Information Hiding and Abstraction](#12_information_hiding_abstraction)
 - [13. Managing coupling](#13_managing_coupling)
 - [14. The tools of an engineering discipline](#14_tools_engineering_discipline)
 - [15. The modern software Engineer](#15_modern_software_engineer)
