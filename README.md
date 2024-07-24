@@ -12,7 +12,7 @@
 
 --- 
 
-# General (sin categoria específica)
+# 🌐General (sin categoria específica)
 
 - [Introduction and notes on NoSQL Databases](/pages/general_topic/nosql_the_basis_of.md) 
 - [Specialisation Building Cloud Computing Solutions at Scale](/pages/general_topic/specialization_building_cloud_computing_solutions_at_scale.md)
@@ -22,7 +22,7 @@
 - [Tech Trends 2023](/pages/general_topic/tech_trends_2023.md)
 - [A reflection on Software Engineering: A Journey of Creativity and Rigor](/pages/general_topic/reflection_on_software_engineering.md)
 
-# Desarrollo, Programación
+# 💻 Desarrollo, Programación
 
 - [Spring Framework Notes](/pages/development/spring_framework_notes.md)
 - [On Java notes](/pages/development/on_java_notes.md)
@@ -31,7 +31,7 @@
 - [Getting Started In Spring Development](/pages/development/getting_started_spring_development.md)
 - [Advance Your Spring Development Skills](/pages/development/advance_your_spring_development_skills.md)
 
-# Software and System Testing
+# 🧪 Software and System Testing
 
 - [Gherkin and Automation](/pages/testing/gherkin_and_automation.md)
 - [RobotFramework to test satellites](/pages/testing/robotframework_to_test_satellites.md)
@@ -39,7 +39,7 @@
 - [Test Automation (spanish). A book, a web site](https://nicopaez.gitbook.io/test-automation/)
 - [BDD with Cucumber for Java course](/pages/testing/bdd_with_cucumber_java_notes.md) <span style="color:red"> ( In progress ) </span>
 
-# Ingeniería de Software
+# 🛠️ Ingeniería de Software
 
 - [Agile and SCRUM. The perks of know nothing](/pages/software_engineering/agile_and_scrum.md)
 - [Waterfall: what really means the paper](/pages/software_engineering/waterfall.md)
@@ -47,13 +47,13 @@
 - [Software engineering timeline](/pages/software_engineering/software_engineering_timeline.md) <span style="color:red"> In progress... </span>
 - [Generative AI](/pages/software_engineering/generative_ai.md)
 
-# Software y Arquitectura de sistemas
+# 🏗️ Software y Arquitectura de sistemas
 
 - [On hexagonal Architecture notes](/pages/sw_and_system_architecture/on_hexagonal_architecture_notes.md)
 - [Vertical Slicing Architectures](/pages/sw_and_system_architecture/vertical_slicing_architectures.md)
 - [Sustainable Software Architecture](/pages/sw_and_system_architecture/sustainable_software_architecture.md)
 
-# Cyberseguridad
+# 🔒 Ciberseguridad
 
 * [Conference h4cked 2022](/pages/cybersecurity/cybersecurity_h4ck3d.md)
 * [Cybersecurity Foundations](/pages/cybersecurity/cybersecurity_foundations.md)
@@ -61,7 +61,7 @@
 * [Programming Foundations: Web Security](/pages/cybersecurity/programming_foundations_web_security.md)
 * [DevOps Foundations: DevSecOps](/pages/cybersecurity/dev_sec_ops_foundations.md)
 
-# Liderazgo y colaboración
+# 🤝 Liderazgo y colaboración
 
  - [What The Little Prince teach about engineering](/pages/leadership/what_the_little_prince_teach_about_engineering.md) 
  - [Notes on Masterclass Dev to Tech Lead](/pages/leadership/dev_to_tech_lead.md)
@@ -70,11 +70,11 @@
  - [Emotional Intelligence](/pages/leadership/emotional_intelligence.md)
  - [Gestión del tiempo (Time Management)](/pages/leadership/time_management.md)
 
-# WeAreDevelopers World Congress 2024 Berlin
+# 🌍 WeAreDevelopers World Congress 2024 Berlin
 
 Charlas --> [Notas de las charlas](/pages/we_are_developers_wc_2024/landing.md)
 
-# Libros Técnicos leidos
+# 📚 Libros Técnicos leídos
 
  * [Modern Software Engineering: Doing What Works to Build Better Software Faster, By David Farley](/pages/books/modern_software_engineering.md)
  * [Extreme Programming Explained](/pages/books/book_extreme_programming_explained.md)
@@ -89,7 +89,7 @@ Charlas --> [Notas de las charlas](/pages/we_are_developers_wc_2024/landing.md)
  * Structured Computer Organization, 5 ed. Tanenbaum
  * Computer Networks, 5 ed. Tanenbaum
 
-# Libros técnicos (en curso)
+# 📖 Libros técnicos (en curso)
  
  -	Clean Code: A Handbook of Agile Software Craftsmanship by Robert C. Martin (13%)
  - ReWork: Change the Way You Work Forever, By David Heinemeier Hansson and Jason Fried (71%)
@@ -98,7 +98,7 @@ Charlas --> [Notas de las charlas](/pages/we_are_developers_wc_2024/landing.md)
  - Spring in Action, 5th Edition by Craig Walls (80%)
  - HEAD FIRST JAVA, 3RD EDITION: A BRAIN-FRIENDLY GUIDE (70%)
 
-# Web interesantes / libros
+# 🌐Web interesantes / libros
 
 - [Shape Up. A book, a web site](https://basecamp.com/shapeup)
 - [Xtrem TDD](https://xtrem-tdd.netlify.app/)
