@@ -392,7 +392,7 @@ Algunas prácticas recomendadas para iniciar con CI son:
 
 
 
-<a name="2.5.8.practica_integracion_continua"></a>
+<a name="2.5.8.practica_falla_inicio_rapido"></a>
 ### 2.5.8. Práctica: Fallar desde el Inicio y Rápido
 
 Para lograr una integración fluida y dinámica, se debe contar con servidores de integración continua que, como primer paso, hagan la construcción (build self-testing) del producto, pero mucho más importante es contar con buenas bases de QA Automation (Fitzpatrick, 2018), (Hristov, n.d.), (Rehkopf, n.d.). La base de testing debe incluir: 
@@ -417,3 +417,8 @@ Los objetivos fundamentales son:
 2. Encontrar problemas lo más rápido posible
 
 El testing es fundamental y deben ser automatizados en su mayoría. No importa la forma de trabajo que se quiera implementar, se debe armar una buena base de test automáticos y manuales donde se requiera.
+
+#### Pirámide de Testing
+
+
+![](../../images/testing_pyramid_and_CI.png)
