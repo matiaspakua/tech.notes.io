@@ -37,14 +37,14 @@
 - [RobotFramework to test satellites](/pages/testing/robotframework_to_test_satellites.md)
 - [On Unit Test, TDD and BDD](/pages/testing/on_unit_test_tdd_and_bdd.md)
 - [Test Automation (spanish). A book, a web site](https://nicopaez.gitbook.io/test-automation/)
-- [BDD with Cucumber for Java course](/pages/testing/bdd_with_cucumber_java_notes.md) <span style="color:red"> ( In progress ) </span>
+- [BDD with Cucumber for Java course](/pages/testing/bdd_with_cucumber_java_notes.md) <span style="color:red"> ( pendiente... ) </span>
 
 # 🛠️ Ingeniería de Software
 
 - [Agile and SCRUM. The perks of know nothing](/pages/software_engineering/agile_and_scrum.md)
 - [Waterfall: what really means the paper](/pages/software_engineering/waterfall.md)
 - [The History of the project A7 by David Parnas](/pages/software_engineering/the_history_of_the_project_A7_by_David_Parnas.md)
-- [Software engineering timeline](/pages/software_engineering/software_engineering_timeline.md) <span style="color:red"> In progress... </span>
+- [Software engineering timeline](/pages/software_engineering/software_engineering_timeline.md) <span style="color:red"> en progreso... </span>
 - [Generative AI](/pages/software_engineering/generative_ai.md)
 
 # 🏗️ Software y Arquitectura de sistemas
@@ -78,7 +78,7 @@ Charlas --> [Notas de las charlas](/pages/we_are_developers_wc_2024/landing.md)
 
  * [Modern Software Engineering: Doing What Works to Build Better Software Faster, By David Farley](/pages/books/modern_software_engineering.md)
  * [Extreme Programming Explained](/pages/books/book_extreme_programming_explained.md)
- * [The Mythical Man-Month: Essays on Software Engineering, by Fred Brooks](/pages/books/the_mythical_man_month.md)  <span style="color:red"> Read done, writing notes in progress... </span>
+ * [The Mythical Man-Month: Essays on Software Engineering, by Fred Brooks](/pages/books/the_mythical_man_month.md)  <span style="color:red"> transcribiendo notas... </span>
  * Applying UML and Patterns: An Introduction to Object-Oriented Analysis and Design and Iterative Development, Craig Larman
  * Thinking in Java 2nd Edition, by Bruce Eckel
  * C Programming Language, 2nd Edition, by de Brian W. Kernighan and Dennis M. Ritchie
@@ -109,7 +109,7 @@ Charlas --> [Notas de las charlas](/pages/we_are_developers_wc_2024/landing.md)
 - [The C4 model for visualising software architecture by Simon Brown](https://c4model.com/)
 - [On Microservices. The complete reference guide](https://microservices.io/)
 - [The Architecture of Open Source Applications. A book, a web site](http://aosabook.org/en/index.html)
-
+ - [Hexagonal Me](https://jmgarridopaz.github.io/content/articles.html)  <span style="color:red"> nueva web para chusmear!</span>
 
 ---
 
