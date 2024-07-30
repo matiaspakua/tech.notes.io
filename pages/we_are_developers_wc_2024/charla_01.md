@@ -114,6 +114,7 @@ Example: [monorepo-vs-multirepo](https://github.com/joelparkerhenderson/architec
 
 ---
 
+![](../../images/ADR_example.png)
 
 ---
 
