@@ -1032,6 +1032,8 @@ The power of REST lies in the way it references a Resource, and what the Request
  * For DELETE: use HTTP method DELETE.
 
 
+![](../../images/common_http_verb_operations.png)
+
 ## REST in SpringBoot
 
 ### Spring Annotations and Component Scan
