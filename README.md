@@ -147,6 +147,6 @@ Charlas --> [Notas de las charlas](/pages/we_are_developers_wc_2024/landing.md)
  * 1984. George Orwell (23%)
 
 
-# Blog siempre en trabajo en progreso, como el pan de cada día!!
+# Blog siempre en progreso, como el pan de cada día!!
 
 ![](images/tech_and_bread.jpeg)
