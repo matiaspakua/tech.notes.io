@@ -928,68 +928,6 @@ Spring Boot takes advantage of Spring Core’s Inversion of Control (IoC) contai
 
 For example, you might want to use a different database for local development than for your live, public-facing application. Your application code shouldn't care about this distinction; if it did, you’d have to hard-code every possible scenario into your application logic. Instead, Spring Boot allows you to provide an external configuration that specifies how and when such dependencies are used.
 
-## REST, CRUD, and HTTP
-
-Let’s start with a concise definition of REST: Representational State Transfer. In a RESTful system, data objects are called Resource Representations. The purpose of a RESTful API (Application Programming Interface) is to manage the state of these Resources.
-
-Said another way, you can think of “state” being “value” and “Resource Representation” being an “object” or "thing". Therefore, REST is just a way to manage the values of things. Those things might be accessed via an API, and are often stored in a persistent data store, such as a database.
-
-![CRUP-REST-API](../../images/crud-rest-api.png)
-
-A frequently mentioned concept when speaking about REST is CRUD. 
-
-CRUD stands for “Create, Read, Update, and Delete”. These are the four basic operations that can be performed on objects in a data store. We’ll learn that REST has specific guidelines for implementing each one.
-
-Another common concept associated with REST is the Hypertext Transfer Protocol. In HTTP, a caller sends a Request to a URI. A web server receives the request, and routes it to a request handler. The handler creates a Response, which is then sent back to the caller.
-
-The components of the Request and Response are:
-
-Request
-
-```bash
-Method (also called Verb)
-URI (also called Endpoint)
-Body
-```
-
-Response
-
-```bash
-Status Code
-Body
-```
-
-The power of REST lies in the way it references a Resource, and what the Request and Response look like for each CRUD operation. Let’s take a look at what our API will look like when we're done with this course:
-
- * For CREATE: use HTTP method POST.
- * For READ: use HTTP method GET.
- * For UPDATE: use HTTP method PUT.
- * For DELETE: use HTTP method DELETE.
-
-
-## REST in SpringBoot
-
-### Spring Annotations and Component Scan
-
-One of the main things Spring does is to configure and instantiate objects. These objects are called Spring Beans, and are usually created by Spring (as opposed to using the Java new keyword). You can direct Spring to create Beans in several ways.
-
-This happens at application startup. The Bean is stored in Spring’s IoC container. From here, the bean can be injected into any code that requests it.
-
-### Spring Web Controllers
-
-In Spring Web, Requests are handled by Controllers. 
-
-```java
-@RestController
-	public class CashCardController {
-}
-
-```
-
-That’s all it takes to tell Spring: “create a REST Controller”. The Controller gets injected into Spring Web, which routes API requests (handled by the Controller) to the correct method.
-
-A Controller method can be designated a handler method, to be called when a request that the method knows how to handle (called a “matching request”) is received.
-
 
 ## API Contracts & JSON
 
@@ -1055,7 +993,67 @@ Software development teams love to move fast. So how do you go fast forever? By 
 3. **Refactor**: Look for opportunities to simplify, reduce duplication, or otherwise improve the code without changing any behavior—to refactor.
 4. Repeat!
 
+## REST, CRUD, and HTTP
 
+Let’s start with a concise definition of REST: Representational State Transfer. In a RESTful system, data objects are called Resource Representations. The purpose of a RESTful API (Application Programming Interface) is to manage the state of these Resources.
+
+Said another way, you can think of “state” being “value” and “Resource Representation” being an “object” or "thing". Therefore, REST is just a way to manage the values of things. Those things might be accessed via an API, and are often stored in a persistent data store, such as a database.
+
+![CRUP-REST-API](../../images/crud-rest-api.png)
+
+A frequently mentioned concept when speaking about REST is CRUD. 
+
+CRUD stands for “Create, Read, Update, and Delete”. These are the four basic operations that can be performed on objects in a data store. We’ll learn that REST has specific guidelines for implementing each one.
+
+Another common concept associated with REST is the Hypertext Transfer Protocol. In HTTP, a caller sends a Request to a URI. A web server receives the request, and routes it to a request handler. The handler creates a Response, which is then sent back to the caller.
+
+The components of the Request and Response are:
+
+Request
+
+```bash
+Method (also called Verb)
+URI (also called Endpoint)
+Body
+```
+
+Response
+
+```bash
+Status Code
+Body
+```
+
+The power of REST lies in the way it references a Resource, and what the Request and Response look like for each CRUD operation. Let’s take a look at what our API will look like when we're done with this course:
+
+ * For CREATE: use HTTP method POST.
+ * For READ: use HTTP method GET.
+ * For UPDATE: use HTTP method PUT.
+ * For DELETE: use HTTP method DELETE.
+
+
+## REST in SpringBoot
+
+### Spring Annotations and Component Scan
+
+One of the main things Spring does is to configure and instantiate objects. These objects are called Spring Beans, and are usually created by Spring (as opposed to using the Java new keyword). You can direct Spring to create Beans in several ways.
+
+This happens at application startup. The Bean is stored in Spring’s IoC container. From here, the bean can be injected into any code that requests it.
+
+### Spring Web Controllers
+
+In Spring Web, Requests are handled by Controllers. 
+
+```java
+@RestController
+	public class CashCardController {
+}
+
+```
+
+That’s all it takes to tell Spring: “create a REST Controller”. The Controller gets injected into Spring Web, which routes API requests (handled by the Controller) to the correct method.
+
+A Controller method can be designated a handler method, to be called when a request that the method knows how to handle (called a “matching request”) is received.
 
 
 ---
