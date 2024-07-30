@@ -7,17 +7,19 @@
 ---
 ## Introducción
 
-"Sagrada familia". la originalidad consiste en regresar a los orígenes. Gaudi Quote.
-
-Que aprender de la arquitectura clásica. Tenemos más de 12.000 años de historia construyendo estructuras físicas.
-
 ![](../../images/architecture_timeline_to_software.png)
 
 ---
 
-![](../../images/legos_software_architecture.png)
+"Sagrada familia". la originalidad consiste en regresar a los orígenes. Gaudi Quote.
+
+Que aprender de la arquitectura clásica. Tenemos más de 12.000 años de historia construyendo estructuras físicas.
+
+---
 
 Legos => sirven para crear representaciones físicas de "ideas", software es similar a los legos pero sin el aspecto físico.
+
+![](../../images/legos_software_architecture.png)
 
 ---
 
@@ -53,9 +55,11 @@ Del Libro: The software architecture elevator. Gregor Hohpe.
 
 ## Experimentar para eliminar la Complejidad
 
-![](../../images/sagrada_familia_experiment_model.jpg)
-
 **Ejemplo**: Experimento de Gaudi con los pesos dados vueltas para modelar la física y pesos de la iglesia. Proof-of-concepts de las estatuas.
+
+---
+
+![](../../images/sagrada_familia_experiment_model.jpg)
 
 ---
 
@@ -82,6 +86,24 @@ web -> [The C4 model for visualising software architecture](https://c4model.com/
 
 ---
 
+## C2 - Contenedor
+
+![](../../images/c4model_Containers.png)
+
+---
+
+## C3 - Componente
+
+![](../../images/c4model_Components.png)
+
+---
+
+## C4 - Código
+
+![](../../images/c4model_class-diagram.png)
+
+---
+
 ## Cómo Documentar? ADR's
 
 --> ADR or SAD -> lo más sencillo son ADR.
@@ -89,6 +111,9 @@ web -> [The C4 model for visualising software architecture](https://c4model.com/
 web: [adr.github.io](https://adr.github.io/)
 
 Example: [monorepo-vs-multirepo](https://github.com/joelparkerhenderson/architecture-decision-record/tree/main/locales/en/examples/monorepo-vs-multirepo)
+
+---
+
 
 ---
 
