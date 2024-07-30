@@ -1057,6 +1057,8 @@ That’s all it takes to tell Spring: “create a REST Controller”. The Contro
 
 A Controller method can be designated a handler method, to be called when a request that the method knows how to handle (called a “matching request”) is received.
 
+![](../../images/spring_rest_api_lifecycle.png)
+
 
 ---
 ## Java Records
