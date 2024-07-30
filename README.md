@@ -74,11 +74,12 @@
 
 Charlas --> [Notas de las charlas](/pages/we_are_developers_wc_2024/landing.md)
 
-# 📚 Libros Técnicos leídos
+# 📚 Libros leídos
 
  * [Modern Software Engineering: Doing What Works to Build Better Software Faster, By David Farley](/pages/books/modern_software_engineering.md)
  * [Extreme Programming Explained](/pages/books/book_extreme_programming_explained.md)
  * [The Mythical Man-Month: Essays on Software Engineering, by Fred Brooks](/pages/books/the_mythical_man_month.md)  <span style="color:red"> transcribiendo notas... </span>
+ *  ReWork: Change the Way You Work Forever, By David Heinemeier Hansson and Jason Fried <span style="color:red"> transcribiendo notas... </span>
  * Applying UML and Patterns: An Introduction to Object-Oriented Analysis and Design and Iterative Development, Craig Larman
  * Thinking in Java 2nd Edition, by Bruce Eckel
  * C Programming Language, 2nd Edition, by de Brian W. Kernighan and Dennis M. Ritchie
@@ -89,14 +90,14 @@ Charlas --> [Notas de las charlas](/pages/we_are_developers_wc_2024/landing.md)
  * Structured Computer Organization, 5 ed. Tanenbaum
  * Computer Networks, 5 ed. Tanenbaum
 
-# 📖 Libros técnicos (en curso)
+# 📖 Libros en curso...
  
- -	Clean Code: A Handbook of Agile Software Craftsmanship by Robert C. Martin (13%)
- - ReWork: Change the Way You Work Forever, By David Heinemeier Hansson and Jason Fried (71%)
+ - Clean Code: A Handbook of Agile Software Craftsmanship by Robert C. Martin (13%)
  - Refactoring: improving the design of existing code, by Martin Fowler (5%)
  - Working effectively with legacy code, by Michael Feathers (5%)
  - Spring in Action, 5th Edition by Craig Walls (80%)
  - HEAD FIRST JAVA, 3RD EDITION: A BRAIN-FRIENDLY GUIDE (70%)
+ - Habito Atomico, James Clear
 
 # 🌐Web interesantes / libros
 
