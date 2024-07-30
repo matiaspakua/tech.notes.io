@@ -1,14 +1,38 @@
 # Evolutionary Architecture: the art of making decisions
 
+![](../../images/sagrada_familia_columns.jpg)
 
-Comenzó con "la Sagrada familia". la originalidad consiste en regresar a los orígenes. Gaudi Quote.
-Que aprender de la arquitectura clásica.
-Arquitectura evolutiva: el negocio siempre quiere cambios y los quiere ahora y baratos. => "**decisiones**". 
-The software architecture elevator. Gregor Hohpe.
+## Introducción
+
+"Sagrada familia". la originalidad consiste en regresar a los orígenes. Gaudi Quote.
+
+Que aprender de la arquitectura clásica. Tenemos más de 12.000 años de historia construyendo estructuras físicas.
+
+Legos => sirven para crear representaciones físicas de "ideas", software es similar a los legos pero sin el aspecto físico.
+
+
+## Arquitectura evolutiva 
+
+El negocio siempre quiere cambios y los quiere ahora y baratos. => "**decisiones**". 
+
+Las grandes preguntas de la ingeniería de software:
+
+1. Como <mark style="background: #FFF3A3A6;">hacer planes a mediano/largo plazo</mark>, cuando las cosas cambian en el transcurso del tiempo.
+2. Como puedo <mark style="background: #BBFABBA6;">prevenir que el producto se degrade</mark>, con el transcurso del tiempo.
+
+Como responder a éstas preguntas?
+
+## Framework para toma de decisiones
+
+Del Libro: The software architecture elevator. Gregor Hohpe. 
+
+**Poner foco en decisiones pertinentes**
 
 1. Decisiones no triviales.
 2. Deben tener un downside
 3. Meaningful.
+
+
 
 --> <mark style="background: #FFF3A3A6;">SIMPLICIDAD</mark> como el verdadero NORTE.
 --> Hacer cosas complejas no siempre es la mejor opción.
