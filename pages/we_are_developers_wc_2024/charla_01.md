@@ -13,11 +13,11 @@
 
 "Sagrada familia". la originalidad consiste en regresar a los orígenes. Gaudi Quote.
 
-Que aprender de la arquitectura clásica. Tenemos más de 12.000 años de historia construyendo estructuras físicas.
+Que aprender de la arquitectura clásica? Tenemos más de 11.000 años de historia construyendo estructuras físicas.
 
 ---
 
-Legos => sirven para crear representaciones físicas de "ideas", software es similar a los legos pero sin el aspecto físico.
+Analogía con el juego de Legos => sirven para crear representaciones físicas de "ideas", el software es similar a los legos pero sin el aspecto físico.
 
 ![](../../images/legos_software_architecture.png)
 
@@ -123,6 +123,10 @@ Example: [monorepo-vs-multirepo](https://github.com/joelparkerhenderson/architec
 * No mandarlas por e-mails.
 * Hacer decisiones que sean fáciles de volver-atrás.
 * Hacer algo, una parte y dejarla de base para el resto. Que esa decisión quede aislada en una parte.
+
+---
+
+![](../../images/architecture_decisions_rollback_evolve.png)
 
 --- 
 
