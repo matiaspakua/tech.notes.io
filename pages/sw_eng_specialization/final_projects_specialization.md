@@ -33,6 +33,7 @@
 		- [2.5.5. Práctica: Base de Conocimiento](#2.5.5.practica_base_conocimiento)
 		- [2.5.6. Práctica: Arquitectura de alto nivel de Procesos](#2.5.6.practica_arquitectura_alto_nivel_procesos)
 		- [2.5.7. Práctica: Integración Continua (CI)](#2.5.7.practica_integracion_continua)
+		- [2.5.8. Práctica: Fallar desde el Inicio y Rápido (Testing)](#2.5.8.practica_falla_inicio_rapido)
 
 <a name="1.introduction"></a>
 # 1. Introducción
