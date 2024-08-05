@@ -393,7 +393,7 @@ Algunas prácticas recomendadas para iniciar con CI son:
 
 
 <a name="2.5.8.practica_falla_inicio_rapido"></a>
-### 2.5.8. Práctica: Fallar desde el Inicio y Rápido
+### 2.5.8. Práctica: Fallar desde el Inicio y Rápido (Testing)
 
 Para lograr una integración fluida y dinámica, se debe contar con servidores de integración continua que, como primer paso, hagan la construcción (build self-testing) del producto, pero mucho más importante es contar con buenas bases de QA Automation (Fitzpatrick, 2018), (Hristov, n.d.), (Rehkopf, n.d.). La base de testing debe incluir: 
 

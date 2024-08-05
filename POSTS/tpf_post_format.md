@@ -259,12 +259,12 @@ Link: https://matiaspakua.github.io/tech.notes.io/pages/sw_eng_specialization/fi
 #softwareprocess
 
 ****
-05/08/2024
+15/08/2024
 ***
 
 TPF: DevSecOps desde la perspectiva de QA Automation
 
-Siguiendo con la publicación de mi TPF, va el Post 11.
+Siguiendo con la publicación de mi TPF, va el Post 12.
 
 👇
 
@@ -272,18 +272,26 @@ Siguiendo con la publicación de mi TPF, va el Post 11.
 
 2.5. Metodologías y Prácticas
 
---> 2.5.7. Práctica: Integración Continua (CI)
+--> 2.5.8. Práctica: Fallar desde el Inicio y Rápido (Testing)
 
-🔄  El mayor problema: Integración.
-🧩 Integración continua: armar el rompecabezas.   
-⏱️ ⏩ Pipeline y tiempos de ejecución. 
-🧪 Testing automatizado
-🛠️ Beneficios de CI  
-🔙⚠️ Estrategia de Rollback (siempre puede salir algo mal) 
+Para lograr una integración fluida y dinámica, se debe contar con servidores de integración continua que, como primer paso, hagan la construcción (build self-testing) del producto, pero mucho más importante es contar con buenas bases de QA Automation (plan de tests, scripts, test de varias categoría, análisis de evidencia y resultados, etc.)
 
-Link: https://matiaspakua.github.io/tech.notes.io/pages/sw_eng_specialization/final_projects_specialization.html#2.5.7.practica_integracion_continua
+ - Sobra la importancia de obtener feedback rápido:
+ - Los distintos tipos de tests:
+● Test Unitarios 🧪 
+● Test de Componentes 🧩  
+● Test de Integración 🔄  
+● Test E2E 🏁  
+● Test de Performance ⚡  
+● Test de Carga (load) 📈  
+● Test de Seguridad 🔒
+ - Pirámide de Testing
+
+Link: 
 
 #devsecops
 #qaautomation
 #softwareengineeing
 #softwareprocess
+#testing
+#testpyramid
