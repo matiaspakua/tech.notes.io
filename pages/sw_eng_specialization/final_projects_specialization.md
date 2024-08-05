@@ -420,5 +420,14 @@ El testing es fundamental y deben ser automatizados en su mayoría. No importa l
 
 #### Pirámide de Testing
 
+La analogía de una pirámide se usa  para representar visualmente la cantidad y la prioridad de diferentes tipos de pruebas. Esta representación es útil por varias razones:
+
+- **Distribución de Cantidad**: La base más ancha de la pirámide representa la mayor cantidad de pruebas unitarias que deben realizarse. A medida que subimos, la cantidad de pruebas disminuye, con menos pruebas de integración, aún menos pruebas de componentes, y menos aún de pruebas end-to-end (E2E), de rendimiento y seguridad. Esto refleja la práctica recomendada de tener una gran cantidad de pruebas unitarias debido a su rapidez y costo efectivo, con una menor cantidad de pruebas más lentas y costosas en los niveles superiores.
+
+- **Complejidad y Costo**: La base más ancha también sugiere que las pruebas en este nivel (unitarias) son más simples y menos costosas de ejecutar. A medida que subimos en la pirámide, las pruebas se vuelven más complejas y costosas, tanto en términos de tiempo como de recursos necesarios.
+
+- **Estabilidad y Rapidez de Feedback**: En la base de la pirámide, las pruebas unitarias proporcionan un feedback rápido y son menos propensas a errores de configuración. A medida que avanzamos hacia pruebas de integración y pruebas E2E, el tiempo de feedback aumenta debido a la mayor complejidad y la necesidad de más infraestructura.
+    
+- **Frecuencia de Ejecución**: Las pruebas en la base de la pirámide (unitarias) se ejecutan con mayor frecuencia en el ciclo de desarrollo, por ejemplo, con cada commit o integración continua. Las pruebas en los niveles superiores, debido a su costo y tiempo, se ejecutan con menos frecuencia, por ejemplo, en integraciones diarias o semanales, o antes de las liberaciones.
 
 ![](../../images/testing_pyramid_and_CI.png)
