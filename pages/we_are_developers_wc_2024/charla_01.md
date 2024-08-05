@@ -5,6 +5,15 @@
 ![](../../images/sagrada_familia_columns.jpg)
 
 ---
+# Autor
+
+José Enrique Calderón Sanz
+Lead Software Engineer -  J.P Morgan & Chase
+
+Linkedin: https://www.linkedin.com/in/josecalderonsanz
+
+---
+
 ## Introducción
 
 ![](../../images/architecture_timeline_to_software.png)
