@@ -59,7 +59,7 @@ Del Libro: The software architecture elevator. Gregor Hohpe.
 
 ---
 
-![](../../images/sagrada_familia_experiment_model.jpg)
+![](../../images/sagrada_familia_experiment_model.png)
 
 ---
 
@@ -135,3 +135,7 @@ Example: [monorepo-vs-multirepo](https://github.com/joelparkerhenderson/architec
  - Juntar todos los ADR en un mismo lugar.
  - Documentar usando formatos sencillos (markdown)
  - Proveer un mecanismo de búsqueda / gestión ==> Modelo de AI para acceder a la información y poder hacer preguntas.
+
+---
+
+![](../../images/disponibilidad_informacion_con_AI_LLM.png)
