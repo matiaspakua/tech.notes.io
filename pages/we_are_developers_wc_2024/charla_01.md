@@ -28,6 +28,8 @@ Que aprender de la arquitectura clásica? Tenemos más de 11.000 años de histor
 
 Analogía con el juego de Legos => sirven para crear representaciones físicas de "ideas", el software es similar a los legos pero sin el aspecto físico.
 
+---
+
 ![](../../images/legos_software_architecture.png)
 
 ---
@@ -51,9 +53,63 @@ Del Libro: The software architecture elevator. Gregor Hohpe.
 
 --> **Poner foco en decisiones pertinentes**
 
+---
+
 1. Decisiones no triviales.
+
+Estas son decisiones que <mark style="background: #FFF3A3A6;">no tienen una respuesta obvia o estándar</mark>. Implican un análisis cuidadoso y una comprensión profunda del problema, ya que afectan significativamente el diseño y el comportamiento del sistema. Estas decisiones suelen requerir la evaluación de múltiples <mark style="background: #BBFABBA6;">alternativas</mark> y sus respectivas consecuencias.
+
+---
+
+_Ejemplo_: Decidir entre una arquitectura de microservicios y una monolítica para una nueva aplicación empresarial.
+
+---
+
+![](../../images/microservice_vs_monolito.png)
+
+---
+
 2. Deben tener un downside
-3. Meaningful.
+
+Se refiere a que las decisiones de arquitectura de software suelen tener<mark style="background: #FFF3A3A6;"> desventajas o "costos"</mark> asociados. No existe una solución perfecta; por lo tanto, es crucial identificar y considerar los posibles inconvenientes o compromisos que una decisión puede acarrear. Reconocer estos "downsides" ayuda a <mark style="background: #BBFABBA6;">mitigar riesgos</mark> y a preparar<mark style="background: #ADCCFFA6;"> estrategias de contingencia</mark>.
+
+---
+
+_Ejemplo_: Elegir utilizar una base de datos NoSQL en lugar de una base de datos relacional tradicional.
+
+---
+
+| **Aspecto**             | **Base de Datos Relacional** | **Base de Datos NoSQL**          |
+|-------------------------|-----------------------------|----------------------------------|
+| **Escalabilidad**       | Limitada horizontal         | Complejidad horizontal           |
+| **Modelo de Datos**     | Esquemas rígidos            | Esquemas flexibles               |
+| **Transacciones**       | ACID garantizado            | Consistencia eventual            |
+| **Consultas Complejas** | Soporte robusto             | Limitaciones                     |
+| **Mantenimiento**       | Mayor mantenimiento         | Menor mantenimiento              |
+| **Consistencia**        | Consistencia fuerte         | Consistencia eventual            |
+| **Rendimiento**         | Potencialmente lento        | Alto rendimiento                 |
+| **Costo**               | Costoso                     | Económico, pero variable         |
+
+--- 
+ 
+3. Decisiones significativas: Meaningful.
+
+Estas decisiones tienen un impacto considerable en el sistema y su desarrollo. No se centran en detalles menores o decisiones que pueden ser revertidas fácilmente, sino en aquellas que <mark style="background: #FFF3A3A6;">afectan aspectos críticos del sistema</mark>, como su escalabilidad, rendimiento, seguridad o mantenibilidad. Las decisiones significativas tienen un <mark style="background: #BBFABBA6;">efecto duradero y son difíciles de cambiar </mark>una vez implementadas, por lo que deben tomarse con cuidado y reflexión.
+
+---
+
+_Ejemplo_: Adoptar un marco de autenticación y autorización (como OAuth) para la gestión de acceso en una aplicación de alto riesgo.
+
+---
+
+
+| **Alternativa**       | **Características**                    | **Impacto en el Sistema**            |
+|-----------------------|----------------------------------------|--------------------------------------|
+| **OAuth 2.0**         | Protocolos estándar, amplia adopción   | Seguridad robusta, implementación compleja |
+| **SAML (Security Assertion Markup Language)** | Federado, basado en XML                 | Integración con empresas, alto overhead  |
+| **JWT (JSON Web Tokens)** | Simple, ligero, sin estado          | Fácil de usar, menos seguro sin SSL   |
+
+---
 
 --> <mark style="background: #FFF3A3A6;">SIMPLICIDAD</mark> como el verdadero NORTE.
 --> Hacer cosas complejas no siempre es la mejor opción.
