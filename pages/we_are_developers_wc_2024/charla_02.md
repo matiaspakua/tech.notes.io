@@ -1,32 +1,47 @@
 # Architecture Antipattern
 
+![](../../images/antipatterns_concept_board.png)
+
+---
+
+## Que son los anti-patrones de arquitectura?
+
+Consecuencias negativas de aplicar una solución, de la evolución de las arquitecturas, decisiones, contexto, negocio, la vida.
+
+**Video**:  https://youtu.be/BNTt2aLB1tg
+
 Stefan Tilkov, Goto conference. Achitecture antipatterns.
 
 ---
 
-## Que son los antopatrones de architectura?
 
-consecuencias negativas de aplicar una solución. Consecuencia de la evolución de las arquitecturas, decisiones, contexto, negocio.
+## Antipattern: Emotional Attachment
 
----
+Preferencia de una tecnología, una misma solución que ya se conoce, un lenguaje de programación o estar "casado" con una tecnología en particular.
 
-## Caso de Estudio
-
-Descripción del template o la estructura.
+Estar en una zona de confort y querer solucionar todo con las herramientas que ya conoces. A veces es conveniente, pero no siempre y puede traer problemas.
 
 ---
 
-## Emotional (mis)attachement
+Una empresa de desarrollo de software para seguros desarrolló su propio middleware tipo CORBA que integraba un ORB, servicios DCOM y muchas más funciones.
 
-preferencia de una tecnología, una misma solución que ya se conoce, un lenguaje de programación o estar casado con una tecnología en particular.
+**Ventajas**: tecnología propia, conocer los detalles, implementar soluciones custom.
 
-Estar en una zona de confort y querer solucionar todo con las herramientas que ya conoces.
+**Desventajas**: costo elevado (no es parte del negocio), obsolescencia de la tecnología, transferencia de conocimiento dificil.
+
+
+Ejemplo: https://architecture-antipatterns.tech/case_studies/diy_middleware.html
 
 ---
+
+![](../../images/antipattern_emotional_attachment_diy.png)
+
+---
+
 
 ## Misapplied Generecity
 
-Una solución muy generica para ser usada para todo!! Termina siendo tan flexible que es compleja de desarrollar, usar, mejorar o corregir. 
+Una solución muy genérica para ser usada para todo!! Termina siendo tan flexible que es compleja de desarrollar, usar, mejorar o corregir. 
 
 Para prevenir: KISS, hacerlo 3 veces antes.
 
