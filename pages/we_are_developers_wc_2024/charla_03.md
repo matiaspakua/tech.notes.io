@@ -1,36 +1,51 @@
 # Next Level Enterprise Architecture: Modular, Flexible, Scalable and IA ready?
 
-## Contexto
+![](../../images/fi_logo.png)
 
-FI (empresa alemana)
-Servicios financieros, uno de los más grandes de Alemania.
-50 M personas/clientes
-Multicanal
-Múltiples soluciones
+---
 
-113 M de cuentas
-188 Billones de TX por año.
-300.000 dispositivos.
+## Introducción y Contexto
 
-## modern banking (evolución)
+ - FI (empresa alemana)
+ - Servicios financieros, uno de los más grandes de Alemania.
+ - 50 M personas/clientes
+ - Multicanal
+ - Múltiples soluciones
+ - 113 M de cuentas
+ - 188 Billones de TX por año.
+ - 300.000 dispositivos.
 
---> evolución.
-Mobile.
-Personal y Social
-Conveniencia y a-demanda
-All connected
-REsponsable, sustentable.
-Acelerada por AI.
+---
+
+## Evolución de los sistemas bancarios modernos
+
+**Evolución**
+-> Mobile.
+---> Personal y Social
+-----> Conveniencia y a-demanda
+-------> IoT, todo conectado y disponible.
+---------->Responsable y sustentable.
+-------------> Acelerada por AI.
 
 Desde 1980 hasta la actualidad. Desde mainframes hasta cloud native.
 
-## Next-Level
+---
 
-Estandarización
-Modular, flexible, multicanales
+## Cual es el Siguiente nivel? Como alcanzarlo?
+
+---
+
+ - Estandarización
+ - Modular, flexible, multicanales
 --> <mark style="background: #FFF3A3A6;">LEGO model</mark> para arquitecturas modernas
 
-## Modernization
+---
+
+![](lego_model_modern_architecture.png)
+
+---
+
+## Recomendaciones para la modernización
 
 Perspectiva de cliente, negocio y desarrollo.
 1700 desarrolladores.
