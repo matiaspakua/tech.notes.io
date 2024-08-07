@@ -71,12 +71,9 @@ Perspectiva de cliente, negocio y desarrollo.
 
 ---
 
-- **Reunionitis** 📅:
-    - Exceso de reuniones innecesarias que interrumpen el flujo de trabajo y el tiempo dedicado a tareas importantes.
-- **Falta de Definiciones y Roadmaps No Claros** 🗺️:
-    - Falta de claridad en los objetivos, especificaciones y planificaciones que conduce a confusión y retrabajo.
-- **No Proveer Capacitaciones y No Permitir Experimentar** 🚫🧪:
-    - No ofrecer oportunidades de formación y desarrollo profesional, ni permitir la experimentación y la innovación, lo que limita el crecimiento y la adaptabilidad de los desarrolladores.
+- **Reunionitis** 📅
+- **Falta de Definiciones y Roadmaps No Claros** 🗺️
+- **No Proveer Capacitaciones y No Permitir Experimentar** 🚫🧪
 
 ---
 
@@ -86,8 +83,7 @@ Perspectiva de cliente, negocio y desarrollo.
 
  3. **Preguntarles a los desarrolladores**: opiniones, ideas, invitarlos a "darle" forma a la tecnología de la compañía.
 
-
-Estos factores resultan en un win-win, para las personas y para la compañía. Reduce costos y aumenta el buen ambiente de desarrollo.
+<mark style="background: #FFF3A3A6;">Estos factores resultan en un win-win, para las personas y para la compañía. Reduce costos y aumenta el buen ambiente de desarrollo.</mark>
 
 ---
 

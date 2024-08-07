@@ -48,7 +48,7 @@ Ejemplo: https://architecture-antipatterns.tech/case_studies/diy_middleware.html
 
 ## Anti-Patrón: Misapplied Genericity
 
-Una solución muy genérica para ser usada para todo!! Termina siendo tan flexible que es compleja de desarrollar, usar, mejorar o corregir y a veces, no siendo utilizada por nadie.
+Una <mark style="background: #FFF3A3A6;">solución muy genérica para ser usada para todo!!</mark> Termina siendo tan flexible que es compleja de desarrollar, usar, mejorar o corregir y a veces, no siendo utilizada por nadie.
 
 ---
 
@@ -85,7 +85,7 @@ Una solución muy genérica para ser usada para todo!! Termina siendo tan flexib
  - Librerías de terceros, etc.
  - Lógica de negocio compleja (y si, sin documentación y todos los que conocían el negocio, ya no están!!!!)
 
-**Solución**: escribir TEST, documentar lo que se pueda, hacer cambios muy chicos, tener una estrategia de rollback previa a aplicar los cambios.
+<mark style="background: #FFF3A3A6;">Solución</mark>: escribir TEST, documentar lo que se pueda, hacer cambios muy chicos, tener una estrategia de rollback previa a aplicar los cambios.
 
 ---
 
@@ -127,9 +127,9 @@ App vieja en java, 4 millones LOC, 15 años, etc.
 
 Usar conceptos sin conocer el porque y como?
 
-1. Usar el modelo de spotify. Si a ellos les funciona, seguro que aplica a todos!!!
-2. Usar microservicios para todo (por que todos hablan de ello)
-3. AI...y si, hay que usar AI, no importa para qué, usémoslo.
+1. Usar el modelo de **spotify**. Si a ellos les funciona, seguro que aplica a todos!!!
+2. Usar **microservicios** para todo (por que todos hablan de ello)
+3. **AI**...y si, hay que usar AI, no importa para qué, usémoslo.
 
 ---
 
