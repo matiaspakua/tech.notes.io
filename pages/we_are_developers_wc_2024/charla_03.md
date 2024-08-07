@@ -4,6 +4,16 @@
 
 ---
 
+# Autor
+
+Maik Wietheger
+Software Architect @ Finanz Informatik GmbH & Co. KG
+
+Jan-Christoph Schlieker
+Head of Architecture Management @ Finanz Informatik GmbH & Co. KG
+
+---
+
 ## Introducción y Contexto
 
  - FI (empresa alemana)

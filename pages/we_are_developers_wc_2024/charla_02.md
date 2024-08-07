@@ -2,6 +2,14 @@
 
 ![](../../images/antipatterns_concept_board.png)
 
+# Autor
+
+Andreas Voigt
+
+Pricipal software architect @ Adesso SE
+
+Linkedin: https://www.linkedin.com/in/andreas-voigt-0a855b11/
+
 ---
 
 ## Que son los anti-patrones de arquitectura?
