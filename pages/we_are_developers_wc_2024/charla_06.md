@@ -1,7 +1,17 @@
 # Durable Execution: A revolutionary abstraction for building resilient applications
 
+---
+
+# Autor
+
+
+
+---
+
+# Introducción
+
 Representación del sistema solar.
-Nosotros trabajamos con abstracciones, pero hay niveles de abstraccion. El problema aparece cuando se modelasn las abstracciones equivocadas o de manera equivocada.
+Nosotros trabajamos con abstracciones, pero hay niveles de abstracción. El problema aparece cuando se modelas las abstracciones equivocadas o de manera equivocada.
 
 Business Logic
 Resilency
@@ -11,6 +21,7 @@ Resilency
 Resilency
 Resilency
 
+---
 
 Microservices => complejidad distribuida
 Monolitos => complejidda en un solo lugar
@@ -21,10 +32,13 @@ Visibilidad y Debugging => solo notifica que pasan cosas n algun lugar
 
 Events => son varialbes globales en sistemas distribuidaos. ATENCION.
 
+---
+
 ## Durable Execution 
 
 =><mark style="background: #FFF3A3A6;"> ejecución que no crashea por causas de fallas a nivel sistema</mark>.
 
+---
 
 ## Caracteristicas:
 
@@ -35,10 +49,14 @@ Events => son varialbes globales en sistemas distribuidaos. ATENCION.
 5. Comunicación asincronica
 6. Times Durables.
 
+---
+
 ## implementación
 
 Usando event-sourcring.
 Ejemplo de un banco y transacciones, en un código se ejecuta una transferencia y en el evento donde se hace el deposito, el paso 5, justo falla. Usando un historial de eventos se puede recuperar la condicion inicial.
+
+---
 
 ## Durable Execution platform
 

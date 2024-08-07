@@ -6,7 +6,7 @@
 
 --> Mercedez-Benz. Todos usan Copilot, lo liberaron el año pasado. Han implementado una incubadora y tienen multiples partners. Usando Copilot han notado un aumento en la productividad y creatividad.
 
---> Accenture. Estamos en la fase de locura, todos quieren usar AI en todo. TEnemos muchos casos de uso, pero poco escalamiento.
+--> Accenture. Estamos en la fase de locura, todos quieren usar AI en todo. Tenemos muchos casos de uso, pero poco escalamiento.
 
 ## Sostenibilidad
 
