@@ -13,24 +13,38 @@
 Representación del sistema solar.
 Nosotros trabajamos con abstracciones, pero hay niveles de abstracción. El problema aparece cuando se modelas las abstracciones equivocadas o de manera equivocada.
 
-Business Logic
-Resilency
--------------------------------
-Business Logic
-Resilency
-Resilency
-Resilency
+---
+
+## Complejidad de los sistemas
+
+![](../../images/durable_execution_complexity.png)
 
 ---
 
-Microservices => complejidad distribuida
-Monolitos => complejidda en un solo lugar
-Architectura basada en eventos=> se pierde la logica
-Scatered Logs. => se distribuye la logica de negocio
-Error Handling => mal manejada, distribuida, que pasa con la logica distribuida.
-Visibilidad y Debugging => solo notifica que pasan cosas n algun lugar
+## Propiedad de un sistema monolito
 
-Events => son varialbes globales en sistemas distribuidaos. ATENCION.
+
+![](../../images/durable_execution_monolito_transaccion.png)
+
+
+---
+
+## Concepto de Transaccionalidad
+
+![](../../images/durable_execution_transaccional.png)
+
+---
+
+## Abstracciones y sus complejidades
+
+ - Microservices => complejidad distribuida
+ - Monolitos => complejidad en un solo lugar
+ - Arquitectura basada en eventos=> se pierde la lógica
+ - Scatered Logs. => se distribuye la lógica de negocio
+ - Error Handling => mal manejada, distribuida, que pasa con la lógica distribuida.
+ - Visibilidad y Debugging => solo notifica que pasan cosas n algún lugar
+
+<mark style="background: #FFF3A3A6;">Eventos</mark> => son variables globales en sistemas distribuidos. ATENCION.
 
 ---
 
