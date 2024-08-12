@@ -1,14 +1,40 @@
-Aquí te dejo algunas referencias para armar tu charla sobre **Visual Thinking** y cómo se puede aplicar en problemas de software, arquitectura y análisis:
+# Visual Thinking
 
-### 1. **Libros y Documentos**
 
-- **"The Back of the Napkin" de Dan Roam**: Este libro es una excelente introducción al Visual Thinking, donde Roam muestra cómo se pueden resolver problemas y comunicar ideas utilizando dibujos simples.
-  
-- **"Visual Meetings" de David Sibbet**: Este libro profundiza en cómo las imágenes pueden hacer que las reuniones sean más productivas y cómo las personas pueden usar visualizaciones para resolver problemas en grupo.
+---
 
-- **"Gamestorming" de Dave Gray, Sunni Brown, y James Macanufo**: Este libro ofrece técnicas visuales para innovar y resolver problemas en entornos empresariales y de software.
+## Introducción
 
-- **Documentación oficial de Microsoft Whiteboard**: Revisa la [documentación de Microsoft Whiteboard](https://support.microsoft.com/en-us/whiteboard) para entender sus capacidades y mejores prácticas en entornos colaborativos.
+**¿Que es Visual Thinking?**
+
+Visual Thinking es como cuando usas dibujos para entender y explicar cosas. Imagina que tienes un problema, como armar un rompecabezas. En lugar de solo hablar de cómo hacerlo, dibujas las piezas y cómo se conectan. Así, puedes ver el problema más claramente y encontrar la solución más fácilmente. Es como usar tus ojos y tus manos para pensar mejor, no solo tu cabeza.
+
+---
+
+## Componentes del Visual Thinking
+
+- **Imágenes** 🖼️: Dibujos o símbolos que representan ideas o conceptos. Ayudan a visualizar lo que estás pensando.
+    
+- **Palabras** 📝: Usar texto corto y claro junto con las imágenes para explicar mejor las ideas.
+    
+- **Mapas y Diagramas** 🗺️: Organizar la información de manera que se vea cómo las ideas se conectan entre sí.
+    
+- **Esquemas y Flujos** 🔄: Mostrar procesos o secuencias de pasos de forma visual, como un mapa de ruta.
+    
+- **Colores y Formas** 🎨: Usar diferentes colores y formas para destacar lo importante y diferenciar ideas.
+
+---
+
+## Visual Storytelling
+
+==> <mark style="background: #FFF3A3A6;">"The Back of the Napkin" de Dan Roam</mark>
+
+
+**Link**: https://www.youtube.com/watch?v=XEnrQqOHx3I
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XEnrQqOHx3I?si=9SS4xMQaYWtpwMMv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+---
 
 ### 2. **Cursos Online**
 
