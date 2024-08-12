@@ -74,6 +74,10 @@
 
 Charlas --> [Notas de las charlas](/pages/we_are_developers_wc_2024/landing.md)
 
+# Cursos y Charlas
+
+ * [Visual Thinking](/pages/cursos/visual_thinking.md)
+
 # 📚 Libros leídos
 
  * [Modern Software Engineering: Doing What Works to Build Better Software Faster, By David Farley](/pages/books/modern_software_engineering.md)

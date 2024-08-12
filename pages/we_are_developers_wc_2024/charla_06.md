@@ -35,6 +35,20 @@ Nosotros trabajamos con abstracciones, pero hay niveles de abstracción. El prob
 
 ---
 
+## Event-Driven Architecture al rescate
+
+ - Productores: produced => un EVENTO es generado
+ - Canal: publica y propaga un mensaje (asociado un evento)
+- Consumidores: detectan el mensaje del canal y consumen el mensaje, para luego actuar sobre el "evento"
+- Arquitectura de mensajes "asincrónica" y distribuida.
+
+Ref. https://en.wikipedia.org/wiki/Event-driven_architecture
+
+---
+
+
+---
+
 ## Abstracciones y sus complejidades
 
  - Microservices => complejidad distribuida
