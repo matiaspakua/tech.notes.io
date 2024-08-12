@@ -66,6 +66,15 @@ Link: https://docs.google.com/drawings/d/1cBOqUlmJ5NF0shSbG3enm4T4eSLA-ZV8o2X1yr
 
 ---
 
+## Análisis de un problema: SW update Sonda Voyayer
+
+[Link Post](https://www.linkedin.com/posts/matiasmiguez_softwareengineering-softwaredebug-spaceengineering-activity-7189696668177416192-1JNV?utm_source=share&utm_medium=member_desktop)
+
+![](../../images/post_linkedin_voyayer.png)
+
+
+---
+
 ## Ejemplo de Whiteboard: Voyager Bugfix NASA
 
 ![](../../images/voyager_software_bug_update.png)
