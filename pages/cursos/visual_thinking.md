@@ -34,6 +34,30 @@ Visual Thinking es como cuando usas dibujos para <mark style="background: #FFF3A
 
 ---
 
+## Visual Thinking y Design Thinking
+
+El Design Thinking es un proceso  de resolución de problemas que comienza con la comprensión de las necesidades no satisfechas  e implica el desarrollo de conceptos,  creatividad, la creación de prototipos y la realización de pruebas.
+
+El Design Thinking se puede aplicar a cualquier problema que necesite una solución creativa, no solo a productos físicos, sino también a servicios, modelos de negocio y cuestiones sociales.
+
+---
+
+## Componentes del Design Thinking
+
+- **Comprender el problema** 🔍
+- **Explorar posibles soluciones (diagramas, POC, etc)** 💡 
+- **Repetir mediante la creación de prototipos y pruebas** 🔄🛠️
+- **Implementar el diseño** 🚀
+- **Aplicarlo a diferentes dominios** 🌐
+
+---
+
+## Design Thinking Canva en Obsidian
+
+![](../../images/desgin-thinking.png)
+
+---
+
 ## Herramientas
 
 ![](../../images/drawio_landing_page.png)
@@ -101,3 +125,11 @@ Link: https://docs.google.com/drawings/d/1cBOqUlmJ5NF0shSbG3enm4T4eSLA-ZV8o2X1yr
 Link: https://youtu.be/7fx0QcHyrFk?si=c6a7xIhEi-zl7-fA
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/7fx0QcHyrFk?si=j0sw22rApoDVZibu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+## Otras Herramientas: Obsidian
+
+
+[[design_thinking_explained]]
+
+
+![](../../images/obsidian_graph_diagram.png)
