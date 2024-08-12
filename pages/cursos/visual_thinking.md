@@ -36,34 +36,21 @@ Visual Thinking es como cuando usas dibujos para entender y explicar cosas. Imag
 
 ---
 
-### 2. **Cursos Online**
+## Doodlers, Unite! 
 
-- **"Visual Thinking Fundamentals" en Coursera**: Este curso te lleva a través de los principios básicos del Visual Thinking, desde cómo usar dibujos para pensar y comunicar hasta cómo crear diagramas efectivos.
+  - "Doodlers, Unite!" de Sunni Brown
 
-- **"Sketching for Communication" en LinkedIn Learning**: Un curso que enseña cómo usar el dibujo y el sketching para mejorar la comunicación visual en presentaciones y análisis.
+Link: https://youtu.be/7fx0QcHyrFk?si=c6a7xIhEi-zl7-fA
 
-- **"Udemy - Visual Thinking: Drawing Data to Communicate"**: Un curso que se enfoca en cómo visualizar datos y procesos para hacerlos más comprensibles y accesibles.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7fx0QcHyrFk?si=j0sw22rApoDVZibu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-### 3. **Charlas y Conferencias**
+---
 
-- **TED Talks sobre Visual Thinking**:
-  - **"You Can Draw in 30 Days" de Mark Kistler**: No es específico sobre software, pero es excelente para inspirar a la audiencia a usar dibujos simples en su día a día.
-  - **"Doodlers, Unite!" de Sunni Brown**: Sunni Brown es una gran defensora del Doodling y el Visual Thinking, explicando cómo estas herramientas pueden mejorar la comprensión y la creatividad.
+## Herramientas
 
-- **"Visual Thinking with Draw.io"**: Busca webinars o videos de YouTube donde se expliquen cómo utilizar Draw.io específicamente para la visualización de problemas y diagramas en software.
+- [Draw.io](https://www.drawio.com/)
+- [Google Drawing](https://docs.google.com/drawings)
+- [Aplicación de pizarra digital online | Microsoft Whiteboard | Microsoft 365](https://www.microsoft.com/es-es/microsoft-365/microsoft-whiteboard/digital-whiteboard-app)
 
-### 4. **Herramientas**
+---
 
-- **Draw.io (Diagrams.net)**: Explora tutoriales en YouTube sobre cómo utilizar Draw.io para crear diagramas de software, arquitecturas de sistemas y más. Por ejemplo, puedes buscar "Draw.io for software architecture" o "Draw.io tutorials".
-
-- **Google Draw**: Aunque es menos conocido, Google Draw tiene varios tutoriales en línea sobre cómo usarlo para brainstorming, diagramas de flujo y presentaciones visuales.
-
-- **Microsoft Whiteboard**: La [documentación de Microsoft Whiteboard](https://support.microsoft.com/en-us/whiteboard) y sus tutoriales en YouTube son excelentes para aprender a colaborar visualmente en equipo, especialmente en entornos ágiles o de desarrollo de software.
-
-### 5. **Artículos y Blogs**
-
-- **"Visual Thinking for Software Architects" en Medium**: Artículos y blogs escritos por arquitectos de software que comparten cómo usan el Visual Thinking en su trabajo.
-
-- **"How to Use Visual Thinking for Problem-Solving" en Smashing Magazine**: Una guía sobre cómo aplicar el Visual Thinking a diferentes tipos de problemas, desde análisis hasta diseño de software.
-
-Con estas referencias podrás estructurar una charla sólida y efectiva sobre cómo el Visual Thinking puede ser una herramienta poderosa en el desarrollo de software, la arquitectura y el análisis de problemas.
