@@ -432,3 +432,30 @@ La analogía de una pirámide se usa  para representar visualmente la cantidad y
 - **Frecuencia de Ejecución**: Las pruebas en la base de la pirámide (unitarias) se ejecutan con mayor frecuencia en el ciclo de desarrollo, por ejemplo, con cada commit o integración continua. Las pruebas en los niveles superiores, debido a su costo y tiempo, se ejecutan con menos frecuencia, por ejemplo, en integraciones diarias o semanales, o antes de las liberaciones.
 
 ![](../../images/testing_pyramid_and_CI.png)
+
+
+### 2.5.9. Práctica: Entrega Continua (CD)
+
+La entrega continua (Fowler et al., 2013) es la capacidad de introducir cambios de todo tipo (incluidas nuevas funciones, cambios de configuración, correcciones de errores y experimentos) en producción o en manos de los usuarios, de forma segura, rápida y sostenible (Humble, 2017). El objetivo es hacer que las implementaciones, ya sea de un sistema distribuido a gran escala, un entorno de producción complejo, un sistema embebido o una aplicación, sean asuntos rutinarios y predecibles que se puedan realizar bajo demanda.
+
+*Referencia:*  Fowler, M., Humble, J., & Farley, D. (2013, May 30). ContinuousDelivery. Martin Fowler. Retrieved February 20, 2022, from https://martinfowler.com/bliki/ContinuousDelivery.html
+
+*Referencia:* Humble, J. (2017). What is Continuous Delivery? What is Continuous Delivery? -Continuous Delivery. Retrieved February 21, 2022, from https://continuousdelivery.com/
+
+
+La disciplina de CD implica que el software puede (o no) ser enviado a producción en cualquier momento. CD difiere del Despliegue Continuo (CD) donde “siempre” el software pasa a producción.
+
+Los pre-requisitos para la práctica de CD incluyen: 
+
+ * Tener funcionando un pipeline completo de Integración Continua (CI). 
+ * Tener el proceso de QA automation en funcionamiento. 
+ * Mantener un control de configuración, tanto del producto como de los ambientes (Artefactos y Repositorio de Artefactos). 
+ 
+La complejidad en esta disciplina proviene de que se requiere un alto nivel de comunicación, coordinación y colaboración entre todos los equipos (Desarrollo, Operation, Delivery) y un alto grado de Testing (QA) y Automatización
+
+La Fig. 16 hace visible que CI y CD son parte de procesos que se comunican entre sí usando “artefactos”. Así como como se definió en apartados iniciales, los artefactos sirven como elementos de intercambio, y por lo tanto, definen de alguna manera las interfaces de comunicación entre procesos.
+
+![](../../images/Fig_16_esquema_CI_artefactos_CD.png)
+
+**Figura 16 Esquema de CI, Artefactos y CD.**
+
