@@ -459,3 +459,37 @@ La Fig. 16 hace visible que CI y CD son parte de procesos que se comunican entre
 
 **Figura 16 Esquema de CI, Artefactos y CD.**
 
+### 2.5.10. Práctica: APIs
+
+Una API (API, 2022) permite que un programa acceda a los datos y servicios de otro. Es un tipo de interfaz de software que ofrece un servicio. Un documento o formato estándar que describe cómo construir o usar una conexión o interfaz de este tipo se denomina especificación API. Se dice que un sistema de software que cumple con este estándar implementa o expone una API.
+
+Una API se considera como el “contrato” por el cual los sistemas pueden interactuar e intercambiar información.
+
+![](../../images/api_concepto_postman.png)
+
+**Figura 17 Concepto de API. Imagen fuente (Postman, Inc., 2022**
+
+En el desarrollo de productos de software, API-first (Postman, Inc., 2022) es un modelo en el que las aplicaciones se conceptualizan y construyen como una interconexión de servicios internos y externos a través de APIs. Al igual que modelar primero la arquitectura del producto de software trae varios beneficios, modelar primero las interfaces de los distintos componentes del producto de software también provee sus beneficios (Lane, 2021). Para implementar la estrategia de desarrollo de productos utilizando el concepto de API-first, se recomiendan las siguientes acciones:
+
+ * Hacer un inventario de las bases de datos, aplicaciones y servicios: comprender exactamente cuántas API hay disponibles y dónde faltan APIs. 
+ * Comprenda el enfoque de la organización para producir API: identificar dónde existen procesos estándar y dónde no. 
+ * Definir los límites del dominio empresarial y asignar su estructura organizativa a esos límites.
+ * Adoptar una plataforma de API y estandarizarla. 
+ * Capacitar a los equipos de Ingeniería, Security, DevOps, QA y Administración de Productos en las prácticas de uso, diseño, pruebas y priorización de API. 
+
+A continuación se listan las etapas (Lane, 2022) de implementación de una estrategía API-first:
+
+1. Definiciones iniciales: equipo de trabajo, espacio para escribir, comunicar, modelar; y repositorio centralizado. 
+2. Diseño: Basarse en la especificación OpenAPI (The Linux Foundation, 2021) para un vocabulario común, mock servers y modelado de endpoints. 
+3. Documentación: Documentar (SmartBear Software, 2021) endpoints y proveer ejemplos. 
+4. Deploy: Tener un servidor de CI/CD, y un gateway para centralizar los pedidos (requests). 
+5. Testing: Generar pruebas por "contrato" y pruebas de performance. 
+6. Seguridad: Implementar mecanismos de autenticación y autorización, implementar testing de seguridad. 
+7. Monitoreo: Monitorear el testing por contrato, de performance, seguridad, la actividad general de uso y desarrollo de las API, el changelog y las notificaciones que se generan. 
+8. Descubrimiento: Asegurar los mecanismos de publicación en redes públicas o privadas y los mecanismo de búsqueda de documentación y ejemplos.
+
+Como se verá más adelante, la etapa diseño es muy importante para el éxito de un producto de software. Generar roadmaps de alto nivel Fig. 18 es una práctica recomendada para tener una visión clara durante el desarrollo.
+
+![](../../images/api_first_design_principles_postman.png)
+
+**Figura 18 Roadmap hacia un desarrollo Api-First. Imagen fuente (Postman, Inc., 2022)**
