@@ -493,3 +493,17 @@ Como se verá más adelante, la etapa diseño es muy importante para el éxito d
 ![](../../images/api_first_design_principles_postman.png)
 
 **Figura 18 Roadmap hacia un desarrollo Api-First. Imagen fuente (Postman, Inc., 2022)**
+
+### 2.5.11. Práctica: Estado Actual de Madurez
+
+La implementación de una nueva metodología, procesos o herramientas requiere, para ser efectiva, que se identifique primero el estado actual en el cual está la organización y/o equipo, medirlo y luego planificar mediciones con el objetivo de analizar y evaluar el retorno de inversión (ROI).
+
+Implementar una metodología como DevSecOps requiere tener en claro el estado actual de la organización para poder hacer el seguimiento y aplicar las acciones correctivas necesarias con el objetivo de tener éxito en la implementación de la metodología. 
+
+Por ejemplo, según las recomendaciones de Google (Google LLC, n.d.), una organización puede identificar dónde se encuentra actualmente en el proceso de entrega de software Fig.19 a través de una simple encuesta que pretende hacer una evaluación de alto nivel sobre lo indicado por una organización/equipo.
+
+Link: [Simulador DORA Quick Check](https://dora.dev/quickcheck/)
+
+![](../../images/dora_software_delivery_performance.png)
+
+**Figura 19 Ejemplo Estado de Delivery de Software de una Organización. Imágen Fuente (Google LLC, n.d.)**
