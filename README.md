@@ -1,4 +1,4 @@
-![](https://media.licdn.com/dms/image/D4D16AQFQoPD2dpVULQ/profile-displaybackgroundimage-shrink_350_1400/0/1717705315523?e=1723680000&v=beta&t=3B-PMw6h5RcVHJ2AT_pPyoBukJhCR7riZBafiv1Ae8w)
+![](../../images/banner.png)
 
 ¡Bienvenidos a mi blog personal de Notas Tecnológicas! 🚀 Aquí encontrarás información que he ido recopilando sobre cursos, libros, notas, universidad, posgrados y cualquier otra fuente.
 
