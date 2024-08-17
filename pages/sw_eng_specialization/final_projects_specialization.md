@@ -422,7 +422,7 @@ El testing es fundamental y deben ser automatizados en su mayoría. No importa l
 <a name="2.5.8.1_piramide_testing"></a>
 #### 2.5.8.1. Pirámide de Testing
 
-La analogía de una pirámide se usa  para representar visualmente la <mark style="background: #FFF3A3A6;">cantidad y la prioridad </mark>de diferentes tipos de pruebas. Esta representación es útil por varias razones:
+La analogía de una pirámide, ver Fig. 15.1, se usa para representar visualmente la <mark style="background: #FFF3A3A6;">cantidad y la prioridad </mark>de diferentes tipos de pruebas. Esta representación es útil por varias razones:
 
 - **Distribución de Cantidad**: La base más ancha de la pirámide representa la mayor cantidad de pruebas unitarias que deben realizarse. A medida que subimos, la cantidad de pruebas disminuye, con menos pruebas de integración, aún menos pruebas de componentes, y menos aún de pruebas end-to-end (E2E), de rendimiento y seguridad. Esto refleja la práctica recomendada de tener una gran cantidad de pruebas unitarias debido a su <mark style="background: #BBFABBA6;">rapidez y costo efectivo</mark>, con una menor cantidad de pruebas más lentas y costosas en los niveles superiores.
 
@@ -434,10 +434,12 @@ La analogía de una pirámide se usa  para representar visualmente la <mark styl
 
 ![](../../images/testing_pyramid_and_CI.png)
 
+**Figura 15.1. Pirámide de Testing**
+
 <a name="2.5.9_practica_entrega_continua_cd"></a>
 ### 2.5.9. Práctica: Entrega Continua (CD)
 
-La entrega continua (Fowler et al., 2013) es la capacidad de introducir cambios de todo tipo (incluidas nuevas funciones, cambios de configuración, correcciones de errores y experimentos) en producción o en manos de los usuarios, de forma segura, rápida y sostenible (Humble, 2017). El objetivo es hacer que las implementaciones, ya sea de un sistema distribuido a gran escala, un entorno de producción complejo, un sistema embebido o una aplicación, sean asuntos rutinarios y predecibles que se puedan realizar bajo demanda.
+La entrega continua (Fowler et al., 2013) es la capacidad de <mark style="background: #FFF3A3A6;">introducir cambios</mark> de todo tipo (incluidas nuevas funciones, cambios de configuración, correcciones de errores y experimentos) en producción o en manos de los usuarios, de forma segura, rápida y sostenible (Humble, 2017). El objetivo es hacer que las implementaciones, ya sea de un sistema distribuido a gran escala, un entorno de producción complejo, un sistema embebido o una aplicación, <mark style="background: #ADCCFFA6;">sean asuntos rutinarios y predecibles</mark> que se puedan realizar bajo demanda.
 
 *Referencia:*  Fowler, M., Humble, J., & Farley, D. (2013, May 30). ContinuousDelivery. Martin Fowler. Retrieved February 20, 2022, from https://martinfowler.com/bliki/ContinuousDelivery.html
 
@@ -473,24 +475,36 @@ Una API se considera como el<mark style="background: #FFF3A3A6;"> “contrato”
 
 **Figura 17 Concepto de API. Imagen fuente (Postman, Inc., 2022**
 
-En el desarrollo de productos de software, API-first (Postman, Inc., 2022) es un modelo en el que las aplicaciones se conceptualizan y construyen como una interconexión de servicios internos y externos a través de APIs. Al igual que modelar primero la arquitectura del producto de software trae varios beneficios, modelar primero las interfaces de los distintos componentes del producto de software también provee sus beneficios (Lane, 2021). Para implementar la estrategia de desarrollo de productos utilizando el concepto de API-first, se recomiendan las siguientes acciones:
+En el desarrollo de productos de software, API-first (Postman, Inc., 2022) es un modelo en el que las aplicaciones se conceptualizan y construyen como una interconexión de servicios internos y externos a través de APIs. Al igual que modelar primero la arquitectura del producto de software trae varios beneficios,<mark style="background: #FFF3A3A6;"> modelar primero las interfaces</mark> de los distintos componentes del producto de software también provee sus beneficios (Lane, 2021). Para implementar la estrategia de desarrollo de productos utilizando el concepto de API-first, se recomiendan las siguientes acciones:
 
- * Hacer un inventario de las bases de datos, aplicaciones y servicios: comprender exactamente cuántas API hay disponibles y dónde faltan APIs. 
- * Comprenda el enfoque de la organización para producir API: identificar dónde existen procesos estándar y dónde no. 
- * Definir los límites del dominio empresarial y asignar su estructura organizativa a esos límites.
- * Adoptar una plataforma de API y estandarizarla. 
- * Capacitar a los equipos de Ingeniería, Security, DevOps, QA y Administración de Productos en las prácticas de uso, diseño, pruebas y priorización de API. 
+ * Hacer un **inventario** de las bases de datos, aplicaciones y servicios: comprender exactamente cuántas API hay disponibles y dónde faltan APIs. 
+ * Comprenda el **enfoque de la organización** para producir API: identificar dónde existen procesos estándar y dónde no. 
+ * Definir los **límites del dominio** empresarial y asignar su estructura organizativa a esos límites.
+ * Adoptar una **plataforma de API y estandarizarla**. 
+ * **Capacitar** a los equipos de Ingeniería, Security, DevOps, QA y Administración de Productos en las prácticas de uso, diseño, pruebas y priorización de API. 
+
+**Referencia:** Postman, Inc. (2022). What is an API-first company? Postman. Retrieved February 21, 2022, from https://www.postman.com/lp/api-first-company/
+
+**Referencia:** Lane, K. (2021, December 1). What Is an API-First Company? Postman Blog. Retrieved February 21, 2022, from https://blog.postman.com/what-is-an-api-first-company/
+
 
 A continuación se listan las etapas (Lane, 2022) de implementación de una estrategía API-first:
 
-1. Definiciones iniciales: equipo de trabajo, espacio para escribir, comunicar, modelar; y repositorio centralizado. 
-2. Diseño: Basarse en la especificación OpenAPI (The Linux Foundation, 2021) para un vocabulario común, mock servers y modelado de endpoints. 
-3. Documentación: Documentar (SmartBear Software, 2021) endpoints y proveer ejemplos. 
-4. Deploy: Tener un servidor de CI/CD, y un gateway para centralizar los pedidos (requests). 
-5. Testing: Generar pruebas por "contrato" y pruebas de performance. 
-6. Seguridad: Implementar mecanismos de autenticación y autorización, implementar testing de seguridad. 
-7. Monitoreo: Monitorear el testing por contrato, de performance, seguridad, la actividad general de uso y desarrollo de las API, el changelog y las notificaciones que se generan. 
-8. Descubrimiento: Asegurar los mecanismos de publicación en redes públicas o privadas y los mecanismo de búsqueda de documentación y ejemplos.
+1. **Definiciones iniciales**: equipo de trabajo, espacio para escribir, comunicar, modelar; y repositorio centralizado. 
+2. **Diseño**: Basarse en la especificación OpenAPI (The Linux Foundation, 2021) para un vocabulario común, mock servers y modelado de endpoints. 
+3. **Documentación**: Documentar (SmartBear Software, 2021) endpoints y proveer ejemplos. 
+4. **Deploy**: Tener un servidor de CI/CD, y un gateway para centralizar los pedidos (requests). 
+5. **Testing**: Generar pruebas por "contrato" y pruebas de performance. 
+6. **Seguridad**: Implementar mecanismos de autenticación y autorización, implementar testing de seguridad. 
+7. **Monitoreo**: Monitorear el testing por contrato, de performance, seguridad, la actividad general de uso y desarrollo de las API, el changelog y las notificaciones que se generan. 
+8. **Descubrimiento**: Asegurar los mecanismos de publicación en redes públicas o privadas y los mecanismo de búsqueda de documentación y ejemplos.
+
+**Referencia:** Lane, K. (2022, January 14). The 8-Point API Lifecycle Blueprint. Postman Blog. Retrieved February 21, 2022, from https://blog.postman.com/api-lifecycle-blueprint/
+
+**Referencia:** The Linux Foundation. (2021, February 15). OpenAPI Specification v3.1.0 | Introduction, Definitions, & More. OpenAPI Initiative Registry. Retrieved February 21, 2022, from https://spec.openapis.org/oas/latest.html
+
+**Referencia:** SmartBear Software. (2021). OpenAPI Specification - Version 3.0.3. Swagger. Retrieved February 21, 2022, from https://swagger.io/specification/
+
 
 Como se verá más adelante, la etapa diseño es muy importante para el éxito de un producto de software. Generar roadmaps de alto nivel Fig. 18 es una práctica recomendada para tener una visión clara durante el desarrollo.
 
@@ -498,13 +512,17 @@ Como se verá más adelante, la etapa diseño es muy importante para el éxito d
 
 **Figura 18 Roadmap hacia un desarrollo Api-First. Imagen fuente (Postman, Inc., 2022)**
 
+
+<a name="2.5.11_practica_estado_actual_madurez"></a>
 ### 2.5.11. Práctica: Estado Actual de Madurez
 
 La implementación de una nueva metodología, procesos o herramientas requiere, para ser efectiva, que se identifique primero el estado actual en el cual está la organización y/o equipo, medirlo y luego planificar mediciones con el objetivo de analizar y evaluar el retorno de inversión (ROI).
 
-Implementar una metodología como DevSecOps requiere tener en claro el estado actual de la organización para poder hacer el seguimiento y aplicar las acciones correctivas necesarias con el objetivo de tener éxito en la implementación de la metodología. 
+Implementar una metodología como **DevSecOps** requiere tener en claro el estado actual de la organización para poder hacer el seguimiento y aplicar las acciones correctivas necesarias con el objetivo de tener éxito en la implementación de la metodología. 
 
 Por ejemplo, según las recomendaciones de Google (Google LLC, n.d.), una organización puede identificar dónde se encuentra actualmente en el proceso de entrega de software Fig.19 a través de una simple encuesta que pretende hacer una evaluación de alto nivel sobre lo indicado por una organización/equipo.
+
+**Referencia:** Google LLC. (n.d.). What is DevOps? Research and Solutions. Google Cloud. Retrieved February 21, 2022, from https://cloud.google.com/devops/
 
 Link: [Simulador DORA Quick Check](https://dora.dev/quickcheck/)
 
@@ -512,6 +530,8 @@ Link: [Simulador DORA Quick Check](https://dora.dev/quickcheck/)
 
 **Figura 19 Ejemplo Estado de Delivery de Software de una Organización. Imágen Fuente (Google LLC, n.d.)**
 
+
+<a name="2.5.12_metodologia_DevOps"></a>
 ### 2.5.12. Metodología: DevOps
 
 Desde una perspectiva académica, (Bass et al., 2015) definen DevOps como: "un conjunto de prácticas Fig. 20 destinadas a reducir el tiempo entre la realización de un cambio en un sistema y el momento en que el cambio se coloca en producción, garantizando al mismo tiempo una alta calidad".
