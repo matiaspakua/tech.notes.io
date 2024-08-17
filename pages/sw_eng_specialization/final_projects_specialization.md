@@ -34,6 +34,12 @@
 		- [2.5.6. Práctica: Arquitectura de alto nivel de Procesos](#2.5.6.practica_arquitectura_alto_nivel_procesos)
 		- [2.5.7. Práctica: Integración Continua (CI)](#2.5.7.practica_integracion_continua)
 		- [2.5.8. Práctica: Fallar desde el Inicio y Rápido (Testing)](#2.5.8.practica_falla_inicio_rapido)
+			- [2.5.8.1. Pirámide de Testing](#2.5.8.1_piramide_testing)
+		- [2.5.9. Práctica: Entrega Continua (CD)](#2.5.9_practica_entrega_continua_cd)
+		- [2.5.10. Práctica: APIs](#2.5.10_practica_APIs)
+		- [2.5.11. Práctica: Estado Actual de Madurez](#2.5.11_practica_estado_actual_madurez)
+		- [2.5.12. Metodología: DevOps](#2.5.12_metodologia_DevOps)
+		- [](#)
 
 <a name="1.introduction"></a>
 # 1. Introducción
@@ -361,9 +367,9 @@ Cada commit es conveniente que genere la ejecución de un “build” en un serv
 
 ### "Siempre" puede salir algo mal 🔙⚠️
 
-**UPDATE: 19/07/2024**. El mundo despertó con uno de los mayores fallos informáticos de la historia, el cual afecto a infraestructura critica: aeropuertos, hospitales, sistemas financieros y bancos entre muchos otros. La causa fue una actualización de un driver de seguridad (Crowdstrike) en los sistemas Windows. El resultado: la pantalla azul de la muerte (un sistema inaccesible).
+**UPDATE: 19/07/2024**. El mundo despertó con uno de los mayores fallos informáticos de la historia, el cual afecto a infraestructura critica: aeropuertos, hospitales, sistemas financieros y bancos entre muchos otros. La causa fue una actualización de un driver de seguridad (<mark style="background: #FFF3A3A6;">Crowdstrike</mark>) en los sistemas Windows. El resultado: la pantalla azul de la muerte (un sistema inaccesible).
 
-**Lección aprendida:** se puede desarrollar procesos, métodos, herramientas y pipelines con altísima calidad, pero igualmente pueden ocurrir errores, por lo tanto, nuestros procesos y pipelines de CI deben tener preparados mecanismos de recuperación ante fallas criticas: GREEN/BLUE deployment, CANARY deploy, etc.
+**Lección aprendida:** se puede desarrollar procesos, métodos, herramientas y pipelines con altísima calidad, pero igualmente pueden ocurrir errores, por lo tanto, nuestros procesos y pipelines de CI deben <mark style="background: #BBFABBA6;">tener preparados mecanismos de recuperación ante falla</mark>s criticas: GREEN/BLUE deployment, CANARY deploy, etc.
 
 --- 
 
