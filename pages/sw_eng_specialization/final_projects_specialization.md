@@ -536,9 +536,12 @@ Link: [Simulador DORA Quick Check](https://dora.dev/quickcheck/)
 
 **Figura 19 Ejemplo Estado de Delivery de Software de una Organización. Imágen Fuente (Google LLC, n.d.)**
 
+---
 
 <a name="2.5.12_metodologia_DevOps"></a>
 ### 2.5.12. Metodología: DevOps
+
+Terminamos de repasar las principales "prácticas", ahora vamos a realizar un repaso de las "metodologías".
 
 Desde una perspectiva académica, (Bass et al., 2015) definen DevOps como: "un conjunto de prácticas Fig. 20 destinadas a reducir el tiempo entre la realización de un cambio en un sistema y el momento en que el cambio se coloca en producción, garantizando al mismo tiempo una alta calidad".
 
@@ -590,3 +593,56 @@ dinámica de trabajo de DevOps, ayudando a la disciplina, experimentación, y to
 riesgos.
 
 
+<a name="2.5.13_metodologia_seguridad"></a>
+### 2.5.13. Metodología: Seguridad
+
+La seguridad de la información (**InfoSEC**) y en general “seguridad digital” (Information security, 2022) tiene una gran importancia y cada vez más se incrementa la necesidad de implementar mejores mecanismos de seguridad digital, no solamente para los productos de software desarrollados, sino también para la infraestructura, herramientas, procesos y cultura en general. La idea de seguridad se basa en saber cuales son los riesgos (Skoglund, 2019) y en base a eso tomar dos acciones Fig. 22: 
+
+ * Toma de <mark style="background: #FFF3A3A6;">conciencia</mark> del nivel de protección/exposición actual. 
+ * Definición <mark style="background: #BBFABBA6;">medidas de protección</mark>.
+
+![](../../images/fig_22_concepto_seguridad.png)
+
+**Figura 22 Concepto de Seguridad.**
+
+**Referencia:** Wikipedia contributors. (2022, February 21). Information security. In Wikipedia, The Free Encyclopedia. Retrieved 23:43, February 22, 2022, from https://en.wikipedia.org/w/index.php?title=Information_security&oldid=1073245153
+
+**Referencia:** Skoglund, K. (Executive Producer). (2019). Programming Foundations: Web Security [TV series]. LinkedIn LinkedIn Corporation. https://www.linkedin.com/learning-login/share?forceAccount=false&redirect=https%3A%2F%2Fw ww.linkedin.com%2Flearning%2Fprogramming-foundations-web-security-2%3Ftrk%3Dshare_ent _url%26shareId%3D%252B1kjrO87ROmIeOzc9w5YVQ%253D%253D (Original work published 2019)
+
+Las siguientes definiciones proveen el marco en el cual se debe considerar la seguridad desde el punto de vista del desarrollo de productos de software. Se presenta una muy breve descripción de aspectos teóricos, prácticos y algunas prácticas de implementación que se recomienda tener en cuenta al plantear una estrategia de ciberseguridad:
+
+ * **Threat Model**: concepto militar que busca crear un escenario “único” para cada activo valioso e identificar las medidas de defensa disponibles. Se modela del perfil del atacante, los vectores de ataque probables, las vulnerabilidades existentes y casos realistas y no realistas de ataque. El modelado permite generar “conciencia” del estado de protección. 
+ * **Vulnerabilidad Zero-Day**: Falla (o exploit) que expone al software/producto de alguna manera aún no solucionada o sin parche de seguridad disponible antes posibles ataques. 
+ * **Principios Generales de Seguridad**: 
+	 * Aceptar que: “La seguridad total es imposible”. 
+	 * Implementar medidas como least privilege (controlar, limitar, no dar accesos). 
+	 * Simple es más seguro. 
+	 * No confiar en los usuarios, ser paranoico. 
+	 * Esperar lo inesperado, analizar casos límites. 
+	 * Defensa por “capas”, y niveles de defensa. 
+	 * Defensa a través de oscuridad (obscure). 
+	 * Lista Blanca/Lista Negra (allow/deny) 
+	 * Mapa de puntos de Exposición y transferencia de datos (canales). 
+ * **Seguridad de los Datos (CIA)**: 
+	 * Confidentiality (confidencialidad). 
+	 * Integrity (integridad). 
+	 * Availability (disponibilidad).
+ * **Buenas Prácticas Generales**: 
+	 * Filtrar entradas 
+	 * Filtrar salidas 
+	 * Sanitizar, analizar, validar, etiquetar variables, código privado. 
+	 * Credenciales, permisos y roles 
+	 * Clean-code, refactoring, 
+	 * Estrategías de logging. 
+	 * Testing de seguridad / Pentesting 
+ * **Ataques Comunes**: 
+	 * Ataque con credenciales: robo, elevación de privilegios, fuerza bruta, suffing. Protección con: Contraseñas robustas, Password Hashing, Login Throttling. 
+	 * IDOR (Insecure Direct Object Reference) o manipulación de URLs 
+	 * SQLi (Inyección de SQL). Manipular DB, robo datos. Protección con: control de inputs, sanitizar datos, uso de librerías del lenguaje/framework. 
+	 * XSS (Cross Site Scripting). Ataques manipulando sitios webs de terceros. Tipos de ataques: reflected, stored, DOM-based. Protección con CSP o Content Security Policy. Protección con: Validación de request de las API (GET/POST), usar tokens CSRF. 
+	 * Robo y Visibilización de Cookies. Limitar y encriptar datos sensibles. Proteger con: Uso de Sesiones, SSL, HTTPS, Sign-Cookie. 
+	 * Session Hijacking: Robo se sesiones activas. Proteger con HTTPS, SessionID. 
+	 * Session Fixation. Person-In-The-Middle attack. Proteger con: Validar Inputs, sanitización, CSP, Cookie Setting, HTTPS. 
+	 * RCE o Remote Code Execution. Ejecución de comandos en el servidor. Proteger con: Controles en el servidor, Firewall, Análisis de tráfico. 
+	 * File Upload Abuse. FUA, sobre-uso de almacenamiento, inyección de malware. 
+	 * Denial Of Service (DoS). Flooding (inundar) o Crashing (overflow, RunTime Error). Proteger con: Throttling a través de limitaciones; Filtering con reglas; Sinkholing con redirección para post-análisis; Blackholing redirigiendo los datos a la nada (/dev/null).
