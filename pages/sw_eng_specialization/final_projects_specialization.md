@@ -540,3 +540,31 @@ Desde una perspectiva académica, (Bass et al., 2015) definen DevOps como: "un c
 
 **Figura 20 Esquema Conceptual DevOps. Imagen Fuente (DevOps, 2020)**
 
+**Referencia:** Bass, L., Zhu, L., & Weber, I. M. (2015). DevOps: A Software Architect's Perspective. Addison-Wesley
+
+Para que una cultura de DevOps pueda ser implementada, se requiere que tanto el equipo como la organización tengan en claro los pilares técnicos y culturales sobre los cuales ésta metodología se sustenta para que sea exitosa. Desde el punto de vista técnico, estos pilares son: 
+
+ * **Deployability**: la capacidad de un producto o servicio de ser puesto en producción o desplegado en distintos ambientes, por ejemplo: Dev, QA, pre-producción, producción, etc. 
+ * **Modifiability**: la capacidad de un producto o servicio de ser modificado. Éste es un atributo fundamental de cualquier “buen” software. 
+ * **Testability**: la capacidad de un producto o servicio de ser puesto bajo pruebas según sea el caso. Un aspecto importante es tener en claro los casos de negocio que el sistema debe cumplir y tener pruebas que validen esos "casos de negocio" tanto para validar los mismo como para ejecutar regresiones frecuentes.
+ * **Monitorability**: la capacidad de un producto o servicio de ser monitoreado. 
+ * **Automation**: la automatización (QA Automation) es un principio fundamental para lograr el éxito de DevOps y CI/CD es un componente crítico. 
+ * **Toolchain**: Conjunto de herramientas y plataformas bien definidas y compatibles con los procesos. Es importante destacar que las herramientas “proveen el soporte a DevOps” y no deben orientar la aplicación de la metodología. 
+
+
+Desde el punto de vista cultural, otros aspectos importantes incluyen: 
+
+ * **No trabajar en “silos”, aislados**. 
+ * **DevOps** no es un “rol” o una “persona”, es un equipo y una mentalidad, aún cuando pueden existir roles facilitadores (Fisher, 2021) 
+ * **Generar ambiente “sin miedo”**, ambiente de respeto e igualdad dentro del equipo y la organización. 
+ * **Responsabilidad** compartida y confianza 
+ * **Flujos** de información claros, bien definidos y acordados. 
+ * Colaboración 
+ * Aprender de los errores, comunicar y aplicar “PostMortem Communication” (Mueller & Wickett, 2020) 
+ * Aplicar nuevas ideas, y experimentar.
+
+**Referencia:** Fisher, B. (2021, December). Becoming a DevOps Engineer: Role and Responsibilities. Udemy Blog. Retrieved February 22, 2022, from https://blog.udemy.com/devops-engineer/
+
+**Referencia:** Mueller, E., & Wickett, J. (Writers). (2020, 10 28). Use your words (Season 1, Episode 2.2) [TV series episode]. In DevOps Foundations. LinkedIn Corporation.  https://www.linkedin.com/learning/devops-foundations-23454205/the-foundations-of-devops
+
+En “The DevOps Handbook” (Humble et al., 2021, 72), se toman como referencia los principios que se muestran en la Fig. 21 y que rigen una buena implementación de DevOps llamada “The Three Ways” (ó las 3 formas).
