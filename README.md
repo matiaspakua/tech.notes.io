@@ -1,4 +1,4 @@
-![](https://github.com/matiaspakua/tech.notes.io/blob/69837f6810c777bbba00466e73e9f179f8f42d0b/images/banner.png)
+![](images/banner.png)
 
 ¡Bienvenidos a mi blog personal de Notas Tecnológicas! 🚀 Aquí encontrarás información que he ido recopilando sobre cursos, libros, notas, universidad, posgrados y cualquier otra fuente.
 
@@ -72,7 +72,7 @@
 
 # 🌍 WeAreDevelopers World Congress 2024 Berlin
 
-![](https://github.com/matiaspakua/tech.notes.io/blob/69837f6810c777bbba00466e73e9f179f8f42d0b/images/we_are_developers_banner.png)
+![](images/we_are_developers_banner.png)
 
 Charlas --> [Notas de las charlas](/pages/we_are_developers_wc_2024/landing.md)
 
@@ -122,7 +122,7 @@ Charlas --> [Notas de las charlas](/pages/we_are_developers_wc_2024/landing.md)
 
 # 🎓 UCA posgrado de Especialización en Ingeniería de Software 💻
 
-![](https://github.com/matiaspakua/tech.notes.io/blob/69837f6810c777bbba00466e73e9f179f8f42d0b/images/uca_logo.png)
+![](images/uca_logo.png)
 
  - [Materias y notas de la especialización](/pages/sw_eng_specialization/landing.md)
 
