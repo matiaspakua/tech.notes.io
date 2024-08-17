@@ -419,21 +419,22 @@ Los objetivos fundamentales son:
 
 El testing es fundamental y deben ser automatizados en su mayoría. No importa la forma de trabajo que se quiera implementar, se debe armar una buena base de test automáticos y manuales donde se requiera.
 
-#### Pirámide de Testing
+<a name="2.5.8.1_piramide_testing"></a>
+#### 2.5.8.1. Pirámide de Testing
 
 La analogía de una pirámide se usa  para representar visualmente la <mark style="background: #FFF3A3A6;">cantidad y la prioridad </mark>de diferentes tipos de pruebas. Esta representación es útil por varias razones:
 
-- **Distribución de Cantidad**: La base más ancha de la pirámide representa la mayor cantidad de pruebas unitarias que deben realizarse. A medida que subimos, la cantidad de pruebas disminuye, con menos pruebas de integración, aún menos pruebas de componentes, y menos aún de pruebas end-to-end (E2E), de rendimiento y seguridad. Esto refleja la práctica recomendada de tener una gran cantidad de pruebas unitarias debido a su rapidez y costo efectivo, con una menor cantidad de pruebas más lentas y costosas en los niveles superiores.
+- **Distribución de Cantidad**: La base más ancha de la pirámide representa la mayor cantidad de pruebas unitarias que deben realizarse. A medida que subimos, la cantidad de pruebas disminuye, con menos pruebas de integración, aún menos pruebas de componentes, y menos aún de pruebas end-to-end (E2E), de rendimiento y seguridad. Esto refleja la práctica recomendada de tener una gran cantidad de pruebas unitarias debido a su <mark style="background: #BBFABBA6;">rapidez y costo efectivo</mark>, con una menor cantidad de pruebas más lentas y costosas en los niveles superiores.
 
-- **Complejidad y Costo**: La base más ancha también sugiere que las pruebas en este nivel (unitarias) son más simples y menos costosas de ejecutar. A medida que subimos en la pirámide, las pruebas se vuelven más complejas y costosas, tanto en términos de tiempo como de recursos necesarios.
+- **Complejidad y Costo**: La base más ancha también sugiere que las pruebas en este nivel (unitarias) son <mark style="background: #ADCCFFA6;">más simples y menos costosas de ejecutar</mark>. A medida que subimos en la pirámide, las pruebas se vuelven más complejas y costosas, tanto en términos de tiempo como de recursos necesarios.
 
-- **Estabilidad y Rapidez de Feedback**: En la base de la pirámide, las pruebas unitarias proporcionan un feedback rápido y son menos propensas a errores de configuración. A medida que avanzamos hacia pruebas de integración y pruebas E2E, el tiempo de feedback aumenta debido a la mayor complejidad y la necesidad de más infraestructura.
+- **Estabilidad y Rapidez de Feedback**: En la base de la pirámide, las pruebas unitarias proporcionan un <mark style="background: #BBFABBA6;">feedback rápido</mark> y son menos propensas a errores de configuración. A medida que avanzamos hacia pruebas de integración y pruebas E2E, el tiempo de feedback aumenta debido a la mayor complejidad y la necesidad de más infraestructura.
     
-- **Frecuencia de Ejecución**: Las pruebas en la base de la pirámide (unitarias) se ejecutan con mayor frecuencia en el ciclo de desarrollo, por ejemplo, con cada commit o integración continua. Las pruebas en los niveles superiores, debido a su costo y tiempo, se ejecutan con menos frecuencia, por ejemplo, en integraciones diarias o semanales, o antes de las liberaciones.
+- **Frecuencia de Ejecución**: Las pruebas en la base de la pirámide (unitarias) se ejecutan con <mark style="background: #FFF3A3A6;">mayor frecuencia</mark> en el ciclo de desarrollo, por ejemplo, con cada commit o integración continua. Las pruebas en los niveles superiores, debido a su costo y tiempo, se ejecutan con menos frecuencia, por ejemplo, en integraciones diarias o semanales, o antes de las liberaciones.
 
 ![](../../images/testing_pyramid_and_CI.png)
 
-
+<a name="2.5.9_practica_entrega_continua_cd"></a>
 ### 2.5.9. Práctica: Entrega Continua (CD)
 
 La entrega continua (Fowler et al., 2013) es la capacidad de introducir cambios de todo tipo (incluidas nuevas funciones, cambios de configuración, correcciones de errores y experimentos) en producción o en manos de los usuarios, de forma segura, rápida y sostenible (Humble, 2017). El objetivo es hacer que las implementaciones, ya sea de un sistema distribuido a gran escala, un entorno de producción complejo, un sistema embebido o una aplicación, sean asuntos rutinarios y predecibles que se puedan realizar bajo demanda.
@@ -443,13 +444,13 @@ La entrega continua (Fowler et al., 2013) es la capacidad de introducir cambios 
 *Referencia:* Humble, J. (2017). What is Continuous Delivery? What is Continuous Delivery? -Continuous Delivery. Retrieved February 21, 2022, from https://continuousdelivery.com/
 
 
-La disciplina de CD implica que el software puede (o no) ser enviado a producción en cualquier momento. CD difiere del Despliegue Continuo (CD) donde “siempre” el software pasa a producción.
+La disciplina de CD implica que el **software puede (o no) ser enviado a producción** en cualquier momento. CD difiere del Despliegue Continuo (CD) donde “siempre” el software pasa a producción.
 
 Los pre-requisitos para la práctica de CD incluyen: 
 
- * Tener funcionando un pipeline completo de Integración Continua (CI). 
- * Tener el proceso de QA automation en funcionamiento. 
- * Mantener un control de configuración, tanto del producto como de los ambientes (Artefactos y Repositorio de Artefactos). 
+ * Tener funcionando un **pipeline** completo de Integración Continua (CI). 
+ * Tener el **proceso de QA automation** en funcionamiento. 
+ * Mantener un **control de configuración**, tanto del producto como de los ambientes (Artefactos y Repositorio de Artefactos). 
  
 La complejidad en esta disciplina proviene de que se requiere un alto nivel de comunicación, coordinación y colaboración entre todos los equipos (Desarrollo, Operation, Delivery) y un alto grado de Testing (QA) y Automatización
 
@@ -459,11 +460,14 @@ La Fig. 16 hace visible que CI y CD son parte de procesos que se comunican entre
 
 **Figura 16 Esquema de CI, Artefactos y CD.**
 
+<a name="2.5.10_practica_APIs"></a>
 ### 2.5.10. Práctica: APIs
 
 Una API (API, 2022) permite que un programa acceda a los datos y servicios de otro. Es un tipo de interfaz de software que ofrece un servicio. Un documento o formato estándar que describe cómo construir o usar una conexión o interfaz de este tipo se denomina especificación API. Se dice que un sistema de software que cumple con este estándar implementa o expone una API.
 
-Una API se considera como el “contrato” por el cual los sistemas pueden interactuar e intercambiar información.
+**Referencia:** Wikipedia contributors. (2022, February 4). API. In Wikipedia, The Free Encyclopedia. Retrieved 22:14, February 21, 2022, from https://en.wikipedia.org/w/index.php?title=API&oldid=1069932978
+
+Una API se considera como el<mark style="background: #FFF3A3A6;"> “contrato”</mark> por el cual los sistemas pueden interactuar e intercambiar información.
 
 ![](../../images/api_concepto_postman.png)
 
