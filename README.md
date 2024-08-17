@@ -118,8 +118,6 @@ Charlas --> [Notas de las charlas](/pages/we_are_developers_wc_2024/landing.md)
 - [The Architecture of Open Source Applications. A book, a web site](http://aosabook.org/en/index.html)
 - [Hexagonal Me](https://jmgarridopaz.github.io/content/articles.html)  <span style="color:red"> nueva web para chusmear!</span>
 
----
-
 # 🎓 UCA posgrado de Especialización en Ingeniería de Software 💻
 
 ![](images/uca_logo.png)
@@ -127,15 +125,10 @@ Charlas --> [Notas de las charlas](/pages/we_are_developers_wc_2024/landing.md)
  - [Materias y notas de la especialización](/pages/sw_eng_specialization/landing.md)
 
 
----
-
 # Universidad de Palermo Master en tecnología de la Información
-
 
  - [Materias y notas del master](/pages/master_information_tech/landing.md)
 
-
----
 
 # Otros Libros, Novelas, etc.
 
@@ -154,6 +147,7 @@ Charlas --> [Notas de las charlas](/pages/we_are_developers_wc_2024/landing.md)
  * Cuentos completos de Robots.
  * 1984. George Orwell (23%)
 
+---
 
 # Blog siempre en progreso, como el pan de cada día!!
 
