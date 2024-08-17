@@ -421,7 +421,7 @@ El testing es fundamental y deben ser automatizados en su mayoría. No importa l
 
 #### Pirámide de Testing
 
-La analogía de una pirámide se usa  para representar visualmente la cantidad y la prioridad de diferentes tipos de pruebas. Esta representación es útil por varias razones:
+La analogía de una pirámide se usa  para representar visualmente la <mark style="background: #FFF3A3A6;">cantidad y la prioridad </mark>de diferentes tipos de pruebas. Esta representación es útil por varias razones:
 
 - **Distribución de Cantidad**: La base más ancha de la pirámide representa la mayor cantidad de pruebas unitarias que deben realizarse. A medida que subimos, la cantidad de pruebas disminuye, con menos pruebas de integración, aún menos pruebas de componentes, y menos aún de pruebas end-to-end (E2E), de rendimiento y seguridad. Esto refleja la práctica recomendada de tener una gran cantidad de pruebas unitarias debido a su rapidez y costo efectivo, con una menor cantidad de pruebas más lentas y costosas en los niveles superiores.
 
@@ -507,3 +507,12 @@ Link: [Simulador DORA Quick Check](https://dora.dev/quickcheck/)
 ![](../../images/dora_software_delivery_performance.png)
 
 **Figura 19 Ejemplo Estado de Delivery de Software de una Organización. Imágen Fuente (Google LLC, n.d.)**
+
+### 2.5.12. Metodología: DevOps
+
+Desde una perspectiva académica, (Bass et al., 2015) definen DevOps como: "un conjunto de prácticas Fig. 20 destinadas a reducir el tiempo entre la realización de un cambio en un sistema y el momento en que el cambio se coloca en producción, garantizando al mismo tiempo una alta calidad".
+
+![](../../images/devops_toolchain.png)
+
+**Figura 20 Esquema Conceptual DevOps. Imagen Fuente (DevOps, 2020)**
+
