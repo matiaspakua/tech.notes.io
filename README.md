@@ -120,7 +120,7 @@ Charlas --> [Notas de las charlas](/pages/we_are_developers_wc_2024/landing.md)
 
 # 🎓 UCA posgrado de Especialización en Ingeniería de Software 💻
 
-![](images/uca_logo.png)
+![300x150](images/uca_logo.png)
 
  - [Materias y notas de la especialización](/pages/sw_eng_specialization/landing.md)
 
