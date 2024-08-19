@@ -34,11 +34,3 @@
 7. **Interfaz de Usuario (UI)**:
    - **Panel de Administración**: Un panel centralizado para que los administradores gestionen usuarios, roles y permisos. Debe ser accesible únicamente para los usuarios con permisos administrativos.
    - **Flujo de Registro e Inicio de Sesión Simple**: La interfaz debe ser clara y fácil de usar, asegurando una experiencia fluida para el usuario final.
-
-#### **Siguientes Pasos para el Análisis y Diseño Orientado a Objetos**
-Estos requisitos de negocio proporcionan el marco para iniciar el proceso de análisis y diseño orientado a objetos. Los siguientes pasos incluirían:
-
-- **Identificar las clases principales**: Como `Usuario`, `Rol`, `Permiso`, `Token`, y `Administrador`.
-- **Diseñar los casos de uso**: Modelar casos de uso para escenarios clave como registro, inicio de sesión, gestión de roles, etc.
-- **Diagramas de secuencia**: Crear diagramas de secuencia para los flujos de autenticación, autorización y registro de usuarios.
-- **Modelado de la Base de Datos**: Definir tablas como `Usuarios`, `Roles`, `Permisos` y relaciones entre ellas.

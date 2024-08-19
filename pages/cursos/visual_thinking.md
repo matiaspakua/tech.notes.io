@@ -1,6 +1,6 @@
 # Visual Thinking
 
-![](../../images/conways_law_example.jpeg)
+![300x300](../../images/conways_law_example.jpeg)
 
 ---
 
@@ -14,7 +14,11 @@ Visual Thinking es como cuando usas dibujos para <mark style="background: #FFF3A
 
 ## Componentes del Visual Thinking
 
+---
+
 - **Imágenes** 🖼️: Dibujos o símbolos que representan ideas o conceptos. Ayudan a visualizar lo que estás pensando.
+
+![400x400](../../images/building_confuse.png)
 
 ---
 
@@ -36,7 +40,7 @@ Visual Thinking es como cuando usas dibujos para <mark style="background: #FFF3A
 
 ## Visual Thinking y Design Thinking
 
-El Design Thinking es un proceso  de resolución de problemas que comienza con la comprensión de las necesidades no satisfechas  e implica el desarrollo de conceptos,  creatividad, la creación de prototipos y la realización de pruebas.
+El Design Thinking es un proceso de <mark style="background: #FFF3A3A6;">resolución de problemas</mark> que comienza con la comprensión de las necesidades no satisfechas  e implica el desarrollo de <mark style="background: #BBFABBA6;">conceptos</mark>, <mark style="background: #ADCCFFA6;">creatividad</mark>, la creación de <mark style="background: #FFF3A3A6;">prototipos</mark> y la realización de pruebas.
 
 El Design Thinking se puede aplicar a cualquier problema que necesite una solución creativa, no solo a productos físicos, sino también a servicios, modelos de negocio y cuestiones sociales.
 
@@ -54,7 +58,7 @@ El Design Thinking se puede aplicar a cualquier problema que necesite una soluci
 
 ## Design Thinking Canva en Obsidian
 
-![](../../images/desgin-thinking.png)
+![400x400](../../images/desgin-thinking.png)
 
 ---
 
@@ -94,7 +98,7 @@ Link: https://docs.google.com/drawings/d/1cBOqUlmJ5NF0shSbG3enm4T4eSLA-ZV8o2X1yr
 
 [Link Post](https://www.linkedin.com/posts/matiasmiguez_softwareengineering-softwaredebug-spaceengineering-activity-7189696668177416192-1JNV?utm_source=share&utm_medium=member_desktop)
 
-![](../../images/post_linkedin_voyayer.png)
+![400x400](../../images/post_linkedin_voyayer.png)
 
 
 ---
