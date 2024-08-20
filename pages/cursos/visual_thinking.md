@@ -140,4 +140,6 @@ Link: https://youtu.be/7fx0QcHyrFk?si=c6a7xIhEi-zl7-fA
 
 ## Ejemplo
 
-[archivo de ejemplo](../../canvas/visual_thinking_and_problem_solving.drawio)
+
+Descargar Ejemplo: [![[../../images/download.png|30x30]]](../../canvas/visual_thinking_and_problem_solving.drawio)
+
