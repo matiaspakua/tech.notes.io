@@ -141,5 +141,4 @@ Link: https://youtu.be/7fx0QcHyrFk?si=c6a7xIhEi-zl7-fA
 ## Ejemplo
 
 
-Descargar Ejemplo: [![[../../images/download.png|30x30]]](../../canvas/visual_thinking_and_problem_solving.drawio)
-
+Descargar Ejemplo:  [![[../../images/download.png|30x30]]](https://github.com/matiaspakua/tech.notes.io/blob/08c0d9e956789029b2689af4acd98ba1fd51652e/canvas/visual_thinking_and_problem_solving.drawio)
