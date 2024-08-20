@@ -137,3 +137,7 @@ Link: https://youtu.be/7fx0QcHyrFk?si=c6a7xIhEi-zl7-fA
 
 
 ![](../../images/obsidian_graph_diagram.png)
+
+## Ejemplo
+
+[archivo de ejemplo](../../canvas/visual_thinking_and_problem_solving.drawio)
