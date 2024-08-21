@@ -15,7 +15,7 @@ Linkedin: https://www.linkedin.com/in/fateev
 
 Representación del sistema solar, trajectoria de los planetas:
 
-![](../../images/sistema_solar_trajectoria_planetas_real.png)
+![500x400](../../images/sistema_solar_trajectoria_planetas_real.png)
 
 ---
 
@@ -23,27 +23,27 @@ Representación del sistema solar, trajectoria de los planetas:
 
 Nosotros trabajamos con abstracciones, pero hay niveles de abstracción. El problema aparece cuando se modelas las abstracciones equivocadas o de manera equivocada.
 
-![](../../images/sistema_solar_copernico.png)
+![800x400](../../images/sistema_solar_copernico.png)
 
 ---
 
 ## Complejidad de los sistemas
 
-![](../../images/durable_execution_complexity.png)
+![600x400](../../images/durable_execution_complexity.png)
 
 ---
 
 ## Propiedad de un sistema monolito
 
 
-![](../../images/durable_execution_monolito_transaccion.png)
+![600x400](../../images/durable_execution_monolito_transaccion.png)
 
 
 ---
 
 ## Concepto de Transaccionalidad
 
-![](../../images/durable_execution_transaccional.png)
+![600x400](../../images/durable_execution_transaccional.png)
 
 ---
 
