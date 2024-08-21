@@ -4,14 +4,26 @@
 
 # Autor
 
+Maxim Fateev
+CTO/Cofounder @ Temporal.io
 
+Linkedin: https://www.linkedin.com/in/fateev
 
 ---
 
 # Introducción
 
-Representación del sistema solar.
+Representación del sistema solar, trajectoria de los planetas:
+
+![](../../images/sistema_solar_trajectoria_planetas_real.png)
+
+---
+
+## Abstracciones
+
 Nosotros trabajamos con abstracciones, pero hay niveles de abstracción. El problema aparece cuando se modelas las abstracciones equivocadas o de manera equivocada.
+
+![](../../images/sistema_solar_copernico.png)
 
 ---
 
@@ -35,12 +47,18 @@ Nosotros trabajamos con abstracciones, pero hay niveles de abstracción. El prob
 
 ---
 
+Un sistema monolítico es <mark style="background: #BBFABBA6;">transaccional</mark> y las transacciones no permiten <mark style="background: #FFF3A3A6;">"fallas parciales"</mark>.
+
+Pero cuando el monolito es muy grande, la estrategia es separarlo en **microservicios**. Y cuando los pasos de un determinado proceso está separado y toma más tiempo completarlo, las transacciones no sirven. Entonces apare: <mark style="background: #FFF3A3A6;">Event-Driven.</mark>
+
+---
+
 ## Event-Driven Architecture al rescate
 
- - Productores: produced => un EVENTO es generado
- - Canal: publica y propaga un mensaje (asociado un evento)
-- Consumidores: detectan el mensaje del canal y consumen el mensaje, para luego actuar sobre el "evento"
-- Arquitectura de mensajes "asincrónica" y distribuida.
+ - <mark style="background: #FFF3A3A6;">Productores</mark>: produced => un EVENTO es generado
+ - <mark style="background: #FFF3A3A6;">Canal</mark>: publica y propaga un mensaje (asociado un evento)
+- <mark style="background: #FFF3A3A6;">Consumidores</mark>: detectan el mensaje del canal y consumen el mensaje, para luego actuar sobre el "evento"
+- Arquitectura de mensajes <mark style="background: #FFF3A3A6;">"asincrónica" y distribuida</mark>.
 
 Ref. https://en.wikipedia.org/wiki/Event-driven_architecture
 
