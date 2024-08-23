@@ -452,7 +452,13 @@ La entrega continua (Fowler et al., 2013) es la capacidad de <mark style="backgr
 *Referencia:* Humble, J. (2017). What is Continuous Delivery? What is Continuous Delivery? -Continuous Delivery. Retrieved February 21, 2022, from https://continuousdelivery.com/
 
 
-La disciplina de CD implica que el **software puede (o no) ser enviado a producción** en cualquier momento. CD difiere del Despliegue Continuo (CD) donde “siempre” el software pasa a producción.
+La disciplina de CD implica que el **software puede (o no) ser enviado a producción** en cualquier momento. CD difiere del <mark style="background: #FFF3A3A6;">Despliegue Continuo (CD) donde “siempre” el software pasa a producción.</mark>
+
+---
+
+**CD (continuos delivery) != CD (continuous deploy)**
+
+---
 
 Los pre-requisitos para la práctica de CD incluyen: 
 
