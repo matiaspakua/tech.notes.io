@@ -62,3 +62,30 @@ Link: https://matiaspakua.github.io/tech.notes.io/pages/books/book_extreme_progr
 #SoftwareEngineering
 #AgileDevelopment
 #ContinuousImprovement
+
+
+Notas del Libro XP programming: "The Theory of Constraints"
+
+  
+
+Una de las reflexiones mas interesantes para mi que surgen de leer y re-leer el libro de XP programming de [Kent Beck](https://www.linkedin.com/feed/#) es el de la teoría de las "restricciones".  
+
+La teoría sostiene que en cualquier sistema siempre hay al menos una restricción que limita el rendimiento total. Para mejorar el rendimiento se puede:
+
+1. Identificar la restricción: Detectar qué está limitando el flujo del sistema.
+
+2. Optimizar la restricción: Asegurarse de que funcione a máxima capacidad mediante pruebas de rendimiento.
+
+3. Solucionar la restricción: Aumentar su capacidad, redistribuir el trabajo o eliminarla.
+
+La teoría subraya que siempre hay una restricción y que al eliminar una, se crea otra. Las micro-optimizaciones no son suficientes; hay que abordar la situación completa.
+
+En el libro se propone un ejemplo: lavar la ropa y secar la ropa, entonces, dependiendo de las restricciones y las decisiones, al querer optimizar el sistema, se crea otra restricción.
+
+Link a mis notas favoritas ("quotes") del libro: https://matiaspakua.github.io/tech.notes.io/pages/books/book_extreme_programming_explained.html#1.11.the_theory_of_constraints
+
+**#softwareengineering**
+
+**#softwaredesign**
+
+**#softwaredevelopment**
