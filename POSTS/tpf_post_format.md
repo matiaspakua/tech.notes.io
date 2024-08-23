@@ -295,3 +295,37 @@ Link:
 #softwareprocess
 #testing
 #testpyramid
+
+---
+
+****
+23/08/2024
+***
+
+
+Comparto el posts 13 de mi TPF:  
+  
+DevSecOps desde la perspectiva de QA Automation sobre la práctica de: "Entrega Continua (CD)"  
+  
+La entrega continua es la capacidad de introducir cambios de todo tipo (incluidas nuevas funciones, cambios de configuración, correcciones de errores y experimentos) en producción o en manos de los usuarios, de forma segura, rápida y sostenible.  
+  
+La disciplina de Entrega continua (CD) implica que el software puede (o no) ser enviado a producción en cualquier momento. CD difiere del Despliegue Continuo (CD, mismo acrónimo) donde “siempre” el software pasa a producción.  
+  
+La complejidad en esta disciplina proviene de que se requiere un alto nivel de comunicación, coordinación y colaboración entre todos los equipos (Desarrollo, Operation, Delivery) y un alto grado de Testing (QA) y Automatización  
+  
+Link al blog: [https://lnkd.in/dGdRJYxp](https://lnkd.in/dGdRJYxp)  
+  
+[hashtag#devsecops](https://www.linkedin.com/feed/hashtag/?keywords=devsecops&highlightedUpdateUrns=urn%3Ali%3Aactivity%3A7232810612274167808)  
+[hashtag#qaautomation](https://www.linkedin.com/feed/hashtag/?keywords=qaautomation&highlightedUpdateUrns=urn%3Ali%3Aactivity%3A7232810612274167808)  
+[hashtag#softwareengineeing](https://www.linkedin.com/feed/hashtag/?keywords=softwareengineeing&highlightedUpdateUrns=urn%3Ali%3Aactivity%3A7232810612274167808)  
+[hashtag#softwareprocess](https://www.linkedin.com/feed/hashtag/?keywords=softwareprocess&highlightedUpdateUrns=urn%3Ali%3Aactivity%3A7232810612274167808)  
+[hashtag#continuousdelivery](https://www.linkedin.com/feed/hashtag/?keywords=continuousdelivery&highlightedUpdateUrns=urn%3Ali%3Aactivity%3A7232810612274167808)
+
+
+---
+
+
+****
+26/08/2024
+***
+

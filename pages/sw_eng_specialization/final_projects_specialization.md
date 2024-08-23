@@ -502,14 +502,14 @@ En el desarrollo de productos de software, API-first (Postman, Inc., 2022) es un
 
 A continuación se listan las etapas (Lane, 2022) de implementación de una estrategía API-first:
 
-1. **Definiciones iniciales**: equipo de trabajo, espacio para escribir, comunicar, modelar; y repositorio centralizado. 
-2. **Diseño**: Basarse en la especificación OpenAPI (The Linux Foundation, 2021) para un vocabulario común, mock servers y modelado de endpoints. 
-3. **Documentación**: Documentar (SmartBear Software, 2021) endpoints y proveer ejemplos. 
-4. **Deploy**: Tener un servidor de CI/CD, y un gateway para centralizar los pedidos (requests). 
-5. **Testing**: Generar pruebas por "contrato" y pruebas de performance. 
-6. **Seguridad**: Implementar mecanismos de autenticación y autorización, implementar testing de seguridad. 
-7. **Monitoreo**: Monitorear el testing por contrato, de performance, seguridad, la actividad general de uso y desarrollo de las API, el changelog y las notificaciones que se generan. 
-8. **Descubrimiento**: Asegurar los mecanismos de publicación en redes públicas o privadas y los mecanismo de búsqueda de documentación y ejemplos.
+1. 🛠️ **Definiciones iniciales**: equipo de trabajo, espacio para escribir, comunicar, modelar; y repositorio centralizado.
+2.✏️ **Diseño**: Basarse en la especificación OpenAPI (The Linux Foundation, 2021) para un vocabulario común, mock servers y modelado de endpoints.
+3. 📑 **Documentación**: Documentar (SmartBear Software, 2021) endpoints y proveer ejemplos.
+4. 🚀 **Deploy**: Tener un servidor de CI/CD, y un gateway para centralizar los pedidos (requests).
+5. 🧪 **Testing**: Generar pruebas por “contrato” y pruebas de performance.
+6. 🔒 **Seguridad**: Implementar mecanismos de autenticación y autorización, implementar testing de seguridad.
+7. 📊 **Monitoreo**: Monitorear el testing por contrato, de performance, seguridad, la actividad general de uso y desarrollo de las API, el changelog y las notificaciones que se generan.
+8. 🔍 **Descubrimiento**: Asegurar los mecanismos de publicación en redes públicas o privadas y los mecanismos de búsqueda de documentación y ejemplos.
 
 **Referencia:** Lane, K. (2022, January 14). The 8-Point API Lifecycle Blueprint. Postman Blog. Retrieved February 21, 2022, from https://blog.postman.com/api-lifecycle-blueprint/
 
