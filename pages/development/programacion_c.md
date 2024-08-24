@@ -1,4 +1,4 @@
-# **Introducción a la Programación en C**
+# Introducción a la Programación en C
 
 1. # **1\. Introducción**
 
