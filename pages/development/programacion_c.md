@@ -1,8 +1,8 @@
 # Introducción a la Programación en C
 
-1. # **1\. Introducción**
+1. # **1 . Introducción**
 
-NIVEL DE ABSTRACCIÓN \- COMO ATACAR EL PROBLEMA PARA ENCONTRAR UNA SOLUCIÓN  
+NIVEL DE ABSTRACCIÓN  - COMO ATACAR EL PROBLEMA PARA ENCONTRAR UNA SOLUCIÓN  
 Un problema real requiere de un análisis que depender del **mundo real**. Este análisis genera un gap semántico que genera una **representación del problema** en un **mundo virtual**. A partir de ese punto, se puede definir una **solución virtual** al problema presentación y que finalmente se puede convertir en la **solución real.**
 
 ![][image1]
@@ -24,19 +24,19 @@ a todo éste proceso se lo denomina “**resolución de un problema**” y const
 
   ## **1.2. Pasos En la generación de un programa**
 
-![C\_DevelopmentProcesses.png][image3]  
+![C _DevelopmentProcesses.png][image3]  
 Como se hace la traducción de código de fuente a un conjunto de instrucciones para ejecutar?
 
 * Lenguajes Interpretados (Toma la sentencia y realiza una interpretación)  
-* Lenguajes compilados (hacen la traducción completa de las sentencia y dan como resultado el programa puro) \==\> se gana velocidad. Compilación previa a la ejecución del programa.
+* Lenguajes compilados (hacen la traducción completa de las sentencia y dan como resultado el programa puro)  == > se gana velocidad. Compilación previa a la ejecución del programa.
 
-*1 \- Código fuente*
+*1  - Código fuente*
 
 p1.c  
 p2.c			Estos son módulos.  
 p3.c
 
-*2 \- Compilación*
+*2  - Compilación*
 
 p1.obj  
 p2.obj		Archivos objeto  
@@ -44,8 +44,8 @@ p3.obj
 
 Se codifican todas las sentencia a código máquina, a excepción de las llamadas a bibliotecas
 
-*3 \- Ligado (linkeo)*  
-Toma los códigos objetos que componían los módulos \+ bibliotecas y esto termina generando el programa.
+*3  - Ligado (linkeo)*  
+Toma los códigos objetos que componían los módulos  + bibliotecas y esto termina generando el programa.
 
 ## **1.3. Características Generales del Lenguage C**
 
@@ -59,11 +59,11 @@ Toma los códigos objetos que componían los módulos \+ bibliotecas y esto term
 
 Una variable se declara de la siguiente manera:
 
-int i \= 6; /\* this declares a variable 'i', and sets it to equal 6 \*/
+int i  = 6; / * this declares a variable 'i', and sets it to equal 6  */
 
-/\* this declares the variables 'i', 'test', 'foo', and 'bar'  
-    note that ONLY 'bar' is set to six\! \*/  
-int i, test, foo, bar \= 6;  
+/ * this declares the variables 'i', 'test', 'foo', and 'bar'  
+    note that ONLY 'bar' is set to six !  */  
+int i, test, foo, bar  = 6;  
 ![BasicsVariable.png][image4]  
 Las variables permiten Bajar el nivel de abstracción ⇒  importante ⇒  no limitarse al hardware. Es una forma de relacionar un nombre con una cantidad de memoria. 
 
@@ -77,14 +77,14 @@ Los bloques se utilizar para agrupar sentencias en las funciones y definen el á
 
 int main(void)  
 {  
-    /\* this is a 'block' \*/  
-    int i \= 5;  
+    / * this is a 'block'  */  
+    int i  = 5;  
    
     {// este bloque separe  
-        /\* this is also a 'block,' separate from the last one \*/  
-        int i \= 6;	  
+        / * this is also a 'block,' separate from the last one  */  
+        int i  = 6;	  
     }  
-    printf(“%d\\n”, i);  
+    printf(“%d  n”, i);  
     return 0;  
 }
 
@@ -92,13 +92,13 @@ int main(void)
 
 Los tipos básico de C son: char, int, float y double. Con el siguiente código, se usa la función “sizeof” para determinar el tamaño de los tipos de datos (lo que ocupan en memoria).
 
-\#include \<stdio.h\>
+ #include  <stdio.h >
 
 int main(void) {  
-	printf("Caracter: %d\\n", 	sizeof(char));  
-	printf("Entero: %d\\n", 	sizeof(int));  
-	printf("Flotante: %d\\n", 	sizeof(float));  
-	printf("Doble: %d\\n", 	sizeof(double));  
+	printf("Caracter: %d  n", 	sizeof(char));  
+	printf("Entero: %d  n", 	sizeof(int));  
+	printf("Flotante: %d  n", 	sizeof(float));  
+	printf("Doble: %d  n", 	sizeof(double));  
 	return 0;  
 }
 
@@ -112,17 +112,17 @@ sizeof(type)
 
 Entonces, uno podría hacer algo por el estilo:
 
-size\_t size;  
+size _t size;  
 int i;  
-size \= sizeof(i);
+size  = sizeof(i);
 
 ## **1.9. Representación de Punto Flotante**
 
 Para números con punto flotante hacen falta 4 campos:
 
-1. Mantisa \==\> 1 bit  
+1. Mantisa  == > 1 bit  
 2. Signo de mantisa  
-3. Exponente \==\> 1 bit  
+3. Exponente  == > 1 bit  
 4. Signo de exponente
 
 | 10000000 | 000000000 (mantisa) | 10000000 | 000000000(exponente) |
@@ -132,20 +132,20 @@ Siempre es conveniente llevar la representación de los números al menor rango 
 
 ## **1.10. Modificadores de tipos**
 
-unsigned short int entero\_sin\_signo\_corto; 		// unsigned short int \= 2 byte \=\> 0 a 65535  
-short entero\_corto;               	 		// short int 2 bytes \=\> \-32767 a \+32767  
-unsigned long entero\_sin\_signo\_largo;       	// unsigned long int \=\> 
+unsigned short int entero _sin _signo _corto; 		// unsigned short int  = 2 byte  = > 0 a 65535  
+short entero _corto;               	 		// short int 2 bytes  = >  -32767 a  +32767  
+unsigned long entero _sin _signo _largo;       	// unsigned long int  = > 
 
-* unsigned \=\> le quita el signo al valor  
-* short \=\> reduce el rango de valores del tipo de dato  
-* long \=\> extiende el rango de valores del tipo de dato
+* unsigned  = > le quita el signo al valor  
+* short  = > reduce el rango de valores del tipo de dato  
+* long  = > extiende el rango de valores del tipo de dato
 
   ## **1.11. Número mágicos (constantes)**
 
-\#define EDAD\_JUBILACION\_HOMBRE 65  
-\#define EDAD\_JUBILACION\_MUJER 60
+ #define EDAD _JUBILACION _HOMBRE 65  
+ #define EDAD _JUBILACION _MUJER 60
 
-La directiva de preprocesador \#define permite reemplazar la ocurrencia del nombre de la constante con el valor asignado.  
+La directiva de preprocesador  #define permite reemplazar la ocurrencia del nombre de la constante con el valor asignado.  
 Por convención las constantes se escriben con MAYÚSCULAS.
 
 ## **1.12. Básico de Funciones**
@@ -160,21 +160,21 @@ Las funciones pueden ser definidas por la librería estándar, por terceros o po
 
 * La importancia de las nuevas líneas:
 
-\#include \<stdio.h\>
+ #include  <stdio.h >
 
-int main(void){ int i\=0; printf("Hello, World\!"); for (i\=0; i\<1; i\++){ printf("\\n"); break; } return 0; }
+int main(void){ int i =0; printf("Hello, World !"); for (i =0; i <1; i ++){ printf("  n"); break; } return 0; }
 
 * La importancia de la Indentación:
 
-\#include \<stdio.h\>
+ #include  <stdio.h >
 
 int main(void)  
 {  
-int i\=0;  
-printf("Hello, World\!");   
-for (i\=0; i\<1; i\++)  
+int i =0;  
+printf("Hello, World !");   
+for (i =0; i <1; i ++)  
 {   
-printf("\\n");   
+printf("  n");   
 break;  
 }  
 return 0;  
@@ -190,30 +190,30 @@ Los comentarios son una de las herramientas más importantes en la programación
 
 //Single Line Comments  (added by C99 standard, famously known as c++ style of comments)
 
-/\*  
+/ *  
   Multiple   
   line of  
   comment  
- \*/
+  */
 
 **Ejemplo**:
 
-\#include \<stdio.h\>  
+ #include  <stdio.h >  
    
-/\*\*  
- \* esta función…..  
- \* Argumentos:   
- \* Retorno: un entero para…. 0 OK, 1 error  
- \*/  
+/ * *  
+  * esta función…..  
+  * Argumentos:   
+  * Retorno: un entero para…. 0 OK, 1 error  
+  */  
 int main(void)  
 {  
-    int i\=0;                // loop variable.  
+    int i =0;                // loop variable.  
    
-    printf("Hello, World\!");  
+    printf("Hello, World !");  
    
-    for (i\=0; i\<1; i\++)   
+    for (i =0; i <1; i ++)   
     {  
-        printf("\\n");  
+        printf("  n");  
         break;               //Exits 'for' loop.  
     }  
  
@@ -224,30 +224,30 @@ int main(void)
 ## **1.15. Primer programa en "C"**
 
 Todo programa en “Consta” de las siguientes partes:  
-\* Directivas del pre-procesador  
-\* Declaraciones de tipo  
-\* Declaraciones de funciones  
-\* Definición de funciones
+ * Directivas del pre-procesador  
+ * Declaraciones de tipo  
+ * Declaraciones de funciones  
+ * Definición de funciones
 
-*//hola\_mundo.c*
+*//hola _mundo.c*
 
-*\#include \<stdio.h\>*
+* #include  <stdio.h >*
 
 *int suma(int a, int b);*
 
 *int main()*  
 *{*  
-	*printf("hola mundo\\n");*  
+	*printf("hola mundo  n");*  
 	*return 0;*  
 *}*
 
-El pre-procesador se encarga de ejecutar todas las directivas del "\#". Este símbolo se usa para incluir HEADER files al código que se este ejecutando en ese momento.
+El pre-procesador se encarga de ejecutar todas las directivas del " #". Este símbolo se usa para incluir HEADER files al código que se este ejecutando en ese momento.
 
-\#include \<stdio.h\>  
+ #include  <stdio.h >  
    
 int main(void)  
 {  
-   printf("Hello, world\!");  
+   printf("Hello, world !");  
    // Espera hasta que se ingrese un caracter.  
    getchar();  
    return 0;  
@@ -255,19 +255,19 @@ int main(void)
 
 ## **1.16. Entrada y Salida de Caracteres**
 
-int printf(const char \*format,...)
+int printf(const char  *format,...)
 
 La siguiente es una lista de declaraciones de formato de salida:
 
-* %d \- int (same as %i)  
-* %ld \- long int (same as %li)  
-* %f \- float  
-* %lf \- double  
-* %c \- char  
-* %s \- string  
-* %x \- hexadecimal
+* %d  - int (same as %i)  
+* %ld  - long int (same as %li)  
+* %f  - float  
+* %lf  - double  
+* %c  - char  
+* %s  - string  
+* %x  - hexadecimal
 
-int scanf (const char \*format,...)
+int scanf (const char  *format,...)
 
 A diferencia del printf, la función scanf requiere de la dirección de memoria donde va a escribir el valor ledo
 
@@ -284,46 +284,46 @@ do		if		static		while
 
 ## **1.18. Proceso de Compilación con GCC**
 
-![GCC\_CompilationProcess.png][image5]
+![GCC _CompilationProcess.png][image5]
 
 Gcc compila archivos fuentes. Internamente, éste proceso se realiza en las siguientes etapas. 
 
- "gcc \-o hello.exe hello.c" :
+ "gcc  -o hello.exe hello.c" :
 
-1. Pre-processing: via the GNU C Preprocessor (gcc.exe), which includes the headers (\#include) and expands the macros (\#define).  
-2. \> **gcc hello.c \> hello.i**  
+1. Pre-processing: via the GNU C Preprocessor (gcc.exe), which includes the headers ( #include) and expands the macros ( #define).  
+2.  > **gcc hello.c  > hello.i**  
 3. The resultant intermediate file "hello.i" contains the expanded source code.  
 4. Compilation: The compiler compiles the pre-processed source code into assembly code for a specific processor.  
-5. \> **gcc \-S hello.i**  
-6. The \-S option specifies to produce assembly code, instead of object code. The resultant assembly file is "hello.s".  
+5.  > **gcc  -S hello.i**  
+6. The  -S option specifies to produce assembly code, instead of object code. The resultant assembly file is "hello.s".  
 7. Assembly: The assembler (as.exe) converts the assembly code into machine code in the object file "hello.o".  
-8. \> **as \-o hello.o hello.s**  
+8.  > **as  -o hello.o hello.s**  
 9. Linker: Finally, the linker (ld.exe) links the object code with the library code to produce an executable file "hello.exe".  
-10. \> **ld \-o hello.exe hello.o ...libraries...**
+10.  > **ld  -o hello.exe hello.o ...libraries...**
 
-##### **Verbose Mode (\-v)**
+##### **Verbose Mode ( -v)**
 
-You can see the detailed compilation process by enabling \-v (verbose) option. For example,
+You can see the detailed compilation process by enabling  -v (verbose) option. For example,
 
-\> **gcc \-v hello.c \-o hello.exe**
+ > **gcc  -v hello.c  -o hello.exe**
 
-# **2\. Estructuras de control de Flujo**
+# **2 . Estructuras de control de Flujo**
 
 ## **2.1. Condiciones y Expresiones**
 
-¿Que es una condición? \==\>  Determina un valor lógico de una proposición \==\> True / False
+¿Que es una condición?  == >  Determina un valor lógico de una proposición  == > True / False
 
 * Operadores relacionales
 
-	\<   \>    \<=    \>=     \!=     \==
+	 <    >     <=     >=      !=      ==
 
 * Operadores lógicos
 
-	&&     ||     \!
+	&&     ||      !
 
 * Operadores algebraicos
 
-	\+    \-    \*    /    %    ^  
+	 +     -     *    /    %    ^  
 
 * Operadores de bit
 
@@ -340,7 +340,7 @@ sentencia”n”;
 
 ## **2.3. Estructura if-else**
 
-if (\<condición\>)  
+if ( <condición >)  
 {  
 // bloque de código  
 }  
@@ -349,7 +349,7 @@ else
 // bloque de código  
 }
 
-*\#include \<stdio.h\>*
+* #include  <stdio.h >*
 
 *int main()*  
 *{*  
@@ -363,13 +363,13 @@ else
 *scanf("%d",&valor);*
 
 *// Ciclo de control para verificar si el valor ingresado es par o no*  
-	*if (valor % 2\)*  
+	*if (valor % 2 )*  
 *{*  
-		*printf("valor inpar\\n");*  
+		*printf("valor inpar  n");*  
 	*}*  
 *else*  
 *{*  
-		*printf("valor par\\n");*  
+		*printf("valor par  n");*  
 	*}*  
 	*// Retorno de la función main()*  
 	*return 0;*  
@@ -377,18 +377,18 @@ else
 
 ## **2.4. Estructura While**
 
-while (\<condicion\>)  
+while ( <condicion >)  
 {  
 	// bloque de código  
 }
 
 Ejemplo:
 
-while((c\=getchar())\!=EOF)  
+while((c =getchar()) !=EOF)  
 {  
 	if (isalpha(c))  
 {  
-		alpha\[c\-'a'\]++;  
+		alpha [c -'a' ]++;  
 break;  
 }  
 }
@@ -399,85 +399,85 @@ do
 {  
 	// bloque de código
 
-} while (\<expresión\>);
+} while ( <expresión >);
 
 Ejemplo:
 
 do{  
-if ((n\<=m)&&(m%n\==0))  
+if ((n <=m)&&(m%n ==0))  
 {  
-		mcd\=TRUE;  
+		mcd =TRUE;  
 }  
-	else if (m\<n)  
+	else if (m <n)  
 {  
 		swap(&m,&n);	// hago swap  
 	}  
 	else  
 {  
-		m\=m%n;  
+		m =m%n;  
 		swap(&m,&n);  
 	}  
-}while(mcd\==FALSE);
+}while(mcd ==FALSE);
 
 ## **2.6. Estructura For**
 
-for(\<valor\_inicial\> ; \<condición\> ; \<incremento\> )  
+for( <valor _inicial > ;  <condición > ;  <incremento > )  
 {  
 	//bloque de código  
 }
 
 *Ejemplo:* 
 
-*// conversión\_far\_cel.c*  
-*\#include \<stdio.h\>*  
-*\#define TEMP\_INICIAL 	0*  
-*\#define TEMP\_FINAL	100*  
-*\#define DELTA 5*
+*// conversión _far _cel.c*  
+* #include  <stdio.h >*  
+* #define TEMP _INICIAL 	0*  
+* #define TEMP _FINAL	100*  
+* #define DELTA 5*
 
 *int main()*  
 *{*  
 	*int t;*  
 	  
-	*for (t\=TEMP\_INICIAL; t\<TEMP\_FINAL; t \+=DELTA)*  
+	*for (t =TEMP _INICIAL; t <TEMP _FINAL; t  +=DELTA)*  
 	*{*  
 *// hay que meterle un coma algo para que devuelva un* 		  
 *// valor y haga la reasignación de valores a "lf"*  
-		*printf("%d C \-\> %.2lf F\\n",t, 32 \+ t \* (9/5) );*   
+		*printf("%d C  - > %.2lf F  n",t, 32  + t  * (9/5) );*   
 	*}*  
 *}*
 
-# **3\. Arreglos**
+# **3 . Arreglos**
 
 ![Arreglos y Vectores.jpg][image6]  
 Los arreglos son estructuras que permiten agrupar un conjunto de variables del mismo tipo, bajo un nombre, y que permiten ser accedidos (cada elemento) por medio de un índice.  
 En C, el arreglo más común es el de caracteres:
 
-char cadena\[10\];		// define una cadena de 10 elementos tipo carácter.
+char cadena [10 ];		// define una cadena de 10 elementos tipo carácter.
 
-if(cadena\[i\] \== 65\)  
+if(cadena [i ]  == 65 )  
 {  
 	printf("La letra en la posición %d es una A", i)  
 }
 
 Otro ejemplo es un arreglo de enteros:
 
-\#include \<stdio.h\>  
+ #include  <stdio.h >  
    
 int main ()  
 {  
-   int n\[ 10 \]; /\* n is an array of 10 integers \*/  
+   int n [ 10  ]; / * n is an array of 10 integers  */  
    int i,j;  
    
-   /\* initialize elements of array n to 0 \*/           
-   for ( i \= 0; i \< 10; i\++ )  
+   / * initialize elements of array n to 0  */           
+   for ( i  = 0; i  < 10; i ++ )  
    {  
-      n\[ i \] \= i \+ 100; /\* set element at location i to i \+ 100 \*/  
+      n [ i  ]  = i  + 100; / * set element at location i to i  + 100  */  
    }  
      
-   /\* output each array element's value \*/  
-   for (j \= 0; j \< 10; j\++ )  
+   / * output each array element's value  */  
+   for (j  = 0; j  < 10; j ++ )  
    {  
-      printf("Element\[%d\] \= %d\\n", j, n\[j\] );  
+      printf("Element [%d ]  = %d  n", j, n [j ] );  
    }  
    
    return 0;  
@@ -487,13 +487,13 @@ int main ()
 
 Un arreglo es una manera de referenciar un grupo de variables con un mismo nombre.
 
-int arreglo\[10\];
+int arreglo [10 ];
 
 "C" no hace chequeos con respecto al índice de los arreglos.  
 Los sectores de memoria no son todos válidos para lectura o escritura. Por este motivo se debe tener cuidado en el momento de asignación de valores a variables/arreglos, asignándole índices que no estén dentro del campo definido. A esto se lo llama violación de acceso.  
 Tanto como hay arreglo unidimensionales, también los hay multidimensionales.
 
-int matriz\[10\]\[20\];
+int matriz [10 ] [20 ];
 
 Esto en la memoria se representa por filas, o sea, que los arreglos multidimensionales se guardan en memoria de forma continuar.
 
@@ -501,34 +501,34 @@ Esto en la memoria se representa por filas, o sea, que los arreglos multidimensi
 
 Para acceder a un elemento de un arreglo se utiliza el **índice** del mismo:
 
-int valor \= vector\[i\]; 	// le asigno a la variable "valor" el contenido   
+int valor  = vector [i ]; 	// le asigno a la variable "valor" el contenido   
 // de "vector" en la posición "i"
 
 **Advertencia**: Intentar acceder a una posición **fuera del rango** del arreglo, es una **violación de acceso**.  
 Para recorrerlos se pueden utilizar cualquier estructura de control de flujo, ejemplo: FOR:
 
-int arreglo\[10\];  
-int indice \= 0;
+int arreglo [10 ];  
+int indice  = 0;
 
-for(indice \= 0; indice \< 10; indice\++)  
+for(indice  = 0; indice  < 10; indice ++)  
 {  
-	printf("Valor del arreglo en la posición %i", arreglo\[i\]);  
+	printf("Valor del arreglo en la posición %i", arreglo [i ]);  
 }
 
 ## **3.3. Arreglos, Matrices e Inicialización3.3. Arreglos, Matrices e Inicialización3.3. Arreglos, Matrices e Inicialización3.3. Arreglos, Matrices e Inicialización3.3. Arreglos, Matrices e Inicialización**
 
-\#include \<stdio.h\>
+ #include  <stdio.h >
 
 int main(void)  
 {  
-	int i,j,matrix\[3\]\[3\] \= {{1,2,3},{4,5,6},{7,8,9}};  
-	for(i \= 0; i \< 3; i\++)  
+	int i,j,matrix [3 ] [3 ]  = {{1,2,3},{4,5,6},{7,8,9}};  
+	for(i  = 0; i  < 3; i ++)  
 	{  
-		for(j \= 0;j \< 3; j\++)  
+		for(j  = 0;j  < 3; j ++)  
 		{  
-			printf("%-6d",matrix\[i\]\[j\]);  
+			printf("%-6d",matrix [i ] [j ]);  
 		}  
-		printf("\\n");  
+		printf("  n");  
 	}  
 	return 0;  
 }
@@ -541,13 +541,13 @@ enum boolean {NO, YES};
 
 Cada valor de la enumeración tiene asignado un valor entero, comenzando con cero (0), a menos que se define explícitamente el valor deseado.
 
-# **4\. Más estructuras de control: Break, Continue y GOTO**
+# **4 . Más estructuras de control: Break, Continue y GOTO**
 
 * **BREAK**: Interrumpe la ejecución del bloque de instrucciones  
 * **CONTINUE:** Vuelve a chequear la condición del flujo de control  
 * **GOTO:** Corta el flujo de control y continúa la ejecución del programa donde el "label" indique.
 
-	while (\<expresion\>)  
+	while ( <expresion >)  
 	{  
 		goto label;  
 		sentencia1;  
@@ -561,12 +561,12 @@ Cada valor de la enumeración tiene asignado un valor entero, comenzando con cer
 
 Ejemplo:
 
-/\* C program to demonstrate the working of goto statement. 		\*/  
-/\* This program calculates the average of numbers entered by user. 	\*/  
-/\* If user enters negative number, it ignores that number and 		\*/  
-/\* calculates the average of number entered before it.			\*/
+/ * C program to demonstrate the working of goto statement. 		 */  
+/ * This program calculates the average of numbers entered by user. 	 */  
+/ * If user enters negative number, it ignores that number and 		 */  
+/ * calculates the average of number entered before it.			 */
 
-\# include \<stdio.h\>  
+ # include  <stdio.h >  
 int main(){  
    float num,average,sum;  
    int i,n;
@@ -574,16 +574,16 @@ int main(){
    printf("Maximum no. of inputs: ");  
    scanf("%d",&n);
 
-   for(i\=1;i\<=n;++i){  
+   for(i =1;i <=n;++i){  
        printf("Enter n%d: ",i);  
        scanf("%f",&num);  
-       if(num\<0.0)  
-       		goto jump;      /\* control of the program moves to label jump \*/   
-       sum\=sum\+num;		 /\* nunca llega a ésta linea \*/  
+       if(num <0.0)  
+       		goto jump;      / * control of the program moves to label jump  */   
+       sum =sum +num;		 / * nunca llega a ésta linea  */  
    }
 
    jump:  
-        average\=sum/(i\-1);         
+        average =sum/(i -1);         
         printf("Average: %.2f",average);  
         return 0;  
 }
@@ -592,25 +592,25 @@ int main(){
 
 Teniendo el siguiente ejemplo:
 
-if (a \> b) {  
-    result \= x;  
+if (a  > b) {  
+    result  = x;  
 } else {  
-    result \= y;  
+    result  = y;  
 }
 
 Se podría escribir de la siguiente forma:
 
-result \= a \> b ? x : y;
+result  = a  > b ? x : y;
 
 El formato del “if aritmético” es el siguiente:
 
 (expresión)? exp1 : exp2;
 
-si (expresión)? es verdadero \= exp1, sino Falso \= Exp2
+si (expresión)? es verdadero  = exp1, sino Falso  = Exp2
 
 ## **4.2. Sentencia Switch**
 
-	**switch** (\<expresión\>) {	// expresión debe ser un valor entero  
+	**switch** ( <expresión >) {	// expresión debe ser un valor entero  
 		**case** caso1:  
 			sentencias1;  
 			**break**;  
@@ -626,7 +626,7 @@ si (expresión)? es verdadero \= exp1, sino Falso \= Exp2
 
 Si no se coloca el "break" se ejecutan todos los CASE debajo del que se ejecuto.  
 **Ejercicio:** Realizar un programa en C que permita mover el punto “W en 4,3” que se muestra en el siguiente gráfico, hacia los 4 puntos cardinales en forma aleatoria.  
-![par\_or7.gif][image7]
+![par _or7.gif][image7]
 
 | valor aleatorio | X0 | Y0 |
 | :---: | :---: | :---: |
@@ -639,107 +639,107 @@ Si no se coloca el "break" se ejecutan todos los CASE debajo del que se ejecuto.
 
 Los valores deben ir desde T0 a Tn. Para generar los números aleatorios se deberá usar la siguiente función:
 
-x \= rand();
+x  = rand();
 
-En la línea anterior, el valor del “rand” va a desde 0 \--\> rand\_max.
+En la línea anterior, el valor del “rand” va a desde 0  -- > rand _max.
 
-*// coordenadas\_RAND\_version1.c*
+*// coordenadas _RAND _version1.c*
 
-*\#include \<stdio.h\>*  
-*\#include \<stdlib.h\>*
+* #include  <stdio.h >*  
+* #include  <stdlib.h >*
 
-*\#define ARRIBA 0*  
-*\#define ABAJO 1*  
-*\#define DERECHA 2*  
-*\#define IZQUIERDA 3*  
-*\#define N 10*
+* #define ARRIBA 0*  
+* #define ABAJO 1*  
+* #define DERECHA 2*  
+* #define IZQUIERDA 3*  
+* #define N 10*
 
 *int main(){*
 
 	*int i, direccion;*  
-	*int x\=0;*  
-	*int y\=0;*
+	*int x =0;*  
+	*int y =0;*
 
-	*for (i\=0; i\<N; i\+=1){*  
-		*direccion \= rand()%4;*  
+	*for (i =0; i <N; i +=1){*  
+		*direccion  = rand()%4;*  
 	  
 		*switch (direccion){*  
 	  
 			*case ARRIBA:*  
-				*y\+=1;*  
+				*y +=1;*  
 				*break;*  
 			*case ABAJO:*  
-				*y\-=1;*  
+				*y -=1;*  
 				*break;*  
 			*case DERECHA:*  
-				*x\+=1;*  
+				*x +=1;*  
 				*break;*  
 			*case IZQUIERDA:*  
-				*x\-=1;*  
+				*x -=1;*  
 				*break;*  
 		*}*  
-		*printf("ent %d  x=%d  y=%d \\n",i, x, y );*  
+		*printf("ent %d  x=%d  y=%d   n",i, x, y );*  
 	*}*	  
 	*return 0;*  
 *}*
 
-Aunque se ejecute 100 veces la posición de Xn e Yn es siempre la misma, esto se debe a que el logaritmo que usa el rand usa un mismo valor inicial (SEED \= semilla), y por lo tanto, aunque los números sean distintos, las secuencias que se generan con cada ejecución son iguales. Para evitar esto, el número inicial debería ser distinto y esto se logra con la función "srand" y la semilla para que esta función sea efectiva puede ser el "TIEMPO" (en nuestro caso usaríamos el CLOCK del sistema). O sea que srand \==\> estaría en función del tiempo. La función que da la hora es la siguiente:
+Aunque se ejecute 100 veces la posición de Xn e Yn es siempre la misma, esto se debe a que el logaritmo que usa el rand usa un mismo valor inicial (SEED  = semilla), y por lo tanto, aunque los números sean distintos, las secuencias que se generan con cada ejecución son iguales. Para evitar esto, el número inicial debería ser distinto y esto se logra con la función "srand" y la semilla para que esta función sea efectiva puede ser el "TIEMPO" (en nuestro caso usaríamos el CLOCK del sistema). O sea que srand  == > estaría en función del tiempo. La función que da la hora es la siguiente:
 
 	srand (time(NULL));	//  settea una semilla nueva.
 
 Usando la función SRAND de esta manera, se implanta la semilla o SEED como punto de generación de números aleatorios de la función RAND. Ahora el código queda de la siguiente manera:
 
-// *coordenadas\_RAND\_version2.c*
+// *coordenadas _RAND _version2.c*
 
-\#include \<stdio.h\>  
-\#include \<stdlib.h\>  
-\#include \<time.h\>
+ #include  <stdio.h >  
+ #include  <stdlib.h >  
+ #include  <time.h >
 
-\#define ARRIBA 0  
-\#define ABAJO 1  
-\#define DERECHA 2  
-\#define IZQUIERDA 3  
-\#define N 10
+ #define ARRIBA 0  
+ #define ABAJO 1  
+ #define DERECHA 2  
+ #define IZQUIERDA 3  
+ #define N 10
 
 int main(){  
 	int i, direccion;  
-	int x\=0;  
-	int y\=0;
+	int x =0;  
+	int y =0;
 
 	srand(time(NULL));
 
-	for (i\=0; i\<N; i\+=1){  
-		direccion \= rand()%4;  
+	for (i =0; i <N; i +=1){  
+		direccion  = rand()%4;  
 	  
 		switch (direccion){  
 	  
 			case ARRIBA:  
-				y\+=1;  
+				y +=1;  
 				break;  
 			case ABAJO:  
-				y\-=1;  
+				y -=1;  
 				break;  
 			case DERECHA:  
-				x\+=1;  
+				x +=1;  
 				break;  
 			case IZQUIERDA:  
-				x\-=1;  
+				x -=1;  
 				break;  
 		}  
-		printf("ent %d  x=%d  y=%d \\n",i, x, y );  
+		printf("ent %d  x=%d  y=%d   n",i, x, y );  
 	}	  
 	return 0;  
 }
 
 ## **4.3. Continuación de IO de caracteres**
 
-*//obtener\_caracteres.c*  
-*\#include \<stdio.h\>*
+*//obtener _caracteres.c*  
+* #include  <stdio.h >*
 
 *int main (){*  
 	*int c;*  
 	  
-	*while( (c\=getchar()) \!= EOF)*  
+	*while( (c =getchar())  != EOF)*  
 		*putchar(c);*  
 	*return 0;*  
 *}*
@@ -747,125 +747,125 @@ int main(){
 Esta función no devuelve nada hasta que el buffer no se llene o se fuerce el flujo de datos, o sea, a través del ENTER. O sea que las entradas de caracteres por teclado son "Bufereadas"  
 Para dirigir entradas en este ejemplo:
 
- copiar \< file\_name		\==\> 		c:\\text2.exe \<\< ..\\text2.c
+ copiar  < file _name		 == > 		c:  text2.exe  < < ..  text2.c
 
 En este ejemplo, desde la línea de comando del DOS, se puede dirigir la salida de un código.
 
-*// contar\_caracteres.c*
+*// contar _caracteres.c*
 
-*\#include \<stdio.h\>*
+* #include  <stdio.h >*
 
 *int main (){*  
-	*int nc\=0;*  
-	*while (getchar()\!=EOF)*  
-		*nc\++;*  
-	*printf("Hay %d caracteres\\n",nc);*  
+	*int nc =0;*  
+	*while (getchar() !=EOF)*  
+		*nc ++;*  
+	*printf("Hay %d caracteres  n",nc);*  
 	*return 0;*  
 *}*
 
 ## **4.4. Expresiones Unarias**
 
 Operator     	Meaning  
-\========     	\=======  
+ ========     	 =======  
    &         	Address-of; value is the location of the operand  
-   \*         	Contents-of; value is what is stored at the location  
-   \-         		Negation  
-   \+        		Value-of operator  
-   \!         		Logical negation ( (\!E) is equivalent to (0==E) )  
-   \~         	Bit-wise complement
+    *         	Contents-of; value is what is stored at the location  
+    -         		Negation  
+    +        		Value-of operator  
+    !         		Logical negation ( ( !E) is equivalent to (0==E) )  
+    ~         	Bit-wise complement
 
 Los caracteres de incremento se pueden usar de dos maneras:
 
-Como sufijo: \++v, \--v	  
+Como sufijo:  ++v,  --v	  
 Como posfijo; v++, v--
 
 Ejemplo:
 
 x=4;		x=4;  
-y= \++x;		y=x \++;
+y=  ++x;		y=x  ++;
 
-\-\> x=5		x=5  
-\-\> y=5		y=4  
+ - > x=5		x=5  
+ - > y=5		y=4  
 El operador en un caso opera incrementa antes y en otro incrementa después.
 
 ## **4.5. Operadores de Asignación**
 
-x \+= y     ⇐⇒     x \= x+y;  
-x \-= y      ⇐⇒     x \= x-y;  
-x \*= y      ⇐⇒     x \= x\*y;  
-x /= y      ⇐⇒     x \= x/y;  
-x %= y    ⇐⇒    x \= x%y;
+x  += y     ⇐⇒     x  = x+y;  
+x  -= y      ⇐⇒     x  = x-y;  
+x  *= y      ⇐⇒     x  = x *y;  
+x /= y      ⇐⇒     x  = x/y;  
+x %= y    ⇐⇒    x  = x%y;
 
-*// contar\_letras.c*
+*// contar _letras.c*
 
-*\#include \<stdio.h\>*
+* #include  <stdio.h >*
 
 *int main(void){*  
    *int nc=0;*  
    *int c;*  
-   *while ((c=getchar())\!=EOF)*  
+   *while ((c=getchar()) !=EOF)*  
    *{*  
-      *if((c\!='\\n') || (c\!='(') || (c\!=')'))*  
+      *if((c !='  n') || (c !='(') || (c !=')'))*  
       *{*  
          *nc++;*  
       *}*  
-      */\**  
+      */ **  
       *if(isalpha(c))*  
          *nc++;*  
-      *\*/*  
+      * */*  
    *}*  
-   *printf("hay %d letras\\n",nc);*  
+   *printf("hay %d letras  n",nc);*  
    *return 0;*  
 *}*
 
 *// Ejemplo de texto:*  
-*/\**  
+*/ **  
 *hola      el.perro*  
 *es;azul*  
-*\*/*
+* */*
 
-*// contar\_palabras.c*  
-\#include \<stdio.h\>  
-\#define NO 0  
-\#define SI 1
+*// contar _palabras.c*  
+ #include  <stdio.h >  
+ #define NO 0  
+ #define SI 1
 
 main()  
 {  
-	int np\=0;  
-	int enpalabra\= NO;  
+	int np =0;  
+	int enpalabra = NO;  
 	int c;  
 	  
-	while ((c\=getchar())\!= EOF){  
-		if (c\== ' '||c\==','||c\==';'||c\=='.'||c\=='\\n'){  
-			if (enpalabra \== SI)  
-				np\++;  
-			enpalabra\=NO;  
+	while ((c =getchar()) != EOF){  
+		if (c == ' '||c ==','||c ==';'||c =='.'||c =='  n'){  
+			if (enpalabra  == SI)  
+				np ++;  
+			enpalabra =NO;  
 		}  
 		else  
-			enpalabra\=SI;  
+			enpalabra =SI;  
 	}  
-	if (enpalabra \== SI)  
-			np\++;  
-	printf("hay %d palabras\\n", np);  
+	if (enpalabra  == SI)  
+			np ++;  
+	printf("hay %d palabras  n", np);  
 }
 
 Una de las lógicas posible es el de tener en cuenta las transiciones entre palabras y no palabras. Para esto elegimos "estado de palabra" para determinar el estado de palabra
 
-*// contador\_digitos.c*
+*// contador _digitos.c*
 
-*\#include \<stdio.h\>*
+* #include  <stdio.h >*
 
 *int main(){*  
-	*int nDigit\[10\];*  
+	*int nDigit [10 ];*  
 	*int c, i;*  
-	*for (i\=0;i\<10;i\++)		//inicializamos el vector en 0*  
-		*nDigit\[i\]=0;*  
-	*while((c\=getchar())\!=EOF){*  
-		*if( (c\>='0') && (c\<='9'))//esta condición busca los dígitos entre el código*  
-			*nDigit\[c\-'0'\]++;//dentro del \[\] se comprueba cual de los dígitos*   
-	*}				//es y le suma al vector \+1 cada vez que coincide*  
-	*for (i\=0;i\<10;i\++){*  
-		*printf(" %d ",nDigit\[i\]);*  
+	*for (i =0;i <10;i ++)		//inicializamos el vector en 0*  
+		*nDigit [i ]=0;*  
+	*while((c =getchar()) !=EOF){*  
+		*if( (c >='0') && (c <='9'))//esta condición busca los dígitos entre el código*  
+			*nDigit [c -'0' ]++;//dentro del  [ ] se comprueba cual de los dígitos*   
+	*}				//es y le suma al vector  +1 cada vez que coincide*  
+	*for (i =0;i <10;i ++){*  
+		*printf(" %d ",nDigit [i ]);*  
 	*}*  
 	*return 0;*  
 *}*  
@@ -877,40 +877,40 @@ np	// contador de palabras
 
 0 hay 31, 1 hay 20, 2 hay 13, Etc.
 
-*// contador\_nc\_nl\_np\_version1.c*
+*// contador _nc _nl _np _version1.c*
 
-*\#include \<stdio.h\>*  
-*\#include \<ctype.h\>*  
-*\#define SI 1*  
-*\#define NO 0*
+* #include  <stdio.h >*  
+* #include  <ctype.h >*  
+* #define SI 1*  
+* #define NO 0*
 
 *int main () {*  
-	*int np\=0, enPalabra\=0;*  
-	*int c, cantCaracteres\=0, cantLineas\=0;*  
-	*int i, condicion\=0, numeros\[10\], letras\[26\];*  
+	*int np =0, enPalabra =0;*  
+	*int c, cantCaracteres =0, cantLineas =0;*  
+	*int i, condicion =0, numeros [10 ], letras [26 ];*  
 	  
-	*while ((c\=getchar())\!=EOF) {*		  
-		*if (condicion\==0) {*  
-			*for (i\=0;i\<=10;i\++)*  
-				*numeros\[i\]=0;*  
-			*for (i\=0;i\<=26;i\++)*  
-				*letras\[i\]=0;*  
-			*condicion\=1;*  
+	*while ((c =getchar()) !=EOF) {*		  
+		*if (condicion ==0) {*  
+			*for (i =0;i <=10;i ++)*  
+				*numeros [i ]=0;*  
+			*for (i =0;i <=26;i ++)*  
+				*letras [i ]=0;*  
+			*condicion =1;*  
 		*}*  
 		  
 		*//contador de palabras*  
-		*if ((c\==' ')||(c\=='.')||(c\==';')||(c\==':')||(c\==',') || (c\=='\\n')) {*  
-			*if (enPalabra\==SI) {*  
-				*np\++;*  
+		*if ((c ==' ')||(c =='.')||(c ==';')||(c ==':')||(c ==',') || (c =='  n')) {*  
+			*if (enPalabra ==SI) {*  
+				*np ++;*  
 			*}*  
-			*enPalabra\=SI;*  
+			*enPalabra =SI;*  
 		*}*  
 		*else {*  
-			*enPalabra\=SI;*  
+			*enPalabra =SI;*  
 		*}*  
 		*//contador de lineas*  
-		*if (c\=='\\n') {*  
-			*cantLineas\++;*  
+		*if (c =='  n') {*  
+			*cantLineas ++;*  
 		*}*  
 		*//fin contador de lineas*  
 		*//fin contador de palabras*  
@@ -918,169 +918,169 @@ np	// contador de palabras
 		*//contador de numeros y letras*  
 		*//contador de caracteres*  
 		*if (isdigit(c)) {*  
-			*numeros\[c\]++;*  
-			*cantCaracteres\++;*  
+			*numeros [c ]++;*  
+			*cantCaracteres ++;*  
 		*}*  
 		*if (isalpha(c)) {*  
-			*letras\[c\-97\]++;*  
-			*cantCaracteres\++;*  
+			*letras [c -97 ]++;*  
+			*cantCaracteres ++;*  
 		*}*  
 		*//fin contador de numeros y letras*  
 		*//fin contador de caracteres*  
 	*}*  
-	*if (enPalabra\=SI) {*  
-		*np\++;*  
+	*if (enPalabra =SI) {*  
+		*np ++;*  
 	*}*  
-	*printf("Hay %d palabras\\n",np);*  
-	*printf("Hay %d lineas\\n",cantLineas);*  
-	*printf("Hay %d caracteres\\n",cantCaracteres);*  
+	*printf("Hay %d palabras  n",np);*  
+	*printf("Hay %d lineas  n",cantLineas);*  
+	*printf("Hay %d caracteres  n",cantCaracteres);*  
 	  
-	*for (i\=0;i\<10;i\++) {*  
-		*printf("%i : %d\\n",i,numeros\[i\]);*  
+	*for (i =0;i <10;i ++) {*  
+		*printf("%i : %d  n",i,numeros [i ]);*  
 	*}*  
-	*for (i\=0;i\<26;i\++) {*  
-		*printf("%c : %d\\n",(i\+97),letras\[i\]);*  
+	*for (i =0;i <26;i ++) {*  
+		*printf("%c : %d  n",(i +97),letras [i ]);*  
 	*}*  
 *}*
 
-*// contador\_nc\_nl\_np\_version2.c*
+*// contador _nc _nl _np _version2.c*
 
-*\#include \<stdio.h\>*  
-*\#include \<ctype.h\>*  
-*\#define SI  1*  
-*\#define NO  0*
+* #include  <stdio.h >*  
+* #include  <ctype.h >*  
+* #define SI  1*  
+* #define NO  0*
 
 *int main(){*  
-*int nc\=0, 	// contador numero de caracteres*  
-	*nl\=0, 		// contador numero de líneas*  
-	*np\=0;		// contador numero de palabras*  
+*int nc =0, 	// contador numero de caracteres*  
+	*nl =0, 		// contador numero de líneas*  
+	*np =0;		// contador numero de palabras*  
 	  
-	*int enPalabra \= NO, int c;*  
+	*int enPalabra  = NO, int c;*  
 	  
 	*// Contadores de números*  
-	*int cero\=0, uno\=0, dos\=0, tres\=0, cuatro\=0, cinco\=0, seis\=0, siete\=0, ocho\=0, nueve\=0;*
+	*int cero =0, uno =0, dos =0, tres =0, cuatro =0, cinco =0, seis =0, siete =0, ocho =0, nueve =0;*
 
-	*while ((c\=getchar())\!=EOF){*  
-		*if (isalnum(c))		// función que cuenta caracteres (alfa \+ numérico)*  
-			*nc\++;*  
-		*if (c\=='\\n')		// función que cuenta los "Enter's" \= líneas de texto*  
-			*nl\++;*  
+	*while ((c =getchar()) !=EOF){*  
+		*if (isalnum(c))		// función que cuenta caracteres (alfa  + numérico)*  
+			*nc ++;*  
+		*if (c =='  n')		// función que cuenta los "Enter's"  = líneas de texto*  
+			*nl ++;*  
 		*if (isdigit(c)){		// función que cuenta solo números (dígitos: 0..9)*  
 			*switch (c){*  
-				*case 0: cero\++;*  
+				*case 0: cero ++;*  
 					*break;*  
-				*case 1: uno\++;*  
+				*case 1: uno ++;*  
 					*break;*  
-				*case 2: dos\++;*  
+				*case 2: dos ++;*  
 					*break;*  
-				*case 3: tres\++;*  
+				*case 3: tres ++;*  
 					*break;*  
-				*case 4: cuatro\++;*  
+				*case 4: cuatro ++;*  
 					*break;*  
-				*case 5: cinco\++;*  
+				*case 5: cinco ++;*  
 					*break;*  
-				*case 6: seis\++;*  
+				*case 6: seis ++;*  
 					*break;*  
-				*case 7: siete\++;*  
+				*case 7: siete ++;*  
 					*break;*  
-				*case 8: ocho\++;*  
+				*case 8: ocho ++;*  
 					*break;*  
-				*case 9: nueve\++;*  
+				*case 9: nueve ++;*  
 					*break;*  
 			*}*  
 		*}*  
-*if ((c\==';') || (c\==',') || (c\=='.') || (c\==' ') || (c\==':')||(c\=='\\n'))*  
+*if ((c ==';') || (c ==',') || (c =='.') || (c ==' ') || (c ==':')||(c =='  n'))*  
 *{*	  
 *// función que cuenta la //cantidad de palabras*  
-		*if (enPalabra \== SI)*  
-				*np\++;*  
-			*enPalabra \= SI;*  
+		*if (enPalabra  == SI)*  
+				*np ++;*  
+			*enPalabra  = SI;*  
 	*}*  
 		*else*  
-			*enPalabra \= SI;*  
+			*enPalabra  = SI;*  
 	*}*  
-*if (enPalabra \== SI)	// Se suma 1 mas por que el contador queda en*   
+*if (enPalabra  == SI)	// Se suma 1 mas por que el contador queda en*   
 *// la última palabra en// la función anterior pero no la incluye*  
-		*np\++;*
+		*np ++;*
 
-	*printf("Hay %d lineas\\nHay %d caracteres\\nHay %d palabras\\n", nl, nc, np);*  
-*printf("Hay %d ceros\\nHay %d unos\\nHay %d dos\\nHay %d tres\\nHay %d cuatros\\nHay %d cincos\\nHay %d seis\\nHay %d sietes\\nHay %d ocho\\nHay %d nueves\\n", cero, uno, dos, tres, cuatro, cinco, seis, siete, ocho, nueve);*  
+	*printf("Hay %d lineas  nHay %d caracteres  nHay %d palabras  n", nl, nc, np);*  
+*printf("Hay %d ceros  nHay %d unos  nHay %d dos  nHay %d tres  nHay %d cuatros  nHay %d cincos  nHay %d seis  nHay %d sietes  nHay %d ocho  nHay %d nueves  n", cero, uno, dos, tres, cuatro, cinco, seis, siete, ocho, nueve);*  
 	*return 0;*  
 *}*
 
-*// funcion\_rand.c*
+*// funcion _rand.c*
 
-*\#include \<stdio.h\>*  
-*\#include \<stdlib.h\>*  
-*\#include \<time.h\>*
+* #include  <stdio.h >*  
+* #include  <stdlib.h >*  
+* #include  <time.h >*
 
-*\#define N  10*  
-*\#define M  1000000*
+* #define N  10*  
+* #define M  1000000*
 
 *int main(){*  
 	*int i, delta;*  
-	*int v\[N\];*
+	*int v [N ];*
 
-	*for (i\=0;i\<10;i\++){*  
-		*v\[i\]=0;*  
+	*for (i =0;i <10;i ++){*  
+		*v [i ]=0;*  
 	*}*  
 	  
 	*srand(time(NULL));*  
-	*delta \= RAND\_MAX/N;*  
+	*delta  = RAND _MAX/N;*  
 	  
-	*for (i\=0;i\<M;i\++){*  
-		*v\[rand()/delta\]++;*  
+	*for (i =0;i <M;i ++){*  
+		*v [rand()/delta ]++;*  
 	*}*  
-	*for (i\=0;i\<10;i\++){*  
-		*printf("%d\\t%d\\n",v\[i\], i);*  
+	*for (i =0;i <10;i ++){*  
+		*printf("%d  t%d  n",v [i ], i);*  
 	*}*  
 	*return 0;*  
 *}*
 
-El delta significa el numero de divisiones (clases) en que se divide la longitud total de números que van desde 0..RAND\_MAX. La división de un número aleatorio (límite=RAND\_MAX) por "delta" nos indica en qué clase se encuentra ese número y de ahí que podamos sumar en el vector la cantidad de números que caen en ese intervalo. Si la cantidad de números que se encuentran en cada intervalo es aproximadamente igual, quiere decir que la función RAND es fiable.
+El delta significa el numero de divisiones (clases) en que se divide la longitud total de números que van desde 0..RAND _MAX. La división de un número aleatorio (límite=RAND _MAX) por "delta" nos indica en qué clase se encuentra ese número y de ahí que podamos sumar en el vector la cantidad de números que caen en ese intervalo. Si la cantidad de números que se encuentran en cada intervalo es aproximadamente igual, quiere decir que la función RAND es fiable.
 
 ## **4.6. Operadores de Casteo (cast)**
 
-float pi \= 3.141592;  
-int truncated\_pi \= (int)pi; // truncated\_pi \== 3
+float pi  = 3.141592;  
+int truncated _pi  = (int)pi; // truncated _pi  == 3
 
 // Ejemplo de cast de un entero.
 
-char my\_char \= 'A';  
-int my\_int \= (int)my\_char; // my\_int \== 65, which is the ASCII value of 'A'
+char my _char  = 'A';  
+int my _int  = (int)my _char; // my _int  == 65, which is the ASCII value of 'A'
 
 ## **4.7. Expresiones Relaciones y de Equivalencia**
 
-a \< b  
+a  < b  
 1 if a is less than b, 0 otherwise.  
-a \> b  
+a  > b  
 1 if a is greater than b, 0 otherwise.  
-a \<= b  
+a  <= b  
 1 if a is less than or equal to b, 0 otherwise.  
-a \>= b  
+a  >= b  
 1 if a is greater than or equal to b, 0 otherwise.  
-a \== b  
+a  == b  
 1 if a is equal to b, 0 otherwise.  
-a \!= b  
+a  != b  
 1 if a is not equal to b, 0 otherwise
 
 ## **4.8. Expresiones Lógicas**
 
 a || b  
-when EITHER a or b is true (or both), the result is 1, otherwise the result is 0\.  
+when EITHER a or b is true (or both), the result is 1, otherwise the result is 0 .  
 a && b  
-when BOTH a and b are true, the result is 1, otherwise the result is 0\.  
- \!a  
-when a is true, the result is 0, when a is 0, the result is 1\.
+when BOTH a and b are true, the result is 1, otherwise the result is 0 .  
+  !a  
+when a is true, the result is 0, when a is 0, the result is 1 .
 
-# **5\. Funciones**
+# **5 . Funciones**
 
 ![C Functions.jpg][image8]  
 Como ya se indico, un programa en C contiene las siguientes partes:  
-\* Directivas del pre-procesador  
-\* Declaraciones de tipo  
-\* Declaraciones de funciones  
-\* Definición de funciones  
+ * Directivas del pre-procesador  
+ * Declaraciones de tipo  
+ * Declaraciones de funciones  
+ * Definición de funciones  
 Toda función involucra dos pasos:
 
 ## **5.1. Declaración de Funciones (Prototipos)**
@@ -1092,14 +1092,14 @@ Información para el compilador, le informa que funciones existen, qué argument
 	int power(int x, int y);
 
 El uso de los tipo sirve de información al compilador para determinar si se esta usando adecuadamente.  
-\* Por lo general se hacen en un HEADER file.  
-\*\* casi obligatorio sería hacer todos los **prototipos** de las funciones a realizar en un programa.
+ * Por lo general se hacen en un HEADER file.  
+ * * casi obligatorio sería hacer todos los **prototipos** de las funciones a realizar en un programa.
 
 ## **5.2. Definición**
 
 Declaración de sentencias que tienen que ser ejecutadas para que la función cumpla con lo que fue creada.
 
-Tipo\_dato nombre\_funcion (tipo1 arg1, tipo2 arg2, …)  
+Tipo _dato nombre _funcion (tipo1 arg1, tipo2 arg2, …)  
 {  
 	sentencia1;  
 	sentencia2;  
@@ -1107,17 +1107,17 @@ Tipo\_dato nombre\_funcion (tipo1 arg1, tipo2 arg2, …)
 	return x;  
 }
 
-\* las definiciones de las funciones creadas se pueden guardar en un  archivo extensión ".C" y ser utilizadas en cualquier otro programa.
+ * las definiciones de las funciones creadas se pueden guardar en un  archivo extensión ".C" y ser utilizadas en cualquier otro programa.
 
-*// funcion\_power\_version1.c*  
-*\#include \<stdio.h\>*  
+*// funcion _power _version1.c*  
+* #include  <stdio.h >*  
 *int power (int x, int y);*
 
 *int power (int x, int y)*  
 *{*  
    *int i, p=1;*  
-   *for (i=0;i\<y;i++)*  
-      *p=p\*x;*  
+   *for (i=0;i <y;i++)*  
+      *p=p *x;*  
    *return p;*  
 *}*
 
@@ -1125,11 +1125,11 @@ Tipo\_dato nombre\_funcion (tipo1 arg1, tipo2 arg2, …)
 *{*  
    *int a, b;*  
      
-   *for (a=3; a\<7 ; a++)*  
+   *for (a=3; a <7 ; a++)*  
    *{*  
-      *for (b=0;b\<4;b++)*  
+      *for (b=0;b <4;b++)*  
       *{*  
-         *printf("%d ^ %d \= %d\\n", a, b, power(a,b));*  
+         *printf("%d ^ %d  = %d  n", a, b, power(a,b));*  
       *}*  
    *}*  
    *return 0;*  
@@ -1137,9 +1137,9 @@ Tipo\_dato nombre\_funcion (tipo1 arg1, tipo2 arg2, …)
 
 En este ejemplo se puede observar la la asignación de argumentos posicional. Esto quiere decir que el lenguaje “C” hace el pasaje de argumentos en el mismo orden en los cuales fueron ingresados en la llamada.
 
-*// funcion\_power\_version2.c*
+*// funcion _power _version2.c*
 
-*\#include \<stdio.h\>*
+* #include  <stdio.h >*
 
 *int power(int x, int y);*
 
@@ -1147,44 +1147,44 @@ En este ejemplo se puede observar la la asignación de argumentos posicional. Es
 *{*  
 	*int a, b;*  
 	  
-	*for (a\=0;a\<7;a\++)*  
-		*for (b\=0;b\<4;b\++)*  
-			*printf("%d ^ %d \= %d\\n",a,b,power(a,b));*  
+	*for (a =0;a <7;a ++)*  
+		*for (b =0;b <4;b ++)*  
+			*printf("%d ^ %d  = %d  n",a,b,power(a,b));*  
 	*return 0;*  
 *}*
 
 *int power(int x, int y)*  
 *{*  
 	*int i,*  
-		*p\=1;*  
+		*p =1;*  
 		  
-	*for (i\=0;i\<y;i\++)*  
-		*p\=p\*x;*  
+	*for (i =0;i <y;i ++)*  
+		*p =p *x;*  
 	*return p;*  
 *}*
 
 ## **5.3. Pasaje de argumentos a funciones**
 
-*// funcion\_permuta\_version1.c*  
-*\#include \<stdio.h\>*
+*// funcion _permuta _version1.c*  
+* #include  <stdio.h >*
 
 *void permuta (int , int);		// prototipo*
 
 *// version 1*  
 *void permuta (int x, int y)*  
 *{*  
-	*int temp\=x;*  
-	*x\=y;*  
-	*y\=temp;*  
+	*int temp =x;*  
+	*x =y;*  
+	*y =temp;*  
 *}*
 
 *main ()*  
 *{*  
-	*int a\=10;*  
-	*int b\=20;*  
+	*int a =10;*  
+	*int b =20;*  
 	  
 	*permuta (a,b);*  
-	*printf("a=%d\\tb=%d\\n",a,b,);*  
+	*printf("a=%d  tb=%d  n",a,b,);*  
 	*return 0;*  
 *}*
 
@@ -1200,7 +1200,7 @@ Se pasa una referencia (dirección en memoria) de las variables pasadas por argu
 
 ## **5.6. Pasaje de Argumento por Descriptor**
 
- Esta tercera convención  "Pasaje de argumentos por descriptor", se pasa una serie de datos que describen la variable pasada \= Tipo, ancho, dirección de memoria.
+ Esta tercera convención  "Pasaje de argumentos por descriptor", se pasa una serie de datos que describen la variable pasada  = Tipo, ancho, dirección de memoria.
 
 |  Conclusión: C siempre pasa los argumentos de funciones por Valor.  |
 | :---: |
@@ -1225,7 +1225,7 @@ int main (void)
 
 int f(void)  
 {  
-	int i\=x; //  en este caso se produce un error por que X no esta definida en este SCOPE  
+	int i =x; //  en este caso se produce un error por que X no esta definida en este SCOPE  
 }
 
 ### **5.8.1. Características:**
@@ -1233,14 +1233,14 @@ int f(void)
 1. La variable tiene su alcance dentro del ámbito de las llaves.  
 2. Desde donde hasta donde una variable es visible, lo define su SCOPE (alcance)  
 3. Otro punto a tener en cuenta es la vida de la variable. En variables automática su vida esta dada por el SCOPE. Vive mientras su alcance este visible.  
-4. STACK \= El almacenamiento de la variable se crea en un STACK, una región donde uno va creado y destruyendo cosas, como un estante que se llena y se vacía con la declaración y uso de variables (PILA)  
+4. STACK  = El almacenamiento de la variable se crea en un STACK, una región donde uno va creado y destruyendo cosas, como un estante que se llena y se vacía con la declaración y uso de variables (PILA)  
 5. Son totalmente locales a las variables que la definen y viven dentro del STACK de acuerdo al llamado.
 
    ### **5.8.2. Variables globales**
 
 Las variables globales son variables que se definen fuera del cuerpo de cualquier función.
 
-\#include \<stdio.h\>
+ #include  <stdio.h >
 
 int g1, g2;
 
@@ -1248,7 +1248,7 @@ int f1()
 {  
 	Sentencia1;  
 	Sentencia2;  
-	g1 \= 5;  
+	g1  = 5;  
 	Sentencia3;  
 }
 
@@ -1257,9 +1257,9 @@ int f2()
 	int i;  
 	Sentencia1;	  
 Sentencia2;	  
-g2 \= g1;  
+g2  = g1;  
 Sentencia3;  
-printf("g2\=%d", g2);  
+printf("g2 =%d", g2);  
 }
 
 Si se hace referencia a estas variables desde cualquiera de la funciones, las mismas son visibles y tanto como son visibles también son modificables dentro de cada función y ese nuevo valor pasa a ser global.
@@ -1280,19 +1280,19 @@ int f()
 2. Su vida, se comporta como una variable global.  
 3. La memoria asociada a una variable estática es igual al que variables globales.
 
-*// variables\_estaticas.c*  
-*\#Iinclude \<stdio.h\>*
+*// variables _estaticas.c*  
+* #Iinclude  <stdio.h >*
 
 *int contador()*  
 *{*  
-	*static int x\=0;*  
-	*x\++;*  
+	*static int x =0;*  
+	*x ++;*  
 	*return x;*  
 *}*
 
 *main()*  
 *{*  
-	*for (i\=0; i\<100; i\++)*  
+	*for (i =0; i <100; i ++)*  
 		*contador();*  
 *}*
 
@@ -1305,7 +1305,7 @@ Las funciones estáticas son similares a las variables estáticas, donde se util
 
 static int compare( int a, int b )  
 {  
-    return (a\+4 \< b)? a : b;  
+    return (a +4  < b)? a : b;  
 }
 
 |  Tabla de Referencia  |  |  |  |
@@ -1334,7 +1334,7 @@ void SomeFunction(void);
 
 int main()   
 {  
-GlobalVariable \= 1;  
+GlobalVariable  = 1;  
    	SomeFunction();  
 printf("%d",   
 return 0;  
@@ -1346,7 +1346,7 @@ return 0;
 extern int GlobalVariable;    
    
 void SomeFunction(void) {       // function header (definition)  
-\++GlobalVariable;  
+ ++GlobalVariable;  
 }
 
 ## **5.11. Inicialización**
@@ -1354,39 +1354,39 @@ void SomeFunction(void) {       // function header (definition)
 Las variables **extern** y las **static** se inicializan en CERO.  
 Los arreglos se pueden declarar e inicializar con valores.
 
- int dias \[\] \= {1,2,3,4,5,6,7};
+ int dias  [ ]  = {1,2,3,4,5,6,7};
 
 ## **5.12. Recursividad**
 
 El lenguajes permite llamar a la misma función, ya sea directa o indirectamente.
 
-Main \= f() \= g() \= h() \= hace algo		⇒  indirectamente
+Main  = f()  = g()  = h()  = hace algo		⇒  indirectamente
 
-main \= f() \= f()				⇒  directamente
+main  = f()  = f()				⇒  directamente
 
-Recursión:      		n\! \= n\*(n-1)\*(n-2)\*......\*1\*0\!
+Recursión:      		n !  = n *(n-1) *(n-2) *...... *1 *0 !
 
 Función recursiva: posee dos partes:
 
-1. **Soluciones triviales**: no se basan en la recursión, son resultados concretos. En el caso del factorial se establece que : 0\! \= 1  
-2. **Soluciones recursivas**: en el caso de la recursión \= n \> 0
+1. **Soluciones triviales**: no se basan en la recursión, son resultados concretos. En el caso del factorial se establece que : 0 !  = 1  
+2. **Soluciones recursivas**: en el caso de la recursión  = n  > 0
 
 Una función recursiva bien implementada debe poseer estas dos soluciones.
 
 *// Algoritmo en forma recursiva*  
-\#include \<stdio.h\>  
+ #include  <stdio.h >  
 *int factorial (int n)*  
 *{*  
-	*if (n\==0\)*  
+	*if (n ==0 )*  
 		*return 1;*  
-	*return (n\* factorial(n\-1));*
+	*return (n * factorial(n -1));*
 
 *}*
 
 *int main()*  
 *{*  
 	*int nf;*  
-	*nf \= factorial(3); 	//devuelve '6'*  
+	*nf  = factorial(3); 	//devuelve '6'*  
 	*return 0;*  
 *}*
 
@@ -1395,14 +1395,14 @@ Una función recursiva bien implementada debe poseer estas dos soluciones.
 Cada vez que la función se llama, en el STACK se van anidando nuevas instancias de variables apiladas hasta que se cumple la condición de corte, una vez que pasa esto, la pila se va vaciando devolviendo los valores que habían quedado atascados.
 
 *// Algoritmo sin recursión*  
-\#include \<stdio.h\>  
+ #include  <stdio.h >  
 *int factorial (int n)*  
 *{*  
 	*int i;*  
-	*int f\=1;*  
-	*for (i\=2; i\<=n; i\++)*  
+	*int f =1;*  
+	*for (i =2; i <=n; i ++)*  
 	*{*  
-		*f\=f\*i;*  
+		*f =f *i;*  
 	*}*  
 	*return f;*  
 *}*
@@ -1410,26 +1410,26 @@ Cada vez que la función se llama, en el STACK se van anidando nuevas instancias
 *int main()*  
 *{*  
 	*int nf;*  
-	*nf \= factorial(3); 	//devuelve '6'*  
+	*nf  = factorial(3); 	//devuelve '6'*  
 	*return 0;*  
 *}*
 
-\*  En casos como éste es más eficaz implementar una solución iterativa, debido a que tiene menos costo de llamada, porque la iteración utiliza sólo dos variables.
+ *  En casos como éste es más eficaz implementar una solución iterativa, debido a que tiene menos costo de llamada, porque la iteración utiliza sólo dos variables.
 
 ## **5.13. Serie de Fibonacci**
 
-		 \=1 si n==1 || n==2				// solución trivial  
+		  =1 si n==1 || n==2				// solución trivial  
 fibo(n)			  
-  fibo(n-1)+fibo(n-2)  para todo n\>2		// solución recursiva
+  fibo(n-1)+fibo(n-2)  para todo n >2		// solución recursiva
 
 *// Algoritmo Recursivo*  
 // Retorna el valor de fibonaci en la posición especificada:  
 // 1,1,2,3,5,8,13,21  
 *int fibo (int n)*  
 *{*  
-	*if (n\==1||n\==2\)*  
+	*if (n ==1||n ==2 )*  
 		*return 1;*  
-	*return (fibo(n\-1) \+ fibo(n\-2));*  
+	*return (fibo(n -1)  + fibo(n -2));*  
 *}*
 
 |  
@@ -1438,39 +1438,39 @@ fibo(n)
 *int fibo(int n)*  
 *{*  
 	*int i;*  
-	*int n1\=1, n2\=1; aux\=0;*  
-	*if (n\==1\)*  
+	*int n1 =1, n2 =1; aux =0;*  
+	*if (n ==1 )*  
 		*return n1;*  
-	*if (n\==2\)*  
+	*if (n ==2 )*  
 		*return n2;*  
-	*for (i\=1; i\<nM i\++)*  
+	*for (i =1; i <nM i ++)*  
 	*{*  
-		*aux\=n1\+n2;*  
-		*n1\=n2;*  
-		*n2\=aux;*  
+		*aux =n1 +n2;*  
+		*n1 =n2;*  
+		*n2 =aux;*  
 	*}*  
 	*return aux;*  
 *}*	
 
-\* En este caso, también la solución sin recursión es mucho más rápida y efectiva que la que se ejecuta con recursión.
+ * En este caso, también la solución sin recursión es mucho más rápida y efectiva que la que se ejecuta con recursión.
 
 ## **5.14. Torres de Hanoi**
 
 ![hanoi.jpg][image10]
 
 *// Hanoi.c*  
-*\#include \<stdio.h\>*  
+* #include  <stdio.h >*  
 *void hanoi(int n, int A, int B, int C);*
 
 *void hanoi(int n, int A, int B, int C)*  
 *{*  
-	*if (n\==1){*  
-		*printf("Mueve el contenido de %c  a %c \\n", A, C);*		  
+	*if (n ==1){*  
+		*printf("Mueve el contenido de %c  a %c   n", A, C);*		  
 	*}*  
 	*else{*  
-		*hanoi(n\-1, A , C, B);*  
+		*hanoi(n -1, A , C, B);*  
 		*hanoi(1, A, B, C);*		  
-		*hanoi(n\-1, B, A, C);*		  
+		*hanoi(n -1, B, A, C);*		  
 	*}*  
 *}*
 
@@ -1484,34 +1484,34 @@ fibo(n)
 
 ## **5.15. Variables de Hanoi**
 
-\#include \<stdio.h\>
+ #include  <stdio.h >
 
 // variable global para contar la cantidad de movimiento de discos  
 int nmvs;
 
 void hanoi(int n, int from, int aux, int to) {  
-	if( n \== 1 ) {  
-		nmvs\++;   
+	if( n  == 1 ) {  
+		nmvs ++;   
 return;  
 	}  
-	hanoi(n\-1, from, to, aux);  
+	hanoi(n -1, from, to, aux);  
 	hanoi(1, from, aux, to);  
-	hanoi(n\-1, aux, from, to);  
+	hanoi(n -1, aux, from, to);  
 }
 
 int main() {  
 	int i;  
-	for( i \= 2; i \< 20; i\++ ) {  
-		nmvs \= 0; // comienza siempre en cero.  
+	for( i  = 2; i  < 20; i ++ ) {  
+		nmvs  = 0; // comienza siempre en cero.  
 		hanoi(i, 1, 2, 3);  
-		printf("%i nops %d\\n", i, nmvs);  
+		printf("%i nops %d  n", i, nmvs);  
 	}  
 	return 0;  
 }
 
 ![hanoi 3.jpg][image12]
 
-# **6\. Punteros**	
+# **6 . Punteros**	
 
 Los punteros son variables capaces de almacenar direcciones de memoria, pero de forma indirecta, por lo tanto, la técnica de usar punteros se llama **indirección.**  
 La cantidad de bytes que hacen falta para almacenar la dirección de memoria de una variable depende de la plataforma donde se esté trabajando.  
@@ -1519,20 +1519,20 @@ La cantidad de bytes que hacen falta para almacenar la dirección de memoria de 
 
 ## **6.1. Declaración de un puntero**
 
-* **\*** \=\> es el operador unario de **indirección o desreferencia.**  
-* **&** \=\> indica la “dirección en memoria de…”
+* ** ***  = > es el operador unario de **indirección o desreferencia.**  
+* **&**  = > indica la “dirección en memoria de…”
 
-int \*a;	  
+int  *a;	  
 int z;  
-int b\=17;
+int b =17;
 
-a \= &b;		// & significa "dirección de.."  
-z \= \*a;		// \* significa "contenido de..". En este caso, z \= a;
+a  = &b;		// & significa "dirección de.."  
+z  =  *a;		//  * significa "contenido de..". En este caso, z  = a;
 
 Todos los punteros deben ser declarados de un tipo, y así como uno declara un puntero entero, se puede declarar hacia cualquier tipo.  
-También existe una puntero genérico que es el **void \***. El mismo no puede ser referenciado indirectamente.
+También existe una puntero genérico que es el **void  ***. El mismo no puede ser referenciado indirectamente.
 
-Ejemplo: int \*pointer;
+Ejemplo: int  *pointer;
 
 ![][image14]
 
@@ -1549,51 +1549,51 @@ Ejemplo: int \*pointer;
 
 ## **6.4. Aritmética de Puntero**
 
-Con cada tipo de dato, se relaciona un álgebra para el trabajo con ese tipo de datos. Es cuando los operadores, por ejemplo, **\+ , \- ,/ , \*** toma significado al momento de operar sobre variables de tipo entero.
+Con cada tipo de dato, se relaciona un álgebra para el trabajo con ese tipo de datos. Es cuando los operadores, por ejemplo, ** + ,  - ,/ ,  *** toma significado al momento de operar sobre variables de tipo entero.
 
-Comparar 2 punteros con los operadores \==, \!=, \<, \>, \<= ó \>=, el resultado es un valor verdadero o falso. 
+Comparar 2 punteros con los operadores  ==,  !=,  <,  >,  <= ó  >=, el resultado es un valor verdadero o falso. 
 
-int a, b, \*pia \= &a, \*pib \= &b;   
-if( pia \== pib )   
+int a, b,  *pia  = &a,  *pib  = &b;   
+if( pia  == pib )   
 puts("problemas...");
 
 Sabiendo esto, y teniendo en cuenta que los punteros son también otro tipo de dato al igual que los INT, DOUBLE, CHAR, etc. también existe un álgebra para los punteros.
 
-	int a\[10\];
+	int a [10 ];
 
-	int \*ptr \= a&\[0\];		// acá estoy asignando la dirección de memoria de a\[0\]
+	int  *ptr  = a& [0 ];		// acá estoy asignando la dirección de memoria de a [0 ]
 
-       int y \= \*ptr \+ 1;		// apunta al siguiente int desde la posición actual.
+       int y  =  *ptr  + 1;		// apunta al siguiente int desde la posición actual.
 
-| REGLA Nº 1  | PTR \+ i \= puntero |
+| REGLA Nº 1  | PTR  + i  = puntero |
 | :---- | :---- |
 
-Si un puntero apunta a una dirección de memoria, entonces "PTR \+ i", donde i es un enteros, PTR apunta "i" mas allá, donde multiplica PTR por es el tamaño de la entidad "i" por la cantidad de entidades, o sea, el valor de i.
+Si un puntero apunta a una dirección de memoria, entonces "PTR  + i", donde i es un enteros, PTR apunta "i" mas allá, donde multiplica PTR por es el tamaño de la entidad "i" por la cantidad de entidades, o sea, el valor de i.
 
 Ejemplo:  
-	int i\=3;  
-	ptr \+ i \=  ptr \+ 3 \* (size of (int));
+	int i =3;  
+	ptr  + i  =  ptr  + 3  * (size of (int));
 
 Suma o resta de un entero a un puntero, el resultado es un puntero. 
 
-int vec\[10\], \*pi \= vec, \*pi2;   
-pi2 \= pi \+ 2;  
-\*pi2 \= 3;   
-\*(pi \+ 1) \= 7;
+int vec [10 ],  *pi  = vec,  *pi2;   
+pi2  = pi  + 2;  
+ *pi2  = 3;   
+ *(pi  + 1)  = 7;
 
 | REGLA Nº 2 	 | PTR1- PTR2= ENTERO |
 | :---- | :---- |
 
 La resta entre dos punteros da la cantidad de entidades que hay entre dos punteros.
 
-	int \*ptr\=&a\[0\];   
-	int \*ptr2\=&a\[9\];  
-	ptr \- ptr \= 10 entidades
+	int  *ptr =&a [0 ];   
+	int  *ptr2 =&a [9 ];  
+	ptr  - ptr  = 10 entidades
 
-Resta de 2 punteros del mismo tipo. El resultado es un entero con signo (entero de tipo ptrdiff\_t). 
+Resta de 2 punteros del mismo tipo. El resultado es un entero con signo (entero de tipo ptrdiff _t). 
 
-int n, vec\[10\], \*pi \= &vec\[0\], \*pi2 \= &vec\[5\];   
-n \= pi2 \- pi;
+int n, vec [10 ],  *pi  = &vec [0 ],  *pi2  = &vec [5 ];   
+n  = pi2  - pi;
 
 ## **6.5. Punteros como argumentos**
 
@@ -1602,22 +1602,22 @@ Debido a que C siempre pasa los argumentos por valor (se realiza una copia de lo
 ![pic52.gif][image17]
 
 *// swap.c*  
-*\#include \<stdio.h\>*
+* #include  <stdio.h >*
 
-*void swap(int \*pa, int \*pb)*  
+*void swap(int  *pa, int  *pb)*  
 *{*  
-	*int tmp\=\*pa;*  
-	*\*pa\=\*pb;*  
-	*\*pb\=tmp;*  
+	*int tmp = *pa;*  
+	* *pa = *pb;*  
+	* *pb =tmp;*  
 *}*
 
 *int main ()*  
 *{*  
-	*int x\=3, y\= 5;*
+	*int x =3, y = 5;*
 
 	*swap(&x, &y);*
 
-	*printf("X=%d\\tY=%d\\n", x,y);*  
+	*printf("X=%d  tY=%d  n", x,y);*  
 	*return 0;*  
 *}*
 
@@ -1625,56 +1625,56 @@ Debido a que C siempre pasa los argumentos por valor (se realiza una copia de lo
 
 Cualquier operación que pueda realizarse con punteros, también se puede lograr con arreglos.
 
-	int a\[10\];  
-	int \*pa\=&a\[0\];
+	int a [10 ];  
+	int  *pa =&a [0 ];
 
 ![pic54.gif][image18]  
-Para llegar a la 10 entidad del arreglo se usa \= **a\[i\]** (i-enésimo elemento del arreglo)  
-El equivalente por medio de punteros seria \= **\*(pa \+ i)**
+Para llegar a la 10 entidad del arreglo se usa  = **a [i ]** (i-enésimo elemento del arreglo)  
+El equivalente por medio de punteros seria  = ** *(pa  + i)**
 
-	\*(a\+0) \= a\[0\] \= \*(pa \+ 0) \= pa\[0\]  
-	\*(a\+1) \= a\[1\] \= \*(pa \+ 1) \= pa\[1\]  
+	 *(a +0)  = a [0 ]  =  *(pa  + 0)  = pa [0 ]  
+	 *(a +1)  = a [1 ]  =  *(pa  + 1)  = pa [1 ]  
 		.	  
 		.  
 		.  
-	\*(a\+i) \= a\[i\] \= \*(pa \+ i) \= pa\[i\]  
+	 *(a +i)  = a [i ]  =  *(pa  + i)  = pa [i ]  
 ![pic55.gif][image19]  
-La relación entre punteros y arreglos es que: "Un arreglo es un puntero constante". Esto quiere decir que al definir int A\[10\], esta variable que llame “a” es un puntero hacia una estructura de 10 entidad de enteros consecutivas y constante, a la cual el compilador le asigna una dirección de memoria la cual no puede modificar.
+La relación entre punteros y arreglos es que: "Un arreglo es un puntero constante". Esto quiere decir que al definir int A [10 ], esta variable que llame “a” es un puntero hacia una estructura de 10 entidad de enteros consecutivas y constante, a la cual el compilador le asigna una dirección de memoria la cual no puede modificar.
 
 Ejemplo:
 
-	int strlen(char \*ptr)  
+	int strlen(char  *ptr)  
 	{  
 		int i=0;  
-		while(ptr\[i\]\!=’\\0’)  
-			i\++;  
+		while(ptr [i ] !=’  0’)  
+			i ++;  
 		return i;  
 	}
 
 	// otra opción trabajando directamente sobre punteros.
 
-	int strlen(char \*ptr)  
+	int strlen(char  *ptr)  
 	{  
 		int i=0;  
-		while(\*(ptr\++))  
-			i\++;  
+		while( *(ptr ++))  
+			i ++;  
 		return i;  
 	}
 
 Si nosotros quisiéramos hacer lo siguiente:
 
 int a;		// variable entera a  
-int \*px;	// puntero a entero px  
-a\=32;		// contenido de la variable  
-px\=0;		// dirección de memoria a la cual apunta px  
-\*px\=25;		// asignación de una dirección de memoria nueva (INCORRECTA)
+int  *px;	// puntero a entero px  
+a =32;		// contenido de la variable  
+px =0;		// dirección de memoria a la cual apunta px  
+ *px =25;		// asignación de una dirección de memoria nueva (INCORRECTA)
 
 Es este caso saldría una excepción, debido a que “PX” no esta apuntando a una dirección de memoria “valida”. La forma correcta de asignar a PX una dirección válida, sería usando el “&”.  
 También podría darse el caso de apuntar a elementos que estén fuera de los límites definidos del arreglo, como por ejemplo:
 
-	int a\[10\];  
-  	a\[-5\] \= 2;		// indice negativo  
-	a\[15\] \= 122;		// índice sobrepasado.
+	int a [10 ];  
+  	a [-5 ]  = 2;		// indice negativo  
+	a [15 ]  = 122;		// índice sobrepasado.
 
 En ambos casos, el código compila y se ejecuta, pero el resultado puede ser inesperado desde el punto de vista lógico y de funcionamiento del programa.
 
@@ -1687,14 +1687,14 @@ Se trata de un valor especial, el cual identifica la dirección de memoria 0 (ce
 
 Se trata de un elemento que se usa para hacer referencias “genéricas”. Apuntan a un elemento (dirección de memoria) sin saber el tipo del elemento al cual están apuntando.
 
-Void imprimeInt (void \*p)  
+Void imprimeInt (void  *p)  
 {  
-      int pi \= \* (int\*) p;  
+      int pi  =  * (int *) p;  
       printf("%d", pi);  
 }  
-Void imprimeDobles (void \*p)  
+Void imprimeDobles (void  *p)  
 {  
-      double pp \= \* (double \*) p;  
+      double pp  =  * (double  *) p;  
       printf ("%lf", pp);  
 }
 
@@ -1706,11 +1706,11 @@ Los punteros son útiles cuando se debe tratar con arreglos desiguales, donde se
 
 Un ejemplo es el main del Estándar:
 
-/\*  
- \* argc ⇒ argument count ⇒ indica la cantidad de argumentos  
- \* argv\[\] ⇒ argument vector ⇒ es un arreglo de punteros a cada uno de los argumentos  
- \*/  
-int main(int argc, char\* argv\[\])  
+/ *  
+  * argc ⇒ argument count ⇒ indica la cantidad de argumentos  
+  * argv [ ] ⇒ argument vector ⇒ es un arreglo de punteros a cada uno de los argumentos  
+  */  
+int main(int argc, char * argv [ ])  
 {  
 ..  
 }
@@ -1719,30 +1719,30 @@ int main(int argc, char\* argv\[\])
 
 En este caso, el main esta usando un puntero a punteros para indicar una lista de argumento. Un implementacion conocida por nosotros es:
 
-*c:\\ gcc archivo\_fuente.c \-o nombre\_ejecutable.exe*
+*c:   gcc archivo _fuente.c  -o nombre _ejecutable.exe*
 
 El programa GCC está tomando 3 argumentos, cada uno de los cuales es una cadena de caracteres de longitud variable.  
 En C, los arreglos multidimensionales son definidos con doble corchete: uno para las columnas y otro para los renglones:
 
-int matriz\[ 2 \] \[3 \];
+int matriz [ 2  ]  [3  ];
 
 Cuando se pasa una matriz como argumento a una función, el número de renglones es irrelevante, punto que se puede entender como un puntero a un arreglo de renglones, entonces es válido hacer:
 
-funcion(int matriz\[2\] \[3\]) // se pasa el elemento columna=2, fila=3  
+funcion(int matriz [2 ]  [3 ]) // se pasa el elemento columna=2, fila=3  
 {....}
 
-funcion(int matriz \[\] \[3\])  
+funcion(int matriz  [ ]  [3 ])  
 {....}
 
-funcion(int (\*matriz) \[3\])  
+funcion(int ( *matriz)  [3 ])  
 {....}
 
 ## **6.10. Inicialización de Arreglos de Punteros**
 
 // funciónn que retorna el nombre del mes, según el valor pasado por parámetro   
-char \*mes\_del\_anio(int n)  
+char  *mes _del _anio(int n)  
 {  
-	static char \*nombre\[\] \=   
+	static char  *nombre [ ]  =   
 	{  
 		"mes invalido",  
 		"enero", "febrero", "marzo", "abril",  
@@ -1750,15 +1750,15 @@ char \*mes\_del\_anio(int n)
 		"septiembre", "octubre", "noviembre", "diciembre"  
 	};  
 	  
-	return (n \< 1 || n \> 12) ? nombre\[0\] ; nombre\[n\];  
+	return (n  < 1 || n  > 12) ? nombre [0 ] ; nombre [n ];  
 }
 
 ## **6.11. Punteros vs Arreglos Multidimensionales**
 
-int arreglo\_multidimensional\[10\] \[10\];  
-int \*puntero\_arreglos\[10\];
+int arreglo _multidimensional [10 ]  [10 ];  
+int  *puntero _arreglos [10 ];
 
-Aunque a primera vista parezcan ser lo mismo, en realidad un arreglo multidimensional, en el momento de su declaración, hace al compilador reservar la cantidad de memoria exacta para definir ese arreglo (M x N), y la aritmética que se utiliza para acceder a cada uno de sus elementos es la misma que en matrices: cant\_columnas X renglon \+ indice\_columna.
+Aunque a primera vista parezcan ser lo mismo, en realidad un arreglo multidimensional, en el momento de su declaración, hace al compilador reservar la cantidad de memoria exacta para definir ese arreglo (M x N), y la aritmética que se utiliza para acceder a cada uno de sus elementos es la misma que en matrices: cant _columnas X renglon  + indice _columna.
 
 ![][image23]
 
@@ -1768,16 +1768,16 @@ La ventaja con respecto a los arreglos, es que cada elemento de los punteros pue
 ![arrayOfarray.gif][image24]
 
 Las matrices, o vectores de más de una dimensión, no tienen una equivalencia directa con los punteros.   
-int \*ptr, v\[5\], a\[3\]\[3\];   
-ptr \= &v\[1\];      \<\<\< OK   
-ptr \= v;          \<\<\< OK   
-ptr\[4\] \= 8;       \<\<\< OK 
+int  *ptr, v [5 ], a [3 ] [3 ];   
+ptr  = &v [1 ];       < < < OK   
+ptr  = v;           < < < OK   
+ptr [4 ]  = 8;        < < < OK 
 
-ptr \= a;          \<\<\< Error   
-ptr\[1\]\[1\] \= 8;    \<\<\< Error 
+ptr  = a;           < < < Error   
+ptr [1 ] [1 ]  = 8;     < < < Error 
 
-ptr \= &a\[0\]\[0\];   \<\<\< OK   
-ptr\[3\*1\+1\] \= 8;   \<\<\< OK
+ptr  = &a [0 ] [0 ];    < < < OK   
+ptr [3 *1 +1 ]  = 8;    < < < OK
 
 ## **6.12. Punteros a punteros**
 
@@ -1786,24 +1786,24 @@ ptr\[3\*1\+1\] \= 8;   \<\<\< OK
 En el lenguaje C, los punteros pueden apuntar a otros punteros. Para esto, se debe agregar un asterisco para cada nivel de desreferencia.
 
 char x;  
-char \*y;  
-char \*\*z;  
-x\='c';  
-y\=&x;  
-z\=&y;
+char  *y;  
+char  * *z;  
+x ='c';  
+y =&x;  
+z =&y;
 
 Suponiendo las siguientes direcciones de memoria para X, Y y Z: 8000, 5000 y 1001:
 
 **z** es un puntero a un puntero char cuya dirección es 1001 y contenido es 5000  
-**\*z** es un puntero a char cuya dirección es 5000 y contenido es 8000  
-**\*\*z** apunta al contenido de un char, cuyo valor es ‘c’ y dirección es 8000\.
+** *z** es un puntero a char cuya dirección es 5000 y contenido es 8000  
+** * *z** apunta al contenido de un char, cuyo valor es ‘c’ y dirección es 8000 .
 
 ## **6.13. Punteros a Funciones**
 
 Los punteros a funciones lo que hace es llamar a una **función** y pasarle por argumento una **función**. En éstos casos, los punteros a función hacen que el parámetro sea interpretado “como una variable”.
 
 // prototipos  
-double (\*f) (double);  
+double ( *f) (double);  
 double sin(double);
 
 // llamado a la función armatabla, cada una recibe como argumento una función matemática  
@@ -1813,18 +1813,18 @@ armatabla (cos, 0 , 20 , 0.1);
 armatabla (tan , 0, 20 , 0.1);
 
 // Definición de la función  
-void armatabla( double (\*f) (double), double ini, double fin, double delta)  
+void armatabla( double ( *f) (double), double ini, double fin, double delta)  
 {  
-	while (i\<f)  
+	while (i <f)  
 	{  
-		printf("%lf \==\> %lf\\n" i, f(i));  
-		i\+=delta;  
+		printf("%lf  == > %lf  n" i, f(i));  
+		i +=delta;  
 	}  
 }
 
 El puntero a puntero pasa la dirección de memoria de la función que se le pasa por argumento y los demás argumentos los usa en el trabajo interno.
 
-# **7\. Administración de Memoria**
+# **7 . Administración de Memoria**
 
 La administración de memoria es uno de los elementos más importantes que provee el lenguaje C. El lenguaje permite obtener, modificar y liberar cantidades de memoria especificada de forma dinámica, o sea, durante la ejecución del programa.  
 Al proceso de solicitar memoria dinámicamente se le denomina **alocación**. Siempre es una buena práctica, que si se solicita memoria dinámica, luego de haber sido utilizada, se debe **liberara**, de lo contrario el **memory pool** (la cantidad de memoria disponible del proceso, asignada por el sistema operativo) colapsaría, o sea, el proceso se quedaría sin memoria adicional disponible.
@@ -1839,35 +1839,35 @@ Para resolver problemas en donde no se conoce el tamaño que puede tener el arre
 
 Este procedimiento permite pedir memoria adicional al Manager (elemento del sistema operativo) en tiempo de ejecución (RUN TIME). Las funciones de la biblioteca disponible son:
 
-\#include \<stdlib.h\>  
-void \*calloc(size\_t nmemb, size\_t size);  
-void free(void \*ptr); 	// libera la memoria a la cual apunta "ptr"  
-void \*malloc(size\_t size); // obtiene "size" cantidad de bytes  
-void \*realloc(void \*ptr, size\_t size);
+ #include  <stdlib.h >  
+void  *calloc(size _t nmemb, size _t size);  
+void free(void  *ptr); 	// libera la memoria a la cual apunta "ptr"  
+void  *malloc(size _t size); // obtiene "size" cantidad de bytes  
+void  *realloc(void  *ptr, size _t size);
 
 ![][image27]
 
 Ejemplos:
 
-// malloc\_free.c
+// malloc _free.c
 
-\#include \<stdio.h\>  
-\#include \<stdlib.h\>
+ #include  <stdio.h >  
+ #include  <stdlib.h >
 
 int main(void)  
 {  
-int \*pV=NULL;  
+int  *pV=NULL;  
 int sz;
 
 printf("Ingrese el tamaño: ");  
 scanf("%d", &sz);
 
-pV\= (int \*) malloc (sz \* sizeof(int));		// Nota 1
+pV = (int  *) malloc (sz  * sizeof(int));		// Nota 1
 
-if (pV\==NULL)			// verifica si existió un error  
+if (pV ==NULL)			// verifica si existió un error  
 {  
-puts("Error de alocacion\\n");  
-		exit(EXIT\_FAILURE);  
+puts("Error de alocacion  n");  
+		exit(EXIT _FAILURE);  
 }  
 .  
 .  
@@ -1878,23 +1878,23 @@ puts("Error de alocacion\\n");
 free(pV);  
 }
 
-**NOTA 1**: en algunos compiladores, al momento de usar la función MALLOC, la misma retorna la dirección de memoria de un VOID \* y si se lo está asignando, como en este caso, a un INT \*, se deberá realizar un CASTING para salvar este posible error.
+**NOTA 1**: en algunos compiladores, al momento de usar la función MALLOC, la misma retorna la dirección de memoria de un VOID  * y si se lo está asignando, como en este caso, a un INT  *, se deberá realizar un CASTING para salvar este posible error.
 
 Cuando se usan arreglos o matrices, se tiene conocimiento de las dimensiones de los mismo, ya sea porque se los establece con un DEFINE o con constantes numéricas.
 
-\#define M 10  
-\#define N 20
+ #define M 10  
+ #define N 20
 
 int main(void)  
 {  
-	int matriz \[M\]\[N\];  
-	matriz\[i\]\[j\]=32;  
-	return EXIT\_SUCCESS;  
+	int matriz  [M ] [N ];  
+	matriz [i ] [j ]=32;  
+	return EXIT _SUCCESS;  
 }
 
 Pero si no se sabe los valores de puede tomar la matriz, se puede utilizar la alocación dinámica:
 
-int \*pM;  
+int  *pM;  
 int n, m;
 
 printf("Ingrese M filas: ");  
@@ -1902,89 +1902,89 @@ scanf("%d", &m);
 printf("Ingrese N columnas");  
 scanf("%d", &n);
 
-pM  \= (int \*) malloc (m \* n \* sizeof(int));
+pM   = (int  *) malloc (m  * n  * sizeof(int));
 
 assert(pM);
 
-/\* 	La función assert sirve para chequear la condición de VERDAD del argumento que se le pase.      
- \* 	Esta función se encuentra en la librería ASSERT.h   
- \*/
+/ * 	La función assert sirve para chequear la condición de VERDAD del argumento que se le pase.      
+  * 	Esta función se encuentra en la librería ASSERT.h   
+  */
 
-// para tener la misma notación de una matriz lineal MATRIZ \[i\] \[j\]
+// para tener la misma notación de una matriz lineal MATRIZ  [i ]  [j ]
 
-pM\[ i \* n \+ j \] \= 32;
+pM [ i  * n  + j  ]  = 32;
 
 // Para poder hacer esto, se deberá utilizar un Puntero a Puntero:  
-// esto es por que pM \[i\] \[j\] es un INT  y pM \[i\] es un INT \*, por lo tanto pM es un int \*\*
+// esto es por que pM  [i ]  [j ] es un INT  y pM  [i ] es un INT  *, por lo tanto pM es un int  * *
 
-int pM\*\*; 	
+int pM * *; 	
 
-// matriz\_dinamica.c
+// matriz _dinamica.c
 
-\#include \<stdio.h\>  
-\#include \<assert.h\>  
-\#include \<stdlib.h\>
+ #include  <stdio.h >  
+ #include  <assert.h >  
+ #include  <stdlib.h >
 
-int \*\*allocMat(int m, int n)  
+int  * *allocMat(int m, int n)  
 {  
 	int i;  
-	int \*\*pRet;  
-	pRet \= (int \*) malloc(m \* sizeof(int \*));  
+	int  * *pRet;  
+	pRet  = (int  *) malloc(m  * sizeof(int  *));  
 	assert(pRet);
 
-	for (i \= 0; i \< m; i\++)  
+	for (i  = 0; i  < m; i ++)  
 	{  
-		pRet\[i\] \= (int \*) malloc(sizeof(int) \* n);  
-		assert(pRet\[i\]);  
+		pRet [i ]  = (int  *) malloc(sizeof(int)  * n);  
+		assert(pRet [i ]);  
 	}  
 	return pRet;  
 }
 
-void freeMat(int \*\*pM, int m)  
+void freeMat(int  * *pM, int m)  
 {  
 	int i;  
-	for (i \= 0; i \< m; i\++)  
-		free(pM\[i\]);  
+	for (i  = 0; i  < m; i ++)  
+		free(pM [i ]);  
 	free(pM);  
 }
 
 int main(void)  
 {  
-	int \*\*pM \= NULL;  
+	int  * *pM  = NULL;  
 	int i, j, n, m;  
-	printf("Filas \= ");  
+	printf("Filas  = ");  
 	scanf("%d", &m);  
-	printf("Columnas \= ");  
+	printf("Columnas  = ");  
 	scanf("%d", &n);
 
-	pM \= allocMat(m, n);
+	pM  = allocMat(m, n);
 
-	if(pM \== NULL)  
+	if(pM  == NULL)  
 	{  
-		printf("Error en la alocación de memoria\\n");  
-		return EXIT\_FAILURE;  
+		printf("Error en la alocación de memoria  n");  
+		return EXIT _FAILURE;  
 	}  
-	for (i \= 0; i \< m; i\++)  
-		for (j \= 0; j \< n; j\++)  
-			pM\[i\]\[j\] \= 0;
+	for (i  = 0; i  < m; i ++)  
+		for (j  = 0; j  < n; j ++)  
+			pM [i ] [j ]  = 0;
 
-	for (i \= 0; i \< m; i\++)  
+	for (i  = 0; i  < m; i ++)  
 	{  
-			for (j \= 0; j \< n; j\++)  
+			for (j  = 0; j  < n; j ++)  
 			{  
-				printf("%d\\t", pM\[i\]\[j\]);  
+				printf("%d  t", pM [i ] [j ]);  
 			}  
-			printf("\\n");  
+			printf("  n");  
 	}
 
 	freeMat(pM, n);
 
-	return EXIT\_SUCCESS;  
+	return EXIT _SUCCESS;  
 }
 
 **NOTA**: En los ambientes de desarrollo no se utiliza ASSERT, sino que se chequea si alguno de los resultados fueron NULL, y en tal caso, antes de devolver este valor (NULL)  a la función, primero se deberá liberar la memoria y después terminar la función.
 
-# **8\. Estructuras en C**
+# **8 . Estructuras en C**
 
 ## **8.1. Conceptos Básico de Estructuras**
 
@@ -1998,7 +1998,7 @@ Una **estructura** es una colección de una o más variables, de tipos posibleme
 Las **estructuras** ayudan a organizar datos complejos, en especial en programas grandes. Permite manipular a un grupo de variables como si fueran una unidad.  
 En C se utiliza la palabra reservada **struct**:
 
-struct nombre 			// rótulo de la estructura \+ nombre de la misma  
+struct nombre 			// rótulo de la estructura  + nombre de la misma  
 {		  
 	tipo1 campo1;		// miembros de la estructura.  
 	tipo2 campo2;  
@@ -2025,8 +2025,8 @@ Para acceder a cada uno de lo “miembros” de una estructura se utiliza un “
 
 nombre-estructura.miembro
 
-punto.x \= 0;  
-punto.y \= 0;
+punto.x  = 0;  
+punto.y  = 0;
 
 Las estructuras se pueden inicializar, al igual que los arreglos y se pueden anidar:
 
@@ -2047,12 +2047,12 @@ screen.punto1.x;	//  obtenemos la esquina inferior izquierda
 
 En el ejemplo clásico de representar a una persona, se podría hacer lo siguiente:
 
-\#define NOMBRE\_SZ 32  
-\#define MASCULINO 0  
-\#define FEMENINO 1
+ #define NOMBRE _SZ 32  
+ #define MASCULINO 0  
+ #define FEMENINO 1
 
 struct persona{  
-	char nombre\[NOMBRE\_SZ\];  
+	char nombre [NOMBRE _SZ ];  
 int edad;  
 	int sexo;  
 	int dni;  
@@ -2077,150 +2077,150 @@ Las estructuras NO SE PUEDEN comparar entre ellas.
 En un mismo bloque de código pueden existir variables con el mismo nombre que aquellos definidos dentro de una estructura, debido a que el ámbito de vida de los miembros de una estructura están definidos dentro de las llaves de la misma.  
 Las estructuras pueden ser pasadas por argumento a funciones, o ser retornadas:
 
-/\* makepoint: crea un punto con los componentes x e y\*/  
+/ * makepoint: crea un punto con los componentes x e y */  
 struct point makepoint (int x, int y)  
 {  
 struct point temp;
 
-temp.x \= x;  
-temp.y \= y;
+temp.x  = x;  
+temp.y  = y;
 
 return temp;	//retornamos una estructura.  
 }
 
-/\* addpoint: suma dos puntos \*/  
+/ * addpoint: suma dos puntos  */  
 struct point addpoint(struct point punto1, struct point punto2)	// estructuras como argumentos.  
 {  
-punto1.x \+= punto2.x;  
-punto1.y \+= punto2.y;
+punto1.x  += punto2.x;  
+punto1.y  += punto2.y;
 
 return punto1;  
 }  
 Si una estructura grande va a ser pasada a una función, generalmente es más eficiente pasar un apuntador que copiar la estructura completa. Los apuntadores a estructuras somo como los apuntadores a variables:
 
-struct point \*pp;
+struct point  *pp;
 
-PP es un puntero a una estructura de tipo **struct** **point**. entonces \*pp es la estructura, y **(\*pp).x** y **(\*pp).y** son los miembros de la estructura.  
-Debido a que los apuntadores a estructuras se usan con tanta frecuencia, se ha proporcionado una notación alternativa para hacer éste tipo de referencias (-\>):
+PP es un puntero a una estructura de tipo **struct** **point**. entonces  *pp es la estructura, y **( *pp).x** y **( *pp).y** son los miembros de la estructura.  
+Debido a que los apuntadores a estructuras se usan con tanta frecuencia, se ha proporcionado una notación alternativa para hacer éste tipo de referencias (- >):
 
-pp\-\>punto1.x;  
-(pp\-\>punto1).y;
+pp - >punto1.x;  
+(pp - >punto1).y;
 
 ## **8.5. Arreglos de Estructuras**
 
 Al igual que con los tipos de datos nativos, con las estructuras se pueden definir arreglos:
 
-/\* un arreglo de palabras reservadas en C, que mantiene la cantidad de ocurrencia de   
- \* cada una de las palabras en un fuente.  
- \*/  
+/ * un arreglo de palabras reservadas en C, que mantiene la cantidad de ocurrencia de   
+  * cada una de las palabras en un fuente.  
+  */  
 struct key {  
-char \*word;  
+char  *word;  
 int count;  
-} keytab\[NKEYS\];
+} keytab [NKEYS ];
 
 otra forma de escribir lo mismo:
 
 struct key  
 {  
-	char \*word;  
+	char  *word;  
 	int count;  
 };
 
-struct key keytab\[NKEYS\];
+struct key keytab [NKEYS ];
 
 ## **8.6. Punteros a Estructuras**
 
 Así como se declara una variable persona, también puede declarar un puntero a persona.
 
-Persona\_t \*ptr \= &p;
+Persona _t  *ptr  = &p;
 
-En este caso también existe un selector de campo que me permite referenciar una estructura por medio de un puntero. Para hacer esto el selector de campo, pasa de ser un simple punto a una (-\>).
+En este caso también existe un selector de campo que me permite referenciar una estructura por medio de un puntero. Para hacer esto el selector de campo, pasa de ser un simple punto a una (- >).
 
-(\*ptr).edad \= 17;
+( *ptr).edad  = 17;
 
 es equivalente a:
 
-ptr\-\>edad \= 17;
+ptr - >edad  = 17;
 
-En el ejemplo que se puso, edad no es un buen elemento de una estructura, puesto que es un dato variable con el tiempo, para eso seria mas conveniente poner : fecha\_de\_nacimiento.
+En el ejemplo que se puso, edad no es un buen elemento de una estructura, puesto que es un dato variable con el tiempo, para eso seria mas conveniente poner : fecha _de _nacimiento.
 
 struct fecha  
 {  
 	int dia,   
 	     mes,  
 	     anio;  
-}fecha\_nacimiento;
+}fecha _nacimiento;
 
 Esto permite, en lugar de guardar la edad en la estructura principal, colocar la fecha de nacimiento.
 
 struct persona  
 {  
-	char nombre\[NOMBRE\_SZ\];  
-struct fecha\_nacimiento \*pf\_nacimiento;  
+	char nombre [NOMBRE _SZ ];  
+struct fecha _nacimiento  *pf _nacimiento;  
 	int sexo;  
 	int dni;  
 };
 
 Una vez definida las estructuras, se utilizan en forma análoga a los tipos estándar de datos, por lo tanto se pueden declarar arreglos de estructuras, y también punteros a estructuras. Se pueden declarar variables que apunten a estructuras:
 
-Struct fecha\_nacimiento \*FechaPtr;  
-Struct fecha\_nacimiento Hoy;  
-FechaPtr \= &Hoy;
+Struct fecha _nacimiento  *FechaPtr;  
+Struct fecha _nacimiento Hoy;  
+FechaPtr  = &Hoy;
 
-La referencia a un campo de una estructura a través de un puntero se realiza mediante el operador "-\>".
+La referencia a un campo de una estructura a través de un puntero se realiza mediante el operador "- >".
 
-FechaPtr \-\> Dia \= 15;  
-FechaPtr \-\> Mes \= "Octubre";
+FechaPtr  - > Dia  = 15;  
+FechaPtr  - > Mes  = "Octubre";
 
 ## **8.7. Consideraciones**
 
 Cuando se ingresan punteros dentro de estructuras es conveniente tener en cuenta, hacia donde apuntan eso punteros, debido a que si no se definen correctamente los datos a los apuntan, puede encontrarse con algún caso de inconsistencia de datos, como por ejemplo, tener una estructura en donde se almacenan nombre de personas con un puntero al nombre (ningún carácter más) y si se tiene una función que destruye algún registro de persona, es muy posible que al borrar el registro de esa persona, otro registro con el mismo nombre quede inutilizable, en el caso de que se usen punteros al nombre. 
 
-Strcut persona\_t   
+Strcut persona _t   
 {  
-	Char \*nombre;  
+	Char  *nombre;  
 	Int dni;  
 };
 
-persona\_t crearPersona ( persona\_t \*p)  
+persona _t crearPersona ( persona _t  *p)  
 {  
-	presonat\_t nueva;  
-	nueva.nombre \= p\-\>nombre;	// error, esto esta mal.  
-	nueva.dni \= p\-\>dni;  
+	presonat _t nueva;  
+	nueva.nombre  = p - >nombre;	// error, esto esta mal.  
+	nueva.dni  = p - >dni;  
 	  
 	return nueva;  
 }
 
-/\* Para salvar este problema, hay que alocar memoria para el nombre\*/
+/ * Para salvar este problema, hay que alocar memoria para el nombre */
 
-persona\_t crearPersona ( persona\_t \*p)  
+persona _t crearPersona ( persona _t  *p)  
 {  
-personat\_t nueva;  
+personat _t nueva;  
 	  
-nueva.nombre \= (char \*) malloc ( srtlen ((p\-\>nombre) \+ 1) \* sizeof (char));   
+nueva.nombre  = (char  *) malloc ( srtlen ((p - >nombre)  + 1)  * sizeof (char));   
 	  
-strcpy(nueva.nombre , p\-\>nombre);
+strcpy(nueva.nombre , p - >nombre);
 
-nueva.dni \= p\-\>dni;  
+nueva.dni  = p - >dni;  
 	  
 return nueva;  
 }
 
-/\*Si ahora queremos hacer la misma función de CREAR pero con punteros: \*/
+/ *Si ahora queremos hacer la misma función de CREAR pero con punteros:  */
 
-persona\_t \*crearPersona ( persona\_t \*p)  
+persona _t  *crearPersona ( persona _t  *p)  
 {	  
-personat\_t \*pnueva;  
+personat _t  *pnueva;  
 	  
-	pnueva \= (persona\_t \*) malloc (sizeof (persona\_t ) );	
+	pnueva  = (persona _t  *) malloc (sizeof (persona _t ) );	
 
-nueva.nombre \= (char \*) malloc ( srtlen ((p\-\>nombre) \+ 1) \* sizeof (char));   
+nueva.nombre  = (char  *) malloc ( srtlen ((p - >nombre)  + 1)  * sizeof (char));   
 	  
-strcpy(nueva.nombre , p\-\>nombre);
+strcpy(nueva.nombre , p - >nombre);
 
-nueva.dni \= p\-\>dni;  
+nueva.dni  = p - >dni;  
 	  
-return \*pnueva;  
+return  *pnueva;  
 }
 
 En este caso, se ve que se tuvo que alocar memoria nueva para crear otra persona, de lo contrario, pnueva hubiese sido una variable LOCAL al Scope (a la función) y hubiera retornado cualquier cosa, debido a que esa memoria que utilizan las funciones para variables locales es colocada en un pila, que es constantemente usada.
@@ -2230,13 +2230,13 @@ En este caso, se ve que se tuvo que alocar memoria nueva para crear otra persona
 Existe una facilidad en C para definir nuevos  tipo de datos creados por el usuario:
 
 typedef int Longitud;	// Longitud pasa a ser un nuevo tipo de dato.  
-typedef char\* Cadena;
+typedef char * Cadena;
 
-Typedef struct persona persona\_t;		// entonces a partir de este momento persona\_t es un nuevo   
+Typedef struct persona persona _t;		// entonces a partir de este momento persona _t es un nuevo   
 // tipo de dato
 
-Persona\_t p;   // acá el compilador va a reservar tanta memoria como el tipo de   
-// dato persona\_t requiera.
+Persona _t p;   // acá el compilador va a reservar tanta memoria como el tipo de   
+// dato persona _t requiera.
 
 Se debe aclarar que Typedef NO CREA un nuevo tipo de dato, simplemente define un nuevo nombre a un tipo ya existente. Y las propiedades que poseen éstos nuevo tipos son las mismas que si se hubiesen definido explícitamente. 
 
@@ -2246,30 +2246,30 @@ Una unión es una variable  que puede contener (en momentos diferentes) objetos 
 Una unión es una estructura que agrupa en un mismo espacio de memoria varias variables de tipos distintos, que pueden ser accedidas para un momento dado con un tipo de dato dado.  
 Las uniones siempre toman como máxima capacidad la de mayor capacidad definida.
 
-union u\_tag   
+union u _tag   
 {  
-int integer\_val;  
-float float\_val;  
-char \*string\_val;  
+int integer _val;  
+float float _val;  
+char  *string _val;  
 }utype;
 
 ![][image30];
 
 Es responsabilidad del programador saber el tipo y valor almacenado en un momento dado.
 
-if (utype \== INT)  
-printf("%d\\n", utype.ival);  
-else if (utype \== FLOAT)  
-printf("%f\\n", utype.fval);  
-else if (utype \== STRING)  
-printf("%s\\n", utype.sval);  
+if (utype  == INT)  
+printf("%d  n", utype.ival);  
+else if (utype  == FLOAT)  
+printf("%f  n", utype.fval);  
+else if (utype  == STRING)  
+printf("%s  n", utype.sval);  
 else  
-printf ("dato incorrecto %d en utype\\n'', utype);
+printf ("dato incorrecto %d en utype  n'', utype);
 
 Todos los elementos de una “union” tienen un desplazamiento de cero con respecto al primer elemento. La estructura es suficientemente grande para mantener al miembro “más ancho”, y la alineación es la apropiada para todos los tipos de la unión. Están permitidas las mismas operaciones sobre las uniones como sobre las estructuras: asignación o copia como unidad, tomar la dirección, y hacer el acceso a un miembro.  
 Una unión sólo se puede inicializar con un valor del tipo de su primer miembro, así que la unión descrita anteriormente sólo se puede inicializar con un valor entero.
 
-# **9\. E/S y Archivos**
+# **9 . E/S y Archivos**
 
 ![][image31]
 
@@ -2309,7 +2309,7 @@ Ejemplos de tipos de FileSystem:
 * NTFS  	⇒ New Technology File System, es una arquitectura de sistema de archivos, propietaria, desarrollada por Microsoft y que implementa una serie de mejoras con respecto a la familia de las FAT: performance, seguridad, métodos de acceso, etc.
 
 ![][image33]  
-De esta manera aparece el ÁRBOL de donde se desplegar los directorios, sub-directorios y archivos. Existe una gestión en cuanto al manejo de archivos. En los archivos, solo se almacenan 1 y 0\. Por ejemplo:
+De esta manera aparece el ÁRBOL de donde se desplegar los directorios, sub-directorios y archivos. Existe una gestión en cuanto al manejo de archivos. En los archivos, solo se almacenan 1 y 0 . Por ejemplo:
 
 “Hello World”
 
@@ -2323,10 +2323,10 @@ Con esto nos damos cuenta que los archivos no tiene TIPO, simplemente depender d
 
 ## **9.4. Stream (flujo)**
 
-Es el término utilizado para definir un flujo de datos de 1 y 0\. Un archivo, teclado, monitor es un posible stream. Lo importante es que en un momento dado tengo dos cosas:
+Es el término utilizado para definir un flujo de datos de 1 y 0 . Un archivo, teclado, monitor es un posible stream. Lo importante es que en un momento dado tengo dos cosas:
 
 * Cual es el siguiente dato a leer  
-* En donde voy a escribir el siguiente 1 y 0\.
+* En donde voy a escribir el siguiente 1 y 0 .
 
  "C" nos proveedor un conjunto de funciones que nos permiten manejar STREAM. C provee una estructura llamada FILE (en mayúscula). Define STREAM’s de entrada salida y siempre se administran con Puntero.
 
@@ -2334,35 +2334,35 @@ Es el término utilizado para definir un flujo de datos de 1 y 0\. Un archivo, t
 * STDOUT   
 * STDERR 	(salida donde van los errores)
 
-*/\* Un ejemplo sencillo \*/*  
+*/ * Un ejemplo sencillo  */*  
  int main(void)  
  {  
      int var;  
-     scanf ("%d", &var); */\* usa stdin para escanear un entero del keyboard. \*/*  
-     printf ("%d", var); */\* usa stdout para imprimir los caracteres del entero\*/*  
+     scanf ("%d", &var); */ * usa stdin para escanear un entero del keyboard.  */*  
+     printf ("%d", var); */ * usa stdout para imprimir los caracteres del entero */*  
      return 0;  
  }  
- */\* fin del programa \*/*
+ */ * fin del programa  */*
 
 C define que el STDIN es el teclado, y el STDOUT y STDERR son salida por monitor.
 
-Todos estos son FILE \* (punteros a la estructura FILE). Todas las funciones de administración de archivos son punteros.  
-Cuando se arranca un programa en C, el medio ambiente del sistema operati­vo es responsable de abrir tres archivos y proporcionar apuntadores de archivo para ellos. Estos archivos son la entrada estándar, la salida estándar y el error estándar; los apuntadores de archivo correspondientes se llaman stdin, stdout y stderr, y están declarados en \<stdio.h\>.  
+Todos estos son FILE  * (punteros a la estructura FILE). Todas las funciones de administración de archivos son punteros.  
+Cuando se arranca un programa en C, el medio ambiente del sistema operati­vo es responsable de abrir tres archivos y proporcionar apuntadores de archivo para ellos. Estos archivos son la entrada estándar, la salida estándar y el error estándar; los apuntadores de archivo correspondientes se llaman stdin, stdout y stderr, y están declarados en  <stdio.h >.  
 Normalmente stdin se conecta al tecla­do y stdout y stderr se conectan a la pantalla, pero stdin y stdout pueden ser redirigidos a archivos o a interconexiones (pipes).
 
 ## **9.5. Abrir Archivos**
 
 Como regla importante, antes de poder comenzar a leer y escribir un archivo, primero se tiene que abrir. C provee funciones para abrir archivos, lo cual hace que el programa negocie con el sistema operativo para poder obtener el acceso.  
-Finalmente, si el archivo se puede abrir, se regresa un puntero de tipo FILE \* para poder ser utilizado posteriormente.
+Finalmente, si el archivo se puede abrir, se regresa un puntero de tipo FILE  * para poder ser utilizado posteriormente.
 
-\#include \<stdio.h\>  
- FILE \*fopen(const char \*filename, const char \*mode);  
- FILE \*freopen(const char \*filename, const char \*mode, FILE \*stream);
+ #include  <stdio.h >  
+ FILE  *fopen(const char  *filename, const char  *mode);  
+ FILE  *freopen(const char  *filename, const char  *mode, FILE  *stream);
 
-Siempre se pide permiso al sistema operativo para abrir archivos. Devuelve el FILE \* si se da acceso o devuelve NULL si no. FILE es un tipo definido en “stdio.h” basado en una estructura de datos con los miembros necesarios para manejar archivos.  
-La "\\" es un carácter de escape, hay que tener cuidado al abrir archivos en C por que si se pone:
+Siempre se pide permiso al sistema operativo para abrir archivos. Devuelve el FILE  * si se da acceso o devuelve NULL si no. FILE es un tipo definido en “stdio.h” basado en una estructura de datos con los miembros necesarios para manejar archivos.  
+La "  " es un carácter de escape, hay que tener cuidado al abrir archivos en C por que si se pone:
 
-c:\\programas\\hola.exe // toma en realidad "\\m" hay que poner "\\\\"  dos barras.
+c:  programas  hola.exe // toma en realidad "  m" hay que poner "    "  dos barras.
 
 ## **9.6. Modos de Apertura**
 
@@ -2379,8 +2379,8 @@ Estos son link’s con el sistema operativo. Siempre que se termina de trabajar 
 
 ## **9.7. Cierre de Archivos**
 
-\#include \<stdio.h\>  
- int fclose(FILE \*stream);
+ #include  <stdio.h >  
+ int fclose(FILE  *stream);
 
 Esta función devuelve '0' si esta todo OK o sino EOF si no lo pudo cerrar.
 
@@ -2389,7 +2389,7 @@ Esta función devuelve '0' si esta todo OK o sino EOF si no lo pudo cerrar.
 Esta función sirve para determinar si el cursor dentro del archivo encontró el final (end of file). Existe otra forma de verificar el final del archivo que es comparar el caracter que trae fgetc del archivo con el macro EOF declarado dentro de stdio.h, pero este método no ofrece la misma seguridad (en especial al tratar con los archivos "binarios"). La función feof siempre devolverá cero (Falso) si no es encontrado EOF en el archivo, de lo contrario regresará un valor distinto de cero (Verdadero).  
 El prototipo correspondiente de feof es:
 
-int feof(FILE \*fichero);
+int feof(FILE  *fichero);
 
 ## **9.9. Convenciones**
 
@@ -2398,22 +2398,22 @@ En los diferentes sistemas operativos se representa el Enter de distinta manera.
 
 ## **9.10. Ejemplo: Abrir, Escribir y Cerrar Un Archivo**
 
-\#include \<stdio.h\>
+ #include  <stdio.h >
 
 int main(void)  
 {  
-   FILE \*stream;  
-   int i \= 100;  
-   char c \= 'C';  
-   float f \= 1.234;
+   FILE  *stream;  
+   int i  = 100;  
+   char c  = 'C';  
+   float f  = 1.234;
 
-   /\* open a file for update \*/  
-   stream \= fopen("DUMMY.BIN", "w+");
+   / * open a file for update  */  
+   stream  = fopen("DUMMY.BIN", "w+");
 
-   /\* write some data to the file \*/  
+   / * write some data to the file  */  
    fprintf(stream, "%d %c %f", i, c, f);
 
-   /\* close the file \*/  
+   / * close the file  */  
    fclose(stream);  
    return 0;  
 }
@@ -2423,30 +2423,30 @@ int main(void)
 C no provee construcciones especiales para el manejo de errores. Los mismos deben ser definidos y manejados por el programador.  
 Generalmente, los mensajes de error se imprimen en pantalla o en la línea de comandos, pero si la salida debe ir a otro programa se utiliza el flujo alternativo: **stderr**.
 
-\#include \<stdio.h\>  
-\#include \<errno.h\>  
-\#include \<string.h\>
+ #include  <stdio.h >  
+ #include  <errno.h >  
+ #include  <string.h >
 
 extern int errno ;
 
-int main (int argc, char const \*argv\[\])  
+int main (int argc, char const  *argv [ ])  
 {  
-   FILE \* pf;  
+   FILE  * pf;  
    int errnum;  
-   pf \= fopen ("archivo\_no\_existente.txt", "rb");  
-   if (pf \== NULL)  
+   pf  = fopen ("archivo _no _existente.txt", "rb");  
+   if (pf  == NULL)  
    {  
-      errnum \= errno;  
-      fprintf(stderr, "Valor de errno: %d\\n", errno);  
+      errnum  = errno;  
+      fprintf(stderr, "Valor de errno: %d  n", errno);  
       perror("Error Impreso por perror");  
-      fprintf(stderr, "Error abriendo el archivo: %s\\n", strerror( errnum ));  
+      fprintf(stderr, "Error abriendo el archivo: %s  n", strerror( errnum ));  
       exit (1);  
    }  
    else  
    {  
       fclose (pf);  
    }  
-   return EXIT\_SUCCESS;  
+   return EXIT _SUCCESS;  
 }
 
 Aquí podemos ver varios elemento nuevos:
@@ -2461,29 +2461,29 @@ Tal como existen funciones de entrada y salida de datos por el estándar in/out 
 
 ### **9.12.1. fgets**
 
-Esta función está diseñada para leer cadenas de caracteres. Leerá hasta n-1 caracteres o hasta que lea un cambio de línea '\\n' o un final de archivo EOF. En este último caso, el carácter de cambio de línea '\\n' también es leído.  
-/\*  
- \* Te permite obtener un string desde un archivo, hasta el caracter '\\n'  
- \*/  
-char \* fgets ( char \* str, int num, FILE \* stream );
+Esta función está diseñada para leer cadenas de caracteres. Leerá hasta n-1 caracteres o hasta que lea un cambio de línea '  n' o un final de archivo EOF. En este último caso, el carácter de cambio de línea '  n' también es leído.  
+/ *  
+  * Te permite obtener un string desde un archivo, hasta el caracter '  n'  
+  */  
+char  * fgets ( char  * str, int num, FILE  * stream );
 
 Ejempo:  
-\#include \<stdio.h\>  
-\#include \<stdlib.h\>
+ #include  <stdio.h >  
+ #include  <stdlib.h >
 
 int main(void)  
 {  
-	FILE \*archivo;
+	FILE  *archivo;
 
-	char caracteres\[100\];
+	char caracteres [100 ];
 
-	archivo \= fopen("prueba.txt", "r");
+	archivo  = fopen("prueba.txt", "r");
 
-	if (archivo \== NULL)  
+	if (archivo  == NULL)  
 		exit(1);
 
-	printf("\\nEl contenido del archivo de prueba es \\n\\n");  
-	while (feof(archivo) \== 0\)  
+	printf("  nEl contenido del archivo de prueba es   n  n");  
+	while (feof(archivo)  == 0 )  
 	{  
 		fgets(caracteres, 100, archivo);  
 		printf("%s", caracteres);  
@@ -2491,34 +2491,34 @@ int main(void)
 	getchar();
 
 	fclose(archivo);  
-	return EXIT\_SUCCESS;  
+	return EXIT _SUCCESS;  
 }
 
 ### **9.12.2. fputs**
 
 La función **fputs** escribe una cadena en un fichero. No se añade el carácter de retorno de línea ni el carácter nulo final. El valor de retorno es un *número no negativo* o **EOF**en caso de error. Los parámetros de entrada son la cadena a escribir y un puntero a la estructura **FILE** del fichero donde se realizará la escritura.
 
-/\*  
- \* Imprime un string en un archivo. No necesita el carácter nueva línea.  
- \*/  
-int fputs ( const char \* str, FILE \* stream );
+/ *  
+  * Imprime un string en un archivo. No necesita el carácter nueva línea.  
+  */  
+int fputs ( const char  * str, FILE  * stream );
 
 Ejemplo:
 
-\#include \<stdio.h\>  
-\#include \<stdlib.h\>
+ #include  <stdio.h >  
+ #include  <stdlib.h >
 
-int main(int argc, char \*\*argv)  
+int main(int argc, char  * *argv)  
 {  
-	FILE \*fp;
+	FILE  *fp;
 
-	char cadena\[\] \= "Mostrando el uso de fputs en un fichero.\\n";
+	char cadena [ ]  = "Mostrando el uso de fputs en un fichero.  n";
 
-	fp \= fopen("fichero.txt", "wt");
+	fp  = fopen("fichero.txt", "wt");
 
-	if (fp \== NULL)  
+	if (fp  == NULL)  
 	{  
-		printf("Error al abrir/crear fichero\\n");  
+		printf("Error al abrir/crear fichero  n");  
 		exit(1);  
 	}
 
@@ -2526,88 +2526,88 @@ int main(int argc, char \*\*argv)
 
 	fclose(fp);
 
-	return EXIT\_SUCCESS;  
+	return EXIT _SUCCESS;  
 }
 
 ### **9.12.3. fgetc**
 
-Esta función lee un caracter a la vez del archivo que esta siendo señalado con el puntero \***archivo**. En caso de que la lectura sea exitosa devuelve el caracter leído y en caso de que no lo sea o de encontrar el final del archivo devuelve **EOF**.  
+Esta función lee un caracter a la vez del archivo que esta siendo señalado con el puntero  ***archivo**. En caso de que la lectura sea exitosa devuelve el caracter leído y en caso de que no lo sea o de encontrar el final del archivo devuelve **EOF**.  
 El prototipo correspondiente de **fgetc** es:
 
-char fgetc(FILE \*archivo);
+char fgetc(FILE  *archivo);
 
 Esta función se usa generalmente para recorrer archivos de texto. A manera de ejemplo vamos a suponer que tenemos un archivo de texto llamado "prueba.txt" en el mismo directorio en que se encuentra el fuente de nuestro programa. Un pequeño programa que lea ese archivo será:
 
-\#include \<stdio.h\>  
-\#include \<stdlib.h\>
+ #include  <stdio.h >  
+ #include  <stdlib.h >
 
 int main(void)  
 {  
-	FILE \*archivo;  
+	FILE  *archivo;  
 	char caracter;
 
-	archivo \= fopen("prueba.txt", "r");
+	archivo  = fopen("prueba.txt", "r");
 
-	if (archivo \== NULL)  
+	if (archivo  == NULL)  
 	{
 
-		printf("\\nError de apertura del archivo. \\n\\n");  
+		printf("  nError de apertura del archivo.   n  n");  
 	} else  
 	{
 
-		printf("\\nEl contenido del archivo de prueba es \\n\\n");
+		printf("  nEl contenido del archivo de prueba es   n  n");
 
-		while (feof(archivo) \== 0\)  
+		while (feof(archivo)  == 0 )  
 		{  
-			caracter \= fgetc(archivo);  
+			caracter  = fgetc(archivo);  
 			printf("%c", caracter);  
 		}  
 	}  
 	fclose(archivo);  
-	return EXIT\_SUCCESS;  
+	return EXIT _SUCCESS;  
 }
 
 ### **9.12.4. fputc**
 
-Esta función escribe un carácter a la vez del archivo que esta siendo señalado con el puntero \***archivo**. El valor de retorno es el carácter escrito, si la operación fue completada con éxito, en caso contrario será **EOF**.  
+Esta función escribe un carácter a la vez del archivo que esta siendo señalado con el puntero  ***archivo**. El valor de retorno es el carácter escrito, si la operación fue completada con éxito, en caso contrario será **EOF**.  
 El prototipo correspondiente de **fputc** es:
 
-int fputc(int carácter, FILE \*archivo);
+int fputc(int carácter, FILE  *archivo);
 
 Un ejemplo del uso de fputc en un "fichero.txt", se escribe dentro del fichero hasta que presionemos la tecla enter.
 
-\#include \<stdio.h\>  
-\#include \<stdlib.h\>
+ #include  <stdio.h >  
+ #include  <stdlib.h >
 
-int main(int argc, char \*\*argv)  
+int main(int argc, char  * *argv)  
 {  
-	FILE \*fp;
+	FILE  *fp;
 
 	char caracter;
 
-	fp \= fopen("fichero.txt", "r+");
+	fp  = fopen("fichero.txt", "r+");
 
-	printf("\\nIntroduce un texto al fichero: ");
+	printf("  nIntroduce un texto al fichero: ");
 
-	while ((caracter \= getchar()) \!= '\\n')  
+	while ((caracter  = getchar())  != '  n')  
 	{  
 		fprintf("%c", fputc(caracter, fp));  
 	}
 
 	fclose(fp);
 
-	return EXIT\_SUCCESS;  
+	return EXIT _SUCCESS;  
 }
 
 ### **9.12.5. fread**
 
-size\_t fread ( void \* ptr, size\_t size, size\_t count, FILE \* stream );
+size _t fread ( void  * ptr, size _t size, size _t count, FILE  * stream );
 
-Esta función lee un bloque de una "stream" de datos. Efectúa la lectura de un arreglo de elementos "count", cada uno de los cuales tiene un tamaño definido por "size". Luego los guarda en el bloque de memoria especificado por "ptr". El indicador de posición de la cadena de caracteres avanza hasta leer la totalidad de bytes. Si esto es exitoso la cantidad de bytes leídos es (size\*count).
+Esta función lee un bloque de una "stream" de datos. Efectúa la lectura de un arreglo de elementos "count", cada uno de los cuales tiene un tamaño definido por "size". Luego los guarda en el bloque de memoria especificado por "ptr". El indicador de posición de la cadena de caracteres avanza hasta leer la totalidad de bytes. Si esto es exitoso la cantidad de bytes leídos es (size *count).
 
 PARÁMETROS:
 
-ptr  : Puntero a un bloque de memoria con un tamaño mínimo de (size\*count) bytes.  
+ptr  : Puntero a un bloque de memoria con un tamaño mínimo de (size *count) bytes.  
 size  : Tamaño en bytes de cada elemento (de los que voy a leer).  
 count : Número de elementos, los cuales tienen un tamaño "size".  
 stream: Puntero a objetos FILE, que especifica la cadena de entrada.
@@ -2617,40 +2617,40 @@ stream: Puntero a objetos FILE, que especifica la cadena de entrada.
 Esta función está pensada para trabajar con registros de longitud constante y forma pareja con **fread**. Es capaz de escribir hacia un fichero uno o varios registros de la misma longitud almacenados a partir de una dirección de memoria determinada. El valor de retorno es el número de registros escritos, no el número de bytes. Los parámetros son: un puntero a la zona de memoria de donde se obtendrán los datos a escribir, el tamaño de cada registro, el número de registros a escribir y un puntero a la estructura **FILE** del fichero al que se hará la escritura.  
 El prototipo correspondiente de **fwrite** es:
 
-size\_t fwrite(void \*puntero, size\_t tamano, size\_t cantidad, FILE \*archivo);
+size _t fwrite(void  *puntero, size _t tamano, size _t cantidad, FILE  *archivo);
 
 ## **9.13. Manejo de Archivos**
 
 C provee un conjunto de funciones para navegar archivos. Estas funciones nos permiten posicionarnos dentro de los archivos a través un puntero especial que recorre el contenido.
 
-/\*  
-\* busca un elemento dentro de un archivo.  
-\*/		  
-int fseek ( FILE \* stream, long int offset, int origin );
+/ *  
+ * busca un elemento dentro de un archivo.  
+ */		  
+int fseek ( FILE  * stream, long int offset, int origin );
 
 Los archivos se tratan como flujos de bytes, por lo tanto, **offset** y **origin** cuentan Bytes  
 Primero el FSEEK recibe un nombre de archivo, luego se mueve desde el inicio tantos bytes como indique el **offset** (se para sobre ésta posición) y luego se mueve lee tantos bytes como **origin** lo indique, donde:
 
-origin	 	⇒  SEEK\_SET ⇒ Hacia adelante desde el principio  
-		⇒  SEEK\_CUR ⇒ desde donde estas  
-		⇒  SEEK\_END ⇒  desde el final tanto lugares hacia atrás como se indique
+origin	 	⇒  SEEK _SET ⇒ Hacia adelante desde el principio  
+		⇒  SEEK _CUR ⇒ desde donde estas  
+		⇒  SEEK _END ⇒  desde el final tanto lugares hacia atrás como se indique
 
 Devuelve 0 si esta todo OK, distinto si ahi un error.
 
-/\*  
-\*Devuelve la posición actual del puntero dentro del archivo.  
-\*/  
-long int ftell ( FILE \* stream );
+/ *  
+ *Devuelve la posición actual del puntero dentro del archivo.  
+ */  
+long int ftell ( FILE  * stream );
 
 **Ejemplo:** Con el siguiente código se puede saber cuánto pesa un archivo:
 
 fopen (archivo);  
-fin\=fseek (archivo, 0 , SEEK\_END);  
-pesa\=ftell (archivo);
+fin =fseek (archivo, 0 , SEEK _END);  
+pesa =ftell (archivo);
 
 ## **9.14. Archivos Binarios**
 
-FILE \* fopen ( const char \* filename, const char \* mode );
+FILE  * fopen ( const char  * filename, const char  * mode );
 
 Al operado R+ le puedo asignar otro símbolo:
 
@@ -2659,21 +2659,21 @@ b 	⇒ para modo binario
 
 Por ejemplo: "r+b"
 
-/\*  
-\*Lee un bloque de datos de un archivo.  
-\*/  
-size\_t fread ( void \* ptr, size\_t size, size\_t count, FILE \* stream );  
+/ *  
+ *Lee un bloque de datos de un archivo.  
+ */  
+size _t fread ( void  * ptr, size _t size, size _t count, FILE  * stream );  
 	  
 Lee desde un archivo “stream” una “count” cantidad de veces, “size” bytes y al resultado de esa lectura lo almacena en ptr. 
 
-/\*  
-\*Escribe un bloque de datos en un archivo.  
-\*/  
-size\_t fwrite ( const void \* ptr, size\_t size, size\_t count, FILE \* stream );
+/ *  
+ *Escribe un bloque de datos en un archivo.  
+ */  
+size _t fwrite ( const void  * ptr, size _t size, size _t count, FILE  * stream );
 
 Hace lo mismo que la función anterior pero al revés, en lugar de leer, escribe.
 
-# **10\. Métodos de Ordenamiento**
+# **10 . Métodos de Ordenamiento**
 
 ## **10.1. Concepto**
 
@@ -2706,46 +2706,46 @@ Gŕaficamente, el algoritmo funciona de la siguiente manera:
 ![Bubble-sort-example-300px.gif][image34]  
 Este método necesita de lo siguiente para implementarse:
 
-* Un array o estructura que ordenar (\>1 elemento).  
+* Un array o estructura que ordenar ( >1 elemento).  
 * Dos variables contadoras de ciclos (i,j por ejemplo).  
 * Una variable temporal (para almacenar un dato momentáneamente).  
 * Dos ciclos y un Condicional
 
-/\*  
- \* Ascendente  
- \*/  
-void bubblesortAscen(int \*lista, int cantElementos)  
+/ *  
+  * Ascendente  
+  */  
+void bubblesortAscen(int  *lista, int cantElementos)  
 {  
 	int i, j;  
-	for (i \= 0; i \< cantElementos \- 1; \++i)  
+	for (i  = 0; i  < cantElementos  - 1;  ++i)  
 	{  
-		for (j \= 0; j \< cantElementos \- i \- 1; \++j)  
+		for (j  = 0; j  < cantElementos  - i  - 1;  ++j)  
 		{  
-			if (lista\[j\] \> lista\[j \+ 1\])  
+			if (lista [j ]  > lista [j  + 1 ])  
 			{  
-				int temp \= lista\[j\];  
-				lista\[j\] \= lista\[j \+ 1\];  
-				lista\[j \+ 1\] \= temp;  
+				int temp  = lista [j ];  
+				lista [j ]  = lista [j  + 1 ];  
+				lista [j  + 1 ]  = temp;  
 			}  
 		}  
 	}  
 }
 
-/\*  
- \* Descendente  
- \*/  
-void bubblesortDescen(int \*lista, int cantElementos)  
+/ *  
+  * Descendente  
+  */  
+void bubblesortDescen(int  *lista, int cantElementos)  
 {  
 	int i, j;  
-	for (i \= 0; i \< cantElementos \- 1; \++i)  
+	for (i  = 0; i  < cantElementos  - 1;  ++i)  
 	{  
-		for (j \= 0; j \< cantElementos \- i \- 1; \++j)  
+		for (j  = 0; j  < cantElementos  - i  - 1;  ++j)  
 		{  
-			if (lista\[j\] \< lista\[j \+ 1\])  // el único cambio es la comparación.  
+			if (lista [j ]  < lista [j  + 1 ])  // el único cambio es la comparación.  
 			{  
-				int temp \= lista\[j\];  
-				lista\[j\] \= lista\[j \+ 1\];  
-				lista\[j \+ 1\] \= temp;  
+				int temp  = lista [j ];  
+				lista [j ]  = lista [j  + 1 ];  
+				lista [j  + 1 ]  = temp;  
 			}  
 		}  
 	}  
@@ -2756,97 +2756,97 @@ void bubblesortDescen(int \*lista, int cantElementos)
 El ordenamiento por inserción (**insertion sort**) es una manera muy natural de ordenar para un ser humano, y puede usarse fácilmente para ordenar un mazo de cartas numeradas en forma arbitraria. Requiere O(n²) operaciones para ordenar una lista de n elementos.  
 Inicialmente se tiene un solo elemento, que obviamente es un conjunto ordenado. Después, cuando hay k elementos ordenados de menor a mayor, se toma el elemento k+1 y se compara con todos los elementos ya ordenados, deteniéndose cuando se encuentra un elemento menor (todos los elementos mayores han sido desplazados una posición a la derecha) o cuando ya no se encuentran elementos (todos los elementos fueron desplazados y este es el más pequeño). En este punto se inserta el elemento k+1 debiendo desplazarse los demás elementos.  
 ![Insertion-sort-example-300px.gif][image35]  
-void insertSort(int \*lista, int cantElementos)  
+void insertSort(int  *lista, int cantElementos)  
 {  
 	int i, j, auxiliar;
 
-	for (i \= 1; i \< cantElementos; i\++)  
+	for (i  = 1; i  < cantElementos; i ++)  
 	{  
-		auxiliar \= lista\[i\];  
-		for (j \= i \- 1; j \>= 0 && lista\[j\] \> auxiliar; j\--)  
+		auxiliar  = lista [i ];  
+		for (j  = i  - 1; j  >= 0 && lista [j ]  > auxiliar; j --)  
 		{  
-			lista\[j \+ 1\] \= lista\[j\];  
+			lista [j  + 1 ]  = lista [j ];  
 		}  
-		lista\[j \+ 1\] \= auxiliar;  
+		lista [j  + 1 ]  = auxiliar;  
 	}  
 }
 
 ## **10.4. Método Quicksort**
 
 El método de ordenamiento rápido (**quicksort**) es un algoritmo creado por el científico británico en computación C. A. R. Hoare basado en la técnica de divide y vencerás, que permite, en promedio, ordenar n elementos en un tiempo proporcional a n log n.  
-![Sorting\_quicksort\_anim.gif][image36]
+![Sorting _quicksort _anim.gif][image36]
 
 	  
-\#include \<stdio.h\>  
-\#include \<stdlib.h\>
+ #include  <stdio.h >  
+ #include  <stdlib.h >
 
-void qs(int lista\[\],int limite\_izq,int limite\_der)  
+void qs(int lista [ ],int limite _izq,int limite _der)  
 {  
     int izq,der,temporal,pivote;
 
-    izq\=limite\_izq;  
-    der \= limite\_der;  
-    pivote \= lista\[(izq\+der)/2\];
+    izq =limite _izq;  
+    der  = limite _der;  
+    pivote  = lista [(izq +der)/2 ];
 
     do{  
-        while(lista\[izq\] \< pivote && izq \< limite\_der)  
-izq\++;  
-        while(pivote \< lista\[der\] && der \> limite\_izq)  
-der\--;  
-        if(izq \<=der)  
+        while(lista [izq ]  < pivote && izq  < limite _der)  
+izq ++;  
+        while(pivote  < lista [der ] && der  > limite _izq)  
+der --;  
+        if(izq  <=der)  
         {  
-            temporal\= lista\[izq\];  
-            lista\[izq\]=lista\[der\];  
-            lista\[der\]=temporal;  
-            izq\++;  
-            der\--;
+            temporal = lista [izq ];  
+            lista [izq ]=lista [der ];  
+            lista [der ]=temporal;  
+            izq ++;  
+            der --;
 
         }
 
-    }while(izq\<=der);
+    }while(izq <=der);
 
-    if(limite\_izq\<der){  
-qs(lista,limite\_izq,der);  
+    if(limite _izq <der){  
+qs(lista,limite _izq,der);  
     }
 
-    if(limite\_der\>izq){  
-qs(lista,izq,limite\_der);  
+    if(limite _der >izq){  
+qs(lista,izq,limite _der);  
     }  
 }
 
-void quicksort(int lista\[\],int n)  
+void quicksort(int lista [ ],int n)  
 {  
-    qs(lista,0,n\-1);  
+    qs(lista,0,n -1);  
 }
 
-int main(int argc, const char \* argv\[\])  
+int main(int argc, const char  * argv [ ])  
 {  
     int i;  
-    int lista\[\] \={100,56,0,1,-45,2,46,5,9,6,67,23,5};  
-    int size \= sizeof(lista)/sizeof(int);
+    int lista [ ]  ={100,56,0,1,-45,2,46,5,9,6,67,23,5};  
+    int size  = sizeof(lista)/sizeof(int);
 
-    printf("Lista Desordenada \\n");
+    printf("Lista Desordenada   n");
 
-    for (i\=0; i\<size; i\++) {  
-        printf("%d",lista\[i\]);  
-        if(i\<size\-1\)  
+    for (i =0; i <size; i ++) {  
+        printf("%d",lista [i ]);  
+        if(i <size -1 )  
             printf(",");  
     }
 
-    printf("\\n");  
+    printf("  n");  
     quicksort(lista,size);
 
-    printf("Lista Ordenada \\n");  
-    for (i\=0; i\<size; i\++) {  
-        printf("%d",lista\[i\]);  
-        if(i\<size\-1\)  
+    printf("Lista Ordenada   n");  
+    for (i =0; i <size; i ++) {  
+        printf("%d",lista [i ]);  
+        if(i <size -1 )  
             printf(",");  
     }
 
-    return EXIT\_SUCCESS;  
+    return EXIT _SUCCESS;  
 }
 
-# **11\. Métodos de Búsqueda**
+# **11 . Métodos de Búsqueda**
 
 ## **11.1. Concepto**
 
@@ -2862,17 +2862,17 @@ los métodos de búsqueda más utilizados son:
 
 Se utiliza cuando el arreglo no está ordenado o no puede ser ordenado previamente. Consiste en buscar el elemento comparándolo secuencialmente (de ahí su nombre) con cada elemento del arreglo hasta encontrarlo, o hasta que se llegue al final. La existencia se puede asegurar cuando el elemento es localizado, pero no podemos asegurar la no existencia hasta no haber analizado todos los elementos del arreglo.
 
-int busquedaSimple(int  arreglo\[n\], int n, int dato) {  
+int busquedaSimple(int  arreglo [n ], int n, int dato) {  
    
     int i;  
    
-    for(i\=0; i\<n; i\++){  
-        if(dato\==arreglo\[i\]) {  
-            return arreglo\[i\];  
+    for(i =0; i <n; i ++){  
+        if(dato ==arreglo [i ]) {  
+            return arreglo [i ];  
         }  
     }  
    
-    return \-1;  
+    return  -1;  
 }
 
 ## **11.3. Búsqueda Binaria (dicotómica)**
@@ -2882,28 +2882,28 @@ Se utiliza cuando el vector en el que queremos determinar la existencia de un el
 Está altamente recomendado para buscar en arrays de gran tamaño. Por ejemplo, en uno conteniendo 50.000.000 elementos, realiza como máximo 26 comparaciones (en el peor de los casos).  
 Para implementar este algoritmo se compara el elemento a buscar con un elemento cualquiera del array (normalmente el elemento central): si el valor de éste es mayor que el del elemento buscado se repite el procedimiento en la parte del array que va desde el inicio de éste hasta el elemento tomado, en caso contrario se toma la parte del array que va desde el elemento tomado hasta el final. De esta manera obtenemos intervalos cada vez más pequeños, hasta que se obtenga un intervalo indivisible. Si el elemento no se encuentra dentro de este último entonces se deduce que el elemento buscado no se encuentra en todo el array.
 
-int busquedaBinaria(int  arreglo\[\], int tamanio, int dato)  
+int busquedaBinaria(int  arreglo [ ], int tamanio, int dato)  
 {  
-   int centro,inf\=0,sup\=tamanio\-1;  
+   int centro,inf =0,sup =tamanio -1;  
    
-   while(inf\<=sup)  
+   while(inf <=sup)  
    {  
-     centro\=(sup\+inf)/2;  
-     if(arreglo\[centro\]==dato)   
+     centro =(sup +inf)/2;  
+     if(arreglo [centro ]==dato)   
 return centro;  
-     else if(dato \< arreglo\[centro\] )  
+     else if(dato  < arreglo [centro ] )  
      {  
-	sup\=centro\-1;  
+	sup =centro -1;  
      }  
      else   
      {  
-       inf\=centro\+1;  
+       inf =centro +1;  
      }  
    }  
-   return \-1;  
+   return  -1;  
 }
 
-# **12\. Tipos Abstractos de Datos (TDA)**
+# **12 . Tipos Abstractos de Datos (TDA)**
 
 ## **12.1. Definición**
 
@@ -2911,11 +2911,11 @@ Es un conjunto de operaciones asociadas directamente a la representación de un 
 
 ![][image38]
 
-En el ejemplo del diagrama, tenemos una estructura **planet\_t** que define las características de un “planeta”, y alrededor vemos una capa con funciones asociadas al tipo de dato definido.
+En el ejemplo del diagrama, tenemos una estructura **planet _t** que define las características de un “planeta”, y alrededor vemos una capa con funciones asociadas al tipo de dato definido.
 
-* scan\_planet  
-* print\_planet  
-* planet\_equal
+* scan _planet  
+* print _planet  
+* planet _equal
 
 Estas funciones definen el conjunto de operaciones permitidas sobre nuestro **tipo de dato abstracto**. A este conjunto de operaciones se le llama **interfaz.**
 
@@ -2929,7 +2929,7 @@ La solidez de un TDA reposa en la idea de que la implementación está escondida
 ## **12.3. Caracterización**
 
 Un TDA está caracterizado por un **conjunto de operaciones** (funciones) al cual se denomina usualmente como **interfaz pública** y representa el comportamiento del TDA; mientras que la implementación como la parte privada del TDA está **oculta al programa cliente** que lo usa.   
-Todos los lenguajes de alto nivel tienen predefinidos TDA; que son los tipos denominados simples y las estructuras predefinidas, y estos tienen sus interfaces públicas que incluyen las operaciones como la \+, \-, \*, etc. no se necesita conocer cómo actúan tales operadores sobre la **representación interna** de los tipos definidos, que además, suele ser una implementación bastante dependiente de la máquina sobre la que trabaje el compilador
+Todos los lenguajes de alto nivel tienen predefinidos TDA; que son los tipos denominados simples y las estructuras predefinidas, y estos tienen sus interfaces públicas que incluyen las operaciones como la  +,  -,  *, etc. no se necesita conocer cómo actúan tales operadores sobre la **representación interna** de los tipos definidos, que además, suele ser una implementación bastante dependiente de la máquina sobre la que trabaje el compilador
 
 ## **12.4. Abstracción**
 
@@ -2943,23 +2943,23 @@ De modo general podemos decir que la abstracción permite establecer un nivel je
 
 ## **12.5. Ejemplo: TDA Persona**
 
-int main(int argc, char const \*argv\[\])  
+int main(int argc, char const  *argv [ ])  
 {  
-	persona\_t p;  
-ingrese\_persona (&p);	  
+	persona _t p;  
+ingrese _persona (&p);	  
 //tengo que pasar la dirección memoria para que se trabaje directamente sobre la variable.  
 }
 
-void ingresa\_persona(persona\_t \*ptr)  
+void ingresa _persona(persona _t  *ptr)  
 {  
 	printf("DNI: ");  
-	scanf("%d",   &ptr\==\>dni);
+	scanf("%d",   &ptr == >dni);
 
-	printf("Sexo? \[0 : masculino   1 : femenino\]");  
-	scanf("%d", &ptr\==\>sexo);
+	printf("Sexo?  [0 : masculino   1 : femenino ]");  
+	scanf("%d", &ptr == >sexo);
 
 	printf("nombre: ");  
-	scanf("%s", prt\==\>nombre);  
+	scanf("%s", prt == >nombre);  
 	.  
 	.  
 	.  
@@ -2967,7 +2967,7 @@ void ingresa\_persona(persona\_t \*ptr)
 
 Si hubiera tenido que incluir en la estructura un código postal por ejemplo, y ya hubiera tenido cargada 300 estructuras, seria un problema grande debido a que me vería obligado a entrar en cada estructura y agregar en CP. El sistema seria entonces muy poco mantenible. Si pasa esto es por que se uso adecuadamente la filosofía de los tipos datos abstractos, donde con solo modificar la estructura y las funciones asociadas a ella, ya seria suficiente para modificar todas las estructuras.
 
-**Ejemplo**: Suponga tener una estructura tipo Persona\_t \*poblacion.  Se debe hacer que \*poblacion apunte a N personas, ingresadas por usuario e implementar las siguientes funciones:
+**Ejemplo**: Suponga tener una estructura tipo Persona _t  *poblacion.  Se debe hacer que  *poblacion apunte a N personas, ingresadas por usuario e implementar las siguientes funciones:
 
 * Imprima las N persona,  
 * Las ordene alfabéticamente,  
@@ -2976,7 +2976,7 @@ Si hubiera tenido que incluir en la estructura un código postal por ejemplo, y 
 * Las imprima,  
 * Ordenar por código postal y para código posta igual, por nombre.
 
-# **13\. Estructuras de Datos en C**
+# **13 . Estructuras de Datos en C**
 
 ## **13.1. Pilas o Stacks**
 
@@ -2985,58 +2985,58 @@ Una pila o stack es un conjunto ordenado de elementos, que tiene un cierto orden
 ![][image41]     ![][image42]
 
 Para el tipo de TDA llamado **pila**, las funciones asociadas son: **init, destroy, push, pop, isEmpty**. Con estas cinco primitivas se logra manipular una pila. Estos elementos se denominan “**interfaz**”. Estas son herramientas para el trabajo sobre TDA, y es importante mencionar que son independientes de cómo se definió el TDA (dependencia de la aplicación sobre la pila).  
-Una implementación posible de un **stack** es utilizando un arreglo, pero como en realidad, el limitar la pila a un array nos limita a SIZE cantidad de elementos, podríamos creamos una función “GROW \= crecer” la cual tiene por finalidad, cada vez que se agote el espacio disponible en la pila, hacerla crecer en SZ byte.
+Una implementación posible de un **stack** es utilizando un arreglo, pero como en realidad, el limitar la pila a un array nos limita a SIZE cantidad de elementos, podríamos creamos una función “GROW  = crecer” la cual tiene por finalidad, cada vez que se agote el espacio disponible en la pila, hacerla crecer en SZ byte.
 
 //TDA
 
 typedef struct  
 {  
-	int \*pElements;  
+	int  *pElements;  
 	int head;  
 	int sz;
 
-}stack\_t;
+}stack _t;
 
 //PROTOTIPOS
 
-stack\_t \*init\_stack(int sz); //crear pila:
+stack _t  *init _stack(int sz); //crear pila:
 
-void destroy\_stack(stack\_t \*pStack);//para destruirla:
+void destroy _stack(stack _t  *pStack);//para destruirla:
 
-int isEmpty\_stack(stack\_t \*pStack);//para verificar si es vacia:
+int isEmpty _stack(stack _t  *pStack);//para verificar si es vacia:
 
-int push\_stack(stack\_t \*pStack, int e);//para ingresar un elemento:
+int push _stack(stack _t  *pStack, int e);//para ingresar un elemento:
 
-int pop\_stack(stack\_t \*pStack, int \*pE);//para sacar un elemento:
+int pop _stack(stack _t  *pStack, int  *pE);//para sacar un elemento:
 
-int isFull\_stack(stack\_t \*pStack); //para verificar si esta llena
+int isFull _stack(stack _t  *pStack); //para verificar si esta llena
 
-void print\_stack(stack\_t \*pStack);//imprime la pila
+void print _stack(stack _t  *pStack);//imprime la pila
 
 //FUNCIONES  
-stack\_t \*init\_stack(int sz)  
+stack _t  *init _stack(int sz)  
 {  
-	stack\_t \*pS;
+	stack _t  *pS;
 
-	pS\=(stack\_t\*)malloc(sizeof(stack\_t));  
+	pS =(stack _t *)malloc(sizeof(stack _t));  
 	assert(pS);
 
-	pS\-\>pElements\=(int\*)malloc(sizeof(int) \* sz);
+	pS - >pElements =(int *)malloc(sizeof(int)  * sz);
 
-	pS\-\>head\=0;  
-	pS\-\>sz\=sz;  
+	pS - >head =0;  
+	pS - >sz =sz;  
 	return pS;  
 }
 
-void destroy\_stack(stack\_t \*pStack)  
+void destroy _stack(stack _t  *pStack)  
 {  
-	free(pStack\-\>pElements);  
+	free(pStack - >pElements);  
 	free(pStack);  
 }
 
-int isEmpty\_stack(stack\_t \*pStack)  
+int isEmpty _stack(stack _t  *pStack)  
 {  
-	if(pStack\-\>head\==0\)  
+	if(pStack - >head ==0 )  
 	{  
 		return 1;  
 	}  
@@ -3046,98 +3046,98 @@ int isEmpty\_stack(stack\_t \*pStack)
 	}  
 }
 
-int push\_stack(stack\_t \*pStack, int e)  
+int push _stack(stack _t  *pStack, int e)  
 {  
-	if(isFull\_stack(pStack)==1) //est? llena la pila  
+	if(isFull _stack(pStack)==1) //est? llena la pila  
     	{  
 		return 0;	  
 	}  
-	pStack\-\>pElements\[pStack\-\>head\]=e;  
-	pStack\-\>head\++;  
+	pStack - >pElements [pStack - >head ]=e;  
+	pStack - >head ++;  
 	return 1;  
 }
 
-int pop\_stack(stack\_t \*pStack, int \*pE)  
+int pop _stack(stack _t  *pStack, int  *pE)  
 {  
-	if(isEmpty\_stack(pStack)==1\)  
+	if(isEmpty _stack(pStack)==1 )  
 		return 0;  
 	  
-	pStack\-\>head\--;	  
-	\*pE\=pStack\-\>pElements\[pStack\-\>head\];	  
+	pStack - >head --;	  
+	 *pE =pStack - >pElements [pStack - >head ];	  
 	return 1;  
 }
 
-int isFull\_stack(stack\_t \*pStack)  
+int isFull _stack(stack _t  *pStack)  
 {  
-	if(pStack\-\>head\==pStack\-\>sz) //est? llena la pila  
+	if(pStack - >head ==pStack - >sz) //est? llena la pila  
     	{  
 		return 1;	  
 	}	  
 	return 0;  
 }
 
-void print\_stack(stack\_t \*pStack)  
+void print _stack(stack _t  *pStack)  
 {  
 	int i;  
-	for(i\=(pStack\-\>head\-1);i\>=0;i\--)  
+	for(i =(pStack - >head -1);i >=0;i --)  
 	{  
-		printf("%i\\n",pStack\-\>pElements\[i\]);  
+		printf("%i  n",pStack - >pElements [i ]);  
 	}  
 	getch();  
 }
 
 Ejemplo de uso de un Stack. Comprobación de una expresión algebraica utilizando una pila:
 
-{ 3 \+ \[ 4 \* ( 2 \+ 5 ) \+ 4 \] \+ \[ ( 3 \+ 2 ) \+ ( 1 \+ 47 ) \] \+ 6 } 
+{ 3  +  [ 4  * ( 2  + 5 )  + 4  ]  +  [ ( 3  + 2 )  + ( 1  + 47 )  ]  + 6 } 
 
-int isOpen (char \*s){  
-	return 	s \== '{' ||  
-			s \== '\[' ||  
-			s \== '(';  
+int isOpen (char  *s){  
+	return 	s  == '{' ||  
+			s  == ' [' ||  
+			s  == '(';  
 }
 
-int isClose (char \*s){  
-	return 	s \== '}' ||  
-			s \== '\]' ||  
-			s \== ')';  
+int isClose (char  *s){  
+	return 	s  == '}' ||  
+			s  == ' ]' ||  
+			s  == ')';  
 }
 
 int GetPair (char e){  
-	if(e \== '{')  
+	if(e  == '{')  
 		return '}';  
-	if(e \== '\[')  
-		return '\]';  
-	if(e \== '(')  
+	if(e  == ' [')  
+		return ' ]';  
+	if(e  == '(')  
 		return ')';  
-	if(e \== '}')  
+	if(e  == '}')  
 		return '{';  
-	if(e \== '\]')  
-		return '\[';  
-	if(e \== ')')  
+	if(e  == ' ]')  
+		return ' [';  
+	if(e  == ')')  
 		return '(';	  
 	assert(0);		// Si esta funcion busca el par y no lo encuentra,  
 				// entonces no existe, y con esto termina de comprobar.  
 }
 
-int esValida (char \*pExp){  
-	stack\_t \*pStack \= init ();  
-	int ret \= 0;  
+int esValida (char  *pExp){  
+	stack _t  *pStack  = init ();  
+	int ret  = 0;  
 	int e;
 
-	while (\*pExp)){  
-		if (isOpen (\*pExp))  
-			push(pStack, \*pExp);  
-		if (isClose (\*pExp)){  
+	while ( *pExp)){  
+		if (isOpen ( *pExp))  
+			push(pStack,  *pExp);  
+		if (isClose ( *pExp)){  
 			if (isEmpty (pStack))  
 				goto salida;  
 		pop(pStack, &e);  
-		if (getPair(\*pExp)\!=e)  
+		if (getPair( *pExp) !=e)  
 			goto salida;  
 	}  
-	pExp\++;  
+	pExp ++;  
 	  
 	if (isEmpty (pStack))  
-		ret \= 1;  
+		ret  = 1;  
 	  
 	salida:  
 		destroy(pstack);  
@@ -3149,22 +3149,22 @@ La mejor forma para atacar este problema es hacerlo recursivo y para eso hay que
 
 Filtrar (s, e)
 
-Trivial ⇒ done \= isEmpty(s)
+Trivial ⇒ done  = isEmpty(s)
 
-	  Else= x \= pop(s);  
+	  Else= x  = pop(s);  
 		Filtrar(s,e);  
-		If(x\!=e){  
+		If(x !=e){  
 			Push(s,x);
 
-void filtrar(stack\_t \*s, int e){  
+void filtrar(stack _t  *s, int e){  
 	int x;
 
 	if(isEmpty(s))  
 		return;  
 	else  
-x\=pop(s);	// saco el elemento del tope de la pila  
+x =pop(s);	// saco el elemento del tope de la pila  
 filtrar(s, e);  
-if(x\!=e)  
+if(x !=e)  
 {  
 		push(s, x);  
 }  
@@ -3197,27 +3197,27 @@ En caso de estar vacía, borrar un elemento sería imposible hasta que no se añ
 Typedef struct{  
 	Int head;  
 	Int tail;  
-	Int \*elements;  
-	Int allocated\_sz;  
-} queve\_t;
+	Int  *elements;  
+	Int allocated _sz;  
+} queve _t;
 
 ### **13.2.2. Creación de una “Cola”**
 
-\#define DEFAUL\_SZ 1024
+ #define DEFAUL _SZ 1024
 
-Queue\_t \*create(){  
+Queue _t  *create(){  
 	  
-	queue\_t \*newQ;
+	queue _t  *newQ;
 
-	newQ \= (queve\_t)malloc(sizeof(queve\_t));
+	newQ  = (queve _t)malloc(sizeof(queve _t));
 
 	assert(newQ);
 
-	newQ\-\>head\= 0;  
-	newQ\-\>tail\= 0;  
+	newQ - >head = 0;  
+	newQ - >tail = 0;  
 	// hacer los chequeos  
-	newQ\-\>elements\=(int \*)malloc(sizeof(int) \* DEFAUL\_SZ);  
-	newQ\-\>allocated\_sz \=DEFAUL\_SZ;
+	newQ - >elements =(int  *)malloc(sizeof(int)  * DEFAUL _SZ);  
+	newQ - >allocated _sz  =DEFAUL _SZ;
 
 	return newQ;  
 }
@@ -3241,15 +3241,15 @@ Hay 2 formas de implementación:
 * Crear tantas colas como prioridades haya, y almacenar cada elemento en su cola.
 
 typedef struct {   
-void \* data; 		// datos  
+void  * data; 		// datos  
 int priority; 		// prioridad  
-} q\_elem\_t;
+} q _elem _t;
 
 typedef struct   
 {   
-q\_elem\_t \*buffer; 	// arreglos de elementos   
-int n; 			// n \= cantidad de elementos inicial  
-} pri\_queue\_t;
+q _elem _t  *buffer; 	// arreglos de elementos   
+int n; 			// n  = cantidad de elementos inicial  
+} pri _queue _t;
 
 ### **13.3.3. Tipos**
 
@@ -3291,18 +3291,18 @@ Cuando la entidad a almacenar es la propia el contenedor. Es así porque la memo
 typedef struct{  
 	int head;  
 	int tail;  
-	int allocated\_sz;  
+	int allocated _sz;  
 	  
-	char \*elements;   
-	int entity\_sz;
+	char  *elements;   
+	int entity _sz;
 
-}queue\_t;
+}queue _t;
 
-Lo importante es notar que como no se sabe el tamaño de la entidad, sólo se inicializa un arreglo de índices. Para hacer esto, la firma de la función **init**  va a tener que cambiar, porque va a tener que alocar: pQ-\>elements \= “el tamaño de la variable” \* entity\_sz. 
+Lo importante es notar que como no se sabe el tamaño de la entidad, sólo se inicializa un arreglo de índices. Para hacer esto, la firma de la función **init**  va a tener que cambiar, porque va a tener que alocar: pQ- >elements  = “el tamaño de la variable”  * entity _sz. 
 
-bool put (queve\_t \*pQ, int \* ó char \*);
+bool put (queve _t  *pQ, int  * ó char  *);
 
-bool get (queve\_t \*pQ, int \* ó char \*)
+bool get (queve _t  *pQ, int  * ó char  *)
 
 En estas funciones hay que asegurarse que el segundo parámetro que se les pasa a la funciones tenga la capacidad para almacenar un contenedor con el tamaño de la variable.
 
@@ -3313,18 +3313,18 @@ Se denomina de ésta manera cuando la memoria del elemento esta afuera del conte
 typedef struct{  
 	int head;  
 	int tail;  
-	int allocated\_sz;  
-	void \*\*elements;  
+	int allocated _sz;  
+	void  * *elements;  
 }
 
-bool put (queue\_t \*pQ, void \*pE);
+bool put (queue _t  *pQ, void  *pE);
 
-bool get ( queve\_t \*pQ, void \*\*ppE);
+bool get ( queve _t  *pQ, void  * *ppE);
 
-En las funciones y contenedores genéricos, el void \*\*elements es un contenedor de punteros.  
+En las funciones y contenedores genéricos, el void  * *elements es un contenedor de punteros.  
 Cuando hablamos de los métodos de ordenamiento y que hacer cuando el cliente decide los parámetros de **orden** y nosotros el criterio de ordenamiento, usamos un puntero a función, la cual se encargaba de determinar los parámetros a usa.
 
-void ordenar (arreglo \[\], int , (\*fun)(...) )  
+void ordenar (arreglo  [ ], int , ( *fun)(...) )  
 {
 
 }
@@ -3342,36 +3342,36 @@ Existen diferentes tipos de listas enlazadas: listas enlazadas simples, listas d
 
 Las listas se pueden definir como la primera estructura recursiva, donde definimos “L” como una lista con las siguientes propiedades:
 
-\[ \]  Si está vacía  
-L \=   
-e \+ L1
+ [  ]  Si está vacía  
+L  =   
+e  + L1
 
 Ahora definimos el número de elementos de una lista:
 
-			    0 si L \= \= \[ \]  
-NumElements( L ) \= 	
+			    0 si L  =  =  [  ]  
+NumElements( L )  = 	
 
-			    1 \+ NumElements ( L1 ) si L \= e \+ l1
+			    1  + NumElements ( L1 ) si L  = e  + l1
 
-				 Falso si L \= \[ \]  
-EsMiembro( L , e ) \=   
-				 Verdaderos si L \= { e \+ p }	// donde el “+” es semántica
+				 Falso si L  =  [  ]  
+EsMiembro( L , e )  =   
+				 Verdaderos si L  = { e  + p }	// donde el “+” es semántica
 
-				 EsMiembro( L1, e ) si L \= { X \+ L1 }
+				 EsMiembro( L1, e ) si L  = { X  + L1 }
 
 O sea que devuelve verdadero si la cabeza de la lista es el elemento que estoy buscando, de lo contrario, se llama a la misma función para que recorra la lista en busca de una “cabeza” que sea el elemento buscado.
 
-				 { E \+ \[ \] }  Si L \= \= \[ \]  
-L1 \= InsertTail( L , e )  
-				 { x , InsertTail( L2, e) }  si L \= \= { x \+ L2 }
+				 { E  +  [  ] }  Si L  =  =  [  ]  
+L1  = InsertTail( L , e )  
+				 { x , InsertTail( L2, e) }  si L  =  = { x  + L2 }
 
-L1 \= InsertHead ( L , e ) \=  	 { e \+ L } si L1 \= \= L
+L1  = InsertHead ( L , e )  =  	 { e  + L } si L1  =  = L
 
 Nota: En este caso no hay recursion, por que no es necesario recorrer ninguna lista.
 
-					 { e \+ \[ \] }  L \= \[ \]  
-L1 \= InsertOrdenado ( L , e ) \= 		 { e \+ L }  L \= \= { x \+ L2} donde x \> e  
-					 { x , InsertOrdenado ( L2, e ) } 	donde x \<= e 
+					 { e  +  [  ] }  L  =  [  ]  
+L1  = InsertOrdenado ( L , e )  = 		 { e  + L }  L  =  = { x  + L2} donde x  > e  
+					 { x , InsertOrdenado ( L2, e ) } 	donde x  <= e 
 
 ### **13.6.1. Operaciones**
 
@@ -3390,60 +3390,60 @@ L1 \= InsertOrdenado ( L , e ) \= 		 { e \+ L }  L \= \= { x \+ L2} donde x \> e
 typedef struct  
 {  
   int Contenido;  
-  struct Lista \*Siguiente;  
+  struct Lista  *Siguiente;  
 }Lista;
 
-/\* Prototipos de funciones de manipulación                  \*/
+/ * Prototipos de funciones de manipulación                   */
 
-struct Lista \*InsertaInicio(struct Lista \*L, int Elemento);  
-struct Lista \*InsertaFinal(struct Lista \*L, int Elemento);  
-struct Lista \*RemueveInicio(struct Lista \*L, int \*PElemento);  
-struct Lista \*RemueveFinal(struct Lista \*L, int \*PElemento);
+struct Lista  *InsertaInicio(struct Lista  *L, int Elemento);  
+struct Lista  *InsertaFinal(struct Lista  *L, int Elemento);  
+struct Lista  *RemueveInicio(struct Lista  *L, int  *PElemento);  
+struct Lista  *RemueveFinal(struct Lista  *L, int  *PElemento);
 
-/\* Implementación de las funciones de manipulación          \*/
+/ * Implementación de las funciones de manipulación           */
 
-struct Lista \*InsertaInicio(struct Lista \*L, int Elemento)  
+struct Lista  *InsertaInicio(struct Lista  *L, int Elemento)  
 {  
-  struct Lista \*NuevoNodo \= malloc(sizeof(struct Lista));  
-  NuevoNodo \-\> Contenido \= Elemento;  
-  NuevoNodo \-\> Siguiente \= L;  
+  struct Lista  *NuevoNodo  = malloc(sizeof(struct Lista));  
+  NuevoNodo  - > Contenido  = Elemento;  
+  NuevoNodo  - > Siguiente  = L;  
   return NuevoNodo;  
 }
 
-struct Lista \*InsertaFinal(struct Lista \*L, int Elemento)  
+struct Lista  *InsertaFinal(struct Lista  *L, int Elemento)  
 {  
-	if(L \== NULL){  
-		L \= malloc(sizeof(struct Lista));  
-		L \-\> Contenido \= Elemento;  
-		L \-\> Siguiente \= NULL;  
+	if(L  == NULL){  
+		L  = malloc(sizeof(struct Lista));  
+		L  - > Contenido  = Elemento;  
+		L  - > Siguiente  = NULL;  
 	} else{  
-		L \-\> Siguiente \= InsertaFinal(L \-\> Siguiente, Elemento);  
+		L  - > Siguiente  = InsertaFinal(L  - > Siguiente, Elemento);  
 		return L;  
 	}  
 }
 
-struct Lista \*RemueveInicio(struct Lista \*L, int \*PElemento)  
+struct Lista  *RemueveInicio(struct Lista  *L, int  *PElemento)  
 {  
-  struct Lista \*NuevaLista;  
-  if(L \== NULL)  
+  struct Lista  *NuevaLista;  
+  if(L  == NULL)  
     return NULL;  
-  NuevaLista \= L \-\> Siguiente;  
-  \*PElemento \= L \-\> Contenido;  
+  NuevaLista  = L  - > Siguiente;  
+   *PElemento  = L  - > Contenido;  
   free(L);  
   return NuevaLista;  
 }
 
-struct Lista \*RemueveFinal(struct Lista \*L, int \*PElemento)  
+struct Lista  *RemueveFinal(struct Lista  *L, int  *PElemento)  
 {  
-  if(L \== NULL)  
+  if(L  == NULL)  
     return NULL;  
-  if(L \-\> Siguiente \== NULL)  
+  if(L  - > Siguiente  == NULL)  
   {  
-    \*PElemento \= L \-\> Contenido;  
+     *PElemento  = L  - > Contenido;  
     free(L);  
     return NULL;  
   }  
-  L \-\> Siguiente \= RemueveFinal(L \-\> Siguiente, PElemento);  
+  L  - > Siguiente  = RemueveFinal(L  - > Siguiente, PElemento);  
   return L;  
 }
 
@@ -3478,16 +3478,16 @@ Tomando el tema de inserción en Lista Anillos, solo hay que tener en cuenta y t
 Definición de estructuras doblemente ligadas.
 
 // estructura que maneja los punteros anterior y siguiente.  
-typedef struct \_Chain {  
-    struct \_Chain \*pPrev;  
-    struct \_Chain \*pNext;  
-} Chain\_t;
+typedef struct  _Chain {  
+    struct  _Chain  *pPrev;  
+    struct  _Chain  *pNext;  
+} Chain _t;
 
 // estructura que representa un nodo  
 typedef struct{  
-	void \*info;  
-	chain\_t \*freeList;  
-}list\_t;
+	void  *info;  
+	chain _t  *freeList;  
+}list _t;
 
 El campo **info** generalmente es genérico. Esto es así por que muchas veces es más conveniente tener dentro de la estructura de la información, un campo más que sea justamente la estructura con los punteros a los nodos. Esto produce estructuras mucho más genéricas. El manejo se hace a través de las estructuras de punteros que posee cada estructura de información.  
 Este tipo de estructuras se usa cuando se tiene un “pool” de aplicaciones de N elementos de información fija (cuyo tamaño se puede modificar) 
@@ -3507,17 +3507,17 @@ Un árbol es una estructura de datos ampliamente usada que imita la forma de un 
 
 ### **13.8.1. Características**
 
-* Raíz \- El nodo superior del árbol.  
-* Padre \- Nodo con hijos.  
-* Hijo \- Nodo descendiente de otro nodo.  
-* Hermanos \- Nodos que comparten el mismo padre.  
-* Hojas \- Nodos sin hijos.  
-* Nivel \- El nivel de un nodo está definido por 1+ el número de conexiones entre el nodo y la raíz.
+* Raíz  - El nodo superior del árbol.  
+* Padre  - Nodo con hijos.  
+* Hijo  - Nodo descendiente de otro nodo.  
+* Hermanos  - Nodos que comparten el mismo padre.  
+* Hojas  - Nodos sin hijos.  
+* Nivel  - El nivel de un nodo está definido por 1+ el número de conexiones entre el nodo y la raíz.
 
 ![][image48]  
 Es otro ejemplo de listas definidas recursivamente:
 
-	\[ \]  
+	 [  ]  
 T   
 	E, t1, t2
 
@@ -3537,69 +3537,69 @@ Las operaciones comunes en árboles son:
 
   ### **13.8.3. Ejemplo de Servicios sobre Árboles.**
 
-			Cero si el árbol es Vació \[ \]  
+			Cero si el árbol es Vació  [  ]  
 NumNodos (T)  
-			1 \+ NumNodos(t1) \+ NumNodos(t2)
+			1  + NumNodos(t1)  + NumNodos(t2)
 
 			Cero si el árbol es vació  
 Altura(T)		  
-			1 \+ Max(altura (t1), altura (t2) )
+			1  + Max(altura (t1), altura (t2) )
 
-En el caso de la búsqueda, según la definición dada, no hay un método simple para encontrar un elemento en el árbol. No hay condiciones mínimas de ordenamiento. Si se establece una regla en donde el lado IZQ de un árbol es \<= a “x” y el lado derecho \> a “X”. A esto se lo llama formar un “diccionario” (estructura ordenada).
+En el caso de la búsqueda, según la definición dada, no hay un método simple para encontrar un elemento en el árbol. No hay condiciones mínimas de ordenamiento. Si se establece una regla en donde el lado IZQ de un árbol es  <= a “x” y el lado derecho  > a “X”. A esto se lo llama formar un “diccionario” (estructura ordenada).
 
 		 	False si el árbol es vació  
-Existe (T, e)	 	True	{e, \_ , \_ }	\==\> \[x, t1, t2\]  
-		  	Existe (T1, e ) si e \<= x  
-		  	Existe (T2, e) si e \> x
+Existe (T, e)	 	True	{e,  _ ,  _ }	 == >  [x, t1, t2 ]  
+		  	Existe (T1, e ) si e  <= x  
+		  	Existe (T2, e) si e  > x
 
-			{e, \[ \], \[ \]} si el árbol es vació  
-Inserta (T, e)		{ x, Inserta (T1, e), t2 } si e \<= x   
+			{e,  [  ],  [  ]} si el árbol es vació  
+Inserta (T, e)		{ x, Inserta (T1, e), t2 } si e  <= x   
 							{ x, t1, t2}  
-			{x, t1, Inserta(T2, e) } si e \> x
+			{x, t1, Inserta(T2, e) } si e  > x
 
 Cuando los árboles implementan un diccionario como política de ordenamiento, se los llama “**árboles balanceado**”. Estos árboles pueden garantizar búsquedas rápidas.  
 En el Remueve se presentan varias situaciones. En el caso de borrar nodos intermedios con hijos, se debe buscar nodos candidatos dentro del hijo del que se va a eliminar y estos candidatos son el “mayor nodo hoja de los menores” y el “menor nodo hoja de los mayores”.
 
-			\[ \] si el árbol esta vació
+			 [  ] si el árbol esta vació
 
-			\[ \] si el caso es 			{ e, \[ \], \[ \] }
+			 [  ] si el caso es 			{ e,  [  ],  [  ] }
 
 			    x  
-			{ max(t1), remove(t1, x), t2 }	{ e, t1, \[ \] }   
+			{ max(t1), remove(t1, x), t2 }	{ e, t1,  [  ] }   
 Remove ( T , e)  
 			    x  
-			{ min(t2), t1, remove(t2, x)}	{ e. \[ \], t2 }
+			{ min(t2), t1, remove(t2, x)}	{ e.  [  ], t2 }
 
-			{ x, remote (t1, e), t2}		donde e \< x 	  
+			{ x, remote (t1, e), t2}		donde e  < x 	  
 { x, t1, t2 }  
-			{ x, t1, remove (t2, e) }		donde e \> x
+			{ x, t1, remove (t2, e) }		donde e  > x
 
-			TRUE si el árbol  \[ \]  
+			TRUE si el árbol   [  ]  
 EstaBalanceado(T)	  
-			| altura (t1) – altura (t2)| \<= 2   y  EstaBalanceado(t1) y EstaBalanceado(t2)
+			| altura (t1) – altura (t2)|  <= 2   y  EstaBalanceado(t1) y EstaBalanceado(t2)
 
 ## **13.9. Tablas de Hash**
 
 ![][image49]   ![][image50]  
 Encontrar un mecanismo de búsqueda que no dependa de la cantidad de elementos que posee un contenedor de datos. Sino que cueste lo mismo buscar un elemente en 1/10 que en 1/10000000. 
 
-Vector \= f (n)
+Vector  = f (n)
 
 Árbol (diccionario)= f(n)
 
 ***Función de Hash:*** 
 
-	E \= {conjunto de datos (definen una entidad)}
+	E  = {conjunto de datos (definen una entidad)}
 
 Dentro de este conjunto, se puede generar K (clave) por lo que uno va a buscar.
 
-	K(i) \= f (E)
+	K(i)  = f (E)
 
 Clave en función de la entidad.
 
 Una función de hash, es una función que aplicada a una clave de una entidad, termina generando un “entero”.
 
-	F(k(i)) \==\> entero
+	F(k(i))  == > entero
 
 |  |  |  |  |  |  |  |
 | ----- | ----- | :---: | :---- | ----- | :---- | ----- |
@@ -3610,12 +3610,12 @@ Una función de hash, es una función que aplicada a una clave de una entidad, t
 |  | 2 | E2 |  |   |  |  |
 |  | 3 | E3 |  |   |  |  |
 |  | . |   |  |   |  |  |
-|  | . |   |  | 0 |  \<-- j |  |
+|  | . |   |  | 0 |   <-- j |  |
 |  | . |   |  |   |  |  |
 |  | . |   |  |   |  |  |
 |  | . |   |  |   |  |  |
 | n | . |   |  |   |  | m |
-|  | . |   |  | 1 | \<-- k |  |
+|  | . |   |  | 1 |  <-- k |  |
 |  | . |   |  |   |  |  |
 |  | . |   |  |   |  |  |
 |  | . |   |  |   |  |  |
@@ -3623,10 +3623,10 @@ Una función de hash, es una función que aplicada a una clave de una entidad, t
 |  | . |   |  |   |  |  |
 |  | . |   |  |   |  |  |
 |  | . |   |  |   |  |  |
-|  | n-1 | En-1 |  | 3 | \<-- h |  |
+|  | n-1 | En-1 |  | 3 |  <-- h |  |
 |  |  |   |  |   |  |  |
 |  |  |  |  |  |  |  |
-|  |  ( f ( E0) % m ) \= h |  |  | ( f (juan\_pirulo) % n ) \= h |  |  |
+|  |  ( f ( E0) % m )  = h |  |  | ( f (juan _pirulo) % n )  = h |  |  |
 
 ## **13.10. Colisiones**
 
@@ -3637,38 +3637,38 @@ La relación entre “n / m” se llama el factor de carga de la tabla de hash, 
 
 Manejo de archivos:
 
-Opciones de apertura \= fopen
+Opciones de apertura  = fopen
 
-FILE \*fopen(const char \*fname, const char \*mode);
+FILE  *fopen(const char  *fname, const char  *mode);
 
 Modos:  
-	W \==\> escritura  
-	R \==\> lectura  
-	R+==\> lec y escritura(pos. Al final de lo existente)  
-“b”==\> para habilitar la lectura en binario (escribe la imagen en memoria de la variable que vaya a almacenar el archivo)  
-“t” \==\> modo texto
+	W  == > escritura  
+	R  == > lectura  
+	R+== > lec y escritura(pos. Al final de lo existente)  
+“b”== > para habilitar la lectura en binario (escribe la imagen en memoria de la variable que vaya a almacenar el archivo)  
+“t”  == > modo texto
 
-Opciones de manipulación \= 
+Opciones de manipulación  = 
 
 Binarias:  
-	Int Fread(void \*destiny, int ent\_sz, int ele\_qty FILE \*fp);  
-	Int Fwrite(void \*destiny, int emt\_sz, int ele\_qty, FILE \*fp);
+	Int Fread(void  *destiny, int ent _sz, int ele _qty FILE  *fp);  
+	Int Fwrite(void  *destiny, int emt _sz, int ele _qty, FILE  *fp);
 
 Ambas devuelven la cantidad de elementos que pudieron ser grabadas en el archivo.  
 Los archivos abiertos en forma binaria tiene la ventaja de tener ACCESO ALEATORIO a traves de la funcion, la cual puede mover el puntero dentro del file.
 
-	Fseek(FILE \*, int OFFSET, int origen);
+	Fseek(FILE  *, int OFFSET, int origen);
 
 Texto:  
-	Fprintf(FILE \*fp, …);  
-	Fscanf(FILE \*fp, …);  
+	Fprintf(FILE  *fp, …);  
+	Fscanf(FILE  *fp, …);  
 	Fputc(  
 	Fgets(  
 	Fputs(
 
-Opciones de cierre \= fclose
+Opciones de cierre  = fclose
 
-	Void Fclose(FILE \*fp);
+	Void Fclose(FILE  *fp);
 
 ***Ejercicio.*** 
 
@@ -3680,13 +3680,13 @@ Implementar una base de datos.
 
 Debe implementar índices.
 
-# **14\. Programación Multiheading (hilo de ejecución)**
+# **14 . Programación Multiheading (hilo de ejecución)**
 
 Si uno abre la secuencia de instrucciones de cualquier código que trabaje con funciones (como si se tratase de un acordeón), lo que se nota, es que todas las instrucciones vienen una detrás de la otra, formando de esta manera un “hilo“ de ejecución. Se llama de esta manera debido a que abstractamente se ven como una secuencia continua, una detrás de otra, de instrucciones de código.
 
-Definición de proceso \= Es un espacio de direccionamiento y 1 (uno) ó mas hilos de ejecución.
+Definición de proceso  = Es un espacio de direccionamiento y 1 (uno) ó mas hilos de ejecución.
 
-Espacio de direccionamiento \= es el espacio de memoria que pueden usar los punteros, por lo general, son espacio de 2GB de memoria virtual.  
+Espacio de direccionamiento  = es el espacio de memoria que pueden usar los punteros, por lo general, son espacio de 2GB de memoria virtual.  
 Cada proceso tiene un espacio de direccionamiento propio, siempre de 2 GB (para el ejemplo de maquinas estándar). Por lo tanto los espacios de direccionamiento son propios de cada proceso. A los sistemas operativos que trabajan de esta manera se los llama “protegidos”.
 
 La memoria virtual, esta divida en secciones mas grande que un byte, llamada paginas, que en maquinas estándar miden aprox. 4KB. Cada pagina puede ser representada de distintas maneras y tener distintos estados, por ejemplo: RAM o de disco (en el caso del disco, este espacio es llamado el “swap del disco”), y los estados son NO USED y RESERVADO.
@@ -3695,9 +3695,9 @@ El “squebler” junta todos los hilos de todos los procesos (sin diferenciarlo
 
 Para poder hacer programas que permitan realizar tareas en multiheading, se debe incluir en el código del programa el header fila del sistema operativo que contenga las directivas necesarias para poder ejecutar procesos de esta manera.
 
-\#include \<Windows.h\>
+ #include  <Windows.h >
 
-Investigar la función: 	“CreateThread(….,….,….,….,…, (\*f)()”  
+Investigar la función: 	“CreateThread(….,….,….,….,…, ( *f)()”  
 			“Mutex(…,….,…,)”  
 			“CriticalRegions(…,…,…,…,)”
 
@@ -3708,9 +3708,9 @@ Esta función tiene uno de los argumentos que es precisamente un puntero a una f
 The CreateThread function creates a thread to execute within the address space of the calling process. 
 
 HANDLE CreateThread(  
-  LPSECURITY\_ATTRIBUTES lpThreadAttributes, 		 // pointer to security attributes  
+  LPSECURITY _ATTRIBUTES lpThreadAttributes, 		 // pointer to security attributes  
   DWORD dwStackSize,                         			// initial thread stack size  
-  LPTHREAD\_START\_ROUTINE lpStartAddress,    	// pointer to thread function  
+  LPTHREAD _START _ROUTINE lpStartAddress,    	// pointer to thread function  
   LPVOID lpParameter,                        			// argument for new thread  
   DWORD dwCreationFlags,                     		// creation flags  
   LPDWORD lpThreadId                         			// pointer to receive thread ID  
@@ -3720,18 +3720,18 @@ HANDLE CreateThread(
 Parameters
 
 lpThreadAttributes   
-Pointer to a [SECURITY\_ATTRIBUTES]() structure that determines whether the returned handle can be inherited by child processes. If lpThreadAttributes is NULL, the handle cannot be inherited. 
+Pointer to a [SECURITY _ATTRIBUTES]() structure that determines whether the returned handle can be inherited by child processes. If lpThreadAttributes is NULL, the handle cannot be inherited. 
 
 Windows NT: The lpSecurityDescriptor member of the structure specifies a security descriptor for the new thread. If lpThreadAttributes is NULL, the thread gets a default security descriptor. 
 
 dwStackSize   
 Specifies the initial commit size of the stack, in bytes. The system rounds this value to the nearest page. If this value is zero, or is smaller than the default commit size, the default is to use the same size as the calling thread. For more information, see [Thread Stack Size]().   
 lpStartAddress   
-Pointer to the application-defined function of type LPTHREAD\_START\_ROUTINE to be executed by the thread and represents the starting address of the thread. For more information on the thread function, see [ThreadProc]().   
+Pointer to the application-defined function of type LPTHREAD _START _ROUTINE to be executed by the thread and represents the starting address of the thread. For more information on the thread function, see [ThreadProc]().   
 lpParameter   
 Specifies a single 32-bit parameter value passed to the thread.   
 dwCreationFlags   
-Specifies additional flags that control the creation of the thread. If the CREATE\_SUSPENDED flag is specified, the thread is created in a suspended state, and will not run until the [ResumeThread]() function is called. If this value is zero, the thread runs immediately after creation. At this time, no other values are supported.   
+Specifies additional flags that control the creation of the thread. If the CREATE _SUSPENDED flag is specified, the thread is created in a suspended state, and will not run until the [ResumeThread]() function is called. If this value is zero, the thread runs immediately after creation. At this time, no other values are supported.   
 lpThreadId   
 Pointer to a 32-bit variable that receives the thread identifier. 
 
@@ -3749,13 +3749,13 @@ Windows 95 and Windows 98: CreateThread succeeds only when it is called in the c
 
 Remarks
 
-The new thread handle is created with THREAD\_ALL\_ACCESS to the new thread. If a security descriptor is not provided, the handle can be used in any function that requires a thread object handle. When a security descriptor is provided, an access check is performed on all subsequent uses of the handle before access is granted. If the access check denies access, the requesting process cannot use the handle to gain access to the thread. 
+The new thread handle is created with THREAD _ALL _ACCESS to the new thread. If a security descriptor is not provided, the handle can be used in any function that requires a thread object handle. When a security descriptor is provided, an access check is performed on all subsequent uses of the handle before access is granted. If the access check denies access, the requesting process cannot use the handle to gain access to the thread. 
 
 The thread execution begins at the function specified by the lpStartAddress parameter. If this function returns, the DWORD return value is used to terminate the thread in an implicit call to the [ExitThread]() function. Use the [GetExitCodeThread]() function to get the thread's return value. 
 
 The CreateThread function may succeed even if lpStartAddress points to data, code, or is not accessible. If the start address is invalid when the thread runs, an exception occurs, and the thread terminates. Thread termination due to a invalid start address is handled as an error exit for the thread's process. This behavior is similar to the asynchronous nature of CreateProcess, where the process is created even if it refers to invalid or missing dynamic-link libraries (DLLs). 
 
-The thread is created with a thread priority of THREAD\_PRIORITY\_NORMAL. Use the [GetThreadPriority]() and [SetThreadPriority]() functions to get and set the priority value of a thread. 
+The thread is created with a thread priority of THREAD _PRIORITY _NORMAL. Use the [GetThreadPriority]() and [SetThreadPriority]() functions to get and set the priority value of a thread. 
 
 When a thread terminates, the thread object attains a signaled state, satisfying any threads that were waiting on the object. 
 
@@ -3771,7 +3771,7 @@ The [ExitProcess](), [ExitThread](), CreateThread, [CreateRemoteThread]() functi
 
 A thread that uses functions from the C run-time libraries should use the beginthread and endthread C run-time functions for thread management rather than CreateThread and ExitThread. Failure to do so results in small memory leaks when ExitThread is called. 
 
-Windows CE: The lpThreadAttributes parameter must be set to NULL. The dwStackSize parameter must be zero. Only zero or CREATE\_SUSPENDED values are supported for the dwCreationFlags parameter.
+Windows CE: The lpThreadAttributes parameter must be set to NULL. The dwStackSize parameter must be zero. Only zero or CREATE _SUSPENDED values are supported for the dwCreationFlags parameter.
 
 **CMutex**
 
@@ -3783,17 +3783,17 @@ An alternative method for using CMutex objects is to add a variable of type CMut
 
 To access resources controlled by CMutex objects in this manner, first create a variable of either type [CSingleLock]() or type [CMultiLock]() in your resource’s access member function. Then call the lock object’s Lock member function (for example, [CSingleLock::Lock]()). At this point, your thread will either gain access to the resource, wait for the resource to be released and gain access, or wait for the resource to be released and time out, failing to gain access to the resource. In any case, your resource has been accessed in a thread-safe manner. To release the resource, use the lock object’s Unlock member function (for example, [CSingleLock::Unlock]()), or allow the lock object to fall out of scope.
 
-\#include \<afxmt.h\>
+ #include  <afxmt.h >
 
-\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
+ * * * * * * * * * * * * * * * * * * * * * * *
 
-IPC \= Mecanismos de sincronización.
+IPC  = Mecanismos de sincronización.
 
 Semáforos. Es un recurso que da el sistema operativo para indicar a un proceso cuando puede realizar una acción.
 
 **Ejercicio de empleo de recursos:**
 
-Semáforos: Es un objeto de sincronización que tiene dos estados: activo y no-activo. Asociado tiene contadores, los cuales posee dos estado: activo cuando CTN \> 0 y NO-ACTIVO= \=0.  
+Semáforos: Es un objeto de sincronización que tiene dos estados: activo y no-activo. Asociado tiene contadores, los cuales posee dos estado: activo cuando CTN  > 0 y NO-ACTIVO=  =0.  
 Igual que lo contenedores de datos, los semáforos poseen operaciones asociadas similares.
 
 [image1]: <data:image/png;base64,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>
