@@ -1,12 +1,30 @@
 # Notas de Java
 
 
+<style>
+  .back-button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+</style>
+
+<button class="back-button" onclick="window.location.href='https://matiaspakua.github.io/tech.notes.io'">All notes</button>
+
+---
 
 ![][image1]
 
 **Analisis, Diseño y Programación Orientada a Objetos con Java**
 
-**Índice de contenido**
+# Índice de contenido
 
 [Introducción](\#introducción)  
 [¿Qué es el paradigma de la Orientación a Objetos?](\#¿qué-es-el-paradigma-de-la-orientación-a-objetos?)  
