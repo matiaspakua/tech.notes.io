@@ -25,11 +25,12 @@
 # 💻 Desarrollo, Programación
 
 - [Spring Framework Notes](/pages/development/spring_framework_notes.md)
-- [On Java notes](/pages/development/on_java_notes.md)
+- [Notas de Java](/pages/development/on_java_notes.md)
 - [On API Notes](/pages/development/on_rest_api_notes.md)
 - [Git, Gitflow and Trunk Based development](/pages/development/git_and_gitflow_trunk_based_dev.md) 
 - [Getting Started In Spring Development](/pages/development/getting_started_spring_development.md)
 - [Advance Your Spring Development Skills](/pages/development/advance_your_spring_development_skills.md)
+- [Notas de Programación en C](/pages/development/programacion_c.md)
 
 # 🧪 Software and System Testing
 
