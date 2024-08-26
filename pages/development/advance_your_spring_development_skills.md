@@ -16,6 +16,7 @@
 </style>
 
 <button class="back-button" onclick="window.location.href='https://matiaspakua.github.io/tech.notes.io'">All notes</button>
+
 ---
 
 This are the notes for the 6 courses Specialization PATH on Linkedin Learning.
