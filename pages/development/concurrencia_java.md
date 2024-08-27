@@ -163,6 +163,7 @@ public void objectSynchronization(){
 ```
 
 
+![](../../images/java_concurencia_synchronization.png)
 
 
 # Referencias
