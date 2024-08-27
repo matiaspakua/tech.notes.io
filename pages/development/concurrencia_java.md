@@ -19,6 +19,12 @@
 
 ---
 
+## Repositorio GitHub con ejemplos de código
+
+--> https://github.com/matiaspakua/java_concurerncy.git
+
+
+
 ## Que es la concurrencia?
 
 Los usuarios de ordenadores dan por sentado que sus sistemas pueden hacer más de una cosa a la vez. Suponen que pueden seguir trabajando en un procesador de textos mientras otras aplicaciones descargan archivos, gestionan la cola de impresión y transmiten audio. Incluso <mark style="background: #FFF3A3A6;">se espera que una sola aplicación haga más de una cosa a la vez.</mark> Por ejemplo, esa aplicación de transmisión de audio debe leer simultáneamente el audio digital de la red, descomprimirlo, gestionar la reproducción y actualizar su pantalla. Incluso el procesador de textos debería estar siempre preparado para responder a los eventos del teclado y del ratón, sin importar lo ocupado que esté reformateando el texto o actualizando la pantalla. El software que puede hacer estas cosas se conoce como<mark style="background: #BBFABBA6;"> software concurrente</mark>.
@@ -61,7 +67,49 @@ La ejecución multiproceso es una característica esencial de la plataforma Java
 ## Acceso a Memoria en java y sus problemas
 
 - **Modelo de memoria Java**: Los subprocesos en Java tienen su propia memoria del **stack**, pero comparten la memoria del **heap**. El **stack** contiene variables locales y de referencia, mientras que el **heap** contiene objetos.
+
+```java
+
+public class RunnableCounter implements Runnable {
+
+    int localThreadVariable;
+    String nameOfThread;
+
+    @Override
+    public void run() {
+        for(localThreadVariable = 0; localThreadVariable < 100; localThreadVariable++) {
+            System.out.println(this.nameOfThread + " " + localThreadVariable);
+        }
+    }
+
+    public void setNameOfThread(String name){
+        this.nameOfThread = name;
+    }
+}
+```
+
 - **Data Race**: cuando varios subprocesos acceden a datos compartidos simultáneamente, puede dar lugar a incoherencias, lo que se conoce como carrera de datos.
+
+```java
+public class RunnableCounterDataRace implements Runnable{  
+  
+    // Recurso compartido por los thread.  
+    private int counter;  
+  
+    @Override  
+    public void run() {  
+        for (int i = 0; i <1_000_000; i++) {  
+            this.counter++;  
+        }  
+    }  
+  
+    public int getCounter() {  
+        return counter;  
+    }  
+}
+```
+
+
 - **Race Condition**: La falta de un orden de ejecución garantizado entre subprocesos puede causar resultados inesperados, especialmente con operaciones no atómicas como .
 
 # Referencias
