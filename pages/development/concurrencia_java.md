@@ -19,11 +19,11 @@
 
 ---
 
-## Repositorio GitHub con ejemplos de código
+# Repositorio GitHub con ejemplos de código
 
 --> [matiaspakua/java_concurerncy: code samples of concurrency in java (github.com)](https://github.com/matiaspakua/java_concurerncy/tree/master)
 
-
+# Introducción: sincronización
 
 ## Que es la concurrencia?
 
@@ -112,6 +112,58 @@ public class RunnableCounterDataRace implements Runnable{
 ```
 
 El resultado en la ejecución del test: "RunnableCounterDataRace" da un valor superior a 1.000.000 pero inferior a 2 millones, eso se debe a que ambos thread están incrementando el contado, en una situación de "carrera".
+
+Este comportamiento puede o no ocurrir dependiendo de como el SO gestione los thread.
+
+## Race Condition: Operaciones "atomicas"
+
+- **Race Condition**:  se produce cuando varios subprocesos acceden a los datos compartidos y los modifican al mismo tiempo, lo que da lugar a resultados impredecibles.
+- **Operaciones no atómicas**: Las operaciones como no son atómicas, lo que significa que constan de varios pasos (lectura, actualización, escritura) que pueden ser interrumpidos por otros subprocesos, lo que provoca resultados incorrectos.
+
+## keyword: "volatile"
+
+**Volatile** el uso de la palabra clave `volatile` puede ayudar a evitar las data race al garantizar la visibilidad de los valores de las variables en todos los subprocesos, pero no bloquea los datos.
+
+**Mecanismo de sincronización**: la sincronización puede evitar tanto las carreras de datos como las condiciones de carrera al usar la palabra clave `synchronized` para marcar secciones críticas, lo que garantiza que solo un subproceso pueda ejecutar el código crítico a la vez.
+
+Por ejemplo, si tenemos un edificio de oficinas con salas de reuniones para reservar:
+
+|Mundo Real     | Java     |
+| --- | --- |
+| Edificio    | Objetos Java    |
+| Sala de reuniones  | Sección Critica |
+| Guardia de Seguridad | Objeto Monitor |
+| La gente | Los threads |
+
+En código, la sincronización se puede hacer a nivel método u objeto:
+
+```java
+
+public synchronized boolean methodSynchronization(float amount){  
+    // La sección critica va aqui:  
+  
+    // if ( accountOrigin.hasMoney(amount)){    
+    //      accountOrigin.withdraw(amount);    
+    //      accountDestiny.deposit(amount);    
+    //      return true;    
+    // } else {    
+    //      return false;    
+    // }    
+    return true;  
+}  
+  
+public void objectSynchronization(){  
+  
+    synchronized(accountToValidate){  
+        // La sección critica va aqui:  
+        // ejecutar alguna validación en la cuenta        
+        accountToValidate = "valid";  
+    }  
+}
+```
+
+
+
 
 # Referencias
 
