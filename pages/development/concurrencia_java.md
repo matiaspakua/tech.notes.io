@@ -37,6 +37,10 @@ Un sistema informático normalmente tiene muchos procesos e hilos activos. Esto 
 
 Cada vez es más común que los sistemas informáticos tengan varios procesadores o procesadores con varios núcleos de ejecución. Esto mejora enormemente la capacidad de un sistema para la ejecución concurrente de procesos e hilos, pero la concurrencia es posible incluso en sistemas simples, sin varios procesadores o núcleos de ejecución.
 
+## Modelo de memoria: RAM
+
+![](../../images/java_concurencia_RAM.png)
+
 ## Procesos
 
 Un proceso tiene un <mark style="background: #BBFABBA6;">entorno de ejecución autónomo.</mark> Un proceso generalmente tiene un conjunto completo y privado de recursos básicos de tiempo de ejecución; en particular, cada proceso tiene su propio espacio de memoria.
