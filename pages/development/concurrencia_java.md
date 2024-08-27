@@ -45,6 +45,8 @@ Cada vez es más común que los sistemas informáticos tengan varios procesadore
 
 ## Modelo de memoria: RAM
 
+El modelo de memoria y los subprocesos en Java tienen su propia memoria del **stack**, pero comparten la memoria del **heap**. El **stack** contiene variables locales y de referencia, mientras que el **heap** contiene objetos.
+
 ![](../../images/java_concurencia_RAM.png)
 
 ## Procesos
@@ -66,7 +68,7 @@ La ejecución multiproceso es una característica esencial de la plataforma Java
 
 ## Acceso a Memoria en java y sus problemas
 
-- **Modelo de memoria Java**: Los subprocesos en Java tienen su propia memoria del **stack**, pero comparten la memoria del **heap**. El **stack** contiene variables locales y de referencia, mientras que el **heap** contiene objetos.
+- **Data Race**: cuando varios subprocesos acceden a datos compartidos simultáneamente, puede dar lugar a incoherencias, lo que se conoce como carrera de datos.
 
 ```java
 
@@ -88,7 +90,7 @@ public class RunnableCounter implements Runnable {
 }
 ```
 
-- **Data Race**: cuando varios subprocesos acceden a datos compartidos simultáneamente, puede dar lugar a incoherencias, lo que se conoce como carrera de datos.
+- **Race Condition**: La falta de un orden de ejecución garantizado entre subprocesos puede causar resultados inesperados, especialmente con operaciones no atómicas como .
 
 ```java
 public class RunnableCounterDataRace implements Runnable{  
@@ -109,8 +111,7 @@ public class RunnableCounterDataRace implements Runnable{
 }
 ```
 
-
-- **Race Condition**: La falta de un orden de ejecución garantizado entre subprocesos puede causar resultados inesperados, especialmente con operaciones no atómicas como .
+El resultado en la ejecución del test: "RunnableCounterDataRace" da un valor superior a 1.000.000 pero inferior a 2 millones, eso se debe a que ambos thread están incrementando el contado, en una situación de "carrera".
 
 # Referencias
 
