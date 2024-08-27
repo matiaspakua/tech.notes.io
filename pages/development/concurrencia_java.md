@@ -21,7 +21,7 @@
 
 ## Repositorio GitHub con ejemplos de código
 
---> https://github.com/matiaspakua/java_concurerncy.git
+--> [matiaspakua/java_concurerncy: code samples of concurrency in java (github.com)](https://github.com/matiaspakua/java_concurerncy/tree/master)
 
 
 
