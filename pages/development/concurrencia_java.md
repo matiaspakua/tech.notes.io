@@ -124,6 +124,8 @@ Este comportamiento puede o no ocurrir dependiendo de como el SO gestione los th
 
 **Volatile** el uso de la palabra clave `volatile` puede ayudar a evitar las data race al garantizar la visibilidad de los valores de las variables en todos los subprocesos, pero no bloquea los datos.
 
+## keyword: "synchronized"
+
 **Mecanismo de sincronización**: la sincronización puede evitar tanto las carreras de datos como las condiciones de carrera al usar la palabra clave `synchronized` para marcar secciones críticas, lo que garantiza que solo un subproceso pueda ejecutar el código crítico a la vez.
 
 Por ejemplo, si tenemos un edificio de oficinas con salas de reuniones para reservar:
@@ -138,29 +140,34 @@ Por ejemplo, si tenemos un edificio de oficinas con salas de reuniones para rese
 En código, la sincronización se puede hacer a nivel método u objeto:
 
 ```java
-
-public synchronized boolean methodSynchronization(float amount){  
-    // La sección critica va aqui:  
+@Override  
+public void run() {  
+    long startTime = System.nanoTime();  
+    for (int i = 0; i < 1_000_000; i++) {  
   
-    // if ( accountOrigin.hasMoney(amount)){    
-    //      accountOrigin.withdraw(amount);    
-    //      accountDestiny.deposit(amount);    
-    //      return true;    
-    // } else {    
-    //      return false;    
-    // }    
-    return true;  
-}  
-  
-public void objectSynchronization(){  
-  
-    synchronized(accountToValidate){  
-        // La sección critica va aqui:  
-        // ejecutar alguna validación en la cuenta        
-        accountToValidate = "valid";  
+        /*  
+        En este caso el monitor es el objecto actual (THIS).         */        synchronized (this) {  
+            // código critico, sincronizado, solo un thread puede acceder a la vez.  
+            counter++;  
+        }  
     }  
+    long elapsedTime = System.nanoTime() - startTime;  
+  
+    System.out.println(Thread.currentThread().getName() + " increased the counter up to: " +  
+            counter + " in " + elapsedTime / 1000000 + " milliseconds");  
 }
 ```
+
+**Synchronized**: se utiliza para proteger secciones críticas del código y garantizar que solo un subproceso pueda acceder al recurso compartido a la vez.
+
+
+**Objeto de monitor**: el objeto cuyo monitor se utiliza para sincronizar el bloque de código. Puede ser el objeto actual (this) o cualquier otro objeto.
+
+
+**Bloqueo de instancia frente a bloqueo de nivel de clase**: los métodos de instancia utilizan el monitor del objeto actual, mientras que los métodos estáticos utilizan el monitor de la clase.
+
+**Sección crítica**: la parte del código en la que se accede a los recursos compartidos y se modifican. Debe estar sincronizada para evitar carreras de datos y condiciones de carrera.
+Consideraciones de rendimiento: la sincronización puede provocar sobrecargas de rendimiento, bloqueos y falta de rendimiento, por lo que debe utilizarse con prudencia.
 
 
 ![](../../images/java_concurencia_synchronization.png)
