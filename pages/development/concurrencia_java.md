@@ -173,6 +173,31 @@ Consideraciones de rendimiento: la sincronización puede provocar sobrecargas de
 ![](../../images/java_concurencia_synchronization.png)
 
 
+# Programación Asíncrona
+
+## Non-blocking operations
+
+- **Programación sincrónica**: implica una ejecución secuencial en la que las tareas esperan a que se completen entre sí, lo que puede provocar <mark style="background: #FFF3A3A6;">bloqueos</mark>, especialmente con tareas que consumen mucho tiempo, como las operaciones de E/S.
+
+![](../../images/java_concurencia_sync_process.png)
+
+- **Programación asíncrona**: Permite que varias tareas se ejecuten simultáneamente sin esperarse unas a otras, lo que mejora la eficiencia y el rendimiento, especialmente en tareas como operaciones de red o acceso a bases de datos.
+
+- **Subproceso principal**: En la programación sincrónica, el subproceso principal espera a que se completen otros subprocesos, lo que puede dificultar la generación de nuevos subprocesos. La programación asincrónica permite que el subproceso principal continúe ejecutando otras tareas sin esperar.
+
+![](../../images/java_concurencia_async_process.png)
+
+## Keywork: Future (promesas)
+
+
+- **Objeto Futuro**: Representa el resultado de un cálculo asíncrono, permitiendo a un programa continuar ejecutando otras tareas mientras espera el resultado.
+- **Métodos clave**:  
+    - `get()`: Recupera el resultado, bloqueándolo si es necesario hasta que se complete el cálculo.
+    - `isDone()`: Comprueba si la tarea se ha completado.
+    - `cancel()`: Intenta cancelar la ejecución de la tarea.
+- **Eficiencia asíncrona**: El uso permite una ejecución más eficiente del programa al permitir que las tareas que consumen mucho tiempo se ejecuten simultáneamente sin bloquear otras operaciones.`Future`
+
+
 # Referencias
 
  - [Lesson: Concurrency (The Java™ Tutorials > Essential Java Classes) (oracle.com)](https://docs.oracle.com/javase/tutorial/essential/concurrency/)
