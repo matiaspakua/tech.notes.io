@@ -66,6 +66,29 @@ Los <mark style="background: #FFF3A3A6;">hilos existen dentro de un proceso</mar
 La ejecución multiproceso es una característica esencial de la plataforma Java. Cada aplicación tiene al menos un hilo, o varios, si se cuentan los hilos del "sistema" que hacen cosas como la gestión de la memoria y el manejo de señales. Pero desde el punto de vista del programador de aplicaciones, se comienza con un solo hilo, llamado hilo principal. Este hilo tiene la capacidad de crear hilos adicionales, como demostraremos en la siguiente sección.
 
 
+## Java, keywords
+
+```java
+/**
+A thread is a thread of execution in a program. The Java virtual machine allows an application to have multiple threads of execution running concurrently.
+*/
+public class Thread implements Runnable
+```
+
+```java
+
+/**
+Represents an operation that does not return a result.
+This is a functional interface whose functional method is run().
+*/
+public interface Runnable
+```
+
+Algo particular de `Runnable` es que se trata de una interfaz funcional, ahora: ¿Qué es una interfaz funcional?:
+
+[Interfaz Funcional en Java](/java_interfaces_funcionales.md)
+
+
 ## Acceso a Memoria en java y sus problemas
 
 - **Data Race**: cuando varios subprocesos acceden a datos compartidos simultáneamente, puede dar lugar a incoherencias, lo que se conoce como carrera de datos.
