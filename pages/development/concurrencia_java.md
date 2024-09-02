@@ -70,7 +70,9 @@ La ejecución multiproceso es una característica esencial de la plataforma Java
 
 ```java
 /**
-A thread is a thread of execution in a program. The Java virtual machine allows an application to have multiple threads of execution running concurrently.
+A thread is a thread of execution in a program. The Java virtual machine 
+allows an application to have multiple threads of execution running 
+concurrently.
 */
 public class Thread implements Runnable
 ```
@@ -86,7 +88,7 @@ public interface Runnable
 
 Algo particular de `Runnable` es que se trata de una interfaz funcional, ahora: ¿Qué es una interfaz funcional?:
 
-[Interfaz Funcional en Java](/java_interfaces_funcionales.md)
+--> [Interfaz Funcional en Java](/java_interfaces_funcionales.md)
 
 
 ## Acceso a Memoria en java y sus problemas
