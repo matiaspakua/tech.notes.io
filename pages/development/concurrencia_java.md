@@ -90,10 +90,9 @@ Algo particular de `Runnable` es que se trata de una interfaz funcional, ahora: 
 
 --> [Interfaz Funcional en Java](/java_interfaces_funcionales.md)
 
-
 ## Acceso a Memoria en java y sus problemas
 
-- **Data Race**: cuando varios subprocesos acceden a datos compartidos simultáneamente, puede dar lugar a incoherencias, lo que se conoce como carrera de datos.
+- **Data Race**: o interferencia entre thread, cuando varios subprocesos acceden a datos compartidos simultáneamente, puede dar lugar a incoherencias, lo que se conoce como <mark style="background: #FFF3A3A6;">data race</mark>.
 
 ```java
 
@@ -140,14 +139,15 @@ El resultado en la ejecución del test: "RunnableCounterDataRace" da un valor su
 
 Este comportamiento puede o no ocurrir dependiendo de como el SO gestione los thread.
 
-## Race Condition: Operaciones "atomicas"
+## Race Condition: Operaciones "atómicas"
 
 - **Race Condition**:  se produce cuando varios subprocesos acceden a los datos compartidos y los modifican al mismo tiempo, lo que da lugar a resultados impredecibles.
+
 - **Operaciones no atómicas**: Las operaciones como no son atómicas, lo que significa que constan de varios pasos (lectura, actualización, escritura) que pueden ser interrumpidos por otros subprocesos, lo que provoca resultados incorrectos.
 
 ## keyword: "volatile"
 
-**Volatile** el uso de la palabra clave `volatile` puede ayudar a evitar las data race al garantizar la visibilidad de los valores de las variables en todos los subprocesos, pero no bloquea los datos.
+**Volatile**: el uso de la palabra clave `volatile` puede ayudar a evitar los **data race** al garantizar la visibilidad de los valores de las variables en todos los subprocesos, pero no bloquea los datos.
 
 ## keyword: "synchronized"
 
@@ -188,7 +188,6 @@ public void run() {
 
 **Objeto de monitor**: el objeto cuyo monitor se utiliza para sincronizar el bloque de código. Puede ser el objeto actual (this) o cualquier otro objeto.
 
-
 **Bloqueo de instancia frente a bloqueo de nivel de clase**: los métodos de instancia utilizan el monitor del objeto actual, mientras que los métodos estáticos utilizan el monitor de la clase.
 
 **Sección crítica**: la parte del código en la que se accede a los recursos compartidos y se modifican. Debe estar sincronizada para evitar carreras de datos y condiciones de carrera.
@@ -196,7 +195,6 @@ Consideraciones de rendimiento: la sincronización puede provocar sobrecargas de
 
 
 ![](../../images/java_concurencia_synchronization.png)
-
 
 # Programación Asíncrona
 
@@ -206,9 +204,10 @@ Consideraciones de rendimiento: la sincronización puede provocar sobrecargas de
 
 ![](../../images/java_concurencia_sync_process.png)
 
-- **Programación asíncrona**: Permite que varias tareas se ejecuten simultáneamente sin esperarse unas a otras, lo que mejora la eficiencia y el rendimiento, especialmente en tareas como operaciones de red o acceso a bases de datos.
+- **Programación asíncrona**: Permite que varias tareas se ejecuten simultáneamente <mark style="background: #BBFABBA6;">sin esperarse unas a otras</mark>, lo que mejora la eficiencia y el rendimiento, especialmente en tareas como operaciones de red o acceso a bases de datos.
 
-- **Subproceso principal**: En la programación sincrónica, el subproceso principal espera a que se completen otros subprocesos, lo que puede dificultar la generación de nuevos subprocesos. La programación asincrónica permite que el subproceso principal continúe ejecutando otras tareas sin esperar.
+
+- **Subproceso principal**: En la programación sincrónica, el<mark style="background: #ADCCFFA6;"> subproceso principal espera</mark> a que se completen otros subprocesos, lo que puede dificultar la generación de nuevos subprocesos. La programación asincrónica permite que el subproceso principal continúe ejecutando otras tareas sin esperar.
 
 ![](../../images/java_concurencia_async_process.png)
 
