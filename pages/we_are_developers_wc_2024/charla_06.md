@@ -97,14 +97,43 @@ Ref. https://en.wikipedia.org/wiki/Event-driven_architecture
 
 ---
 
-## implementación
+## Demo: Implementación
 
-Usando event-sourcring.
-Ejemplo de un banco y transacciones, en un código se ejecuta una transferencia y en el evento donde se hace el deposito, el paso 5, justo falla. Usando un historial de eventos se puede recuperar la condicion inicial.
+ - Usando event-sourcring.
+ - Ejemplo de un banco y transacciones, en un código se ejecuta una transferencia y en el evento donde se hace el deposito, el paso 5, justo falla. Usando un historial de eventos se puede recuperar la condición inicial.
 
 ---
 
-# Demo
+# Armar ambiente dev
+
+Paso #01. Instalar el CLI de temporal.io para comenzar a desarrollar:
+
+Link: [Set up a local development environment for Temporal and Java | Learn Temporal](https://learn.temporal.io/getting_started/java/dev_environment/)
+
+Luego de bajar el CLI, se puede ejecutar:
+
+```bash
+
+$ temporal server start-dev
+CLI 1.0.0 (Server 1.24.2, UI 2.28.0)
+
+Server:  localhost:7233
+UI:      http://localhost:8233
+Metrics: http://localhost:63504/metrics
+
+```
+
+---
+
+# Servidor local en localhost
+
+Link: [Workflows default](http://localhost:8233/namespaces/default/workflows)
+
+![](../../images/temporal.io.localhost.png)
+
+---
+
+# Video Tutorial
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/wIpz4ioK0gI?si=xS7z-_UsLxl0McCV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 

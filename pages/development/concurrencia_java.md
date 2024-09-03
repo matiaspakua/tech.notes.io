@@ -280,6 +280,20 @@ class Handler implements Runnable {
 	} 
 }
 ```
+
+## CompletableFuture
+
+```java
+
+/*
+A Future that may be explicitly completed (setting its value and status), and may be used as a CompletionStage, supporting dependent functions and actions that trigger upon its completion.
+When two or more threads attempt to complete, completeExceptionally, or cancel a CompletableFuture, only one of them succeeds.
+*/
+public class CompletableFuture<T> implements Future<T>, CompletionStage<T>
+
+```
+
+
 # Referencias
 
  - [Lesson: Concurrency (The Java™ Tutorials > Essential Java Classes) (oracle.com)](https://docs.oracle.com/javase/tutorial/essential/concurrency/)
