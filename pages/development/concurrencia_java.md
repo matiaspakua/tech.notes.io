@@ -213,6 +213,22 @@ Consideraciones de rendimiento: la sincronización puede provocar sobrecargas de
 
 ## Keywork: Future (promesas)
 
+```java
+
+/*
+A task that returns a result and may throw an exception. Implementors define a single method with no arguments called call.
+*/
+public interface Callable<V>
+
+
+/*
+An Executor that provides methods to manage termination and methods that can produce a Future for tracking progress of one or more asynchronous tasks.
+An ExecutorService can be shut down, which will cause it to reject new tasks. Two different methods are provided for shutting down an ExecutorService.
+*/
+public interface ExecutorService extends Executor, AutoCloseable
+
+```
+
 
 - **Objeto Futuro**: Representa el resultado de un cálculo asíncrono, permitiendo a un programa continuar ejecutando otras tareas mientras espera el resultado.
 - **Métodos clave**:  
@@ -222,6 +238,48 @@ Consideraciones de rendimiento: la sincronización puede provocar sobrecargas de
 - **Eficiencia asíncrona**: El uso permite una ejecución más eficiente del programa al permitir que las tareas que consumen mucho tiempo se ejecuten simultáneamente sin bloquear otras operaciones.`Future`
 
 
+## ExecutorService
+
+Un buen ejemplo del uso y funcionamiento de un ExecutorService está en la misma documentación de java:
+
+```java
+
+class NetworkService implements Runnable 
+{   
+	private final ServerSocket serverSocket;   
+	private final ExecutorService pool;    
+	
+	public NetworkService(int port, int poolSize) throws IOException {
+	    serverSocket = new ServerSocket(port);
+	    pool = Executors.newFixedThreadPool(poolSize);
+    }    
+    
+    public void run() { // run the service
+         try {       
+	         for (;;) {
+                  pool.execute(new Handler(serverSocket.accept()));
+			 }
+		  }
+          catch (IOException ex) {
+			 pool.shutdown();
+		  }   
+	  } 
+  }
+
+// otra clase
+
+class Handler implements Runnable {
+	private final Socket socket;
+    
+    Handler(Socket socket) {
+		this.socket = socket;
+	}   
+	public void run() 
+	{     
+		// read and service request on socket   
+	} 
+}
+```
 # Referencias
 
  - [Lesson: Concurrency (The Java™ Tutorials > Essential Java Classes) (oracle.com)](https://docs.oracle.com/javase/tutorial/essential/concurrency/)
