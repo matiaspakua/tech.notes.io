@@ -56,9 +56,6 @@ Pero cuando el monolito es muy grande, la estrategia es separarlo en **microserv
 Ref. https://en.wikipedia.org/wiki/Event-driven_architecture
 
 ---
-
-
----
 ### Abstracciones y sus complejidades
 
  - Microservices => complejidad distribuida
