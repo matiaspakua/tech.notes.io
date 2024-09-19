@@ -41,9 +41,17 @@ Nosotros trabajamos con abstracciones, pero hay niveles de abstracción. El prob
 
 ---
 
+### Consistencia Eventual
+
 Un sistema monolítico es <mark style="background: #BBFABBA6;">transaccional</mark> y las transacciones no permiten <mark style="background: #FFF3A3A6;">"fallas parciales"</mark>.
 
 Pero cuando el monolito es muy grande, la estrategia es separarlo en **microservicios**. Y cuando los pasos de un determinado proceso está separado y toma más tiempo completarlo, las transacciones no sirven. Entonces apare: <mark style="background: #FFF3A3A6;">Event-Driven.</mark>
+
+---
+
+![](../../images/monolith_to_microservices.png)
+
+Fuente: https://pivovarit.github.io/talks/embracing-microservices/
 
 ---
 ### Event-Driven Architecture al rescate
@@ -54,6 +62,12 @@ Pero cuando el monolito es muy grande, la estrategia es separarlo en **microserv
 - Arquitectura de mensajes <mark style="background: #FFF3A3A6;">"asincrónica" y distribuida</mark>.
 
 Ref. https://en.wikipedia.org/wiki/Event-driven_architecture
+
+---
+### Abstracciones y sus complejidades
+
+![](../../images/monolith_vs_microservices.jpg)
+
 
 ---
 ### Abstracciones y sus complejidades
@@ -71,6 +85,8 @@ Ref. https://en.wikipedia.org/wiki/Event-driven_architecture
 ## Durable Execution 
 
 =><mark style="background: #FFF3A3A6;"> ejecución que no crashea por causas de fallas a nivel sistema</mark>.
+
+**La principal idea es**: recuperar el estado de una transacción distribuida, pese a la falla de una parte o todo el sistema.
 
 ---
 ### Caracteristicas:
