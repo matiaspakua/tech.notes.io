@@ -1,16 +1,30 @@
 # Visual Thinking
 
-![300x300](../../images/conways_law_example.jpeg)
+![400x400](../../images/conways_law_example.jpeg)
 
 ---
 
-## Introducción
+### Introducción
 
 **¿Que es Visual Thinking?**
 
-Visual Thinking es como cuando usas dibujos para <mark style="background: #FFF3A3A6;">entender</mark> y <mark style="background: #BBFABBA6;">explicar</mark> cosas. Imagina que tienes un problema, como armar un rompecabezas. En lugar de solo hablar de cómo hacerlo, <mark style="background: #ADCCFFA6;">dibujas las piezas</mark> y cómo se <mark style="background: #FFF3A3A6;">conectan</mark>. Así, puedes **ver el problema** más claramente y **encontrar la solución** más fácilmente. Es como usar tus ojos y tus manos para pensar mejor, no solo tu cabeza.
+Visual Thinking es una técnica que aplica dibujos/diagramas (representaciones visuales) para <mark style="background: #FFF3A3A6;">entender</mark> y <mark style="background: #BBFABBA6;">explicar o comunicar</mark> cosas. Imaginemos que tenemos un problema: como armar un rompecabezas X. En lugar de solo hablar de cómo hacerlo, <mark style="background: #ADCCFFA6;">dibujamos las piezas</mark> y cómo se <mark style="background: #FFF3A3A6;">conectan</mark>. Así, podemos **ver el problema** más claramente y **encontrar la solución** más fácilmente. Es como usar tus ojos y tus manos para pensar mejor, no solo tu cabeza.
 
 ---
+### Visual Thinking en las empresas
+
+Para que serviría aplicarlo en el trabajo? Bueno, por ejemplo, para transferencia de conocimiento. Las explicaciones visuales ayudan a:
+
+ + Velocidad.
+ + Alineación / foco
+ + Conceptos "memorables"
+
+==> <mark style="background: #FFF3A3A6;">EFICACIA</mark>
+
+Fuente: https://www.youtube.com/watch?v=4TTDuCRiEx0&ab_channel=UOC-UniversitatObertadeCatalunya
+
+---
+
 ## Componentes del Visual Thinking
 
 ---
@@ -58,7 +72,7 @@ El Design Thinking se puede aplicar a cualquier problema que necesite una soluci
 ---
 ## Herramientas
 
-![](../../images/drawio_landing_page.png)
+![600x400](../../images/drawio_landing_page.png)
 
 - [Draw.io](https://www.drawio.com/)
 
@@ -69,7 +83,7 @@ El Design Thinking se puede aplicar a cualquier problema que necesite una soluci
 ![400x400](../../images/desgin-thinking.png)
 
 ---
-## Google Drawings
+### Google Drawings
 
 ![](../../images/google_drawings_landing.png)
 
@@ -77,7 +91,7 @@ El Design Thinking se puede aplicar a cualquier problema que necesite una soluci
 
 ---
 
-## Ejemplo Google Drawing
+### Ejemplo Google Drawing
 
 ![](../../images/test_manager_architecture_google_draw.png)
 
@@ -85,7 +99,7 @@ Link: https://docs.google.com/drawings/d/1cBOqUlmJ5NF0shSbG3enm4T4eSLA-ZV8o2X1yr
 
 ---
 
-## Microsoft Whiteboard
+### Microsoft Whiteboard
 
 ![](../../images/microsoft_whiteboard_landing.png)
 
@@ -93,7 +107,7 @@ Link: https://docs.google.com/drawings/d/1cBOqUlmJ5NF0shSbG3enm4T4eSLA-ZV8o2X1yr
 
 ---
 
-## Análisis de un problema: SW update Sonda Voyayer
+### Análisis de un problema: SW update Sonda Voyayer
 
 [Link Post](https://www.linkedin.com/posts/matiasmiguez_softwareengineering-softwaredebug-spaceengineering-activity-7189696668177416192-1JNV?utm_source=share&utm_medium=member_desktop)
 
@@ -102,7 +116,7 @@ Link: https://docs.google.com/drawings/d/1cBOqUlmJ5NF0shSbG3enm4T4eSLA-ZV8o2X1yr
 
 ---
 
-## Ejemplo de Whiteboard: Voyager Bugfix NASA
+### Ejemplo de Whiteboard: Voyager Bugfix NASA
 
 ![](../../images/voyager_software_bug_update.png)
 
@@ -110,15 +124,22 @@ Link: https://docs.google.com/drawings/d/1cBOqUlmJ5NF0shSbG3enm4T4eSLA-ZV8o2X1yr
 
 ---
 
-### Dibujar para comprender. Casos de Visual Thinking en las empresas
+# DEMO time
 
+![600x400](../../images/demo_time_going_wrong.png)
+
+---
+
+# Videos y Recursos adicionales
+
+---
+### Dibujar para comprender. Casos de Visual Thinking en las empresas
 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4TTDuCRiEx0?si=0eL9Nu4cG5M5Me8C" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-
 ---
-## Visual Storytelling
+### Visual Storytelling
 
 ==> <mark style="background: #FFF3A3A6;">"The Back of the Napkin" de Dan Roam</mark>
 
@@ -129,7 +150,7 @@ Link: https://docs.google.com/drawings/d/1cBOqUlmJ5NF0shSbG3enm4T4eSLA-ZV8o2X1yr
 
 ---
 
-## Doodlers, Unite! 
+### Doodlers, Unite! 
 
   - "Doodlers, Unite!" de Sunni Brown
 
@@ -137,7 +158,9 @@ Link: https://youtu.be/7fx0QcHyrFk?si=c6a7xIhEi-zl7-fA
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/7fx0QcHyrFk?si=j0sw22rApoDVZibu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-## Otras Herramientas: Obsidian
+---
+
+### Otras Herramientas: Obsidian
 
 
 [[design_thinking_explained]]
@@ -145,6 +168,8 @@ Link: https://youtu.be/7fx0QcHyrFk?si=c6a7xIhEi-zl7-fA
 
 ![](../../images/obsidian_graph_diagram.png)
 
-## Ejemplo
+---
+
+### Draw.io de ejemplo
 
 ![30x30](../../images/download.png) [Descargar Ejemplo:](https://github.com/matiaspakua/tech.notes.io/blob/08c0d9e956789029b2689af4acd98ba1fd51652e/canvas/visual_thinking_and_problem_solving.drawio)
