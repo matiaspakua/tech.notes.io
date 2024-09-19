@@ -11,7 +11,6 @@
 Visual Thinking es como cuando usas dibujos para <mark style="background: #FFF3A3A6;">entender</mark> y <mark style="background: #BBFABBA6;">explicar</mark> cosas. Imagina que tienes un problema, como armar un rompecabezas. En lugar de solo hablar de cómo hacerlo, <mark style="background: #ADCCFFA6;">dibujas las piezas</mark> y cómo se <mark style="background: #FFF3A3A6;">conectan</mark>. Así, puedes **ver el problema** más claramente y **encontrar la solución** más fácilmente. Es como usar tus ojos y tus manos para pensar mejor, no solo tu cabeza.
 
 ---
-
 ## Componentes del Visual Thinking
 
 ---
@@ -28,24 +27,26 @@ Visual Thinking es como cuando usas dibujos para <mark style="background: #FFF3A
 
 - **Mapas y Diagramas** 🗺️: Organizar la información de manera que se vea cómo las ideas se conectan entre sí.
 
+![600x400](../../images/iot_diagram.png)
+
 ---
 
 - **Esquemas y Flujos** 🔄: Mostrar procesos o secuencias de pasos de forma visual, como un mapa de ruta.
+
+![500X300](../../images/diagramas_secuancia.png)
 
 ---
 
 - **Colores y Formas** 🎨: Usar diferentes colores y formas para destacar lo importante y diferenciar ideas.
 
 ---
-
 ## Visual Thinking y Design Thinking
 
-El Design Thinking es un proceso de <mark style="background: #FFF3A3A6;">resolución de problemas</mark> que comienza con la comprensión de las necesidades no satisfechas  e implica el desarrollo de <mark style="background: #BBFABBA6;">conceptos</mark>, <mark style="background: #ADCCFFA6;">creatividad</mark>, la creación de <mark style="background: #FFF3A3A6;">prototipos</mark> y la realización de pruebas.
+El Design Thinking es un proceso de <mark style="background: #FFF3A3A6;">resolución de problemas</mark> que comienza con la comprensión de las necesidades no satisfechas e implica el desarrollo de <mark style="background: #BBFABBA6;">conceptos</mark>, <mark style="background: #ADCCFFA6;">creatividad</mark>, la creación de <mark style="background: #FFF3A3A6;">prototipos</mark> y la realización de pruebas.
 
 El Design Thinking se puede aplicar a cualquier problema que necesite una solución creativa, no solo a productos físicos, sino también a servicios, modelos de negocio y cuestiones sociales.
 
 ---
-
 ## Componentes del Design Thinking
 
 - **Comprender el problema** 🔍
@@ -55,13 +56,6 @@ El Design Thinking se puede aplicar a cualquier problema que necesite una soluci
 - **Aplicarlo a diferentes dominios** 🌐
 
 ---
-
-## Design Thinking Canva en Obsidian
-
-![400x400](../../images/desgin-thinking.png)
-
----
-
 ## Herramientas
 
 ![](../../images/drawio_landing_page.png)
@@ -70,6 +64,11 @@ El Design Thinking se puede aplicar a cualquier problema que necesite una soluci
 
 ---
 
+### Design Thinking Canva en Obsidian
+
+![400x400](../../images/desgin-thinking.png)
+
+---
 ## Google Drawings
 
 ![](../../images/google_drawings_landing.png)
@@ -111,6 +110,14 @@ Link: https://docs.google.com/drawings/d/1cBOqUlmJ5NF0shSbG3enm4T4eSLA-ZV8o2X1yr
 
 ---
 
+### Dibujar para comprender. Casos de Visual Thinking en las empresas
+
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4TTDuCRiEx0?si=0eL9Nu4cG5M5Me8C" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+---
 ## Visual Storytelling
 
 ==> <mark style="background: #FFF3A3A6;">"The Back of the Napkin" de Dan Roam</mark>
