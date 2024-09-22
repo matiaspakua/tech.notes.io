@@ -623,41 +623,41 @@ La seguridad de la información (**InfoSEC**) y en general “seguridad digital�
 
 Las siguientes definiciones proveen el marco en el cual se debe considerar la seguridad desde el punto de vista del desarrollo de productos de software. Se presenta una muy breve descripción de aspectos teóricos, prácticos y algunas prácticas de implementación que se recomienda tener en cuenta al plantear una estrategia de ciberseguridad:
 
- * **Threat Model**: concepto militar que busca crear un escenario “único” para cada activo valioso e identificar las medidas de defensa disponibles. Se modela del perfil del atacante, los vectores de ataque probables, las vulnerabilidades existentes y casos realistas y no realistas de ataque. El modelado permite generar “conciencia” del estado de protección. 
- * **Vulnerabilidad Zero-Day**: Falla (o exploit) que expone al software/producto de alguna manera aún no solucionada o sin parche de seguridad disponible antes posibles ataques. 
+ * **Threat Model**: 🛡️🎯👥 concepto militar que busca crear un escenario “único” para cada activo valioso e identificar las medidas de defensa disponibles. Se modela del perfil del atacante, los vectores de ataque probables, las vulnerabilidades existentes y casos realistas y no realistas de ataque. El modelado permite generar “conciencia” del estado de protección. 
+ * **Vulnerabilidad Zero-Day**: 🚨0️⃣📅 Falla (o exploit) que expone al software/producto de alguna manera aún no solucionada o sin parche de seguridad disponible antes posibles ataques. 
  * **Principios Generales de Seguridad**: 
-	 * Aceptar que: “La seguridad total es imposible”. 
-	 * Implementar medidas como least privilege (controlar, limitar, no dar accesos). 
-	 * Simple es más seguro. 
-	 * No confiar en los usuarios, ser paranoico. 
-	 * Esperar lo inesperado, analizar casos límites. 
-	 * Defensa por “capas”, y niveles de defensa. 
-	 * Defensa a través de oscuridad (obscure). 
-	 * Lista Blanca/Lista Negra (allow/deny) 
-	 * Mapa de puntos de Exposición y transferencia de datos (canales). 
+	 * 🚫🔐 Aceptar que: “La seguridad total es imposible”. 
+	 * 🔑⬇️ Implementar medidas como least privilege (controlar, limitar, no dar accesos). 
+	 * ⚙️✔️ Simple es más seguro. 
+	 * 🙅‍♂️👤🔍 No confiar en los usuarios, ser paranoico. 
+	 * 🔮📉 Esperar lo inesperado, analizar casos límites. 
+	 * 🏰🔗 Defensa por “capas”, y niveles de defensa. 
+	 * 🌑🔒Defensa a través de oscuridad (obscure). 
+	 * 📋✅🚫Lista de permitidos / Lista de bloqueados (allow/deny) 
+	 * 🗺️🔌 Mapa de puntos de Exposición y transferencia de datos (canales). 
  * **Seguridad de los Datos (CIA)**: 
-	 * Confidentiality (confidencialidad). 
-	 * Integrity (integridad). 
-	 * Availability (disponibilidad).
+	 * 🔒📝 Confidentiality (confidencialidad). 
+	 * ✔️🔐 Integrity (integridad). 
+	 * ⏳🔄 Availability (disponibilidad).
  * **Buenas Prácticas Generales**: 
-	 * Filtrar entradas 
-	 * Filtrar salidas 
-	 * Sanitizar, analizar, validar, etiquetar variables, código privado. 
-	 * Credenciales, permisos y roles 
-	 * Clean-code, refactoring, 
-	 * estrategias de logging. 
-	 * Testing de seguridad / Pentesting 
+	 * 🚪🛑 Filtrar entradas 
+	 * 🚪✅Filtrar salidas 
+	 * 🧹🔬✔️ Sanitizar, analizar, validar, etiquetar variables, código privado. 
+	 * 🛡️👥🔑 Credenciales, permisos y roles 
+	 * ✍️🧹 Clean-code, refactoring, 
+	 * 📜📊 Estrategias de logging. 
+	 * 🛠️🔍Testing de seguridad / Pentesting 
  * **Ataques Comunes**: 
-	 * Ataque con credenciales: robo, elevación de privilegios, fuerza bruta, suffing. Protección con: Contraseñas robustas, Password Hashing, Login Throttling. 
-	 * IDOR (Insecure Direct Object Reference) o manipulación de URLs 
-	 * SQLi (Inyección de SQL). Manipular DB, robo datos. Protección con: control de inputs, sanitizar datos, uso de librerías del lenguaje/framework. 
-	 * XSS (Cross Site Scripting). Ataques manipulando sitios webs de terceros. Tipos de ataques: reflected, stored, DOM-based. Protección con CSP o Content Security Policy. Protección con: Validación de request de las API (GET/POST), usar tokens CSRF. 
-	 * Robo y Visibilización de Cookies. Limitar y encriptar datos sensibles. Proteger con: Uso de Sesiones, SSL, HTTPS, Sign-Cookie. 
-	 * Session Hijacking: Robo se sesiones activas. Proteger con HTTPS, SessionID. 
-	 * Session Fixation. Person-In-The-Middle attack. Proteger con: Validar Inputs, sanitización, CSP, Cookie Setting, HTTPS. 
-	 * RCE o Remote Code Execution. Ejecución de comandos en el servidor. Proteger con: Controles en el servidor, Firewall, Análisis de tráfico. 
-	 * File Upload Abuse. FUA, sobre-uso de almacenamiento, inyección de malware. 
-	 * Denial Of Service (DoS). Flooding (inundar) o Crashing (overflow, RunTime Error). Proteger con: Throttling a través de limitaciones; Filtering con reglas; Sinkholing con redirección para post-análisis; Blackholing redirigiendo los datos a la nada (/dev/null).
+	 * 🔐🔑💥 Ataque con credenciales: robo, elevación de privilegios, fuerza bruta, suffing. Protección con: Contraseñas robustas, Password Hashing, Login Throttling. 
+	 * 🌐🔓 IDOR (Insecure Direct Object Reference) o manipulación de URLs 
+	 * 💻💉📊 SQLi (Inyección de SQL). Manipular DB, robo datos. Protección con: control de inputs, sanitizar datos, uso de librerías del lenguaje/framework. 
+	 * 💻🎯📝 XSS (Cross Site Scripting). Ataques manipulando sitios webs de terceros. Tipos de ataques: reflected, stored, DOM-based. Protección con CSP o Content Security Policy. Protección con: Validación de request de las API (GET/POST), usar tokens CSRF. 
+	 * 🍪👀🕵 Robo y Visibilización de Cookies. Limitar y encriptar datos sensibles. Proteger con: Uso de Sesiones, SSL, HTTPS, Sign-Cookie. 
+	 * 💻🔗🔒 Session Hijacking: Robo se sesiones activas. Proteger con HTTPS, SessionID. 
+	 * 👤🔗💥 Session Fixation. Person-In-The-Middle attack. Proteger con: Validar Inputs, sanitización, CSP, Cookie Setting, HTTPS. 
+	 * 💻💥🖥️ RCE o Remote Code Execution. Ejecución de comandos en el servidor. Proteger con: Controles en el servidor, Firewall, Análisis de tráfico. 
+	 * 📂⚠️💾 File Upload Abuse. FUA, sobre-uso de almacenamiento, inyección de malware. 
+	 * 🌊🚫💻 Denial Of Service (DoS). Flooding (inundar) o Crashing (overflow, RunTime Error). Proteger con: Throttling a través de limitaciones; Filtering con reglas; Sinkholing con redirección para post-análisis; Blackholing redirigiendo los datos a la nada (/dev/null).
 
 
 <a name="2.5.14_metodologia_qa_automation"></a>

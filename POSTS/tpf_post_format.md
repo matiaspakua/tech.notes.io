@@ -320,7 +320,7 @@ Link a mis notas: https://matiaspakua.github.io/tech.notes.io/pages/sw_eng_speci
 
 
 ****
-30/09/2024
+26/09/2024
 ***
 
 Sobre mi TFP: DevSecOps desde la perspectiva de QA Automation, va el post #16: Metodología: DevOps
@@ -329,7 +329,90 @@ Terminamos de repasar las principales “prácticas”, ahora vamos a realizar u
 
 Desde una perspectiva académica, (Bass et al., 2015) definen DevOps como: “un conjunto de prácticas Fig. 20 destinadas a reducir el tiempo entre la realización de un cambio en un sistema y el momento en que el cambio se coloca en producción, garantizando al mismo tiempo una alta calidad”.
 
+Pilares técnicos:
 
+- Deployability 🚀
+- Modifiability🔧
+- Testability🧪
+- Monitorability 📈
+- Automation 🤖
+- Toolchain 🛠️
 
+Pilares culturales:
+
+- No trabajar en “silos”, aislados 🚫🏢❌
+- DevOps no es un “rol” o una “persona” 🤝👥💡
+- Generar ambiente “sin miedo” 😌👫🤝
+- Responsabilidad 🛡️🤝💪
+- Flujos de información 📊🔄📋
+- Colaboración 🤝💼🧑‍🤝‍🧑
+- Aprender de los errores 📝💡📢
+- Aplicar nuevas ideas 💡🛠️🎯
+- El concepto de "The Three Ways" en DevOps
 
 Link a mis notas: https://matiaspakua.github.io/tech.notes.io/pages/sw_eng_specialization/final_projects_specialization.html#2.5.12_metodologia_DevOps
+
+#devsecops
+#qaautomation
+#softwareengineeing
+#softwareprocess 
+#devops
+
+
+****
+30/09/2024
+***
+
+Sobre mi TFP: DevSecOps desde la perspectiva de QA Automation, va el post #17: Metodología: Seguridad
+
+La seguridad de la información o InfoSEC y en general “seguridad digital” tiene una gran importancia y cada vez más se incrementa la necesidad de implementar mejores mecanismos de seguridad digital, no solamente para los productos de software desarrollados, sino también para la infraestructura, herramientas, procesos y cultura en general. La idea de seguridad se basa en saber cuales son los riesgos y en base a eso tomar dos acciones:
+
+- Toma de conciencia del nivel de protección/exposición actual.
+- Definición medidas de protección.
+
+Aquí una lista de los principales y más conocidos conceptos de seguridad a tener en cuenta:
+
+- Threat Model 🛡️🎯👥
+- Vulnerabilidad Zero-Day 🚨0️⃣📅
+- Principios Generales de Seguridad
+    - Aceptar que: “La seguridad total es imposible”: 🚫🔐
+    - Implementar medidas como least privilege: 🔑⬇️
+    - Simple es más seguro: ⚙️✔️
+    - No confiar en los usuarios, ser paranoico: 🙅‍♂️👤🔍
+    - Esperar lo inesperado, analizar casos límites: 🔮📉
+    - Defensa por “capas”: 🏰🔗
+    - Defensa a través de oscuridad: 🌑🔒
+    - Lista de permitidos / Lista de bloqueados (allow/deny): 📋✅🚫
+    - Mapa de puntos de Exposición: 🗺️🔌
+- Seguridad de los Datos (CIA):
+    - Confidentiality (confidencialidad): 🔒📝
+    - Integrity (integridad): ✔️🔐
+    - Availability (disponibilidad): ⏳🔄
+- Buenas Prácticas Generales:
+    - Filtrar entradas: 🚪🛑
+    - Filtrar salidas: 🚪✅
+    - Sanitizar, analizar, validar: 🧹🔬✔️
+    - Credenciales, permisos y roles: 🛡️👥🔑
+    - Clean-code, refactoring: ✍️🧹
+    - Estrategias de logging: 📜📊
+    - Testing de seguridad / Pentesting: 🛠️🔍
+- Ataques Comunes:
+    - Ataque con credenciales: 🔐🔑💥
+    - IDOR (Insecure Direct Object Reference): 🌐🔓
+    - SQLi (Inyección de SQL): 💻💉📊
+    - XSS (Cross Site Scripting): 💻🎯📝
+    - Robo y Visibilización de Cookies: 🍪👀🕵️‍♀️
+    - Session Hijacking: 💻🔗🔒
+    - Session Fixation: 👤🔗💥
+    - RCE (Remote Code Execution): 💻💥🖥️
+    - File Upload Abuse: 📂⚠️💾
+    - Denial Of Service (DoS): 🌊🚫💻
+
+Link a mis notas: https://matiaspakua.github.io/tech.notes.io/pages/sw_eng_specialization/final_projects_specialization.html#2.5.13_metodologia_seguridad
+
+#devsecops
+#qaautomation
+#softwareengineeing
+#softwareprocess 
+#cybersecurity
+#infosec
