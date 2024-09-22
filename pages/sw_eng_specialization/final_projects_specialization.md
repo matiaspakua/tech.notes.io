@@ -675,3 +675,29 @@ La automatización de QA se considera como la implementación de técnicas y her
 La mayoría de los beneficios asociados se pueden resumir con palabras como eficiencia y reutilización. Se espera que la automatización de pruebas ayude a<mark style="background: #FFF3A3A6;"> ejecutar muchos casos de prueba de manera consistente de forma reiterada (regresión) en diferentes versiones del sistema bajo prueba</mark>. La automatización también puede facilitar disminuir la carga de trabajo de los ingenieros de software y liberarlos de tareas repetitivas. Todo esto tiene el potencial para aumentar la calidad del software y acortar los tiempos de prueba.
 
 Todas estas promesas hacen que la automatización de pruebas parezca atractiva, pero lograrlas en la vida real requiere mucho trabajo. Si la automatización no se hace bien será abandonada y las promesas nunca se cumplirán. 
+
+
+<a name="2.5.15_metodologia_estrategia_qa"></a>
+### 2.5.15. Metodología: Estrategía de QA
+
+El problema general con la automatización de pruebas parece ser olvidar que cualquier proyecto de automatización de pruebas es un proyecto de software por derecho propio. Los proyectos de software fallan si no siguen procesos y no se gestionan adecuadamente, y los proyectos de automatización de pruebas no son diferentes. Por éste motivo <mark style="background: #ADCCFFA6;">es fundamental desarrollar una estrategia de QA</mark>.
+
+A continuación se listan los principales tipos de pruebas que se recomienda automatizar, en lo posible, y que se deben considerar al momento de desarrollar una estrategía de QA:
+
+1. Gestión de Ambiente
+2. Checklists
+3. Herramientas y Procesos
+4. Testing Unitario
+5. Testing de Componente
+6. Testing de Integración
+7. Test de Sistema
+8. Testing de Seguridad
+9. Test de Aceptación
+10. A/B Testing (Kohavi, 2013)
+11. Herramientas (Linters, análisis de código estático)
+12. Reportes y herramientas de análisis y visualización.
+13. Repositorio de evidencias.
+14. Trazabilidad con requerimientos, bugs, funcionalidades, diseño, versiones.
+
+**Referencia:** Kohavi, R. (2013, December 12). Online Controlled Experiments: Introduction, Insights, Scaling, and Humbling Statistics. InfoQ. Retrieved February 23, 2022, from https://www.infoq.com/presentations/controlled-experiments/ 
+
