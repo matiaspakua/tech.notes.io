@@ -299,33 +299,37 @@ Link:
 ---
 
 ****
-23/08/2024
+23/09/2024
 ***
 
+Luego de las vacaciones y algunos eventos interesantes durante la semana pasada (Barcelona JUG MeetUp) y que estoy preparando una charla de Visual Thinking para solución de problemas y otra de recuperación de fallas en sistemas distribuidos usando temporal.io, retomo los "micro" post de mi TPF de prosgrado: DevSecOps desde la perspectiva de QA Automation.
 
-Comparto el posts 13 de mi TPF:  
-  
-DevSecOps desde la perspectiva de QA Automation sobre la práctica de: "Entrega Continua (CD)"  
-  
-La entrega continua es la capacidad de introducir cambios de todo tipo (incluidas nuevas funciones, cambios de configuración, correcciones de errores y experimentos) en producción o en manos de los usuarios, de forma segura, rápida y sostenible.  
-  
-La disciplina de Entrega continua (CD) implica que el software puede (o no) ser enviado a producción en cualquier momento. CD difiere del Despliegue Continuo (CD, mismo acrónimo) donde “siempre” el software pasa a producción.  
-  
-La complejidad en esta disciplina proviene de que se requiere un alto nivel de comunicación, coordinación y colaboración entre todos los equipos (Desarrollo, Operation, Delivery) y un alto grado de Testing (QA) y Automatización  
-  
-Link al blog: [https://lnkd.in/dGdRJYxp](https://lnkd.in/dGdRJYxp)  
-  
-[hashtag#devsecops](https://www.linkedin.com/feed/hashtag/?keywords=devsecops&highlightedUpdateUrns=urn%3Ali%3Aactivity%3A7232810612274167808)  
-[hashtag#qaautomation](https://www.linkedin.com/feed/hashtag/?keywords=qaautomation&highlightedUpdateUrns=urn%3Ali%3Aactivity%3A7232810612274167808)  
-[hashtag#softwareengineeing](https://www.linkedin.com/feed/hashtag/?keywords=softwareengineeing&highlightedUpdateUrns=urn%3Ali%3Aactivity%3A7232810612274167808)  
-[hashtag#softwareprocess](https://www.linkedin.com/feed/hashtag/?keywords=softwareprocess&highlightedUpdateUrns=urn%3Ali%3Aactivity%3A7232810612274167808)  
-[hashtag#continuousdelivery](https://www.linkedin.com/feed/hashtag/?keywords=continuousdelivery&highlightedUpdateUrns=urn%3Ali%3Aactivity%3A7232810612274167808)
+Aquí va el post #15: Práctica: Estado Actual de Madurez
 
+La implementación de una nueva metodología, procesos o herramientas requiere, para ser efectiva, que se identifique primero el estado actual en el cual está la organización y/o equipo, medirlo y luego planificar mediciones con el objetivo de analizar y evaluar el retorno de inversión (ROI).
 
----
+O sea: "Saber donde estamos, para entender donde queremos ir..."
+
+Link a mis notas: https://matiaspakua.github.io/tech.notes.io/pages/sw_eng_specialization/final_projects_specialization.html#2.5.11_practica_estado_actual_madurez
+
+#devsecops
+#qaautomation
+#softwareengineeing
+#softwareprocess 
+#softwarematurity
 
 
 ****
-26/08/2024
+30/09/2024
 ***
 
+Sobre mi TFP: DevSecOps desde la perspectiva de QA Automation, va el post #16: Metodología: DevOps
+
+Terminamos de repasar las principales “prácticas”, ahora vamos a realizar un repaso de las “metodologías”.
+
+Desde una perspectiva académica, (Bass et al., 2015) definen DevOps como: “un conjunto de prácticas Fig. 20 destinadas a reducir el tiempo entre la realización de un cambio en un sistema y el momento en que el cambio se coloca en producción, garantizando al mismo tiempo una alta calidad”.
+
+
+
+
+Link a mis notas: https://matiaspakua.github.io/tech.notes.io/pages/sw_eng_specialization/final_projects_specialization.html#2.5.12_metodologia_DevOps

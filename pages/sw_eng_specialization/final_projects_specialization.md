@@ -565,24 +565,24 @@ Desde una perspectiva académica, (Bass et al., 2015) definen DevOps como: "un c
 
 Para que una cultura de DevOps pueda ser implementada, se requiere que tanto el equipo como la organización tengan en claro los pilares técnicos y culturales sobre los cuales ésta metodología se sustenta para que sea exitosa. Desde el punto de vista técnico, estos pilares son: 
 
- * **Deployability**: la capacidad de un producto o servicio de ser puesto en producción o desplegado en distintos ambientes, por ejemplo: Dev, QA, pre-producción, producción, etc. 
- * **Modifiability**: la capacidad de un producto o servicio de ser modificado. Éste es un atributo fundamental de cualquier “buen” software. 
- * **Testability**: la capacidad de un producto o servicio de ser puesto bajo pruebas según sea el caso. Un aspecto importante es tener en claro los casos de negocio que el sistema debe cumplir y tener pruebas que validen esos "casos de negocio" tanto para validar los mismo como para ejecutar regresiones frecuentes.
- * **Monitorability**: la capacidad de un producto o servicio de ser monitoreado. 
- * **Automation**: la automatización (QA Automation) es un principio fundamental para lograr el éxito de DevOps y CI/CD es un componente crítico. 
- * **Toolchain**: Conjunto de herramientas y plataformas bien definidas y compatibles con los procesos. Es importante destacar que las herramientas “proveen el soporte a DevOps” y no deben orientar la aplicación de la metodología. 
+- **Deployability**: 🚀 la capacidad de un producto o servicio de ser puesto en producción o desplegado en distintos ambientes, por ejemplo: Dev, QA, pre-producción, producción, etc.
+- **Modifiability**: 🔧 la capacidad de un producto o servicio de ser modificado. Este es un atributo fundamental de cualquier “buen” software.
+- **Testability**: 🧪 la capacidad de un producto o servicio de ser puesto bajo pruebas según sea el caso. Un aspecto importante es tener claros los casos de negocio que el sistema debe cumplir y tener pruebas que validen esos "casos de negocio", tanto para validar los mismos como para ejecutar regresiones frecuentes.
+- **Monitorability**: 📈 la capacidad de un producto o servicio de ser monitoreado.
+- **Automation**: 🤖 la automatización (QA Automation) es un principio fundamental para lograr el éxito de DevOps, y CI/CD es un componente crítico.
+- **Toolchain**: 🛠️ Conjunto de herramientas y plataformas bien definidas y compatibles con los procesos. Es importante destacar que las herramientas “proveen el soporte a DevOps” y no deben orientar la aplicación de la metodología.
 
 
 Desde el punto de vista cultural, otros aspectos importantes incluyen: 
 
- * **No trabajar en “silos”, aislados**. 
- * **DevOps** no es un “rol” o una “persona”, es un equipo y una mentalidad, aún cuando pueden existir roles facilitadores (Fisher, 2021) 
- * **Generar ambiente “sin miedo”**, ambiente de respeto e igualdad dentro del equipo y la organización. 
- * **Responsabilidad** compartida y confianza 
- * **Flujos** de información claros, bien definidos y acordados. 
- * Colaboración 
- * Aprender de los errores, comunicar y aplicar “PostMortem Communication” (Mueller & Wickett, 2020) 
- * Aplicar nuevas ideas, y experimentar.
+- **No trabajar en “silos”, aislados**: 🚫🏢❌
+- **DevOps** no es un “rol” o una “persona”, es un equipo y una mentalidad, aún cuando pueden existir roles facilitadores (Fisher, 2021): 🤝👥💡
+- **Generar ambiente “sin miedo”**, ambiente de respeto e igualdad dentro del equipo y la organización: 😌👫🤝
+- **Responsabilidad** compartida y confianza: 🛡️🤝💪
+- **Flujos** de información claros, bien definidos y acordados: 📊🔄📋
+- **Colaboración**: 🤝💼🧑‍🤝‍🧑
+- **Aprender de los errores, comunicar y aplicar “PostMortem Communication” (Mueller & Wickett, 2020)**: 📝💡📢
+- **Aplicar nuevas ideas, y experimentar**: 💡🛠️🎯
 
 **Referencia:** Fisher, B. (2021, December). Becoming a DevOps Engineer: Role and Responsibilities. Udemy Blog. Retrieved February 22, 2022, from https://blog.udemy.com/devops-engineer/
 
