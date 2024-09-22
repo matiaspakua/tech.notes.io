@@ -39,6 +39,12 @@
 		- [2.5.10. Práctica: APIs](#2.5.10_practica_APIs)
 		- [2.5.11. Práctica: Estado Actual de Madurez](#2.5.11_practica_estado_actual_madurez)
 		- [2.5.12. Metodología: DevOps](#2.5.12_metodologia_DevOps)
+		- [2.5.13. Metodología: Seguridad](#2.5.13_metodologia_seguridad)
+		- [2.5.14. Metodología: QA Automation](#2.5.14_metodologia_qa_automation)
+		- [2.5.15. Metodología: estrategia de QA](#2.5.15_metodologia_estrategia_qa)
+		- [2.5.16. Metodología: Metodología: DevSecOps](#2.5.16_metodologia_metolodogia_devsecops)
+		- [](#)
+		- [](#)
 		- [](#)
 
 <a name="1.introduction"></a>
