@@ -92,7 +92,7 @@ El primer concepto sienta las bases del presente trabajo. Los pilares de la inge
 <a name="2.3_cultura_personas"></a>
 ## 2.3. Cultura y las personas
 
-Para el éxito en la implementación de cualquier estrategía de desarrollo de productos de software es importante que exista una buena cultura en la organización [Organizational Culture. 2018], que se enfoque en los <mark style="background: #FFF3A3A6;">procesos</mark>, las <mark style="background: #BBFABBA6;">personas</mark> y la <mark style="background: #ADCCFFA6;">cultura</mark> como se muestra en la Fig. 3. Una “buena” cultura debe promover el bienestar común e individual, generar entusiasmo en las personas, establecer los objetivos y estrategías de la empresa en sinergía con las personas, y sobre todo, deber ser una “cultura compartida”. Esta cultura debe ser comunicada y entendida sin ambigüedades.
+Para el éxito en la implementación de cualquier estrategia de desarrollo de productos de software es importante que exista una buena cultura en la organización [Organizational Culture. 2018], que se enfoque en los <mark style="background: #FFF3A3A6;">procesos</mark>, las <mark style="background: #BBFABBA6;">personas</mark> y la <mark style="background: #ADCCFFA6;">cultura</mark> como se muestra en la Fig. 3. Una “buena” cultura debe promover el bienestar común e individual, generar entusiasmo en las personas, establecer los objetivos y estrategias de la empresa en sinergía con las personas, y sobre todo, deber ser una “cultura compartida”. Esta cultura debe ser comunicada y entendida sin ambigüedades.
 
 La importancia de que las personas estén “motivadas” y “positivas” para llevar adelante el desarrollo y la mejora continua es un pilar fundamental del éxito de una organización.
 
@@ -500,7 +500,7 @@ En el desarrollo de productos de software, API-first (Postman, Inc., 2022) es un
 **Referencia:** Lane, K. (2021, December 1). What Is an API-First Company? Postman Blog. Retrieved February 21, 2022, from https://blog.postman.com/what-is-an-api-first-company/
 
 
-A continuación se listan las etapas (Lane, 2022) de implementación de una estrategía API-first:
+A continuación se listan las etapas (Lane, 2022) de implementación de una estrategia API-first:
 
 1. 🛠️ **Definiciones iniciales**: equipo de trabajo, espacio para escribir, comunicar, modelar; y repositorio centralizado.
 2.✏️ **Diseño**: Basarse en la especificación OpenAPI (The Linux Foundation, 2021) para un vocabulario común, mock servers y modelado de endpoints.
@@ -639,7 +639,7 @@ Las siguientes definiciones proveen el marco en el cual se debe considerar la se
 	 * Sanitizar, analizar, validar, etiquetar variables, código privado. 
 	 * Credenciales, permisos y roles 
 	 * Clean-code, refactoring, 
-	 * Estrategías de logging. 
+	 * estrategias de logging. 
 	 * Testing de seguridad / Pentesting 
  * **Ataques Comunes**: 
 	 * Ataque con credenciales: robo, elevación de privilegios, fuerza bruta, suffing. Protección con: Contraseñas robustas, Password Hashing, Login Throttling. 
@@ -662,7 +662,7 @@ QA es una metodología que abarca todo el ciclo de vida de desarrollo de softwar
 En el presente trabajo se considera a QA como el marco de trabajo que se implementa a través de la aplicación de:
 
  * Las metodologías y prácticas (sección 2.5) 
- * Las estrategías de diseño (sección 3)
+ * Las estrategias de diseño (sección 3)
  * Las herramientas (sección 4)
  * La implementación y operación (sección 5)
 
@@ -678,11 +678,11 @@ Todas estas promesas hacen que la automatización de pruebas parezca atractiva, 
 
 
 <a name="2.5.15_metodologia_estrategia_qa"></a>
-### 2.5.15. Metodología: Estrategía de QA
+### 2.5.15. Metodología: estrategia de QA
 
 El problema general con la automatización de pruebas parece ser olvidar que cualquier proyecto de automatización de pruebas es un proyecto de software por derecho propio. Los proyectos de software fallan si no siguen procesos y no se gestionan adecuadamente, y los proyectos de automatización de pruebas no son diferentes. Por éste motivo <mark style="background: #ADCCFFA6;">es fundamental desarrollar una estrategia de QA</mark>.
 
-A continuación se listan los principales tipos de pruebas que se recomienda automatizar, en lo posible, y que se deben considerar al momento de desarrollar una estrategía de QA:
+A continuación se listan los principales tipos de pruebas que se recomienda automatizar, en lo posible, y que se deben considerar al momento de desarrollar una estrategia de QA:
 
 1. Gestión de Ambiente
 2. Checklists
@@ -701,3 +701,57 @@ A continuación se listan los principales tipos de pruebas que se recomienda aut
 
 **Referencia:** Kohavi, R. (2013, December 12). Online Controlled Experiments: Introduction, Insights, Scaling, and Humbling Statistics. InfoQ. Retrieved February 23, 2022, from https://www.infoq.com/presentations/controlled-experiments/ 
 
+
+<a name="2.5.16_metodologia_metolodogia_devsecops"></a>
+### 2.5.16. Metodología: Metodología: DevSecOps
+
+
+La metodología DevSecOps (Crawford, 2019) implica pensar desde el principio en la seguridad de las aplicaciones y de la infraestructura, ver  Fig. 23. También implica automatizar los aspectos de seguridad para impedir que se ralentice el flujo de trabajo de DevOps. Para cumplir con estos objetivos es necesario seleccionar aplicar ciertas prácticas y herramientas adecuadas para integrar la seguridad de manera permanente, como acordar el uso de un entorno de desarrollo integrado (IDE) con funciones de seguridad hasta el testing y automatización de ambientes e infraestructura de hardware.
+
+**Referencia:** Crawford, A. (2019, September 12). What is DevSecOps? YouTube. Retrieved February 20, 2022, from https://www.youtube.com/watch?v=J73MELGF6u0 
+
+Las prácticas de DevSecOps se expresan brevemente en la página oficial de la organización https://www.devsecops.org/ :
+
+#### Manifiesto DevSecOps
+
+| Aprender siempre                             | sobre decir "NO"                                   |
+| -------------------------------------------- | ------------------------------------------------------ |
+| Ciencia de datos y seguridad                 | sobre miedo, incerteza o duda                          |
+| Contribución y colaboración abierta          | sobre solo requerimientos de seguridad                 |
+| Consumir servicios seguros sobre API's       | sobre controles de seguridad mandatorios y "papeleo"   |
+| Scores orientados por el negocio             | Sobre "sellos" de seguridad                            |
+| Testing de exploit usando equipos Red y Blue | sobre basarse en escaneos de vulnerabilidades teóricos |
+| Monitoreo proactivo 24x7                     | sobre reacción al ser informados de un incidente       |
+| Información compartida sobre amenazas        | sobre mantener la información oculta para nosotros     |
+| Cumplimientos en la Operación                | sobre checklists y pizarras                                                       |
+
+
+Si se observa desde un punto de vista histórico, existen 3 grandes movimientos que dieron el impulso final a DevSecOps y a QA Automation (Lietz, 2020):
+
+- Waterfall fue evolucionando hacia Agile, que luego trascendió a DevOps.
+- Los productos tipo monolitos se han convertido en microservicios.
+- Sistemas basados en datos centralizados ahora está dando paso a ambientes cloud.
+
+**Referencia:** Lietz, S. (2020). History of DevSecOps. SKILup Day. https://www.devopsinstitute.com/skilup-days-devsecops/ 
+
+![](../../images/fig_23_DevOps_vs_DevSecOps_oncepto.png)
+
+**Figura 23: DevOps vs DevSecOps. Concepto. Imagen Fuente (DevSecOps, 2021)**
+
+**Referencia:** File:DevOps vs DevSecOps Mginise.jpg. (2021, November 29). Wikimedia Commons, the free media repository. Retrieved 21:45, February 23, 2022 from https://commons.wikimedia.org/w/index.php?title=File:DevOps_vs_DevSecOps_Mginise.jpg&oldid=610868212. 
+
+Habiendo planteado los conceptos necesarios del marco teórico, se puede consolidar y analizar ahora el conjunto de actividades, fases y flujo de la metodología en su conjunto. En la Fig. 24 se puede observar las fases, etapas y el flujo continuo de integración y entrega:
+
+- <mark style="background: #FFF3A3A6;">Dev</mark>: Plan, Develop, Build, Test, Releases.
+- <mark style="background: #ADCCFFA6;">Ops</mark>: Deliver, Deploy, Operate, Monitor, Feedback.
+- <mark style="background: #BBFABBA6;">Sec</mark>: Requirements Analysis, Secure Coding, SAST, WhiteBox DAST, BlackBox DAST, Digital Sign, Secure Transfer, Secure Config, Security Scan, Security Patch, Security Audit, Security Monitor, Security Analysis.
+
+![](../../images/fig_24_dev_sec_ops_etapas_fases_flujos.png)
+
+**Figura 24: DevSecOps: Etapas, Fases, Flujo. Imagen Fuente**
+
+**Referencia:**  https://github.com/6mile/DevSecOps-Playbook  
+
+Es evidente que tantas etapas de aseguramiento de calidad del producto serían extremadamente costosas y difíciles de implementar si no se emplea una estrategia de automatización que tenga en cuenta no solo la arquitectura del software, la infraestructura y el delivery, sino además las etapas de análisis, diseño y hasta la definición de requerimientos.
+
+Finalmente, desde la estrategia de alto nivel hasta el modelado de los test unitarios de seguridad de un producto de software, puede verse el diseño como un concepto transversal.
