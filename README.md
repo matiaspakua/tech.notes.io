@@ -82,6 +82,17 @@ Charlas --> [Notas de las charlas](/pages/we_are_developers_wc_2024/landing.md)
 
  * [Visual Thinking](/pages/cursos/visual_thinking.md)
 
+# 🎓 UCA posgrado de Especialización en Ingeniería de Software 💻
+
+![300x150](images/uca_logo.png)
+
+ - [Materias y notas de la especialización](/pages/sw_eng_specialization/landing.md)
+
+
+# UP (U. de Palermo) Master en tecnología de la Información
+
+ - [Materias y notas del master](/pages/master_information_tech/landing.md)
+
 # 📚 Libros leídos
 
  * [Modern Software Engineering: Doing What Works to Build Better Software Faster, By David Farley](/pages/books/modern_software_engineering.md)
@@ -120,17 +131,6 @@ Charlas --> [Notas de las charlas](/pages/we_are_developers_wc_2024/landing.md)
 - [The Architecture of Open Source Applications. A book, a web site](http://aosabook.org/en/index.html)
 - [Hexagonal Me](https://jmgarridopaz.github.io/content/articles.html)  <span style="color:red"> nueva web para chusmear!</span>
 
-# 🎓 UCA posgrado de Especialización en Ingeniería de Software 💻
-
-![300x150](images/uca_logo.png)
-
- - [Materias y notas de la especialización](/pages/sw_eng_specialization/landing.md)
-
-
-# Universidad de Palermo Master en tecnología de la Información
-
- - [Materias y notas del master](/pages/master_information_tech/landing.md)
-
 
 # Otros Libros, Novelas, etc.
 
@@ -147,7 +147,7 @@ Charlas --> [Notas de las charlas](/pages/we_are_developers_wc_2024/landing.md)
  * 100 Años de Soledad, Gabriel Garcia Marquez
  * Imperio. En la Arena Estelar.
  * Cuentos completos de Robots.
- * 1984. George Orwell (23%)
+ * 1984 George Orwell (54%)
 
 ---
 
