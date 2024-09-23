@@ -26,18 +26,18 @@ Nosotros trabajamos con abstracciones, pero hay niveles de abstracción. El prob
 ---
 ### Complejidad de los sistemas
 
-![600x400](../../images/durable_execution_complexity.png)
+![700x500](../../images/durable_execution_complexity.png)
 
 ---
 ### Propiedad de un sistema monolito
 
-![600x400](../../images/durable_execution_monolito_transaccion.png)
+![700x500](../../images/durable_execution_monolito_transaccion.png)
 
 
 ---
 ### Concepto de Transaccionalidad
 
-![600x400](../../images/durable_execution_transaccional.png)
+![700x500](../../images/durable_execution_transaccional.png)
 
 ---
 
@@ -82,6 +82,10 @@ Ref. https://en.wikipedia.org/wiki/Event-driven_architecture
 <mark style="background: #FFF3A3A6;">Eventos</mark> => son variables globales en sistemas distribuidos. ATENCION.
 
 ---
+
+![](../../images/event_driven_architecture_schema.png)
+
+---
 ## Durable Execution 
 
 =><mark style="background: #FFF3A3A6;"> ejecución que no crashea por causas de fallas a nivel sistema</mark>.
@@ -97,6 +101,10 @@ Ref. https://en.wikipedia.org/wiki/Event-driven_architecture
 4. Logica de Retry
 5. Comunicación asincronica
 6. Times Durables.
+
+---
+
+![](../../images/durable_execution_temporal.io.png)
 
 ---
 
