@@ -416,3 +416,27 @@ Link a mis notas: https://matiaspakua.github.io/tech.notes.io/pages/sw_eng_speci
 #softwareprocess 
 #cybersecurity
 #infosec
+
+
+
+****
+30/09/2024
+***
+
+Sobre mi TFP: DevSecOps desde la perspectiva de QA Automation, va el post #18: Metodología: QA Automation
+
+QA es una metodología que abarca todo el ciclo de vida de desarrollo de software (SDLC). QA describe los esfuerzos sistemáticos que se realizan para garantizar que los productos entregados a los clientes cumplan con las expectativas contractuales (también conocidas como expectativas del negocio) y otras como por ejemplo: rendimiento, diseño, confiabilidad, usabilidad, mantenibilidad y operación. 
+
+La automatización de QA se considera como la implementación de técnicas y herramientas automatizadas en la ejecución de pruebas en el producto o servicio de software que se está desarrollando e informar sobre los resultados, de manera tal que la intervención humana se reduzca al mínimo y se pueda enfocar el esfuerzo en otras tareas.
+
+Todas estas promesas hacen que la automatización de pruebas parezca atractiva, pero lograrlas en la vida real requiere mucho trabajo. Si la automatización no se hace bien será abandonada y las promesas nunca se cumplirán. 
+
+Link a mis notas: https://matiaspakua.github.io/tech.notes.io/pages/sw_eng_specialization/final_projects_specialization.html#2.5.14_metodologia_qa_automation
+
+#devsecops
+#qaautomation
+#softwareengineeing
+#softwareprocess 
+#qaautomation 
+#softwaretesting
+#softwarequality
