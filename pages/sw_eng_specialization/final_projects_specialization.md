@@ -43,7 +43,7 @@
 		- [2.5.14. Metodología: QA Automation](#2.5.14_metodologia_qa_automation)
 		- [2.5.15. Metodología: estrategia de QA](#2.5.15_metodologia_estrategia_qa)
 		- [2.5.16. Metodología: Metodología: DevSecOps](#2.5.16_metodologia_metolodogia_devsecops)
-		- [](#)
+- [3. Diseño](#3.diseño)
 		- [](#)
 		- [](#)
 
@@ -761,3 +761,33 @@ Habiendo planteado los conceptos necesarios del marco teórico, se puede consoli
 Es evidente que tantas etapas de aseguramiento de calidad del producto serían extremadamente costosas y difíciles de implementar si no se emplea una estrategia de automatización que tenga en cuenta no solo la arquitectura del software, la infraestructura y el delivery, sino además las etapas de análisis, diseño y hasta la definición de requerimientos.
 
 Finalmente, desde la estrategia de alto nivel hasta el modelado de los test unitarios de seguridad de un producto de software, puede verse el diseño como un concepto transversal.
+
+---
+
+<a name="3.diseño"></a>
+# 3. Diseño
+
+El concepto de diseño es muy amplio. En el presente trabajo se va a considerar el diseño no solo desde la perspectiva del desarrollo de código sino de todo el espectro de actividades asociadas al desarrollo de un producto, a saber:
+
+- Diseño de la Arquitectura
+- Diseño del flujo de trabajo de los equipos de QA, Dev, Sec y Ops.
+- Diseño de la UX/UI de los usuarios
+- Diseño de las Pruebas Funcionales
+- Diseño de la Seguridad
+- Diseño de la Documentación
+- Diseño de la Infraestructura
+- Diseño de los procesos de Soporte y Mantenimiento.
+
+El diseño, según (Martin, 2011, 15) se puede definir como:
+
+```
+Mucho se ha escrito sobre los principios y patrones de diseño de software que soportan estructuras que son flexibles y mantenibles.
+
+Los desarrolladores de software memorizan estas cosas y se esfuerzan por adaptar su software a ellas. Pero hay un truco para esto que muy pocos desarrolladores de software siguen: si desean que su software sea flexible, ¡tiene que flexibilizarlo! La única forma de demostrar que su software es fácil de cambiar es que sea sencillo hacer cambios en él. Y cuando descubren que los cambios no son tan fáciles como se pensaba, entonces se debe refinar el diseño para que el próximo cambio sea más fácil.
+
+Bob Martin
+```
+
+**Referencia:** Martin, R. C. (2011). The Clean Coder: A Code of Conduct for Professional Programmers. Prentice Hall. 
+
+Como idea general que dará pie al resto del capítulo se plantea lo siguiente: un buen producto de software es aquel diseñado para cambiar, evolucionar, adaptarse a lo nuevo. De aquí la importancia de aplicar desde un inicio el diseño.
