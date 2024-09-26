@@ -111,7 +111,9 @@ Ref. https://en.wikipedia.org/wiki/Event-driven_architecture
 ### Demo: Implementación
 
  - Usando event-sourcring.
- - Ejemplo de un banco y transacciones, en un código se ejecuta una transferencia y en el evento donde se hace el deposito, el paso 5, justo falla. Usando un historial de eventos se puede recuperar la condición inicial.
+ - Ejemplo de un banco y transacciones.
+
+
 
 ---
 ### Armar ambiente dev
@@ -153,6 +155,14 @@ Básicamente la aplicación es lo siguiente:
 
 ---
 
+1) Iniciar: TransferApp
+2) Ver en la UI el workflow en progreso
+3) Iniciar un worker: MoneyTransferWorker (hace el Withdraw y el Deposit )
+4) 
+
+
+---
+
 # Video Tutorial
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/wIpz4ioK0gI?si=xS7z-_UsLxl0McCV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -160,7 +170,9 @@ Básicamente la aplicación es lo siguiente:
 
 ---
 
-## Durable Execution platform
+# Temporal.io  Durable Execution platform
 
-temporal.io
+Web: https://temporal.io
+Github original: https://github.com/temporalio/money-transfer-project-java
+
 
