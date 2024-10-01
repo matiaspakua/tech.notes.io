@@ -659,14 +659,51 @@ Las siguientes definiciones proveen el marco en el cual se debe considerar la se
 En éste ejemplo, si no protegemos una API correctamente, cualquier petición que exponga el ID del usuario (como la URL debajo) puede permitir conocer los detalles de cualquier otro usuario manipulando y cambiando el ID:
 
 ```
-https://example.com/user/12345
+GET https://example.com/user/{userId}
+```
+
+```bash
+// un usuario cualquiera
+GET https://example.com/user/12345
+
+
+// admin user
+GET https://example.com/user/10000
 ```
 
 
-
 * 💻💉📊 SQLi (Inyección de SQL). Manipular DB, robo datos. Protección con: control de inputs, sanitizar datos, uso de librerías del lenguaje/framework. 
+
+[![](https://mermaid.ink/img/pako:eNpdkk1uwjAQha9ieQ3qPotKkPCTFqS2aVcOC2MPwSXxRLajliKO1BVH4GI1cUhps0le3jee8bMPVKAEGtHC8HpLXpNcE_-MWPa8UCTVexBCnU-aSCD-14oMh_dkzJZcq7opee-NuYXLO-EO7apbpIVj9oJr_O-NWy9hqbZg-lXi80mqAsmSl0ootNjRcUtP2EgIsEg0klHj0KgvLq9I0iJTtkSpNkr8TnbbddJCMzb5rNGqHkn1Bk3VlWSgrVqX4EtC0Zw9GXRdDiGAlMWoncEyVNeNu3aYt_4Dy3xAzs9n_vQP7iN7s20gC7U2YM7f3HpVkgXoouHvcDc1vIIPNLt-hrC7eRDTWzG7CjqgFfhdKOlP83Axc-q2UEFOI_8pudnlNNdHz3EfXrbXgkbONDCgBptiS6MNL61XTS25g0RxfyWqgBx_AGMwtHM?type=png)](https://mermaid.live/edit#pako:eNpdkk1uwjAQha9ieQ3qPotKkPCTFqS2aVcOC2MPwSXxRLajliKO1BVH4GI1cUhps0le3jee8bMPVKAEGtHC8HpLXpNcE_-MWPa8UCTVexBCnU-aSCD-14oMh_dkzJZcq7opee-NuYXLO-EO7apbpIVj9oJr_O-NWy9hqbZg-lXi80mqAsmSl0ootNjRcUtP2EgIsEg0klHj0KgvLq9I0iJTtkSpNkr8TnbbddJCMzb5rNGqHkn1Bk3VlWSgrVqX4EtC0Zw9GXRdDiGAlMWoncEyVNeNu3aYt_4Dy3xAzs9n_vQP7iN7s20gC7U2YM7f3HpVkgXoouHvcDc1vIIPNLt-hrC7eRDTWzG7CjqgFfhdKOlP83Axc-q2UEFOI_8pudnlNNdHz3EfXrbXgkbONDCgBptiS6MNL61XTS25g0RxfyWqgBx_AGMwtHM)
+
+El ejemplos más clásico de SQLi sería: si tenemos una consulta SQL como esta:
+
+```sql
+SELECT * FROM usuarios WHERE usuario = 'admin' AND contraseña = 'password';
+```
+
+Si un atacante inserta código malicioso, la consulta podría convertirse en:
+
+```sql
+
+SELECT * FROM usuarios WHERE usuario = 'admin' OR '1'='1' AND contraseña = 'password';
+```
+Esto podría permitir el acceso no autorizado a la base de datos.
+
+
 * 💻🎯📝 XSS (Cross Site Scripting). Ataques manipulando sitios webs de terceros. Tipos de ataques: reflected, stored, DOM-based. Protección con CSP o Content Security Policy. Protección con: Validación de request de las API (GET/POST), usar tokens CSRF. 
+
+[![](https://mermaid.ink/img/pako:eNpdUUtuwjAQvcrIa1D3WVSCBFIqISKcfiSHhXEGsEjs1J8FQpyqR-jF6jjQlnrl9xu90ZyJ0DWShOwN7w5QZpWC8CbsnVJIjbYWqHQIVBjZOan2GxiPH2HKllzJzjdcyK9PBTX2NqktvOG2RyUagSG-GeZNYyplpeyCJ-gTxz883uQ0yhlb465B4bC-42eMOm3-kXOWrZbjLbeRH5ScFUY7FLHTUPSJpbSAVCuHygFF4Y10Jyh0I8XpOjCPzgV75Y2sfxdaY9_QxboNtzApFpDPyodiRcu75DN7sTourY-oLKR0Pf_plEVLPoDZXzC_ATIiLZqWyzrc4dyLFXEHbLEiSfjW3BwrUqlL8HHvND0pQRJnPI6I0X5_IMmONzYg39XcYSZ5OGZ7ZS_fVpGXBQ?type=png)](https://mermaid.live/edit#pako:eNpdUUtuwjAQvcrIa1D3WVSCBFIqISKcfiSHhXEGsEjs1J8FQpyqR-jF6jjQlnrl9xu90ZyJ0DWShOwN7w5QZpWC8CbsnVJIjbYWqHQIVBjZOan2GxiPH2HKllzJzjdcyK9PBTX2NqktvOG2RyUagSG-GeZNYyplpeyCJ-gTxz883uQ0yhlb465B4bC-42eMOm3-kXOWrZbjLbeRH5ScFUY7FLHTUPSJpbSAVCuHygFF4Y10Jyh0I8XpOjCPzgV75Y2sfxdaY9_QxboNtzApFpDPyodiRcu75DN7sTourY-oLKR0Pf_plEVLPoDZXzC_ATIiLZqWyzrc4dyLFXEHbLEiSfjW3BwrUqlL8HHvND0pQRJnPI6I0X5_IMmONzYg39XcYSZ5OGZ7ZS_fVpGXBQ)
+
+
+
 * 🍪👀🕵 Robo y Visibilización de Cookies. Limitar y encriptar datos sensibles. Proteger con: Uso de Sesiones, SSL, HTTPS, Sign-Cookie. 
+
+[![](https://mermaid.ink/img/pako:eNp9kU1OwzAQha9ied2IfRZIaZKmBYQqHNg4LFxnSKwmnsh2JErVU3EELobJD1WLhFeeed88j2eOVGIJNKSVEV1N8qTQxJ-IP-EOyYG8KKt2qlEfQqqvT01KIDHiXoF9JUFwS5Y8fe_Qql81EQ4tYaB9XeOp0W85wDGPG9RnJwZWob6CEh5JCRbJI5Kod2j82yVOSDwgKX_2-rmV2cvbTlwycCu-0Q6MhO5P84UewYxvDTqQAzB-aT27X7WXDeqGM_Zws87zLbvI33GmKh2M_hfKPU-1NKpz4p8hjQXpUJCNwWoO6IK2YFqhSr-n449YUFdDCwUN_bUUZl_QQp88J_zA2EFLGjrTw4Ia7Kuahm-isT7qu1I4SJTwy26n7Okbhdynpw?type=png)](https://mermaid.live/edit#pako:eNp9kU1OwzAQha9ied2IfRZIaZKmBYQqHNg4LFxnSKwmnsh2JErVU3EELobJD1WLhFeeed88j2eOVGIJNKSVEV1N8qTQxJ-IP-EOyYG8KKt2qlEfQqqvT01KIDHiXoF9JUFwS5Y8fe_Qql81EQ4tYaB9XeOp0W85wDGPG9RnJwZWob6CEh5JCRbJI5Kod2j82yVOSDwgKX_2-rmV2cvbTlwycCu-0Q6MhO5P84UewYxvDTqQAzB-aT27X7WXDeqGM_Zws87zLbvI33GmKh2M_hfKPU-1NKpz4p8hjQXpUJCNwWoO6IK2YFqhSr-n449YUFdDCwUN_bUUZl_QQp88J_zA2EFLGjrTw4Ia7Kuahm-isT7qu1I4SJTwy26n7Okbhdynpw)
+
+
+
+
 * 💻🔗🔒 Session Hijacking: Robo se sesiones activas. Proteger con HTTPS, SessionID. 
 * 👤🔗💥 Session Fixation. Person-In-The-Middle attack. Proteger con: Validar Inputs, sanitización, CSP, Cookie Setting, HTTPS. 
 * 💻💥🖥️ RCE o Remote Code Execution. Ejecución de comandos en el servidor. Proteger con: Controles en el servidor, Firewall, Análisis de tráfico. 
