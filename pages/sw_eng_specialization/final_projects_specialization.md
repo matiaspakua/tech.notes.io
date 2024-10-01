@@ -688,20 +688,20 @@ El problema general con la automatización de pruebas parece ser olvidar que cua
 
 A continuación se listan los principales tipos de pruebas que se recomienda automatizar, en lo posible, y que se deben considerar al momento de desarrollar una estrategia de QA:
 
-1. Gestión de Ambiente
-2. Checklists
-3. Herramientas y Procesos
-4. Testing Unitario
-5. Testing de Componente
-6. Testing de Integración
-7. Test de Sistema
-8. Testing de Seguridad
-9. Test de Aceptación
-10. A/B Testing (Kohavi, 2013)
-11. Herramientas (Linters, análisis de código estático)
-12. Reportes y herramientas de análisis y visualización.
-13. Repositorio de evidencias.
-14. Trazabilidad con requerimientos, bugs, funcionalidades, diseño, versiones.
+1. **Gestión de Ambiente** 🌐
+2. **Checklists** 📝
+3. **Herramientas y Procesos** 🛠️
+4. **Testing Unitario** ✅
+5. **Testing de Componente** 🧩
+6. **Testing de Integración** 🔗
+7. **Test de Sistema** 🖥️
+8. **Testing de Seguridad** 🔐
+9. **Test de Aceptación** ✔️
+10. **A/B Testing (Kohavi, 2013)** 🔄
+11. **Herramientas (Linters, análisis de código estático)** 🧰
+12. **Reportes y herramientas de análisis y visualización** 📊
+13. **Repositorio de evidencias** 📂
+14. **Trazabilidad con requerimientos, bugs, funcionalidades, diseño, versiones** 🧵
 
 **Referencia:** Kohavi, R. (2013, December 12). Online Controlled Experiments: Introduction, Insights, Scaling, and Humbling Statistics. InfoQ. Retrieved February 23, 2022, from https://www.infoq.com/presentations/controlled-experiments/ 
 
@@ -818,3 +818,21 @@ El framework Cynefin (Cynefin, 2022) Fig. 25 establece que a medida que se pasa 
 **Referencia:** Wikipedia contributors. (2022, February 28). Cynefin framework. In Wikipedia, The Free Encyclopedia. Retrieved 13:04, February 28, 2022, from https://en.wikipedia.org/w/index.php?title=Cynefin_framework&oldid=1074421336
 
 ![](../../images/framework_cynefin.png)
+
+**Figura 25 Etapas del Framework Cynefin. Imagen Fuente (Cynefin, 2014)**
+
+<a name="3.1.4_estrategia_diseño_optimo_compensacion_costo_beneficio"></a>
+### 3.1.4 Estrategía de Diseño óptimo y compensación de costo/beneficio
+
+BDUF es adecuado para sistemas "Simples", pero a medida que se avanza hacia sistemas "Complejos", se tiene una mayor necesidad de enfoques de diseño más adaptables, como es el caso de RDUF y Diseño Emergente.
+
+Para un conjunto dado de requisitos (el comportamiento deseado del sistema), existen múltiples estrategías de diseños posibles (la estructura del sistema) para satisfacer esos requisitos.
+Los sistemas predecibles/estables permiten decisiones de diseño más detalladas por adelantado. En este caso, podemos decir que BDUF es más económico que RDUF. Los sistemas impredecibles/cambiantes dan como resultado un diseño inicial más pequeño y un diseño incremental/emergente más importante. En este caso, RDUF es más económico que BDUF.
+En base a los conceptos planteados se propone aplicar una estrategía de “etapa ByDesign”, donde se especifica una lista de pasos a seguir como estrategía de diseño de cada una de las etapas:
+
+
+1. Identificar las principales etapas o procesos en el desarrollo de un producto de software 🔍🛠️
+2. Modelar cada etapa o proceso 🧩✏️ abstrayendo la esencia que la define y expresando esa abstracción con alguna representación de alto nivel: diagramas, flujos, pizarras, texto 📊📝, o sea, un diseño “liviano” (RDUF) 🎯.
+3. Armar el flujo de etapas o procesos 🔄, como lo expresado en la Fig. 12: Arquitectura de Procesos de Alto Nivel 🏗️.
+4. Identificar las Entradas y Salidas de cada etapa o proceso 📥📤, o sea, identificar sus interfaces, que eventualmente son los canales de comunicación 📡 y los artefactos son el mensaje que se comunica ✉️.
+5. Refinar a un nivel de detalle razonable (costo/beneficio) cada etapa o proceso identificado ⚖️, por ejemplo: QA 🛡️, Dev 💻, Sec 🔐 y Ops ⚙️.
