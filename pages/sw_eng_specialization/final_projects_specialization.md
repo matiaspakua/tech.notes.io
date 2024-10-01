@@ -817,3 +817,4 @@ El framework Cynefin (Cynefin, 2022) Fig. 25 establece que a medida que se pasa 
 
 **Referencia:** Wikipedia contributors. (2022, February 28). Cynefin framework. In Wikipedia, The Free Encyclopedia. Retrieved 13:04, February 28, 2022, from https://en.wikipedia.org/w/index.php?title=Cynefin_framework&oldid=1074421336
 
+![](../../images/framework_cynefin.png)
