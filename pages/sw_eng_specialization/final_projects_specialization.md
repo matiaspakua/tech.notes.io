@@ -626,7 +626,7 @@ Las siguientes definiciones proveen el marco en el cual se debe considerar la se
  * **Principios Generales de Seguridad**: 
 	 * 🚫🔐 Aceptar que: “La seguridad total es imposible”. 
 	 * 🔑⬇️ Implementar medidas como least privilege (controlar, limitar, no dar accesos). 
-	 * ⚙️✔️ Simple es más seguro. 
+	 * ⚙️✔️ **Simple** es más seguro. 
 	 * 🙅‍♂️👤🔍 No confiar en los usuarios, ser paranoico. 
 	 * 🔮📉 Esperar lo inesperado, analizar casos límites. 
 	 * 🏰🔗 Defensa por “capas”, y niveles de defensa. 
@@ -645,17 +645,33 @@ Las siguientes definiciones proveen el marco en el cual se debe considerar la se
 	 * ✍️🧹 Clean-code, refactoring, 
 	 * 📜📊 Estrategias de logging. 
 	 * 🛠️🔍Testing de seguridad / Pentesting 
- * **Ataques Comunes**: 
-	 * 🔐🔑💥 Ataque con credenciales: robo, elevación de privilegios, fuerza bruta, suffing. Protección con: Contraseñas robustas, Password Hashing, Login Throttling. 
-	 * 🌐🔓 IDOR (Insecure Direct Object Reference) o manipulación de URLs 
-	 * 💻💉📊 SQLi (Inyección de SQL). Manipular DB, robo datos. Protección con: control de inputs, sanitizar datos, uso de librerías del lenguaje/framework. 
-	 * 💻🎯📝 XSS (Cross Site Scripting). Ataques manipulando sitios webs de terceros. Tipos de ataques: reflected, stored, DOM-based. Protección con CSP o Content Security Policy. Protección con: Validación de request de las API (GET/POST), usar tokens CSRF. 
-	 * 🍪👀🕵 Robo y Visibilización de Cookies. Limitar y encriptar datos sensibles. Proteger con: Uso de Sesiones, SSL, HTTPS, Sign-Cookie. 
-	 * 💻🔗🔒 Session Hijacking: Robo se sesiones activas. Proteger con HTTPS, SessionID. 
-	 * 👤🔗💥 Session Fixation. Person-In-The-Middle attack. Proteger con: Validar Inputs, sanitización, CSP, Cookie Setting, HTTPS. 
-	 * 💻💥🖥️ RCE o Remote Code Execution. Ejecución de comandos en el servidor. Proteger con: Controles en el servidor, Firewall, Análisis de tráfico. 
-	 * 📂⚠️💾 File Upload Abuse. FUA, sobre-uso de almacenamiento, inyección de malware. 
-	 * 🌊🚫💻 Denial Of Service (DoS). Flooding (inundar) o Crashing (overflow, RunTime Error). Proteger con: Throttling a través de limitaciones; Filtering con reglas; Sinkholing con redirección para post-análisis; Blackholing redirigiendo los datos a la nada (/dev/null).
+
+
+#### Ataques Comunes: 
+* 🔐🔑💥 Ataque con credenciales: robo, elevación de privilegios, fuerza bruta, suffing. Protección con: Contraseñas robustas, Password Hashing, Login Throttling. 
+
+[![](https://mermaid.ink/img/pako:eNpVkU1OwzAQha8y8rq9QBZIzR9FYhHR7pwuhniaWCR2scdFUPVQiCP0YpikFems5s37NG9kn0RjFYlEtA4PHWzz2kCslVwxvgeCxhrIHCkyjcae_A6WywdI5Yt9tbsrO44yWfR0xEZffgwogsrpo-6p1dbfcbksA7kvhNQFxjurkFMSxyTYcNjvtWkjMTGlrJxlasaE6YxHmVnDDj1dvtFDvCl4xlteOTJrWaH3H9YpWKPvpo3_9pN8tq02sO3icu7ngekIlJPI5iKfi-ImxEIM5AbUKj7n6c-sBXc0UC2S2Cp0b7WozTlyGNhuPk0jEnaBFsLZ0HYi2WPvowoHhUy5xvgnw3V6_gV9V4Zd?type=png)](https://mermaid.live/edit#pako:eNpVkU1OwzAQha8y8rq9QBZIzR9FYhHR7pwuhniaWCR2scdFUPVQiCP0YpikFems5s37NG9kn0RjFYlEtA4PHWzz2kCslVwxvgeCxhrIHCkyjcae_A6WywdI5Yt9tbsrO44yWfR0xEZffgwogsrpo-6p1dbfcbksA7kvhNQFxjurkFMSxyTYcNjvtWkjMTGlrJxlasaE6YxHmVnDDj1dvtFDvCl4xlteOTJrWaH3H9YpWKPvpo3_9pN8tq02sO3icu7ngekIlJPI5iKfi-ImxEIM5AbUKj7n6c-sBXc0UC2S2Cp0b7WozTlyGNhuPk0jEnaBFsLZ0HYi2WPvowoHhUy5xvgnw3V6_gV9V4Zd)
+
+* 🌐🔓 IDOR (Insecure Direct Object Reference) o manipulación de URLs 
+
+[![](https://mermaid.ink/img/pako:eNpVkVFOAjEQhq8y6TNcYB9MgC5KIsGgPnV5GNtZKO62m2k3UQmH8QwegYvZLQral3Ym3_9n5u9BaG9IFGLL2O3gSVYO0pmohVytYeEC6Z4JpGXSEVYv--FaU01MTtMGxuMbmKolOtv1DWp7-nJgCJ7X92FztppmZqYmWlPw4DxgHz3bDzT-HyLV0htbW321MRj9r88sQ6Uq3zof7AWxhlzMKuOZAlgXid1FJbNqrubYRBx47V1k3yQyFZhnSugZLjN8q8o9tV3jC1jIAOT-bjPPyN0VeUA-fbaUPDNae25TEGzzBGIkWuIWrUkJHwaHSsQdtVSJIj0N8mslKndM3BDK47vToojc00iw77c7UdTYhFT1XYqCpMX0Te1P9_gNfuaUQA?type=png)](https://mermaid.live/edit#pako:eNpVkVFOAjEQhq8y6TNcYB9MgC5KIsGgPnV5GNtZKO62m2k3UQmH8QwegYvZLQral3Ym3_9n5u9BaG9IFGLL2O3gSVYO0pmohVytYeEC6Z4JpGXSEVYv--FaU01MTtMGxuMbmKolOtv1DWp7-nJgCJ7X92FztppmZqYmWlPw4DxgHz3bDzT-HyLV0htbW321MRj9r88sQ6Uq3zof7AWxhlzMKuOZAlgXid1FJbNqrubYRBx47V1k3yQyFZhnSugZLjN8q8o9tV3jC1jIAOT-bjPPyN0VeUA-fbaUPDNae25TEGzzBGIkWuIWrUkJHwaHSsQdtVSJIj0N8mslKndM3BDK47vToojc00iw77c7UdTYhFT1XYqCpMX0Te1P9_gNfuaUQA)
+
+En éste ejemplo, si no protegemos una API correctamente, cualquier petición que exponga el ID del usuario (como la URL debajo) puede permitir conocer los detalles de cualquier otro usuario manipulando y cambiando el ID:
+
+```
+https://example.com/user/12345
+```
+
+
+
+* 💻💉📊 SQLi (Inyección de SQL). Manipular DB, robo datos. Protección con: control de inputs, sanitizar datos, uso de librerías del lenguaje/framework. 
+* 💻🎯📝 XSS (Cross Site Scripting). Ataques manipulando sitios webs de terceros. Tipos de ataques: reflected, stored, DOM-based. Protección con CSP o Content Security Policy. Protección con: Validación de request de las API (GET/POST), usar tokens CSRF. 
+* 🍪👀🕵 Robo y Visibilización de Cookies. Limitar y encriptar datos sensibles. Proteger con: Uso de Sesiones, SSL, HTTPS, Sign-Cookie. 
+* 💻🔗🔒 Session Hijacking: Robo se sesiones activas. Proteger con HTTPS, SessionID. 
+* 👤🔗💥 Session Fixation. Person-In-The-Middle attack. Proteger con: Validar Inputs, sanitización, CSP, Cookie Setting, HTTPS. 
+* 💻💥🖥️ RCE o Remote Code Execution. Ejecución de comandos en el servidor. Proteger con: Controles en el servidor, Firewall, Análisis de tráfico. 
+* 📂⚠️💾 File Upload Abuse. FUA, sobre-uso de almacenamiento, inyección de malware. 
+* 🌊🚫💻 Denial Of Service (DoS). Flooding (inundar) o Crashing (overflow, RunTime Error). Proteger con: Throttling a través de limitaciones; Filtering con reglas; Sinkholing con redirección para post-análisis; Blackholing redirigiendo los datos a la nada (/dev/null).
 
 
 <a name="2.5.14_metodologia_qa_automation"></a>
