@@ -1,4 +1,4 @@
-# Visual Thinking
+# Visual Thinking: Piensa haciendo dibujos.
 
 ![400x400](../../images/conways_law_example.jpeg)
 
@@ -121,6 +121,12 @@ Link: https://docs.google.com/drawings/d/1cBOqUlmJ5NF0shSbG3enm4T4eSLA-ZV8o2X1yr
 ![](../../images/voyager_software_bug_update.png)
 
 => [Link](https://wbd.ms/share/v2/aHR0cHM6Ly93aGl0ZWJvYXJkLm1pY3Jvc29mdC5jb20vYXBpL3YxLjAvd2hpdGVib2FyZHMvcmVkZWVtLzZjODBmYTcyNzkzYzQxNDBiNjk5ODM4M2NhODFmYzFjX0JCQTcxNzYyLTEyRTAtNDJFMS1CMzI0LTVCMTMxRjQyNEUzRF8wZjY4NzliYy1jM2ZmLTRlMmEtYjFlOC1kYTY0NzAwZDkxYWI=)
+
+---
+
+### Diagramas interactivos con Draw.io
+
+Link: https://viewer.diagrams.net/?lightbox=1&page=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fjgraph%2Fdrawio-diagrams%2Fdev%2Fblog%2Fexplore-with-custom-link.drawio#%7B%22pageId%22%3A%22VdbpzdK1AwvrrNIaupxX%22%7D
 
 ---
 
