@@ -1,6 +1,10 @@
 
 # Introducción 
 
+GitHub Repository:
+
+[matiaspakua/biblioteca_tecnica: POC de un sistema de biblioteca técnica](https://github.com/matiaspakua/biblioteca_tecnica)
+
 ## Origen de la propuesta
 
 Entre los consultores de la empresa, existe un gran interés por la formación y el desarrollo profesional en temas específicos y/o avanzados. Para ello, la lectura de libros técnicos con autores de referencia es una herramienta fundamental. Sin embargo, estos libros suelen ser de difícil acceso, ya que solo se pueden adquirir a través de Amazon o editoriales especializadas (O’Reilly, Wiley, etc.), no suelen estar traducidos al español y tienen un precio elevado (entre 30 y 60 euros).
