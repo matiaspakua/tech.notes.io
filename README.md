@@ -38,7 +38,6 @@
 - [Gherkin and Automation](/pages/testing/gherkin_and_automation.md)
 - [RobotFramework to test satellites](/pages/testing/robotframework_to_test_satellites.md)
 - [On Unit Test, TDD and BDD](/pages/testing/on_unit_test_tdd_and_bdd.md)
-- [Test Automation (spanish). A book, a web site](https://nicopaez.gitbook.io/test-automation/)
 - [BDD with Cucumber for Java course](/pages/testing/bdd_with_cucumber_java_notes.md) <span style="color:red"> ( pendiente... ) </span>
 
 # 🛠️ Ingeniería de Software
