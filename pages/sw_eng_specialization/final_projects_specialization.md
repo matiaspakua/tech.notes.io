@@ -17,7 +17,13 @@
 
 <button class="back-button" onclick="window.location.href='https://matiaspakua.github.io/tech.notes.io'">All notes</button>
 
-# Indice
+---
+
+![](../../images/tpf_titulo.png)
+
+---
+
+# Índice
 
 - [1. Introducción](#1.introduction)
 - [2. Marco Teórico](#2.marco_teorico)
