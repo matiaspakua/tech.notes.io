@@ -81,6 +81,10 @@ Charlas --> [Notas de las charlas](/pages/we_are_developers_wc_2024/landing.md)
 
  * [Visual Thinking](/pages/cursos/visual_thinking.md)
 
+# 🚀⚙️ Proyectos
+
+ - [Biblioteca Técnica](/pages/projects/biblioteca_tecnica.md)
+
 # 🎓 UCA posgrado de Especialización en Ingeniería de Software 💻
 
 ![300x150](images/uca_logo.png)
