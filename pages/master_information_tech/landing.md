@@ -1,4 +1,4 @@
-# Master in Information Technologies 
+# Master en Ciencias: Tecnologías de la Información 
 
 ## Cloud Computing
 
