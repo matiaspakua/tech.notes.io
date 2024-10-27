@@ -16,7 +16,7 @@
 <button class="back-button" onclick="window.location.href='https://matiaspakua.github.io/tech.notes.io'">All notes</button>
 
 ---
-# Introducción 
+# 1. Introducción: Incepción
 
 GitHub Repository:
 
@@ -42,7 +42,7 @@ Además, la creación de una biblioteca técnica es una inversión que se traduc
 8. De esta lista preliminar, se envía una “encuesta” a todos los empleados de KLAGAN (Barcelona) y los 3 (tres) libros más votados serían los candidatos para comprar. 
 9. Luego de 3 o 4 meses, repetir la encuesta, con los libros que quedaron sumados a otros sugeridos (quizás en la misma encuesta solicitar sugerencias).
 
-## Funcionamiento esperado de la Bibliotecas Técnica
+## Descripción del negocio: Bibliotecas Técnica
 
 [Descripción del caso de negocio]
 
@@ -63,17 +63,74 @@ Tanto los registros de prestamos como devolución deberán contener como mínimo
  - Correo electrónico
  - Titulo del libro prestado o devuelto.
 
-## Analisis: DCU
+## Restricciones y requerimientos especiales
+
+## Alcance del proyecto
+
+## Modelo Inicial de Casos de Uso
+
+- Lista de actores identificados
+- Casos de uso principales (10-20% del modelo completo)
+
 
 ![](../../images/dcu_general.png)
 
-## Tecnologías
+## Modelo Conceptual Inicial
 
+* Diagrama de clases conceptuales principales*
+
+## Glosario del Dominio
+
+ * Términos clave del dominio del negocio
+
+
+# 2. FASE DE ELABORACIÓN
+
+
+- Modelo de Casos de Uso Refinado
+    - Todos los casos de uso identificados
+    - Especificaciones detalladas de casos de uso críticos
+- Modelo de Dominio Detallado
+    - Diagrama de clases conceptuales completo
+    - Asociaciones y atributos
+- Diagramas de Secuencia del Sistema
+    - Para casos de uso principales
+- Contratos de Operación
+    - Precondiciones y postcondiciones
+- Arquitectura Candidata
+    - Vista general de la arquitectura
+    - Patrones arquitectónicos seleccionados
+
+
+# 3. FASE DE CONSTRUCCIÓN
+
+- Diagramas de Interacción
+	- Diagramas de secuencia detallados
+	- Diagramas de comunicación
+- Arquitectura Técnica
+    - Decisiones tecnológicas
+    - Frameworks y bibliotecas
+- Documentación de APIs
+    - Interfaces públicas
+    - Contratos de servicios
+
+
+# 4. FASE DE TRANSICIÓN
+
+## Plan de Despliegue
+
+- Estrategia de implementación
+- 
 Esta POC utiliza:
 
 1. Google Sheet para mantener la base de datos de libros disponibles, registro de devoluciones y préstamos.
 2. Google Forms con un formulario para solicitud de libros y otro form para devolución de libros.
 3. Google APP Scrips para los CRUD automáticos disparados con los envios de formularios, notificación de devoluciones y otras validaciones internas.
 
-
 ![](../../images/c3_componentes_bilbioteca.png)
+
+## Pruebas
+
+- Plan de pruebas
+- Casos de prueba
+- Resultados de pruebas
