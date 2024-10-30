@@ -133,6 +133,7 @@ Charlas --> [Notas de las charlas](/pages/we_are_developers_wc_2024/landing.md)
 - [On Microservices. The complete reference guide](https://microservices.io/)
 - [The Architecture of Open Source Applications. A book, a web site](http://aosabook.org/en/index.html)
 - [Hexagonal Me](https://jmgarridopaz.github.io/content/articles.html)  <span style="color:red"> nueva web para chusmear!</span>
+- [Java SE 21: Programming Complete](https://mylearn.oracle.com/ou/course/java-se-21-programming-complete/138847)
 
 
 # Otros Libros, Novelas, etc.
