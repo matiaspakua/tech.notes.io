@@ -63,14 +63,88 @@ Tanto los registros de prestamos como devolución deberán contener como mínimo
  - Correo electrónico
  - Titulo del libro prestado o devuelto.
 
-## Restricciones y requerimientos especiales
+##  Análisis de Requisitos
 
-## Alcance del proyecto
+### Descripción General
+
+El sistema de biblioteca técnica permite a los empleados de una organización gestionar el préstamo y devolución de libros técnicos disponibles en la empresa, manteniendo un registro actualizado de los libros y facilitando la automatización de notificaciones y consultas.
+
+### Objetivos
+
+- **Facilitar la consulta y el préstamo de libros** a través de un sistema automatizado.
+- **Automatizar las notificaciones** de vencimiento de préstamos y recordatorios.
+- **Mantener el estado de los libros actualizado** para reflejar su disponibilidad en tiempo real.
+
+## Requisitos Funcionales
+
+1. **Consulta de Libros Disponibles**:
+    - Los usuarios deben poder ver la lista de libros disponibles y su estado (libre/prestado).
+    - Los libros prestados deben mostrar la fecha estimada de devolución.
+2. **Solicitud de Préstamo de Libros**:
+    - Los usuarios deben poder solicitar el préstamo de un libro.
+    - El sistema debe actualizar automáticamente el estado del libro en "prestado" al procesar la solicitud.
+3. **Registro de Devolución de Libros**:
+    - Los usuarios deben poder registrar la devolución de un libro .
+    - El sistema debe actualizar el estado del libro a "libre" y registrar la fecha de devolución.
+4. **Notificaciones de Vencimiento**:
+    - El sistema debe enviar correos de recordatorio a los usuarios cuando queden 5 y 2 días para la fecha de devolución de los libros.
+
+## Requisitos No Funcionales
+
+- **Disponibilidad**: El sistema debe estar accesible para los empleados a través de herramientas de uso gratuito (Formularios, hojas de calculo y correo electrónico).
+- **Usabilidad**: Las interfaces (formularios y reportes) deben ser intuitivas y claras.
+- **Automatización**: El uso de triggers debe reducir la intervención manual, garantizando un sistema fiable.
 
 ## Modelo Inicial de Casos de Uso
 
-- Lista de actores identificados
-- Casos de uso principales (10-20% del modelo completo)
+### Lista de actores identificados
+
+Para el análisis de **casos de uso** en el sistema de biblioteca técnica, es fundamental identificar a los actores que interactúan con el sistema. Estos actores representan tanto a los **usuarios directos** como a los **sistemas o procesos automáticos** que participan en la ejecución de las funcionalidades del sistema.
+
+### Actores Identificados en el Sistema de Biblioteca Técnica
+
+1. **Usuario**:
+   - **Descripción**: El usuario es el principal actor del sistema y representa a los empleados de la empresa que utilizan la biblioteca técnica para consultar, solicitar y devolver libros.
+   - **Responsabilidades**:
+     - Consultar la lista de libros disponibles y prestados.
+     - Solicitar el préstamo de libros a través del formulario.
+     - Registrar la devolución de libros mediante el formulario de devoluciones.
+   - **Características**:
+     - Tiene acceso a los formularios configurados para el sistema.
+     - Recibe notificaciones por correo electrónico relacionadas con los plazos de devolución.
+  
+2. **Administrador**:
+   - **Descripción**: El administrador tiene privilegios adicionales para supervisar el funcionamiento del sistema, gestionar los datos de los libros y atender las consultas o problemas que los usuarios puedan reportar.
+   - **Responsabilidades**:
+     - Mantener y actualizar la base de datos de libros  (agregar, editar y eliminar registros).
+     - Acceder y revisar el historial completo de préstamos.
+     - Configurar o ajustar el número de días permitidos para el préstamo (por ejemplo, 20 días), que afecta el cálculo de fechas de devolución.
+   - **Características**:
+     - Acceso total a las hojas de cálculo y los scripts para realizar ajustes en la configuración.
+     - Puede monitorear el uso del sistema y generar reportes completos de la biblioteca.
+
+3. **Sistema de Biblioteca (Automatizado)**:
+   - **Descripción**: Este es un actor automático que representa la lógica de negocio. Actúa como un proceso en segundo plano que gestiona los eventos automáticos del sistema.
+   - **Responsabilidades**:
+     - Procesar automáticamente las solicitudes de préstamo y devolución enviadas por los usuarios a través de los formularios.
+     - Calcular la fecha de devolución basada en la fecha del préstamo (Marca Temporal) y el número máximo de días configurado.
+     - Enviar notificaciones automáticas por correo electrónico a los usuarios, alertando cuando quedan 5 y 2 días para la fecha de devolución.
+     - Generar reportes de estado de la biblioteca (libros libres y prestados) y enviarlos a los administradores o usuarios que lo soliciten.
+   - **Características**:
+     - Es un actor no humano, responsable de mantener el sistema actualizado y libre de errores.
+
+### Resumen de Actores
+
+| Actor                  | Descripción                                                                                | Responsabilidades                                                                                                                  |
+|------------------------|--------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------|
+| **Usuario**            | Empleado que usa el sistema para gestionar préstamos y devoluciones                        | Consultar libros, solicitar préstamos, registrar devoluciones, recibir notificaciones                                              |
+| **Administrador**      | Persona encargada de supervisar y configurar el sistema                                    | Gestionar base de datos de libros, revisar historial de préstamos, configurar tiempo de préstamo, generar reportes                 |
+| **Sistema de Biblioteca (Automatizado)** | Lógica de negocio que ejecuta funciones automáticas en segundo plano                     | Procesar solicitudes, calcular fechas de devolución, enviar notificaciones de vencimiento, generar reportes de estado de la biblioteca |
+
+Con esta definición de los actores, podemos avanzar a **diagramar los casos de uso** y desarrollar los flujos de interacción entre cada actor y el sistema.
+
+
+### Diagrama de Casos de Uso
 
 
 ![](../../images/dcu_general.png)
