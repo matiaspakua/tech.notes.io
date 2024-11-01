@@ -151,4 +151,66 @@ El **análisis SWOT** (Strengths, Weaknesses, Opportunities, Threats) es una her
 - **Debilidades**: Se identifican áreas como la dependencia de mercados específicos y los altos costos operativos.
 - **Oportunidades**: Se mencionan tendencias como la expansión en mercados emergentes y la diversificación de productos.
 - **Amenazas**: Se reconocen factores externos como la competencia creciente y las fluctuaciones económicas.
+
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/mR9eICQJLXA?si=IFyM0XxJtd0WsvCk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+## Caso Artículos para fiestas SA
+
+<mark style="background: #FFF3A3A6;">Consigna #01: Definir las estrategias que ha seguido la empresa hasta el momento</mark>
+
+1. **Expansión de la Red de Tiendas**:
+   - Artículos para Fiestas S.A. ha crecido significativamente desde su fundación, estableciendo 360 puntos de venta, de los cuales el 30% son franquicias. La empresa ha enfocado sus esfuerzos en la expansión tanto a nivel nacional como internacional, incluyendo países como España, Portugal, Italia, Turquía, México, Colombia y Ecuador.
+
+2. **Fortalecimiento del Sistema de Compras y Logística**:
+   - La empresa ha priorizado el desarrollo de un sistema de compras eficiente, que le permite adquirir hasta el 80% de sus productos en Asia. Esto les ha proporcionado una ventaja competitiva al ofrecer un amplio surtido y las últimas novedades en productos para fiestas.
+
+3. **Diversificación de la Oferta**:
+   - Artículos para Fiestas S.A. ha adaptado continuamente su oferta para satisfacer la demanda durante diferentes épocas del año (Halloween, Navidad, etc.), lo que ha aumentado su relevancia en el mercado.
+
+4. **Estrategia de Precios y Promociones**:
+   - La empresa se enfoca en mantener una imagen de precios bajos y variedad en sus productos, utilizando productos gancho adquiridos a buen precio para atraer a más clientes. A pesar de no invertir en publicidad, ha logrado un reconocimiento de marca del 10% entre el público potencial.
+
+5. **Incorporación de Tecnología y Profesionalización**:
+   - Con la llegada del nuevo Director General, se ha profesionalizado la gestión interna mediante la implementación de un sistema ERP (SAP) para mejorar la gestión del backoffice y de los puntos de venta. Esta estrategia apunta a optimizar la toma de decisiones basada en datos históricos de ventas.
+
+6. **Capacitación y Formación de Personal**:
+   - La empresa ha establecido programas de formación para el personal de sus tiendas, asegurando que el equipo esté capacitado para adaptarse a las necesidades de los clientes en diferentes regiones.
+
+7. **Adaptación a la Competencia**:
+   - Aunque enfrenta competencia de otras cadenas y tiendas online, Artículos para Fiestas S.A. ha mantenido su liderazgo mediante la calidad de su oferta y el conocimiento del mercado. Se ha centrado en un enfoque minorista tradicional, creando una experiencia de compra atractiva para los clientes.
+
+**Conclusión**
+
+En resumen, Artículos para Fiestas S.A. ha seguido una estrategia centrada en la expansión, la optimización de su sistema de compras, y la diversificación de su oferta, al tiempo que profesionaliza su gestión interna y se adapta a la competencia en el mercado. Estas acciones han permitido a la empresa consolidar su posición como líder en el sector de artículos para fiestas.
+
+<mark style="background: #ADCCFFA6;">Consigna #02: Definir cuál va a ser la estrategia competitiva a seguir a partir de ahora.</mark>
+
+1. **Diversificación de Productos y Servicios**:
+   - **Descripción**: Ampliar la gama de productos y servicios ofrecidos, incluyendo no solo artículos para fiestas, sino también servicios complementarios como la organización de eventos, decoraciones personalizadas y alquiler de equipos.
+   - **Justificación**: Esto podría atraer a nuevos segmentos de clientes y diferenciar la empresa de competidores que solo venden productos. La inclusión de servicios podría fomentar la lealtad del cliente y generar ingresos adicionales.
+
+2. **Mejorar la Presencia en Línea**:
+   - **Descripción**: Desarrollar una plataforma de eCommerce robusta que permita a los clientes realizar compras en línea, ofreciendo entregas a domicilio y recogidas en tienda.
+   - **Justificación**: Con el crecimiento del comercio electrónico, una fuerte presencia en línea no solo aumentaría la accesibilidad para los consumidores, sino que también permitiría a la empresa capturar datos sobre las preferencias del cliente y optimizar su oferta.
+
+3. **Optimización de la Logística y Gestión de Inventario**:
+   - **Descripción**: Implementar un sistema avanzado de gestión de inventario que permita una mejor rotación de productos y reduzca costos de almacenamiento.
+   - **Justificación**: Mejorar la logística asegurará que los productos más populares estén siempre disponibles, al tiempo que reduce el desperdicio y los costos asociados con el exceso de inventario.
+
+4. **Fortalecimiento del Marketing y la Comunicación**:
+   - **Descripción**: Crear campañas de marketing enfocadas en las redes sociales y otras plataformas digitales para aumentar el reconocimiento de marca y atraer a un público más amplio.
+   - **Justificación**: Dado que la empresa ha sido reacia a invertir en publicidad, es fundamental cambiar esta estrategia para crear conciencia sobre la marca y sus ofertas, especialmente en nuevos mercados donde ha entrado.
+
+5. **Personalización de la Experiencia del Cliente**:
+   - **Descripción**: Implementar un enfoque más personalizado en el servicio al cliente, utilizando datos de compra y preferencias para ofrecer recomendaciones y promociones específicas.
+   - **Justificación**: Esto no solo mejora la experiencia del cliente, sino que también puede aumentar las ventas a través de estrategias de venta cruzada y up-selling.
+
+6. **Expansión a Nuevos Mercados Internacionales**:
+   - **Descripción**: Investigar y entrar en nuevos mercados donde hay una demanda creciente de productos para fiestas, especialmente en regiones donde la competencia es limitada.
+   - **Justificación**: La expansión geográfica puede ofrecer nuevas oportunidades de crecimiento y diversificar el riesgo asociado con depender de mercados existentes.
+
+**Conclusión**
+
+La estrategia competitiva a seguir por Artículos para Fiestas S.A. debe centrarse en diversificar su oferta, mejorar la presencia digital y optimizar sus operaciones logísticas. Al implementar estas acciones, la empresa podrá consolidar su posición en el mercado, responder a las necesidades cambiantes de los consumidores y aprovechar nuevas oportunidades de crecimiento en un entorno cada vez más competitivo.
