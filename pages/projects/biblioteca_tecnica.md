@@ -155,8 +155,24 @@ Con esta definición de los actores, podemos avanzar a **diagramar los casos de 
 
 ## Glosario del Dominio
 
- * Términos clave del dominio del negocio
-
+| Término               | Definición                                                                                                      |
+|-----------------------|-----------------------------------------------------------------------------------------------------------------|
+| **Biblioteca Técnica**| Conjunto de libros técnicos disponibles para préstamo dentro de la empresa.                                     |
+| **Usuario**           | Empleado que utiliza el sistema para consultar, solicitar y devolver libros.                                    |
+| **Administrador**     | Persona encargada de gestionar y supervisar el sistema, incluyendo el mantenimiento de los datos de los libros. |
+| **Libro**             | Recurso físico o digital que puede ser prestado a los usuarios.                                                 |
+| **Préstamo**          | Acción mediante la cual un usuario solicita un libro de la biblioteca para su uso durante un tiempo determinado.|
+| **Devolución**        | Acción mediante la cual un usuario regresa un libro previamente prestado a la biblioteca.                       |
+| **Estado del Libro**  | Indicador de disponibilidad de un libro, puede ser "libre" (disponible) o "prestado" (no disponible).           |
+| **Fecha de Devolución** | Fecha límite en la que el usuario debe devolver un libro prestado.                                             |
+| **Notificación**      | Mensaje de recordatorio enviado al usuario cuando se acerca la fecha de devolución del libro.                    |
+| **Reporte**           | Documento que resume el estado actual de los libros en la biblioteca, incluyendo los disponibles y los prestados.|
+| **Sistema de Biblioteca (Automatizado)** | Conjunto de scripts automáticos que procesan préstamos, devoluciones, y envían notificaciones.          |
+| **Google Sheets**     | Herramienta de hoja de cálculo utilizada para almacenar y gestionar los datos de los libros y los préstamos.    |
+| **Google Forms**      | Formulario en línea utilizado para que los usuarios puedan solicitar y devolver libros.                         |
+| **Google Apps Script**| Plataforma de scripting utilizada para automatizar el sistema y ejecutar tareas en segundo plano.               |
+| **Trigger**           | Evento programado en Apps Script que permite la ejecución automática de tareas en el sistema.                   |
+| **Marca Temporal**    | Registro automático de la fecha y hora en que se completa un formulario de solicitud o devolución.              |
 
 # 2. FASE DE ELABORACIÓN
 
