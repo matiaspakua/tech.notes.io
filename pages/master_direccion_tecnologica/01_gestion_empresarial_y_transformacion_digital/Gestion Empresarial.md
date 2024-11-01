@@ -78,3 +78,34 @@ La dirección estrategica deberá ser creada para cada uno de los departamentos 
 4. Política de Promoción
 - **Descripción**: Comprende las estrategias para **comunicar y promocionar los productos o servicios**. Esto incluye publicidad, relaciones públicas, promociones de ventas, y marketing digital.
 - **Importancia**: Una promoción bien planificada aumenta la visibilidad del producto, genera interés, y motiva a los consumidores a realizar una compra. Es esencial para crear conciencia de marca y fomentar la lealtad del cliente.
+
+
+## Plan Estratégico de IT
+
+### 1. Arquitectura del Sistema
+- **Descripción**: La arquitectura del sistema se refiere al **diseño estructural y a la organización de los componentes del sistema de información** de la empresa. Esto incluye hardware, software, redes, bases de datos y las interacciones entre estos elementos.
+- **Importancia**: Una buena arquitectura del sistema asegura que todos los componentes tecnológicos funcionen de manera integrada y eficiente. Facilita la escalabilidad, la interoperabilidad y el mantenimiento del sistema, alineando la infraestructura tecnológica con los objetivos empresariales.
+
+### 2. Tecnología
+- **Descripción**: Esta sección abarca las **herramientas y plataformas tecnológicas** que la organización utilizará para soportar sus operaciones. Incluye decisiones sobre sistemas de gestión, aplicaciones, lenguajes de programación, y dispositivos.
+- **Importancia**: La elección de la tecnología adecuada es fundamental para optimizar procesos, mejorar la productividad y facilitar la innovación. Una infraestructura tecnológica bien seleccionada puede proporcionar una ventaja competitiva y mejorar la agilidad del negocio.
+
+### 3. Gobierno de Datos
+- **Descripción**: El gobierno de datos implica las políticas, prácticas y procedimientos que garantizan que los datos de la organización sean **gestionados adecuadamente**. Esto incluye la calidad de los datos, su integración, y la forma en que se almacenan y acceden.
+- **Importancia**: Un sólido gobierno de datos es esencial para asegurar la integridad, la privacidad y la disponibilidad de la información. Ayuda a cumplir con regulaciones y estándares, y permite a la organización tomar decisiones informadas basadas en datos confiables.
+
+### 4. Seguridad
+- **Descripción**: La seguridad en un plan estratégico de IT se refiere a las medidas y protocolos implementados para **proteger la infraestructura tecnológica y la información** contra amenazas, ataques cibernéticos y accesos no autorizados.
+- **Importancia**: La seguridad es un componente crítico para proteger los activos de información y la reputación de la empresa. La implementación de prácticas robustas de seguridad ayuda a mitigar riesgos, garantizar la continuidad del negocio y cumplir con requisitos legales y normativos.
+
+
+## Business Plan
+
+![](../../../images/direccion_estrategica_business_plan.png)
+
+Un **Business Plan** o plan de negocio es un documento formal que describe los objetivos de una empresa, las estrategias que se utilizarán para alcanzarlos, los recursos necesarios y las proyecciones financieras. Este documento actúa como una hoja de ruta para guiar las operaciones y decisiones estratégicas de la organización. Generalmente, un business plan incluye secciones sobre el análisis de mercado, la estructura organizativa, la estrategia de marketing, y los planes financieros.
+
+1. **Creación Inicial**: Al inicio, el business plan se elabora para establecer los fundamentos de la empresa, definiendo su visión, misión, y los objetivos estratégicos a largo plazo. Esta etapa incluye una investigación de mercado para entender el entorno competitivo y las necesidades del cliente.
+2. **Revisión Anual**: Cada año, el business plan se revisa y actualiza mediante una auditoría interna. Esto implica evaluar el rendimiento del negocio en relación con los objetivos establecidos y el entorno de mercado actual. Las revisiones permiten adaptar la estrategia a nuevas circunstancias, identificar áreas de mejora, y ajustar proyecciones financieras.
+3. **Adaptación y Flexibilidad**: La estrategia implica no solo mantener una dirección clara, sino también ser flexible y receptivo a cambios en el mercado o en la industria. Esto es esencial para asegurar la sostenibilidad y la competitividad de la empresa a lo largo del tiempo.
+4. **Uso de Datos e Información**: La incorporación de datos e información actualizada durante la auditoría interna ayuda a la empresa a tomar decisiones informadas y basadas en evidencias. Esto asegura que el plan estratégico sea relevante y eficaz en el contexto del entorno cambiante.
