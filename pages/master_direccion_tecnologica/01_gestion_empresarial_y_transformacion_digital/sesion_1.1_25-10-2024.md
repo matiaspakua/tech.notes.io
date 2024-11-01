@@ -1,4 +1,4 @@
-# Sesion 1 - 25-10-2024
+# 
 
 ## Alineación de la estrategia empresarial con IT
 
