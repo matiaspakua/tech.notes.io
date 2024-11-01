@@ -22,6 +22,13 @@
 
 10. **Digital Business Strategy**: La estrategia digital puede ser de "optimización", enfocándose en mejorar procesos existentes y reducir costos, o de "transformación", que implica cambiar radicalmente la forma en que se opera y crear nuevos modelos de negocio. Definir el enfoque de la estrategia digital es fundamental para guiar las iniciativas y recursos de la empresa hacia el logro de sus objetivos estratégicos, asegurando una transformación efectiva y sostenible. 
 
+### Video: Digital Transformation Initiative
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qozNmGBCo1U?si=5rlWNHYoE-UBDVb9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+
 ## Caso de estudio: Transformación Digital en la Salud Pública Hacia un Futuro Más Eficiente y Humano
 
 *Diapositiva 1: Objetivos y el Porqué de la Transformación*
