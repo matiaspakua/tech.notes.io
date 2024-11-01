@@ -109,3 +109,46 @@ Un **Business Plan** o plan de negocio es un documento formal que describe los o
 2. **Revisión Anual**: Cada año, el business plan se revisa y actualiza mediante una auditoría interna. Esto implica evaluar el rendimiento del negocio en relación con los objetivos establecidos y el entorno de mercado actual. Las revisiones permiten adaptar la estrategia a nuevas circunstancias, identificar áreas de mejora, y ajustar proyecciones financieras.
 3. **Adaptación y Flexibilidad**: La estrategia implica no solo mantener una dirección clara, sino también ser flexible y receptivo a cambios en el mercado o en la industria. Esto es esencial para asegurar la sostenibilidad y la competitividad de la empresa a lo largo del tiempo.
 4. **Uso de Datos e Información**: La incorporación de datos e información actualizada durante la auditoría interna ayuda a la empresa a tomar decisiones informadas y basadas en evidencias. Esto asegura que el plan estratégico sea relevante y eficaz en el contexto del entorno cambiante.
+
+
+## Estrategia ganadoras según Philip Kotler
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/UJHPZwXA-R0?si=mGHF8paXaJoX2THw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+1. **Estrategias de Precio**:
+   - **Liderazgo en Costos**: Ofrecer productos o servicios a precios más bajos que la competencia, manteniendo márgenes de beneficio adecuados.
+   - **Descremado de Precios**: Introducir productos a precios altos para atraer a clientes dispuestos a pagar más, y luego reducir el precio para captar segmentos más sensibles al precio.
+
+2. **Estrategias de Calidad**:
+   - **Calidad Superior**: Proporcionar productos o servicios de alta calidad que justifiquen un precio premium y fomenten la lealtad del cliente.
+   - **Calidad Consistente**: Mantener estándares de calidad constantes para asegurar la satisfacción y confianza del cliente.
+
+3. **Estrategias de Innovación**:
+   - **Innovación de Producto**: Desarrollar nuevos productos o mejorar los existentes para satisfacer mejor las necesidades del mercado.
+   - **Innovación de Proceso**: Mejorar los procesos internos para aumentar la eficiencia y reducir costos.
+
+4. **Estrategias de Enfoque**:
+   - **Enfoque en Segmentos Específicos**: Dirigirse a nichos de mercado específicos con ofertas adaptadas a sus necesidades particulares.
+   - **Enfoque Geográfico**: Concentrarse en mercados geográficos específicos donde la empresa pueda tener una ventaja competitiva.
+
+Kotler enfatiza la importancia de elegir una estrategia que se alinee con las capacidades internas de la empresa y las condiciones del mercado, y destaca que la combinación de estas estrategias puede ser efectiva para lograr una ventaja competitiva sostenible.
+
+En otro ejemplo, el auto nombra una estrategia que básicamente es basada en el modelo de negocios y es ofrece algo diferente, pero no orientado al producto, sino al modelo de negocio en si mismo.
+
+## Visionado: Sturbucks SWOT analysis
+
+El **análisis SWOT** (Strengths, Weaknesses, Opportunities, Threats) es una herramienta estratégica que permite evaluar los factores internos y externos que afectan a una organización. Este análisis se divide en cuatro cuadrantes:
+
+1. **Fortalezas (Strengths)**: Aspectos internos que otorgan ventajas competitivas.
+2. **Debilidades (Weaknesses)**: Áreas internas que representan desventajas frente a competidores.
+3. **Oportunidades (Opportunities)**: Factores externos que la organización puede aprovechar para su beneficio.
+4. **Amenazas (Threats)**: Elementos externos que podrían perjudicar el desempeño de la organización.
+
+**Caso de Starbuks**
+
+- **Fortalezas**: Se destacan aspectos internos como la fuerte presencia de marca, la calidad del producto y la lealtad del cliente.
+- **Debilidades**: Se identifican áreas como la dependencia de mercados específicos y los altos costos operativos.
+- **Oportunidades**: Se mencionan tendencias como la expansión en mercados emergentes y la diversificación de productos.
+- **Amenazas**: Se reconocen factores externos como la competencia creciente y las fluctuaciones económicas.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/mR9eICQJLXA?si=IFyM0XxJtd0WsvCk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
