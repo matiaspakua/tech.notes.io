@@ -94,7 +94,7 @@ Charlas --> [Notas de las charlas](/pages/we_are_developers_wc_2024/landing.md)
 
 # UP (U. de Palermo) Master en tecnología de la Información
 
- - [Materias y notas del master](/pages/master_information_tech/landing.md)
+ - [Materias y notas del master](pages/master_ti/landing.md)
 
 # 📚 Libros leídos
 
