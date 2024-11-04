@@ -117,9 +117,11 @@ sizeof(type)
 
 Entonces, uno podría hacer algo por el estilo:
 
+```cpp
 size _t size;  
 int i;  
 size  = sizeof(i);
+```
 
 ## **1.9. Representación de Punto Flotante**
 
@@ -147,8 +149,10 @@ unsigned long entero _sin _signo _largo;       	// unsigned long int  = >
 
   ## **1.11. Número mágicos (constantes)**
 
+```cpp
  #define EDAD _JUBILACION _HOMBRE 65  
  #define EDAD _JUBILACION _MUJER 60
+```
 
 La directiva de preprocesador  #define permite reemplazar la ocurrencia del nombre de la constante con el valor asignado.  
 Por convención las constantes se escriben con MAYÚSCULAS.
@@ -201,17 +205,21 @@ Los comentarios son una de las herramientas más importantes en la programación
 
 //Single Line Comments  (added by C99 standard, famously known as c++ style of comments)
 
-/ *  
+```cpp
+  /*  
   Multiple   
   line of  
   comment  
   */
+```
 
 **Ejemplo**:
 
+
+```cpp
  #include  <stdio.h >  
    
-/ * *  
+/ **  
   * esta función…..  
   * Argumentos:   
   * Retorno: un entero para…. 0 OK, 1 error  
@@ -231,6 +239,7 @@ int main(void)
 
     return 0;  
 }
+```
 
 ## **1.15. Primer programa en "C"**
 
@@ -242,18 +251,21 @@ Todo programa en “Consta” de las siguientes partes:
 
 *//hola _mundo.c*
 
-* #include  <stdio.h >*
+```cpp
+#include  <stdio.h >
 
-*int suma(int a, int b);*
+int suma(int a, int b);
 
-*int main()*  
-*{*  
-	*printf("hola mundo  n");*  
-	*return 0;*  
-*}*
+int main()
+{  
+	*printf("hola mundo  n");
+	*return 0;
+}
+```
 
 El pre-procesador se encarga de ejecutar todas las directivas del " #". Este símbolo se usa para incluir HEADER files al código que se este ejecutando en ese momento.
 
+```cpp
  #include  <stdio.h >  
    
 int main(void)  
@@ -263,6 +275,7 @@ int main(void)
    getchar();  
    return 0;  
 }
+```
 
 ## **1.16. Entrada y Salida de Caracteres**
 
