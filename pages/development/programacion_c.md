@@ -1,6 +1,6 @@
 # Introducción a la Programación en C
 
-1. # **1 . Introducción**
+# 1 . Introducción
 
 NIVEL DE ABSTRACCIÓN  - COMO ATACAR EL PROBLEMA PARA ENCONTRAR UNA SOLUCIÓN  
 Un problema real requiere de un análisis que depender del **mundo real**. Este análisis genera un gap semántico que genera una **representación del problema** en un **mundo virtual**. A partir de ese punto, se puede definir una **solución virtual** al problema presentación y que finalmente se puede convertir en la **solución real.**
@@ -75,6 +75,7 @@ Define la cantidad de memoria asociada a una variable y como operar en variables
 
 Los bloques se utilizar para agrupar sentencias en las funciones y definen el ámbito de vida de las variables que se definan dentro de los mismo. Los bloques comienzan con “{“ y terminan con “}”.
 
+´´´c
 int main(void)  
 {  
     / * this is a 'block'  */  
@@ -87,12 +88,13 @@ int main(void)
     printf(“%d  n”, i);  
     return 0;  
 }
+´´´
 
 ## **1.7. Cuatro tipos básicos**
 
 Los tipos básico de C son: char, int, float y double. Con el siguiente código, se usa la función “sizeof” para determinar el tamaño de los tipos de datos (lo que ocupan en memoria).
 
- #include  <stdio.h >
+#include  <stdio.h >
 
 int main(void) {  
 	printf("Caracter: %d  n", 	sizeof(char));  
