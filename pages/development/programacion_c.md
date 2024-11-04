@@ -1,6 +1,6 @@
 # Introducción a la Programación en C
 
-1. # **1 . Introducción**
+# 1 . Introducción
 
 NIVEL DE ABSTRACCIÓN  - COMO ATACAR EL PROBLEMA PARA ENCONTRAR UNA SOLUCIÓN  
 Un problema real requiere de un análisis que depender del **mundo real**. Este análisis genera un gap semántico que genera una **representación del problema** en un **mundo virtual**. A partir de ese punto, se puede definir una **solución virtual** al problema presentación y que finalmente se puede convertir en la **solución real.**
@@ -22,7 +22,7 @@ a todo éste proceso se lo denomina “**resolución de un problema**” y const
 * Nivel Declarativo (el esfuerzo se hace en declarar el problema)  
 * Orientado a Objetos (ni instrucciones ni declarativo, se basa en las relaciones entre las entidades y como interaccionan)
 
-  ## **1.2. Pasos En la generación de un programa**
+## **1.2. Pasos En la generación de un programa**
 
 ![C _DevelopmentProcesses.png][image3]  
 Como se hace la traducción de código de fuente a un conjunto de instrucciones para ejecutar?
@@ -75,24 +75,28 @@ Define la cantidad de memoria asociada a una variable y como operar en variables
 
 Los bloques se utilizar para agrupar sentencias en las funciones y definen el ámbito de vida de las variables que se definan dentro de los mismo. Los bloques comienzan con “{“ y terminan con “}”.
 
+```cpp
+
 int main(void)  
 {  
     / * this is a 'block'  */  
     int i  = 5;  
-   
-    {// este bloque separe  
+    // este bloque separe  
+    {
         / * this is also a 'block,' separate from the last one  */  
         int i  = 6;	  
     }  
     printf(“%d  n”, i);  
     return 0;  
 }
+```
 
 ## **1.7. Cuatro tipos básicos**
 
 Los tipos básico de C son: char, int, float y double. Con el siguiente código, se usa la función “sizeof” para determinar el tamaño de los tipos de datos (lo que ocupan en memoria).
 
- #include  <stdio.h >
+```cpp
+#include  <stdio.h >
 
 int main(void) {  
 	printf("Caracter: %d  n", 	sizeof(char));  
@@ -101,6 +105,7 @@ int main(void) {
 	printf("Doble: %d  n", 	sizeof(double));  
 	return 0;  
 }
+```
 
 ## **1.8. Operador SizeOf**
 
@@ -112,9 +117,11 @@ sizeof(type)
 
 Entonces, uno podría hacer algo por el estilo:
 
+```cpp
 size _t size;  
 int i;  
 size  = sizeof(i);
+```
 
 ## **1.9. Representación de Punto Flotante**
 
@@ -142,8 +149,10 @@ unsigned long entero _sin _signo _largo;       	// unsigned long int  = >
 
   ## **1.11. Número mágicos (constantes)**
 
+```cpp
  #define EDAD _JUBILACION _HOMBRE 65  
  #define EDAD _JUBILACION _MUJER 60
+```
 
 La directiva de preprocesador  #define permite reemplazar la ocurrencia del nombre de la constante con el valor asignado.  
 Por convención las constantes se escriben con MAYÚSCULAS.
@@ -160,12 +169,17 @@ Las funciones pueden ser definidas por la librería estándar, por terceros o po
 
 * La importancia de las nuevas líneas:
 
- #include  <stdio.h >
+```cpp
 
-int main(void){ int i =0; printf("Hello, World !"); for (i =0; i <1; i ++){ printf("  n"); break; } return 0; }
+#include  <stdio.h >
+
+int main(void){ 
+int i =0; printf("Hello, World !"); for (i =0; i <1; i ++){ printf("  n"); break; } return 0; }
+```
 
 * La importancia de la Indentación:
 
+```cpp
  #include  <stdio.h >
 
 int main(void)  
@@ -179,6 +193,7 @@ break;
 }  
 return 0;  
 }
+```
 
 ## **1.14. Comentarios**
 
@@ -190,17 +205,21 @@ Los comentarios son una de las herramientas más importantes en la programación
 
 //Single Line Comments  (added by C99 standard, famously known as c++ style of comments)
 
-/ *  
+```cpp
+  /*  
   Multiple   
   line of  
   comment  
   */
+```
 
 **Ejemplo**:
 
+
+```cpp
  #include  <stdio.h >  
    
-/ * *  
+/ **  
   * esta función…..  
   * Argumentos:   
   * Retorno: un entero para…. 0 OK, 1 error  
@@ -220,6 +239,7 @@ int main(void)
 
     return 0;  
 }
+```
 
 ## **1.15. Primer programa en "C"**
 
@@ -231,18 +251,21 @@ Todo programa en “Consta” de las siguientes partes:
 
 *//hola _mundo.c*
 
-* #include  <stdio.h >*
+```cpp
+#include  <stdio.h >
 
-*int suma(int a, int b);*
+int suma(int a, int b);
 
-*int main()*  
-*{*  
-	*printf("hola mundo  n");*  
-	*return 0;*  
-*}*
+int main()
+{  
+	*printf("hola mundo  n");
+	*return 0;
+}
+```
 
 El pre-procesador se encarga de ejecutar todas las directivas del " #". Este símbolo se usa para incluir HEADER files al código que se este ejecutando en ese momento.
 
+```cpp
  #include  <stdio.h >  
    
 int main(void)  
@@ -252,6 +275,7 @@ int main(void)
    getchar();  
    return 0;  
 }
+```
 
 ## **1.16. Entrada y Salida de Caracteres**
 
