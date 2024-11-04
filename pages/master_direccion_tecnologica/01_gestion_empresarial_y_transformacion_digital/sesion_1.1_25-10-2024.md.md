@@ -30,6 +30,9 @@ Implementación de Estrategias: Se ejecutan planes de acción concretos para lle
 
 **Monitoreo y Evaluación**: Se establecen indicadores de desempeño (KPIs) para medir el progreso. La evaluación continua permite ajustes en la estrategia y la implementación según sea necesario.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/UCFaXHPqynI?si=f4maCNfGuq3N88Sh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
 [Referencia]
 https://www.stratgia.com/files/images/ilustraciones/proceso-de-planeamiento-estrategico.jpg
 https://www.youtube.com/watch?v=UCFaXHPqynI&ab_channel=StraTgia-PlaneamientoEstrat%C3%A9gico
@@ -61,7 +64,7 @@ https://www.youtube.com/watch?v=UCFaXHPqynI&ab_channel=StraTgia-PlaneamientoEstr
 
 ![](../../../images/direccion_estrategica.png)
 
-La dirección estrategica deberá ser creada para cada uno de los departamentos y a nivel táctico se deberá definir siguiente el método de las 4P.  Las "4P" del marketing, son fundamentales en el desarrollo de la estrategia corporativa y el plan estratégico, especialmente a nivel táctico:
+La dirección estrategica deberá ser creada para cada uno de los departamentos y a nivel táctico se deberá definir siguiente el<mark style="background: #FFF3A3A6;"> método de las 4P.  La</mark>s "4P" del marketing, son fundamentales en el desarrollo de la estrategia corporativa y el plan estratégico, especialmente a nivel táctico:
 
 1. Política de Producto
 - **Descripción**: Se refiere a las decisiones sobre **los bienes o servicios que una empresa ofrece al mercado**. Incluye aspectos como las características, calidad, diseño, marca, y la variedad de productos.

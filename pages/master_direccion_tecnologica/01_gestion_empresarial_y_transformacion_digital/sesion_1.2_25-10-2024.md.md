@@ -29,10 +29,13 @@
 
 
 
+---
+
 ## Caso de estudio: Transformación Digital en la Salud Pública Hacia un Futuro Más Eficiente y Humano
 
 *Diapositiva 1: Objetivos y el Porqué de la Transformación*
-- *Objetivos*: Mejorar la eficiencia operativa, optimizar la atención al paciente y reducir costos.
+
+*Objetivos*: Mejorar la eficiencia operativa, optimizar la atención al paciente y reducir costos.
 
 ---
 
@@ -76,3 +79,6 @@ Aumento de la capacidad de integración de nuevas tecnologías en un 70%.
 
 *Frase Final de Cierre*
 "La transformación digital no es una opción, es una necesidad para asegurar un futuro sostenible y exitoso para nuestra empresa y nuestros pacientes."
+
+
+
