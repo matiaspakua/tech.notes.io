@@ -22,7 +22,7 @@ a todo éste proceso se lo denomina “**resolución de un problema**” y const
 * Nivel Declarativo (el esfuerzo se hace en declarar el problema)  
 * Orientado a Objetos (ni instrucciones ni declarativo, se basa en las relaciones entre las entidades y como interaccionan)
 
-  ## **1.2. Pasos En la generación de un programa**
+## **1.2. Pasos En la generación de un programa**
 
 ![C _DevelopmentProcesses.png][image3]  
 Como se hace la traducción de código de fuente a un conjunto de instrucciones para ejecutar?
@@ -75,7 +75,7 @@ Define la cantidad de memoria asociada a una variable y como operar en variables
 
 Los bloques se utilizar para agrupar sentencias en las funciones y definen el ámbito de vida de las variables que se definan dentro de los mismo. Los bloques comienzan con “{“ y terminan con “}”.
 
-´´´cpp
+```cpp
 
 int main(void)  
 {  
@@ -89,13 +89,13 @@ int main(void)
     printf(“%d  n”, i);  
     return 0;  
 }
-´´´
+```
 
 ## **1.7. Cuatro tipos básicos**
 
 Los tipos básico de C son: char, int, float y double. Con el siguiente código, se usa la función “sizeof” para determinar el tamaño de los tipos de datos (lo que ocupan en memoria).
 
-´´´cpp
+```cpp
 #include  <stdio.h >
 
 int main(void) {  
@@ -105,7 +105,7 @@ int main(void) {
 	printf("Doble: %d  n", 	sizeof(double));  
 	return 0;  
 }
-´´´
+```
 
 ## **1.8. Operador SizeOf**
 
@@ -165,17 +165,17 @@ Las funciones pueden ser definidas por la librería estándar, por terceros o po
 
 * La importancia de las nuevas líneas:
 
-´´´cpp
+```cpp
 
 #include  <stdio.h >
 
 int main(void){ 
 int i =0; printf("Hello, World !"); for (i =0; i <1; i ++){ printf("  n"); break; } return 0; }
-´´´cpp
+```
 
 * La importancia de la Indentación:
 
-´´´cpp
+```cpp
  #include  <stdio.h >
 
 int main(void)  
@@ -189,7 +189,7 @@ break;
 }  
 return 0;  
 }
-´´´cpp
+```
 
 ## **1.14. Comentarios**
 
