@@ -81,8 +81,8 @@ int main(void)
 {  
     / * this is a 'block'  */  
     int i  = 5;  
-   
-    {// este bloque separe  
+    // este bloque separe  
+    {
         / * this is also a 'block,' separate from the last one  */  
         int i  = 6;	  
     }  
@@ -95,6 +95,7 @@ int main(void)
 
 Los tipos básico de C son: char, int, float y double. Con el siguiente código, se usa la función “sizeof” para determinar el tamaño de los tipos de datos (lo que ocupan en memoria).
 
+´´´cpp
 #include  <stdio.h >
 
 int main(void) {  
@@ -104,6 +105,7 @@ int main(void) {
 	printf("Doble: %d  n", 	sizeof(double));  
 	return 0;  
 }
+´´´
 
 ## **1.8. Operador SizeOf**
 
@@ -163,12 +165,17 @@ Las funciones pueden ser definidas por la librería estándar, por terceros o po
 
 * La importancia de las nuevas líneas:
 
- #include  <stdio.h >
+´´´cpp
 
-int main(void){ int i =0; printf("Hello, World !"); for (i =0; i <1; i ++){ printf("  n"); break; } return 0; }
+#include  <stdio.h >
+
+int main(void){ 
+int i =0; printf("Hello, World !"); for (i =0; i <1; i ++){ printf("  n"); break; } return 0; }
+´´´cpp
 
 * La importancia de la Indentación:
 
+´´´cpp
  #include  <stdio.h >
 
 int main(void)  
@@ -182,6 +189,7 @@ break;
 }  
 return 0;  
 }
+´´´cpp
 
 ## **1.14. Comentarios**
 
