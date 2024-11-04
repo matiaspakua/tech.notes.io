@@ -75,7 +75,8 @@ Define la cantidad de memoria asociada a una variable y como operar en variables
 
 Los bloques se utilizar para agrupar sentencias en las funciones y definen el ámbito de vida de las variables que se definan dentro de los mismo. Los bloques comienzan con “{“ y terminan con “}”.
 
-´´´c
+´´´cpp
+
 int main(void)  
 {  
     / * this is a 'block'  */  
