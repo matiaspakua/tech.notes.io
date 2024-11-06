@@ -43,3 +43,26 @@ Una estrategia de distribución bien diseñada es esencial para maximizar la dis
    - Una política de precios adecuada puede influir en la percepción de valor del producto, la competitividad en el mercado y la rentabilidad de la empresa.
 
 La política de precios debe estar alineada con la estrategia general de marketing y los objetivos empresariales, adaptándose a las condiciones del mercado y las necesidades del consumidor.
+
+# Segmentación de mercados
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7_04-l7hWIY?si=U9XIGhSCF1akIWTD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+Dividir el mercado en segmentos específicos para diseñar estrategias de marketing más efectivas.
+
+1. **Definición de Segmentación de Mercados**:
+   - Es el proceso de dividir un mercado amplio en grupos más pequeños de consumidores con necesidades, características o comportamientos similares.
+
+2. **Criterios de Segmentación**:
+   - **Demográficos**: Edad, género, ingresos, nivel educativo, entre otros.
+   - **Geográficos**: Ubicación, como país, región o ciudad.
+   - **Psicográficos**: Estilo de vida, personalidad, valores y actitudes.
+   - **Conductuales**: Patrones de compra, uso del producto y lealtad a la marca.
+
+3. **Beneficios de la Segmentación**:
+   - Permite a las empresas adaptar sus productos y estrategias de marketing a las necesidades específicas de cada segmento, mejorando la satisfacción del cliente y la eficiencia de las campañas.
+
+4. **Estrategias de Segmentación**:
+   - **Segmentación Concentrada**: Enfocarse en un solo segmento de mercado.
+   - **Segmentación Diferenciada**: Atender a varios segmentos con ofertas distintas.
+   - **Segmentación Indiferenciada**: Ofrecer una única oferta para todo el mercado.
