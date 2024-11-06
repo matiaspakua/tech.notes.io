@@ -68,10 +68,13 @@ Aumento de la capacidad de integración de nuevas tecnologías en un 70%.
 
 ---
 
-*Diapositiva 2: Situación Actual, Mercado, Empresa, Otros*
+*Diapositiva 3: Situación Actual, Mercado, Empresa, Otros*
 - *Situación Actual*: La empresa enfrenta desafíos como sistemas obsoletos, procesos manuales y una creciente demanda de servicios de salud.
 - *Mercado*: El sector de la salud está adoptando rápidamente tecnologías digitales para mejorar la atención y la eficiencia.
 - *Empresa*: Actualmente, la empresa tiene una infraestructura tecnológica limitada y necesita modernizarse para seguir siendo relevante.
+
+
+---
 
 *Diapositiva 3: Oportunidades y Beneficios Clave*
 - *Oportunidades*: Implementar sistemas de gestión de pacientes, telemedicina, y análisis de datos para mejorar la toma de decisiones.
