@@ -253,7 +253,7 @@ Con esta definición de los actores, podemos avanzar a **diagramar los casos de 
 
 SEC01: reporte de libros
 
-![](../../../images/diagrama_secuencia_01_reporte_libros.png)
+![](../../images/diagrama_secuencia_01_reporte_libros.png)
 
 
 - Contratos de Operación
