@@ -176,15 +176,86 @@ Con esta definición de los actores, podemos avanzar a **diagramar los casos de 
 
 # 2. FASE DE ELABORACIÓN
 
-
-- Modelo de Casos de Uso Refinado
+##  Modelo de Casos de Uso Refinado
     - Todos los casos de uso identificados
     - Especificaciones detalladas de casos de uso críticos
+
+### CU01: Generar Reporte de Libros
+
+| **Nombre del Caso de Uso**     | Generar Reporte de Libros                                     |
+|-------------------------------|----------------------------------------------------------------|
+| **Actor Principal**           | Administrador                                                  |
+| **Actores Secundarios**       | Sistema de Biblioteca (Automatizado)                           |
+| **Descripción**               | Este caso de uso describe cómo un administrador genera un reporte del estado actual de la biblioteca, mostrando los libros libres y prestados junto con sus fechas de devolución. |
+| **Precondiciones**            | El administrador debe tener acceso al Google Form o Google Site del sistema. |
+| **Postcondiciones**           | Se genera un reporte del estado de la biblioteca y se envía por correo electrónico o se muestra en el backoffice. |
+| **Reglas de Negocio**         | Solo los administradores están autorizados a generar reportes del estado de la biblioteca. |
+
+| **Actor Externo**                 | **Eventos del Sistema**                                  |
+|-----------------------------------|----------------------------------------------------------|
+| El administrador accede al Google Form o Google Site para generar el reporte de libros. |                                                            |
+| El administrador selecciona la opción "Generar Reporte de Libros". |                                                            |
+|                                   | Apps Script lee la pestaña "libros" y la pestaña "préstamos". |
+|                                   | Procesa los datos y genera un reporte HTML.              |
+|                                   | Envía el reporte al administrador o lo muestra en la página del Google Site. |
+
+### CU02: Solicitar Préstamo de Libro
+
+| **Nombre del Caso de Uso**     | Solicitar Préstamo de Libro                                      |
+|-------------------------------|------------------------------------------------------------------|
+| **Actor Principal**           | Usuario (Empleado de la empresa)                                 |
+| **Actores Secundarios**       | Sistema de Biblioteca (Automatizado)                             |
+| **Descripción**               | Este caso de uso describe cómo un usuario solicita un libro en préstamo de la biblioteca mediante un formulario. El sistema actualiza la base de datos, establece una fecha de devolución y envía confirmaciones. |
+| **Precondiciones**            | El libro solicitado debe estar en estado "libre". El usuario debe tener acceso al formulario de solicitud. |
+| **Postcondiciones**           | El estado del libro cambia a "prestado". El registro del préstamo se almacena en la pestaña "préstamos". |
+| **Reglas de Negocio**         | Solo se permite un préstamo por usuario a la vez para el mismo libro. La duración del préstamo es de 20 días. |
+
+| **Actor Externo**                 | **Eventos del Sistema**                                |
+|-----------------------------------|--------------------------------------------------------|
+| El usuario accede al Google Form de solicitud de préstamo. |                                                            |
+| El usuario selecciona el libro deseado de la lista de libros disponibles. |                                                            |
+| El usuario envía el formulario de solicitud. | Apps Script procesa el formulario.                       |
+|                                   | Toma la "Marca Temporal" y actualiza el estado del libro en "libros" a "prestado". |
+|                                   | Calcula la fecha de devolución.                         |
+|                                   | Registra la información del préstamo en la pestaña "préstamos". |
+|                                   | Envía un correo de confirmación al usuario.             |
+
+---
+
+### CU03: Devolución de Libro
+
+| **Nombre del Caso de Uso**     | Devolución de Libro                                          |
+|-------------------------------|--------------------------------------------------------------|
+| **Actor Principal**           | Usuario (Empleado de la empresa)                             |
+| **Actores Secundarios**       | Sistema de Biblioteca (Automatizado)                         |
+| **Descripción**               | Este caso de uso describe cómo un usuario devuelve un libro prestado, actualizando la base de datos para marcarlo como "libre". El sistema gestiona el registro de la devolución y notifica al usuario. |
+| **Precondiciones**            | El libro debe estar en estado "prestado". El usuario debe tener acceso al formulario de devolución. |
+| **Postcondiciones**           | El estado del libro cambia a "libre". El registro del préstamo se marca como devuelto. |
+| **Reglas de Negocio**         | Solo el usuario que tomó el libro en préstamo puede devolverlo. Debe ser devuelto antes de la fecha límite para evitar sanciones. |
+
+| **Actor Externo**                 | **Eventos del Sistema**                                  |
+|-----------------------------------|----------------------------------------------------------|
+| El usuario accede al Google Form de devolución de libros. |                                                            |
+| El usuario selecciona el libro que desea devolver.      |                                                            |
+| El usuario envía el formulario de devolución.           | Apps Script procesa el formulario.                        |
+|                                   | Actualiza el estado del libro a "libre" en la pestaña "libros". |
+|                                   | Actualiza la pestaña "préstamos" para marcar el libro como devuelto. |
+|                                   | Envía un correo de confirmación al usuario indicando la devolución exitosa. |
+
+---
+
+
 - Modelo de Dominio Detallado
     - Diagrama de clases conceptuales completo
     - Asociaciones y atributos
-- Diagramas de Secuencia del Sistema
+## Diagramas de Secuencia del Sistema
     - Para casos de uso principales
+
+SEC01: reporte de libros
+
+![](../../../images/diagrama_secuencia_01_reporte_libros.png)
+
+
 - Contratos de Operación
     - Precondiciones y postcondiciones
 - Arquitectura Candidata
