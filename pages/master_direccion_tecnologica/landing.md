@@ -10,4 +10,4 @@
 
 ## Seminario Profesionalizante
 
-[[pages/master_direccion_tecnologica/03_seminario_profesionalizado/sesion_1_26-10-2024.md]]
+[[sesion_1_26-10-2024]]
