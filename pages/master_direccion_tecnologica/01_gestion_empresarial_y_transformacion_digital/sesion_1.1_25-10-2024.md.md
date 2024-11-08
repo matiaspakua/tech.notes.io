@@ -1,4 +1,4 @@
-# Tema 1
+# TEMA 1: Alineación de la estrategia empresarial con IT
 
 ## Alineación de la estrategia empresarial con IT
 
