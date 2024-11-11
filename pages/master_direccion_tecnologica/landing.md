@@ -1,8 +1,8 @@
 # Master en Dirección Tecnológica e Innovación Digital - laSalle Bcn
 
 ## Gestión Empresarial y Transformación Digital
-[[sesion_1.1_25-10-2024.md]]
-[[sesion_1.2_25-10-2024.md]]
+[[sesion_1.1_25-10-2024]]
+[[sesion_1.2_25-10-2024]]
 
 ##  Gestión Económico Financiera
 
@@ -10,4 +10,4 @@
 
 ## Seminario Profesionalizante
 
-[[sesion_1_26-10-2024]]
+[[pages/master_direccion_tecnologica/03_seminario_profesionalizado/sesion_1_26-10-2024]]
