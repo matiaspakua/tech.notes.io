@@ -1,8 +1,8 @@
 # Master en Dirección Tecnológica e Innovación Digital - laSalle Bcn
 
 ## Gestión Empresarial y Transformación Digital
-[[sesion_1.1_25-10-2024]]
-[[sesion_1.2_25-10-2024]]
+[[sesion_1_25-10-2024]]
+[[sesion_2_25-10-2024]]
 
 ##  Gestión Económico Financiera
 
