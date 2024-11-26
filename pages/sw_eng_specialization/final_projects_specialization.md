@@ -625,7 +625,7 @@ La seguridad de la información (**InfoSEC**) y en general “seguridad digital�
 
 **Referencia:** Skoglund, K. (Executive Producer). (2019). Programming Foundations: Web Security [TV series]. LinkedIn LinkedIn Corporation. https://www.linkedin.com/learning-login/share?forceAccount=false&redirect=https%3A%2F%2Fw ww.linkedin.com%2Flearning%2Fprogramming-foundations-web-security-2%3Ftrk%3Dshare_ent _url%26shareId%3D%252B1kjrO87ROmIeOzc9w5YVQ%253D%253D (Original work published 2019)
 
->[!Todo]
+>[!todo]
 >Para cada una de las deficiones, mejorar los ejemplos y diagramas, para que sea más técnico y claro el concepto.
 
 
