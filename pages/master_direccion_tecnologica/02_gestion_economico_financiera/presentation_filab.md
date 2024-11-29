@@ -40,33 +40,33 @@ Les agradezco su confianza y presencia en esta jornada. Estoy seguro de que los 
 
 # Ratio de estabilidad
 
-ha mejorado la estabilidad debido a que se están amortizando los inmovilizados
-han aumentado las reservas
-ha mejorado el beneficio neto
+ha mejorado la estabilidad debido a que se están <mark style="background: #FFF3A3A6;">amortizando los inmovilizados</mark>
+han <mark style="background: #FFF3A3A6;">aumentado las reservas</mark>
+ha mejorado el <mark style="background: #FFF3A3A6;">beneficio neto</mark>
 
 ---
 
 # Ratio de Consistencia
 
-mejoro la situación financiera, se pagaron deudas LP
- las deudas de la empresa con proveedores por la adquisición de bienes de **inmovilizado**
+mejoro la situación financiera, se <mark style="background: #FFF3A3A6;">pagaron deudas LP</mark>
 
 
 ---
 
 # Ratio de autonomía financiera
 
-Pasamos de pocos recursos (por eso contrajimos deuda) al tener un exceso de recursos por el buen año 2019. Por lo tanto, tenemos más autonomía financiera.
+Pasamos de <mark style="background: #FFF3A3A6;">pocos recursos</mark> (por eso contrajimos deuda) al tener un <mark style="background: #FFF3A3A6;">exceso de recursos</mark> por el buen año 2019. Por lo tanto, tenemos<mark style="background: #FFF3A3A6;"> más autonomía financiera.</mark>
 
 ---
 
 # Ratio de endeudamiento 
 
 
- nos estamos financiando con recursos propios resultado buen desempeño de ventas, aumento de ingresos/ventas por lo tanto disminuye la deuda (por el pago)
+ nos estamos<mark style="background: #FFF3A3A6;"> financiando con recursos propios</mark> resultado buen <mark style="background: #FFF3A3A6;">desempeño de ventas,</mark>   
+ <mark style="background: #FFF3A3A6;">disminuye la deuda</mark> (por el pago)
 
 ---
 
 # Ratio de endeudamiento a corto plazo
 
-se ha reducido su dependencia de deudas a corto plazo para financiar sus operaciones, lo que mejora su estabilidad financiera y su capacidad para cumplir con obligaciones inmediatas.
+se ha reducido su<mark style="background: #FFF3A3A6;"> dependencia de deudas a corto plazo</mark> para financiar sus operaciones, lo que mejora su estabilidad financiera y su capacidad para cumplir con obligaciones inmediatas.
