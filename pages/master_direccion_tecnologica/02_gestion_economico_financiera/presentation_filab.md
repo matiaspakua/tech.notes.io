@@ -38,24 +38,21 @@ Para nuestros accionistas, este resultado es especialmente positivo. FILAB, fiel
 ha mejorado la estabilidad debido a que se están <mark style="background: #FFF3A3A6;">amortizando los inmovilizados</mark>
 han <mark style="background: #FFF3A3A6;">aumentado las reservas</mark>
 ha mejorado el <mark style="background: #FFF3A3A6;">beneficio neto</mark>
+
 ---
 # Ratio de Consistencia
 mejoro la situación financiera, se <mark style="background: #FFF3A3A6;">pagaron deudas LP</mark>
+
 ---
 # Ratio de autonomía financiera
 Pasamos de <mark style="background: #FFF3A3A6;">pocos recursos</mark> (por eso contrajimos deuda) al tener un <mark style="background: #FFF3A3A6;">exceso de recursos</mark> por el buen año 2019. Por lo tanto, tenemos<mark style="background: #FFF3A3A6;"> más autonomía financiera.</mark>
+
 ---
 # Ratio de endeudamiento 
  nos estamos<mark style="background: #FFF3A3A6;"> financiando con recursos propios</mark> resultado buen <mark style="background: #FFF3A3A6;">desempeño de ventas,</mark>   
  <mark style="background: #FFF3A3A6;">disminuye la deuda</mark> (por el pago)
+
 ---
 # Ratio de endeudamiento a corto plazo
 
 se ha reducido su<mark style="background: #FFF3A3A6;"> dependencia de deudas a corto plazo</mark> para financiar sus operaciones, lo que mejora su estabilidad financiera y su capacidad para cumplir con obligaciones inmediatas.
-
----
-
-accionistas
-
-transformación digital => optimización y nuevos mercados
-reducir costos de ventas => mejora de procesos
