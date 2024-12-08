@@ -102,7 +102,7 @@ Charlas --> [Notas de las charlas](/pages/we_are_developers_wc_2024/landing.md)
 
 ![](images/logo_lasalle_bcn.png)
 
-* [Materias y Notas del master](pages/landing.md)
+* [Materias y Notas del master](pages/master_direccion_tecnologica/landing.md)
 
 # 📚 Libros leídos
 
