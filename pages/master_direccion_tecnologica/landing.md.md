@@ -19,7 +19,8 @@
 
 --- 
 
+# Materias
 
-[1.Gestión Empresarial y Transformación Digital](pages/master_direccion_tecnologica/01_gestion_empresarial_y_transformacion_digital/landing)
+[1.Gestión Empresarial y Transformación Digital](01_gestion_empresarial_y_transformacion_digital/landing)
 2.Gestión Económico Financiera
 3.Seminario Profesionalizante
