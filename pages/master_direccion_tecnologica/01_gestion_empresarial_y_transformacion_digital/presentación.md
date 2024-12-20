@@ -1,26 +1,19 @@
-### 1. Introducción
+## 1. Introducción
 
-La **transformación digital de CatSalut** es una <mark style="background: #FFF3A3A6;">necesidad ineludible</mark> para <mark style="background: #ADCCFFA6;">modernizar</mark> y <mark style="background: #BBFABBA6;">fortalecer</mark> el sistema sanitario público de Cataluña, respondiendo a los desafíos actuales y futuros de manera eficiente e innovadora. 
+Una DX es una <mark style="background: #FFF3A3A6;">necesidad ineludible</mark> para <mark style="background: #ADCCFFA6;">modernizar</mark> y <mark style="background: #BBFABBA6;">fortalecer</mark> el sistema sanitario público de Cataluña, respondiendo a los desafíos actuales y futuros de manera eficiente e innovadora. 
 
 ---
 ### contexto
 
-En un contexto marcado por el <mark style="background: #FFF3A3A6;">crecimiento de la demanda sanitaria,</mark> el <mark style="background: #ADCCFFA6;">envejecimiento</mark> de la población y la necesidad de <mark style="background: #BBFABBA6;">optimizar recursos</mark>, la digitalización se presenta como el camino para garantizar un acceso **equitativo, ágil y de calidad** a la atención médica. 
-
----
-### interoperabilidad, big-data e IA
-
-Este plan busca transformar la gestión de CatSalut, promoviendo la **interoperabilidad** entre proveedores, la <mark style="background: #ADCCFFA6;">automatización de procesos administrativos </mark>y la implementación de tecnologías como **big-data** e **inteligencia artificial** que mejorarán la experiencia de los pacientes y optimizarán el trabajo de los profesionales de la salud. 
+ <mark style="background: #FFF3A3A6;">crecimiento de la demanda sanitaria,</mark> 
+ el <mark style="background: #ADCCFFA6;">envejecimiento</mark> de la población 
+ y la necesidad de <mark style="background: #BBFABBA6;">optimizar recursos</mark>, 
 
 ---
 ### modernizar, resiliencia y futuro
 
 La digitalización no solo <mark style="background: #FFF3A3A6;">modernizará</mark> la infraestructura, sino que también impulsará una **gobernanza más eficiente** y un sistema <mark style="background: #ADCCFFA6;">resiliente</mark>, capaz de adaptarse a las demandas del futuro y consolidar a CatSalut como un <mark style="background: #BBFABBA6;">referente en salud digital</mark>.
 
----
-### CatSalut e ICS
-
-El **CatSalut** es la entidad responsable de la planificación, contratación y coordinación del sistema sanitario público de Cataluña, garantizando la <mark style="background: #FFF3A3A6;">gobernanza global</mark> y la interoperabilidad entre todos los proveedores, incluidos el **ICS**. Para lograr una transformación digital eficaz, se necesita un <mark style="background: #BBFABBA6;">enfoque integral y coordinado</mark>.
 
 ---
 ### 2. Situación Actual
