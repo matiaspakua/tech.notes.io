@@ -9,11 +9,6 @@ Una DX es una <mark style="background: #FFF3A3A6;">necesidad ineludible</mark> p
  el <mark style="background: #ADCCFFA6;">envejecimiento</mark> de la población 
  y la necesidad de <mark style="background: #BBFABBA6;">optimizar recursos</mark>, 
 
----
-### modernizar, resiliencia y futuro
-
-La digitalización no solo <mark style="background: #FFF3A3A6;">modernizará</mark> la infraestructura, sino que también impulsará una **gobernanza más eficiente** y un sistema <mark style="background: #ADCCFFA6;">resiliente</mark>, capaz de adaptarse a las demandas del futuro y consolidar a CatSalut como un <mark style="background: #BBFABBA6;">referente en salud digital</mark>.
-
 
 ---
 ### 2. Situación Actual
@@ -166,7 +161,7 @@ La digitalización no solo <mark style="background: #FFF3A3A6;">modernizará</ma
 
 ---
 
-https://www.linkedin.com/posts/foro-econ%C3%B3mico-mundial_ia-atenciaejn-salud-activity-7270814700450308096-JARs?utm_source=share&utm_medium=member_desktop
+[Mayo Clinic](https://www.linkedin.com/posts/foro-econ%C3%B3mico-mundial_ia-atenciaejn-salud-activity-7270814700450308096-JARs?utm_source=share&utm_medium=member_desktop)
 
 <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7270814699154214914" height="816" width="504" frameborder="0" allowfullscreen="" title="Publicación integrada"></iframe>
 
