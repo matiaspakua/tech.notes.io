@@ -1,0 +1,5 @@
+- Mejorar las presentaciones, con datos que sean relevantes para un público específico.
+- En las presentaciones: memorizar bien lo que voy a decir, nada de borradores ni notas.
+- Respirar, no hablar rápido, RESPIRAR.
+- Practicar presentaciones, vocabulario, no decir EHHHH, ESTEEEE.....
+- Mejorar la postura y gesticulaciones al hablar en presentaciones.
