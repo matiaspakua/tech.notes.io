@@ -164,5 +164,10 @@ La digitalización no solo <mark style="background: #FFF3A3A6;">modernizará</ma
 - 80% modernización
 - Mejorar el bienestar social
 
+---
+
+https://www.linkedin.com/posts/foro-econ%C3%B3mico-mundial_ia-atenciaejn-salud-activity-7270814700450308096-JARs?utm_source=share&utm_medium=member_desktop
+
+<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7270814699154214914" height="816" width="504" frameborder="0" allowfullscreen="" title="Publicación integrada"></iframe>
 
 
