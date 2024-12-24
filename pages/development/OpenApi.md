@@ -40,3 +40,46 @@ Es una forma de comunicar, estandarizar y poner un estructura en común para la 
 
 ![](../../images/api_structure.png)
 
+Una de las forma más estándar de describir los datos es usar el forma de JSON.
+
+Swagger es parte de OpenAPI es el método más común para documentar y describir API's.
+
+## Descripción general de OpenAPI
+
+OpenAPI es un lenguaje que permite la transferencia de conocimiento de los proveedores de API a los consumidores de API (y durante todo el ciclo de vida de la API). Es un estándar abierto para describir sus API, lo que le permite proporcionar una descripción de API codificada en un documento JSON o YAML. Como todos los lenguajes de descripción, proporciona un diccionario completo de términos que refleja conceptos comúnmente entendidos en el mundo de las API, incorporando los fundamentos de HTTP y JSON. Cuando se combina con herramientas de apoyo, puede proporcionar una experiencia enriquecida basada en un documento simple.
+
+## El Rol de HTTP
+
+[Fielding Dissertation: CHAPTER 5: Representational State Transfer (REST)](https://ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm)
+
+Open API está soportado por el protocolo HTTP que es el más extendido en Internet, además del lenguaje JSON para definir el formato del contenido.
+
+
+## Mapeo OpenAPI a HTTP
+
+| OpenApi concepto    | HTTP                               |
+| ------------------- | ---------------------------------- |
+| Path                | Uniform Resource Identifiers (URI) |
+| Operation Object    | verbs: GET, PUT, POST              |
+| Parameter Object    | Query Parameter                    |
+| Request Body Object | message payload (json)             |
+| Reponses Object     | Response Status codes              |
+| Response Object     | response body (json)               |
+
+### HTTP Status Codes Convention 
+
+[RFC 7231 - Hypertext Transfer Protocol (HTTP/1.1): Semantics and Content](https://datatracker.ietf.org/doc/html/rfc7231#section-6)
+
+   o  1xx (Informational): The request was received, continuing process
+   o  2xx (Successful): The request was successfully received, understood, and accepted
+   o  3xx (Redirection): Further action needs to be taken in order to complete the request
+   o  4xx (Client Error): The request contains bad syntax or cannot be fulfilled
+
+## Tecnologías de soporte a OpenAPI
+
+ - JSON y YAML
+ - JSON schema
+ - Markdown
+
+# Estructura de alto nivel
+
