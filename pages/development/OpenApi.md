@@ -83,3 +83,55 @@ Open API está soportado por el protocolo HTTP que es el más extendido en Inter
 
 # Estructura de alto nivel
 
+El primer objeto del documento, es la descripción:
+
+```json
+
+{
+  "title": "Sample Pet Store App",
+  "summary": "A pet store manager.",
+  "description": "This is a sample server for a pet store.",
+  "termsOfService": "https://example.com/terms/",
+  "contact": {
+    "name": "API Support",
+    "url": "https://www.example.com/support",
+    "email": "support@example.com"
+  },
+  "license": {
+    "name": "Apache 2.0",
+    "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
+  },
+  "version": "1.0.1"
+}
+
+```
+
+![](../../images/openAPI_object_root.png)
+
+## Ejemplo:
+
+```yaml
+
+info:  
+  title: OpenAPI Basics API  
+  description: |  
+    An example of an Info Object in an OpenAPI description  
+  
+    ## Introduction to API
+  
+    This provides a high-level summary. An image is provided below:  
+  
+    ![Image embedded in OpenAPI description](example-image.png)  
+  
+    These are the services levels available:  
+  
+    | Name | Description |  
+    | --- | --- |  
+    | Basic | Free tier available to all consumers |  
+  version: 0.0.1
+
+```
+
+y esto se debe renderizar de la siguiente manera:
+
+![](../../images/openapi_render.png)
