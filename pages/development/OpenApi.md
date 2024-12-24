@@ -135,3 +135,7 @@ info:
 y esto se debe renderizar de la siguiente manera:
 
 ![](../../images/openapi_render.png)
+
+## URLs, Paths, and Methods
+
+
