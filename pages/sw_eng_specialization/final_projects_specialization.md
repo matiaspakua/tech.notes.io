@@ -929,8 +929,10 @@ El modelado de los aspectos de QA desde un inicio tiene varios beneficios pero a
 3. Result verification
 4. Fixture teardown
 
+
+
 ![](../../images/fig_27_xUnit_four-Phase_test_pattern.png)
-**Figura 27: xUnit Four-Phase Test Pattern. Imagen Fuente**
+**Figura 27: xUnit Four-Phase Test Pattern.**
 
 **Referencia:** [Four Phase Test at XUnitPatterns.com](http://xunitpatterns.com/Four%20Phase%20Test.html)
 #### 3.2.2.1 Deep-Dive en el esquema de Testing
@@ -1005,3 +1007,31 @@ Un aspecto muy importante del diseño en el desarrollo y que no está explícita
 DevSecOps y sobre todo QA requieren que las bases del producto de software, por ejemplo los repositorios de código, estén ordenados, prolijos y sobre todo utilicen un modelado de uso (Fowler, 2020), o flujo de trabajo, claro y estándar.
 
 **Referencias:**  **Fowler, M. (2020, 05 28). Patterns for Managing Source Code Branches. Martin Fowler. Retrieved March 29, 2022, from [https://martinfowler.com/articles/branching-patterns.html](https://martinfowler.com/articles/branching-patterns.html)**
+
+
+## 3.4 Sec byDesign
+
+
+Generalmente, los aspectos de seguridad no son considerados en fases iniciales de los productos de software o no son implementados durante el desarrollo. Tampoco es normal en la mayoría de los casos que se considere el “diseño” o el modelado de la “arquitectura de seguridad” desde un inicio.
+
+La fundación OWASP promueve para el diseño seguro (Sec ByDesign) un modelo de madurez: SAMM, el cual proporciona las bases para implementar un diseño seguro desde el comienzo de desarrollo de un sistema de software, o en todo caso, aplicar el modelo a un producto ya existente. En la Fig. 30 se listan para cada etapa del desarrollo (o SDLC) las prácticas de seguridad que se pueden aplicar.
+
+
+| **Gobernanza**           | **Diseño**                    | **Implementación**  | **Verificación**              | **Operaciones**       |
+| ------------------------ | ----------------------------- | ------------------- | ----------------------------- | --------------------- |
+| Estrategia y Métricas    | ==Evaluación de Amenazas==    | Construcción Segura | Evaluación de Arquitectura    | Gestión de Incidentes |
+| Políticas y Cumplimiento | ==Requisitos de Seguridad==   | Despliegue Seguro   | Pruebas basadas en Requisitos | Gestión del Entorno   |
+| Educación y Orientación  | ==Arquitectura de Seguridad== | Gestión de Defectos | Pruebas de Seguridad          | Gestión Operacional   |
+
+**Figura 30: Modelo de Madurez SAMM. Imagen Fuente (SAMM OWASP® Foundation, 2021)**
+
+**Referencia** SAMM OWASP® Foundation. (2021). The Model logo. OWASP SAMM. Retrieved March 3, 2022, from https://owaspsamm.org/model/ 
+
+Desde el punto de vista del diseño se especifican 3 prácticas esenciales (que son las que vamos a tomar como foco por el momento):
+
+1. Threat Assessment (implementando Threat Modeling)
+2. Requerimientos de Seguridad
+3. Arquitectura de Seguridad (modeling)
+
+En los casos donde fuera posible pensar y modelar la seguridad desde etapas tempranas, se proponen las siguientes técnicas y herramientas para ser aplicadas.
+
