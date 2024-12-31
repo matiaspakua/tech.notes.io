@@ -918,3 +918,42 @@ Se puede pensar en el modelado de QA como en el modelado de los componentes de u
 
 **Figura 26: Flujo de trabajo de QA basado en modelos. Imagen Fuente((Model-Based QA, 2021)**
 
+### 3.2.2 Patrones de Testing
+
+El modelado de los aspectos de QA desde un inicio tiene varios beneficios pero a su vez es una tarea difícil y poco común en la industria en general. Es por eso que es conveniente basarse en framework y patrones de pruebas para acelerar la implementación. Un ejemplo que puede ayudar son los XUnit Test Patterns. (Meszaros, 2007, 7,19,21, 40), donde el autor expresa una forma estándar de diseñar las pruebas (Fig. 27), basadas en 4 fases:
+
+**Referencia:** Meszaros, G. (2007). XUnit Test Patterns: Refactoring Test Code (1st ed.). Addison-Wesley. 
+
+1. Fixture setup
+2. Exercise SUT
+3. Result verification
+4. Fixture teardown
+
+![](../../../images/fig_27_xUnit_four-Phase_test_pattern.png)
+**Figura 27: xUnit Four-Phase Test Pattern. Imagen Fuente**
+#### 3.2.2.1 Deep-Dive en el esquema de Testing
+
+Ahora vamos a repasar brevemente cada parte de éste esquema de testing propuesto:
+
+1. **Test Suite Factory** 🏭 : Representa el punto de partida para la generación de pruebas. Este componente es responsable de crear las clases de pruebas (**TestCases Class**) que contienen los métodos de prueba necesarios.
+2. **TestCases Class** 📂  :Esta clase contiene los métodos de prueba, como `testMethod_1`, `testMethod_n`, que serán ejecutados dentro de la suite de pruebas. Cada método se enfoca en verificar una funcionalidad específica del sistema bajo prueba (**SUT**).   
+3. **Test Case Object** 🧪 : Los métodos de prueba se instancian como objetos individuales, representando casos de prueba independientes. Cada objeto sigue un ciclo estándar de ejecución conocido como **Setup-Exercise-Verify-Teardown**:
+    - **Setup**: Configuración necesaria para preparar el entorno y los datos requeridos por el caso de prueba.
+    - **Exercise**: Ejecución del comportamiento o funcionalidad del SUT que se quiere verificar.
+    - **Verify**: Comprobación de que el resultado es el esperado (criterio de éxito) usando "aserciones".
+    - **Teardown**: Limpieza del entorno después de la prueba para garantizar que no afecte a otras pruebas.
+4. **Test Suite Object** 🛠️  : Agrupa múltiples casos de prueba y permite ejecutarlos de manera estructurada. Esto facilita la ejecución de un conjunto completo de pruebas, asegurando cobertura en diferentes aspectos del SUT.
+5. **Fixture** 🎯  : Representa el conjunto de elementos necesarios para ejecutar el **SUT** (System Under Test). Esto incluye:
+    - Datos específicos.
+    - Dependencias como bases de datos, servicios externos o archivos.
+    - Configuraciones particulares.
+6. **SUT (System Under Test)** 🔄 : El sistema o componente que se está verificando. La interacción entre los casos de prueba y el SUT se realiza mediante el patrón Fixture. 
+7. **Resultados** 📊  : Una vez ejecutadas las pruebas, los resultados se recopilan y analizan. Esto incluye reportes y métricas que ayudan a determinar la calidad del software y la efectividad de los tests.
+#### 3.2.2.2 Características y Beneficios
+
+1. **Estandarización y Consistencia**: La estructura xUnit proporciona un marco estandarizado para escribir y ejecutar pruebas, reduciendo la probabilidad de errores humanos y garantizando consistencia.
+2. **Modularidad y Reutilización**: Componentes como **TestCases Class** y **Fixtures** permiten definir pruebas independientes y reutilizables, lo cual es fundamental para mantener un conjunto de pruebas eficiente y manejable.
+3. **Aislamiento del SUT** : El uso de Fixtures asegura que las pruebas no dependan de condiciones externas, aislando correctamente el SUT para obtener resultados confiables.
+4. **Ciclo de Vida del Caso de Prueba** : La estructura Setup-Exercise-Verify-Teardown garantiza que cada prueba sea autónoma, reduciendo las dependencias entre casos de prueba.    
+5. **Escalabilidad** : La inclusión del **Test Suite Object** permite escalar la estrategia de pruebas al integrar grandes conjuntos de pruebas, gestionándolos de manera organizada.
+6. **Automatización**  Este patrón se alinea perfectamente con los frameworks de automatización modernos, haciendo posible ejecutar pruebas de regresión y liberar a los equipos de tareas repetitivas.
