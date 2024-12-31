@@ -929,7 +929,7 @@ El modelado de los aspectos de QA desde un inicio tiene varios beneficios pero a
 3. Result verification
 4. Fixture teardown
 
-![](../../../images/fig_27_xUnit_four-Phase_test_pattern.png)
+![](../../images/fig_27_xUnit_four-Phase_test_pattern.png)
 **Figura 27: xUnit Four-Phase Test Pattern. Imagen Fuente**
 
 **Referencia:** [Four Phase Test at XUnitPatterns.com](http://xunitpatterns.com/Four%20Phase%20Test.html)
@@ -974,7 +974,7 @@ Quizás la etapa más conocida, documentada y discutida en el área de la Ingeni
 **Referencias:**:
 **Carnegie Mellon University. (2016, December 23). Confluence Mobile - Confluence. Confluence Mobile - Confluence. Retrieved March 2, 2022, from [https://wiki.sei.cmu.edu/confluence/display/SAD/Main+Page](https://wiki.sei.cmu.edu/confluence/display/SAD/Main+Page)**
 
-**GitHub, Inc. (2021, July 12). Architectural Decision Records. Architectural Decision Records | adr.github.io. Retrieved March 2, 2022, from [https://adr.github.io/](https://adr.github.io/)**
+**GitHub, Inc. (2021, July 12). Architectural Decision Records. Architectural Decision Records adr.github.io. Retrieved March 2, 2022, from [https://adr.github.io/](https://adr.github.io/)**
 
 **Brown, S., & Betts, T. (2018, June 25). The C4 Model for Software Architecture. InfoQ. Retrieved February 23, 2022, from [https://www.infoq.com/articles/C4-architecture-model/](https://www.infoq.com/articles/C4-architecture-model/)**
 
@@ -985,7 +985,7 @@ Quizás la etapa más conocida, documentada y discutida en el área de la Ingeni
 
 La Fig. 28 muestra un ejemplo del modelado gráfico de un sistema de software de alto nivel utilizando la técnica C4, donde se puede observar cómo se van explotando los distintos niveles de abstracción, desde el nivel 1 (más abstracto y de alto nivel) hasta el nivel 4 (nivel de código). Este último nivel no es recomendado por el autor, dada la complejidad y el costo/beneficio de llegar a dicho nivel.
 
-![](../../../images/The_C4_Model_for_Software_Architecture.png)
+![](../../images/The_C4_Model_for_Software_Architecture.png)
 **Figura 28: Modelado de Arquitectura con C4. Imagen Fuente (C4 Model, 2022) (Brown & Betts, 2018)**
 
 **Referencias:**
@@ -994,12 +994,12 @@ La Fig. 28 muestra un ejemplo del modelado gráfico de un sistema de software de
 **Brown, S., & Betts, T. (2018, June 25). The C4 Model for Software Architecture. InfoQ. Retrieved February 23, 2022, from [https://www.infoq.com/articles/C4-architecture-model/](https://www.infoq.com/articles/C4-architecture-model/)**
 
 
-Un aspecto muy importante del diseño en el desarrollo y que no está explícitamente ligado al diseño funcional, es el planteo del flujo de desarrollo. Si bien, en primera instancia pareciera no haber una relación aparente, es crucial que se diseñe el flujo de desarrollo considerando la perspectiva del código fuente. Una estrategía posible es utilizar Git Flow ([Driessen, 2010](https://docs.google.com/document/d/1AxZIkA2CJaisXTidKar3Qqg25c_oKFpEne6D-QvPxGE/edit#bookmark=id.lw3buhob00yg)), como se muestra en la Fig. 29:
+Un aspecto muy importante del diseño en el desarrollo y que no está explícitamente ligado al diseño funcional, es el planteo del flujo de desarrollo. Si bien, en primera instancia pareciera no haber una relación aparente, es crucial que se diseñe el flujo de desarrollo considerando la perspectiva del código fuente. Una estrategia posible es utilizar Git Flow ([Driessen, 2010](https://docs.google.com/document/d/1AxZIkA2CJaisXTidKar3Qqg25c_oKFpEne6D-QvPxGE/edit#bookmark=id.lw3buhob00yg)), como se muestra en la Fig. 29:
 
 **Referencia:** Driessen, V. (2010, January 5). A successful Git branching model » nvie.com. nvie.com. Retrieved March 23, 2022, from [https://nvie.com/posts/a-successful-git-branching-model/](https://nvie.com/posts/a-successful-git-branching-model/)
 
 
-![](../../../images/git_flow_a_successful_Git_branching_model.png)
+![](../../images/git_flow_a_successful_Git_branching_model.png)
 **Figura 29: Git Flow. Imagen Fuente (Driessen, 2010)**
 
 DevSecOps y sobre todo QA requieren que las bases del producto de software, por ejemplo los repositorios de código, estén ordenados, prolijos y sobre todo utilicen un modelado de uso (Fowler, 2020), o flujo de trabajo, claro y estándar.
