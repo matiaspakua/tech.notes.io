@@ -50,6 +50,20 @@
 		- [2.5.15. Metodología: estrategia de QA](#2.5.15_metodologia_estrategia_qa)
 		- [2.5.16. Metodología: Metodología: DevSecOps](#2.5.16_metodologia_metolodogia_devsecops)
 - [3. Diseño](#3.diseño)
+	- [3.1 Estrategías de Diseño]
+		- [3.1.1 Gran Diseño Inicial (BDUF)]
+		- [3.1.2 Diseño Preliminar Inicial (RDUF) y Diseño Emergente]
+		- [3.1.3 Framework Cynefin]
+		- [3.1.4 Estrategía de Diseño óptimo y compensación de costo/beneficio]
+	- [3.2. QA ByDesign]
+		- [3.2.1 Modelado de Procesos y Artefactos]
+		- [3.2.2 Patrones de Testing]
+			- [3.2.2.1 Deep-Dive en el esquema de Testing]
+			- [3.2.2.2 Características y Beneficios]
+	- [3.3 Dev byDesign]
+		- [3.3.1 Modelado de Arquitectura usando C4model]
+	- [3.4 Sec byDesign]
+	- 
 
 <a name="1.introduction"></a>
 # 1. Introducción
@@ -875,7 +889,7 @@ Se realiza un diseño por adelantado (RDUF, 2020), <mark style="background: #ADC
 **Referencia:** Beck, K., & Andres, C. (2004). Extreme Programming Explained: Embrace Change. Pearson Education. 
 
 <a name="3.1.3.framework_cynefin"></a>
-### Framework Cynefin 
+### 3.1.3 Framework Cynefin 
 
 El framework Cynefin (Cynefin, 2022) Fig. 25 establece que a medida que se pasa de "Simple" → "Complicado" → "Complejo" → "Caótico", la predictibilidad de un sistema disminuye. En el caso de los sistemas "simples", los requisitos y la implementación se conocen completamente de antemano y hay bajo riesgo, mientras que en los sistemas caóticos, los requisitos y la implementación no están bien definidos y están en constante estado de cambio.
 
@@ -918,6 +932,7 @@ Se puede pensar en el modelado de QA como en el modelado de los componentes de u
 
 **Figura 26: Flujo de trabajo de QA basado en modelos. Imagen Fuente((Model-Based QA, 2021)**
 
+<a name="3.2.1.modelado_procesos_artefactos"></a>3
 ### 3.2.2 Patrones de Testing
 
 El modelado de los aspectos de QA desde un inicio tiene varios beneficios pero a su vez es una tarea difícil y poco común en la industria en general. Es por eso que es conveniente basarse en framework y patrones de pruebas para acelerar la implementación. Un ejemplo que puede ayudar son los XUnit Test Patterns. (Meszaros, 2007, 7,19,21, 40), donde el autor expresa una forma estándar de diseñar las pruebas (Fig. 27), basadas en 4 fases:
@@ -966,10 +981,10 @@ Ahora vamos a repasar brevemente cada parte de éste esquema de testing propuest
 
 Quizás la etapa más conocida, documentada y discutida en el área de la Ingeniería de Software. Dado que el diseño de software es un área amplia, solo se listarán recomendaciones y herramientas o técnicas que se deben evaluar como parte de la implementación de la metodología DevSecOps y que son fundamentales desde la visión de QA:
 
-- Modelado de la arquitectura del sistema o SAD (Carnegie Mellon University, 2016)
+- <mark style="background: #FFF3A3A6;">Modelado de la arquitectura del sistema</mark> o SAD (Carnegie Mellon University, 2016)
 - Registro de decisiones de arquitectura o ADRs (GitHub, Inc., 2021)
 - Modelado gráfico con herramientas: UML, C4 (Brown & Betts, 2018), 4+1 (Kruchten,2021)
-- Consideración de atributos de calidad (Wiggins, 2017)
+- Consideración de <mark style="background: #ADCCFFA6;">atributos de calidad</mark> (Wiggins, 2017)
 - Aplicación de Domain-Driven Design ó DDD (Evans & Evans, 2004)
 - Modelado gráfico usando Diagrams-As-Code
 
@@ -984,6 +999,7 @@ Quizás la etapa más conocida, documentada y discutida en el área de la Ingeni
 
 **Evans, E. J., & Evans, E. (2004). Domain-driven design. Addison-Wesley.**
 
+### 3.3.1 Modelado de Arquitectura usando C4model
 
 La Fig. 28 muestra un ejemplo del modelado gráfico de un sistema de software de alto nivel utilizando la técnica C4, donde se puede observar cómo se van explotando los distintos niveles de abstracción, desde el nivel 1 (más abstracto y de alto nivel) hasta el nivel 4 (nivel de código). Este último nivel no es recomendado por el autor, dada la complejidad y el costo/beneficio de llegar a dicho nivel.
 
