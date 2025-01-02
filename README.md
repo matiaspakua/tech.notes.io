@@ -147,8 +147,8 @@ Charlas --> [Notas de las charlas](/pages/we_are_developers_wc_2024/landing.md)
 ![](images/logo_universidad_palermo.png)
 
   - [Cloud Computing](pages/master_ti/cloud_computing/landing.md)
-  - [Transformación Digital](pages/master_ti/transformacion_digital/)
-  - [Seguridad Informática](pages/master_ti/seguridad_informatica/)
+  - [Transformación Digital](pages/master_ti/transformacion_digital/landing.md)
+  - [Seguridad Informática](pages/master_ti/seguridad_informatica/landing.md)
 
  - [Materias y notas del master](pages/master_ti/landing.md)
 

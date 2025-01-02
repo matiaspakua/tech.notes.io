@@ -1,4 +1,4 @@
-- Sesión 1 -> [Conceptos y servicios del modelo Cloud Computing](pages/master_ti/cloud_computing/sesion_1.md)
+- Sesión 1 -> [Conceptos y servicios del modelo Cloud Computing](cloud_computing/sesion_1.md)
 - Sesión 2 -> [Ciclo de Madurez de Tecnologías Cloud](pages/master_ti/cloud_computing/sesion_2.md)
 - Sesión 3 -> [Ciclo de Madurez de la seguridad en la nube](pages/master_ti/cloud_computing/sesion_3.md)
 - Sesión 4 -> [Migracion de Aplicaciones On-Premise hacia Cloud](pages/master_ti/cloud_computing/sesion_4.md)
