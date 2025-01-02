@@ -20,8 +20,8 @@
 ---
 
 
-[[pages/master_ti/transformacion_digital/sesion_1]]
-[[pages/master_ti/transformacion_digital/sesion_2]]
-[[pages/master_ti/transformacion_digital/sesion_3]]
-[[pages/master_ti/transformacion_digital/sesion_4]]
-[[pages/master_ti/transformacion_digital/sesion_5]]
+- Sesión 1 -> [ Introducción Transformación Digital](sesion_1.md)
+- Sesión 2 -> [Conceptos de Innovación](sesion_2.md)
+- Sesión 3 -> [Creatividad e Innovación](sesion_3.md)
+- Sesión 4 -> [Herramientas para la innovación](sesion_4.md)
+- Sesión 5 -> [Roadmap de la transformación digital](sesion_5.md)
