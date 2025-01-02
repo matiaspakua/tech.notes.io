@@ -1160,16 +1160,14 @@ De la tabla anterior surgen la siguiente liste de Requerimientos de seguridad. E
 | SR-11                          | Implementar comunicación segura mediante TLS (HTTPS) en todas las transacciones.         | AT-3-2                           |
 | SR-12                          | Rotar tokens de sesión frecuentemente para reducir riesgos de secuestro de sesión.       | AT-3-2                           |
 
+<a name="3.4.3_Arquitectura_Seguridad_Modelado_Patrones"></a>
 ### 3.4.3 Arquitectura de Seguridad: Modelado y Patrones
-
 
 Al igual que se desarrolla y modela la arquitectura funcional y no funcional del producto de software, se debe realizar un trabajo similar desde el punto de vista de la seguridad, realizando lo que se conoce como Architectural Analysis for Security o AAFS (Ryoo, 2020).
 
 **Referencia:** Ryoo, J. (2020, 07 08). Developing Secure Software. Architectural analysis for security. https://www.linkedin.com/learning/developing-secure-software/architectural-analysis-for-security?autoplay=true&resume=false 
 
 En la Fig. 35 cada nivel representa amenazas de seguridad, por lo tanto, para cada nivel se deben aplicar técnicas de arquitectura para mitigar esas posibles amenazas.
-
-
 
 | Grado de la amenaza | Nivel de aquitectura   |
 | ------------------- | ---------------------- |
@@ -1213,8 +1211,144 @@ Este tipo de patrón es útil para aplicar en los siguiente escenarios:
 
 Básicamente, este patrón es ideal para asegurar que solo las solicitudes válidas y autorizadas lleguen a los componentes críticos del sistema.
 
+<a name="3.4.4_Metodología_Testing_seguridad"></a>
 ### 3.4.4 Metodología de Testing de seguridad
 
 En el mundo de la seguridad, se han desarrollado una variedad de tipos de pruebas de seguridad que se complementan con el SDLC y con el STLC. En la Fig. 38 se pueden apreciar las distintas etapas del ciclo de desarrollo y pruebas de software. En el centro, se mencionan los principales tipos de pruebas de seguridad (SSecLC) posibles para implementar una estrategía de seguridad complementaría al flujo de desarrollo estándar.
 
 ![](../../images/fig_38_SDLC_STLC_SSecLC.png)
+
+<a name="3.4.5_Static_application_security_testing_o_SAST"></a>
+### 3.4.5 Static application security testing o SAST
+
+A SAST se lo conoce como prueba de “caja blanca”, lo que significa que se prueba el sistema desde adentro en lugar de intentar probarlo desde una perspectiva externa o en ejecución. Generalmente en tiempo de desarrollo se pueden utilizar herramientas para análisis estático de código fuente.
+
+El siguiente ejemplo de código es una muestra de como se puede ejecutar un analisis estático usado herramientas como **SonarQube**:
+
+```java
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.Statement;
+
+public class UserDAO {
+    private static final String DB_URL = "jdbc:mysql://localhost:3306/mydatabase";
+    private static final String DB_USER = "root";
+    private static final String DB_PASSWORD = "password";
+
+    public boolean authenticateUser(String username, String password) {
+        Connection connection = null;
+        Statement statement = null;
+        ResultSet resultSet = null;
+
+        try {
+            connection = DriverManager.getConnection(DB_URL, DB_USER, DB_PASSWORD);
+
+            // Crear una consulta SQL dinámica (peligrosa)
+            String query = "SELECT * FROM users WHERE username = '" + username + "' AND password = '" + password + "'";
+
+            statement = connection.createStatement();
+            resultSet = statement.executeQuery(query);
+            return resultSet.next();
+
+        } catch (Exception e) {
+            e.printStackTrace();
+            return false;
+        } finally {
+            try {
+                if (resultSet != null) resultSet.close();
+                if (statement != null) statement.close();
+                if (connection != null) connection.close();
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+        }
+    }
+}
+
+
+```
+
+En este caso, luego de ejecutar SonarQube sobre el proyecto donde se encuentra ésta clase, se genera el siguiente reporte de alerta:
+
+#### **Resumen General**
+
+- Líneas de código analizadas: 10,000
+- Vulnerabilidades encontradas: **5**
+- Código duplicado: 3%
+- Cobertura de pruebas: 80%
+
+#### **Vulnerabilidades Detectadas**
+
+| Tipo de Vulnerabilidad | Severidad | Ubicación                    | Descripción                                                                         | Solución Recomendada                      |
+| ---------------------- | --------- | ---------------------------- | ----------------------------------------------------------------------------------- | ----------------------------------------- |
+| Inyección SQL          | Crítica   | `UserDAO.java:45`            | Uso de `Statement` para construir consultas SQL con datos no validados del usuario. | Usar `PreparedStatement` con parámetros.  |
+| Exposición de datos    | Alta      | `AuthService.java:110`       | Almacén de contraseñas no cifradas en el sistema de archivos.                       | Implementar hashing con `BCrypt`.         |
+| Validación de entradas | Media     | `RegisterController.java:22` | Faltan validaciones de entrada en el formulario de registro.                        | Validar y sanitizar entradas del usuario. |
+
+Pero cual es el problema? Resulta que al utilizar `Statement` para ejecutar la query se puede realizar una inyección SQL. Un atacante podría pasar los siguientes valores como entrada:
+
+- `username: ' OR '1'='1`
+- `password: anything`
+
+Esto generaría una consulta SQL como esta:
+
+```SQL
+
+SELECT * FROM users WHERE username = '' OR '1'='1' AND password = 'anything';
+
+/*
+La condición `OR '1'='1'` siempre se evalúa como verdadera, permitiendo el acceso sin credenciales válidas.
+*/
+```
+
+La solución es reemplar el uso del metodo `statement` por `prepareStatement`:
+
+```java 
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+
+public class UserDAO {
+    private static final String DB_URL = "jdbc:mysql://localhost:3306/mydatabase";
+    private static final String DB_USER = "root";
+    private static final String DB_PASSWORD = "password";
+
+    public boolean authenticateUser(String username, String password) {
+        Connection connection = null;
+        PreparedStatement preparedStatement = null;
+        ResultSet resultSet = null;
+
+        try {
+            connection = DriverManager.getConnection(DB_URL, DB_USER, DB_PASSWORD);
+            // Crear una consulta SQL segura con parámetros
+            String query = "SELECT * FROM users WHERE username = ? AND password = ?";
+            preparedStatement = connection.prepareStatement(query);
+            preparedStatement.setString(1, username);
+            preparedStatement.setString(2, password);
+
+            resultSet = preparedStatement.executeQuery();
+
+            return resultSet.next();
+
+        } catch (Exception e) {
+            e.printStackTrace();
+            return false;
+
+        } finally {
+            try {
+                if (resultSet != null) resultSet.close();
+                if (preparedStatement != null) preparedStatement.close();
+                if (connection != null) connection.close();
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+        }
+    }
+}
+
+
+```
