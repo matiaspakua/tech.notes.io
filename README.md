@@ -136,9 +136,13 @@ Charlas --> [Notas de las charlas](/pages/we_are_developers_wc_2024/landing.md)
 - [Contratos y Aspectos Legales de Software](pages/sw_eng_specialization/software_legal_aspects_and_contracts.md)
 - [Ética Profesional](pages/sw_eng_specialization/professional_ethics.md)
 
-## Proyecto Final
+## 🔥🔥Proyecto Final🔥🔥
+
+
+WIP 👇
 
 - [DevSecOps desde la perspectiva de QA Automation](pages/sw_eng_specialization/final_projects_specialization.md)
+
 
 
  [Materias y notas de la especialización](/pages/sw_eng_specialization/landing.md)
