@@ -1156,9 +1156,10 @@ De la tabla anterior surgen la siguiente liste de Requerimientos de seguridad. E
 | SR-07                          | Configurar límites de recursos del servidor (memoria, CPU, conexiones).                  | AT-2-2                           |
 | SR-08                          | Asegurar la separación de privilegios entre usuarios y roles administrativos.            | AT-3-1                           |
 | SR-09                          | Realizar auditorías regulares de permisos para detectar configuraciones inseguras.       | AT-3-1                           |
-| SR-10                          | Usar cookies seguras con atributos `Secure` y `HttpOnly` para proteger sesiones.         | AT-3-2                           |
+| SR-10                          | Usar cookies seguras con atributos Secure y HttpOnly para proteger sesiones.         | AT-3-2                           |
 | SR-11                          | Implementar comunicación segura mediante TLS (HTTPS) en todas las transacciones.         | AT-3-2                           |
 | SR-12                          | Rotar tokens de sesión frecuentemente para reducir riesgos de secuestro de sesión.       | AT-3-2                           |
+
 ### 3.4.3 Arquitectura de Seguridad: Modelado y Patrones
 
 
