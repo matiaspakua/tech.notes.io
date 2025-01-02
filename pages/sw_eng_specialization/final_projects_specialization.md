@@ -1105,3 +1105,21 @@ Luego, este diagrama se traduce a una tabla de Riesgos y mitigaciones que deber�
 |R5|El servicio de compilación descarga muchas dependencias de terceros al construir mi sitio. Cualquiera de estas podría contener código malicioso que termine sirviendo a los usuarios.|Usar un análisis de seguridad de dependencias como **OWASP Dependency-Check** o herramientas como **Snyk**. Implementar revisión manual de dependencias críticas.|
 |R6|Si pierdo mi laptop, todas mis claves de acceso y contraseñas se perderán con ella, y todo mi sitio podría ser comprometido.|Usar un **gestor de contraseñas seguro** para almacenar las claves. Configurar autenticación multifactor (MFA) y deshabilitar claves comprometidas inmediatamente.|
 |R7|Existen riesgos al cargar scripts de terceros durante la carga de la página, y también porque Google recopila una gran cantidad de datos analíticos de los usuarios.|Cargar scripts de terceros mediante un dominio confiable y asegurado con **CSP**. Usar alternativas de análisis menos invasivas como Matomo para evitar la exposición de datos.|
+
+### 3.4.2 Requerimientos de Seguridad
+
+El objetivo de definir los requerimientos de seguridad es la comprensión, análisis, y especificación de los requisitos claves de seguridad para el desarrollo y puesta en operación de un sistema de software, de manera tal que se puedan alinear con otros tipos de requisitos del producto. 
+
+Se proponen los siguientes pasos para la elicitación, especificación y modelado de los requerimientos de seguridad, según (Mead et al., 2006):
+
+1. Acuerdo de definiciones de términos y conceptos
+2. Identificación de los Objetivos de Seguridad
+3. Desarrollo de Artefactos (Diagramas, Casos de Uso, Escenario, Árboles de Ataque Fig. 32 y Fig. 33, Templates)
+4. Realizar un Assessment de Riesgos (ver técnica: Risk-Storming).
+5. Selección de método/técnica de elicitación
+6. Elicitación de requerimientos de seguridad [ver Fig. 34]
+7. Categorización de requerimientos
+8. Priorización de requerimientos
+9. Inspección de los requerimientos
+
+
