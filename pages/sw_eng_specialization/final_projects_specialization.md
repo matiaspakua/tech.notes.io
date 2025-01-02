@@ -1091,7 +1091,7 @@ La Fig. 31 es un ejemplo de modelado de amenazas utilizado la notación gráfica
 
 El siguiente ejemplo es un diagrama de arquitectura de un sitio web, usando el modelado C4Model y agregando notaciones adicionales para identificar amenazas (STRIDE + LIDU) y luego registrar los riesgos asociados (Rn).
 
-![[Pasted image 20250102093621.png]]
+![](../../images/threat_modeling_web_site_STRIDE.png)
 **Figura 31: Threat Model usando Diagrama C4. Imagen Fuente (Spilsbury, 2020)**
 
 Luego, este diagrama se traduce a una tabla de Riesgos y mitigaciones que deberán aplicarse o tenerse en cuenta en la arquitectura:
