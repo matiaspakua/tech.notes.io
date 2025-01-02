@@ -1,5 +1,5 @@
-[[pages/master_ti/cloud_computing/sesion_1]]
-[[pages/master_ti/cloud_computing/sesion_2]]
-[[pages/master_ti/cloud_computing/sesion_3]]
-[[pages/master_ti/cloud_computing/sesion_4]]
-[[pages/master_ti/cloud_computing/sesion_5]]
+Sesion 1 -> [Conceptos y servicios del modelo Cloud Computing](pages/master_ti/cloud_computing/sesion_1)
+Sesion 2 -> [Ciclo de Madurez de Tecnologías Cloud](pages/master_ti/cloud_computing/sesion_2)
+Sesion 3 -> [Ciclo de Madurez de la seguridad en la nube](pages/master_ti/cloud_computing/sesion_3)
+Sesion 4 -> [Migracion de Aplicaciones On-Premise hacia Cloud](pages/master_ti/cloud_computing/sesion_4)
+Sesion 5 -> [Migración a Cloud](pages/master_ti/cloud_computing/sesion_5)
