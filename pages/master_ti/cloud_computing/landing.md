@@ -1,0 +1,5 @@
+[[pages/master_ti/cloud_computing/sesion_1]]
+[[pages/master_ti/cloud_computing/sesion_2]]
+[[pages/master_ti/cloud_computing/sesion_3]]
+[[pages/master_ti/cloud_computing/sesion_4]]
+[[pages/master_ti/cloud_computing/sesion_5]]

@@ -107,7 +107,7 @@ Charlas --> [Notas de las charlas](/pages/we_are_developers_wc_2024/landing.md)
 
  - [Biblioteca Técnica](/pages/projects/biblioteca_tecnica.md)
 
-# 🎓 UCA posgrado de Especialización en Ingeniería de Software 💻
+# 🎓 UCA - Especialización en Ingeniería de Software
 
 ![200x60](images/uca_logo.png)
 
@@ -142,17 +142,17 @@ Charlas --> [Notas de las charlas](/pages/we_are_developers_wc_2024/landing.md)
 - [Materias y notas de la especialización](/pages/sw_eng_specialization/landing.md)
 
 
-# UP (U. de Palermo) Master en tecnología de la Información
+# 🎓 UP -  Master en tecnología de la Información
 
 ![](images/logo_universidad_palermo.png)
 
-  - [Cloud Computing](pages/master_ti/cloud_computing/)
+  - [Cloud Computing](pages/master_ti/cloud_computing/landing.md)
   - [Transformación Digital](pages/master_ti/transformacion_digital/)
   - [Seguridad Informática](pages/master_ti/seguridad_informatica/)
 
  - [Materias y notas del master](pages/master_ti/landing.md)
 
-# LaSalle Campus BCN - Master en Dirección Tecnológica e Innovación Digital
+# 🎓laSalle BCN - Master en Dirección Tecnológica e Innovación Digital
 
 ![](images/logo_lasalle_bcn.png)
 
