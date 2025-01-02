@@ -12,7 +12,7 @@
 
 --- 
 
-# 🌐General (sin categoria específica)
+# 🌐General
 
 - [Introduction and notes on NoSQL Databases](/pages/general_topic/nosql_the_basis_of.md) 
 - [Specialisation Building Cloud Computing Solutions at Scale](/pages/general_topic/specialization_building_cloud_computing_solutions_at_scale.md)
@@ -22,7 +22,7 @@
 - [Tech Trends 2023](/pages/general_topic/tech_trends_2023.md)
 - [A reflection on Software Engineering: A Journey of Creativity and Rigor](/pages/general_topic/reflection_on_software_engineering.md)
 
-# 💻 Desarrollo, Programación
+# 💻 Desarrollo y Programación
 
 - [Spring Framework Notes](/pages/development/spring_framework_notes.md)
 - [Notas de Java](/pages/development/on_java_notes.md)
@@ -34,7 +34,7 @@
 - [Concurrencia y Java](/pages/development/concurrencia_java.md) 
 - [OpenAPI](/pages/development/OpenApi.md)
 
-# 🧪 Software and System Testing
+# 🧪 Testing de sistemas y software 
 
 - [Gherkin and Automation](/pages/testing/gherkin_and_automation.md)
 - [RobotFramework to test satellites](/pages/testing/robotframework_to_test_satellites.md)
@@ -49,7 +49,7 @@
 - [Software engineering timeline](/pages/software_engineering/software_engineering_timeline.md) <span style="color:red"> en progreso... </span>
 - [Generative AI](/pages/software_engineering/generative_ai.md)
 
-# 🏗️ Software y Arquitectura de sistemas
+# 🏗️ Arquitectura de sistemas y software
 
 - [On hexagonal Architecture notes](/pages/sw_and_system_architecture/on_hexagonal_architecture_notes.md)
 - [Vertical Slicing Architectures](/pages/sw_and_system_architecture/vertical_slicing_architectures.md)
