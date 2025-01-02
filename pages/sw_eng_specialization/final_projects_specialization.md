@@ -1159,3 +1159,40 @@ De la tabla anterior surgen la siguiente liste de Requerimientos de seguridad. E
 | SR-10                          | Usar cookies seguras con atributos `Secure` y `HttpOnly` para proteger sesiones.         | AT-3-2                           |
 | SR-11                          | Implementar comunicación segura mediante TLS (HTTPS) en todas las transacciones.         | AT-3-2                           |
 | SR-12                          | Rotar tokens de sesión frecuentemente para reducir riesgos de secuestro de sesión.       | AT-3-2                           |
+### 3.4.3 Arquitectura de Seguridad: Modelado y Patrones
+
+
+Al igual que se desarrolla y modela la arquitectura funcional y no funcional del producto de software, se debe realizar un trabajo similar desde el punto de vista de la seguridad, realizando lo que se conoce como Architectural Analysis for Security o AAFS (Ryoo, 2020).
+
+**Referencia:** Ryoo, J. (2020, 07 08). Developing Secure Software. Architectural analysis for security. https://www.linkedin.com/learning/developing-secure-software/architectural-analysis-for-security?autoplay=true&resume=false 
+
+En la Fig. 35 cada nivel representa amenazas de seguridad, por lo tanto, para cada nivel se deben aplicar técnicas de arquitectura para mitigar esas posibles amenazas.
+
+| Diseño de Arquitectura |
+| ---------------------- |
+| Diseño Detallado       |
+| Código                 |
+| Hardware               |
+**Figura 35: Niveles de Diseño de Seguridad**
+
+Los puntos de interés donde el modelado de la arquitectura de seguridad es relevante se pueden resumir en las siguientes 6 etapas, como se muestra en la Fig. 36:
+
+![](../../images/fig_36_aspectos_interes_modelado_arquitectura_segura_software.png)
+**Figura 36: Aspectos de Interés para el modelado de Arquitectura Segura de Software. Imagen Fuente (Ryoo, 2020)**
+
+**Referencia:** Ryoo, J. (2020, 07 08). Developing Secure Software. Architectural analysis for security. https://www.linkedin.com/learning/developing-secure-software/architectural-analysis-for-security?autoplay=true&resume=false 
+
+
+Teniendo en cuenta las etapas del ciclo de desarrollo, para el diseño de la arquitectura se pueden usar 3 técnicas que se pueden complementar:
+
+- ToAA: Tactic-Oriented Architecture Analysis. Se realiza con interacción entre el arquitecto de software y los expertos del dominio del negocio. Se usan tácticas de identificación de vulnerabilidades a través de una interacción y feedback.
+    
+- PoAA: Pattern-Oriented Architecture Analysis. Al igual que sucede con los patrones de diseño y patrones de Arquitectura, al identificar escenario/problemas durante la etapa de ToAA, surgen lo que se conoce como patrones de seguridad (Security Pattern, 2020), por ejemplo el patrón de seguridad Interceptor-Validator que se muestra en la Fig. 37.
+
+
+VoAA: Vulnerability-Oriented Architecture Analysis. Es la etapa de más bajo nivel, se analizan las vulnerabilidades en el código y en el producto a nivel interno.
+
+**Referencia:** Wikipedia contributors. (2020, April 20). Security pattern. In Wikipedia, The Free Encyclopedia. Retrieved 22:33, February 23, 2022, from https://en.wikipedia.org/w/index.php?title=Security_pattern&oldid=952064080 
+
+
+![](../../images/fig_37_interceptor-Validator_patron_seguridad.png)
