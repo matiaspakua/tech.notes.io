@@ -1352,3 +1352,192 @@ public class UserDAO {
 
 
 ```
+
+### 3.4.6 Dynamic application security testing o DAST}
+
+DAST es un tipo de prueba de “caja negra”, donde se prueba un sistema en ejecución desde el exterior. Esto significa que la iteración en la que está trabajando debe implementarse, integrarse y ejecutarse para realizar este tipo de pruebas.
+
+Herramientas como ZAPPROXY son muy prácticas al momento de realizar análisis de seguridad dinámicos, por ejemplo sobre sitios web:
+
+![[zapproxy_ui_desktop_scan_example.png]]
+
+**Referencia:**  [ZAP – Getting Started](https://www.zaproxy.org/getting-started/)
+
+### 3.4.7 Interactive application security testing o IAST
+
+Es una combinación de SAST y DAST. Se prueba desde el interior del sistema, y las pruebas que se ejecutan imitan las pruebas ejecutadas por la interacción humana y sus estímulos hacia  el sistema. Son tipos de pruebas más complejas y a menudo se basan en instalar agentes o sensores en los entornos de prueba que simulan la interacción de usuarios finales
+
+### 3.4.8 Runtime application security protection o RASP
+
+RASP es un método de prueba y una herramienta de prevención y detección de seguridad, ya que monitorea el sistema en tiempo real.
+
+Este tipo de prueba la realiza una persona externa a la organización (un atacante) y la detecta una herramienta diferente (una herramienta con funciones RASP).
+
+### 3.4.9 Software composition analysis ó SCA
+
+Cuando se trata de escanear vulnerabilidades, se debe asegurar de verificar no solo el código propio, sino también el software que se usa como dependencias. Aquí entra en juego el análisis de composición de software (SCA). Las pruebas de SCA escanean en busca de vulnerabilidades en el software de código abierto en el que se basa un sistema de software.
+
+### 3.4.10 Penetration Testing
+
+Las pruebas de penetración o Pentesting (Bell et al., 2017, 322) son una forma especializada de test exploratorio, donde el tester asume el papel de un atacante. Los Pentesters utilizan proxies interceptores y escáneres y otras herramientas para identificar vulnerabilidades y luego tratar de explotarlas. Esto requiere habilidades técnicas y experiencia para hacerlo de manera efectiva. Los Pentesters utilizan generalmente una metodología basada en 6 etapas (CIPHER ©, 2020), como se muestra en la Fig. 39.
+
+**Referencias:** Bell, L., Brunton-Spall, M., Bird, J., & Smith, R. (2017). Agile Application Security: Enabling Security in a Continuous Delivery Pipeline. O'Reilly Media. 
+
+**CIPHER ©. (2020, August 24). A Complete Guide to the Phases of Penetration Testing. Cipher. Retrieved March 23, 2022, from [https://cipher.com/blog/a-complete-guide-to-the-phases-of-penetration-testing/](https://cipher.com/blog/a-complete-guide-to-the-phases-of-penetration-testing/)**
+
+1. Pre-Engagement Interactions: análisis inicial, definición de ambientes, pruebas y alcance general.
+2. Reconnaissance ó Open Source Intelligence (OSINT) Gathering: trabajo de inteligencia y recolección de información y posibles puntos vulnerables.
+3. Threat Modeling & Vulnerability Identification: modelado y generación de un “mapa” de todos los componentes y elementos de interés.
+4. Exploitation: ejecución de las pruebas de vulnerabilidades.
+5. Post-Exploitation, Risk Analysis & Recommendations: generación de evidencias e información para procesar.
+6. Reporting: Generación de un reporte final con los resultados de las vulnerabilidades identificadas.
+
+
+![](../../images/Fig_39_Metodología_Pentesting.png)
+### Ejemplo de un proceso de Penetration Testing
+
+#### **1. Pre-Engagement Interactions**
+
+**Objetivo**: Definir los términos, el alcance y los objetivos de la prueba.
+
+|Detalle|Ejemplo|
+|---|---|
+|**Entorno de prueba**|Sitio web interno: `http://inventory-app.local`|
+|**Pruebas permitidas**|Inyección SQL, XSS, fuerza bruta en autenticación.|
+|**Restricciones**|No probar fuera del horario laboral ni afectar sistemas en producción.|
+|**Objetivo**|Identificar vulnerabilidades críticas en la autenticación y el manejo de inventarios.|
+
+### **2. Reconnaissance (OSINT Gathering)**
+
+**Objetivo**: Recopilar información sobre el sistema y posibles puntos vulnerables.
+
+```mermaid
+graph TD
+    A[Reconnaissance]
+    A --> B[Descubrir subdominios]
+    A --> C[Analizar servidores expuestos]
+    A --> D[Revisar usuarios y correos filtrados]
+    B --> B1[Subdominio: admin.inventory-app.local]
+    C --> C1[Versión de servidor: Apache/2.4.51]
+    D --> D1[Usuario encontrado: admin@test.com]
+```
+
+**Ejemplo**:
+
+- Herramienta: `sublist3r` para descubrir subdominios.
+    
+    ```bash
+    sublist3r -d inventory-app.local
+    ```
+    
+    **Resultado**: Se identifica `admin.inventory-app.local` como un subdominio expuesto.
+    
+- Herramienta: `nmap` para analizar puertos y servicios.
+    
+    ```bash
+    nmap -sV admin.inventory-app.local
+    ```
+    
+    **Resultado**: Se descubre que el servidor usa Apache 2.4.51, con vulnerabilidades conocidas.
+    
+
+
+### **3. Threat Modeling & Vulnerability Identification**
+
+**Objetivo**: Crear un mapa de los componentes del sistema y sus posibles vulnerabilidades.
+
+```mermaid
+graph LR
+    A[Usuario Final]
+    A --> B[Login Endpoint]
+    B --> C[Base de Datos]
+    C --> D[Tabla de Usuarios]
+    D --> E[Vulnerabilidad: SQL Injection]
+    B --> F[Vulnerabilidad: Fuerza Bruta]
+    B --> G[Vulnerabilidad: XSS en Formulario]
+```
+
+**Ejemplo**:  
+Se crea un mapa de amenazas y se identifican:
+
+- **SQL Injection** en la consulta de autenticación.
+- **Fuerza Bruta** en el formulario de login.
+- **XSS** en el campo "nombre del producto" en el inventario.
+
+### **4. Exploitation**
+
+**Objetivo**: Explorar y confirmar vulnerabilidades identificadas.
+
+#### Ejemplo: SQL Injection en el login
+
+- Herramienta: `sqlmap`.
+    
+    ```bash
+    sqlmap -u "http://inventory-app.local/login" --data="username=admin&password=test"
+    ```
+    
+    **Resultado**:  
+    Se extrae información de la tabla `users`, confirmando la vulnerabilidad.
+
+|Usuario|Contraseña (hash)|
+|---|---|
+|admin|$2y$12$abcdef...|
+
+#### Ejemplo: Fuerza Bruta en el login
+
+- Herramienta: `hydra`.
+    
+    ```bash
+    hydra -l admin -P passwords.txt inventory-app.local http-post-form "/login:username=^USER^&password=^PASS^:F=incorrect"
+    ```
+    
+    **Resultado**: Contraseña descubierta: `admin123`.
+
+
+### **5. Post-Exploitation, Risk Analysis & Recommendations**
+
+**Objetivo**: Evaluar el impacto de las vulnerabilidades y generar recomendaciones.
+
+#### Resultados:
+
+|Vulnerabilidad|Impacto|Recomendación|
+|---|---|---|
+|SQL Injection|Acceso completo a la base de datos.|Usar consultas parametrizadas (`PreparedStatement`).|
+|Fuerza Bruta|Acceso no autorizado.|Implementar bloqueo tras varios intentos fallidos.|
+|XSS|Robo de sesiones de usuarios.|Validar y sanitizar entradas de usuario.|
+
+### **6. Reporting**
+
+**Objetivo**: Documentar los hallazgos y proporcionar un reporte detallado.
+
+|Sección|Contenido|
+|---|---|
+|**Resumen Ejecutivo**|Se identificaron 3 vulnerabilidades críticas (SQL Injection, Fuerza Bruta, XSS).|
+|**Hallazgos Detallados**|Descripción de cada vulnerabilidad con pasos para reproducir y mitigar.|
+|**Impacto**|Riesgo para los datos sensibles y cuentas de usuario.|
+|**Recomendaciones**|Aplicar controles de seguridad específicos.|
+
+**Ejemplo de reporte en formato Markdown**:
+
+```markdown
+# Penetration Testing Report
+## Resumen Ejecutivo
+Se identificaron tres vulnerabilidades críticas:
+1. SQL Injection en el formulario de login.
+2. Fuerza Bruta en el sistema de autenticación.
+3. XSS en los formularios del inventario.
+
+## Vulnerabilidad: SQL Injection
+- **Impacto**: Acceso total a la base de datos.
+- **Reproducción**: 
+
+
+sqlmap -u "[http://inventory-app.local/login](http://inventory-app.local/login)" --data="username=admin&password=test"
+
+- **Recomendación**: Usar consultas parametrizadas y validar entradas.
+
+...
+
+```
+
+
