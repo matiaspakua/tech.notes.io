@@ -1,0 +1,5 @@
+[[pages/master_ti/transformacion_digital/sesion_1]]
+[[pages/master_ti/transformacion_digital/sesion_2]]
+[[pages/master_ti/transformacion_digital/sesion_3]]
+[[pages/master_ti/transformacion_digital/sesion_4]]
+[[pages/master_ti/transformacion_digital/sesion_5]]
