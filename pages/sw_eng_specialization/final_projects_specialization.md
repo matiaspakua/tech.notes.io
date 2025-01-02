@@ -932,7 +932,7 @@ Se puede pensar en el modelado de QA como en el modelado de los componentes de u
 
 **Figura 26: Flujo de trabajo de QA basado en modelos. Imagen Fuente((Model-Based QA, 2021)**
 
-<a name="3.2.1.modelado_procesos_artefactos"></a>3
+<a name="3.2.2_patrones_testing"></a>
 ### 3.2.2 Patrones de Testing
 
 El modelado de los aspectos de QA desde un inicio tiene varios beneficios pero a su vez es una tarea difícil y poco común en la industria en general. Es por eso que es conveniente basarse en framework y patrones de pruebas para acelerar la implementación. Un ejemplo que puede ayudar son los XUnit Test Patterns. (Meszaros, 2007, 7,19,21, 40), donde el autor expresa una forma estándar de diseñar las pruebas (Fig. 27), basadas en 4 fases:
@@ -950,6 +950,8 @@ El modelado de los aspectos de QA desde un inicio tiene varios beneficios pero a
 **Figura 27: xUnit Four-Phase Test Pattern.**
 
 **Referencia:** [Four Phase Test at XUnitPatterns.com](http://xunitpatterns.com/Four%20Phase%20Test.html)
+
+<a name="3.2.2.1_Deep-Dive_esquema_testing"></a>
 #### 3.2.2.1 Deep-Dive en el esquema de Testing
 
 Ahora vamos a repasar brevemente cada parte de éste esquema de testing propuesto:
@@ -968,6 +970,8 @@ Ahora vamos a repasar brevemente cada parte de éste esquema de testing propuest
     - Configuraciones particulares.
 6. **SUT (System Under Test)** 🔄 : El sistema o componente que se está verificando. La interacción entre los casos de prueba y el SUT se realiza mediante el patrón Fixture. 
 7. **Resultados** 📊  : Una vez ejecutadas las pruebas, los resultados se recopilan y analizan. Esto incluye reportes y métricas que ayudan a determinar la calidad del software y la efectividad de los tests.
+
+<a name="3.2.2.2_aracterísticas_beneficios"></a>
 #### 3.2.2.2 Características y Beneficios
 
 1. **Estandarización y Consistencia**: La estructura xUnit proporciona un marco estandarizado para escribir y ejecutar pruebas, reduciendo la probabilidad de errores humanos y garantizando consistencia.
@@ -977,6 +981,7 @@ Ahora vamos a repasar brevemente cada parte de éste esquema de testing propuest
 5. **Escalabilidad** : La inclusión del **Test Suite Object** permite escalar la estrategia de pruebas al integrar grandes conjuntos de pruebas, gestionándolos de manera organizada.
 6. **Automatización**  Este patrón se alinea perfectamente con los frameworks de automatización modernos, haciendo posible ejecutar pruebas de regresión y liberar a los equipos de tareas repetitivas.
 
+<a name="3.3_Dev_byDesign"></a>
 ## 3.3 Dev byDesign
 
 Quizás la etapa más conocida, documentada y discutida en el área de la Ingeniería de Software. Dado que el diseño de software es un área amplia, solo se listarán recomendaciones y herramientas o técnicas que se deben evaluar como parte de la implementación de la metodología DevSecOps y que son fundamentales desde la visión de QA:
@@ -999,6 +1004,7 @@ Quizás la etapa más conocida, documentada y discutida en el área de la Ingeni
 
 **Evans, E. J., & Evans, E. (2004). Domain-driven design. Addison-Wesley.**
 
+<a name="3.3.1_modelado_arquitectura_usando_C4model"></a>
 ### 3.3.1 Modelado de Arquitectura usando C4model
 
 La Fig. 28 muestra un ejemplo del modelado gráfico de un sistema de software de alto nivel utilizando la técnica C4, donde se puede observar cómo se van explotando los distintos niveles de abstracción, desde el nivel 1 (más abstracto y de alto nivel) hasta el nivel 4 (nivel de código). Este último nivel no es recomendado por el autor, dada la complejidad y el costo/beneficio de llegar a dicho nivel.
@@ -1012,6 +1018,9 @@ La Fig. 28 muestra un ejemplo del modelado gráfico de un sistema de software de
 **Brown, S., & Betts, T. (2018, June 25). The C4 Model for Software Architecture. InfoQ. Retrieved February 23, 2022, from [https://www.infoq.com/articles/C4-architecture-model/](https://www.infoq.com/articles/C4-architecture-model/)**
 
 
+<a name="3.3.2_flujo_desarrollo_usando_GitFlow"></a>
+### 3.3.2 Flujo de desarrollo usando GitFlow
+
 Un aspecto muy importante del diseño en el desarrollo y que no está explícitamente ligado al diseño funcional, es el planteo del flujo de desarrollo. Si bien, en primera instancia pareciera no haber una relación aparente, es crucial que se diseñe el flujo de desarrollo considerando la perspectiva del código fuente. Una estrategia posible es utilizar Git Flow ([Driessen, 2010](https://docs.google.com/document/d/1AxZIkA2CJaisXTidKar3Qqg25c_oKFpEne6D-QvPxGE/edit#bookmark=id.lw3buhob00yg)), como se muestra en la Fig. 29:
 
 **Referencia:** Driessen, V. (2010, January 5). A successful Git branching model » nvie.com. nvie.com. Retrieved March 23, 2022, from [https://nvie.com/posts/a-successful-git-branching-model/](https://nvie.com/posts/a-successful-git-branching-model/)
@@ -1024,7 +1033,7 @@ DevSecOps y sobre todo QA requieren que las bases del producto de software, por 
 
 **Referencias:**  **Fowler, M. (2020, 05 28). Patterns for Managing Source Code Branches. Martin Fowler. Retrieved March 29, 2022, from [https://martinfowler.com/articles/branching-patterns.html](https://martinfowler.com/articles/branching-patterns.html)**
 
-
+<a name="3.4_Sec_byDesign"></a>
 ## 3.4 Sec byDesign
 
 
