@@ -1126,9 +1126,9 @@ Se proponen los siguientes pasos para la elicitación, especificación y modelad
 
 
 ![](../../images/fig_32_ejemplo_arbol_ataque.png)
-**Figura 32: Ejemplo de Árbol de Ataque. Imagen Fuente (Mead et al., 2006) **
+**Figura 32: Ejemplo de Árbol de Ataque. Imagen Fuente (Mead et al., 2006)**
 
-**Referencia:** Mead, N. R., Hough, E. D., & Stehney II, T. R. (2006, January 30). SQUARE Process | CISA. US-CERT. Retrieved March 3, 2022, from https://www.cisa.gov/uscert/bsi/articles/best-practices/requirements-engineering/square-process 
+**Referencia:** Mead, N. R., Hough, E. D., & Stehney II, T. R. (2006, January 30). SQUARE Process CISA. US-CERT. Retrieved March 3, 2022, from https://www.cisa.gov/uscert/bsi/articles/best-practices/requirements-engineering/square-process 
 
 Del análisis del árbol de ataque, se deben describir y listar cada uno de los ejemplos de ataque que se puedan tener en cuenta y se deberá además agregar las posibles mitigaciones que se podrían aplicar a cada caso.
 
