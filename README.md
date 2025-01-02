@@ -156,6 +156,10 @@ Charlas --> [Notas de las charlas](/pages/we_are_developers_wc_2024/landing.md)
 
 ![](images/logo_lasalle_bcn.png)
 
+ - [Gestión Empresarial y Transformación Digital](pages/master_direccion_tecnologica/01_gestion_empresarial_y_transformacion_digital/landing.md)
+ - [Habilidades Directivas (S. Profesionalizante)](pages/master_direccion_tecnologica/03_seminario_profesionalizado/landing.md)
+ - [Gestión Económico Financiera](pages/master_direccion_tecnologica/02_gestion_economico_financiera/landing.md)
+
 * [Materias y Notas del master](pages/master_direccion_tecnologica/landing.md)
 
 # 📚 Libros leídos
