@@ -93,34 +93,32 @@ Charlas --> [Notas de las charlas](/pages/we_are_developers_wc_2024/landing.md)
 ## Módulo Ingeniería de Productos de Software 
 
 - [Ingeniería de Requerimientos](pages/sw_eng_specialization/software_requirements.md)
-- [Modelado de Software con Objetos](/software_modeling_with_objects.md)
-- [Arquitecturas de Software](/software_architecture.md)
-- [Mediciones de Software y Sistemas](/software_and_systems_measurements.md)
+- [Modelado de Software con Objetos](pages/sw_eng_specialization/software_modeling_with_objects.md)
+- [Arquitecturas de Software](pages/sw_eng_specialization/software_architecture.md)
+- [Mediciones de Software y Sistemas](pages/sw_eng_specialization/software_and_systems_measurements.md)
   
 ## Módulo Gestión de Proyectos de Desarrollo
 
-- [Planeamiento y Estimación de Proyectos de Software](/sofware_projects_scheduling_and_estimation.md)
-- [Administración del Riesgo en Desarrollo de Software](/software_development_risk_management.md)
-- [Gestión de Recursos Humanos y Conducción de Equipos](/team_driving_and_human_resource_management.md)
-- [Métodos de Desarrollo de Software](/software_development_methods.md)
+- [Planeamiento y Estimación de Proyectos de Software](pages/sw_eng_specialization/sofware_projects_scheduling_and_estimation.md)
+- [Administración del Riesgo en Desarrollo de Software](pages/sw_eng_specialization/software_development_risk_management.md)
+- [Gestión de Recursos Humanos y Conducción de Equipos](pages/sw_eng_specialization/team_driving_and_human_resource_management.md)
+- [Métodos de Desarrollo de Software](pages/sw_eng_specialization/software_development_methods.md)
   
 ## Módulo Gestión de la Calidad de Software
 
-- [Testing de Software](/software_testing.md)
-- [Calidad de Software](/software_quality.md)
+- [Testing de Software](pages/sw_eng_specialization/software_testing.md)
+- [Calidad de Software](pages/sw_eng_specialization/software_quality.md)
   
 ## Módulo Complementarias: 
 
-- [Marketing](/marketing.md)
-- [Contratos y Aspectos Legales de Software](software_legal_aspects_and_contracts.md)
-- [Ética Profesional](/professional_ethics.md)
-
-
+- [Marketing](pages/sw_eng_specialization/marketing.md)
+- [Contratos y Aspectos Legales de Software](pages/sw_eng_specialization/software_legal_aspects_and_contracts.md)
+- [Ética Profesional](pages/sw_eng_specialization/professional_ethics.md)
 
 ## Proyecto Final
 
-- [DevSecOps desde la perspectiva de QA Automation](/final_projects_specialization.md)
- - [Materias y notas de la especialización](/pages/sw_eng_specialization/landing.md)
+- [DevSecOps desde la perspectiva de QA Automation](pages/sw_eng_specialization/final_projects_specialization.md)
+- [Materias y notas de la especialización](/pages/sw_eng_specialization/landing.md)
 
 
 # UP (U. de Palermo) Master en tecnología de la Información
