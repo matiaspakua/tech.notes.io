@@ -66,6 +66,16 @@
 	- [3.4 Sec byDesign](#3.4_Sec_byDesign)
 		- [3.4.1 Threat Assessment / Threat Modeling](#3.4.1_threat_assessment_threat_modeling)
 		- [3.4.2 Requerimientos de Seguridad](#3.4.2_requerimientos_seguridad)
+		- [3.4.3 Arquitectura de Seguridad: Modelado y Patrones](#3.4.3_Arquitectura_Seguridad_Modelado_Patrones)
+		- [3.4.4 Metodología de Testing de seguridad](#3.4.4_Metodología_Testing_seguridad)
+		- [3.4.5 Static application security testing o SAST](#3.4.5_Static_application_security_testing_o_SAST)
+		- [3.4.6 Dynamic application security testing o DAST](#3.4.6_Dynamic_application_security_testing_o_DAST)
+		- [3.4.7 Interactive application security testing o IAST](#3.4.7_Interactive_application_security_testing_o_IAST)
+		- [3.4.8 Runtime application security protection o RASP](#3.4.8_Runtime_application_security_protection_o_RASP)
+		- [3.4.9 Software composition analysis ó SCA](#3.4.9_Software_composition_analysis_ó_SCA)
+		- [3.4.10 Penetration Testing](#3.4.10_Penetration_Testing)
+		- [3.4.10.11 Ejemplo de un proceso de Penetration Testing](#3.4.10.11_Ejemplo_de_un_proceso_de_Penetration_Testing)
+	- [3.5 Ops ByDesign](#3.5_Ops_ByDesign)
 
 <a name="1.introduction"></a>
 # 1. Introducción
