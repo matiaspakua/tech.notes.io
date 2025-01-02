@@ -139,7 +139,9 @@ Charlas --> [Notas de las charlas](/pages/we_are_developers_wc_2024/landing.md)
 ## Proyecto Final
 
 - [DevSecOps desde la perspectiva de QA Automation](pages/sw_eng_specialization/final_projects_specialization.md)
-- [Materias y notas de la especialización](/pages/sw_eng_specialization/landing.md)
+
+
+ [Materias y notas de la especialización](/pages/sw_eng_specialization/landing.md)
 
 
 # 🎓 UP -  Master en tecnología de la Información
