@@ -1186,13 +1186,26 @@ Los puntos de interés donde el modelado de la arquitectura de seguridad es rele
 Teniendo en cuenta las etapas del ciclo de desarrollo, para el diseño de la arquitectura se pueden usar 3 técnicas que se pueden complementar:
 
 - ToAA: Tactic-Oriented Architecture Analysis. Se realiza con interacción entre el arquitecto de software y los expertos del dominio del negocio. Se usan tácticas de identificación de vulnerabilidades a través de una interacción y feedback.
-    
 - PoAA: Pattern-Oriented Architecture Analysis. Al igual que sucede con los patrones de diseño y patrones de Arquitectura, al identificar escenario/problemas durante la etapa de ToAA, surgen lo que se conoce como patrones de seguridad (Security Pattern, 2020), por ejemplo el patrón de seguridad Interceptor-Validator que se muestra en la Fig. 37.
-
-
-VoAA: Vulnerability-Oriented Architecture Analysis. Es la etapa de más bajo nivel, se analizan las vulnerabilidades en el código y en el producto a nivel interno.
+- VoAA: Vulnerability-Oriented Architecture Analysis. Es la etapa de más bajo nivel, se analizan las vulnerabilidades en el código y en el producto a nivel interno.
 
 **Referencia:** Wikipedia contributors. (2020, April 20). Security pattern. In Wikipedia, The Free Encyclopedia. Retrieved 22:33, February 23, 2022, from https://en.wikipedia.org/w/index.php?title=Security_pattern&oldid=952064080 
 
 
 ![](../../images/fig_37_interceptor-Validator_patron_seguridad.png)
+**Figura 37: Interceptor-Validator Patrón de seguridad. Imagen Fuente (Security Pattern, 2020)**
+
+El patrón **Interceptor-Validator** se utiliza para agregar una capa de validación y procesamiento previo a las solicitudes en un sistema, interceptándolas antes de que lleguen a su destino (recurso protegido o funcionalidad). Su uso promueve:
+
+- **Seguridad**: Permite validar autenticación, autorización y datos de entrada.
+- **Modularidad**: Centraliza las validaciones, separándolas de la lógica principal.
+- **Reusabilidad**: Los interceptores y validadores pueden reutilizarse en múltiples puntos del sistema.
+
+Este tipo de patrón es útil para aplicar en los siguiente escenarios:
+
+- En aplicaciones web para validar solicitudes HTTP antes de procesarlas.
+- En sistemas que manejan recursos sensibles o críticas de negocio, como APIs o microservicios.
+- En arquitecturas que requieren una validación uniforme y centralizada para mantener consistencia y reducir errores.
+
+Básicamente, este patrón es ideal para asegurar que solo las solicitudes válidas y autorizadas lleguen a los componentes críticos del sistema.
+
