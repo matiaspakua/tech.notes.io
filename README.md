@@ -33,6 +33,7 @@
 - [Notas de Programación en C](/pages/development/programacion_c.md)
 - [Concurrencia y Java](/pages/development/concurrencia_java.md) 
 - [OpenAPI](/pages/development/OpenApi.md)
+- [Interfaces Funcionales en Java](/pages/development/java_interfaces_funcionales.md)
 
 # 🧪 Testing de sistemas y software 
 
