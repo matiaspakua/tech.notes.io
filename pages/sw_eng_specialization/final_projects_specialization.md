@@ -65,6 +65,7 @@
 		- [3.3.2 Flujo de desarrollo usando GitFlow](#3.3.2_flujo_desarrollo_usando_GitFlow)
 	- [3.4 Sec byDesign](#3.4_Sec_byDesign)
 		- [3.4.1 Threat Assessment / Threat Modeling](#3.4.1_threat_assessment_threat_modeling)
+		- [3.4.2 Requerimientos de Seguridad](#3.4.2_requerimientos_seguridad)
 
 <a name="1.introduction"></a>
 # 1. Introducción
@@ -1106,6 +1107,7 @@ Luego, este diagrama se traduce a una tabla de Riesgos y mitigaciones que deber�
 |R6|Si pierdo mi laptop, todas mis claves de acceso y contraseñas se perderán con ella, y todo mi sitio podría ser comprometido.|Usar un **gestor de contraseñas seguro** para almacenar las claves. Configurar autenticación multifactor (MFA) y deshabilitar claves comprometidas inmediatamente.|
 |R7|Existen riesgos al cargar scripts de terceros durante la carga de la página, y también porque Google recopila una gran cantidad de datos analíticos de los usuarios.|Cargar scripts de terceros mediante un dominio confiable y asegurado con **CSP**. Usar alternativas de análisis menos invasivas como Matomo para evitar la exposición de datos.|
 
+<a name="3.4.2_requerimientos_seguridad"></a>
 ### 3.4.2 Requerimientos de Seguridad
 
 El objetivo de definir los requerimientos de seguridad es la comprensión, análisis, y especificación de los requisitos claves de seguridad para el desarrollo y puesta en operación de un sistema de software, de manera tal que se puedan alinear con otros tipos de requisitos del producto. 
