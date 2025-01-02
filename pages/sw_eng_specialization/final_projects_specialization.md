@@ -50,19 +50,20 @@
 		- [2.5.15. Metodología: estrategia de QA](#2.5.15_metodologia_estrategia_qa)
 		- [2.5.16. Metodología: Metodología: DevSecOps](#2.5.16_metodologia_metolodogia_devsecops)
 - [3. Diseño](#3.diseño)
-	- [3.1 Estrategías de Diseño]
-		- [3.1.1 Gran Diseño Inicial (BDUF)]
-		- [3.1.2 Diseño Preliminar Inicial (RDUF) y Diseño Emergente]
-		- [3.1.3 Framework Cynefin]
-		- [3.1.4 Estrategía de Diseño óptimo y compensación de costo/beneficio]
-	- [3.2. QA ByDesign]
-		- [3.2.1 Modelado de Procesos y Artefactos]
-		- [3.2.2 Patrones de Testing]
-			- [3.2.2.1 Deep-Dive en el esquema de Testing]
-			- [3.2.2.2 Características y Beneficios]
-	- [3.3 Dev byDesign]
-		- [3.3.1 Modelado de Arquitectura usando C4model]
-	- [3.4 Sec byDesign]
+	- [3.1 Estrategías de Diseño](#3.1.estrategias_de_disenio)
+		- [3.1.1 Gran Diseño Inicial (BDUF)](#3.1.1.gran_disenio_inicial_bduf)
+		- [3.1.2 Diseño Preliminar Inicial (RDUF) y Diseño Emergente](#3.1.2.disenio_preliminar_inicial_RDUF_disenio_emergente)
+		- [3.1.3 Framework Cynefin](#3.1.3.framework_cynefin)
+		- [3.1.4 Estrategía de Diseño óptimo y compensación de costo/beneficio](#3.1.4_estrategia_diseño_optimo_compensacion_costo_beneficio)
+	- [3.2. QA ByDesign](#3.2.qa_by_design)
+		- [3.2.1 Modelado de Procesos y Artefactos](#3.2.1.modelado_procesos_artefactos)
+		- [3.2.2 Patrones de Testing](#3.2.2_patrones_testing)
+			- [3.2.2.1 Deep-Dive en el esquema de Testing](#3.2.2.1_Deep-Dive_esquema_testing)
+			- [3.2.2.2 Características y Beneficios](#3.2.2.2_aracterísticas_beneficios)
+	- [3.3 Dev byDesign](#3.3_Dev_byDesign")
+		- [3.3.1 Modelado de Arquitectura usando C4model](#3.3.1_modelado_arquitectura_usando_C4model)
+		- [3.3.2 Flujo de desarrollo usando GitFlow](#3.3.2_flujo_desarrollo_usando_GitFlow)
+	- [3.4 Sec byDesign](#3.4_Sec_byDesign)
 	- 
 
 <a name="1.introduction"></a>
@@ -879,7 +880,7 @@ El diseño completo de un sistema (tanto el diseño de alto nivel como el de baj
 **Referencia:** Wikipedia contributors. (2020, December 29). Big Design Up Front. In Wikipedia, The Free Encyclopedia. Retrieved 13:00, February 28, 2022, from https://en.wikipedia.org/w/index.php?title=Big_Design_Up_Front&oldid=997072916
 
 
-<a name="3.1.2.disenio_preliminar_inicial_RDUF_ disenio_emergente"></a>
+<a name="3.1.2.disenio_preliminar_inicial_RDUF_disenio_emergente"></a>
 ### 3.1.2 Diseño Preliminar Inicial (RDUF) y Diseño Emergente
 
 Se realiza un diseño por adelantado (RDUF, 2020), <mark style="background: #ADCCFFA6;">muy liviano, lo suficiente</mark> como para ver el panorama general del sistema. Esto podría significar identificar casos de uso, dibujar el modelo de dominio, realizar un análisis de alto nivel con respecto a algunos conceptos importantes, pero no se profundiza en los detalles, sino que se trabaja de forma incremental (o emergente) a medida que se ofrecen funcionalidades específicas(Beck & Andres, 2004, 105). Por lo tanto, parte del diseño se realiza por adelantado, pero una mayor parte del diseño se posterga. Este enfoque se popularizó con las metodologías ágiles.
