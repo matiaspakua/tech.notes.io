@@ -146,6 +146,10 @@ Charlas --> [Notas de las charlas](/pages/we_are_developers_wc_2024/landing.md)
 
 ![](images/logo_universidad_palermo.png)
 
+  - [Cloud Computing](pages/master_ti/cloud_computing/)
+  - [Transformación Digital](pages/master_ti/transformacion_digital/)
+  - [Seguridad Informática](pages/master_ti/seguridad_informatica/)
+
  - [Materias y notas del master](pages/master_ti/landing.md)
 
 # LaSalle Campus BCN - Master en Dirección Tecnológica e Innovación Digital

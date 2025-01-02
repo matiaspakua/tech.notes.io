@@ -19,13 +19,6 @@
 
 ---
 
-## Cloud Computing
-
-## Transformación Digital
-
-## Seguridad Informática
-
----
 ## Promedio Cursada
 
 ![](../../images/UP_Promedio_Cursada.png)
