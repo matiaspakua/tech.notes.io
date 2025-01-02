@@ -39,14 +39,14 @@
 - [Gherkin and Automation](/pages/testing/gherkin_and_automation.md)
 - [RobotFramework to test satellites](/pages/testing/robotframework_to_test_satellites.md)
 - [On Unit Test, TDD and BDD](/pages/testing/on_unit_test_tdd_and_bdd.md)
-- [BDD with Cucumber for Java course](/pages/testing/bdd_with_cucumber_java_notes.md) <span style="color:red"> ( pendiente... ) </span>
+- [BDD with Cucumber for Java course](/pages/testing/bdd_with_cucumber_java_notes.md) 
 
 # 🛠️ Ingeniería de Software
 
 - [Agile and SCRUM. The perks of know nothing](/pages/software_engineering/agile_and_scrum.md)
 - [Waterfall: what really means the paper](/pages/software_engineering/waterfall.md)
 - [The History of the project A7 by David Parnas](/pages/software_engineering/the_history_of_the_project_A7_by_David_Parnas.md)
-- [Software engineering timeline](/pages/software_engineering/software_engineering_timeline.md) <span style="color:red"> en progreso... </span>
+- [Software engineering timeline](/pages/software_engineering/software_engineering_timeline.md) 
 - [Generative AI](/pages/software_engineering/generative_ai.md)
 
 # 🏗️ Arquitectura de sistemas y software
@@ -103,7 +103,7 @@ Charlas --> [Notas de las charlas](/pages/we_are_developers_wc_2024/landing.md)
 
  * [Visual Thinking](/pages/cursos/visual_thinking.md)
 
-# 🚀⚙️ Proyectos
+# ⚙️ Proyectos
 
  - [Biblioteca Técnica](/pages/projects/biblioteca_tecnica.md)
 
@@ -200,7 +200,7 @@ Charlas --> [Notas de las charlas](/pages/we_are_developers_wc_2024/landing.md)
 - [The C4 model for visualising software architecture by Simon Brown](https://c4model.com/)
 - [On Microservices. The complete reference guide](https://microservices.io/)
 - [The Architecture of Open Source Applications. A book, a web site](http://aosabook.org/en/index.html)
-- [Hexagonal Me](https://jmgarridopaz.github.io/content/articles.html)  <span style="color:red"> nueva web para chusmear!</span>
+- [Hexagonal Me](https://jmgarridopaz.github.io/content/articles.html) 
 - [Java SE 21: Programming Complete](https://mylearn.oracle.com/ou/course/java-se-21-programming-complete/138847)
 
 
