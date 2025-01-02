@@ -1353,7 +1353,9 @@ public class UserDAO {
 
 ```
 
-### 3.4.6 Dynamic application security testing o DAST}
+
+<a name="3.4.6_Dynamic_application_security_testing_o_DAST"></a>
+### 3.4.6 Dynamic application security testing o DAST
 
 DAST es un tipo de prueba de “caja negra”, donde se prueba un sistema en ejecución desde el exterior. Esto significa que la iteración en la que está trabajando debe implementarse, integrarse y ejecutarse para realizar este tipo de pruebas.
 
@@ -1363,20 +1365,26 @@ Herramientas como ZAPPROXY son muy prácticas al momento de realizar análisis d
 
 **Referencia:**  [ZAP – Getting Started](https://www.zaproxy.org/getting-started/)
 
+
+<a name="3.4.7_Interactive_application_security_testing_o_IAST"></a>
 ### 3.4.7 Interactive application security testing o IAST
 
 Es una combinación de SAST y DAST. Se prueba desde el interior del sistema, y las pruebas que se ejecutan imitan las pruebas ejecutadas por la interacción humana y sus estímulos hacia  el sistema. Son tipos de pruebas más complejas y a menudo se basan en instalar agentes o sensores en los entornos de prueba que simulan la interacción de usuarios finales
 
+
+<a name="3.4.8_Runtime_application_security_protection_o_RASP"></a>
 ### 3.4.8 Runtime application security protection o RASP
 
 RASP es un método de prueba y una herramienta de prevención y detección de seguridad, ya que monitorea el sistema en tiempo real.
 
 Este tipo de prueba la realiza una persona externa a la organización (un atacante) y la detecta una herramienta diferente (una herramienta con funciones RASP).
 
+<a name="3.4.9_Software_composition_analysis_ó_SCA"></a>
 ### 3.4.9 Software composition analysis ó SCA
 
 Cuando se trata de escanear vulnerabilidades, se debe asegurar de verificar no solo el código propio, sino también el software que se usa como dependencias. Aquí entra en juego el análisis de composición de software (SCA). Las pruebas de SCA escanean en busca de vulnerabilidades en el software de código abierto en el que se basa un sistema de software.
 
+<a name="3.4.10_Penetration_Testing"></a>
 ### 3.4.10 Penetration Testing
 
 Las pruebas de penetración o Pentesting (Bell et al., 2017, 322) son una forma especializada de test exploratorio, donde el tester asume el papel de un atacante. Los Pentesters utilizan proxies interceptores y escáneres y otras herramientas para identificar vulnerabilidades y luego tratar de explotarlas. Esto requiere habilidades técnicas y experiencia para hacerlo de manera efectiva. Los Pentesters utilizan generalmente una metodología basada en 6 etapas (CIPHER ©, 2020), como se muestra en la Fig. 39.
@@ -1397,7 +1405,8 @@ Las pruebas de penetración o Pentesting (Bell et al., 2017, 322) son una forma 
 **Figura 39: Metodología de Pentesting. Imagen fuente (CIPHER ©, 2020)**
 
 
-### Ejemplo de un proceso de Penetration Testing
+<a name="3.4.10.11_Ejemplo_de_un_proceso_de_Penetration_Testing"></a>
+### 3.4.10.11 Ejemplo de un proceso de Penetration Testing
 
 #### **1. Pre-Engagement Interactions**
 
@@ -1527,6 +1536,6 @@ sqlmap -u "[http://inventory-app.local/login](http://inventory-app.local/login)"
 ```
 
 
-
-## Ops ByDesign
+<a name="3.5_Ops_ByDesign"></a>
+## 3.5 Ops ByDesign
 
