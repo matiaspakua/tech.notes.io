@@ -1394,6 +1394,9 @@ Las pruebas de penetración o Pentesting (Bell et al., 2017, 322) son una forma 
 
 
 ![](../../images/Fig_39_Metodología_Pentesting.png)
+**Figura 39: Metodología de Pentesting. Imagen fuente (CIPHER ©, 2020)**
+
+
 ### Ejemplo de un proceso de Penetration Testing
 
 #### **1. Pre-Engagement Interactions**
@@ -1523,4 +1526,7 @@ sqlmap -u "[http://inventory-app.local/login](http://inventory-app.local/login)"
 
 ```
 
+
+
+## Ops ByDesign
 
