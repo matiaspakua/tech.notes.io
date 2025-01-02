@@ -1303,7 +1303,7 @@ La condición `OR '1'='1'` siempre se evalúa como verdadera, permitiendo el acc
 */
 ```
 
-La solución es reemplar el uso del metodo `statement` por `prepareStatement`:
+La solución es reemplar el uso del metodo `Statement por `PreparedStatement:
 
 ```java 
 
