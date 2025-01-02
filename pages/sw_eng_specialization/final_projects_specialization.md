@@ -1209,3 +1209,8 @@ Este tipo de patrón es útil para aplicar en los siguiente escenarios:
 
 Básicamente, este patrón es ideal para asegurar que solo las solicitudes válidas y autorizadas lleguen a los componentes críticos del sistema.
 
+### 3.4.4 Metodología de Testing de seguridad
+
+En el mundo de la seguridad, se han desarrollado una variedad de tipos de pruebas de seguridad que se complementan con el SDLC y con el STLC. En la Fig. 38 se pueden apreciar las distintas etapas del ciclo de desarrollo y pruebas de software. En el centro, se mencionan los principales tipos de pruebas de seguridad (SSecLC) posibles para implementar una estrategía de seguridad complementaría al flujo de desarrollo estándar.
+
+![](../../images/fig_38_SDLC_STLC_SSecLC.png)
