@@ -1411,16 +1411,7 @@ Las pruebas de penetración o Pentesting (Bell et al., 2017, 322) son una forma 
 
 **Objetivo**: Recopilar información sobre el sistema y posibles puntos vulnerables.
 
-```mermaid
-graph TD
-    A[Reconnaissance]
-    A --> B[Descubrir subdominios]
-    A --> C[Analizar servidores expuestos]
-    A --> D[Revisar usuarios y correos filtrados]
-    B --> B1[Subdominio: admin.inventory-app.local]
-    C --> C1[Versión de servidor: Apache/2.4.51]
-    D --> D1[Usuario encontrado: admin@test.com]
-```
+![](../../images/threat_modeling_analysis.png)
 
 **Ejemplo**:
 
@@ -1446,16 +1437,8 @@ graph TD
 
 **Objetivo**: Crear un mapa de los componentes del sistema y sus posibles vulnerabilidades.
 
-```mermaid
-graph LR
-    A[Usuario Final]
-    A --> B[Login Endpoint]
-    B --> C[Base de Datos]
-    C --> D[Tabla de Usuarios]
-    D --> E[Vulnerabilidad: SQL Injection]
-    B --> F[Vulnerabilidad: Fuerza Bruta]
-    B --> G[Vulnerabilidad: XSS en Formulario]
-```
+
+![](../../images/threat_modelling_design_to_attack.png)
 
 **Ejemplo**:  
 Se crea un mapa de amenazas y se identifican:
