@@ -1169,11 +1169,14 @@ Al igual que se desarrolla y modela la arquitectura funcional y no funcional del
 
 En la Fig. 35 cada nivel representa amenazas de seguridad, por lo tanto, para cada nivel se deben aplicar técnicas de arquitectura para mitigar esas posibles amenazas.
 
-| Diseño de Arquitectura |
-| ---------------------- |
-| Diseño Detallado       |
-| Código                 |
-| Hardware               |
+
+
+| Grado de la amenaza | Nivel de aquitectura   |
+| ------------------- | ---------------------- |
+| Alto Nivel (diseño) | Diseño de Arquitectura |
+| Nivel Medio         | Diseño detallado       |
+| Bajo nivel          | Código                 |
+| Muy Bajo Nivel      | Hardware               |
 **Figura 35: Niveles de Diseño de Seguridad**
 
 Los puntos de interés donde el modelado de la arquitectura de seguridad es relevante se pueden resumir en las siguientes 6 etapas, como se muestra en la Fig. 36:
