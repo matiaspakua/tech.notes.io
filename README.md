@@ -107,6 +107,7 @@ Charlas --> [Notas de las charlas](/pages/we_are_developers_wc_2024/landing.md)
 # ⚙️ Proyectos
 
  - [Biblioteca Técnica](/pages/projects/biblioteca_tecnica.md)
+ - [Python Flask ML Demo Project with CI/CD](/pages/projects/uso_modelo_machine_learning.md)
 
 # 🎓 UCA - Especialización en Ingeniería de Software
 
