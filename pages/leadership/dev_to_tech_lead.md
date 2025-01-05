@@ -1,4 +1,4 @@
-# From Developer to Tech Lead
+# De developer a líder: notas y libros sugeridos
 
 <style>
   .back-button {
@@ -17,125 +17,122 @@
 
 <button class="back-button" onclick="window.location.href='https://matiaspakua.github.io/tech.notes.io'">All notes</button>
 
-This are some notes from a Masterclass that I recently participate. In this meeting the speaker share some key aspect to be considered when a Senior Developer is promoted (or he/she intend to build a path to a engineering management role) to a management role.
+Estas son algunas notas de una Masterclass en la que participé recientemente. En esta reunión, el orador comparte algunos aspectos clave a tener en cuenta cuando un Desarrollador Senior es promovido (o pretende construir un camino hacia un rol de gestión de ingeniería) a un rol gerencial.
 
 ![Dev to Lead](../../images/dev_to_lead.jpeg)
-## The key aspect to be considered
+## Aspecto clave a tener en cuenta
 
-### Aspect #1:  Understand the new role
+### Aspecto #1: Entender el nuevo rol
 
-Learn to manage the "time" and the "task" for the new role. When this change is ongoing, you get a new title under you hood: "Lead of a technology team", this implied: "get the best performance of the team, oriented to the company/startup main goals".
+Aprender a gestionar el "tiempo" y la "tarea" del nuevo rol. Cuando este cambio se está dando, se te asigna un nuevo título: "Líder de un equipo de tecnología", lo que implica: "obtener el mejor rendimiento del equipo, orientado a los objetivos principales de la empresa/startup".
 
-With all this considerations and implications, manage you time become critical for success. 
+Con todas estas consideraciones e implicaciones, gestionar tu tiempo se vuelve fundamental para el éxito.
 
-A recommendation to planning the time is the following:
+Una recomendación para planificar el tiempo es la siguiente:
 
- * Dev  => 20% (only support development, mentoring, peer review, architecture review, high level support)
- * Product => 30% (product vision, roadmap, strategy, system architecture)
- * Leadership => 50% (most of the time need to be focus on leadership task: one-to-one, career plan, on-boarding, conflict resolution)
+* **Desarrollo** => 20% (solo desarrollo de soporte, mentoría, revisión de pares, revisión de arquitectura, soporte de alto nivel)
+* **Producto** => 30% (visión del producto, hoja de ruta, estrategia, arquitectura del sistema)
+* **Liderazgo** => 50% (la mayor parte del tiempo debe centrarse en tareas de liderazgo: uno a uno, plan de carrera, incorporación, resolución de conflictos)
 
 
-### Aspect #2: Adapt your agenda to the new role
+### Aspecto n.° 2: Adaptar tu agenda al nuevo rol
 
-Adapt you older / current daily agenda involves a shift in your responsibilities and priorities. Here's what it means in more detail:
+Adaptar tu agenda diaria anterior/actual implica un cambio en tus responsabilidades y prioridades. Esto significa con más detalle:
 
-1. **Leadership and Mentoring:** In a higher role, you're expected to provide guidance and mentorship to your team members. This means allocating time for one-on-one meetings, code reviews, and addressing their concerns. A great reference for leadership is the book "Leaders Eat Last" by Simon Sinek.
-    
-2. **Project Management:** You'll be responsible for project planning, scheduling, and ensuring that the team meets its goals. "Scrum: The Art of Doing Twice the Work in Half the Time" by Jeff Sutherland is an excellent resource on agile project management.
-    
-3. **Strategic Thinking:** Your agenda should include time for strategic thinking. This could involve setting long-term goals, technology selection, and aligning the team's work with the organization's objectives. "Good Strategy Bad Strategy" by Richard Rumelt is a must-read for strategic thinking.
-    
-4. **Communication:** Effective communication becomes a critical part of your role. You'll need to communicate with stakeholders, superiors, and your team. The book "Crucial Conversations" by Kerry Patterson provides valuable insights into effective communication.
-    
-5. **Time Management:** As you take on more responsibilities, efficient time management is crucial. You may want to read "Getting Things Done" by David Allen for practical techniques.
-    
-6. **Delegation:** You should allocate tasks to team members according to their strengths and provide them with the autonomy to complete those tasks. "Drive" by Daniel H. Pink is a great resource on motivation and delegation.
-    
-7. **Conflict Resolution:** Be prepared to handle conflicts within your team. "Crucial Conversations" and "Difficult Conversations" by Douglas Stone, Bruce Patton, and Sheila Heen are excellent references for managing conflicts.
-    
-8. **Learning and Skill Development:** Continuous learning is key. Allocate time for staying up-to-date with industry trends and new technologies. For this, consider resources like online courses on platforms like Coursera and edX, or subscription services like Safari Books Online.
-    
-9. **Measurement and Feedback:** Implement metrics and feedback mechanisms to track the team's progress. "Measure What Matters" by John Doerr is a valuable resource on this topic.
-    
-10. **Cultural and Organizational Awareness:** Understand your organization's culture and values and ensure your team aligns with them. "The Culture Code" by Daniel Coyle is a helpful book in this context.
+1. **Liderazgo y tutoría:** En un rol superior, se espera que proporciones orientación y tutoría a los miembros de tu equipo. Esto significa asignar tiempo para reuniones individuales, revisiones de código y abordar sus inquietudes. Una gran referencia para el liderazgo es el libro "<mark style="background: #FFF3A3A6;">Leaders Eat Last" de Simon Sinek.
+</mark>
+2. **Gestión de proyectos:** Serás responsable de la planificación del proyecto, la programación y la garantía de que el equipo alcance sus objetivos. "<mark style="background: #BBFABBA6;">Scrum: The Art of Doing Twice the Work in Half the Time" de Jeff Sutherland </mark>es un excelente recurso sobre gestión de proyectos ágiles.
 
-### Aspect #3: Get a proper on-boarding on the new role
+3. **Pensamiento estratégico:** Tu agenda debe incluir tiempo para el pensamiento estratégico. Esto podría implicar establecer objetivos a largo plazo, seleccionar tecnología y alinear el trabajo del equipo con los objetivos de la organización. "<mark style="background: #BBFABBA6;">Good Strategy Bad Strategy" de Richard Rumelt</mark> es una lectura obligada para el pensamiento estratégico.
 
-Getting a proper onboarding in your new role as you transition to a higher position in the software engineering field is essential. It means having a structured and comprehensive process in place to help you seamlessly integrate into your new responsibilities. Here's what it entails:
+4. **Comunicación:** La comunicación eficaz se convierte en una parte fundamental de tu función. Deberás comunicarse con las partes interesadas, los superiores y su equipo. El libro <mark style="background: #FFF3A3A6;">"Crucial Conversations" de Kerry Patterson</mark> ofrece información valiosa sobre la comunicación eficaz.
 
-1. **Introduction to the Company and Culture:** You should receive an in-depth introduction to the company's values, mission, and culture. Understanding the company's ethos is crucial for aligning your actions with its goals. This information might be provided in the form of documents, presentations, or meetings.
-    
-2. **Understanding the New Role:** You should receive clear documentation or training that outlines your new role's responsibilities, expectations, and key performance indicators. This could include role-specific job descriptions and objectives.
-    
-3. **Meetings with Key Stakeholders:** An onboarding process should include meetings with key stakeholders, such as your direct manager, peers, and subordinates if applicable. These meetings provide insights into the expectations and dynamics within your team and help establish working relationships.
-    
-4. **Technical Training:** If your new role involves technologies or tools you're not yet familiar with, the onboarding should include technical training or access to resources like online courses, documentation, or mentorship.
-    
-5. **Process and Workflow Training:** Understanding the company's processes, workflows, and project management methods is crucial. You should receive training or documentation on how things get done, including tools and methodologies like Agile, Scrum, or DevOps.
-    
-6. **Resource Access:** Ensure you have access to the necessary resources, including software, hardware, and access permissions to perform your role effectively.
-    
-7. **Organizational Chart:** Receive an updated organizational chart that shows the hierarchy of your department and the broader organization, as well as contact information for key individuals.
-    
-8. **Expectations Setting:** Your manager should clearly communicate their expectations regarding your performance, project delivery, and any key performance indicators or goals. It's also important to discuss the timeline for achieving these expectations.
-    
-9. **Feedback Mechanisms:** Know how and when performance evaluations will occur. Understand the company's feedback and review processes, including any peer reviews or 360-degree feedback.
-    
-10. **Mentorship and Guidance:** If possible, be assigned a mentor or buddy who can guide you through the initial phases of your new role. This individual can provide insights, answer questions, and offer support.
-    
-11. **Company Policies and Compliance:** Review and understand the company's policies and guidelines, especially those related to compliance, security, and ethical standards.
-    
-12. **Professional Development:** Be informed about opportunities for professional development, including training, workshops, conferences, or certifications.
-    
-13. **Probationary Period (trial mode):** If your new role includes a probationary period, understand its duration, objectives, and evaluation criteria.
-    
-14. **Documentation and Resources:** Access to a centralized repository of relevant documentation, best practices, and resources related to your role can be extremely valuable.
+5. **Gestión del tiempo:** A medida que asumís más responsabilidades, la gestión eficaz del tiempo es crucial. Es posible que desee leer <mark style="background: #ADCCFFA6;">"Getting Things Done" de David Allen</mark> para obtener técnicas prácticas.
 
-15. **Rollback**: It's a good practice to discuss the potential for a "rollback" to your previous position during your onboarding. This option should be explored under certain conditions, such as if the transition to the new role is not successful, or if it becomes clear that the role isn't the right fit. The terms and conditions for a rollback should be clearly defined during onboarding, including the time frame within which this option can be exercised and the criteria for making this decision. 
+6. **Delegación:** Debe asignar tareas a los miembros del equipo de acuerdo con sus puntos fuertes y brindarles la autonomía para completarlas.<mark style="background: #FFF3A3A6;"> "Drive" de Daniel H. Pink</mark> es un gran recurso sobre motivación y delegación.
 
-A well-structured onboarding process can significantly ease the transition into your new role and set the stage for your success. It's important to actively engage with the onboarding process, ask questions, seek clarification when needed, and provide feedback to help improve the process for future employees.
+7. **Resolución de conflictos:** Estar preparado para manejar los conflictos dentro de tu equipo. <mark style="background: #ADCCFFA6;">"Crucial Conversations" y "Difficult Conversations" </mark>de Douglas Stone, Bruce Patton y Sheila Heen son excelentes referencias para gestionar conflictos.
 
-### Aspect #4: The first days considerations
+8. **Aprendizaje y desarrollo de habilidades:** El aprendizaje continuo es clave. Asignar tiempo para mantenerse actualizado con las tendencias de la industria y las nuevas tecnologías. Para esto, considerar recursos como cursos en línea en plataformas como Coursera y edX, o servicios de suscripción como Safari Books Online.
 
-1. **Meet and Greet:** Spend time getting to know your team, peers, and subordinates. Building relationships is essential for effective leadership.
-    
-2. **Listening:** Listen more than you speak. Understand the challenges, concerns, and aspirations of your team members. Hold one-on-one meetings to gather insights.
-    
-3. **Understand Current Projects:** Get a grasp of the ongoing projects and their status. Familiarize yourself with the team's current workload and priorities.
-    
-4. **Company Culture:** Observe and understand the company's culture and values. Ensure your actions align with these principles.
-    
-5. **Vision and Goals:** Clarify your vision for your team and the projects under your purview. Set short-term and long-term goals.
-    
-6. **Assess Skills and Gaps:** Assess the skills and expertise of your team members. Identify any skills gaps that need to be addressed.
-    
-7. **Feedback Mechanisms:** Establish feedback mechanisms to encourage open communication. Let your team know that their input is valued.
-    
-8. **Delegate Responsibly:** Delegate tasks and responsibilities while providing clear expectations and support. Avoid micromanaging.
-    
-9. **Learn Company Processes:** Understand the company's processes, workflows, and project management methodologies.
-    
-10. **Technical Familiarization:** If your new role involves new technologies, spend time familiarizing yourself with them. This may involve reviewing documentation or seeking training.
-    
-11. **Meet with Stakeholders:** Schedule meetings with key stakeholders, such as your manager, to discuss expectations and objectives.
-    
-12. **Prioritize Your Time:** Recognize that your time is a valuable resource. Prioritize tasks and focus on high-impact activities.
-    
-13. **Seek Mentorship:** If available, seek mentorship from experienced leaders within the organization or your professional network.
-    
-14. **Team Building:** Consider team-building activities to foster collaboration and cohesion.
-    
-15. **Review Policies and Compliance:** Review company policies, especially those related to compliance, security, and ethical standards. Ensure your team is aware of and follows these policies.
-    
-16. **Communication:** Be clear and transparent in your communication. Inform your team of any changes or new directions.
-    
-17. **Learn and Adapt:** Be open to learning from your team and adapting to the new role. Don't hesitate to ask for guidance or support.
-    
-18. **Manage Expectations:** Set realistic expectations for your team's performance and your own. It's okay to acknowledge that there will be a learning curve.
-    
-19. **Self-Care:** Ensure you take care of yourself physically and mentally. The initial days can be demanding, so maintain a healthy work-life balance.
-    
-20. **Feedback Loop:** Create a feedback loop to continuously improve your leadership and team's performance.
-    
+9. **Medición y retroalimentación:** Implementar métricas y mecanismos de retroalimentación para realizar un seguimiento del progreso del equipo. <mark style="background: #FFF3A3A6;">"Measure What Matters" de John Doerr </mark>es un recurso valioso sobre este tema.
 
-Remember that the transition to a higher role is a learning process, and the first days may feel challenging. However, with a structured approach, effective communication, and a focus on building relationships, you can establish yourself as a confident and capable leader.
+10. **Conciencia cultural y organizacional:** Comprender la cultura y los valores de tu organización y asegúrese de que tu equipo se alinee con ellos. <mark style="background: #FFF3A3A6;">"The Culture Code" de Daniel Coyle</mark> es un libro útil en este contexto.
+### Aspecto n.° 3: Hacer un adecuado onboarding del nuevo rol
+
+Hacer un buen onboarding en tu nuevo rol a medida que realiza la transición a un puesto superior en el campo de la ingeniería de software es clave. Significa tener un proceso estructurado y completo implementado para ayudarte a integrarte sin problemas en tus nuevas responsabilidades. Esto implica:
+
+1. **Introducción a la empresa y la cultura:** Debes recibir una introducción detallada a los valores, la misión y la cultura de la empresa. Comprender el espíritu de la empresa es fundamental para alinear tus acciones con sus objetivos. Esta información puede proporcionarse en forma de documentos, presentaciones o reuniones.
+
+2. **Comprensión del nuevo rol:** Debe recibir documentación o capacitación clara que describa las responsabilidades, expectativas e indicadores clave de desempeño de su nuevo rol. Esto podría incluir descripciones y objetivos laborales específicos del rol.
+
+3. **Reuniones con las partes interesadas clave:** Un proceso de incorporación debe incluir reuniones con las partes interesadas clave, como su gerente directo, pares y subordinados, si corresponde. Estas reuniones brindan información sobre las expectativas y la dinámica dentro de su equipo y ayudan a establecer relaciones laborales.
+
+4. **Capacitación técnica:** Si el nuevo rol implica tecnologías o herramientas con las que aún no te has familiarizado, la incorporación debe incluir capacitación técnica o acceso a recursos como cursos en línea, documentación o tutoría. En última instancia, deberás ser pro-activo y autocapacitarte si fuera necesario.
+
+5. **Capacitación sobre procesos y flujos de trabajo:** Comprender los procesos, flujos de trabajo y métodos de gestión de proyectos de la empresa es fundamental. Deberás recibir capacitación o documentación sobre cómo se hacen las cosas, incluidas herramientas y metodologías como Agile, Scrum o DevOps. Nuevamente, si esto no fuera posible o no existe, no hay nada mejor que ser proactivo y ser uno mismo quien cree/mapee estos flujos.
+
+6. **Acceso a recursos:** Tenes que asegurarte de tener acceso a los recursos necesarios, incluidos software, hardware y permisos de acceso para desempeñar tu función de manera eficaz.
+
+7. **Organigrama:** Recibir o armar un organigrama actualizado que muestre la jerarquía del departamento o área y la organización en general, así como la información de contacto de las personas clave.
+
+8. **Establecimiento de expectativas:** Tu gerente debe comunicarle claramente sus expectativas con respecto a tu desempeño, la entrega del proyecto y cualquier indicador o meta clave de desempeño. También es importante analizar el cronograma para lograr estas expectativas.
+
+9. **Mecanismos de retroalimentación:** Saber cómo y cuándo se realizarán las evaluaciones de desempeño. Comprender los procesos de retroalimentación y revisión de la empresa, incluidas las revisiones de pares o la retroalimentación de 360 ​​grados.
+
+10. **Mentoría y orientación:** Si es posible, que se asigne un mentor o compañero que pueda guiarte a través de las fases iniciales de su nuevo rol. Esta persona puede brindar información, responder preguntas y ofrecer apoyo.
+
+11. **Políticas y cumplimiento de la empresa:** Revisar y comprenda las políticas y pautas de la empresa, especialmente aquellas relacionadas con el cumplimiento, la seguridad y los estándares éticos.
+
+12. **Desarrollo profesional:** Informarte sobre las oportunidades de desarrollo profesional, incluidas capacitaciones, talleres, conferencias o certificaciones o construir tu propio path de desarrollo personal.
+
+13. **Período de prueba (modo de prueba):** Si tu nuevo puesto incluye un período de prueba, comprenda su duración, objetivos y criterios de evaluación.
+
+14. **Documentación y recursos:** El acceso a un repositorio centralizado de documentación relevante, mejores prácticas y recursos relacionados con tu puesto puede ser extremadamente valioso, sino: CREARLO, se pro-activo. Aplicar la técnica del boy-scout: siempre dejar el lugar de acampe mejor que como lo encontramos.
+
+15. **Rollback**: Es una buena práctica analizar la posibilidad de un "rollback" a tu puesto anterior durante tu incorporación. Esta opción debe explorarse en determinadas condiciones, como si la transición al nuevo puesto no es exitosa o si queda claro que el puesto no es el adecuado. Los términos y condiciones de una "rollback" deben definirse claramente durante la incorporación, incluido el plazo dentro del cual se puede ejercer esta opción y los criterios para tomar esta decisión.
+
+Un proceso de incorporación bien estructurado puede facilitar significativamente la transición a su nuevo puesto y preparar el terreno para el éxito. Es importante participar activamente en el proceso de onboarding, hacer preguntas, pedir aclaraciones cuando sea necesario y brindar comentarios para ayudar a mejorar el proceso para los futuros empleados.
+### Aspecto n.° 4: Consideraciones para los primeros días
+
+1. **Conocer y saludar:** Dedica tiempo a conocer a tu equipo, a tus compañeros y a tus subordinados. Establecer relaciones es esencial para un liderazgo eficaz.
+
+2. **Escuchar:** Escucha más de lo que hablas. Comprende los desafíos, las preocupaciones y las aspiraciones de los miembros de tu equipo. Mantén reuniones individuales para recopilar información.
+
+3. **Entender los proyectos actuales:** Hazte una idea de los proyectos en curso y su estado. Familiarízate con la carga de trabajo y las prioridades actuales del equipo.
+
+4. **Cultura de la empresa:** Observa y comprende la cultura y los valores de la empresa. Asegúrate de que tus acciones se alineen con estos principios.
+
+5. **Visión y objetivos:** Aclara tu visión para tu equipo y los proyectos bajo tu responsabilidad. Establece objetivos a corto y largo plazo.
+
+6. **Evaluar las habilidades y las carencias:** Evalúa las habilidades y la experiencia de los miembros de tu equipo. Identifique las brechas de habilidades que se deben abordar.
+
+7. **Mecanismos de retroalimentación:** Establecer mecanismos de retroalimentación para fomentar la comunicación abierta. Hágale saber a su equipo que su aporte es valioso.
+
+8. **Delegue de manera responsable:** Delegar tareas y responsabilidades y proporcione expectativas y apoyo claros. Evitar la microgestión.
+
+9. **Conozca los procesos de la empresa:** Comprender los procesos, flujos de trabajo y metodologías de gestión de proyectos de la empresa.
+
+10. **Familiarización técnica:** Si tu nuevo rol implica nuevas tecnologías, dedique tiempo a familiarizarse con ellas. Esto puede implicar revisar la documentación o buscar capacitación.
+
+11. **Reúnase con las partes interesadas:** Programar reuniones con las partes interesadas clave, como su gerente, para analizar las expectativas y los objetivos.
+
+12. **Priorice tu tiempo:** Reconozca que tu tiempo es un recurso valioso. Priorizar las tareas y concéntrese en las actividades de alto impacto.
+
+13. **Buscar mentoría:** Si está disponible, buscar mentoría de líderes experimentados dentro de la organización o de su red profesional.
+
+14. **Formación de equipos:** Considerar actividades de formación de equipos para fomentar la colaboración y la cohesión.
+
+15. **Revisar políticas y cumplimiento:** Revisar las políticas de la empresa, especialmente las relacionadas con el cumplimiento, la seguridad y los estándares éticos. Asegúrese de que su equipo conozca y respete estas políticas.
+
+16. **Comunicación:** Ser claro y transparente en tu comunicación. Informe a su equipo sobre cualquier cambio o nueva dirección.
+
+17. **Aprender y adaptarse:** Estar abierto a aprender de su equipo y a adaptarse al nuevo rol. <mark style="background: #FFF3A3A6;">No dudar en pedir orientación o apoyo</mark>.
+
+18. **Gestionar las expectativas:** Establecer expectativas realistas para el desempeño de tu equipo y el tuyo propio. Está bien reconocer que habrá una curva de aprendizaje.
+
+19. **Cuidado personal:** Asegúrese de cuidarse física y mentalmente. Los primeros días pueden ser exigentes, por lo que es importante mantener un equilibrio saludable entre el trabajo y la vida personal.
+
+20. **Ciclo de retroalimentación:** Crear un ciclo de retroalimentación para mejorar continuamente tu liderazgo y el desempeño de tu equipo.
+
+
