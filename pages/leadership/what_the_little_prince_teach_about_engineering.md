@@ -1,4 +1,4 @@
-# What The Little Prince teach about engineering
+# ¿Qué nos enseña _El Principito_ para aplicar en la ingeniería?
 
 <style>
   .back-button {
@@ -19,22 +19,43 @@
 
 ![The little prince](../../images/little_prince_sw_engineering.jpeg)
 
-"The Little Prince" by Antoine de Saint-Exupéry is a classic novella that imparts valuable life lessons and wisdom. While it's not directly related to being a great software engineer, there are some universal principles and themes from the book that can be applied to personal and professional growth, including a career in software engineering:
 
-1. **Imagination and Creativity:** The Little Prince encourages readers to embrace their imagination and see the world with a childlike sense of wonder. In software engineering, creativity and thinking outside the box are essential for problem-solving and innovation.
-    
-2. **Curiosity:** The Little Prince's curiosity drives him to ask questions and seek answers. Software engineers often need to be curious and inquisitive to understand complex systems and technologies.
-    
-3. **Attention to Detail:** The story emphasizes the importance of paying attention to small details. In software development, meticulous attention to detail is crucial for writing bug-free code and ensuring the quality of software.
-    
-4. **Seeing with the Heart:** The book teaches that what is essential is invisible to the eye. In software engineering, understanding user needs and designing user-friendly interfaces requires empathy and the ability to see beyond the surface.
-    
-5. **Exploration and Adventure:** The Little Prince's journey is one of exploration and adventure. Similarly, software engineers often embark on journeys of learning, trying new technologies, and exploring new solutions.
-    
-6. **Connections and Relationships:** The book underscores the value of meaningful connections and relationships. In the tech industry, teamwork, collaboration, and effective communication are vital for success.
-    
-7. **Simplicity:** The Little Prince appreciates the beauty of simplicity. In software engineering, simplicity in code and system design can lead to more maintainable and efficient solutions.
+_"El Principito"_ de Antoine de Saint-Exupéry es una historia clásica que comparte un montón de enseñanzas de vida. Si bien no está directamente ligado a ser un gran ingeniero de software, hay varios principios universales que se pueden aplicar tanto a nuestro crecimiento personal como profesional (incluyendo la programación). Acá van algunos de los más interesantes (mente abierta):
 
-## Reference
+1. **Imaginación y Creatividad:**  
 
-_**The Little Prince**_ by Antoine de Saint-Exupéry
+_El Principito_ nos invita a mirar el mundo con ojos de niño, llenos de curiosidad y asombro. En la ingeniería de software, pensar fuera de la caja y meterle imaginación es clave para resolver problemas y encontrar soluciones innovadoras.
+
+2. **Curiosidad:**  
+
+El niño del cuento siempre anda haciendo preguntas y buscando respuestas. En tecnología, ser curioso te lleva a aprender cosas nuevas y a entender sistemas complicados. No hay nada más copado (o que es lo mismo: "que te entusiasma") que explorar para descubrir cómo funcionan las cosas.
+   
+3. **Atención al Detalle:**  
+
+La historia muestra la importancia de fijarse en los detalles más mínimos. Cuando programamos, prestar atención a cada parte del código es fundamental para que no se nos pasen bugs y para que el software ande como se espera.
+
+4. **Ver con el Corazón:**  
+
+_El Principito_ nos enseña que lo esencial es invisible a los ojos. En el desarrollo de software, entender a fondo lo que necesita el usuario y diseñar interfaces amigables requiere empatía y la capacidad de ver más allá de lo obvio.
+
+5. **Exploración y Aventura:**  
+
+Toda la aventura de _El Principito_ consiste en viajar y descubrir. De la misma manera, como programadores vivimos en constante aprendizaje, probando nuevas tecnologías y encontrando soluciones interesantes a problemas complejos.
+
+6. **Conexiones y Relaciones:**  
+
+El libro resalta el valor de conectar con los demás. En el mundo tech, el trabajo en equipo, la buena onda y la comunicación clara son fundamentales para sacar proyectos adelante.
+
+7. **Simplicidad:**  
+
+_El Principito_ valora la belleza de lo simple. En ingeniería de software, mantener el código y los sistemas lo más simples posible garantiza que sean fáciles de mantener y que anden mejor.
+
+# Sobre el autor
+
+Antoine de Saint-Exupéry tuvo una conexión muy intensa con la Patagonia argentina porque laburó como piloto de correo aéreo para la Aeroposta Argentina en los años 30. Le tocaba volar rutas bien largas y solitarias que pasaban por esa región, incluyendo Península Valdés. Dicen que la inmensidad y la belleza medio desolada de la Patagonia lo inspiraron en varias de sus obras. De hecho, se comenta que algunos pasajes de _El Principito_ y otros libros reflejan un poco esa mezcla de soledad y maravilla que sintió mientras sobrevolaba esos paisajes argentinos.
+
+## Referencia
+
+_**El Principito**_ de Antoine de Saint-Exupéry.
+[El principito - Wikipedia, la enciclopedia libre](https://es.wikipedia.org/wiki/El_principito)
+[Antoine de Saint-Exupéry - Wikipedia, la enciclopedia libre](https://es.wikipedia.org/wiki/Antoine_de_Saint-Exup%C3%A9ry)
