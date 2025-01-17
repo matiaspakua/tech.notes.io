@@ -29,7 +29,8 @@
     font-family: "SF Pro Text", Helvetica, sans-serif;
   }
 </style>
-<button class="libutton" href="https://www.linkedin.com/comm/mynetwork/discovery-see-all?usecase=PEOPLE_FOLLOWS&followMember=matiasmiguez" target="https://www.linkedin.com/in/matiasmiguez/">Follow on LinkedIn</button>
+
+<button class="libutton" onclick="window.location.href='https://www.linkedin.com/comm/mynetwork/discovery-see-all?usecase=PEOPLE_FOLLOWS&followMember=matiasmiguez'">Follow on LinkedIn</button>
 
 --- 
 
