@@ -21,6 +21,6 @@
 
 - Sesión 1 ->[Principales conceptos de Cyberseguridad](pages/master_ti/seguridad_informatica/sesion_1.md)
 - Sesión 2 ->[Conceptos de Ciberseguridad](pages/master_ti/seguridad_informatica/sesion_2.md)
-- Sesión 3 ->[Arquitectura de Ciberseguridad](sesion_3.md)
+- Sesión 3 ->[Arquitectura de Ciberseguridad](pages/master_ti/seguridad_informatica/sesion_3.md)
 - Sesión 4 ->[Seguridad de Redes, Sistemas, Aplicaciones y Datos](sesion_4.md)
 - Sesión 5 ->[Respuesta a Incidentes](sesion_5.md)
