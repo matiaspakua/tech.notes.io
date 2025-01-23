@@ -878,7 +878,7 @@ El diseño, según (Martin, 2011, 15) se puede definir como:
 
 **Referencia:** Martin, R. C. (2011). The Clean Coder: A Code of Conduct for Professional Programmers. Prentice Hall. 
 
-Como idea general que dará pie al resto del capítulo se plantea lo siguiente: un buen producto de software es aquel diseñado para cambiar, evolucionar, adaptarse a lo nuevo. De aquí la importancia de aplicar desde un inicio el diseño.
+Como idea general que dará pie al resto del capítulo se plantea lo siguiente: <mark style="background: #FFF3A3A6;">un buen producto de software es aquel diseñado para cambiar, evolucionar, adaptarse a lo nuevo</mark>. De aquí la importancia de aplicar desde un inicio el diseño.
 
 <a name="3.1.estrategias_de_disenio"></a>
 ## 3.1 Estrategías de Diseño
