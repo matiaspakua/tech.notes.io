@@ -49,7 +49,7 @@
 		- [2.5.14. Metodología: QA Automation](#2.5.14_metodologia_qa_automation)
 		- [2.5.15. Metodología: estrategia de QA](#2.5.15_metodologia_estrategia_qa)
 		- [2.5.16. Metodología: Metodología: DevSecOps](#2.5.16_metodologia_metolodogia_devsecops)
-- [3. Diseño](#3.diseño)
+- [3. Diseño](#3.disenio)
 	- [3.1 Estrategías de Diseño](#3.1.estrategias_de_disenio)
 		- [3.1.1 Gran Diseño Inicial (BDUF)](#3.1.1.gran_disenio_inicial_bduf)
 		- [3.1.2 Diseño Preliminar Inicial (RDUF) y Diseño Emergente](#3.1.2.disenio_preliminar_inicial_RDUF_disenio_emergente)
@@ -852,7 +852,7 @@ Finalmente, desde la estrategia de alto nivel hasta el modelado de los test unit
 
 ---
 
-<a name="3.diseño"></a>
+<a name="3.disenio"></a>
 # 3. Diseño
 
 El concepto de diseño es muy amplio. En el presente trabajo se va a considerar el diseño no solo desde la perspectiva del desarrollo de código sino de todo el espectro de actividades asociadas al desarrollo de un producto, a saber:
