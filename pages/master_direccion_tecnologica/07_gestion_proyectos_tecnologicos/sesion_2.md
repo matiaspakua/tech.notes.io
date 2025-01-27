@@ -40,3 +40,7 @@ Agentes de cambio, pero como hacer los cambios:
 4. Adaptabilidad: cambiar, adaptarse, pero no "romper" => seguir unas reglas base (core rules)
 5. Diplomacia: buscar puntos en común, comunicar influenciando con claridad.
 6. Persistencia: ser constante, tener un objetivo claro e ir hacia él.
+
+
+# Alcance del Proyecto
+
