@@ -27,17 +27,31 @@ Resumen: IA Generativa se ha llevado el papel protagónico en 2024.
     - Facilitar procesos eficientes.
     - Contribuir en la estrategia del negocio mediante reducción de costos o aumento de ingresos.
 2. **Competencias Relevantes**:
-
-![[competencias_CIO.png]]
-
     - Visión estratégica.
     - Liderazgo para impulsar la transformación digital.
     - Gestión efectiva del talento del equipo
-3. **Preferencias del CEO sobre proyectos IT**:
+
+![[competencias_CIO.png]]
+
+## Aterrizando la propuesta de valor de un CIO
+
+• DISEÑAR e IMPLEMENTAR SOLUCIONES respondiendo a necesidades del negocio 
+• Garantizar la SEGURIDAD de la información 
+• que los PROCESOS funcionen 
+• ENTENDER y ATERRIZAR RETOS de NEGOCIO. 
+• Incrementar INGRESOS o reducir COSTES 
+• Participar en DEFINIR la ESTRATEGIA del NEGOCIO
+
+Dependiendo del momento de la empresa y el rol, se puede ser un CIO: <mark style="background: #FFF3A3A6;">estratégico</mark>, <mark style="background: #ADCCFFA6;">operativo</mark> o un mix de <mark style="background: #BBFABBA6;">ambos</mark>.
+
+![](../../../images/CIO_estilos.png)
+
+Un CIO puede tener las <mark style="background: #FFF3A3A6;">características</mark> de:
+ - **Operador**: mantiene el delivery de TI, otros C-levels son sponsors
+ - **Explorador**: ayuda a dotar de habilidades digitales a otros C-levels.
+ - **Empoderador**: ayuda a otros, hace delivery, distribuye el conocimiento.
+
+**Preferencias del CEO sobre proyectos IT**:
     - 39% prioriza proyectos que ahorren costos.
     - 37% busca iniciativas generadoras de ingresos.
     - 24% valora proyectos estratégicos como la satisfacción del cliente o la sostenibilidad
-4. **Tipos de CIO (Perfil de liderazgo)**:
-    - Operador: Focalizado en la entrega de TI.
-    - Explorador: Introduce capacidades digitales.
-    - Empoderador: Integra capacidades digitales con accountability en los líderes funcionales.
