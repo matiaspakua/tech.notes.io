@@ -95,3 +95,17 @@ La gran diferencia está en el gobierno que se tiene sobre el presupuesto y la c
  • Factibilidad técnica
  • Factibilidad financiera
 
+## Proyectos mutuamente excluyentes
+
+Dos proyectos son excluyentes cuando la realización de uno de los proyectos no  permite llevar a cabo el otro. Por ejemplo: Implantar CRM Siebel o Implantar CRM Salesforce. En el caso de proyectos sustitutos entre si, la regla de decisión es elegir la <mark style="background: #FFF3A3A6;">alternativa de mayor VAN</mark>.
+
+## Criterio de selección por Payback
+
+Ahora si el criterio de selección se basa en el payback, entonces el criterio de selección quizás esté sujeto al proyecto cuyo payback sea el más corto.
+
+## Criterio de selección por TIR (Tasa interna de retorno)
+
+Si un proyecto tiene flujos de fondos negativos al inicio (inversión) y positivos en los periodos siguientes, entonces la regla es: <mark style="background: #FFF3A3A6;">seleccionar proyectos que tengan una TIR > i</mark>.
+
+
+![](../../../images/criterio_seleccion_proyecto_TIR.png)
