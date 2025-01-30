@@ -48,6 +48,50 @@ Payback = 0,52
 # VAN
 
 
+
+
 # TIR
 
+---
+
+## Presupuesto
+
+Es un plan de acción dirigido a cumplir una meta prevista, expresada en valores y términos financieros que, debe cumplirse en determinado tiempo y bajo ciertas condiciones  previstas, este concepto se aplica a cada centro de responsabilidad de la organización
+
+Funciones:
+ - Control Financiero
+ - Minimizar riesgos
+ - Plan de operaciones
+ - Verificar logros
+ - Tener un rol preventivo o correctivo
+ - Sirve para la toma de decisiones
+ - Evaluación de objetivos
+
+Los presupuestos se armar por año fiscal. Generalmente se inician en Septiembre y para los meses que faltan se hacen proyecciones.
+Los presupuestos se pueden especificar por:
+	- Estacionalidad (eventos puntuales)
+	- Prorrateado (servicios por mes)
+
+## Tipos de Presupuestos
+
+ - Gastos de Personal: RRHH
+ - Gastos de explotación: gastos generales del desarrollo de la actividad.
+ - Gastos de amortización: depende de las inversiones realizadas.
+
+Existe además la subdivisión de:
+
+ - **Presupuesto asignado**: es el presupuesto que se le asigna al departamento de IT y gestiona generalmente el CIO, o sea, ya viene asignado.
+ - **Presupuesto gestionado**: generalmente el CIO tiene autoridad para definir este presupuesto.
+
+La gran diferencia está en el gobierno que se tiene sobre el presupuesto y la capacidad de acción y decisiones que se tienen sobre él.
+
+## Selección de proyectos - Factores
+
+ • El capital es un factor escaso – máximo provecho posible
+ • Elegir la mejor alternativa
+ • Definir prioridades en relación con otros proyectos
+ • Minimizar el riesgo de la inversión
+ • Factibilidad  económica
+ • Factibilidad técnica
+ • Factibilidad financiera
 
