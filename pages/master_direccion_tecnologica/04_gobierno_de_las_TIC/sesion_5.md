@@ -41,3 +41,6 @@ Una vez que tengo los días, veo los SERVIDORES / SERVICIOS que dan soporte a lo
 Puede haber casos donde el tiempo de recuperación 0.
 
 Todas las decisiones se hacen en base a lo que negocio indica.
+
+Este plan contempla la recuperación de sistemas individuales, pero no cuando tener un ramsomware masivo que afecte a todos los sistemas, en este caso la recuperación será mucho más lenta, pero este detalle debe estár claro en el PLAN.
+
