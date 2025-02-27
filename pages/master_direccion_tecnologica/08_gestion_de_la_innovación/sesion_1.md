@@ -40,3 +40,10 @@ Aquí están para compartir estas 20 formas de garantizar el fracaso en innovaci
 
 Link 3: [De la idea a l’èxit – treva.cat](https://treva.cat/es/de-la-idea-a-lexit/)
 
+![[de_la_idea_al_exito.png]]
+
+La generación de la idea es pues un embrión, que no siempre acabará vivo. Y para llegar al final del proceso ya vemos que necesitamos más que "creatividad".
+
+Mucho trabajo que hacer <mark style="background: #FFF3A3A6;">de aterrizaje</mark>, de proceso, de detalle, de ensayo y error.
+
+Mucho más que una iluminación para llegar al éxito.
