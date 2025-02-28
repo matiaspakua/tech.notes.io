@@ -47,3 +47,30 @@ La generación de la idea es pues un embrión, que no siempre acabará vivo. Y p
 Mucho trabajo que hacer <mark style="background: #FFF3A3A6;">de aterrizaje</mark>, de proceso, de detalle, de ensayo y error.
 
 Mucho más que una iluminación para llegar al éxito.
+
+# Innovación
+
+## que es la innovación? 
+
+ideas => brainstorming
+Aterrizar la idea: 
+aprobación de los usuarios
+tener la mano levantada para llevar adelante la innovación.
+
+## Como lo vamos a hacer?
+
+Procesos
+Quienes hacen las cosas: roles, gestión, trabajo
+comunicación => interna y externa.
+resultados => dinero, impacto, depende.
+
+## Introducción
+
+Chispa creativa => necesitamos estimulos. Solo viendo como llegamos a la facu, han pasado muchas cosas (a nivel contexto.)
+
+Detectar tendencias y reacción hacia ellas.
+
+# Ciclo de la innovación
+
+
+![[ciclo_de_la_innovacion.png]]
