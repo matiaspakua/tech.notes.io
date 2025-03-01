@@ -15,3 +15,19 @@ value proposition canva
 ![[value_proposition_canvas.png]]
 
 ![[The Value Proposition Canvas - Official Template from Strategyzer.pdf]]
+
+---
+
+
+joan.garcia@ext.salle.url.edu
+
+# introducción
+
+- experiencias
+- como implementar servicios
+- gestión de proveedores
+- gestión óptima de servicios
+- Equipos best practices + soft skills
+- Priorización
+- Estrategia + servicios + día a día 
+- ITIL + clientes
