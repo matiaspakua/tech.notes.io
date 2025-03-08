@@ -51,3 +51,45 @@ Continua con el aprendizaje de los componentes de la Cadena de Valor del Servici
 Link [Best Practices: Vendor to Vendor Transition of IT Services | LinkedIn](https://www.linkedin.com/pulse/best-practices-vendor-transition-services-rajesh-gopalan/)
 
 Para garantizar el éxito, es fundamental establecer una Oficina de Gestión de Transición (TMO), involucrar activamente al cliente, registrar sesiones de transferencia de conocimiento, implementar un marco común de informes y utilizar métricas objetivas para evaluar el progreso. Además, tratar la transición como una inversión estratégica y fomentar la colaboración con el proveedor saliente asegura una transición fluida y beneficios a largo plazo.
+
+---
+
+# Diseño y transición servicos
+
+
+RFP => request for propousal
+RFQ => request for quotation
+RFI => request for information => entender como es un proveedor
+
+Ser muy especificos.
+SLA => un acuerdo entre ambas partas. 
+
+Importancia de definir el alcance (lo que si, como lo que no)
+Al momento de elegir un proveedor para un servicios => evaluar tamaño, complejidad, costo y por supuesto al proveedor en si: Deloite, Accenture, etc. (Big 4)
+
+Acá el RFI te da mucha información para analizar datos de contexto.
+
+
+## Evaluacion de propuestas
+
+70%-30%
+Cualitativo - Precio
+
+Para medir se deben tener en cuenta el tipo de servicio y en base a eso se evaluan las propuestas.
+
+## Inicio del servicio
+
+Shadowing => activo y pasivo => el único problema es el dinero, debido a que estas duplicando recursos.
+
+RFQ => Buy Power
+
+## Terminación de servicios
+
+
+
+# Operacion sercivios TIC
+
+
+# Terminación y devolución
+
+

@@ -46,3 +46,7 @@ Vincula la creatividad con el bienestar emocional. Ponti sugiere trabajar en ent
 ### 7. **Think \& Collaborate: co-creación**
 
 Promueve dinámicas de equipo donde las ideas se construyen colectivamente. Incluye técnicas como el *brainstorming* estructurado o el método *plussing* (mejorar propuestas ajenas sin criticarlas)
+
+
+# Personas y equipos innovadores
+
