@@ -17,24 +17,24 @@ Lo constituyen las empresas.
 
 
 
-![[Pasted image 20250308134532.png]]
+![[banda_ancha_porcentaje_2023.png]]
 
 
 
-![[Pasted image 20250308134611.png]]
+![[numero_abonados_plataformas_pagos_2023.png]]
 
 
-![[Pasted image 20250308134758.png]]
+![[numero_contrataciones_tvod_2023.png]]
 
 
-![[Pasted image 20250308140307.png]]
+![[indicadores_espania_2023.png]]
 
 
 
-![[Pasted image 20250308141304.png]]
+![[indicadores_desi_2023.png]]
 
 
-![[Pasted image 20250308142035.png]]
+![[indicadores_2023.png]]
 
 
 
