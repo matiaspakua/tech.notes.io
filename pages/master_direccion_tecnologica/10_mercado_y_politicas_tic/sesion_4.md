@@ -1,12 +1,12 @@
 
-# Innovacción
+# Innovación
 
-![[Pasted image 20250322123840.png]]
+![[innovation_google_acquisition_timeline.png]]
 
 
 # El sector High-tech
 
-![[Pasted image 20250322124605.png]]
+![[innovation_sector_high_tech.png]]
 
 # Como medir un país
 
