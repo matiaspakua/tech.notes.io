@@ -8,7 +8,7 @@ Modelo de Abernathy - Utterback
 
 ![[Pasted image 20250328163113.png]]
 
-# Modelo de Adopción
+# Modelo de Adopción (modelo de rogers)
 
 ![[Pasted image 20250328170401.png]]
 
