@@ -51,3 +51,37 @@ EL ciclo de Deming.
 - Verificar (chack)
 - Actuar (act)
 
+## Responsabilidad sobre la calidad
+
+De todos => calidad del servicios.
+
+# Acuerdos
+
+La cadena es:
+
+Requisitos de Negocio
+->
+SLR
+-> 
+De eso salen los SLA
+->
+Se crean SLA internos y OLA's => con esto medimos internamente
+->
+Proveedores => Contratos => para cumplir con los SLA.
+
+
+# Catalogo de servicios
+
+IT es una palanca de negocio, más que un catalogo de servicios (tipo API). El catalogo es un concepto más de backend. Que IT solo da servicios como una API y listo.
+
+## Factores Críticos de éxito
+
+CSF => Critical Success Factor. Son aquellos indicadores que marcan el éxito o no de una iniciativa.
+
+Métricas tecnológicas = infra
+
+Métricas de Procesos = procesos de empresa
+
+Métricas de servicios = negocio
+
+Lo mejor sería tener todos estos indicadores en un mismo dashboard o alguna.
