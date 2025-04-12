@@ -24,3 +24,30 @@ SIAM Modelo 1: el cliente se hace cargo de los proveedores.
 SIAM Modelo 2: hibrido, un externo que hace la gestión, pero el cliente coordina.
 SIAM modelo 3: un externo se hace el coordinador de servicios externos.
 SIAM modelo 4: cuando un proveedor de confianza (externo) hace de coordinar de resto de proveedores, pero son un proveedor en si.
+
+## Proyectos y servicios
+
+(1) Proyectos desencadena  (2) Servicios  y los servicios desencadenan (3) recursos.
+
+Project management en la gestión de producto y servicios.
+
+Proyecto y servicio están encadenados, debido a que un proyecto requiere un servicio que lo mantenga.
+
+# utilidad y garantía
+
+Un servicios es bueno si da utilidad y garantía
+Evaluar la utilidad del proyecto (Aporta algo o elimina limites)
+La garantía:  cual es el corto de no tener alta disponibilidad.
+Tiene que haber un agrement con el cliente sobre las características de garantía.
+
+Todos esto tiene que servir para dar VALOR. Un servicio tiene que aportar VALOR.
+
+
+# Mejora continua
+
+EL ciclo de Deming. 
+- Planificar (plan)
+- Hacer (do)
+- Verificar (chack)
+- Actuar (act)
+
