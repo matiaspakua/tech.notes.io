@@ -84,3 +84,23 @@ Estos desplazamientos se pueden dar por varios factores:
 	 * mejoras tecnológicas (ejemplo de DeepSeek R1)
 	 * Expectativas
 	 * Aumento del número de vendedores.
+
+
+## Intervención del Estado en el mercado
+
+
+Se puede dar de muchas formas, sobre todo en economias MIXTAS:
+- fijando precios
+- gravando producción o venta
+- Subvencionando
+- Cargos a la producción
+- Regulando empresas
+
+Se dan 3 Escenarios:
+ - <mark style="background: #FFF3A3A6;">Competencia perfecta</mark>: muchos productores y consumidores. Precio de y demanda de equilibrio.
+ - <mark style="background: #ADCCFFA6;">Precio mínimo</mark>: se estable un precio mínimo, por ejemplo, el salario mínimo.
+ - <mark style="background: #BBFABBA6;">Precio máximo</mark>: generalmente, subvencionado: energía, educación, etc.
+
+En todos los casos, hay escenario de excedentes, los cuales son perjudiciales:
+
+![[mercados_excedentes.png]]
