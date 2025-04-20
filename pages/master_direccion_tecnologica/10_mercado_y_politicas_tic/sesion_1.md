@@ -104,3 +104,24 @@ Se dan 3 Escenarios:
 En todos los casos, hay escenario de excedentes, los cuales son perjudiciales:
 
 ![[mercados_excedentes.png]]
+
+## Estructuras de Mercado
+
+**Oferentes**:
+1. <mark style="background: #FFF3A3A6;">Monopolio</mark>: una empresa, gran demanda, no existen bienes sustitutivos, fija el precio.
+2. <mark style="background: #ADCCFFA6;">Oligopolio</mark>: pocos vendedores, las empresas fijan precio, gran dependencia entre estas empresas, las decisiones afectan al resto.
+3. <mark style="background: #BBFABBA6;">Competencia perfecta</mark>: Muchos vendedores, gran cantidad de compradores, el precio se determina por la interacción entre Oferta y Demanda.
+
+**Demandantes**:
+1. <mark style="background: #FFF3A3A6;">monopsonio</mark>: un único comprador.
+2. <mark style="background: #ADCCFFA6;">duopsonio</mark>: 2 únicos compradores.
+3. <mark style="background: #BBFABBA6;">Oligopsonio:</mark> pocos compradores, gran cantidad de vendedores.
+
+
+## Elasticidad
+
+![[elasticidad_demanda.png]]
+
+Pero de qué depende que varíen tanto estos valores:
+
+![[determinantes_demanda.png]]
