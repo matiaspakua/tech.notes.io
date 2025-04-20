@@ -55,3 +55,32 @@ Los ejes principales de los mercados son la "oferta" y la "demanda":
 - **Microeconomía**: orientado a familias y empresas, mercado en concreto, es el resultado de inversión estatal.
 - **Macroeconomía**: economía en su conjunto, global.
 
+## Teoría de los mercados competitivos
+
+>[!important]
+> Teoría de la Ley de la Oferta y la Demanda.
+
+
+![[ley_oferta_demanda.png]]
+
+
+![[ley_costo_demanda_equilibrio.png]]
+Estas curvas y la ley asociada puede variar, cambiando el punto de equilibrio y afectando tanto a la cantidad demandada como al precios. Estos valores de "excedentes", tanto del consumidor como del productor pueden ser perjudiciales, dependiendo del contexto.
+
+Otros factores que pueden impactar son:
+
+![[desplazamiento_curva_oferta.png]]
+
+Estos desplazamientos se pueden dar por varios factores:
+
+ * Demanda:
+	 * aumento de la renta de los consumidos
+	 * mejor valoración del bien o servicios
+	 * aumento de la población
+	 * cambios perspectivas de precios
+	 * cambio precio de un bien sustitutivo o complementario.
+ * Oferta:
+	 * disminución del precio de los recursos productivos
+	 * mejoras tecnológicas (ejemplo de DeepSeek R1)
+	 * Expectativas
+	 * Aumento del número de vendedores.
