@@ -1,6 +1,18 @@
 # Microeconomía y Macroeconomía
 
 ## Introducción a la microeconomía
+
+Analizaremos la demanda y oferta y la relación que guardan entre sí, que es el núcleo fundamental de la economía. El concepto de elasticidad. La determinación del precio y nivel de producción en las distintas estructuras de mercado. La intervención del Estado en el mercado.
+
+**Los objetivos de esta sesión son:**  
+
+1. Comprender y manejar los conceptos elementales del análisis microecónomico.  
+2. Comprender el comportamiento del consumidor y la empresa a nivel microeconómico.  
+3. Analizar el equilibrio parcial y general competitivo. Caracterizar los mercados de competencia imperfecta y la ineficiencia del monopolio  
+4. Manejar y ser capaz de aplicar al análisis de la realidad las relaciones económicas fundamentales. Identificar las relaciones que existen entre agentes económicos, y entre las principales magnitudes microeconómicas. 
+5. Capacidad de relación entre las distintas variables microeconómicas. Los aspectos económicos, como la realidad social en la que se insertan, responden a múltiples causas interrelacionadas. 
+6. Conocer los conceptos de elasticidad, economías de escala, economías de alcance, coste de oportunidad. Identificar modelos de negocio escalables.
+
 ### Flujo circular de la renta
 
 Es un proceso de retroalimentación por la cual los factores productivos de un país se van transformando y consumiendo por los distintos actores en el aspecto micro y macro económico:
@@ -227,6 +239,16 @@ PBI PER CAPITA = PIB (producto interior bruto) / número de  habitantes.
 
 
 ## Macroeconomía
+
+Analizaremos para qué sirven las variables y las políticas macroeconómicas y por qué están importante tener en cuenta la situación macroeconómica en el momento de realizar una inversión empresarial.
+
+**Los objetivos de esta sesión son:** 
+
+1. Entender el funcionamiento de la macroeconomía en general. 
+2. Conocer las principales magnitudes y políticas macroeconómicas y sus interrelaciones.  
+3. Conocer los principales problemas macroeconómicos: el crecimiento, el desempleo y la inflación, y los tipos de políticas económicas apropiados.  
+4. Analizar las variables macroeconómicas de un entorno determinado en el que se esté planteando llevar a cabo un proyecto de inversión e identificar si representan una situación económica favorable o adversa a la realización de esta inversión.
+
 
 Se ocupa de:
 - La conducta de la economía en su conjunto 

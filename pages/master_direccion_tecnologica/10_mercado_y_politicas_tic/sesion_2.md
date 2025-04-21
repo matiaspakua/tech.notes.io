@@ -37,4 +37,3 @@ Lo constituyen las empresas.
 ![[indicadores_2023.png]]
 
 
-
