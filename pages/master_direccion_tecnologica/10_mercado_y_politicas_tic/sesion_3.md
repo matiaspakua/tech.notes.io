@@ -149,3 +149,41 @@ Si hay mucho riesgo o la propuesta es muy radical, usar matriz de riesgos.
 
 ## Proceso de Destrucción Creativa (Schumpeter)
 
+>[!note]
+> La destrucción creativa describe el proceso por el cual la innovación tecnológica y empresarial transforma la economía: nuevas ideas, productos o métodos desplazan y reemplazan a los antiguos, revolucionando continuamente la estructura económica desde dentro. Aunque este proceso puede causar la desaparición de empresas o sectores obsoletos, Schumpeter lo consideraba esencial para el progreso económico y la renovación constante del capitalismo
+
+![[curva_ciclo_vida_tecnologia.png]]
+
+## El sector High-Tech
+
+El sector high-tech, o de alta tecnología, se define como el conjunto de sectores y productos que, debido a su alto grado de complejidad, requieren un esfuerzo continuo en investigación y desarrollo (I+D) y una sólida base tecnológica. Este sector se caracteriza por la rápida renovación de conocimientos y el uso intensivo de tecnología avanzada, lo que lo diferencia de otros sectores menos intensivos en tecnología.
+### Características clave del sector high-tech
+- Alta complejidad tecnológica y rápida obsolescencia del conocimiento.
+- Fuerte inversión en I+D y alta proporción de personal cualificado.
+- Producción de bienes y servicios con alto valor añadido y fuerte componente innovador.
+- Importancia estratégica para la competitividad y el crecimiento económico
+
+## Economía del Conocimiento
+
+![[economia_del_conocimiento.png]]
+
+Gestionar bien una empresa del sector TIC quiere decir mantener el motor en funcionamiento, en una variedad de contextos, tecnologías y negocios: 
+	• Emergentes 
+	• En crecimiento 
+	• Maduros
+Además, ninguna empresa tiene recursos suficientes para gestionar los procesos internamente, por lo que tiene que estar abierta a colaborar con el exterior en todo momento
+
+## Generación de Ideas
+
+![[origen_de_las_ideas.png]]
+
+Generación de Ideas 
+
+1. La innovación es un proceso de negocio, que depende de muchas cosas, además del momento creativo en el que una nueva idea se le ocurre a alguien, o a un grupo de personas. 
+2. Actualmente, las nuevas ideas sobre productos, servicios, organizaciones, procesos, etc. se generan continuamente en cualquier lugar del mundo. 
+3. La etapa de generación de ideas es sólo una de las etapas del proceso de innovación. 
+4. A largo plazo, sólo conoceremos aquellas ideas que hayan sido llevadas a la práctica de la manera más hábil, sólo conoceremos los productos o servicios que hayan sido aceptados por el mercado. 
+5. <mark style="background: #ADCCFFA6;">Es decir, sólo conoceremos productos y servicios exitosos, producidos por empresas que hayan gestionado bien TODAS las etapas del proceso de innovación.</mark>
+
+## La Gestión del Proceso de Innovación
+
