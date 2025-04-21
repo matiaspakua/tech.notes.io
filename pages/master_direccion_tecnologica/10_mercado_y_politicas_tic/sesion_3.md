@@ -187,3 +187,5 @@ Generación de Ideas
 
 ## La Gestión del Proceso de Innovación
 
+![[gestion_proceso_innovacion.png]]
+
