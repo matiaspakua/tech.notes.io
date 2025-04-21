@@ -125,3 +125,31 @@ En todos los casos, hay escenario de excedentes, los cuales son perjudiciales:
 Pero de qué depende que varíen tanto estos valores:
 
 ![[determinantes_demanda.png]]
+
+## Conceptos económicos
+
+* **Economía de alcance**:  se refieren a la reducción del coste promedio de una empresa en la producción de dos o más productos o servicios de forma conjunta.
+
+**Ejemplo**: 
+Un ejemplo sencillo de economía de alcance en el sector TIC es el de una empresa que <mark style="background: #FFF3A3A6;">desarrolla tanto software de gestión empresarial </mark>como <mark style="background: #BBFABBA6;">servicios de almacenamiento en la nube</mark>: al compartir la misma infraestructura tecnológica, equipo de desarrollo y soporte técnico para ambos productos, el coste total de producirlos conjuntamente es menor que si cada servicio se ofreciera por separado, ya que se aprovechan recursos comunes y se reducen los costes promedio de producción de ambos servicios.
+
+* **Economía de Escala**: se produce cuando un aumento en el volumen de producción produce una reducción del costo medio.
+
+![[economia_de_escala.png]]
+
+Claro que en este concepto existe un "punto de equilibrio".
+
+## Modelo de negocio escalable
+
+
+>[!note]
+>Un modelo de negocio es escalable cuando permite aumentar los ingresos sin prácticamente aumentar los costos.
+
+![[modelo_negocio_escalable.png]]
+
+## Coste de oportunidad
+
+>[!note]
+>La rentabilidad o beneficio que un determinado factor de producción podría haber obtenido en otro uso.
+
+## La Producción
