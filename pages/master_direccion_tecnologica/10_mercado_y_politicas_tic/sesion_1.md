@@ -246,3 +246,37 @@ Sistema de cuentas <mark style="background: #FFF3A3A6;">interconectadas</mark>, 
 2. Índice de precios, deflactor e inflación. 
 3. Presupuesto del Estado: gasto publico, impuestos, saldo presupuestario. 
 4. Las relaciones de la economía con el resto del mundo: la balanza de pago
+
+
+## Análisis del entorno (Porter)
+
+El análisis externo, permite fijar las **oportunidades** y **amenazas** que el contexto puede presentarle a una organización.
+
+De acuerdo con <mark style="background: #ADCCFFA6;">Michael Porter </mark>existen cinco fuerzas que determinan las consecuencias de rentabilidad a largo plazo de un mercado o de algún segmento de éste.
+
+### 5 Fuerzas de Porter
+
+1. Amenaza de entrada de nuevos competidores 
+2. La rivalidad entre los competidores 
+3. Poder de negociación de los proveedores 
+4. Poder de negociación de los clientes 
+5. Amenaza de ingreso de productos sustitutivos
+
+![[5_fuerzas_de_porter.png]]
+
+
+### Análisis de macroentorno (PESTEL)
+
+El macroentorno, tiene en consideración los factores generales del entorno que afectan en mayor o menor medida a casi todas las organizaciones.
+
+PESTEL viene de:
+
+1. Política 
+2. Economía 
+3. Factores Sociales 
+4. Tecnológicos 
+5. Ecológicos 
+6. Legales
+
+
+![[analisis_pestel.png]]
