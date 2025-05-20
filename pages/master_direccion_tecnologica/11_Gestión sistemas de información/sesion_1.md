@@ -18,3 +18,12 @@ Grado de madurez y cultura digital de la empresa son factores clave a identifica
 
 Comparando ratios: cuanto se invierte en TI, ventas, compras.
 Hacer un mapa de procesos internos de la empresa, ver como se hacen las cosas.
+
+
+Cuando hay que cambiar un proceso:
+ - O el process owner lo quiere hacer
+ - O soy yo quien debe convencer al resto que hay que cambiar el proceso (la forma de trabajar.)
+
+
+# It como agente de cambio
+
