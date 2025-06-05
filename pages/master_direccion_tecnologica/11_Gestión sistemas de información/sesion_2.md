@@ -36,3 +36,25 @@ Un CRM (Customer Relationship Management, o Gestión de la Relación con los Cli
 El objetivo de un CRM es mejorar las relaciones con los clientes, optimizar los procesos internos relacionados con ventas y atención, y aumentar la rentabilidad y el crecimiento del negocio al ofrecer una experiencia más personalizada y eficiente
 
 
+## SRM - Supplier relationship management
+
+Es el CRM de los proveedores.
+
+## SGA - Sistema de gestión de logística de almacenes
+
+## MDS - Documentation Management System
+
+## BPM - Business Process Management
+
+## BI - Business Intelligence
+
+
+## Como funciona un ERP
+
+
+## CRM 
+
+Busca constantemente la conversiín. Que el cleinte vuelva, compre más y más. GEnerar más ventas.
+
+
+
