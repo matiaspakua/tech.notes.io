@@ -17,9 +17,9 @@
 
 <button class="back-button" onclick="window.location.href='https://matiaspakua.github.io/tech.notes.io'">All notes</button>
 
-This article explains what design thinking is, how it works, and why it matters. It covers the following points:
+The article explains what design thinking is, how it works, and why it matters. It covers the following points:
 
-- Design thinking is an innovative **problem-solving process** that begins with understanding unmet customer needs and involves concept development, applied creativity, prototyping, and testing.
+- <mark style="background: #FFF3A3A6;">Design thinking</mark> is an innovative **problem-solving process** that begins with understanding unmet customer needs and involves concept development, applied creativity, prototyping, and testing.
 - Design thinking can be applied to any problem that needs a creative solution, not only to physical products, but also to services, business models, and social issues.
 - Design thinking has five main steps: 
 1. understand the problem, 
