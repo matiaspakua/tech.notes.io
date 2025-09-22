@@ -126,10 +126,11 @@ Charlas --> [Notas de las charlas](/pages/we_are_developers_wc_2024/landing.md)
 
  * [Visual Thinking](/pages/cursos/visual_thinking.md)
 
-# ⚙️ Proyectos
+# ⚙️ Proyectos (WIP)
 
  - [Biblioteca Técnica](/pages/projects/biblioteca_tecnica.md)
  - [Python Flask ML Demo Project with CI/CD](/pages/projects/uso_modelo_machine_learning.md)
+ - [Orquestador de Workflows](/pages/projects/orquestador_workflows.md)
 
 # 🎓 UCA - Especialización en Ingeniería de Software
 
