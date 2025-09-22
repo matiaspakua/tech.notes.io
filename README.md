@@ -34,6 +34,15 @@
 
 --- 
 
+# ⚙️ Proyectos de hobby (WIP)
+
+
+ - [Python Flask ML Demo Project with CI/CD](/pages/projects/uso_modelo_machine_learning.md)
+ - [Orquestador de Workflows](/pages/projects/orquestador_workflows.md) <span style="color:green"> WIP</span>
+ - [Biblioteca Técnica](/pages/projects/biblioteca_tecnica.md)
+ - [Sistema analizador de transacciones basado en Reglas](/pages/projects/tx_analyzer.md) <span style="color:blue"> TODO</span>
+ - [Plataforma de pruebas de SmallSats](/pages/projects/plataforma_pruebas_smallsats.md) <span style="color:blue"> TODO</span>
+
 # 🌐General
 
 - [Introduction and notes on NoSQL Databases](/pages/general_topic/nosql_the_basis_of.md) 
@@ -60,7 +69,6 @@
 # 🧪 Testing de sistemas y software 
 
 - [Gherkin and Automation](/pages/testing/gherkin_and_automation.md)
-- [RobotFramework to test satellites](/pages/testing/robotframework_to_test_satellites.md)
 - [On Unit Test, TDD and BDD](/pages/testing/on_unit_test_tdd_and_bdd.md)
 - [BDD with Cucumber for Java course](/pages/testing/bdd_with_cucumber_java_notes.md) 
 
@@ -125,12 +133,6 @@ Charlas --> [Notas de las charlas](/pages/we_are_developers_wc_2024/landing.md)
 # 📚 Cursos y Charlas 🎤
 
  * [Visual Thinking](/pages/cursos/visual_thinking.md)
-
-# ⚙️ Proyectos (WIP)
-
- - [Biblioteca Técnica](/pages/projects/biblioteca_tecnica.md)
- - [Python Flask ML Demo Project with CI/CD](/pages/projects/uso_modelo_machine_learning.md)
- - [Orquestador de Workflows](/pages/projects/orquestador_workflows.md) <span style="color:red"> WIP</span>
 
 # 🎓 UCA - Especialización en Ingeniería de Software
 
