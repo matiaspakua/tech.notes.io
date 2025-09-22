@@ -130,47 +130,45 @@ Charlas --> [Notas de las charlas](/pages/we_are_developers_wc_2024/landing.md)
 
  - [Biblioteca Técnica](/pages/projects/biblioteca_tecnica.md)
  - [Python Flask ML Demo Project with CI/CD](/pages/projects/uso_modelo_machine_learning.md)
- - [Orquestador de Workflows](/pages/projects/orquestador_workflows.md)
+ - [Orquestador de Workflows](/pages/projects/orquestador_workflows.md) <span style="color:red"> WIP</span>
 
 # 🎓 UCA - Especialización en Ingeniería de Software
 
 ![200x60](images/uca_logo.png)
 
-## Módulo Ingeniería de Productos de Software 
+### Módulo Ingeniería de Productos de Software 
 
 - [Ingeniería de Requerimientos](pages/sw_eng_specialization/software_requirements.md)
 - [Modelado de Software con Objetos](pages/sw_eng_specialization/software_modeling_with_objects.md)
 - [Arquitecturas de Software](pages/sw_eng_specialization/software_architecture.md)
 - [Mediciones de Software y Sistemas](pages/sw_eng_specialization/software_and_systems_measurements.md)
   
-## Módulo Gestión de Proyectos de Desarrollo
+### Módulo Gestión de Proyectos de Desarrollo
 
 - [Planeamiento y Estimación de Proyectos de Software](pages/sw_eng_specialization/sofware_projects_scheduling_and_estimation.md)
 - [Administración del Riesgo en Desarrollo de Software](pages/sw_eng_specialization/software_development_risk_management.md)
 - [Gestión de Recursos Humanos y Conducción de Equipos](pages/sw_eng_specialization/team_driving_and_human_resource_management.md)
 - [Métodos de Desarrollo de Software](pages/sw_eng_specialization/software_development_methods.md)
   
-## Módulo Gestión de la Calidad de Software
+### Módulo Gestión de la Calidad de Software
 
 - [Testing de Software](pages/sw_eng_specialization/software_testing.md)
 - [Calidad de Software](pages/sw_eng_specialization/software_quality.md)
   
-## Módulo Complementarias: 
+### Módulo Complementarias: 
 
 - [Marketing](pages/sw_eng_specialization/marketing.md)
 - [Contratos y Aspectos Legales de Software](pages/sw_eng_specialization/software_legal_aspects_and_contracts.md)
 - [Ética Profesional](pages/sw_eng_specialization/professional_ethics.md)
 
-## 🔥🔥Proyecto Final🔥🔥
+### 🔥🔥Proyecto Final🔥🔥
 
 
 WIP 👇
 
 - [DevSecOps desde la perspectiva de QA Automation](pages/sw_eng_specialization/final_projects_specialization.md)
 
-
-
- [Materias y notas de la especialización](/pages/sw_eng_specialization/landing.md)
+*  [Materias y notas de la especialización](/pages/sw_eng_specialization/landing.md)
 
 
 # 🎓 UP -  Master en tecnología de la Información
