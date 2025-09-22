@@ -10,8 +10,9 @@ Un workflow se debe define en un archivo YAML donde cada archivos es un "<mark s
 
 ## Repositorio de código
 
-URL:
-https://github.com/matiaspakua/orquestador_workflows
+
+> [!url]
+> https://github.com/matiaspakua/orquestador_workflows
 
 ## Alcance
 
