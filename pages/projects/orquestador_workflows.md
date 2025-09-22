@@ -8,6 +8,11 @@ Cada tarea de un workflow se define de forma independientes, autónoma y autosuf
 
 Un workflow se debe define en un archivo YAML donde cada archivos es un "<mark style="background: #FFF3A3A6;">workflow definition</mark>", dentro del YAML, cada sección es una tarea y cada tarea es ejecutada por uno (y solo uno) componente del sistema o interfaz externa (componente externo).
 
+## Repositorio de código
+
+URL:
+https://github.com/matiaspakua/orquestador_workflows
+
 ## Alcance
 
 // TODO
