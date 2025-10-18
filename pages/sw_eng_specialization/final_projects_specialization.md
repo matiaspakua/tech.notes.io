@@ -337,6 +337,20 @@ Un ejemplo de estructura podría ser el siguiente:
 
 
 <a name="2.5.6.practica_arquitectura_alto_nivel_procesos"></a>
+
+Normalmente, dentro de la estructura de documentos y dependiendo del tamaño y necesidades del proyecto, se puede dar el caso que se requieran subdivisiones, por ejemplo:
+
+ /planificación
+ /requerimientos
+ /interfaces
+ /planning
+ /reportes y logs de reuniones
+ /etc...
+
+
+> [!IMPORTANT] LO IMPORTANTE
+> Si bien es importante la clasificación de la documentación, está claro que no hay que excederse en la organización, generando un maraña de carpetas y directorios, que terminen complicando encontrar lo que se necesita.
+
 ### 2.5.6. Práctica: Arquitectura de alto nivel de Procesos
 
 Al comienzo o inclusive en etapas tardías, se recomienda armar una arquitectura de alto nivel de los distintos procesos. Definir los procesos como “cajas negras” con sus interfaces, para luego desarrollar la especificación de cada proceso, es un paso importante para articular los componentes y personas que van a desarrollar un producto.
@@ -405,6 +419,9 @@ Cada commit es conveniente que genere la ejecución de un “build” en un serv
 
 **UPDATE: 19/07/2024**. El mundo despertó con uno de los mayores fallos informáticos de la historia, el cual afecto a infraestructura critica: aeropuertos, hospitales, sistemas financieros y bancos entre muchos otros. La causa fue una actualización de un driver de seguridad (<mark style="background: #FFF3A3A6;">Crowdstrike</mark>) en los sistemas Windows. El resultado: la pantalla azul de la muerte (un sistema inaccesible).
 
+Fuente: https://www.gmv.com/en-es/communication/news/crowdstrike-bsod-happened-can-prepared
+
+
 **Lección aprendida:** se puede desarrollar procesos, métodos, herramientas y pipelines con altísima calidad, pero igualmente pueden ocurrir errores, por lo tanto, nuestros procesos y pipelines de CI deben <mark style="background: #BBFABBA6;">tener preparados mecanismos de recuperación ante falla</mark>s criticas: GREEN/BLUE deployment, CANARY deploy, etc.
 
 --- 
@@ -426,7 +443,7 @@ Algunas prácticas recomendadas para iniciar con CI son:
  - 📚 Repositorio centralizado (Fowler, 2020)
  - 🤖Automatizar el build
  - 🧪 Comenzar con testing automatizado (poco es mejor que nada)
- - ⏱️ ⏩Acelerar el build: 10 minutes rules de la metodología XP (Beck & Andres, 2004, 49)
+ - ⏱️ Acelerar el build: 10 minutes rules de la metodología XP (Beck & Andres, 2004, 49)
  - 🧠 Buscar ayuda en la experiencia
 
 **Referencia:** Fowler, M. (2020, 05 28). Patterns for Managing Source Code Branches. Martin Fowler. Retrieved March 29, 2022, from https://martinfowler.com/articles/branching-patterns.html
@@ -490,11 +507,9 @@ La entrega continua (Fowler et al., 2013) es la capacidad de <mark style="backgr
 
 La disciplina de CD implica que el **software puede (o no) ser enviado a producción** en cualquier momento. CD difiere del <mark style="background: #FFF3A3A6;">Despliegue Continuo (CD) donde “siempre” el software pasa a producción.</mark>
 
----
+> [!QUOTE] CD vs CI
+> CD (continuos delivery) != CD (continuous deploy)
 
-**CD (continuos delivery) != CD (continuous deploy)**
-
----
 
 Los pre-requisitos para la práctica de CD incluyen: 
 
