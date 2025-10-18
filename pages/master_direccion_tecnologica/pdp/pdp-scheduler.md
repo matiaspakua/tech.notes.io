@@ -17,7 +17,7 @@ Curso: Inteligencia Emocional [[emotional_intelligence]]
 
 Con la herramienta co-author, te genera un resumen de tu actividad de 2024:
 
-![](../images/resumen_linkedin_2024.png)
+![](resumen_linkedin_2024.png)
 
 ## MeetUps (JUG)
 
