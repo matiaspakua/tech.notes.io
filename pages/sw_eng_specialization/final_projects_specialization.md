@@ -726,7 +726,7 @@ GET https://example.com/user/10000
 
 * 💻💉📊 SQLi (Inyección de SQL). Manipular DB, robo datos. Protección con: control de inputs, sanitizar datos, uso de librerías del lenguaje/framework. 
 
-[![](https://mermaid.ink/img/pako:eNpdkk1uwjAQha9ieQ3qPotKkPCTFqS2aVcOC2MPwSXxRLajliKO1BVH4GI1cUhps0le3jee8bMPVKAEGtHC8HpLXpNcE_-MWPa8UCTVexBCnU-aSCD-14oMh_dkzJZcq7opee-NuYXLO-EO7apbpIVj9oJr_O-NWy9hqbZg-lXi80mqAsmSl0ootNjRcUtP2EgIsEg0klHj0KgvLq9I0iJTtkSpNkr8TnbbddJCMzb5rNGqHkn1Bk3VlWSgrVqX4EtC0Zw9GXRdDiGAlMWoncEyVNeNu3aYt_4Dy3xAzs9n_vQP7iN7s20gC7U2YM7f3HpVkgXoouHvcDc1vIIPNLt-hrC7eRDTWzG7CjqgFfhdKOlP83Axc-q2UEFOI_8pudnlNNdHz3EfXrbXgkbONDCgBptiS6MNL61XTS25g0RxfyWqgBx_AGMwtHM?type=png)](https://mermaid.live/edit#pako:eNpdkk1uwjAQha9ieQ3qPotKkPCTFqS2aVcOC2MPwSXxRLajliKO1BVH4GI1cUhps0le3jee8bMPVKAEGtHC8HpLXpNcE_-MWPa8UCTVexBCnU-aSCD-14oMh_dkzJZcq7opee-NuYXLO-EO7apbpIVj9oJr_O-NWy9hqbZg-lXi80mqAsmSl0ootNjRcUtP2EgIsEg0klHj0KgvLq9I0iJTtkSpNkr8TnbbddJCMzb5rNGqHkn1Bk3VlWSgrVqX4EtC0Zw9GXRdDiGAlMWoncEyVNeNu3aYt_4Dy3xAzs9n_vQP7iN7s20gC7U2YM7f3HpVkgXoouHvcDc1vIIPNLt-hrC7eRDTWzG7CjqgFfhdKOlP83Axc-q2UEFOI_8pudnlNNdHz3EfXrbXgkbONDCgBptiS6MNL61XTS25g0RxfyWqgBx_AGMwtHM)
+[![](https://mermaid.ink/img/pako:eNpdks1ymzAUhV9Fo7XjAsYhsOiMDXbs1p5J62RTkYUMMlYDuowkpnE8fqSu8gh-scoC07TaiKPz3R9dccQZ5AxHuJC03qPHJBXIrAnZfFtxtBQHlmX8_C5QzpA5ekY3N5_RlKyp4HVT0t6bUsUue0I1qOcuiYVj8h228L83tV5ClkIx2WeJz-85LwCtackzDgo6Orb0jEyyjClAAtCk0SD5G82vSGKROVlDznc8-9vZx6ozC92T2WsNivfIUuxAVl3IhgnFtyUzIW3QgjxI0N0c2gEsSQxCSyjb6LrR1woL638hGzMgbfqT_9Rv3a_kSdmBrPhWMnn-TZVRJVoxUTT0J_s0l7Riv0C-9D20t1u0Yv5R3F8FHuCKmVvw3Lzm8WKmWO9ZxVIcmc-cypcUp-JkOGqGtzmIDEdaNmyAJTTFHkc7WiqjmjqnmiWcml-iuiI1FT8AelnIS5kumomcyRgaoXHkjiyLoyN-xdEoHN65nh-Efuj4rh8EA3y4MMEw9Nxw7AUjZxyO_NvTAL_Z7M7wLhg7Znm3ThA43tg9_QHWv9WI?type=png)](https://mermaid.live/edit#pako:eNpdks1ymzAUhV9Fo7XjAsYhsOiMDXbs1p5J62RTkYUMMlYDuowkpnE8fqSu8gh-scoC07TaiKPz3R9dccQZ5AxHuJC03qPHJBXIrAnZfFtxtBQHlmX8_C5QzpA5ekY3N5_RlKyp4HVT0t6bUsUue0I1qOcuiYVj8h228L83tV5ClkIx2WeJz-85LwCtackzDgo6Orb0jEyyjClAAtCk0SD5G82vSGKROVlDznc8-9vZx6ozC92T2WsNivfIUuxAVl3IhgnFtyUzIW3QgjxI0N0c2gEsSQxCSyjb6LrR1woL638hGzMgbfqT_9Rv3a_kSdmBrPhWMnn-TZVRJVoxUTT0J_s0l7Riv0C-9D20t1u0Yv5R3F8FHuCKmVvw3Lzm8WKmWO9ZxVIcmc-cypcUp-JkOGqGtzmIDEdaNmyAJTTFHkc7WiqjmjqnmiWcml-iuiI1FT8AelnIS5kumomcyRgaoXHkjiyLoyN-xdEoHN65nh-Efuj4rh8EA3y4MMEw9Nxw7AUjZxyO_NvTAL_Z7M7wLhg7Znm3ThA43tg9_QHWv9WI)
 
 El ejemplos más clásico de SQLi sería: si tenemos una consulta SQL como esta:
 
@@ -747,16 +747,15 @@ Esto podría permitir el acceso no autorizado a la base de datos.
 
 [![](https://mermaid.ink/img/pako:eNpdUUtuwjAQvcrIa1D3WVSCBFIqISKcfiSHhXEGsEjs1J8FQpyqR-jF6jjQlnrl9xu90ZyJ0DWShOwN7w5QZpWC8CbsnVJIjbYWqHQIVBjZOan2GxiPH2HKllzJzjdcyK9PBTX2NqktvOG2RyUagSG-GeZNYyplpeyCJ-gTxz883uQ0yhlb465B4bC-42eMOm3-kXOWrZbjLbeRH5ScFUY7FLHTUPSJpbSAVCuHygFF4Y10Jyh0I8XpOjCPzgV75Y2sfxdaY9_QxboNtzApFpDPyodiRcu75DN7sTourY-oLKR0Pf_plEVLPoDZXzC_ATIiLZqWyzrc4dyLFXEHbLEiSfjW3BwrUqlL8HHvND0pQRJnPI6I0X5_IMmONzYg39XcYSZ5OGZ7ZS_fVpGXBQ?type=png)](https://mermaid.live/edit#pako:eNpdUUtuwjAQvcrIa1D3WVSCBFIqISKcfiSHhXEGsEjs1J8FQpyqR-jF6jjQlnrl9xu90ZyJ0DWShOwN7w5QZpWC8CbsnVJIjbYWqHQIVBjZOan2GxiPH2HKllzJzjdcyK9PBTX2NqktvOG2RyUagSG-GeZNYyplpeyCJ-gTxz883uQ0yhlb465B4bC-42eMOm3-kXOWrZbjLbeRH5ScFUY7FLHTUPSJpbSAVCuHygFF4Y10Jyh0I8XpOjCPzgV75Y2sfxdaY9_QxboNtzApFpDPyodiRcu75DN7sTourY-oLKR0Pf_plEVLPoDZXzC_ATIiLZqWyzrc4dyLFXEHbLEiSfjW3BwrUqlL8HHvND0pQRJnPI6I0X5_IMmONzYg39XcYSZ5OGZ7ZS_fVpGXBQ)
 
-
-
 * 🍪👀🕵 Robo y Visibilización de Cookies. Limitar y encriptar datos sensibles. Proteger con: Uso de Sesiones, SSL, HTTPS, Sign-Cookie. 
 
 [![](https://mermaid.ink/img/pako:eNp9kU1OwzAQha9ied2IfRZIaZKmBYQqHNg4LFxnSKwmnsh2JErVU3EELobJD1WLhFeeed88j2eOVGIJNKSVEV1N8qTQxJ-IP-EOyYG8KKt2qlEfQqqvT01KIDHiXoF9JUFwS5Y8fe_Qql81EQ4tYaB9XeOp0W85wDGPG9RnJwZWob6CEh5JCRbJI5Kod2j82yVOSDwgKX_2-rmV2cvbTlwycCu-0Q6MhO5P84UewYxvDTqQAzB-aT27X7WXDeqGM_Zws87zLbvI33GmKh2M_hfKPU-1NKpz4p8hjQXpUJCNwWoO6IK2YFqhSr-n449YUFdDCwUN_bUUZl_QQp88J_zA2EFLGjrTw4Ia7Kuahm-isT7qu1I4SJTwy26n7Okbhdynpw?type=png)](https://mermaid.live/edit#pako:eNp9kU1OwzAQha9ied2IfRZIaZKmBYQqHNg4LFxnSKwmnsh2JErVU3EELobJD1WLhFeeed88j2eOVGIJNKSVEV1N8qTQxJ-IP-EOyYG8KKt2qlEfQqqvT01KIDHiXoF9JUFwS5Y8fe_Qql81EQ4tYaB9XeOp0W85wDGPG9RnJwZWob6CEh5JCRbJI5Kod2j82yVOSDwgKX_2-rmV2cvbTlwycCu-0Q6MhO5P84UewYxvDTqQAzB-aT27X7WXDeqGM_Zws87zLbvI33GmKh2M_hfKPU-1NKpz4p8hjQXpUJCNwWoO6IK2YFqhSr-n449YUFdDCwUN_bUUZl_QQp88J_zA2EFLGjrTw4Ia7Kuahm-isT7qu1I4SJTwy26n7Okbhdynpw)
 
 
-
-
 * 💻🔗🔒 Session Hijacking: Robo se sesiones activas. Proteger con HTTPS, SessionID. 
+
+<mark style="background: #FFF3A3A6;">TODO: hacer un diagrama.</mark>
+
 * 👤🔗💥 Session Fixation. Person-In-The-Middle attack. Proteger con: Validar Inputs, sanitización, CSP, Cookie Setting, HTTPS. 
 * 💻💥🖥️ RCE o Remote Code Execution. Ejecución de comandos en el servidor. Proteger con: Controles en el servidor, Firewall, Análisis de tráfico. 
 * 📂⚠️💾 File Upload Abuse. FUA, sobre-uso de almacenamiento, inyección de malware. 
@@ -1004,9 +1003,9 @@ Ahora vamos a repasar brevemente cada parte de éste esquema de testing propuest
 1. **Estandarización y Consistencia**: La estructura xUnit proporciona un marco estandarizado para escribir y ejecutar pruebas, reduciendo la probabilidad de errores humanos y garantizando consistencia.
 2. **Modularidad y Reutilización**: Componentes como **TestCases Class** y **Fixtures** permiten definir pruebas independientes y reutilizables, lo cual es fundamental para mantener un conjunto de pruebas eficiente y manejable.
 3. **Aislamiento del SUT** : El uso de Fixtures asegura que las pruebas no dependan de condiciones externas, aislando correctamente el SUT para obtener resultados confiables.
-4. **Ciclo de Vida del Caso de Prueba** : La estructura Setup-Exercise-Verify-Teardown garantiza que cada prueba sea autónoma, reduciendo las dependencias entre casos de prueba.    
+4. **Ciclo de vida del caso de prueba** : La estructura Setup-Exercise-Verify-Teardown garantiza que cada prueba sea autónoma, reduciendo las dependencias entre casos de prueba.    
 5. **Escalabilidad** : La inclusión del **Test Suite Object** permite escalar la estrategia de pruebas al integrar grandes conjuntos de pruebas, gestionándolos de manera organizada.
-6. **Automatización**  Este patrón se alinea perfectamente con los frameworks de automatización modernos, haciendo posible ejecutar pruebas de regresión y liberar a los equipos de tareas repetitivas.
+6. **Automatización**  Este patrón hace posible ejecutar pruebas de regresión y liberar a los equipos de tareas repetitivas.
 
 <a name="3.3_Dev_byDesign"></a>
 ## 3.3 Dev byDesign
@@ -1433,7 +1432,7 @@ Las pruebas de penetración o Pentesting (Bell et al., 2017, 322) son una forma 
 <a name="3.4.10.11_Ejemplo_de_un_proceso_de_Penetration_Testing"></a>
 ### 3.4.10.11 Ejemplo de un proceso de Penetration Testing
 
-#### **1. Pre-Engagement Interactions**
+#### Paso 1. Pre-Engagement Interactions
 
 **Objetivo**: Definir los términos, el alcance y los objetivos de la prueba.
 
@@ -1444,7 +1443,7 @@ Las pruebas de penetración o Pentesting (Bell et al., 2017, 322) son una forma 
 |**Restricciones**|No probar fuera del horario laboral ni afectar sistemas en producción.|
 |**Objetivo**|Identificar vulnerabilidades críticas en la autenticación y el manejo de inventarios.|
 
-### **2. Reconnaissance (OSINT Gathering)**
+### Paso 2. Reconnaissance (OSINT Gathering)
 
 **Objetivo**: Recopilar información sobre el sistema y posibles puntos vulnerables.
 
@@ -1470,7 +1469,7 @@ Las pruebas de penetración o Pentesting (Bell et al., 2017, 322) son una forma 
     
 
 
-### **3. Threat Modeling & Vulnerability Identification**
+#### Paso 3. Threat Modeling & Vulnerability Identification
 
 **Objetivo**: Crear un mapa de los componentes del sistema y sus posibles vulnerabilidades.
 
@@ -1484,7 +1483,7 @@ Se crea un mapa de amenazas y se identifican:
 - **Fuerza Bruta** en el formulario de login.
 - **XSS** en el campo "nombre del producto" en el inventario.
 
-### **4. Exploitation**
+#### Paso 4. Exploitation
 
 **Objetivo**: Explorar y confirmar vulnerabilidades identificadas.
 
@@ -1514,7 +1513,7 @@ Se crea un mapa de amenazas y se identifican:
     **Resultado**: Contraseña descubierta: `admin123`.
 
 
-### **5. Post-Exploitation, Risk Analysis & Recommendations**
+#### Paso 5. Post-Exploitation, Risk Analysis & Recommendations
 
 **Objetivo**: Evaluar el impacto de las vulnerabilidades y generar recomendaciones.
 
@@ -1526,7 +1525,7 @@ Se crea un mapa de amenazas y se identifican:
 |Fuerza Bruta|Acceso no autorizado.|Implementar bloqueo tras varios intentos fallidos.|
 |XSS|Robo de sesiones de usuarios.|Validar y sanitizar entradas de usuario.|
 
-### **6. Reporting**
+#### Paso 6. Reporting
 
 **Objetivo**: Documentar los hallazgos y proporcionar un reporte detallado.
 
@@ -1564,3 +1563,14 @@ sqlmap -u "[http://inventory-app.local/login](http://inventory-app.local/login)"
 <a name="3.5_Ops_ByDesign"></a>
 ## 3.5 Ops ByDesign
 
+### 3.5.1 Diseñar para Operar
+
+Un pipeline de desarrollo tendrá éxito en la operación en base a todo el conjunto de decisiones que se hayan tomado desde un inicio. Por éste motivo, es importante pensar en el flujo de modelado, desarrollo, testing  y operación de forma temprana. Una buena guía de los principales punto a tener en cuenta durante el desarrollo y que se deben diseñar para la operación se encuentra en (Wiggins, 2017) y se denomina: “The Twelve-Factor App Methodology”:
+
+*Referencia*: Wiggins, A. (2017). The twelve-factor App Methodology. The Twelve-Factor App. Retrieved March 2, 2022, from https://12factor.net/ 
+
+
+1. Código Base (Codebase): Un código base gestionado con control de revisión (git), que permita muchos deploys (Fig. 40).
+
+![](fig_40_codebase-deploys.png)
+Fig. 40: Código Base gestionado y configurable para ambientes de deploy. Imagen Fuente (Wiggins, 2017)
