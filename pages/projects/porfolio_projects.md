@@ -54,3 +54,15 @@
    - **Descripción**: Construye un dashboard interactivo para visualizar y analizar grandes conjuntos de datos en tiempo real usando Apache Spark y Hadoop para el procesamiento de datos masivos.
    - **Enfoque**: Big Data, procesamiento de datos a gran escala, visualización de datos.
 
+### Minio test:
+https://lf-onap.atlassian.net/wiki/spaces/DW/pages/99057714/Spring+Boot+MinIO+Integration+Lab+and+Exercises
+
+### rabbit MQ example
+
+### DDD example
+
+### Port-and-adapters example
+
+### Kafka example
+
+
