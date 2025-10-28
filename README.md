@@ -1,16 +1,12 @@
 ![](images/banner.png)
 
-¡Bienvenidos a mi blog personal de Notas Tecnológicas! 🚀 Aquí encontrarás información que he ido recopilando sobre cursos, libros, notas, universidad, posgrados y cualquier otra fuente.
+¡Bienvenidos a mi blog personal de Notas Tecnológicas! 🚀 Aquí voy recopilando información sobre cursos, libros, notas, universidad, posgrados y cualquier otra fuente. Una bolsa de sastre basicamente.
 
 **¿Quién soy?** Conéctate conmigo en LinkedIn y hablemos: [Matias Miguez](https://www.linkedin.com/in/matiasmiguez/) 🤝
 
 **Estado de despliegue en GitHub Pages:**: [![pages-build-deployment](https://github.com/matiaspakua/tech.notes.io/actions/workflows/pages/pages-build-deployment/badge.svg?branch=main)](https://github.com/matiaspakua/tech.notes.io/actions/workflows/pages/pages-build-deployment) 🛠️
 
-**Contacto**: Si encuentras algún error tipográfico, imágenes faltantes o problemas en las páginas, no dudes en ponerte en contacto conmigo. Puedes escribirme a [GMAIL](mailto:matiaspakua@gmail.com). 📧
-
-<mark style="background: #BBFABBA6;">IMPORTANTE</mark>: Todas las notas compartidas aquí reflejan mi investigación personal, mi camino de aprendizaje y mis opiniones. Siempre proporciono referencias a los autores originales y respeto los derechos de autor. 🔍📚
-
-
+<mark style="background: #BBFABBA6;">IMPORTANTE</mark>: Todas las notas compartidas aquí reflejan mi investigación personal, mi camino de aprendizaje y mis opiniones. Siempre pondre las referencias a los autores originales y respeto los derechos de autor. 🔍📚
 
 <style>
   .libutton {
@@ -35,7 +31,6 @@
 --- 
 
 # ⚙️ Proyectos de hobby (WIP)
-
 
  - [Python Flask ML Demo Project with CI/CD](/pages/projects/uso_modelo_machine_learning.md)
  - [Orquestador de Workflows](/pages/projects/orquestador_workflows.md) <span style="color:green"> WIP</span>
@@ -72,16 +67,13 @@
 - [On Unit Test, TDD and BDD](/pages/testing/on_unit_test_tdd_and_bdd.md)
 - [BDD with Cucumber for Java course](/pages/testing/bdd_with_cucumber_java_notes.md) 
 
-# 🛠️ Ingeniería de Software
+# 🛠️ Arquitectura e Ingeniería de Software
 
 - [Agile and SCRUM. The perks of know nothing](/pages/software_engineering/agile_and_scrum.md)
 - [Waterfall: what really means the paper](/pages/software_engineering/waterfall.md)
 - [The History of the project A7 by David Parnas](/pages/software_engineering/the_history_of_the_project_A7_by_David_Parnas.md)
 - [Software engineering timeline](/pages/software_engineering/software_engineering_timeline.md) 
 - [Generative AI](/pages/software_engineering/generative_ai.md)
-
-# 🏗️ Arquitectura de sistemas y software
-
 - [On hexagonal Architecture notes](/pages/sw_and_system_architecture/on_hexagonal_architecture_notes.md)
 - [Vertical Slicing Architectures](/pages/sw_and_system_architecture/vertical_slicing_architectures.md)
 - [Sustainable Software Architecture](/pages/sw_and_system_architecture/sustainable_software_architecture.md)
