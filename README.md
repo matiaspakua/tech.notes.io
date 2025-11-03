@@ -30,7 +30,7 @@
 
 --- 
 
-# ⚙️ Proyectos de hobby (WIP)
+# ⚙️ Proyectos (WIP)
 
  - [Python Flask ML Demo Project with CI/CD](/pages/projects/uso_modelo_machine_learning.md)
  - [Orquestador de Workflows](/pages/projects/orquestador_workflows.md) <span style="color:green"> WIP</span>
@@ -40,6 +40,8 @@
 
 # 🌐General
 
+
+
 - [Introduction and notes on NoSQL Databases](/pages/general_topic/nosql_the_basis_of.md) 
 - [Specialisation Building Cloud Computing Solutions at Scale](/pages/general_topic/specialization_building_cloud_computing_solutions_at_scale.md)
 - [How to build a KnowledgeBase](/pages/general_topic/how_to_build_a_knowledge_base.md)
@@ -48,6 +50,8 @@
 - [Tech Trends 2023](/pages/general_topic/tech_trends_2023.md)
 - [A reflection on Software Engineering: A Journey of Creativity and Rigor](/pages/general_topic/reflection_on_software_engineering.md)
 
+
+S
 # 💻 Desarrollo y Programación
 
 - [Spring Framework Notes](/pages/development/spring_framework_notes.md)
