@@ -704,7 +704,9 @@ Las siguientes definiciones proveen el marco en el cual se debe considerar la se
 
 * 🌐🔓 IDOR (Insecure Direct Object Reference) o manipulación de URLs 
 
-[![](https://mermaid.ink/img/pako:eNpVkVFOAjEQhq8y6TNcYB9MgC5KIsGgPnV5GNtZKO62m2k3UQmH8QwegYvZLQral3Ym3_9n5u9BaG9IFGLL2O3gSVYO0pmohVytYeEC6Z4JpGXSEVYv--FaU01MTtMGxuMbmKolOtv1DWp7-nJgCJ7X92FztppmZqYmWlPw4DxgHz3bDzT-HyLV0htbW321MRj9r88sQ6Uq3zof7AWxhlzMKuOZAlgXid1FJbNqrubYRBx47V1k3yQyFZhnSugZLjN8q8o9tV3jC1jIAOT-bjPPyN0VeUA-fbaUPDNae25TEGzzBGIkWuIWrUkJHwaHSsQdtVSJIj0N8mslKndM3BDK47vToojc00iw77c7UdTYhFT1XYqCpMX0Te1P9_gNfuaUQA?type=png)](https://mermaid.live/edit#pako:eNpVkVFOAjEQhq8y6TNcYB9MgC5KIsGgPnV5GNtZKO62m2k3UQmH8QwegYvZLQral3Ym3_9n5u9BaG9IFGLL2O3gSVYO0pmohVytYeEC6Z4JpGXSEVYv--FaU01MTtMGxuMbmKolOtv1DWp7-nJgCJ7X92FztppmZqYmWlPw4DxgHz3bDzT-HyLV0htbW321MRj9r88sQ6Uq3zof7AWxhlzMKuOZAlgXid1FJbNqrubYRBx47V1k3yQyFZhnSugZLjN8q8o9tV3jC1jIAOT-bjPPyN0VeUA-fbaUPDNae25TEGzzBGIkWuIWrUkJHwaHSsQdtVSJIj0N8mslKndM3BDK47vToojc00iw77c7UdTYhFT1XYqCpMX0Te1P9_gNfuaUQA)
+[![](https://mermaid.ink/img/pako:eNpVkUFOwzAQRa9izbpUlLRp4wUSbVqoBAIV2JB0YewJNUo8keNIQNXDcAaOwMVwjNqCN_ZI73_9-d6CJIXA4cWKesMe0twwfy6yZXq7YkvToGwtslRblI7dPr921woLtGgkrtnJyTmbZjfC6LothdTfX4YpZI-r62b9azUNzCy7kBIbYoaYaB1Z_SEU_UPS7IaULrQ82ijhaO8zC9A8m7_V1OgDohUaF1SKLDZMG4fWHFRpUC2yhSid6HhJxlkqPekHETJ59BeeB_gym79iVZfE2TJtGJq_2ywCcnVE7oT9_qzQewa0IFv5IqwOCaDne9UKuLMt9qBCW4luhG3nloPbYIU5cP9UWIi2dDnkZudltTBPRNVeaal92QAvRNn4qa19MZhq4T_tgHSt3r8beZCgUWhn1BoHfBAFS-BbeAMejSb9cRSdjuJkMBlEcRT34B34MOon0Xg4TpLRZHCWxPFw14OPkOK0PxmPdj-fqLQB?type=png)](https://mermaid.live/edit#pako:eNpVkUFOwzAQRa9izbpUlLRp4wUSbVqoBAIV2JB0YewJNUo8keNIQNXDcAaOwMVwjNqCN_ZI73_9-d6CJIXA4cWKesMe0twwfy6yZXq7YkvToGwtslRblI7dPr921woLtGgkrtnJyTmbZjfC6LothdTfX4YpZI-r62b9azUNzCy7kBIbYoaYaB1Z_SEU_UPS7IaULrQ82ijhaO8zC9A8m7_V1OgDohUaF1SKLDZMG4fWHFRpUC2yhSid6HhJxlkqPekHETJ59BeeB_gym79iVZfE2TJtGJq_2ywCcnVE7oT9_qzQewa0IFv5IqwOCaDne9UKuLMt9qBCW4luhG3nloPbYIU5cP9UWIi2dDnkZudltTBPRNVeaal92QAvRNn4qa19MZhq4T_tgHSt3r8beZCgUWhn1BoHfBAFS-BbeAMejSb9cRSdjuJkMBlEcRT34B34MOon0Xg4TpLRZHCWxPFw14OPkOK0PxmPdj-fqLQB)
+
+
 
 En éste ejemplo, si no protegemos una API correctamente, cualquier petición que exponga el ID del usuario (como la URL debajo) puede permitir conocer los detalles de cualquier otro usuario manipulando y cambiando el ID:
 
@@ -969,7 +971,6 @@ El modelado de los aspectos de QA desde un inicio tiene varios beneficios pero a
 4. Fixture teardown
 
 
-
 ![](../../images/fig_27_xUnit_four-Phase_test_pattern.png)
 **Figura 27: xUnit Four-Phase Test Pattern.**
 
@@ -1209,9 +1210,9 @@ Los puntos de interés donde el modelado de la arquitectura de seguridad es rele
 
 Teniendo en cuenta las etapas del ciclo de desarrollo, para el diseño de la arquitectura se pueden usar 3 técnicas que se pueden complementar:
 
-- ToAA: Tactic-Oriented Architecture Analysis. Se realiza con interacción entre el arquitecto de software y los expertos del dominio del negocio. Se usan tácticas de identificación de vulnerabilidades a través de una interacción y feedback.
-- PoAA: Pattern-Oriented Architecture Analysis. Al igual que sucede con los patrones de diseño y patrones de Arquitectura, al identificar escenario/problemas durante la etapa de ToAA, surgen lo que se conoce como patrones de seguridad (Security Pattern, 2020), por ejemplo el patrón de seguridad Interceptor-Validator que se muestra en la Fig. 37.
-- VoAA: Vulnerability-Oriented Architecture Analysis. Es la etapa de más bajo nivel, se analizan las vulnerabilidades en el código y en el producto a nivel interno.
+- <mark style="background: #FFF3A3A6;">ToAA: Tactic-Oriented Architecture Analysis</mark>. Se realiza con interacción entre el arquitecto de software y los expertos del dominio del negocio. Se usan tácticas de identificación de vulnerabilidades a través de una interacción y feedback.
+- <mark style="background: #FFF3A3A6;">PoAA: Pattern-Oriented Architecture Analysis</mark>. Al igual que sucede con los patrones de diseño y patrones de Arquitectura, al identificar escenario/problemas durante la etapa de ToAA, surgen lo que se conoce como patrones de seguridad (Security Pattern, 2020), por ejemplo el patrón de seguridad Interceptor-Validator que se muestra en la Fig. 37.
+- <mark style="background: #FFF3A3A6;">VoAA: Vulnerability-Oriented Architecture Analysis</mark>. Es la etapa de más bajo nivel, se analizan las vulnerabilidades en el código y en el producto a nivel interno.
 
 **Referencia:** Wikipedia contributors. (2020, April 20). Security pattern. In Wikipedia, The Free Encyclopedia. Retrieved 22:33, February 23, 2022, from https://en.wikipedia.org/w/index.php?title=Security_pattern&oldid=952064080 
 
@@ -1376,8 +1377,6 @@ public class UserDAO {
         }
     }
 }
-
-
 ```
 
 
@@ -1573,7 +1572,19 @@ Un pipeline de desarrollo tendrá éxito en la operación en base a todo el conj
 *Referencia*: Wiggins, A. (2017). The twelve-factor App Methodology. The Twelve-Factor App. Retrieved March 2, 2022, from https://12factor.net/ 
 
 
-1. Código Base (Codebase): Un código base gestionado con control de revisión (git), que permita muchos deploys (Fig. 40).
+1. **Código Base (Codebase)**: Un código base gestionado con control de revisión (git), que permita muchos deploys (Fig. 40).
 
 ![](fig_40_codebase-deploys.png)
 Fig. 40: Código Base gestionado y configurable para ambientes de deploy. Imagen Fuente (Wiggins, 2017)
+
+
+2. Dependencias (Dependencies): Declarar y aislar explícitamente las dependencias    
+3. Configuración (Config): Almacenar la configuración del entorno (ambiente, backups, credenciales, etc).
+4. Servicios de respaldo/adicionales (Backing services): Tratar los servicios de respaldo (bases de datos, brokers, buses, etc) como recursos adjuntos independientes, como se muestra en la Fig. 41. Los recursos se pueden adjuntar y separar de los deployments a voluntad.
+
+![](../../images/fig_41_backing_service.png)
+
+
+5. Construir, lanzar, ejecutar (build, release, run): Las etapas de construcción y ejecución deben estar estrictamente separadas (Fig. 42).
+
+![](../../images/fig_42_build_release_run.png)
