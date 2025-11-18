@@ -50,11 +50,11 @@
 		- [2.5.15. Metodología: estrategia de QA](#2.5.15_metodologia_estrategia_qa)
 		- [2.5.16. Metodología: Metodología: DevSecOps](#2.5.16_metodologia_metolodogia_devsecops)
 - [3. Diseño](#3.disenio)
-	- [3.1 Estrategías de Diseño](#3.1.estrategias_de_disenio)
+	- [3.1 estrategias de Diseño](#3.1.estrategias_de_disenio)
 		- [3.1.1 Gran Diseño Inicial (BDUF)](#3.1.1.gran_disenio_inicial_bduf)
 		- [3.1.2 Diseño Preliminar Inicial (RDUF) y Diseño Emergente](#3.1.2.disenio_preliminar_inicial_RDUF_disenio_emergente)
 		- [3.1.3 Framework Cynefin](#3.1.3.framework_cynefin)
-		- [3.1.4 Estrategía de Diseño óptimo y compensación de costo/beneficio](#3.1.4_estrategia_diseño_optimo_compensacion_costo_beneficio)
+		- [3.1.4 estrategia de Diseño óptimo y compensación de costo/beneficio](#3.1.4_estrategia_diseño_optimo_compensacion_costo_beneficio)
 	- [3.2. QA ByDesign](#3.2.qa_by_design)
 		- [3.2.1 Modelado de Procesos y Artefactos](#3.2.1.modelado_procesos_artefactos)
 		- [3.2.2 Patrones de Testing](#3.2.2_patrones_testing)
@@ -265,7 +265,7 @@ La <mark style="background: #FFF3A3A6;">identificación</mark> de los elementos 
 
 Todos los artefactos deben ser identificados y almacenados en la base de conocimiento y se debe usar el ID de los artefactos para asociar y/o referenciar otros artefactos o documentos de cualquier tipo, de modo tal de asegurar trazabilidad en el proceso.
 
-📌La identificación adecuada de artefactos es crucial en la ingeniería de software para asegurar la trazabilidad, la organización y la gestión eficiente de los componentes y documentos a lo largo del ciclo de vida del proyecto. Aquí te proporciono algunos ejemplos adicionales de identificación de artefactos en diferentes áreas de la ingeniería de software:
+📌 La identificación adecuada de artefactos es crucial en la ingeniería de software para asegurar la trazabilidad, la organización y la gestión eficiente de los componentes y documentos a lo largo del ciclo de vida del proyecto. Aquí te proporciono algunos ejemplos adicionales de identificación de artefactos en diferentes áreas de la ingeniería de software:
 
 #### 📋 Requisitos del Software
 
@@ -309,12 +309,10 @@ Se propone armar una estructura de directorios para almacenar y categorizar los 
 
 Un ejemplo de estructura podría ser el siguiente:
 
-
+```bash
 /project-root/ 
-
 	├── README.md 
 	├── docs/ 
-
 		├── DOC-SRS-001-Specification.md 
 		├── DOC-TESTPLAN-002-TestPlan.md 
 		├── DOC-ARCHITECTURE-003-ArchitectureDiagram.md 
@@ -334,7 +332,7 @@ Un ejemplo de estructura podría ser el siguiente:
 	└── logs/
 		├── TEST-2024-06-25.log 
 		└── TEST-2024-06-26.log
-
+```
 
 <a name="2.5.6.practica_arquitectura_alto_nivel_procesos"></a>
 
@@ -895,7 +893,7 @@ El diseño, según (Martin, 2011, 15) se puede definir como:
 Como idea general que dará pie al resto del capítulo se plantea lo siguiente: <mark style="background: #FFF3A3A6;">un buen producto de software es aquel diseñado para cambiar, evolucionar, adaptarse a lo nuevo</mark>. De aquí la importancia de aplicar desde un inicio el diseño.
 
 <a name="3.1.estrategias_de_disenio"></a>
-## 3.1 Estrategías de Diseño
+## 3.1 estrategias de Diseño
 
 <a name="3.1.1.gran_disenio_inicial_bduf"></a>
 ### 3.1.1 Gran Diseño Inicial (BDUF)
@@ -926,13 +924,13 @@ El framework Cynefin (Cynefin, 2022) Fig. 25 establece que a medida que se pasa 
 **Figura 25 Etapas del Framework Cynefin. Imagen Fuente (Cynefin, 2014)**
 
 <a name="3.1.4_estrategia_diseño_optimo_compensacion_costo_beneficio"></a>
-### 3.1.4 Estrategía de Diseño óptimo y compensación de costo/beneficio
+### 3.1.4 estrategia de Diseño óptimo y compensación de costo/beneficio
 
 BDUF es adecuado para sistemas "Simples", pero a medida que se avanza hacia sistemas "Complejos", se tiene una mayor necesidad de enfoques de diseño más adaptables, como es el caso de RDUF y Diseño Emergente.
 
-Para un conjunto dado de requisitos (el comportamiento deseado del sistema), existen múltiples estrategías de diseños posibles (la estructura del sistema) para satisfacer esos requisitos.
+Para un conjunto dado de requisitos (el comportamiento deseado del sistema), existen múltiples estrategias de diseños posibles (la estructura del sistema) para satisfacer esos requisitos.
 Los sistemas predecibles/estables permiten decisiones de diseño más detalladas por adelantado. En este caso, podemos decir que BDUF es más económico que RDUF. Los sistemas impredecibles/cambiantes dan como resultado un diseño inicial más pequeño y un diseño incremental/emergente más importante. En este caso, RDUF es más económico que BDUF.
-En base a los conceptos planteados se propone aplicar una estrategía de “etapa ByDesign”, donde se especifica una lista de pasos a seguir como estrategía de diseño de cada una de las etapas:
+En base a los conceptos planteados se propone aplicar una estrategia de “etapa ByDesign”, donde se especifica una lista de pasos a seguir como estrategia de diseño de cada una de las etapas:
 
 
 1. Identificar las principales etapas o procesos en el desarrollo de un producto de software 🔍🛠️
@@ -1238,16 +1236,21 @@ Básicamente, este patrón es ideal para asegurar que solo las solicitudes váli
 <a name="3.4.4_Metodología_Testing_seguridad"></a>
 ### 3.4.4 Metodología de Testing de seguridad
 
-En el mundo de la seguridad, se han desarrollado una variedad de tipos de pruebas de seguridad que se complementan con el SDLC y con el STLC. En la Fig. 38 se pueden apreciar las distintas etapas del ciclo de desarrollo y pruebas de software. En el centro, se mencionan los principales tipos de pruebas de seguridad (SSecLC) posibles para implementar una estrategía de seguridad complementaría al flujo de desarrollo estándar.
+En el mundo de la seguridad, se han desarrollado una variedad de tipos de pruebas de seguridad que se complementan con el SDLC y con el STLC. En la Fig. 38 se pueden apreciar las distintas etapas del ciclo de desarrollo y pruebas de software. En el centro, se mencionan los principales tipos de pruebas de seguridad (SSecLC) posibles para implementar una estrategia de seguridad complementaría al flujo de desarrollo estándar.
+
+Referencia web: https://safestack.io/blog/app-sec/secure-development-bringing-security-testing-into-your-sdlc
+
 
 ![](../../images/fig_38_SDLC_STLC_SSecLC.png)
+**Figura 38. SDLC, STLC y SSecLC.**
+
 
 <a name="3.4.5_Static_application_security_testing_o_SAST"></a>
 ### 3.4.5 Static application security testing o SAST
 
 A SAST se lo conoce como prueba de “caja blanca”, lo que significa que se prueba el sistema desde adentro en lugar de intentar probarlo desde una perspectiva externa o en ejecución. Generalmente en tiempo de desarrollo se pueden utilizar herramientas para análisis estático de código fuente.
 
-El siguiente ejemplo de código es una muestra de como se puede ejecutar un analisis estático usado herramientas como **SonarQube**:
+El siguiente ejemplo de código es una muestra de como se puede ejecutar un análisis estático usado herramientas como **SonarQube**:
 
 ```java
 
