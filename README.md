@@ -30,13 +30,6 @@
 
 --- 
 
-# ⚙️ Proyectos (WIP)
-
- - [Python Flask ML Demo Project with CI/CD](/pages/projects/uso_modelo_machine_learning.md)
- - [Orquestador de Workflows](/pages/projects/orquestador_workflows.md) <span style="color:green"> WIP</span>
- - [Biblioteca Técnica](/pages/projects/biblioteca_tecnica.md)
- - [Sistema analizador de transacciones basado en Reglas](/pages/projects/tx_analyzer.md) <span style="color:blue"> TODO</span>
- - [Plataforma de pruebas de SmallSats](/pages/projects/plataforma_pruebas_smallsats.md) <span style="color:blue"> TODO</span>
 
 # 🌐General
 
@@ -50,8 +43,6 @@
 - [Tech Trends 2023](/pages/general_topic/tech_trends_2023.md)
 - [A reflection on Software Engineering: A Journey of Creativity and Rigor](/pages/general_topic/reflection_on_software_engineering.md)
 
-
-S
 # 💻 Desarrollo y Programación
 
 - [Spring Framework Notes](/pages/development/spring_framework_notes.md)
@@ -164,10 +155,8 @@ Charlas --> [Notas de las charlas](/pages/we_are_developers_wc_2024/landing.md)
 
 WIP 👇
 
-- [DevSecOps desde la perspectiva de QA Automation](pages/sw_eng_specialization/final_projects_specialization.md)
-
+-  [DevSecOps desde la perspectiva de QA Automation](pages/sw_eng_specialization/final_projects_specialization.md)
 *  [Materias y notas de la especialización](/pages/sw_eng_specialization/landing.md)
-
 
 # 🎓 UP -  Master en tecnología de la Información
 
@@ -176,7 +165,6 @@ WIP 👇
   - [Cloud Computing](pages/master_ti/cloud_computing/landing.md)
   - [Transformación Digital](pages/master_ti/transformacion_digital/landing.md)
   - [Seguridad Informática](pages/master_ti/seguridad_informatica/landing.md)
-
  - [Materias y notas del master](pages/master_ti/landing.md)
 
 # 🎓laSalle BCN - Master en Dirección Tecnológica e Innovación Digital
@@ -186,8 +174,21 @@ WIP 👇
  - [Gestión Empresarial y Transformación Digital](pages/master_direccion_tecnologica/01_gestion_empresarial_y_transformacion_digital/landing.md)
  - [Habilidades Directivas (S. Profesionalizante)](pages/master_direccion_tecnologica/03_seminario_profesionalizado/landing.md)
  - [Gestión Económico Financiera](pages/master_direccion_tecnologica/02_gestion_economico_financiera/landing.md)
-
 * [Materias y Notas del master](pages/master_direccion_tecnologica/landing.md)
+
+
+---
+
+# ⚙️ Proyectos (WIP)
+
+ - [Python Flask ML Demo Project with CI/CD](/pages/projects/uso_modelo_machine_learning.md)
+ - [Orquestador de Workflows](/pages/projects/orquestador_workflows.md) <span style="color:green"> WIP</span>
+ - [Biblioteca Técnica](/pages/projects/biblioteca_tecnica.md)
+ - [Sistema analizador de transacciones basado en Reglas](/pages/projects/tx_analyzer.md) <span style="color:blue"> TODO</span>
+ - [Plataforma de pruebas de SmallSats](/pages/projects/plataforma_pruebas_smallsats.md) <span style="color:blue"> TODO</span>
+
+---
+
 
 # 📚 Libros leídos
 
