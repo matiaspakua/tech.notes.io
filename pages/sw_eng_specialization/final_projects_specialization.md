@@ -1562,6 +1562,8 @@ sqlmap -u "[http://inventory-app.local/login](http://inventory-app.local/login)"
 <a name="3.5_Ops_ByDesign"></a>
 ## 3.5 Ops ByDesign
 
+
+<a name="3.5.1_disenia_para_operar"></a>
 ### 3.5.1 Diseñar para Operar
 
 Un pipeline de desarrollo tendrá éxito en la operación en base a todo el conjunto de decisiones que se hayan tomado desde un inicio. Por éste motivo, es importante pensar en el flujo de modelado, desarrollo, testing  y operación de forma temprana. Una buena guía de los principales punto a tener en cuenta durante el desarrollo y que se deben diseñar para la operación se encuentra en (Wiggins, 2017) y se denomina: “The Twelve-Factor App Methodology”:
@@ -1601,5 +1603,9 @@ Fig. 40: Código Base gestionado y configurable para ambientes de deploy. Imagen
 11. **Logs/Registros**: Tratar los logs/registros como flujos de eventos.
 12. **Procesos de administración**: Ejecutar las tareas de administración/gestión como procesos únicos
 
-**Referencias: ** https://12factor.net/
+**Referencias:**  https://12factor.net/
+
+
+<a name="3.5.2_operar_para_diseniar"></a>
+### 3.5.2 Operar para Diseñar
 
