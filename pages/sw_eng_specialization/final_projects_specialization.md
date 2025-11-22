@@ -1331,7 +1331,7 @@ La condición `OR '1'='1'` siempre se evalúa como verdadera, permitiendo el acc
 */
 ```
 
-La solución es reemplar el uso del metodo `Statement por `PreparedStatement:
+La solución es reemplazar el uso del método `Statement por `PreparedStatement:
 
 ```java 
 
@@ -1453,23 +1453,22 @@ Las pruebas de penetración o Pentesting (Bell et al., 2017, 322) son una forma 
 
 **Ejemplo**:
 
-- Herramienta: `sublist3r` para descubrir subdominios.
-    
-    ```bash
-    sublist3r -d inventory-app.local
-    ```
-    
-    **Resultado**: Se identifica `admin.inventory-app.local` como un subdominio expuesto.
-    
-- Herramienta: `nmap` para analizar puertos y servicios.
-    
-    ```bash
-    nmap -sV admin.inventory-app.local
-    ```
-    
-    **Resultado**: Se descubre que el servidor usa Apache 2.4.51, con vulnerabilidades conocidas.
-    
+**Herramienta**: `sublist3r` para descubrir sub-dominios.
 
+```bash
+sublist3r -d inventory-app.
+```
+
+
+**Resultado**: Se identifica `admin.inventory-app.local` como un sub-dominio expuesto.
+ Herramienta: `nmap` para analizar puertos y servicios.
+    
+```bash
+nmap -sV admin.inventory-app.local
+```
+
+
+**Resultado**: Se descubre que el servidor usa Apache 2.4.51, con vulnerabilidades conocidas.
 
 #### Paso 3. Threat Modeling & Vulnerability Identification
 
@@ -1492,27 +1491,27 @@ Se crea un mapa de amenazas y se identifican:
 #### Ejemplo: SQL Injection en el login
 
 - Herramienta: `sqlmap`.
-    
-    ```bash
-    sqlmap -u "http://inventory-app.local/login" --data="username=admin&password=test"
-    ```
-    
-    **Resultado**:  
-    Se extrae información de la tabla `users`, confirmando la vulnerabilidad.
 
-|Usuario|Contraseña (hash)|
-|---|---|
-|admin|$2y$12$abcdef...|
+```bash
+sqlmap -u "http://inventory-app.local/login" --data="username=admin&password=test"
+```
+
+**Resultado**: Se extrae información de la tabla `users`, confirmando la vulnerabilidad.
+
+| Usuario | Contraseña (hash) |
+| ------- | ----------------- |
+| admin   | $2y$12$abcdef...  |
 
 #### Ejemplo: Fuerza Bruta en el login
 
 - Herramienta: `hydra`.
-    
-    ```bash
-    hydra -l admin -P passwords.txt inventory-app.local http-post-form "/login:username=^USER^&password=^PASS^:F=incorrect"
-    ```
-    
-    **Resultado**: Contraseña descubierta: `admin123`.
+
+
+```bash 
+hydra -l admin -P passwords.txt inventory-app.local http-post-form "/login:username=^USER^&password=^PASS^:F=incorrect"
+```
+
+**Resultado**: Contraseña descubierta: `admin123`.
 
 
 #### Paso 5. Post-Exploitation, Risk Analysis & Recommendations
@@ -1540,7 +1539,7 @@ Se crea un mapa de amenazas y se identifican:
 
 **Ejemplo de reporte en formato Markdown**:
 
-```markdown
+```sql
 # Penetration Testing Report
 ## Resumen Ejecutivo
 Se identificaron tres vulnerabilidades críticas:
@@ -1552,12 +1551,10 @@ Se identificaron tres vulnerabilidades críticas:
 - **Impacto**: Acceso total a la base de datos.
 - **Reproducción**: 
 
-
 sqlmap -u "[http://inventory-app.local/login](http://inventory-app.local/login)" --data="username=admin&password=test"
 
 - **Recomendación**: Usar consultas parametrizadas y validar entradas.
 
-...
 
 ```
 
@@ -1575,16 +1572,34 @@ Un pipeline de desarrollo tendrá éxito en la operación en base a todo el conj
 1. **Código Base (Codebase)**: Un código base gestionado con control de revisión (git), que permita muchos deploys (Fig. 40).
 
 ![](fig_40_codebase-deploys.png)
+
 Fig. 40: Código Base gestionado y configurable para ambientes de deploy. Imagen Fuente (Wiggins, 2017)
 
 
-2. Dependencias (Dependencies): Declarar y aislar explícitamente las dependencias    
-3. Configuración (Config): Almacenar la configuración del entorno (ambiente, backups, credenciales, etc).
-4. Servicios de respaldo/adicionales (Backing services): Tratar los servicios de respaldo (bases de datos, brokers, buses, etc) como recursos adjuntos independientes, como se muestra en la Fig. 41. Los recursos se pueden adjuntar y separar de los deployments a voluntad.
+2. **Dependencias** (Dependencies): Declarar y aislar explícitamente las dependencias    
+3. **Configuración** (Config): Almacenar la configuración del entorno (ambiente, backups, credenciales, etc).
+4. **Servicios de respaldo/adicionales** (Backing services): Tratar los servicios de respaldo (bases de datos, brokers, buses, etc) como recursos adjuntos independientes, como se muestra en la Fig. 41. Los recursos se pueden adjuntar y separar de los deployments a voluntad.
 
 ![](../../images/fig_41_backing_service.png)
 
 
-5. Construir, lanzar, ejecutar (build, release, run): Las etapas de construcción y ejecución deben estar estrictamente separadas (Fig. 42).
+5. **Construir, lanzar, ejecutar** (build, release, run): Las etapas de construcción y ejecución deben estar estrictamente separadas (Fig. 42).
 
 ![](../../images/fig_42_build_release_run.png)
+
+**Figura 42**: Tratar Etapas  de desarrollo de forma Separadas. Imagen Fuente (Wiggins, 2017)
+
+6. **Procesos** (Processes): Ejecutar la aplicación como uno o más procesos sin estado (stateless).
+7. **Enlace de puerto**  (Port binding): Exportar servicios a través de la vinculación de puertos
+8. **Concurrencia** (Concurrency): Escalar horizontalmente (Fig. 43) a través del modelo de proceso.
+
+![](../../images/concurrence_and_scaling.png)
+
+
+9. **Desechabilidad** (Disposability): Maximizar la robustez con un inicio rápido y un apagado ordenado
+10. **Paridad desarrollo/producción** (Dev/prod parity): Mantener los ambientes de desarrollo, staging/testing y producción lo más similares posibles.
+11. **Logs/Registros**: Tratar los logs/registros como flujos de eventos.
+12. **Procesos de administración**: Ejecutar las tareas de administración/gestión como procesos únicos
+
+**Referencias: ** https://12factor.net/
+
