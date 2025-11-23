@@ -1195,7 +1195,7 @@ Al igual que se desarrolla y modela la arquitectura funcional y no funcional del
 En la Fig. 35 cada nivel representa amenazas de seguridad, por lo tanto, para cada nivel se deben aplicar técnicas de arquitectura para mitigar esas posibles amenazas.
 
 | Grado de la amenaza | Nivel de aquitectura   |
-| ------------------- | ---------------------- |
+|--|--|
 | Alto Nivel (diseño) | Diseño de Arquitectura |
 | Nivel Medio         | Diseño detallado       |
 | Bajo nivel          | Código                 |
