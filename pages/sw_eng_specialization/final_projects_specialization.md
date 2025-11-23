@@ -1573,37 +1573,36 @@ Un pipeline de desarrollo tendrá éxito en la operación en base a todo el conj
 *Referencia*: Wiggins, A. (2017). The twelve-factor App Methodology. The Twelve-Factor App. Retrieved March 2, 2022, from https://12factor.net/ 
 
 
-1. **Código Base (Codebase)**: Un código base gestionado con control de revisión (git), que permita muchos deploys (Fig. 40).
+* Factor 01: **Código Base (Codebase)**: Un código base gestionado con control de revisión (git), que permita muchos deploys (Fig. 40).
 
-![](fig_40_codebase-deploys.png)
+![](../../images/fig_40_codebase-deploys.png)
 
 Fig. 40: Código Base gestionado y configurable para ambientes de deploy. Imagen Fuente (Wiggins, 2017)
 
-
-2. **Dependencias** (Dependencies): Declarar y aislar explícitamente las dependencias    
-3. **Configuración** (Config): Almacenar la configuración del entorno (ambiente, backups, credenciales, etc).
-4. **Servicios de respaldo/adicionales** (Backing services): Tratar los servicios de respaldo (bases de datos, brokers, buses, etc) como recursos adjuntos independientes, como se muestra en la Fig. 41. Los recursos se pueden adjuntar y separar de los deployments a voluntad.
+* Factor 02. **Dependencias** (Dependencies): Declarar y aislar explícitamente las dependencias    
+* Factor 03. **Configuración** (Config): Almacenar la configuración del entorno (ambiente, backups, credenciales, etc).
+* Factor 04. **Servicios de respaldo/adicionales** (Backing services): Tratar los servicios de respaldo (bases de datos, brokers, buses, etc) como recursos adjuntos independientes, como se muestra en la Fig. 41. Los recursos se pueden adjuntar y separar de los deployments a voluntad.
 
 ![](../../images/fig_41_backing_service.png)
 
 
-5. **Construir, lanzar, ejecutar** (build, release, run): Las etapas de construcción y ejecución deben estar estrictamente separadas (Fig. 42).
+* Factor 05. ***Construir, lanzar, ejecutar** (build, release, run): Las etapas de construcción y ejecución deben estar estrictamente separadas (Fig. 42).
 
 ![](../../images/fig_42_build_release_run.png)
 
 **Figura 42**: Tratar Etapas  de desarrollo de forma Separadas. Imagen Fuente (Wiggins, 2017)
 
-6. **Procesos** (Processes): Ejecutar la aplicación como uno o más procesos sin estado (stateless).
-7. **Enlace de puerto**  (Port binding): Exportar servicios a través de la vinculación de puertos
-8. **Concurrencia** (Concurrency): Escalar horizontalmente (Fig. 43) a través del modelo de proceso.
+* Factor 06. **Procesos** (Processes): Ejecutar la aplicación como uno o más procesos sin estado (stateless).
+* Factor 07. *Enlace de puerto**  (Port binding): Exportar servicios a través de la vinculación de puertos
+* Factor 08. **Concurrencia** (Concurrency): Escalar horizontalmente (Fig. 43) a través del modelo de proceso.
 
 ![](../../images/concurrence_and_scaling.png)
 
 
-9. **Desechabilidad** (Disposability): Maximizar la robustez con un inicio rápido y un apagado ordenado
-10. **Paridad desarrollo/producción** (Dev/prod parity): Mantener los ambientes de desarrollo, staging/testing y producción lo más similares posibles.
-11. **Logs/Registros**: Tratar los logs/registros como flujos de eventos.
-12. **Procesos de administración**: Ejecutar las tareas de administración/gestión como procesos únicos
+* Factor 09. **Desechabilidad** (Disposability): Maximizar la robustez con un inicio rápido y un apagado ordenado
+* Factor 10. **Paridad desarrollo/producción** (Dev/prod parity): Mantener los ambientes de desarrollo, staging/testing y producción lo más similares posibles.
+* Factor 11. **Logs/Registros**: Tratar los logs/registros como flujos de eventos.
+* Factor 12. **Procesos de administración**: Ejecutar las tareas de administración/gestión como procesos únicos
 
 **Referencias:**  en la página https://12factor.net/ están todos estos puntos mejor detallados.
 
@@ -1684,3 +1683,12 @@ Parte de conocer el estado actual de un proyecto, las mejoras a implementar, las
 ![](../../images/fig_49_Flow-Distribution.png)
 
 ** Figura 49**  Flow Distribution. Imagen Fuente: https://flowframework.org/flow-metrics/ 
+
+
+
+<a name="3.6_DevSecOps_ByDesign"></a>
+## 3.6 DevSecOps ByDesign
+
+Ya planteada la importancia y aspectos importantes en el diseño, desde la calidad hasta la seguridad, el siguiente paso es modelar el sistema completo (System Design, 2021), donde debe quedar claro el pipeline de alto nivel (Fig. 50) o flujo de valor a considerar.
+
+**Referencia:** Wikipedia contributors. (2021, December 15). Systems design. In Wikipedia, The Free Encyclopedia. Retrieved 00:21, March 4, 2022, from https://en.wikipedia.org/w/index.php?title=Systems_design&oldid=1060468175
