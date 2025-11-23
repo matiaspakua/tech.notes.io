@@ -1390,7 +1390,7 @@ DAST es un tipo de prueba de “caja negra”, donde se prueba un sistema en eje
 
 Herramientas como ZAPPROXY son muy prácticas al momento de realizar análisis de seguridad dinámicos, por ejemplo sobre sitios web:
 
-![[zapproxy_ui_desktop_scan_example.png]]
+![](../../images/zapproxy_ui_desktop_scan_example.png)
 
 **Referencia:**  [ZAP – Getting Started](https://www.zaproxy.org/getting-started/)
 
@@ -1658,7 +1658,7 @@ Parte de conocer el estado actual de un proyecto, las mejoras a implementar, las
 * **Flow Velocity**: número de work-item o features completadas, por semana ó sprint.
 
 ![](../../images/fig_45_Flow-Velocity.png)
-**Figura 45:** Flow Velocity. Imagen Fuente: [https://flowframework.org/flow-metrics/](https://flowframework.org/flow-metrics/)
+**Figura 45:** Flow Velocity. Imagen Fuente: https://flowframework.org/flow-metrics/
 
 
 * **Flow Efficiency**: La eficiencia es la relación entre el tiempo activo (verde) y el tiempo de flujo total.
@@ -1682,8 +1682,7 @@ Parte de conocer el estado actual de un proyecto, las mejoras a implementar, las
 
 
 ![](../../images/fig_49_Flow-Distribution.png)
-
-** Figura 49**  Flow Distribution. Imagen Fuente: https://flowframework.org/flow-metrics/ 
+**Figura 49**  Flow Distribution. Imagen Fuente: https://flowframework.org/flow-metrics/ 
 
 
 
