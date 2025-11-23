@@ -1,0 +1,15 @@
+graph TD
+    A[Ataque con Credenciales] --> B[Robo]
+    A --> C[Elevación de Privilegios]
+    A --> D[Fuerza Bruta]
+    A --> E[Credential Stuffing]
+
+    F[Protección] --> G[Contraseñas Robustas]
+    F --> H[Password Hashing]
+    F --> I[Login Throttling]
+
+    B --> F
+    C --> F
+    D --> F
+    E --> F
+

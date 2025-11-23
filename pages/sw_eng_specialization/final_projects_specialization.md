@@ -674,38 +674,38 @@ Las siguientes definiciones proveen el marco en el cual se debe considerar la se
  * **Threat Model**: 🛡️🎯👥 concepto militar que busca crear un escenario “único” para cada activo valioso e identificar las medidas de defensa disponibles. Se modela del perfil del atacante, los vectores de ataque probables, las vulnerabilidades existentes y casos realistas y no realistas de ataque. El modelado permite generar “conciencia” del estado de protección. 
  * **Vulnerabilidad Zero-Day**: 🚨0️⃣📅 Falla (o exploit) que expone al software/producto de alguna manera aún no solucionada o sin parche de seguridad disponible antes posibles ataques. 
  * **Principios Generales de Seguridad**: 
-	 * 🚫🔐 Aceptar que: “La seguridad total es imposible”. 
-	 * 🔑⬇️ Implementar medidas como least privilege (controlar, limitar, no dar accesos). 
-	 * ⚙️✔️ **Simple** es más seguro. 
-	 * 🙅‍♂️👤🔍 No confiar en los usuarios, ser paranoico. 
-	 * 🔮📉 Esperar lo inesperado, analizar casos límites. 
-	 * 🏰🔗 Defensa por “capas”, y niveles de defensa. 
-	 * 🌑🔒Defensa a través de oscuridad (obscure). 
-	 * 📋✅🚫Lista de permitidos / Lista de bloqueados (allow/deny) 
-	 * 🗺️🔌 Mapa de puntos de Exposición y transferencia de datos (canales). 
+	 * 🚫 Aceptar que: “La seguridad total es imposible”. 
+	 * 🔑 Implementar medidas como least privilege (controlar, limitar, no dar accesos). 
+	 * ✔️ **Simple** es más seguro. 
+	 * 🙅‍♂️ No confiar en los usuarios, ser paranoico. 
+	 * 🔮 Esperar lo inesperado, analizar casos límites. 
+	 * 🏰 Defensa por “capas”, y niveles de defensa. 
+	 * 🌑Defensa a través de oscuridad (obscure). 
+	 * 📋Lista de permitidos / Lista de bloqueados (allow/deny) 
+	 * 🔌 Mapa de puntos de Exposición y transferencia de datos (canales). 
  * **Seguridad de los Datos (CIA)**: 
-	 * 🔒📝 Confidentiality (confidencialidad). 
-	 * ✔️🔐 Integrity (integridad). 
-	 * ⏳🔄 Availability (disponibilidad).
+	 * 🔒 Confidentiality (confidencialidad). 
+	 * ✔️ Integrity (integridad). 
+	 * 🔄 Availability (disponibilidad).
  * **Buenas Prácticas Generales**: 
-	 * 🚪🛑 Filtrar entradas 
-	 * 🚪✅Filtrar salidas 
-	 * 🧹🔬✔️ Sanitizar, analizar, validar, etiquetar variables, código privado. 
-	 * 🛡️👥🔑 Credenciales, permisos y roles 
-	 * ✍️🧹 Clean-code, refactoring, 
-	 * 📜📊 Estrategias de logging. 
-	 * 🛠️🔍Testing de seguridad / Pentesting 
+	 * 🛑 Filtrar entradas 
+	 * 🚪Filtrar salidas 
+	 * 🧹 Sanitizar, analizar, validar, etiquetar variables, código privado. 
+	 * 👥 Credenciales, permisos y roles 
+	 * 🧹 Clean-code, refactoring, 
+	 * 📜 Estrategias de logging. 
+	 * 🔍Testing de seguridad / Pentesting 
 
 
 #### Ataques Comunes: 
-* 🔐🔑💥 Ataque con credenciales: robo, elevación de privilegios, fuerza bruta, suffing. Protección con: Contraseñas robustas, Password Hashing, Login Throttling. 
+* 🔐 Ataque con credenciales: robo, elevación de privilegios, fuerza bruta, suffing. Protección con: Contraseñas robustas, Password Hashing, Login Throttling. 
 
-[![](https://mermaid.ink/img/pako:eNpVkU1OwzAQha8y8rq9QBZIzR9FYhHR7pwuhniSWErsYo-LoOqhEEfoxTAJFalXfvM-zRvNnEVjFYlEdA6PPezz2kB8G7lhfAsEjTWQOVJkGo0D-QOs1w-Qyhf7ag9_7FTKZDHQCRt9_TagCCqnT3qgTlt_x-WyDOQ-EVIXGO-sQs5JHJNgx6FttekiMTOlrJxlaqaEeYxHmVnDDj1dv9BDnCl4xlteOTFbWaH379Yp2KLv547_9pN8tp02sO9jcx6WgekElLPIliJfiuImxEqM5EbUKq7z_GvWgnsaqRZJ_CpqMQxci9pcIoqB7e7DNCJhF2glnA1dL5IWBx9VOCpkyjXGs4wzcvkBl42HVQ?type=png)](https://mermaid.live/edit#pako:eNpVkU1OwzAQha8y8rq9QBZIzR9FYhHR7pwuhniSWErsYo-LoOqhEEfoxTAJFalXfvM-zRvNnEVjFYlEdA6PPezz2kB8G7lhfAsEjTWQOVJkGo0D-QOs1w-Qyhf7ag9_7FTKZDHQCRt9_TagCCqnT3qgTlt_x-WyDOQ-EVIXGO-sQs5JHJNgx6FttekiMTOlrJxlaqaEeYxHmVnDDj1dv9BDnCl4xlteOTFbWaH379Yp2KLv547_9pN8tp02sO9jcx6WgekElLPIliJfiuImxEqM5EbUKq7z_GvWgnsaqRZJ_CpqMQxci9pcIoqB7e7DNCJhF2glnA1dL5IWBx9VOCpkyjXGs4wzcvkBl42HVQ)
+![](../../images/common_attacks_schema.png)
 
-* 🌐🔓 IDOR (Insecure Direct Object Reference) o manipulación de URLs 
 
-[![](https://mermaid.ink/img/pako:eNpVkUFOwzAQRa9izbpUlLRp4wUSbVqoBAIV2JB0YewJNUo8keNIQNXDcAaOwMVwjNqCN_ZI73_9-d6CJIXA4cWKesMe0twwfy6yZXq7YkvToGwtslRblI7dPr921woLtGgkrtnJyTmbZjfC6LothdTfX4YpZI-r62b9azUNzCy7kBIbYoaYaB1Z_SEU_UPS7IaULrQ82ijhaO8zC9A8m7_V1OgDohUaF1SKLDZMG4fWHFRpUC2yhSid6HhJxlkqPekHETJ59BeeB_gym79iVZfE2TJtGJq_2ywCcnVE7oT9_qzQewa0IFv5IqwOCaDne9UKuLMt9qBCW4luhG3nloPbYIU5cP9UWIi2dDnkZudltTBPRNVeaal92QAvRNn4qa19MZhq4T_tgHSt3r8beZCgUWhn1BoHfBAFS-BbeAMejSb9cRSdjuJkMBlEcRT34B34MOon0Xg4TpLRZHCWxPFw14OPkOK0PxmPdj-fqLQB?type=png)](https://mermaid.live/edit#pako:eNpVkUFOwzAQRa9izbpUlLRp4wUSbVqoBAIV2JB0YewJNUo8keNIQNXDcAaOwMVwjNqCN_ZI73_9-d6CJIXA4cWKesMe0twwfy6yZXq7YkvToGwtslRblI7dPr921woLtGgkrtnJyTmbZjfC6LothdTfX4YpZI-r62b9azUNzCy7kBIbYoaYaB1Z_SEU_UPS7IaULrQ82ijhaO8zC9A8m7_V1OgDohUaF1SKLDZMG4fWHFRpUC2yhSid6HhJxlkqPekHETJ59BeeB_gym79iVZfE2TJtGJq_2ywCcnVE7oT9_qzQewa0IFv5IqwOCaDne9UKuLMt9qBCW4luhG3nloPbYIU5cP9UWIi2dDnkZudltTBPRNVeaal92QAvRNn4qa19MZhq4T_tgHSt3r8beZCgUWhn1BoHfBAFS-BbeAMejSb9cRSdjuJkMBlEcRT34B34MOon0Xg4TpLRZHCWxPFw14OPkOK0PxmPdj-fqLQB)
+* 🌐 IDOR (Insecure Direct Object Reference) o manipulación de URLs 
 
+![](../../images/IDOR_schema.png)
 
 
 En éste ejemplo, si no protegemos una API correctamente, cualquier petición que exponga el ID del usuario (como la URL debajo) puede permitir conocer los detalles de cualquier otro usuario manipulando y cambiando el ID:
@@ -724,9 +724,11 @@ GET https://example.com/user/10000
 ```
 
 
-* 💻💉📊 SQLi (Inyección de SQL). Manipular DB, robo datos. Protección con: control de inputs, sanitizar datos, uso de librerías del lenguaje/framework. 
+* 💉 SQLi (Inyección de SQL). Manipular DB, robo datos. Protección con: control de inputs, sanitizar datos, uso de librerías del lenguaje/framework. 
 
-[![](https://mermaid.ink/img/pako:eNpdks1ymzAUhV9Fo7XjAsYhsOiMDXbs1p5J62RTkYUMMlYDuowkpnE8fqSu8gh-scoC07TaiKPz3R9dccQZ5AxHuJC03qPHJBXIrAnZfFtxtBQHlmX8_C5QzpA5ekY3N5_RlKyp4HVT0t6bUsUue0I1qOcuiYVj8h228L83tV5ClkIx2WeJz-85LwCtackzDgo6Orb0jEyyjClAAtCk0SD5G82vSGKROVlDznc8-9vZx6ozC92T2WsNivfIUuxAVl3IhgnFtyUzIW3QgjxI0N0c2gEsSQxCSyjb6LrR1woL638hGzMgbfqT_9Rv3a_kSdmBrPhWMnn-TZVRJVoxUTT0J_s0l7Riv0C-9D20t1u0Yv5R3F8FHuCKmVvw3Lzm8WKmWO9ZxVIcmc-cypcUp-JkOGqGtzmIDEdaNmyAJTTFHkc7WiqjmjqnmiWcml-iuiI1FT8AelnIS5kumomcyRgaoXHkjiyLoyN-xdEoHN65nh-Efuj4rh8EA3y4MMEw9Nxw7AUjZxyO_NvTAL_Z7M7wLhg7Znm3ThA43tg9_QHWv9WI?type=png)](https://mermaid.live/edit#pako:eNpdks1ymzAUhV9Fo7XjAsYhsOiMDXbs1p5J62RTkYUMMlYDuowkpnE8fqSu8gh-scoC07TaiKPz3R9dccQZ5AxHuJC03qPHJBXIrAnZfFtxtBQHlmX8_C5QzpA5ekY3N5_RlKyp4HVT0t6bUsUue0I1qOcuiYVj8h228L83tV5ClkIx2WeJz-85LwCtackzDgo6Orb0jEyyjClAAtCk0SD5G82vSGKROVlDznc8-9vZx6ozC92T2WsNivfIUuxAVl3IhgnFtyUzIW3QgjxI0N0c2gEsSQxCSyjb6LrR1woL638hGzMgbfqT_9Rv3a_kSdmBrPhWMnn-TZVRJVoxUTT0J_s0l7Riv0C-9D20t1u0Yv5R3F8FHuCKmVvw3Lzm8WKmWO9ZxVIcmc-cypcUp-JkOGqGtzmIDEdaNmyAJTTFHkc7WiqjmjqnmiWcml-iuiI1FT8AelnIS5kumomcyRgaoXHkjiyLoyN-xdEoHN65nh-Efuj4rh8EA3y4MMEw9Nxw7AUjZxyO_NvTAL_Z7M7wLhg7Znm3ThA43tg9_QHWv9WI)
+
+![](../../images/SQLi_schema.png)
+
 
 El ejemplos más clásico de SQLi sería: si tenemos una consulta SQL como esta:
 
@@ -743,23 +745,20 @@ SELECT * FROM usuarios WHERE usuario = 'admin' OR '1'='1' AND contraseña = 'pas
 Esto podría permitir el acceso no autorizado a la base de datos.
 
 
-* 💻🎯📝 XSS (Cross Site Scripting). Ataques manipulando sitios webs de terceros. Tipos de ataques: reflected, stored, DOM-based. Protección con CSP o Content Security Policy. Protección con: Validación de request de las API (GET/POST), usar tokens CSRF. 
+* 🎯 XSS (Cross Site Scripting). Ataques manipulando sitios webs de terceros. Tipos de ataques: reflected, stored, DOM-based. Protección con CSP o Content Security Policy. Protección con: Validación de request de las API (GET/POST), usar tokens CSRF. 
 
-[![](https://mermaid.ink/img/pako:eNpdUUtuwjAQvcrIa1D3WVSCBFIqISKcfiSHhXEGsEjs1J8FQpyqR-jF6jjQlnrl9xu90ZyJ0DWShOwN7w5QZpWC8CbsnVJIjbYWqHQIVBjZOan2GxiPH2HKllzJzjdcyK9PBTX2NqktvOG2RyUagSG-GeZNYyplpeyCJ-gTxz883uQ0yhlb465B4bC-42eMOm3-kXOWrZbjLbeRH5ScFUY7FLHTUPSJpbSAVCuHygFF4Y10Jyh0I8XpOjCPzgV75Y2sfxdaY9_QxboNtzApFpDPyodiRcu75DN7sTourY-oLKR0Pf_plEVLPoDZXzC_ATIiLZqWyzrc4dyLFXEHbLEiSfjW3BwrUqlL8HHvND0pQRJnPI6I0X5_IMmONzYg39XcYSZ5OGZ7ZS_fVpGXBQ?type=png)](https://mermaid.live/edit#pako:eNpdUUtuwjAQvcrIa1D3WVSCBFIqISKcfiSHhXEGsEjs1J8FQpyqR-jF6jjQlnrl9xu90ZyJ0DWShOwN7w5QZpWC8CbsnVJIjbYWqHQIVBjZOan2GxiPH2HKllzJzjdcyK9PBTX2NqktvOG2RyUagSG-GeZNYyplpeyCJ-gTxz883uQ0yhlb465B4bC-42eMOm3-kXOWrZbjLbeRH5ScFUY7FLHTUPSJpbSAVCuHygFF4Y10Jyh0I8XpOjCPzgV75Y2sfxdaY9_QxboNtzApFpDPyodiRcu75DN7sTourY-oLKR0Pf_plEVLPoDZXzC_ATIiLZqWyzrc4dyLFXEHbLEiSfjW3BwrUqlL8HHvND0pQRJnPI6I0X5_IMmONzYg39XcYSZ5OGZ7ZS_fVpGXBQ)
+![](../../images/XSS_schema.png)
 
-* 🍪👀🕵 Robo y Visibilización de Cookies. Limitar y encriptar datos sensibles. Proteger con: Uso de Sesiones, SSL, HTTPS, Sign-Cookie. 
+* 🕵 Robo y Visibilización de Cookies. Limitar y encriptar datos sensibles. Proteger con: Uso de Sesiones, SSL, HTTPS, Sign-Cookie. 
 
-[![](https://mermaid.ink/img/pako:eNp9kU1OwzAQha9ied2IfRZIaZKmBYQqHNg4LFxnSKwmnsh2JErVU3EELobJD1WLhFeeed88j2eOVGIJNKSVEV1N8qTQxJ-IP-EOyYG8KKt2qlEfQqqvT01KIDHiXoF9JUFwS5Y8fe_Qql81EQ4tYaB9XeOp0W85wDGPG9RnJwZWob6CEh5JCRbJI5Kod2j82yVOSDwgKX_2-rmV2cvbTlwycCu-0Q6MhO5P84UewYxvDTqQAzB-aT27X7WXDeqGM_Zws87zLbvI33GmKh2M_hfKPU-1NKpz4p8hjQXpUJCNwWoO6IK2YFqhSr-n449YUFdDCwUN_bUUZl_QQp88J_zA2EFLGjrTw4Ia7Kuahm-isT7qu1I4SJTwy26n7Okbhdynpw?type=png)](https://mermaid.live/edit#pako:eNp9kU1OwzAQha9ied2IfRZIaZKmBYQqHNg4LFxnSKwmnsh2JErVU3EELobJD1WLhFeeed88j2eOVGIJNKSVEV1N8qTQxJ-IP-EOyYG8KKt2qlEfQqqvT01KIDHiXoF9JUFwS5Y8fe_Qql81EQ4tYaB9XeOp0W85wDGPG9RnJwZWob6CEh5JCRbJI5Kod2j82yVOSDwgKX_2-rmV2cvbTlwycCu-0Q6MhO5P84UewYxvDTqQAzB-aT27X7WXDeqGM_Zws87zLbvI33GmKh2M_hfKPU-1NKpz4p8hjQXpUJCNwWoO6IK2YFqhSr-n449YUFdDCwUN_bUUZl_QQp88J_zA2EFLGjrTw4Ia7Kuahm-isT7qu1I4SJTwy26n7Okbhdynpw)
+![](../../images/cookies_stolen.png)
 
 
-* 💻🔗🔒 Session Hijacking: Robo se sesiones activas. Proteger con HTTPS, SessionID. 
-
-<mark style="background: #FFF3A3A6;">TODO: hacer un diagrama.</mark>
-
-* 👤🔗💥 Session Fixation. Person-In-The-Middle attack. Proteger con: Validar Inputs, sanitización, CSP, Cookie Setting, HTTPS. 
-* 💻💥🖥️ RCE o Remote Code Execution. Ejecución de comandos en el servidor. Proteger con: Controles en el servidor, Firewall, Análisis de tráfico. 
-* 📂⚠️💾 File Upload Abuse. FUA, sobre-uso de almacenamiento, inyección de malware. 
-* 🌊🚫💻 Denial Of Service (DoS). Flooding (inundar) o Crashing (overflow, RunTime Error). Proteger con: Throttling a través de limitaciones; Filtering con reglas; Sinkholing con redirección para post-análisis; Blackholing redirigiendo los datos a la nada (/dev/null).
+* 🔒 Session Hijacking: Robo se sesiones activas. Proteger con HTTPS, SessionID. 
+* 💥 Session Fixation. Person-In-The-Middle attack. Proteger con: Validar Inputs, sanitización, CSP, Cookie Setting, HTTPS. 
+* 💻 <--> 🖥️ RCE o Remote Code Execution. Ejecución de comandos en el servidor. Proteger con: Controles en el servidor, Firewall, Análisis de tráfico. 
+* 💾 File Upload Abuse. FUA, sobre-uso de almacenamiento, inyección de malware. 
+* 🚫  Denial Of Service (DoS). Flooding (inundar) o Crashing (overflow, RunTime Error). Proteger con: Throttling a través de limitaciones; Filtering con reglas; Sinkholing con redirección para post-análisis; Blackholing redirigiendo los datos a la nada (/dev/null).
 
 
 <a name="2.5.14_metodologia_qa_automation"></a>
@@ -1608,4 +1607,44 @@ Fig. 40: Código Base gestionado y configurable para ambientes de deploy. Imagen
 
 <a name="3.5.2_operar_para_diseniar"></a>
 ### 3.5.2 Operar para Diseñar
+
+Operar para Diseñar trata sobre cómo obtener el feedback y retroalimentar el diseño y desarrollo de productos con información importante obtenida de la operación. En Google se originó el término Site Reliability Engineering ó SRE [SRE, 2022] cuya definición es la siguiente:
+
+> [!quote] 
+> “SRE es lo que obtiene cuando trata las operaciones como si fuera un problema de software.”
+
+SRE resuelve en parte el aspecto de tratar aspectos de la operación (obtener el feedback) y aplicar ese feedback como temas a resolver durante el desarrollo. Algunos de los aspectos incluyen:
+
+- System availability
+- System latency
+- System performance
+- System efficiency
+- Change management
+- Monitoring
+- Emergency response
+- Capacity planning
+
+
+**Referencia** Wikipedia contributors. (2022, February 15). Site reliability engineering. In Wikipedia, The Free Encyclopedia. Retrieved 23:24, March 8, 2022, from https://en.wikipedia.org/w/index.php?title=Site_reliability_engineering&oldid=1071948725 
+
+
+Para obtener y aplicar ese feedback, por ejemplo, SRE plantea aplicar los siguientes principios y prácticas generales:
+
+- <mark style="background: #FFF3A3A6;">Automatización</mark> o eliminación de cualquier elemento repetitivo que también sea rentable de automatizar o eliminar.
+- Evitar perseguir mucha más fiabilidad de la estrictamente necesaria. Definir lo que es <mark style="background: #FFF3A3A6;">necesario</mark> es una práctica en sí misma.
+- Diseño de sistemas con un sesgo hacia la **reducción de riesgos** para la disponibilidad, la latencia y la eficiencia.
+- <mark style="background: #FFF3A3A6;">Observabilidad</mark>, la capacidad de poder hacer preguntas arbitrarias sobre el sistema sin tener que saber de antemano lo que se quería preguntar. Generalmente se establecen niveles de observabilidad, y una referencia a ello se puede indagar en la Fig. 44.
+
+
+![](../../images/pyramid_observability.drawio.png)
+**Figura 44:** La pirámide de observabilidad de los microservicios: seguimientos, métricas, 
+registros y sondeos. Imagen Fuente (Carvalho, 2021)
+
+
+**Referencia:** Carvalho, A. (2021, August 10). Monitoring Microservices: Observability | Geek Culture. Medium. Retrieved March 29, 2022, from https://medium.com/geekculture/monObservabilidaditoring-microservices-part-1-observability-b2b44fa3e67e 
+
+
+### 3.5.3 Métricas
+
+Parte de conocer el estado actual de un proyecto, las mejoras a implementar, las correcciones a realizar y por lo tanto, tener la capacidad de mejorar los procesos y prácticas para que DevSecOps y QA aporten valor al producto y finalmente al cliente, son las métricas. Sin embargo, no cualquier métrica aporta el mismo valor. Desde DevOps se proponen algunas métricas orientadas al flujo de valor que se aporta al cliente/negocio, estas métricas son denominadas: Flow Metrics (Humble et al., 2021, 71). A continuación se listan las 5 más importantes:
 

@@ -1,0 +1,10 @@
+graph TD
+    A[IDOR Insecure Direct Object Reference] --> B[Manipulación de URLs]
+    B --> C[Acceso no autorizado]
+    B --> D[Modificación de datos]
+    C --> E[Exposición de identificadores internos]
+    D --> F[Falta de controles de acceso]
+
+    E --> G[Ejemplo: IDs en URLs]
+    F --> H[Ejemplo: Parámetros en formularios]
+

@@ -1,0 +1,16 @@
+graph TD
+    A[SQLi Inyección de SQL] --> B[Manipulación de Base de Datos]
+    A --> C[Robo de Datos]
+    B --> D[Inserción de Código Malicioso]
+    C --> E[Acceso no Autorizado]
+    D --> F[Modificación de Datos]
+    E --> G[Exposición de Información Sensible]
+
+    H[Protección] --> I[Control de Inputs]
+    H --> J[Sanitizar Datos]
+    H --> K[Uso de Librerías del Lenguaje/Framework]
+
+    D --> H
+    F --> H
+    G --> H
+

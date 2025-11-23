@@ -1,0 +1,15 @@
+graph TD
+    A[XSS Cross Site Scripting] --> B[Manipulación de Sitios Web de Terceros]
+    B --> C[Tipos de Ataques]
+    C --> D[Reflected]
+    C --> E[Stored]
+    C --> F[DOM-based]
+
+    G[Protección] --> H[CSP Content Security Policy]
+    G --> I[Validación de Requests de las API GET/POST]
+    G --> J[Uso de Tokens CSRF]
+
+    D --> G
+    E --> G
+    F --> G
+

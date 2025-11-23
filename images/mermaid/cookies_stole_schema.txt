@@ -1,0 +1,15 @@
+graph TD
+    A[Robo y Visibilización de Cookies] --> B[Exposición de Datos Sensibles]
+    B --> C[Clonación de Sesiones]
+    B --> D[Acceso No Autorizado]
+    C --> E[Uso de Cookies de Sesión]
+    D --> F[Intercepción de Cookies]
+
+    G[Protección] --> H[Uso de Sesiones]
+    G --> I[SSL/HTTPS]
+    G --> J[Sign-Cookie]
+    G --> K[Encriptación de Datos Sensibles]
+
+    E --> G
+    F --> G
+
