@@ -388,7 +388,7 @@ Las principales características de la Integración Continua [Fowler, 2006] (CI)
 3. Testing y tareas automatizadas. En todos los niveles.
 4. Resultado: producto estable.
 
-**Referencia: ** Fowler, M. (2006, May 1). Continuous Integration. Martin Fowler. Retrieved February 20, 2022, from https://martinfowler.com/articles/continuousIntegration.html
+**Referencia:** Fowler, M. (2006, May 1). Continuous Integration. Martin Fowler. Retrieved February 20, 2022, from https://martinfowler.com/articles/continuousIntegration.html
 
 La integración continua incluye alguna o todas las siguiente fases, que son justamente las etapas que se deben integrar durante el desarrollo de un producto de software. Al considerar las fases de la Fig. 13, integrarlas y ordenarlas de forma “continua”, se pueden ver como si fuera una tubería o **pipeline**:
 
@@ -621,20 +621,20 @@ Para que una cultura de DevOps pueda ser implementada, se requiere que tanto el 
 
 Desde el punto de vista cultural, otros aspectos importantes incluyen: 
 
-- **No trabajar en “silos”, aislados**: 🚫🏢❌
-- **DevOps** no es un “rol” o una “persona”, es un equipo y una mentalidad, aún cuando pueden existir roles facilitadores (Fisher, 2021): 🤝👥💡
-- **Generar ambiente “sin miedo”**, ambiente de respeto e igualdad dentro del equipo y la organización: 😌👫🤝
-- **Responsabilidad** compartida y confianza: 🛡️🤝💪
-- **Flujos** de información claros, bien definidos y acordados: 📊🔄📋
-- **Colaboración**: 🤝💼🧑‍🤝‍🧑
-- **Aprender de los errores, comunicar y aplicar “PostMortem Communication” (Mueller & Wickett, 2020)**: 📝💡📢
-- **Aplicar nuevas ideas, y experimentar**: 💡🛠️🎯
+- No trabajar en “silos”, aislados
+- **DevOps** no es un “rol” o una “persona”, es un equipo y una mentalidad, aún cuando pueden existir roles facilitadores (Fisher, 2021).
+- **Generar ambiente “sin miedo”**, ambiente de respeto e igualdad dentro del equipo y la organización
+- **Responsabilidad** compartida y confianza
+- **Flujos** de información claros, bien definidos y acordados
+- **Colaboración**
+- Aprender de los errores, comunicar y aplicar “PostMortem Communication” (Mueller & Wickett, 2020)
+- Aplicar nuevas ideas, y experimentar
 
 **Referencia:** Fisher, B. (2021, December). Becoming a DevOps Engineer: Role and Responsibilities. Udemy Blog. Retrieved February 22, 2022, from https://blog.udemy.com/devops-engineer/
 
 **Referencia:** Mueller, E., & Wickett, J. (Writers). (2020, 10 28). Use your words (Season 1, Episode 2.2) [TV series episode]. In DevOps Foundations. LinkedIn Corporation.  https://www.linkedin.com/learning/devops-foundations-23454205/the-foundations-of-devops
 
-En “The DevOps Handbook” (Humble et al., 2021, 72), se toman como referencia los principios que se muestran en la Fig. 21 y que rigen una buena implementación de DevOps llamada “The Three Ways” (ó las 3 formas).
+En <mark style="background: #FFF3A3A6;">“The DevOps Handbook”</mark> (Humble et al., 2021, 72), se toman como referencia los principios que se muestran en la Fig. 21 y que rigen una buena implementación de DevOps llamada “The Three Ways” (ó las 3 formas).
 
 ![](../../images/devops_the_three_ways.png)
 
@@ -674,8 +674,8 @@ La seguridad de la información (**InfoSEC**) y en general “seguridad digital�
 
 Las siguientes definiciones proveen el marco en el cual se debe considerar la seguridad desde el punto de vista del desarrollo de productos de software. Se presenta una muy breve descripción de aspectos teóricos, prácticos y algunas prácticas de implementación que se recomienda tener en cuenta al plantear una estrategia de ciberseguridad:
 
- * **Threat Model**: 🛡️🎯👥 concepto militar que busca crear un escenario “único” para cada activo valioso e identificar las medidas de defensa disponibles. Se modela del perfil del atacante, los vectores de ataque probables, las vulnerabilidades existentes y casos realistas y no realistas de ataque. El modelado permite generar “conciencia” del estado de protección. 
- * **Vulnerabilidad Zero-Day**: 🚨0️⃣📅 Falla (o exploit) que expone al software/producto de alguna manera aún no solucionada o sin parche de seguridad disponible antes posibles ataques. 
+ * **Threat Model**: concepto militar que busca crear un escenario “único” para cada activo valioso e identificar las medidas de defensa disponibles. Se modela del perfil del atacante, los vectores de ataque probables, las vulnerabilidades existentes y casos realistas y no realistas de ataque. El modelado permite generar “conciencia” del estado de protección. 
+ * **Vulnerabilidad Zero-Day**:  Falla (o exploit) que expone al software/producto de alguna manera aún no solucionada o sin parche de seguridad disponible antes posibles ataques. 
  * **Principios Generales de Seguridad**: 
 	 * 🚫 Aceptar que: “La seguridad total es imposible”. 
 	 * 🔑 Implementar medidas como least privilege (controlar, limitar, no dar accesos). 
@@ -1069,11 +1069,11 @@ Generalmente, los aspectos de seguridad no son considerados en fases iniciales d
 La fundación OWASP promueve para el diseño seguro (Sec ByDesign) un modelo de madurez: SAMM, el cual proporciona las bases para implementar un diseño seguro desde el comienzo de desarrollo de un sistema de software, o en todo caso, aplicar el modelo a un producto ya existente. En la Fig. 30 se listan para cada etapa del desarrollo (o SDLC) las prácticas de seguridad que se pueden aplicar.
 
 
-| **Gobernanza**           | **Diseño**                    | **Implementación**  | **Verificación**              | **Operaciones**       |
-| ------------------------ | ----------------------------- | ------------------- | ----------------------------- | --------------------- |
-| Estrategia y Métricas    | ==Evaluación de Amenazas==    | Construcción Segura | Evaluación de Arquitectura    | Gestión de Incidentes |
-| Políticas y Cumplimiento | ==Requisitos de Seguridad==   | Despliegue Seguro   | Pruebas basadas en Requisitos | Gestión del Entorno   |
-| Educación y Orientación  | ==Arquitectura de Seguridad== | Gestión de Defectos | Pruebas de Seguridad          | Gestión Operacional   |
+| **Gobernanza**           | **Diseño**                | **Implementación**  | **Verificación**              | **Operaciones**       |
+| ------------------------ | ------------------------- | ------------------- | ----------------------------- | --------------------- |
+| Estrategia y Métricas    | Evaluación de Amenazas    | Construcción Segura | Evaluación de Arquitectura    | Gestión de Incidentes |
+| Políticas y Cumplimiento | Requisitos de Seguridad   | Despliegue Seguro   | Pruebas basadas en Requisitos | Gestión del Entorno   |
+| Educación y Orientación  | Arquitectura de Seguridad | Gestión de Defectos | Pruebas de Seguridad          | Gestión Operacional   |
 
 **Figura 30: Modelo de Madurez SAMM. Imagen Fuente (SAMM OWASP® Foundation, 2021)**
 
@@ -1643,7 +1643,7 @@ Para obtener y aplicar ese feedback, por ejemplo, SRE plantea aplicar los siguie
 registros y sondeos. Imagen Fuente (Carvalho, 2021)
 
 
-**Referencia:** Carvalho, A. (2021, August 10). Monitoring Microservices: Observability | Geek Culture. Medium. Retrieved March 29, 2022, from https://medium.com/geekculture/monObservabilidaditoring-microservices-part-1-observability-b2b44fa3e67e 
+**Referencia:** Carvalho, A. (2021, August 10). Monitoring Microservices: Observability . Geek Culture. Medium. Retrieved March 29, 2022, from https://medium.com/geekculture/monObservabilidaditoring-microservices-part-1-observability-b2b44fa3e67e 
 
 <a name="3.5.3_metricas"></a>
 ### 3.5.3 Métricas
