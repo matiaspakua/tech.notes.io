@@ -1602,7 +1602,7 @@ Fig. 40: Código Base gestionado y configurable para ambientes de deploy. Imagen
 11. **Logs/Registros**: Tratar los logs/registros como flujos de eventos.
 12. **Procesos de administración**: Ejecutar las tareas de administración/gestión como procesos únicos
 
-**Referencias:**  https://12factor.net/
+**Referencias:**  en la página https://12factor.net/ están todos estos puntos mejor detallados.
 
 
 <a name="3.5.2_operar_para_diseniar"></a>
@@ -1643,8 +1643,41 @@ registros y sondeos. Imagen Fuente (Carvalho, 2021)
 
 **Referencia:** Carvalho, A. (2021, August 10). Monitoring Microservices: Observability | Geek Culture. Medium. Retrieved March 29, 2022, from https://medium.com/geekculture/monObservabilidaditoring-microservices-part-1-observability-b2b44fa3e67e 
 
-
+<a name="3.5.3_metricas"></a>
 ### 3.5.3 Métricas
 
-Parte de conocer el estado actual de un proyecto, las mejoras a implementar, las correcciones a realizar y por lo tanto, tener la capacidad de mejorar los procesos y prácticas para que DevSecOps y QA aporten valor al producto y finalmente al cliente, son las métricas. Sin embargo, no cualquier métrica aporta el mismo valor. Desde DevOps se proponen algunas métricas orientadas al flujo de valor que se aporta al cliente/negocio, estas métricas son denominadas: Flow Metrics (Humble et al., 2021, 71). A continuación se listan las 5 más importantes:
+Parte de conocer el estado actual de un proyecto, las mejoras a implementar, las correcciones a realizar y por lo tanto, tener la capacidad de mejorar los procesos y prácticas para que DevSecOps y QA aporten valor al producto y finalmente al cliente, son necesarias las métricas. Sin embargo, no cualquier métrica aporta el mismo valor. Desde DevOps se proponen algunas métricas orientadas al flujo de valor que se aporta al cliente/negocio, estas métricas son denominadas: Flow Metrics (Humble et al., 2021, 71). A continuación se listan las 5 más importantes:
 
+
+**Referencia:** Humble, J., Kim, G., Debois, P., & Forsgren, N. (2021). The DevOps Handbook, Second Edition: How to Create World-Class Speed, Reliability, and Security in Technology Organizations. IT Revolution Press. 
+
+
+* **Flow Velocity**: número de work-item o features completadas, por semana ó sprint.
+
+![](../../images/fig_45_Flow-Velocity.png)
+**Figura 45:** Flow Velocity. Imagen Fuente: [https://flowframework.org/flow-metrics/](https://flowframework.org/flow-metrics/)
+
+
+* **Flow Efficiency**: La eficiencia es la relación entre el tiempo activo (verde) y el tiempo de flujo total.
+
+![](../../images/fig_46_Flow-Time.png)
+**Figura 46:** Flow Efficiency. Imagen Fuente: https://flowframework.org/flow-metrics/ 
+
+
+* **Flow Time**: el tiempo transcurrido que tarda una solicitud (una épica, una historia) en pasar de "Sí, hagámoslo" a "Terminado".
+
+![](../../images/fig_47_Flow-Efficiency.png)
+**Figura 47**: Flow Time. Imagen Fuente: https://flowframework.org/flow-metrics/ 
+
+* **Flow Load**: mide la cantidad de elementos de flujo actualmente en curso (activos o en espera) dentro de un flujo de valor particular.
+
+![](../../images/fig_48_Flow-Load.png)
+**Figura 48**: Flow Load. Imagen Fuente: https://flowframework.org/flow-metrics/ 
+
+
+* **Flow Distribution**: mide la distribución de los cuatro elementos de Flujo (Características, Defectos, Riesgos y Deudas) en la entrega del flujo de valor.
+
+
+![](../../images/fig_49_Flow-Distribution.png)
+
+** Figura 49**  Flow Distribution. Imagen Fuente: https://flowframework.org/flow-metrics/ 
