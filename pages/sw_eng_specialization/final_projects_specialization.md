@@ -1391,6 +1391,7 @@ DAST es un tipo de prueba de “caja negra”, donde se prueba un sistema en eje
 Herramientas como ZAPPROXY son muy prácticas al momento de realizar análisis de seguridad dinámicos, por ejemplo sobre sitios web:
 
 ![](../../images/zapproxy_ui_desktop_scan_example.png)
+**Figura 38.1** ZAPPROXY interfaz gráfica.
 
 **Referencia:**  [ZAP – Getting Started](https://www.zaproxy.org/getting-started/)
 
