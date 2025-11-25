@@ -42,7 +42,7 @@
 - [Design Thinking notes](/pages/general_topic/design_thinking_explained.md)
 - [Tech Trends 2023](/pages/general_topic/tech_trends_2023.md)
 - [A reflection on Software Engineering: A Journey of Creativity and Rigor](/pages/general_topic/reflection_on_software_engineering.md)
-
+* [Introducción desde cero a Kubernetes](/pages/general_topic/kubernetes.md) 
 # 💻 Desarrollo y Programación
 
 - [Spring Framework Notes](/pages/development/spring_framework_notes.md)
@@ -80,6 +80,7 @@
 * [IT Security Foundations: Core Concepts](/pages/cybersecurity/it_security_foundations_core_concepts.md)
 * [Programming Foundations: Web Security](/pages/cybersecurity/programming_foundations_web_security.md)
 * [DevOps Foundations: DevSecOps](/pages/cybersecurity/dev_sec_ops_foundations.md)
+* [Threat analysis con Falco y AWS security Hub](pages/cybersecurity/falco_runtime_security_for_container.md)
 
 # 🤝 Liderazgo y colaboración
 
