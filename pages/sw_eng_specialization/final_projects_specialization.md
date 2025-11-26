@@ -1693,3 +1693,56 @@ Parte de conocer el estado actual de un proyecto, las mejoras a implementar, las
 Ya planteada la importancia y aspectos importantes en el diseño, desde la calidad hasta la seguridad, el siguiente paso es modelar el sistema completo (System Design, 2021), donde debe quedar claro el pipeline de alto nivel (Fig. 50) o flujo de valor a considerar.
 
 **Referencia:** Wikipedia contributors. (2021, December 15). Systems design. In Wikipedia, The Free Encyclopedia. Retrieved 00:21, March 4, 2022, from https://en.wikipedia.org/w/index.php?title=Systems_design&oldid=1060468175
+
+Los 3 aspectos más importantes se ilustran como:
+1. **Delivery pipelines**, que es camino que desde el análisis, diseño e implementación hasta el delivery de un producto o servicio de software hacia los clientes.
+2. El pipeline de **"seguridad"**, que incluye desde la aplicación de buenas prácticas, análisis estáticos de código, threat modeling, análisis en runtime de los contenedores deployados en un ambiente en la nube o hasta equipos de pentesting.
+3. En la capa inferior se muestra lo que se denomina un "feedback loop", un punto clave en cada paso de todo el proceso. En cada paso, se debe asegurar de alguna manera de obtener feedback para corregir / reajustar / mejorar. Aspecto clave, y no siempre modelado o tenido en cuenta como un proceso critico. 
+
+![](../../images/devsecops_pipeline_overview.png)
+
+**Figura 50** DevSecOps Pipeline Alto Nivel (ZETTLER, 2022). Fuente:(  https://catalog.us-east-1.prod.workshops.aws/workshops/95ee7fde-4d85-47a5-99fc-7e0dee07fc94/en-US/introduction  )
+
+### Nivel 0 del pipeline DevSecOps
+
+Primero y a modo de ejemplo, se presenta el esquema de la Fig. 51 que presenta todas las partes componentes de un modelo DevSecOps + QA, que se llamará nivel 0. Éste tipo de diseño/modelos sirve para plantear el sistema completo, sin entrar en demasiado detalle, pero que a grandes rasgos da información sobre el ecosistema a considerar para el producto.
+
+![](../../images/DevSecOps_and_QA.png)
+
+**Figura 51**: DevSecOps + QA Ejemplo de Vista Completa Nivel 0. Imagen fuente ( https://www.linkedin.com/feed/update/urn:li:activity:6863289227103367168/  )
+
+### Nivel 1 del pipeline DevSecOps
+
+Las siguiente etapas involucran ir bajando el nivel de detalle, siempre y cuando ese nivel de detalle aporte valor. El siguiente nivel de detalle, que se llamará nivel 1, donde el principal objetivo es identificar para cada etapa del Desarrollo y Operación, las principales amenazas basándose en el Threat modeling.
+
+Si vamos etapa por etapa en todo el pipeline, desde el escritorio del desarrollador, pasando por los repositorio de código y hasta llegar a los ambientes desplegados en clusters de kubernestes, los aspecto que se deben tener en cuenta, probar, registrar y solventar si fuera necesario son:
+
+- Critical Vulnerabilities
+	- Pueden ingresar al pipeline en cualquier etapa. Por esto es importante tener herramientas de análisis estático desde el escritorio del desarrollador hasta en los repositorios de código.
+- Security Breaks Pipeline
+	- **Configuración manual**: valerse de herramientas de despliegue IaC como terraform y ansible entre muchas otras, o sea, evitar configuraciones manuales. Todo debe estar correctamente bajo control de configuración, por ejemplo usando Git.
+	- **Falta de integración**: Asegurarse de tener un servidor de integración que "funcione".  
+- Misconfiguration:
+	- Registros (registries)
+	- Kubernetes 
+	- Hosts de contenedores (Container Hosts)
+	- Para estos puntos: gobierno de la infraestructura, utilizar buenas prácticas, estándares y cross-checks constantes.
+- New Attack Surfaces
+    - Vulnerabilidades en Kubernetes
+    - Vulnerabilidades en Docker
+    - Vulnerabilidades en herramientas (Tool Vulnerabilities)
+    - Utilizar herramientas como Falco para análisis runtime de container, y muchas otras.
+- Inadequate Protection in Production
+    - Exploits de contenedores (Container Exploits)
+    - Vulnerabilidades de día cero (Zero day)
+    - Amenazas internas (Insiders)
+    - Valerse de equipos de pentesting, herramientas de monitoreo y observabilidad.
+
+
+### Nivel 2 del pipeline DevSecOps
+
+Finalmente, para el escenario planteado, se puede modelar un tercer nivel de detalle, que se llamará nivel 2 Fig. 53, donde se especifican con más detalle las prácticas y posibles herramientas para aplicar en cada etapa del pipeline DevSecOps + QA orientados en detectar fallas o vulnerabilidades de seguridad.
+
+![](../../images/dev_sec_ops_kubernetes-security.jpg)
+
+**Figura 53:** DevSecOps + QA nivel 2. Imagen fuente (  https://www.infoworld.com/article/3545337/10-steps-to-automating-security-in-kubernetes-pipelines.html  )
