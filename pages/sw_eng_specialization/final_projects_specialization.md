@@ -76,9 +76,9 @@
 		- [3.4.10 Penetration Testing](#3.4.10_Penetration_Testing)
 		- [3.4.10.11 Ejemplo de un proceso de Penetration Testing](#3.4.10.11_Ejemplo_de_un_proceso_de_Penetration_Testing)
 	- [3.5 Ops ByDesign](#3.5_Ops_ByDesign)
-		- [3.5.1 Diseñar para Operar](3.5.1_disenia_para_operar)
-		- [3.5.2 Operar para Diseñar](3.5.2_operar_para_diseniar)
-		- [3.5.3 Métricas](3.5.3_metricas)
+		- [3.5.1 Diseñar para Operar](#3.5.1_disenia_para_operar)
+		- [3.5.2 Operar para Diseñar](#3.5.2_operar_para_diseniar)
+		- [3.5.3 Métricas](#3.5.3_metricas)
 
 <a name="1.introduction"></a>
 # 1. Introducción
