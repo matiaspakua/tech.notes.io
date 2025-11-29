@@ -250,6 +250,5 @@ WIP 👇
 
 ---
 
-# Blog siempre en progreso, como el pan de cada día!!
 
 ![](images/tech_and_bread.jpeg)
