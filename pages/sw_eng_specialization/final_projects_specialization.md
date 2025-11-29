@@ -79,6 +79,14 @@
 		- [3.5.1 Diseñar para Operar](#3.5.1_disenia_para_operar)
 		- [3.5.2 Operar para Diseñar](#3.5.2_operar_para_diseniar)
 		- [3.5.3 Métricas](#3.5.3_metricas)
+	- [3.6 DevSecOps ByDesign](#3.6_DevSecOps_ByDesign)
+		- [3.6.1. Nivel 0 del pipeline DevSecOps](#3.6.1_nivel_0_pipeline_DevSecOps)
+		- [3.6.2. Nivel 1 del pipeline DevSecOps](#3.6.2_nivel_1_pipeline_DevSecOps)
+		- [3.6.3. Nivel 2 del pipeline DevSecOps](#3.6.3_nivel_3_pipeline_DevSecOps)
+	- [3.7. Situaciones Anormales ByDesign](#3.7_situaciones_anormales_ByDesign)
+	- [3.8. Personas y Roles ByDesign](#3.8_personas_roles_ByDesign)
+	- [3.9. Aspectos Legales y Privacidad ByDesign](#3.9_aspectos_legales_privacidad_ByDesign)
+- [4. Herramientas](#)
 
 <a name="1.introduction"></a>
 # 1. Introducción
@@ -1703,7 +1711,8 @@ Los 3 aspectos más importantes se ilustran como:
 
 **Figura 50** DevSecOps Pipeline Alto Nivel (ZETTLER, 2022). Fuente:(  https://catalog.us-east-1.prod.workshops.aws/workshops/95ee7fde-4d85-47a5-99fc-7e0dee07fc94/en-US/introduction  )
 
-### Nivel 0 del pipeline DevSecOps
+<a name="3.6.1_nivel_0_pipeline_DevSecOps"></a>
+### 3.6.1. Nivel 0 del pipeline DevSecOps
 
 Primero y a modo de ejemplo, se presenta el esquema de la Fig. 51 que presenta todas las partes componentes de un modelo DevSecOps + QA, que se llamará nivel 0. Éste tipo de diseño/modelos sirve para plantear el sistema completo, sin entrar en demasiado detalle, pero que a grandes rasgos da información sobre el ecosistema a considerar para el producto.
 
@@ -1711,38 +1720,117 @@ Primero y a modo de ejemplo, se presenta el esquema de la Fig. 51 que presenta t
 
 **Figura 51**: DevSecOps + QA Ejemplo de Vista Completa Nivel 0. Imagen fuente ( https://www.linkedin.com/feed/update/urn:li:activity:6863289227103367168/  )
 
-### Nivel 1 del pipeline DevSecOps
+<a name="3.6.2_nivel_1_pipeline_DevSecOps"></a>
+### 3.6.2. Nivel 1 del pipeline DevSecOps
 
 Las siguiente etapas involucran ir bajando el nivel de detalle, siempre y cuando ese nivel de detalle aporte valor. El siguiente nivel de detalle, que se llamará nivel 1, donde el principal objetivo es identificar para cada etapa del Desarrollo y Operación, las principales amenazas basándose en el Threat modeling.
 
 Si vamos etapa por etapa en todo el pipeline, desde el escritorio del desarrollador, pasando por los repositorio de código y hasta llegar a los ambientes desplegados en clusters de kubernestes, los aspecto que se deben tener en cuenta, probar, registrar y solventar si fuera necesario son:
 
-- Critical Vulnerabilities
+- **Critical Vulnerabilities**
 	- Pueden ingresar al pipeline en cualquier etapa. Por esto es importante tener herramientas de análisis estático desde el escritorio del desarrollador hasta en los repositorios de código.
-- Security Breaks Pipeline
+- **Security Breaks Pipeline**
 	- **Configuración manual**: valerse de herramientas de despliegue IaC como terraform y ansible entre muchas otras, o sea, evitar configuraciones manuales. Todo debe estar correctamente bajo control de configuración, por ejemplo usando Git.
 	- **Falta de integración**: Asegurarse de tener un servidor de integración que "funcione".  
-- Misconfiguration:
+- **Misconfiguration:**
 	- Registros (registries)
 	- Kubernetes 
 	- Hosts de contenedores (Container Hosts)
 	- Para estos puntos: gobierno de la infraestructura, utilizar buenas prácticas, estándares y cross-checks constantes.
-- New Attack Surfaces
+- **New Attack Surfaces**
     - Vulnerabilidades en Kubernetes
     - Vulnerabilidades en Docker
     - Vulnerabilidades en herramientas (Tool Vulnerabilities)
     - Utilizar herramientas como Falco para análisis runtime de container, y muchas otras.
-- Inadequate Protection in Production
+- **Inadequate Protection in Production**
     - Exploits de contenedores (Container Exploits)
     - Vulnerabilidades de día cero (Zero day)
     - Amenazas internas (Insiders)
     - Valerse de equipos de pentesting, herramientas de monitoreo y observabilidad.
 
 
-### Nivel 2 del pipeline DevSecOps
+<a name="3.6.3_nivel_3_pipeline_DevSecOps"></a>
+### 3.6.3. Nivel 2 del pipeline DevSecOps
 
 Finalmente, para el escenario planteado, se puede modelar un tercer nivel de detalle, que se llamará nivel 2 Fig. 53, donde se especifican con más detalle las prácticas y posibles herramientas para aplicar en cada etapa del pipeline DevSecOps + QA orientados en detectar fallas o vulnerabilidades de seguridad.
 
 ![](../../images/dev_sec_ops_kubernetes-security.jpg)
 
 **Figura 53:** DevSecOps + QA nivel 2. Imagen fuente (  https://www.infoworld.com/article/3545337/10-steps-to-automating-security-in-kubernetes-pipelines.html  )
+
+Para cada una de las fases del ciclo de vida, las siguientes prácticas son las recomendadas:
+
+1. Build:
+	1. Build scan => aplicar Security Policies as Code
+2. Testing y staging:
+	1. Registry scan:
+		1. Aprendisaje basado en el comportamiento del sistema.
+3. Producción:
+	1. Scaning en run-time
+	2. Benchmark CIS (ver https://learn.microsoft.com/en-us/compliance/regulatory/offering-cis-benchmark)
+	3. Auditoria y control de Compliance: PCI, GRDP, NIST
+	4. Control de accesos (roles, permisos y privilegios)
+	5. Firewall y otras técnicas de control inbound and outbound
+	6. Container, carga de trabajo y seguridad en los host.
+	7. Reporte de Riegos
+	8. Alertas y análisis forence.
+
+<a name="3.7_situaciones_anormales_ByDesign"></a>
+## 3.7. Situaciones Anormales ByDesign
+
+Hasta ahora se ha planteado trabajar en el modelado, diseño, implementación y pruebas desde la perspectiva cuando todo funciona de manera correcta. No obstante, no se puede tener un buen diseño y mucho menos una implementación de la metodología DevSecOps y de los aspectos de QA asociados sin hablar de las fallas, caídas, ataques, DoS, DDOS y todas las categorías de escenario desafortunados que usualmente suceden (Fig. 54).
+
+![](../../images/404_error_page.png)
+**Figura 54** HTTP estado de error - Sistema fuera de servicio.
+
+
+Se deben considerar, especificar y modelar desde el inicio (idealmente) aquellos aspectos o escenarios desafortunados o no esperados durante el ciclo de vida de un producto de software, para poder generar así planes de contingencias, planes de acción, reacción o cualquier actividad de mitigación posible. Algunos de los aspectos a considerar son:
+
+- Logs de la aplicación, centralizados, claros y disponibles ante fallas.
+- Manejo de excepciones y logs adecuados.
+- Logs de versiones de componentes de software y dependencias, así como SO host y otros.
+- Monitoreo de infraestructura de software: servidores web, por ejemplo, logs de Tomcat.
+- Monitoreo de infraestructura de hardware: RAM, CPU, I/O, Networking.
+- Monitoreo de estado de salud (heartbeats, health status, etc).
+- Mecanismo de rollback (al actualizar un componentes y/o dependencia)
+- Mecanismos de dump de bases de datos, logs, binarios, etc.
+- Mecanismos de comunicación ante fallos. Definir un template Fig.55] para usar como mecanismo de PostMorten Communication: (Rachitsky, 2010):
+
+El siguiente es un ejemplo de un template para generar un análisis post-mortem:
+
+| Prerrequisitos:                                                                                                                                                                                                                                                                                                                                                                                              | Requisitos:                                                                                                                                                                                                                                                                                                                                                                                                    |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1. Admitir el fallo: ocultar el tiempo de inactividad ya no es una opción. <br><br>2. Hablar con naturalidad: no usar una plantilla estándar ni disculparse por las molestias. <br><br>3.Disponer de un canal de comunicación: establecer un proceso para gestionar los incidentes antes de que ocurran (blog de estado, cuenta de Twitter, etc.). <br><br>4. Sobre todo, ser auténtico: debe ser escuchado. | 1. Hora de inicio y hora de finalización del incidente. <br><br>2. ¿Quién o qué se vio afectado? ¿Debería preocuparme por este incidente? ¿Qué falló? <br><br>3. ¿Qué falló y cómo lo solucionaron (con información sobre el proceso de análisis de la causa raíz)? <br><br>4. Lecciones aprendidas: ¿Qué se está haciendo para mejorar la situación de cara al futuro en tecnología, procesos y comunicación? |
+**Figura 55**: Template para generar un Informe PostMortem
+
+
+**Referencia:** Rachitsky, L. (2010, March 2). A guideline for postmortem communication. Transparent Uptime. Retrieved February 22, 2022, from http://www.transparentuptime.com/2010/03/guideline-for-postmortem-communication.html 
+
+
+<a name="3.8_personas_roles_ByDesign"></a>
+## 3.8. Personas y Roles ByDesign
+
+
+La estructura de la organización y por lo tanto la estructura de los equipos para soportar DevSecOps y QA deben ser analizadas desde el punto de vista de la colaboración, especialización y comunicación. Una posible lista de roles a tener en cuenta se detalla en (Weber et al., 2015, 13), donde se mencionan las siguientes categorías:
+
+1. **Team Size**: el tamaño del equipo. Una buena práctica viene de Amazon: Two-Pizza Team.
+2. **Team Lead**: Líder “soft” del equipo, por ejemplo, el scrum master en Scrum.
+3. **Team Member**: el equipo de desarrollo (Dev, Sec, QA).
+4. **Service Owner**: Similar al Product Owner en Scrum, se encarga de las interfaces externas.
+5. **Realiability Engineer** o SRE según Google (SRE, 2022).
+6. **DevOps Engineer**: si bien ya se especificó que DevOps o DevSecOps no son roles, en la industria se usa asignar a una persona con conocimientos amplios de la infraestructura y el desarrollo para dar soporte a los procesos y herramientas de la metodología. Es un rol similar al Scrum Master con Scrum, pero visto desde el punto de vista de aptitudes técnicas o “hard”.
+
+**Referencia:** 
+1. Two-Pizza Team:  https://docs.aws.amazon.com/whitepapers/latest/introduction-devops-aws/two-pizza-teams.html
+2. Wikipedia contributors. (2022, February 15). Site reliability engineering. In Wikipedia, The Free Encyclopedia. Retrieved 23:24, March 8, 2022, from https://en.wikipedia.org/w/index.php?title=Site_reliability_engineering&oldid=1071948725 
+
+
+<a name="3.9_aspectos_legales_privacidad_ByDesign"></a>
+## 3.9. Aspectos Legales y Privacidad ByDesign
+
+Finalmente un último, pero no menos importante, aspecto a tener en cuenta en el diseño de un producto de software son los relacionados a aspectos legales y de licencias (Software Licences, 2022), tanto del código, herramientas y otros componentes de terceros que formen parte tanto del desarrollo de un producto, como del producto en sí mismo.
+Cada organización debería asesorarse legalmente y definir para los productos que desarrolla y disponibiliza, las licencias y aspectos legales asociados.
+Existen herramientas online disponibles para generar licencias de forma automática, pero en cualquier caso, el asesoramiento legal siempre es recomendado. En la sección de herramientas se expone un ejemplo de herramienta online para generación de licencias que puede ser de utilidad como punto de partida. 
+
+**Referencia:** Wikipedia contributors. (2022, March 25). Software license. In Wikipedia, The Free Encyclopedia. Retrieved 22:27, April 7, 2022, from https://en.wikipedia.org/w/index.php?title=Software_license&oldid=1079095846
+

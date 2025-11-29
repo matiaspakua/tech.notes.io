@@ -191,6 +191,31 @@ WIP 👇
 ---
 
 
+# 🌐Web interesantes / libros
+
+- [Shape Up. A book, a web site](https://basecamp.com/shapeup)
+- [Xtrem TDD](https://xtrem-tdd.netlify.app/)
+- [Software Engineering at Google. A book, a web site](https://abseil.io/resources/swe-book)
+- [On Agile by Martin Fowler](https://martinfowler.com/agile.html)
+- [Software Design By Example. A book, a web site](https://third-bit.com/sdxjs/)
+- [On Architecture by Martin Fowler](https://martinfowler.com/architecture/)
+- [The C4 model for visualising software architecture by Simon Brown](https://c4model.com/)
+- [On Microservices. The complete reference guide](https://microservices.io/)
+- [The Architecture of Open Source Applications. A book, a web site](http://aosabook.org/en/index.html)
+- [Hexagonal Me](https://jmgarridopaz.github.io/content/articles.html) 
+- [Java SE 21: Programming Complete](https://mylearn.oracle.com/ou/course/java-se-21-programming-complete/138847)
+
+
+# 📖 Libros en curso...
+ 
+ - Clean Code: A Handbook of Agile Software Craftsmanship by Robert C. Martin (13%)
+ - Refactoring: improving the design of existing code, by Martin Fowler (5%)
+ - Working effectively with legacy code, by Michael Feathers (5%)
+ - Spring in Action, 5th Edition by Craig Walls (80%)
+ - HEAD FIRST JAVA, 3RD EDITION: A BRAIN-FRIENDLY GUIDE (70%)
+ - Habito Atomico, James Clear
+
+
 # 📚 Libros leídos
 
  * [Modern Software Engineering: Doing What Works to Build Better Software Faster, By David Farley](/pages/books/modern_software_engineering.md)
@@ -206,30 +231,6 @@ WIP 👇
  * The Object Primer, 3rd Edition, Scott Ambler 
  * Structured Computer Organization, 5 ed. Tanenbaum
  * Computer Networks, 5 ed. Tanenbaum
-
-# 📖 Libros en curso...
- 
- - Clean Code: A Handbook of Agile Software Craftsmanship by Robert C. Martin (13%)
- - Refactoring: improving the design of existing code, by Martin Fowler (5%)
- - Working effectively with legacy code, by Michael Feathers (5%)
- - Spring in Action, 5th Edition by Craig Walls (80%)
- - HEAD FIRST JAVA, 3RD EDITION: A BRAIN-FRIENDLY GUIDE (70%)
- - Habito Atomico, James Clear
-
-# 🌐Web interesantes / libros
-
-- [Shape Up. A book, a web site](https://basecamp.com/shapeup)
-- [Xtrem TDD](https://xtrem-tdd.netlify.app/)
-- [Software Engineering at Google. A book, a web site](https://abseil.io/resources/swe-book)
-- [On Agile by Martin Fowler](https://martinfowler.com/agile.html)
-- [Software Design By Example. A book, a web site](https://third-bit.com/sdxjs/)
-- [On Architecture by Martin Fowler](https://martinfowler.com/architecture/)
-- [The C4 model for visualising software architecture by Simon Brown](https://c4model.com/)
-- [On Microservices. The complete reference guide](https://microservices.io/)
-- [The Architecture of Open Source Applications. A book, a web site](http://aosabook.org/en/index.html)
-- [Hexagonal Me](https://jmgarridopaz.github.io/content/articles.html) 
-- [Java SE 21: Programming Complete](https://mylearn.oracle.com/ou/course/java-se-21-programming-complete/138847)
-
 
 # Otros Libros, Novelas, etc.
 
