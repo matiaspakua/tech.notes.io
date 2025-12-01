@@ -1,0 +1,40 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
+  <diagram name="Página-1" id="OB1jCUqoOLgAkpCNKLek">
+    <mxGraphModel dx="1326" dy="552" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="yfO-fwuf_PZIrUe_Z--7-1" value="Sistemas de la&amp;nbsp;&lt;div&gt;compania&lt;/div&gt;" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/home_page.svg;" vertex="1" parent="1">
+          <mxGeometry x="-36" y="188" width="141.78" height="127.6" as="geometry" />
+        </mxCell>
+        <mxCell id="yfO-fwuf_PZIrUe_Z--7-2" value="BUILD" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#F5DEAA;shape=mxgraph.archimate3.valueStream;" vertex="1" parent="1">
+          <mxGeometry x="166" y="195" width="89" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="yfO-fwuf_PZIrUe_Z--7-3" value="TEST" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#F5DEAA;shape=mxgraph.archimate3.valueStream;" vertex="1" parent="1">
+          <mxGeometry x="253" y="195" width="84" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="yfO-fwuf_PZIrUe_Z--7-4" value="RELEASE" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#F5DEAA;shape=mxgraph.archimate3.valueStream;" vertex="1" parent="1">
+          <mxGeometry x="342" y="195" width="105" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="yfO-fwuf_PZIrUe_Z--7-6" value="SEGURIDAD" style="strokeWidth=2;html=1;shape=mxgraph.lean_mapping.fifo_sequence_flow;pointerEvents=1;fontStyle=0;fontSize=20;align=center;" vertex="1" parent="1">
+          <mxGeometry x="163" y="242" width="282" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="yfO-fwuf_PZIrUe_Z--7-7" value="PLAN" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#F5DEAA;shape=mxgraph.archimate3.valueStream;rotation=0;direction=west;" vertex="1" parent="1">
+          <mxGeometry x="152" y="313" width="148" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="yfO-fwuf_PZIrUe_Z--7-8" value="MONITOREAR" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#F5DEAA;shape=mxgraph.archimate3.valueStream;rotation=0;direction=west;" vertex="1" parent="1">
+          <mxGeometry x="303" y="313" width="142" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="yfO-fwuf_PZIrUe_Z--7-9" value="Clientes /&amp;nbsp;&lt;div&gt;Usuarios&lt;/div&gt;" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.client_application" vertex="1" parent="1">
+          <mxGeometry x="507" y="192" width="165.63" height="106" as="geometry" />
+        </mxCell>
+        <mxCell id="yfO-fwuf_PZIrUe_Z--7-10" value="Delivery pipeline" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=23;" vertex="1" parent="1">
+          <mxGeometry x="185.5" y="131" width="237" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yfO-fwuf_PZIrUe_Z--7-11" value="Feedback loop" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=23;" vertex="1" parent="1">
+          <mxGeometry x="185.5" y="382" width="237" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
