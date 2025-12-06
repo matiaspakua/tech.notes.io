@@ -31,9 +31,7 @@
 --- 
 
 
-# 🌐General
-
-
+## 🌐 General
 
 - [Introduction and notes on NoSQL Databases](/pages/general_topic/nosql_the_basis_of.md) 
 - [Specialisation Building Cloud Computing Solutions at Scale](/pages/general_topic/specialization_building_cloud_computing_solutions_at_scale.md)
@@ -43,7 +41,7 @@
 - [Tech Trends 2023](/pages/general_topic/tech_trends_2023.md)
 - [A reflection on Software Engineering: A Journey of Creativity and Rigor](/pages/general_topic/reflection_on_software_engineering.md)
 * [Introducción desde cero a Kubernetes](/pages/general_topic/kubernetes.md) 
-# 💻 Desarrollo y Programación
+## 💻 Desarrollo y Programación
 
 - [Spring Framework Notes](/pages/development/spring_framework_notes.md)
 - [Notas de Java](/pages/development/on_java_notes.md)
@@ -56,13 +54,13 @@
 - [OpenAPI](/pages/development/OpenApi.md)
 - [Interfaces Funcionales en Java](/pages/development/java_interfaces_funcionales.md)
 
-# 🧪 Testing de sistemas y software 
+## 🧪 Testing de sistemas y software 
 
 - [Gherkin and Automation](/pages/testing/gherkin_and_automation.md)
 - [On Unit Test, TDD and BDD](/pages/testing/on_unit_test_tdd_and_bdd.md)
 - [BDD with Cucumber for Java course](/pages/testing/bdd_with_cucumber_java_notes.md) 
 
-# 🛠️ Arquitectura e Ingeniería de Software
+## 🛠️ Arquitectura e Ingeniería de Software
 
 - [Agile and SCRUM. The perks of know nothing](/pages/software_engineering/agile_and_scrum.md)
 - [Waterfall: what really means the paper](/pages/software_engineering/waterfall.md)
@@ -73,7 +71,11 @@
 - [Vertical Slicing Architectures](/pages/sw_and_system_architecture/vertical_slicing_architectures.md)
 - [Sustainable Software Architecture](/pages/sw_and_system_architecture/sustainable_software_architecture.md)
 
-# 🔒 Ciberseguridad
+## Espacio, satélites e ingeniería aeroespacial
+
+
+
+## 🔒 Ciberseguridad
 
 * [Conference h4cked 2022](/pages/cybersecurity/cybersecurity_h4ck3d.md)
 * [Cybersecurity Foundations](/pages/cybersecurity/cybersecurity_foundations.md)
@@ -82,7 +84,7 @@
 * [DevOps Foundations: DevSecOps](/pages/cybersecurity/dev_sec_ops_foundations.md)
 * [Threat analysis con Falco y AWS security Hub](pages/cybersecurity/falco_runtime_security_for_container.md)
 
-# 🤝 Liderazgo y colaboración
+## 🤝 Liderazgo y colaboración
 
  - [¿Qué nos enseña El Principito para aplicar en la ingeniería?](/pages/leadership/what_the_little_prince_teach_about_engineering.md) 
  - [De developer a líder: notas y libros sugeridos](/pages/leadership/dev_to_tech_lead.md)
@@ -91,7 +93,7 @@
  - [Emotional Intelligence](/pages/leadership/emotional_intelligence.md)
  - [Gestión del tiempo (Time Management)](/pages/leadership/time_management.md)
 
-# 🌍 WeAreDevelopers World Congress 2024 Berlin
+## 🌍 WeAreDevelopers World Congress 2024 Berlin
 
 ![](images/we_are_developers_banner.png)
 
@@ -118,11 +120,11 @@ Charlas --> [Notas de las charlas](/pages/we_are_developers_wc_2024/landing.md)
 19. [Modern data Architectures need software engineering >> Matthias Niehoff](pages/we_are_developers_wc_2024/charla_19.md)
 20. [Serverless Java in action: cloud agnostic design patterns and tips >> Kevin Dubois & Daniel Oh](pages/we_are_developers_wc_2024/charla_20.md)
 
-# 📚 Cursos y Charlas 🎤
+## 📚 Cursos y Charlas 🎤
 
  * [Visual Thinking](/pages/cursos/visual_thinking.md)
 
-# 🎓 UCA - Especialización en Ingeniería de Software
+## 🎓 UCA - Especialización en Ingeniería de Software
 
 ![200x60](images/uca_logo.png)
 
@@ -159,7 +161,7 @@ WIP 👇
 -  [DevSecOps desde la perspectiva de QA Automation](pages/sw_eng_specialization/final_projects_specialization.md)
 *  [Materias y notas de la especialización](/pages/sw_eng_specialization/landing.md)
 
-# 🎓 UP -  Master en tecnología de la Información
+## 🎓 UP -  Master en tecnología de la Información
 
 ![](images/logo_universidad_palermo.png)
 
@@ -168,7 +170,7 @@ WIP 👇
   - [Seguridad Informática](pages/master_ti/seguridad_informatica/landing.md)
  - [Materias y notas del master](pages/master_ti/landing.md)
 
-# 🎓laSalle BCN - Master en Dirección Tecnológica e Innovación Digital
+## 🎓 laSalle BCN - Master en Dirección Tecnológica e Innovación Digital
 
 ![](images/logo_lasalle_bcn.png)
 
