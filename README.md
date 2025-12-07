@@ -1,12 +1,12 @@
 ![](images/banner.png)
 
-¡Bienvenidos a mi blog personal de Notas Tecnológicas! 🚀 Aquí voy recopilando información sobre cursos, libros, notas, universidad, posgrados y cualquier otra fuente. Una bolsa de sastre basicamente.
+¡Bienvenidos a mi blog personal de Notas Tecnológicas! 🚀 Aquí voy recopilando información sobre cursos, libros, notas, universidad, posgrados y cualquier otra fuente. Una bolsa de sastre básicamente.
 
-**¿Quién soy?** Conéctate conmigo en LinkedIn y hablemos: [Matias Miguez](https://www.linkedin.com/in/matiasmiguez/) 🤝
+**¿Quién soy?** Conectemos en LinkedIn y hablemos: [Matias Miguez](https://www.linkedin.com/in/matiasmiguez/) 
 
-**Estado de despliegue en GitHub Pages:**: [![pages-build-deployment](https://github.com/matiaspakua/tech.notes.io/actions/workflows/pages/pages-build-deployment/badge.svg?branch=main)](https://github.com/matiaspakua/tech.notes.io/actions/workflows/pages/pages-build-deployment) 🛠️
+🛠️ **Estado de despliegue en GitHub Pages:**: [![pages-build-deployment](https://github.com/matiaspakua/tech.notes.io/actions/workflows/pages/pages-build-deployment/badge.svg?branch=main)](https://github.com/matiaspakua/tech.notes.io/actions/workflows/pages/pages-build-deployment) 
 
-<mark style="background: #BBFABBA6;">IMPORTANTE</mark>: Todas las notas compartidas aquí reflejan mi investigación personal, mi camino de aprendizaje y mis opiniones. Siempre pondre las referencias a los autores originales y respeto los derechos de autor. 🔍📚
+<mark style="background: #BBFABBA6;">IMPORTANTE</mark>: Todas las notas compartidas aquí reflejan mi investigación personal, mi camino de aprendizaje y mis opiniones. Siempre pondré las referencias a los autores originales y respeto los derechos de autor. 🔍📚
 
 <style>
   .libutton {
@@ -41,6 +41,7 @@
 - [Tech Trends 2023](/pages/general_topic/tech_trends_2023.md)
 - [A reflection on Software Engineering: A Journey of Creativity and Rigor](/pages/general_topic/reflection_on_software_engineering.md)
 * [Introducción desde cero a Kubernetes](/pages/general_topic/kubernetes.md) 
+* [Visual Thinking](/pages/cursos/visual_thinking.md)
 ## 💻 Desarrollo y Programación
 
 - [Spring Framework Notes](/pages/development/spring_framework_notes.md)
@@ -71,9 +72,10 @@
 - [Vertical Slicing Architectures](/pages/sw_and_system_architecture/vertical_slicing_architectures.md)
 - [Sustainable Software Architecture](/pages/sw_and_system_architecture/sustainable_software_architecture.md)
 
-## Espacio, satélites e ingeniería aeroespacial
+##  🚀🛰️🌌 Espacio, satélites e ingeniería aeroespacial
 
-
+[[space_introduccion]]
+[[orbit_propagation]]
 
 ## 🔒 Ciberseguridad
 
@@ -92,6 +94,7 @@
  - [Negociación y resolución de conflictos](/pages/leadership/resolucion_de_conflictos.md)
  - [Emotional Intelligence](/pages/leadership/emotional_intelligence.md)
  - [Gestión del tiempo (Time Management)](/pages/leadership/time_management.md)
+ - [Como hacer Presentaciones](/pages/leadership/como_hacer_presentaciones.md)
 
 ## 🌍 WeAreDevelopers World Congress 2024 Berlin
 
@@ -120,9 +123,6 @@ Charlas --> [Notas de las charlas](/pages/we_are_developers_wc_2024/landing.md)
 19. [Modern data Architectures need software engineering >> Matthias Niehoff](pages/we_are_developers_wc_2024/charla_19.md)
 20. [Serverless Java in action: cloud agnostic design patterns and tips >> Kevin Dubois & Daniel Oh](pages/we_are_developers_wc_2024/charla_20.md)
 
-## 📚 Cursos y Charlas 🎤
-
- * [Visual Thinking](/pages/cursos/visual_thinking.md)
 
 ## 🎓 UCA - Especialización en Ingeniería de Software
 
@@ -153,10 +153,7 @@ Charlas --> [Notas de las charlas](/pages/we_are_developers_wc_2024/landing.md)
 - [Contratos y Aspectos Legales de Software](pages/sw_eng_specialization/software_legal_aspects_and_contracts.md)
 - [Ética Profesional](pages/sw_eng_specialization/professional_ethics.md)
 
-### 🔥🔥Proyecto Final🔥🔥
-
-
-WIP 👇
+### Proyecto Final
 
 -  [DevSecOps desde la perspectiva de QA Automation](pages/sw_eng_specialization/final_projects_specialization.md)
 *  [Materias y notas de la especialización](/pages/sw_eng_specialization/landing.md)
@@ -210,11 +207,11 @@ WIP 👇
 
 # 📖 Libros en curso...
  
- - Clean Code: A Handbook of Agile Software Craftsmanship by Robert C. Martin (13%)
- - Refactoring: improving the design of existing code, by Martin Fowler (5%)
- - Working effectively with legacy code, by Michael Feathers (5%)
- - Spring in Action, 5th Edition by Craig Walls (80%)
- - HEAD FIRST JAVA, 3RD EDITION: A BRAIN-FRIENDLY GUIDE (70%)
+ - Clean Code: A Handbook of Agile Software Craftsmanship by Robert C. Martin 
+ - Refactoring: improving the design of existing code, by Martin Fowler 
+ - Working effectively with legacy code, by Michael Feathers 
+ - Spring in Action, 5th Edition by Craig Walls 
+ - HEAD FIRST JAVA, 3RD EDITION: A BRAIN-FRIENDLY GUIDE
  - Habito Atomico, James Clear
 
 
