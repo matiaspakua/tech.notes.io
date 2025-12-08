@@ -1834,3 +1834,117 @@ Existen herramientas online disponibles para generar licencias de forma automát
 
 **Referencia:** Wikipedia contributors. (2022, March 25). Software license. In Wikipedia, The Free Encyclopedia. Retrieved 22:27, April 7, 2022, from https://en.wikipedia.org/w/index.php?title=Software_license&oldid=1079095846
 
+---
+
+# 4. Herramientas
+
+Dado que DevSecOps está destinado a ser una forma de trabajo multi-funcional, para implementar la metodología se necesitan utilizan diferentes conjuntos de herramientas para cada diferente etapa (Fig. 56), que se denominan: **toolchains.**
+
+Una "toolchain" no es otra cosa que un conjunto de herramientas configuradas, según un stack tecnológico específico, basado en el tipo de proyecto, para desarrollar, testear o simplemente ejecutar/levantar un componente de software.
+
+![](../../images/devops-lifecycle-with-toolchains-tool.jpg)
+**Figura 56**: Herramientas o Toolchains de soporte en DevSecOps y QA.
+
+**Referencia:** https://www.ryadel.com/en/devops-methodology-lifecycle-best-practices-explained/
+
+Se espera que estas herramientas estén en una o más de las siguientes categorías, lo que refleja aspectos clave del proceso de desarrollo, delivery y sobre todo de QA:
+
+1. **Análisis, Modelado y Codificación**: modelado, desarrollo y revisión de código, herramientas de gestión de código fuente, combinación de código.
+2. **Construcción**: herramientas de integración continua, compilación, estado de la construcción, gestión de dependencias.
+3. **Pruebas y QA Automation**: herramientas de pruebas continuas que brindan retroalimentación rápida y oportuna sobre los riesgos, defectos, anomalías, vulnerabilidades..
+4. **Empaquetado**: empaquetado, generación de imágenes, repositorio de artefactos, preparación previa a la implementación de la aplicación.
+5. **Liberaciones**: gestión de cambios, aprobaciones de versiones, automatización de versiones.
+6. **Configuración**: configuración y gestión de la infraestructura, infraestructura como código, orquestación de servidores, nodos, deployments.
+7. **Supervisión**: supervisión del rendimiento de las aplicaciones, experiencia del usuario final, registros de eventos, métricas generales.
+
+A continuación se listan ejemplos de herramientas para cada una de las categorías mencionadas. El propósito de listar las herramientas está asociado a presentar ejemplos de herramientas para evaluar su implementación en toolchains con el objetivo de dar soporte a un proceso de implementación de la metodología DevSecOps. También es importante evaluar que éstas herramientas aporten valor a los aspecto de QA del producto final y a los usuarios final.
+
+>[!note] 
+> Las herramientas que se nombran están fuertemente orientadas a un toolchain basado en Java, pero el mismo conjunto de herramientas se puede encontrar con cualquier tecnología elegida.
+
+
+
+## 4.1. Análisis, Modelado y Codificación
+
+Las siguientes herramientas se pueden utilizar desde el análisis, hasta la implementación. Cada herramienta tiene sus pro y cons, por lo tanto, al momento de elegirlas, se deberán considerar varios aspectos, desde la utilidad especifica hasta aspecto como la seguridad de la compañía, donde muchas veces no se pueden utilizar herramientas que no estén autorizadas.
+
+- PlantUML - Para el análisis y diseño. Integrado con Git y varios IDE's:  https://plantuml.com/
+- Drawio - Para un análisis más "libre": https://www.drawio.com/
+- Git - Gestión de código fuente: https://git-scm.com/ 
+- Gitlab - Repositorio de Código Fuente Integrado: https://about.gitlab.com/
+- Etiquetado o Tagging: https://semver.org/
+- Git Flow - Gestión de ramas o Branching (Driessen, 2010)
+- Changelog de ramas y versiones: https://keepachangelog.com/en/1.0.0/
+- Readme y datos importantes: https://www.makeareadme.com/
+- IDE - Entorno de Desarrollo Integrado: https://www.jetbrains.com/idea/
+- Gestión de Proyectos y tareas: https://docs.gitlab.com/ee/topics/plan_and_track.html 
+- Gitlab Wiki - Documentación de Arquitectura SAD y ADR: https://docs.gitlab.com/ee/user/project/wiki/  (o Github pages, JIRA confluence, entre muchas otras)
+- Gitlab Wiki (modelado gráfico de diagramas con Mermaid.js): https://docs.gitlab.com/ee/user/markdown.html#diagrams-and-flowcharts y https://mermaid-js.github.io/mermaid/#/ 
+- Convenciones de código: https://www.oracle.com/java/technologies/javase/codeconventions-contents.html 
+
+## 4.2. Construcción
+
+
+- GNU Make - Herramienta de generación automática de empaquetados (builds): (Make, 2022)
+- Maven - Gestión de paquetes y dependencias: https://maven.apache.org/
+- Gradle - Gradle es un sistema de automatización de construcción: https://gradle.org/
+- Gitlab-CI - Servidor de Integración Continua o CI https://docs.gitlab.com/ee/ci/  (o Jenkins o Azure devOps o Github actions, etc.)
+- Generador de Licencias de código: https://commercial.polyformproject.org/ 
+
+## 4.3. Pruebas, Seguridad y QA Automation
+
+- xUnit / JUnit - Framework para testing unitario basado en Java: https://junit.org/junit5/
+- Robot Framework - Framework de automatización genérico de código abierto. Se puede utilizar para la automatización de pruebas y la automatización de procesos robóticos (RPA): https://robotframework.org/
+- Postman & Newman - Postman es una plataforma de API para crear y usar APIs, y Newman es un Collection Runner de línea de comandos para Postman: https://www.postman.com/product/what-is-postman/ y https://learning.postman.com/docs/running-collections/using-newman-cli/command-line-integration-with-newman/ 
+- Bruno (alternativa a Postman) - https://www.usebruno.com/
+- JMeter - Performance & Load Testing - Es un software de código abierto, una aplicación Java 100% pura diseñada para testing de cargar, probar el comportamiento funcional y medir el rendimiento. https://jmeter.apache.org/
+- RPA Framework - Es una colección de bibliotecas y herramientas de código abierto para la automatización robótica de procesos (RPA), y está diseñado para usarse tanto con Robot Framework como con Python: https://rpaframework.org/ 
+- Security Tools (SAST) -  es un programa que utiliza análisis estático para buscar errores en el código Java: https://find-sec-bugs.github.io/
+- Security Tools (DAST) -  https://docs.fluidattacks.com/machine/scanner 
+- Security Tools (OWASP ZAP) - es una herramienta gratuita de prueba de penetración de código abierto: https://owasp.org/www-project-zap/ y https://www.zaproxy.org/getting-started/ 
+- Security Tools (SQL MAP) -Es una herramienta de prueba de penetración de código abierto que automatiza el proceso de detección y explotación de fallas de inyección SQL y toma de control de servidores de bases de datos: https://sqlmap.org/
+- Security Tools (User Security Stories) - Ejemplos de definición de historias de usuarios basadas en Seguridad: https://github.com/OWASP/user-security-stories 
+- Microsoft Threat Modeling Tool -  Herramienta para crear diagramas, identificar amenazas, definiendo mecanismos de mitigación y validando cada mitigación: https://docs.microsoft.com/en-us/azure/security/develop/threat-modeling-tool-getting-started 
+
+
+## 4.4. Empaquetado 
+
+- Docker: https://www.docker.com/ 
+- JAR / WAR - Formato de empaquetado de productos de Software basados en Java: https://en.wikipedia.org/wiki/WAR_(file_format) 
+- JFROG Artifactory - Repositorio Centralizado de Artefactos Fig. 57: https://www.jfrog.com/confluence/display/JFROG/JFrog+Artifactory 
+- Versionado de Artefactos y Meta-información
+
+![](../../images/artifactory_versionado.png)
+**Figura 57:** Artifactory - Manipulación de artefactos
+
+**Referencia:** https://jfrog.com/help/r/how-does-build-promotion-work/artifactory-how-does-build-promotion-work
+
+## 4.5. Liberaciones (releases)
+
+* Artifactory + Gitlab - CI/CD con una estrategia de promoción de artefactos (Fig. 58):  https://jfrog.com/knowledge-base/how-does-build-promotion-work/ 
+
+![](../../images/artifactory_promocion_artefactos.png)
+**Figura 58:** Artifactory - Mecanismo de Promoción de Artefactos
+
+## 4.6. Configuración y Gestión de Infraestructura
+
+Kubernetes: https://kubernetes.io/ 
+Helm Charts: https://helm.sh/
+Ansible: https://www.ansible.com/overview/devops/ 
+Puppets: https://puppet.com/devops/ 
+Chef: https://www.chef.io/
+
+## 4.7. Supervisión y Monitoreo
+
+OpenTelemetry: https://opentelemetry.io/  
+ElasticStack: https://www.elastic.co/es/elastic-stack/ 
+New Relic: https://newrelic.com/platform 
+Nagios: https://www.nagios.org/ 
+Grafana: https://grafana.com/
+Prometheus: https://prometheus.io/
+
+## 4.8. Conclusiones
+
+Finalmente, el toolchain puede resultar abrumador a primeras, pero termina siendo muy necesario si se quiere automatizar todo el ciclo de desarrollo de un producto. Automatizar, no solo es un beneficio técnico sino también a nivel negocio, debido a que permite reducir tiempos, por lo tanto, se reducen costos. Permite además, una vez aceitado todo el proceso, aumentar la velocidad de generar nuevas features del producto/servicio y por lo tanto, aumenta el valor a negocio.
+
+
