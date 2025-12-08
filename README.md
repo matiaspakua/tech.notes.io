@@ -42,6 +42,8 @@
 - [A reflection on Software Engineering: A Journey of Creativity and Rigor](/pages/general_topic/reflection_on_software_engineering.md)
 * [Introducción desde cero a Kubernetes](/pages/general_topic/kubernetes.md) 
 * [Visual Thinking](/pages/cursos/visual_thinking.md)
+
+
 ## 💻 Desarrollo y Programación
 
 - [Spring Framework Notes](/pages/development/spring_framework_notes.md)
@@ -72,7 +74,7 @@
 - [Vertical Slicing Architectures](/pages/sw_and_system_architecture/vertical_slicing_architectures.md)
 - [Sustainable Software Architecture](/pages/sw_and_system_architecture/sustainable_software_architecture.md)
 
-##  🚀🛰️🌌 Espacio, satélites e ingeniería aeroespacial
+##  🛰️  Espacio, satélites e ingeniería aeroespacial
 
 [[space_introduccion]]
 [[orbit_propagation]]
