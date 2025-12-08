@@ -95,6 +95,7 @@
 	- [4.6. Configuración y Gestión de Infraestructura](#4.6_configuración_gestion_infraestructura)
 	- [4.7. Supervisión y Monitoreo](#4.7_supervision_monitoreo)
 	- [4.8. Conclusiones](#4.8_conclusiones)
+	- [4.9. Update. Otras herramientas](#4.9_update_otras_herramientas)
 
 <a name="1.introduction"></a>
 # 1. Introducción
@@ -1961,9 +1962,17 @@ Las siguientes herramientas se pueden utilizar desde el análisis, hasta la impl
 - Grafana: [Link](https://grafana.com/)
 - Prometheus: [Link](https://prometheus.io/)
 
+
 <a name="4.8_conclusiones"></a>
 ## 4.8. Conclusiones
 
 Finalmente, el toolchain puede resultar abrumador a primeras, pero termina siendo muy necesario si se quiere automatizar todo el ciclo de desarrollo de un producto. Automatizar, no solo es un beneficio técnico sino también a nivel negocio, debido a que permite reducir tiempos, por lo tanto, se reducen costos. Permite además, una vez aceitado todo el proceso, aumentar la velocidad de generar nuevas features del producto/servicio y por lo tanto, aumenta el valor a negocio.
+
+<a name="4.9_update_otras_herramientas"></a>
+## 4.9. Update. Otras herramientas
+
+Como es normal, todo el tiempo están surgiendo herramientas nuevas, mejores o que reemplazan a otras que ya no existen, a continuación listo algunas de las ultima herramientas que he visto y me parecen muy interesantes para observar y probar:
+1. Modelado de sistemas: [link](https://systemforge.app/) . La descubri por el siguiente post: [Link](https://www.linkedin.com/posts/cauenapier_systemsengineering-mbse-sysml-ugcPost-7400899974319927296-D2j5?utm_source=share&utm_medium=member_desktop&rcm=ACoAADXjTjwBuJRTMS15dwLutB1fDEtOwXbs314)
+2. Falco seguridad en runtime para containers: [Link](https://falco.org/), en una charla de meetup BCN: [Link](https://www.linkedin.com/posts/matiasmiguez_devops-kubernetes-opensource-activity-7399157735281397760-TLt3?utm_source=share&utm_medium=member_desktop&rcm=ACoAADXjTjwBuJRTMS15dwLutB1fDEtOwXbs314)
 
 
