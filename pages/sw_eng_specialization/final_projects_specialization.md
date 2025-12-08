@@ -1877,53 +1877,53 @@ A continuación se listan ejemplos de herramientas para cada una de las categor�
 
 Las siguientes herramientas se pueden utilizar desde el análisis, hasta la implementación. Cada herramienta tiene sus pro y cons, por lo tanto, al momento de elegirlas, se deberán considerar varios aspectos, desde la utilidad especifica hasta aspecto como la seguridad de la compañía, donde muchas veces no se pueden utilizar herramientas que no estén autorizadas.
 
-- PlantUML - Para el análisis y diseño. Integrado con Git y varios IDE's:  https://plantuml.com/
-- Drawio - Para un análisis más "libre": https://www.drawio.com/
-- Git - Gestión de código fuente: https://git-scm.com/ 
-- Gitlab - Repositorio de Código Fuente Integrado: https://about.gitlab.com/
-- Etiquetado o Tagging: https://semver.org/
+- PlantUML - Para el análisis y diseño. Integrado con Git y varios IDE's: [Link](https://plantuml.com/)
+- Drawio - Para un análisis más "libre": [Link](https://www.drawio.com/)
+- Git - Gestión de código fuente: [Link](https://git-scm.com/ )
+- Gitlab - Repositorio de Código Fuente Integrado: [Link](https://about.gitlab.com/)
+- Etiquetado o Tagging: [Link](https://semver.org/)[Link](
 - Git Flow - Gestión de ramas o Branching (Driessen, 2010)
-- Changelog de ramas y versiones: https://keepachangelog.com/en/1.0.0/
-- Readme y datos importantes: https://www.makeareadme.com/
-- IDE - Entorno de Desarrollo Integrado: https://www.jetbrains.com/idea/
-- Gestión de Proyectos y tareas: https://docs.gitlab.com/ee/topics/plan_and_track.html 
-- Gitlab Wiki - Documentación de Arquitectura SAD y ADR: https://docs.gitlab.com/ee/user/project/wiki/  (o Github pages, JIRA confluence, entre muchas otras)
-- Gitlab Wiki (modelado gráfico de diagramas con Mermaid.js): https://docs.gitlab.com/ee/user/markdown.html#diagrams-and-flowcharts y https://mermaid-js.github.io/mermaid/#/ 
-- Convenciones de código: https://www.oracle.com/java/technologies/javase/codeconventions-contents.html 
+- Changelog de ramas y versiones: [Link](https://keepachangelog.com/en/1.0.0/)
+- Readme y datos importantes: [Link](https://www.makeareadme.com/)
+- IDE - Entorno de Desarrollo Integrado: [Link](https://www.jetbrains.com/idea/)
+- Gestión de Proyectos y tareas: [Link](https://docs.gitlab.com/ee/topics/plan_and_track.html )
+- Gitlab Wiki - Documentación de Arquitectura SAD y ADR: [Link](https://docs.gitlab.com/ee/user/project/wiki/)  (o Github pages, JIRA confluence, entre muchas otras)
+- Gitlab Wiki (modelado gráfico de diagramas con Mermaid.js): [Link](https://docs.gitlab.com/ee/user/markdown.html#diagrams-and-flowcharts) y [Link](https://mermaid-js.github.io/mermaid/#/ )
+- Convenciones de código: [Link](https://www.oracle.com/java/technologies/javase/codeconventions-contents.html)
 
 <a name="4.2_construccion"></a>
 ## 4.2. Construcción
 
 
 - GNU Make - Herramienta de generación automática de empaquetados (builds): (Make, 2022)
-- Maven - Gestión de paquetes y dependencias: https://maven.apache.org/
-- Gradle - Gradle es un sistema de automatización de construcción: https://gradle.org/
-- Gitlab-CI - Servidor de Integración Continua o CI https://docs.gitlab.com/ee/ci/  (o Jenkins o Azure devOps o Github actions, etc.)
-- Generador de Licencias de código: https://commercial.polyformproject.org/ 
+- Maven - Gestión de paquetes y dependencias: [Link](https://maven.apache.org/)
+- Gradle - Gradle es un sistema de automatización de construcción: [Link](https://gradle.org/)
+- Gitlab-CI - Servidor de Integración Continua o CI [Link](https://docs.gitlab.com/ee/ci/)  (o Jenkins o Azure devOps o Github actions, etc.)
+- Generador de Licencias de código: [Link](https://commercial.polyformproject.org/)
 
 <a name="4.3_pruebas_seguridad_QA_automation"></a>
 ## 4.3. Pruebas, Seguridad y QA Automation
 
-- xUnit / JUnit - Framework para testing unitario basado en Java: https://junit.org/junit5/
-- Robot Framework - Framework de automatización genérico de código abierto. Se puede utilizar para la automatización de pruebas y la automatización de procesos robóticos (RPA): https://robotframework.org/
-- Postman & Newman - Postman es una plataforma de API para crear y usar APIs, y Newman es un Collection Runner de línea de comandos para Postman: https://www.postman.com/product/what-is-postman/ y https://learning.postman.com/docs/running-collections/using-newman-cli/command-line-integration-with-newman/ 
-- Bruno (alternativa a Postman) - https://www.usebruno.com/
-- JMeter - Performance & Load Testing - Es un software de código abierto, una aplicación Java 100% pura diseñada para testing de cargar, probar el comportamiento funcional y medir el rendimiento. https://jmeter.apache.org/
-- RPA Framework - Es una colección de bibliotecas y herramientas de código abierto para la automatización robótica de procesos (RPA), y está diseñado para usarse tanto con Robot Framework como con Python: https://rpaframework.org/ 
-- Security Tools (SAST) -  es un programa que utiliza análisis estático para buscar errores en el código Java: https://find-sec-bugs.github.io/
-- Security Tools (DAST) -  https://docs.fluidattacks.com/machine/scanner 
-- Security Tools (OWASP ZAP) - es una herramienta gratuita de prueba de penetración de código abierto: https://owasp.org/www-project-zap/ y https://www.zaproxy.org/getting-started/ 
-- Security Tools (SQL MAP) -Es una herramienta de prueba de penetración de código abierto que automatiza el proceso de detección y explotación de fallas de inyección SQL y toma de control de servidores de bases de datos: https://sqlmap.org/
-- Security Tools (User Security Stories) - Ejemplos de definición de historias de usuarios basadas en Seguridad: https://github.com/OWASP/user-security-stories 
-- Microsoft Threat Modeling Tool -  Herramienta para crear diagramas, identificar amenazas, definiendo mecanismos de mitigación y validando cada mitigación: https://docs.microsoft.com/en-us/azure/security/develop/threat-modeling-tool-getting-started 
+- xUnit / JUnit - Framework para testing unitario basado en Java: [Link](https://junit.org/junit5/)
+- Robot Framework - Framework de automatización genérico de código abierto. Se puede utilizar para la automatización de pruebas y la automatización de procesos robóticos (RPA): [Link](https://robotframework.org/)
+- Postman & Newman - Postman es una plataforma de API para crear y usar APIs, y Newman es un Collection Runner de línea de comandos para Postman: [Link](https://www.postman.com/product/what-is-postman/ y https://learning.postman.com/docs/running-collections/using-newman-cli/command-line-integration-with-newman/)
+- Bruno (alternativa a Postman) - [Link](https://www.usebruno.com/)
+- JMeter - Performance & Load Testing - Es un software de código abierto, una aplicación Java 100% pura diseñada para testing de cargar, probar el comportamiento funcional y medir el rendimiento. [Link](https://jmeter.apache.org/)
+- RPA Framework - Es una colección de bibliotecas y herramientas de código abierto para la automatización robótica de procesos (RPA), y está diseñado para usarse tanto con Robot Framework como con Python: [Link](https://rpaframework.org/)
+- Security Tools (SAST) -  es un programa que utiliza análisis estático para buscar errores en el código Java: [Link](https://find-sec-bugs.github.io/)
+- Security Tools (DAST) -  [Link](https://docs.fluidattacks.com/machine/scanner)
+- Security Tools (OWASP ZAP) - es una herramienta gratuita de prueba de penetración de código abierto: [Link](https://owasp.org/www-project-zap/ y https://www.zaproxy.org/getting-started/)
+- Security Tools (SQL MAP) -Es una herramienta de prueba de penetración de código abierto que automatiza el proceso de detección y explotación de fallas de inyección SQL y toma de control de servidores de bases de datos: [Link](https://sqlmap.org/)
+- Security Tools (User Security Stories) - Ejemplos de definición de historias de usuarios basadas en Seguridad: [Link](https://github.com/OWASP/user-security-stories)
+- Microsoft Threat Modeling Tool -  Herramienta para crear diagramas, identificar amenazas, definiendo mecanismos de mitigación y validando cada mitigación: [Link](https://docs.microsoft.com/en-us/azure/security/develop/threat-modeling-tool-getting-started) 
 
 
 <a name="4.4_empaquetado"></a>
 ## 4.4. Empaquetado 
 
-- Docker: https://www.docker.com/ 
-- JAR / WAR - Formato de empaquetado de productos de Software basados en Java: https://en.wikipedia.org/wiki/WAR_(file_format)  (o .whl para python, etc.)
-- JFROG Artifactory - Repositorio Centralizado de Artefactos Fig. 57: https://www.jfrog.com/confluence/display/JFROG/JFrog+Artifactory 
+- Docker: [Link](https://www.docker.com/)
+- JAR / WAR - Formato de empaquetado de productos de Software basados en Java: [Link](https://en.wikipedia.org/wiki/WAR_(file_format)  (o .whl para python, etc.)
+- JFROG Artifactory - Repositorio Centralizado de Artefactos Fig. 57: [Link](https://www.jfrog.com/confluence/display/JFROG/JFrog+Artifactory)
 - Versionado de Artefactos y Meta-información
 
 ![](../../images/artifactory_versionado.png)
@@ -1934,7 +1934,7 @@ Las siguientes herramientas se pueden utilizar desde el análisis, hasta la impl
 <a name="4.5_releases"></a>
 ## 4.5. Liberaciones (releases)
 
-* Artifactory + Gitlab - CI/CD con una estrategia de promoción de artefactos (Fig. 58):  https://jfrog.com/knowledge-base/how-does-build-promotion-work/ 
+* Artifactory + Gitlab - CI/CD con una estrategia de promoción de artefactos (Fig. 58):  [Link](https://jfrog.com/knowledge-base/how-does-build-promotion-work/)
 
 ![](../../images/artifactory_promocion_artefactos.png)
 **Figura 58:** Artifactory - Mecanismo de Promoción de Artefactos
@@ -1943,23 +1943,23 @@ Las siguientes herramientas se pueden utilizar desde el análisis, hasta la impl
 <a name="4.6_configuración_gestion_infraestructura"></a>
 ## 4.6. Configuración y Gestión de Infraestructura
 
-Kubernetes: https://kubernetes.io/ 
-Docker: https://www.docker.com/
-Helm Charts: https://helm.sh/
-Ansible: https://www.ansible.com/overview/devops/ 
-Puppets: https://puppet.com/devops/ 
-Chef: https://www.chef.io/
+- Kubernetes: [Link](https://kubernetes.io/)
+- Docker: [Link](https://www.docker.com/)
+- Helm Charts: [Link](https://helm.sh/)
+- Ansible: [Link](https://www.ansible.com/overview/devops/ )
+- Puppets: [Link](https://puppet.com/devops/ )
+- Chef: [Link](https://www.chef.io/)
 
 
 <a name="4.7_supervision_monitoreo"></a>
 ## 4.7. Supervisión y Monitoreo
 
-OpenTelemetry: https://opentelemetry.io/  
-ElasticStack: https://www.elastic.co/es/elastic-stack/ 
-New Relic: https://newrelic.com/platform 
-Nagios: https://www.nagios.org/ 
-Grafana: https://grafana.com/
-Prometheus: https://prometheus.io/
+- OpenTelemetry: [Link](https://opentelemetry.io/)
+- ElasticStack: [Link](https://www.elastic.co/es/elastic-stack/ )
+- New Relic: [Link](https://newrelic.com/platform)
+- Nagios: [Link](https://www.nagios.org/)
+- Grafana: [Link](https://grafana.com/)
+- Prometheus: [Link](https://prometheus.io/)
 
 <a name="4.8_conclusiones"></a>
 ## 4.8. Conclusiones
