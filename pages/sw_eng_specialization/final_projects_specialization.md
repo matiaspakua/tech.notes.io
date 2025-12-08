@@ -86,7 +86,15 @@
 	- [3.7. Situaciones Anormales ByDesign](#3.7_situaciones_anormales_ByDesign)
 	- [3.8. Personas y Roles ByDesign](#3.8_personas_roles_ByDesign)
 	- [3.9. Aspectos Legales y Privacidad ByDesign](#3.9_aspectos_legales_privacidad_ByDesign)
-- [4. Herramientas](#)
+- [4. Herramientas](#4.herramientas)
+	- [4.1. Análisis, Modelado y Codificación](#4.1_analisis_modelado_codificacion)
+	- [4.2. Construcción](#4.2_construccion)
+	- [4.3. Pruebas, Seguridad y QA Automation](#4.3_pruebas_seguridad_QA_automation)
+	- [4.4. Empaquetado ](#4.4_empaquetado)
+	- [4.5. Liberaciones (releases)](#4.5_releases)
+	- [4.6. Configuración y Gestión de Infraestructura](#4.6_configuración_gestion_infraestructura)
+	- [4.7. Supervisión y Monitoreo](#4.7_supervision_monitoreo)
+	- [4.8. Conclusiones](#4.8_conclusiones)
 
 <a name="1.introduction"></a>
 # 1. Introducción
@@ -1836,6 +1844,7 @@ Existen herramientas online disponibles para generar licencias de forma automát
 
 ---
 
+<a name="4.herramientas"></a>
 # 4. Herramientas
 
 Dado que DevSecOps está destinado a ser una forma de trabajo multi-funcional, para implementar la metodología se necesitan utilizan diferentes conjuntos de herramientas para cada diferente etapa (Fig. 56), que se denominan: **toolchains.**
@@ -1863,7 +1872,7 @@ A continuación se listan ejemplos de herramientas para cada una de las categor�
 > Las herramientas que se nombran están fuertemente orientadas a un toolchain basado en Java, pero el mismo conjunto de herramientas se puede encontrar con cualquier tecnología elegida.
 
 
-
+<a name="4.1_analisis_modelado_codificacion"></a>
 ## 4.1. Análisis, Modelado y Codificación
 
 Las siguientes herramientas se pueden utilizar desde el análisis, hasta la implementación. Cada herramienta tiene sus pro y cons, por lo tanto, al momento de elegirlas, se deberán considerar varios aspectos, desde la utilidad especifica hasta aspecto como la seguridad de la compañía, donde muchas veces no se pueden utilizar herramientas que no estén autorizadas.
@@ -1882,6 +1891,7 @@ Las siguientes herramientas se pueden utilizar desde el análisis, hasta la impl
 - Gitlab Wiki (modelado gráfico de diagramas con Mermaid.js): https://docs.gitlab.com/ee/user/markdown.html#diagrams-and-flowcharts y https://mermaid-js.github.io/mermaid/#/ 
 - Convenciones de código: https://www.oracle.com/java/technologies/javase/codeconventions-contents.html 
 
+<a name="4.2_construccion"></a>
 ## 4.2. Construcción
 
 
@@ -1891,6 +1901,7 @@ Las siguientes herramientas se pueden utilizar desde el análisis, hasta la impl
 - Gitlab-CI - Servidor de Integración Continua o CI https://docs.gitlab.com/ee/ci/  (o Jenkins o Azure devOps o Github actions, etc.)
 - Generador de Licencias de código: https://commercial.polyformproject.org/ 
 
+<a name="4.3_pruebas_seguridad_QA_automation"></a>
 ## 4.3. Pruebas, Seguridad y QA Automation
 
 - xUnit / JUnit - Framework para testing unitario basado en Java: https://junit.org/junit5/
@@ -1907,10 +1918,11 @@ Las siguientes herramientas se pueden utilizar desde el análisis, hasta la impl
 - Microsoft Threat Modeling Tool -  Herramienta para crear diagramas, identificar amenazas, definiendo mecanismos de mitigación y validando cada mitigación: https://docs.microsoft.com/en-us/azure/security/develop/threat-modeling-tool-getting-started 
 
 
+<a name="4.4_empaquetado"></a>
 ## 4.4. Empaquetado 
 
 - Docker: https://www.docker.com/ 
-- JAR / WAR - Formato de empaquetado de productos de Software basados en Java: https://en.wikipedia.org/wiki/WAR_(file_format) 
+- JAR / WAR - Formato de empaquetado de productos de Software basados en Java: https://en.wikipedia.org/wiki/WAR_(file_format)  (o .whl para python, etc.)
 - JFROG Artifactory - Repositorio Centralizado de Artefactos Fig. 57: https://www.jfrog.com/confluence/display/JFROG/JFrog+Artifactory 
 - Versionado de Artefactos y Meta-información
 
@@ -1919,6 +1931,7 @@ Las siguientes herramientas se pueden utilizar desde el análisis, hasta la impl
 
 **Referencia:** https://jfrog.com/help/r/how-does-build-promotion-work/artifactory-how-does-build-promotion-work
 
+<a name="4.5_releases"></a>
 ## 4.5. Liberaciones (releases)
 
 * Artifactory + Gitlab - CI/CD con una estrategia de promoción de artefactos (Fig. 58):  https://jfrog.com/knowledge-base/how-does-build-promotion-work/ 
@@ -1926,14 +1939,19 @@ Las siguientes herramientas se pueden utilizar desde el análisis, hasta la impl
 ![](../../images/artifactory_promocion_artefactos.png)
 **Figura 58:** Artifactory - Mecanismo de Promoción de Artefactos
 
+
+<a name="4.6_configuración_gestion_infraestructura"></a>
 ## 4.6. Configuración y Gestión de Infraestructura
 
 Kubernetes: https://kubernetes.io/ 
+Docker: https://www.docker.com/
 Helm Charts: https://helm.sh/
 Ansible: https://www.ansible.com/overview/devops/ 
 Puppets: https://puppet.com/devops/ 
 Chef: https://www.chef.io/
 
+
+<a name="4.7_supervision_monitoreo"></a>
 ## 4.7. Supervisión y Monitoreo
 
 OpenTelemetry: https://opentelemetry.io/  
@@ -1943,6 +1961,7 @@ Nagios: https://www.nagios.org/
 Grafana: https://grafana.com/
 Prometheus: https://prometheus.io/
 
+<a name="4.8_conclusiones"></a>
 ## 4.8. Conclusiones
 
 Finalmente, el toolchain puede resultar abrumador a primeras, pero termina siendo muy necesario si se quiere automatizar todo el ciclo de desarrollo de un producto. Automatizar, no solo es un beneficio técnico sino también a nivel negocio, debido a que permite reducir tiempos, por lo tanto, se reducen costos. Permite además, una vez aceitado todo el proceso, aumentar la velocidad de generar nuevas features del producto/servicio y por lo tanto, aumenta el valor a negocio.
