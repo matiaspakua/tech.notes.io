@@ -2052,6 +2052,7 @@ Cada modulo funcional está diseñado para ser stateless (todo los datos se pers
 * API REST para interactuar e integrar la solución SecTx Analysis para permitir el ingreso y gestión de eventos y transacciones, y endpoints específicos para el ingreso y gestión de Fingerprints.
 
 ![](../../images/SecTx_modules_architecture.png)
+**Figura 60.1** Diagrama funcional del producto.
 
 
 ## 5.5. Estructura del proyecto
@@ -2119,3 +2120,85 @@ El equipo utiliza 2 enfoques para el desarrollo:
 **Referencia:** Wikipedia contributors. (2022, March 30). Kanban (development). In Wikipedia, The Free Encyclopedia. Retrieved 17:25, April 14, 2022, from https://en.wikipedia.org/w/index.php?title=Kanban_(development)&oldid=1080155858
 
 
+
+### 5.5.5 Herramientas: Git y Base de Conocimiento
+
+El equipo de producto SectTx Analysis utiliza las siguientes herramientas (Fig. 63) como base de conocimiento y repositorios de información:
+
+* **Gitlab**:
+	* Repositorio de código fuente y test unitarios
+	* Repositorio de pruebas de integración API, UI, scripts, etc.
+	* Wiki de documentación técnica: funcionalidad, ADRs, arquitectura, MTP, configuración de ambientes de desarrollo y testing.
+	* Tablero de issues para Scrum y Kanban, con el uso de flujo de tareas diferencias, etiquetas, milestones, registro de horas, estimaciones, referencia a commit y otros artefactos de desarrollo. Se registran: feature requests, épicas, user stories, y bugs.
+	* CI/CD: pipelines de build, test, seguridad, generación de imágenes docker y deploy en ambientes Cloud.
+* **Microsoft Teams**:
+	* Comunicación general en grupos de trabajo de la organización.
+	* Sala de desarrollo específica para el equipo de SectTx.
+	* Eventos de comunicación, retrospectivas, demo, review, capacitaciones.
+	* Mensajería peer-to-peer.
+* **Microsoft Sharepoint**:
+	* Repositorio de documentación general.
+	* Información asociada al producto: hojas de datos, documentos, presentaciones, imágenes, videos, recursos, etc.
+
+
+![](../../images/fig_63_Organizacion_Equipo_Roles_Herramientas_Base_Conocimiento.png)
+**Figura 63**: Organización de Equipo, Roles, Herramientas y Base de Conocimiento. Imagen Fuente (Propia)
+
+
+## 5.5.6 Flujo de Trabajo Parte 1 y 2
+
+Para describir el flujo de trabajo y Organización de la Información, se utilizará la Fig. 64. El flujo de trabajo de desarrollo comienza con el Proceso de Descubrimiento (A) que arranca con 2 entradas: 
+
+* **Soporte**: el área de soporte recibe todas las consultas, solicitudes y errores (bugs) o mal-funcionamiento del producto que está en ambientes productivos de los clientes.
+* **Negocio, Mercado o Cliente**: Pueden surgir nuevas funcionalidades u oportunidades de negocio ya sea desde los mismo clientes o internamente al analizar la competencia y el mercado.
+
+Cualquiera de estas entradas son redirigidas a la Mesa de Entrada (1) que es básicamente un tablero de GitLab donde se cargan incidencias de tipo Feature Request (FR) o dependiendo del análisis inicial, si resulta que viene del área de Soporte y se identifica como un Bug entonces, se carga una incidencia de dicho tipo.
+
+El siguiente paso es el Análisis Inicial de la FR / Bugs donde participan principalmente el Product Owner (PO) y el Analista Funcional (FA). Del análisis inicial se determina la criticidad, prioridad, planificación de la Issue registrada, así como también si se requiere más información o tareas adicionales de análisis. Todas las Issues de la mesa de entrada son trabajadas en un tablero denominado Tablero de Feature Requests (FR) / Bugs (2).
+
+El proceso continúa en el Proceso de Refinamiento (B) que comienza con cada inicio de Sprint (en la semana 4 de la instancia de Scrum definida en el equipo). Todo el equipo se reúne y revisa las issues en el Tablero Product Backlog (3), que deben estar ordenadas y priorizadas por el PO para comenzar con refinamiento y planificación. En éste proceso, el equipo completo y posiblemente otras personas de otros equipos participan, con el objetivo de aclarar las FRs y así comenzar el proceso de Análisis, Refinamiento y descomposición de tareas (4) que resulta en la generación de Épicas  → User Stories → Tasks. La idea central es descomponer problemas en pequeños problemas a resolver en tiempos no mayores a 3 días laborables (18 hs aproximadamente).
+
+Un aspecto importante del resultado de los procesos de Descubrimiento y Refinamiento es la Trazabilidad (5). Todas las Issues son gestionadas a través de la herramienta de tableros de Gitlab y así como son creadas, son relacionadas entre sí. La trazabilidad es un aspecto crítico para asegurar la calidad (QA).
+
+Realizando el refinamiento, el equipo se sustenta en diagramas (Whiteboards), información disponible, información del mercado, casos de uso de los clientes y cualquier información adicional que pueda resultar útil para entender los desarrollos. Toda la información o artefactos generada es Identificada y almacenada en la Base de Conocimiento del Producto (6) (Sharepoint, Tech Wiki, etc).
+
+
+![](../../images/fig_64_flujo_de_trabajo_parte_1.png)
+**Figura 64:** Flujo de Trabajo, parte 1. Descubrimiento y Refinamiento. Imagen Fuente (Propia)
+
+
+![](../../images/fig_65_flujo_de_trabajo_parte_2.png)
+**Figura 65:** Flujo de Trabajo Parte 2. Tablero, Artefactos y Repositorio. Imagen Fuente (Propia)
+
+
+Luego del descubrimiento y refinamiento, viene la etapa de Desarrollo, Seguridad y Puesta en Producción o DevSecOps. El Proceso DevSecOps - Fig. 65 (c) está armado en 7 (siete) etapas. 
+
+Una vez iniciado el sprint de **Evolutivos** o el Ciclo de Correctivo, el equipo tiene pre-asignadas algunas de las tareas del tablero de Gitlab (1). La tarea principal (o tarea padre) generalmente se descompone en tareas más pequeñas para desarrollar cada uno de los artefactos necesarios para el desarrollo.
+
+Uno de los primeros artefactos es documentar o actualizar el SAD y/o los ADRs (4) correspondientes. El SAD y los ADRs representan la documentación técnica del producto, generalmente desarrollada por el equipo de desarrollo y el equipo de Arquitectura. El equipo en conjunto realiza el análisis, diseño, modelado y documentación de la funcionalidad a implementar. Los ADRs se escriben usando notación sencilla de Markdown como parte de la Wiki del producto. También se utiliza la capacidad de Gitlab para procesar Diagram-as-code (ejemplo, usando PlantUML o Mermaid.js) y se genera el modelado usando el mismo archivo Markdown.
+
+El SAD y los ADRs se actualizan al comienzo de cada cada tarea para analizar, diseñar y dejar documentación asociada a las decisiones de arquitectura que se pueden llegar a tomar al implementar una nueva funcionalidad o corrección.
+
+El Proceso de Análisis, Diseño y Modelado de Seguridad denominado Threat-Modeling (5) es el mismo proceso de Análisis, Diseño, Modelado y Documentación pero ahora desde la perspectiva de Seguridad, Desarrollo Seguro y Testing de Seguridad. Utilizando documentos en Markdown y los diagramas que se renderizan en Gitlab, se generan documentos de Threat-Modeling en la wiki del producto donde se generan artefactos como Diagramas de amenazas o Árboles de ataque, y se decide la aplicación de patrones de seguridad (de ser necesario).
+
+Test de Integración (6). Durante el desarrollo de los procesos de registro de ADRs y de Seguridad, se comienza con la especificación de las pruebas de API, UI y E2E. Se utilizan varias herramientas en conjunto, por ejemplo, Robot Framework para modelar las especificaciones de pruebas de UI usando Gherkin como notación de test funcionales. Además se utiliza Postman para generar la especificación de pruebas de API junto con los test (assert de request) para validar la API una vez implementada.
+
+Los Test de Integración de API, UI y E2E se arman pensando en la funcionalidad final y la validación de las historias de usuario.
+
+Todos los artefactos generados durante éstas etapas son almacenados ya sea en la wiki, o si se trata de otro tipo de artefactos (screenshots, documentos de texto, planillas de cálculo, presentaciones) se deben almacenar en la Base de Conocimiento (2) con el identificador correspondiente, a fin de tener trazabilidad y que sean posteriormente recuperables sin mayores inconvenientes.
+
+La codificación generalmente se inicia una vez que el análisis, diseño y especificación inicial de pruebas está en progreso. El trabajo se realiza en el Repositorio de Código Fuente Git (3). Se emplea un esquema basado en Git Flow para organizar las branches y los elementos de código fuente, por ejemplo: branches, versiones, archivos de configuración, Pipelines de CI/CD (7). Además de contener en código fuente y archivos adicionales en un lugar centralizado y organizado con el esquema de Git Flow, se emplea un mecanismo donde las Features Branch son nombradas anteponiendo como prefijo el ID de las tareas de desarrollo de Gitlab (trazabilidad). Tanto las branch como los commit son identificados con éste prefijo para armar un “historia” detallada del desarrollo.
+
+Con el uso de Git Flow se emplea el mecanismo de Merge-Request para integrar los cambios entre ramas. Un Merge Request se genera al finalizar una tarea, feature o task y debe contener al menos 2 revisores, donde uno de los revisores debe ser el líder técnico del equipo de desarrollo.
+
+En todos los artefactos, se utilizan las referencias a las tareas del tablero de Gitlab para asegurar la trazabilidad del proceso en todo momento, como parte de la estrategía de QA.
+
+Todas las pruebas (unitarias, integración, seguridad) tienen un stage o etapa dentro del flujo del Pipeline de CI/CD (7). El pipeline está categorizado en 8 fases y cada una tiene una o varias etapas asociadas. Cada fase tiene una responsabilidad bien definida y ejecuta secuencialmente una serie de tareas automatizadas para garantizar la construcción de artefactos (Dev), validación (QA y Sec) y puesta en producción (Ops) de una versión productiva del Producto de Software en caso de que el pipeline termine sin errores en alguna de sus etapas intermedias.
+
+Dentro del flujo de trabajo con Git y el Pipeline de CI/CD se aplica el concepto de Integración Continua (CI). Las ramas “develop”, “release-branch” y “master” tienen cada una un pipeline asociado y cada pipeline tiene un ambiente de deployment en una nube (Cloud) basado en Docker disponibles:
+
+- develop-branch: ambiente estable del equipo de desarrollo.
+- qa-branch: ambiente estable del equipo de QA.
+- security-branch: ambiente de pruebas de seguridad, SAST, DAST, Pentesting.
+- product-branch: ambiente de pruebas y evaluación de Producto en UX/UI, mejoras, detalles.
+- master-branch: Promoción a ambiente de producción.
