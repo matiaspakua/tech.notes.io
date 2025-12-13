@@ -1983,15 +1983,17 @@ Como es normal, todo el tiempo están surgiendo herramientas nuevas, mejores o q
 
 ---
 
+<a name=""></a>
 # 5. Implementación
 
+<a name=""></a>
 ## 5.1. Introducción
 
 Para dar sustento al presente trabajo, se utilizará como caso de estudio una versión modificada del producto ficticio <mark style="background: #FFF3A3A6;">SecTx Analysis</mark> de la empresa Tx Security.
 
 Se expondrán detalles internos del producto, con algunos aspectos importantes que pudieran ser útiles para diseñar un plan de implementación, que se utilizarán a modo conceptual donde se expondrán aspectos de la arquitectura y desarrollo del producto para dar una idea de ejemplos de implementación de la metodología DevSecOps desde la perspectiva de QA automation y los posibles roadmaps de adopción de la misma.
 
-
+<a name=""></a>
 ## 5.2. Caso de Estudio: SecTx Analysis
 
 SecTx Analysis es una solución que genera perfiles de usuarios en base a la información provista por el core del cliente (actúa como middleware, ver Fig. 60). Genera un modelo de análisis de comportamiento de usuarios a través de reglas definidas en la solución SecTx Analysis utilizando una Interfaz Web (Backoffice) donde los analistas de riesgos definen las reglas de aplicación.
@@ -2002,6 +2004,7 @@ SecTx Analysis es una solución que genera perfiles de usuarios en base a la inf
 En base al almacenamiento y procesamiento de información proveniente de múltiples canales (Web, dispositivos móviles) denominadas eventos/transacciones con importes, fecha de transacción, tipo de transacción, frecuencia de operación y datos de conexión del usuario, SecTx Analysis identifica posibles casos de fraude o de comportamiento sospechoso, pudiendo alertar de forma pasiva o bien de forma activa disparando procesos de autenticación robusta personalizados para ese perfil de usuarios.
 
 
+<a name=""></a>
 ## 5.3. Casos de uso de SecTx Analysis
 
 El producto ficticio SectTx Analysis presenta los siguientes casos de uso:
@@ -2018,47 +2021,75 @@ El producto ficticio SectTx Analysis presenta los siguientes casos de uso:
 10. Dashboards (backoffice) de configuración generar.
 
 
+<a name=""></a>
 # 5.4. Funcionalidades del Producto
 
 A continuación se listar las principales funcionales del sistema. Cada funcionalidad es un module especifico, con un responsabilidad bien asignada y especifica. Todos los módulos del sistemas se pueden habilitar y deshabilitar de forma independiente.
 
 Cada modulo funcional está diseñado para ser stateless (todo los datos se persisten en una base de datos centralizada, dependiendo del dominio de negocio del modulo), con una API interna basada en gRPC para la comunicación entre módulos; un esquema de cola de mensajería para la comunicación asincrónica; un mecanismo de recolección y almacenamiento de logs del sistema (para auditoria); cada modulo está contenereizado utilizando docker, multi stage y con imágenes minimalista (alpine o similares) para reducir el tamaño y para disminuir la superficie de ataque (desde el punto de vista de ciberseguridad).
+
+<a name=""></a>
 ## 5.4.1 Administración
 
 - Configuración de Datos: Administración de canales que proporciona una solución multi-canal, donde en cada canal se puede configurar múltiples operaciones, y cada operación puede tener un formato similar o distintas de transacción/eventos. Administración de tipos de operaciones y administración de parámetros.
 - Administración de listas (deny-list, allow-list). Carga masiva de listas. Carga de listas con ubicación de ATMs. Parámetros por especialidad.
 - Parámetros generales del sistema, Parámetros de año fiscal y Usuarios: Manejo de usuarios de sistemas basados en roles personalizables de acuerdo con la necesidad del negocio. Roles. Agregado y administración de usuarios.
 - Gestión de API KEYs: Seguridad de acceso en las transacciones basados en las api keys.
+
+<a name=""></a>
 ## 5.4.2 Rule Based Engine
+
+
 - Motor de Reglas Generales y Pre-filtrado, Acumuladores, Reglas por canales y tipos de operaciones. Reglas de Riesgo.
 - Histórico para carga de transacciones masivas y carga de eventos masiva.
 - Administración de casos para ver transacciones almacenadas y hacer análisis específicos. Visualización de casos procesados y exportación de información procesada.
+
+<a name=""></a>
 ## 5.4.3 Fingerprint
+
 - Administración de reglas de Browser Fingerprint y Device Fingerprint. Consultas y visualización a través de Dashboard para análisis de Fingerprint multi-canal y Consultas con tablero de consulta de Fingerprints por ID de usuarios.
+
+<a name=""></a>
 ## 5.4.4. Reportes y Analítica
 - Usuarios y perfiles: Manejo de reportes a nivel usuarios y transacciones con perfil y cantidad de usuarios. Reportes dinámicos. Reportes estáticos.
+
+<a name=""></a>
 ## 5.4.5 Notificaciones
 - Tipos de Notificaciones: Configuración de grupo de interesados en las notificaciones para las asignaciones de los casos y envío de correos de alerta de asignación de transacciones mediante el protocolo SMTP. 
 - Notificaciones a grupos y Administración de grupos de negocio. Configuración de visibilidad de reglas y asignación automática.
+
+<a name=""></a>
 ## 5.4.6 Machine Learning
 * Análisis de transacciones, redes y experimentos.
+
+<a name=""></a>
 ## 5.4.7 Trazabilidad
 * Trazar: Disponibilidad de armar grafos enfocados a la transacción y los montos, con el fin de armar una trazabilidad del usuario y movimientos de fondos entre cuentas.
+
+<a name=""></a>
 ## 5.4.8 Directorio Activo
 * Conexión: Configuración para poder integrar con directorios activos (AD) para usuarios de sistemas protocolo LDAP y gestión de grupos.
+
+<a name=""></a>
 ## 5.4.9 Auditoría
 * Registros de auditoría: Mecanismo de auditoría de eventos del sistema.
+
+<a name=""></a>
 ## 5.4.10 API
 * API REST para interactuar e integrar la solución SecTx Analysis para permitir el ingreso y gestión de eventos y transacciones, y endpoints específicos para el ingreso y gestión de Fingerprints.
 
 ![](../../images/SecTx_modules_architecture.png)
 **Figura 60.1** Diagrama funcional del producto.
 
-
+<a name=""></a>
 ## 5.5. Estructura del proyecto
 
+
+<a name=""></a>
 ### 5.5.1 Equipo y Roles
+
 El equipo de trabajo está conformado por personas de varias áreas de la organización:
+
 * Product: 
 	* 1 Product Owner,  
 	* 1 Functional Analyst, y 
@@ -2076,6 +2107,7 @@ Debido a que el producto fue desarrollado hace más de 10 años (por poner un ej
 
 La organización del equipo usando 2 esquemas de trabajo (scrum y kanban) puede ayudar a gestionar la complejidad de tener muchas versiones del mismo producto, desplegadas en distintos clientes, con diferentes ambientes.
 
+<a name=""></a>
 ## 5.5.2 Mapa de versiones y EOL (end-of-life)
 
 Otra herramienta muy útil es tener un mapa de todas las versiones "habilitadas" al día de hoy, que versión del producto es, en que clientes está desplegada, y otras características que puedan ser de interés.
@@ -2358,6 +2390,9 @@ La tarea no es sencilla, pero justamente ésta complejidad es la que nos tiene q
 ---
 
 **Autor: Miguez Matias, contacto:  https://www.linkedin.com/in/matiasmiguez/**
+
 **TFM: Posgrado de Especialización en Ingeniería de Software**
+
 **UCA - Universidad Católica Argentina**
+
 **Año: Octubre 2022**
