@@ -2016,3 +2016,106 @@ El producto ficticio SectTx Analysis presenta los siguientes casos de uso:
 8. Verificación del cumplimiento de normas gubernamentales y requisitos bancarios, con seguimiento continuo.
 9. Aplicación de reglas configurables según las necesidades del cliente, el área de negocio y el comportamiento esperado de los usuarios.
 10. Dashboards (backoffice) de configuración generar.
+
+
+# 5.4. Funcionalidades del Producto
+
+A continuación se listar las principales funcionales del sistema. Cada funcionalidad es un module especifico, con un responsabilidad bien asignada y especifica. Todos los módulos del sistemas se pueden habilitar y deshabilitar de forma independiente.
+
+Cada modulo funcional está diseñado para ser stateless (todo los datos se persisten en una base de datos centralizada, dependiendo del dominio de negocio del modulo), con una API interna basada en gRPC para la comunicación entre módulos; un esquema de cola de mensajería para la comunicación asincrónica; un mecanismo de recolección y almacenamiento de logs del sistema (para auditoria); cada modulo está contenereizado utilizando docker, multi stage y con imágenes minimalista (alpine o similares) para reducir el tamaño y para disminuir la superficie de ataque (desde el punto de vista de ciberseguridad).
+## 5.4.1 Administración
+
+- Configuración de Datos: Administración de canales que proporciona una solución multi-canal, donde en cada canal se puede configurar múltiples operaciones, y cada operación puede tener un formato similar o distintas de transacción/eventos. Administración de tipos de operaciones y administración de parámetros.
+- Administración de listas (deny-list, allow-list). Carga masiva de listas. Carga de listas con ubicación de ATMs. Parámetros por especialidad.
+- Parámetros generales del sistema, Parámetros de año fiscal y Usuarios: Manejo de usuarios de sistemas basados en roles personalizables de acuerdo con la necesidad del negocio. Roles. Agregado y administración de usuarios.
+- Gestión de API KEYs: Seguridad de acceso en las transacciones basados en las api keys.
+## 5.4.2 Rule Based Engine
+- Motor de Reglas Generales y Pre-filtrado, Acumuladores, Reglas por canales y tipos de operaciones. Reglas de Riesgo.
+- Histórico para carga de transacciones masivas y carga de eventos masiva.
+- Administración de casos para ver transacciones almacenadas y hacer análisis específicos. Visualización de casos procesados y exportación de información procesada.
+## 5.4.3 Fingerprint
+- Administración de reglas de Browser Fingerprint y Device Fingerprint. Consultas y visualización a través de Dashboard para análisis de Fingerprint multi-canal y Consultas con tablero de consulta de Fingerprints por ID de usuarios.
+## 5.4.4. Reportes y Analítica
+- Usuarios y perfiles: Manejo de reportes a nivel usuarios y transacciones con perfil y cantidad de usuarios. Reportes dinámicos. Reportes estáticos.
+## 5.4.5 Notificaciones
+- Tipos de Notificaciones: Configuración de grupo de interesados en las notificaciones para las asignaciones de los casos y envío de correos de alerta de asignación de transacciones mediante el protocolo SMTP. 
+- Notificaciones a grupos y Administración de grupos de negocio. Configuración de visibilidad de reglas y asignación automática.
+## 5.4.6 Machine Learning
+* Análisis de transacciones, redes y experimentos.
+## 5.4.7 Trazabilidad
+* Trazar: Disponibilidad de armar grafos enfocados a la transacción y los montos, con el fin de armar una trazabilidad del usuario y movimientos de fondos entre cuentas.
+## 5.4.8 Directorio Activo
+* Conexión: Configuración para poder integrar con directorios activos (AD) para usuarios de sistemas protocolo LDAP y gestión de grupos.
+## 5.4.9 Auditoría
+* Registros de auditoría: Mecanismo de auditoría de eventos del sistema.
+## 5.4.10 API
+* API REST para interactuar e integrar la solución SecTx Analysis para permitir el ingreso y gestión de eventos y transacciones, y endpoints específicos para el ingreso y gestión de Fingerprints.
+
+![](../../images/SecTx_modules_architecture.png)
+
+
+## 5.5. Estructura del proyecto
+
+### 5.5.1 Equipo y Roles
+El equipo de trabajo está conformado por personas de varias áreas de la organización:
+* Product: 
+	* 1 Product Owner,  
+	* 1 Functional Analyst, y 
+	* 1 UX/UI Designer.
+* Development: 
+	* Software Developers (back, front y full-stack)
+	* Quality: 1 Agente de QA
+
+Internamente el equipo trabaja dividido en 2 sub-grupos para resolver aspectos importantes del producto, a saber:
+
+* **Scrum**: nuevas funcionalidades, cambios de arquitectura, nuevos negocios.
+* **Kanban**: soporte, mantenimiento y bug-fixing de software en producción.
+
+Debido a que el producto fue desarrollado hace más de 10 años (por poner un ejemplo), lo que normalmente sucede es que los primeros clientes (early adopters) tienen versiones viejas, o versiones levemente customizadas, que pocas veces se documenta. Lo mismo sucede durante el transcurso del tiempo y la evolución de las tecnologías y la compañia que desarrollo inicialmente el producto. Lo que termina pasando es que luego de más de 10 el producto pudo haber evolucionado en diferentes ramas, para diferentes clientes con funcionalidades diferentes.
+
+La organización del equipo usando 2 esquemas de trabajo (scrum y kanban) puede ayudar a gestionar la complejidad de tener muchas versiones del mismo producto, desplegadas en distintos clientes, con diferentes ambientes.
+
+## 5.5.2 Mapa de versiones y EOL (end-of-life)
+
+Otra herramienta muy útil es tener un mapa de todas las versiones "habilitadas" al día de hoy, que versión del producto es, en que clientes está desplegada, y otras características que puedan ser de interés.
+
+| version | Stable | cliente(s) | Tech stack             | Fin de soporte | LTS    | Fecha migración |
+| ------- | ------ | ---------- | ---------------------- | -------------- | ------ | --------------- |
+| 1.0.1   |        | Acme       | java 8, postgres       | 01/12/2022     | 1.3.1. | 01/01/2025      |
+| 1.4.6   |        | Disney     | Java 11, MySQL         | 01/12/2024     | 1.5.0  | 01/06/2025      |
+| 1.4.1   |        | Willow     | Java 17, Oracle        | 01/12/2024     | 1.5.0  | 01/07/2025      |
+| 1.5.0   | x      | Roca       | Java 21, postgres      | 01/12/2026     |        |                 |
+| 1.3.1   | x      | Minky      | Java 11, all databases |                |        |                 |
+| 0.9.7   |        | Dorlly     | Java 6, postgress      | 01/12/2020     | 1.3.1  | 01/02/2025      |
+|         |        |            |                        |                |        |                 |
+
+En la tabla se muestra un ejemplo de como armar un mapa de todas las versiones del producto, así como un esquema de EOL (end-of-life) para las distintas versiones. Este tipo de esquemas no solo ayuda al equipo de desarrollo y de producto a tener mapeado las distintas versiones del producto, sino que da soporte a la evolución del mismo, ayudando a la migración del producto para los distintos clientes. Cada migración puede tener su complejidad, por lo tanto, la tabla establece fechas de EOL y fecha de migración propuestas para cada cliente. En un tablero kanban se pueden ir planificando estas tareas a ejecutar, en conjunto con el departamento de soporte (si es que lo hay), producto y desarrollo.
+
+Asi como existen en muchos productos comerciales (como ubuntu) un mapa del ciclo de vida de todas las releases, aquí la idea es similar, identificar unas versiones "estables" o base que puedan servir de referencia tanto para las migraciones como para el equipo de desarrollo al momento de dar soporte a las nuevas funcionalidades.
+
+
+### 5.5.3 Metodología
+La organización alienta a seguir los lineamientos de la metodología ágil (Agile, 2001) para todo el desarrollo de sus productos de software. Se prioriza el software funcional, respeto entre pares, buena predisposición, conversaciones, charlas, comunicación y propuestas de mejoras desde cualquier persona, independientemente del rol y responsabilidades asociadas.
+
+**Referencia:**  Agile. (2001). Manifesto for Agile Software Development. Manifesto for Agile Software Development. Retrieved April 14, 2022, from https://agilemanifesto.org/
+
+
+### 5.5.4 Procesos y Framework: SCRUM y KANBAN
+
+El equipo utiliza 2 enfoques para el desarrollo:
+* **Evolutivos**: se utiliza el framework de trabajo Scrum Fig. 61 (Sutherland & Schwaber, 2020). La instancia de Scrum utilizada establece sprints de 3 semanas y una 4ta semana de transición, donde se realizan las ceremonias: Cierre de Sprint, Refinamiento y Planning, Sprint Review y Demo, Retrospectiva y tareas de gestión varias.
+
+
+![](../../images/scrum_framework.jpeg)
+**Figura 61** Scrum Framework:  https://scrumorg-website-prod.s3.amazonaws.com/drupal/2021-01/Scrumorg-Scrum-Framework-tabloid.pdf 
+
+
+
+* **Correctivos**: Utiliza el método de Kanban (Kanban, 2022) para la gestión de tareas. Se utiliza un tablero simplificado (Fig. 62) con tareas en: To-Do, In Progress y Done. El ciclo temporal o similar sprint se define de 4 semanas. Al finalizar cada ciclo se realizan ceremonias de retrospectiva, reorganización, re-priorización del backlog de tareas y otras tareas de gestión varias.
+
+![](../../images/kanban_workflow.png)
+**Figura 62:** Kanban workflow:  https://about.gitlab.com/images/blogimages/workflow.png 
+
+**Referencia:** Wikipedia contributors. (2022, March 30). Kanban (development). In Wikipedia, The Free Encyclopedia. Retrieved 17:25, April 14, 2022, from https://en.wikipedia.org/w/index.php?title=Kanban_(development)&oldid=1080155858
+
+
