@@ -2173,17 +2173,17 @@ Realizando el refinamiento, el equipo se sustenta en diagramas (Whiteboards), in
 
 Luego del descubrimiento y refinamiento, viene la etapa de Desarrollo, Seguridad y Puesta en Producción o DevSecOps. El Proceso DevSecOps - Fig. 65 (c) está armado en 7 (siete) etapas. 
 
-Una vez iniciado el sprint de **Evolutivos** o el Ciclo de Correctivo, el equipo tiene pre-asignadas algunas de las tareas del tablero de Gitlab (1). La tarea principal (o tarea padre) generalmente se descompone en tareas más pequeñas para desarrollar cada uno de los artefactos necesarios para el desarrollo.
+Una vez iniciado el sprint de <mark style="background: #FFF3A3A6;">**Evolutivos** o el Ciclo de Correctivo</mark>, el equipo tiene pre-asignadas algunas de las tareas del tablero de Gitlab (1). La tarea principal (o tarea padre) generalmente se descompone en tareas más pequeñas para desarrollar cada uno de los artefactos necesarios para el desarrollo.
 
-Uno de los primeros artefactos es documentar o actualizar el SAD y/o los ADRs (4) correspondientes. El SAD y los ADRs representan la documentación técnica del producto, generalmente desarrollada por el equipo de desarrollo y el equipo de Arquitectura. El equipo en conjunto realiza el análisis, diseño, modelado y documentación de la funcionalidad a implementar. Los ADRs se escriben usando notación sencilla de Markdown como parte de la Wiki del producto. También se utiliza la capacidad de Gitlab para procesar Diagram-as-code (ejemplo, usando PlantUML o Mermaid.js) y se genera el modelado usando el mismo archivo Markdown.
+Uno de los primeros artefactos es documentar o actualizar el<mark style="background: #FFF3A3A6;"> SAD y/o los ADRs</mark> (4) correspondientes. El SAD y los ADRs representan la documentación técnica del producto, generalmente desarrollada por el equipo de desarrollo y el equipo de Arquitectura. El equipo en conjunto realiza el análisis, diseño, modelado y documentación de la funcionalidad a implementar. Los ADRs se escriben usando notación sencilla de Markdown como parte de la Wiki del producto. También se utiliza la capacidad de Gitlab para procesar Diagram-as-code (ejemplo, usando PlantUML o Mermaid.js) y se genera el modelado usando el mismo archivo Markdown.
 
 El SAD y los ADRs se actualizan al comienzo de cada cada tarea para analizar, diseñar y dejar documentación asociada a las decisiones de arquitectura que se pueden llegar a tomar al implementar una nueva funcionalidad o corrección.
 
-El Proceso de Análisis, Diseño y Modelado de Seguridad denominado Threat-Modeling (5) es el mismo proceso de Análisis, Diseño, Modelado y Documentación pero ahora desde la perspectiva de Seguridad, Desarrollo Seguro y Testing de Seguridad. Utilizando documentos en Markdown y los diagramas que se renderizan en Gitlab, se generan documentos de Threat-Modeling en la wiki del producto donde se generan artefactos como Diagramas de amenazas o Árboles de ataque, y se decide la aplicación de patrones de seguridad (de ser necesario).
+El Proceso de Análisis, Diseño y Modelado de Seguridad denominado <mark style="background: #FFF3A3A6;">Threat-Modeling</mark> (5) es el mismo proceso de Análisis, Diseño, Modelado y Documentación pero ahora desde la perspectiva de Seguridad, Desarrollo Seguro y Testing de Seguridad. Utilizando documentos en Markdown y los diagramas que se renderizan en Gitlab, se generan documentos de Threat-Modeling en la wiki del producto donde se generan artefactos como Diagramas de amenazas o Árboles de ataque, y se decide la aplicación de patrones de seguridad (de ser necesario).
 
 Test de Integración (6). Durante el desarrollo de los procesos de registro de ADRs y de Seguridad, se comienza con la especificación de las pruebas de API, UI y E2E. Se utilizan varias herramientas en conjunto, por ejemplo, Robot Framework para modelar las especificaciones de pruebas de UI usando Gherkin como notación de test funcionales. Además se utiliza Postman para generar la especificación de pruebas de API junto con los test (assert de request) para validar la API una vez implementada.
 
-Los Test de Integración de API, UI y E2E se arman pensando en la funcionalidad final y la validación de las historias de usuario.
+Los Test de Integración de API, UI y E2E se arman pensando en la funcionalidad final y la validación de las historias de usuario (que se desprenden de los casos de uso y casos de negocio).
 
 Todos los artefactos generados durante éstas etapas son almacenados ya sea en la wiki, o si se trata de otro tipo de artefactos (screenshots, documentos de texto, planillas de cálculo, presentaciones) se deben almacenar en la Base de Conocimiento (2) con el identificador correspondiente, a fin de tener trazabilidad y que sean posteriormente recuperables sin mayores inconvenientes.
 
@@ -2202,3 +2202,134 @@ Dentro del flujo de trabajo con Git y el Pipeline de CI/CD se aplica el concepto
 - security-branch: ambiente de pruebas de seguridad, SAST, DAST, Pentesting.
 - product-branch: ambiente de pruebas y evaluación de Producto en UX/UI, mejoras, detalles.
 - master-branch: Promoción a ambiente de producción.
+
+
+### 5.5.7 Diseño, SAD, ADR's y MTP
+
+La Fig. 66 muestra un ADR generado usando notación de Markdown desde la wiki de Arquitectura parte del repositorio Gitlab de SectTx Analysis. Se observa que todo ADR debe tener referencia a una task para indicar la trazabilidad u origen de dicha decisión de arquitectura.
+
+![](../../images/fig_66_adr_with_mermaid.png)
+
+La Fig. 67 se corresponde a la página renderizada de Markdown de la wiki. La página está estructurada a modo de un SAD (Software Architecture Document). En el SAD se registran y modelan los aspectos de interés sobre la arquitectura del producto SectTx Analysis. Si bien es un documento de orientación técnica, también se usa como fuente de información para la wiki de usuarios finales del producto gracias a la interacción con el equipo de technical writers.
+
+
+
+**Ejemplo de indice de SAD**
+```
+1. Introducción  
+   1.1 Propósito del documento  
+   1.2 Alcance del sistema  
+   1.3 Definiciones y referencias  
+
+2. Visión general del sistema  
+   2.1 Descripción general  
+   2.2 Objetivos y casos de uso principales  
+
+3. Arquitectura del sistema  
+   3.1. Driving requirements
+   3.2. Background de la solución
+   3.3  Vista lógica  
+   3.4  Vista física / de despliegue  
+   3.5  Componentes principales y sus interacciones  
+
+5. Diseño de datos  
+   4.1 Fuentes de datos  
+   4.2 Modelos y flujos de información  
+
+6. Seguridad y cumplimiento  
+   5.1 Controles de acceso y autenticación  
+   5.2 Cumplimiento normativo y privacidad  
+
+7. Integraciones externas  
+   6.1 APIs y servicios externos  
+   6.2 Protocolos y formatos de intercambio  
+
+8. Consideraciones operativas  
+   7.1 Escalabilidad y rendimiento  
+   7.2 Monitoreo y mantenimiento  
+
+```
+**Figura 67: ** Wiki de Arquitectura basada en template SAD con Markdown de Gitlab. Imagen Fuente (Propia)
+
+
+Para documentar algunos aspectos de alto nivel de SectTxnalysis se utiliza el modelado usando C4-Models. Por ejemplo, la Fig. 68 muestra el diagrama de contexto de SectTx Analysis donde se puede observar la interacción con componentes externos, como son los usuario del producto (Analistas de Fraude), un core bancario de ejemplo y el motor de base de datos.
+
+![](../../images/Fig_68_C1_Modelo_Contexto.png)
+**Figura 68:** C1 - Modelo de Contexto para SecTx Analysis. Imagen Fuente (Propia)
+
+
+
+La Fig. 69 es un artefacto de modelado de seguridad, parte de la metodología de Threat-Modeling. La notación gráfica no es estrictamente estándar, pero sirve para documentar, modelar y comunicar el diseño seguro de cada una de las funcionalidades del producto.
+
+Todo artefacto tiene un identificador y una tarea asociada, componentes fundamentales para asegurar trazabilidad y por lo tanto, asegurar la calidad del producto.
+
+![](../../images/fig_69_Threat_model.png)
+**Figura 69**: Threat-model para Funcionalidad de SecTx Analysis. Imagen Fuente (Propia)
+
+
+
+Así como existe una página en la wiki del producto dedicada exclusivamente a los aspectos de arquitectura, también existe una página para documentar la estrategía de pruebas del producto o Master Test Plan (MTP). La Fig. 70 representa el MTP del producto SectTx Analysis.
+
+
+
+```
+1. Introducción  
+    1.1 Descripción del producto  
+    1.2 Propósito del Master Test Plan  
+    1.3 Audiencia
+    
+2. Alcance  
+    2.1 Sistema bajo prueba (SUT)  
+    2.2 Funcionalidades a probar  
+    2.3 Fuera de alcance
+    
+3. Estrategia de pruebas  
+    3.1 Nivel de criticidad  
+    3.2 Tipos / categorías de pruebas  
+    3.3 Identificación única de pruebas (Test ID)
+    
+4. Repositorio de pruebas  
+    4.1 Repositorio central de casos y resultados
+```
+**Figura 70:** Wiki del Master-Test-Plan (MTP) para SectTx  Analysis. Imagen Fuente (Propia)
+
+
+En el MTP se define la estrategía de testing y aseguramiento de calidad del producto a alto nivel. Se definen los módulos a probar, los aspectos que quedan fuera de alcance, el mecanismo de identificación de los artefactos de testing, la caracterización, herramientas, a utilizar, repositorios de fuentes de scripting y cualquier otra información que pudiera ser relevante para las tareas de testing del producto. Uno de los aspecto clave de un MTP son los casos de pruebas y para cada caso de prueba, los criterios de aceptación, junto con los test vectors necesarios para validar los input y outputs esperados.
+
+En la Fig. 71 se observan dos herramientas utilizadas para la generación de los artefactos o scripts de pruebas. Arriba se muestra el IDE Eclipse RED con Robot Framework y bibliotecas de Selenium entre otras para realizar el testing de UI o interfaces gráficas del producto. El framework permite la definición de scripting usando notación de funcionalidad estándar o Gherkin. Abajo se observa la herramienta Postman para la definición y pruebas de la API del producto. En ambos casos se observa que cada script tiene una estructura particular como nombre. Esa estructura o ID de test es la definida en el MTP de la wiki de Testing.
+
+
+![](../../images/Fig_70_Artefactos_QA_Automation.png)
+**Figura 71:** Artefactos de QA Automation basados en Postman y Robot Framework. Imagen Fuente (Propia)
+
+Como parte del ciclo normal de desarrollo, se utiliza un pipeline de CI/CD que se ejecuta con cada merge-request en el repositorio Git para las ramas definidas del pipeline (no todas las ramas ejecutan el pipeline, el criterio es definido por el equipo de desarrollo). En la Fig. 72 se observa el pipeline completo de CI/CD, compuesto por 8 etapas, y en cada etapa pueden existir una o varias stages. Una stage es una división “lógica” utilizada para ejecutar una tarea automatizada específica, se puede pensar que cada stage tiene una responsabilidad asignada.
+
+
+![](../../images/Fig_71_Pipeline_CI_CD.png)
+**Figura 72:** Pipeline de CI/CD en Gitlab para SecTx Analysis. Imagen Fuente (Propia)
+
+Cada stage del pipeline de CI/CD se ejecuta y tiene un estado final de esa ejecución que puede ser:
+
+- Pass (se ejecutó sin errores)
+- Warning (existen problemas durante la ejecución pero no son críticos ni graves)
+- Error (la ejecución finalizó con errores)
+
+Ante la falla (Error) de cualquier stage en cualquier etapa del pipeline, la ejecución completa del pipeline finaliza con el estado de Error. Esa ejecución fallida dispara un correo electrónico y OpsChat (mensaje en un canal de Teams) para notificar del error y que el equipo de Desarrollo quede notificado inmediatamente. Ante un estado de error, es prioridad que el equipo de desarrollo lo resuelva lo más pronto posible.
+
+
+### 5.58. Flujo de Trabajo Parte 3
+
+
+La última parte del flujo de trabajo se representa en la Fig. 73, donde se definen 4 procesos. El Proceso de Deployment y Producción (a) comienza una vez que el pipeline de CI/CD paso por todas sus etapas sin problemas. Al finalizar el pipeline, el artefacto final que representa una nueva versión del producto SectTx Analysis es promovida a una ambiente Cloud de producción.
+
+El ambiente de producción tiene un conjunto de herramientas específicas para asegurar la escalabilidad, estabilidad, performance, registro de logs y aspectos de observabilidad del producto en ejecución. Aquí un equipo de DevOps Engineer se encarga de mantener el Proceso de Monitoreo, Logging y Observabilidad (b) al día para asegurar una buena experiencia a los usuarios en producción.
+
+Durante las etapas finales del desarrollo, se ejecuta el Proceso de Documentación (c), donde el equipo del área de Productos (llamados Technical Writers ó UX/UI Writers) es la encargada de actualizar y corregir la documentación de usuario del producto, basando en la comunicación el equipo de desarrollo y toda la información almacenada y disponible en la base de conocimiento (Changelog, SAD, ADR, MTP, Threat-Models). El resultado de éste proceso es la actualización de la wiki publica del producto utilizada por los usuarios o clientes de SectTx  Analysis.
+
+Finalmente, queda el Proceso de Soporte y Feedback (d), donde el equipo de soporte y la mesa de entrada , son los encargados de dar soporte, guiar en la implementación, despejar dudas o inclusive hacer llegar a los responsables del producto mejoras o cualquier elemento de negocio que pudiera resultar en una oportunidad de negocio o mejora del producto. El proceso de soporte resulta en un input importante para el producto y es donde se generan Bugs o Task que inicia todo el proceso nuevamente.
+
+![](../../images/Fig_72_Flujo_Trabajo_parte_3.png)
+**Figura 73:** Flujo de Trabajo, parte 3. Procesos de Deploy, Monitoreo. Documentación de usuario, Soporte y Feedback. Imagen Fuente (Propia)
+
+En este último esquema de soporte y feedback se puede definir SLA y el mecanismo de niveles de soporte L0, L1, etc para el servicio. Junto con todo lo relativo a la gestión de releases y soporte en producción. Para estas tareas igualmente se requiere del diseño de esos procesos, iniciando por un alto nivel y estableciendo los niveles de comunicación, responsables, escalado y priorización de las incidencias o ticket.
+
