@@ -1980,3 +1980,39 @@ Como es normal, todo el tiempo están surgiendo herramientas nuevas, mejores o q
 2. Falco seguridad en runtime para containers: [Link](https://falco.org/), en una charla de meetup BCN: [Link](https://www.linkedin.com/posts/matiasmiguez_devops-kubernetes-opensource-activity-7399157735281397760-TLt3?utm_source=share&utm_medium=member_desktop&rcm=ACoAADXjTjwBuJRTMS15dwLutB1fDEtOwXbs314)
 
 
+
+---
+
+# 5. Implementación
+
+## 5.1. Introducción
+
+Para dar sustento al presente trabajo, se utilizará como caso de estudio una versión modificada del producto ficticio <mark style="background: #FFF3A3A6;">SecTx Analysis</mark> de la empresa Tx Security.
+
+Se expondrán detalles internos del producto, con algunos aspectos importantes que pudieran ser útiles para diseñar un plan de implementación, que se utilizarán a modo conceptual donde se expondrán aspectos de la arquitectura y desarrollo del producto para dar una idea de ejemplos de implementación de la metodología DevSecOps desde la perspectiva de QA automation y los posibles roadmaps de adopción de la misma.
+
+
+## 5.2. Caso de Estudio: SecTx Analysis
+
+SecTx Analysis es una solución que genera perfiles de usuarios en base a la información provista por el core del cliente (actúa como middleware, ver Fig. 60). Genera un modelo de análisis de comportamiento de usuarios a través de reglas definidas en la solución SecTx Analysis utilizando una Interfaz Web (Backoffice) donde los analistas de riesgos definen las reglas de aplicación.
+
+![](../../images/SecTx_Analysis_diagram_funcional.png)
+**Figura 60**: Esquema funcional de alto nivel del proyecto fictitio SecTX Analyis
+
+En base al almacenamiento y procesamiento de información proveniente de múltiples canales (Web, dispositivos móviles) denominadas eventos/transacciones con importes, fecha de transacción, tipo de transacción, frecuencia de operación y datos de conexión del usuario, SecTx Analysis identifica posibles casos de fraude o de comportamiento sospechoso, pudiendo alertar de forma pasiva o bien de forma activa disparando procesos de autenticación robusta personalizados para ese perfil de usuarios.
+
+
+## 5.3. Casos de uso de SecTx Analysis
+
+El producto ficticio SectTx Analysis presenta los siguientes casos de uso:
+
+1. Prevención del lavado de dinero en transacciones provenientes de fuentes ilegales o no reguladas.
+2. Tokenización de datos de tarjetas y personales para proteger activos, información y transacciones.
+3. Recolección, almacenamiento y gestión de datos provenientes de fuentes externas.
+4. Prevención del acciones fraudulentas o sospechosas mediante análisis en tiempo real y autenticación robusta.
+5. Detección de cuentas "sospechosas" mediante listas prohibidas que incluyen cuentas publicas indicadas (block-list) .
+6. Validación en tiempo real para operadores móviles y bancos con tecnología de huella digital del dispositivo.
+7. Prevención de contracargos validando la identidad del comprador o pagador.
+8. Verificación del cumplimiento de normas gubernamentales y requisitos bancarios, con seguimiento continuo.
+9. Aplicación de reglas configurables según las necesidades del cliente, el área de negocio y el comportamiento esperado de los usuarios.
+10. Dashboards (backoffice) de configuración generar.
