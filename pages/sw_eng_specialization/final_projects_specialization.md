@@ -2333,3 +2333,31 @@ Finalmente, queda el Proceso de Soporte y Feedback (d), donde el equipo de sopor
 
 En este último esquema de soporte y feedback se puede definir SLA y el mecanismo de niveles de soporte L0, L1, etc para el servicio. Junto con todo lo relativo a la gestión de releases y soporte en producción. Para estas tareas igualmente se requiere del diseño de esos procesos, iniciando por un alto nivel y estableciendo los niveles de comunicación, responsables, escalado y priorización de las incidencias o ticket.
 
+
+---
+
+# 6. Conclusiones
+
+Todas las metodologías, procesos y técnicas que se han desarrollado buscan generar productos o servicios de alta calidad, que cumplan con las expectativas del negocio, la empresa y las empresas que los desarrollan. Para lograr ese nivel de calidad es indispensable plantear estrategias a corto, mediano y largo plazo. La estrategia tiene que tener una visión de alto nivel, que observe y articule todas las partes, equipos, tareas, herramientas y cualquier otro componente necesario para lograr el objetivo de calidad en el producto y/o servicio.
+
+La visión estratégica por sí sola no alcanza, al igual que intentar implementar la metodología de DevSecOps por sí sola. Se requieren que los siguientes elementos de una organización se desarrollen y se acepten para lograr una implementación exitosa:
+
+- Cultura, personas y líderes. Como se planteó inicialmente, la base del éxito es la cultura, las personas, pero también tiene que haber “líderes” que tengan la visión estratégica.
+
+- Excelencia técnica y aceptar los errores, aprender de ellos y buscar la mejora continua. Para ésto es necesario que la cultura de la organización acepte éstos ideales y que los líderes del equipo den soporte a éstas ideas.
+
+- Orden, prolijidad, trazabilidad, centralización de información. La excelencia técnica debe buscarse continuamente y tienen que existir líderes técnicos que ayuden y soporten ésta búsqueda continua de hacer las cosas mejor que antes.
+
+- Se tienen que armar Roadmaps a corto, mediano y largo plazo que permitan a todos los integrantes de la organización conocer el “norte” al cual se dirigen. Los pasos a seguir no son rígidos ni estáticos, pueden surgir problemas en el camino y es importante que se actualicen los roadmaps para no perder el rumbo.
+
+- Desde el inicio, en cada etapa, en cada idea, implementación o tarea a realizar, pensar en las pruebas, la automatización de pruebas y tareas, tener documentación liviana, útil. Dejar las pruebas para etapas intermedias o tardías es un problema que luego se paga más caro. El precio de la No-Calidad siempre es más alto. Las pruebas y la automatización son elementos que están disponibles siempre, lo que hace falta es que los líderes de equipos incentiven agresivamente su uso e implementación. Las organización deben replantearse comenzar cualquier proyecto mirando la calidad como parte fundamental de todo producto o servicio.    
+
+
+La tarea no es sencilla, pero justamente ésta complejidad es la que nos tiene que alimentar personal y profesionalmente. Si no fuera así, ¿para qué hacer lo que hacemos?
+
+---
+
+**Autor: Miguez Matias, contacto:  https://www.linkedin.com/in/matiasmiguez/**
+**TFM: Posgrado de Especialización en Ingeniería de Software**
+**UCA - Universidad Católica Argentina**
+**Año: Octubre 2022**
