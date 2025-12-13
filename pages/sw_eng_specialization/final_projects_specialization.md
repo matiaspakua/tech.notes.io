@@ -96,6 +96,31 @@
 	- [4.7. Supervisión y Monitoreo](#4.7_supervision_monitoreo)
 	- [4.8. Conclusiones](#4.8_conclusiones)
 	- [4.9. Update. Otras herramientas](#4.9_update_otras_herramientas)
+- [5. Implementación](#5._Implementacion)  
+	* [5.1. Introducción](#5.1._Introduccion)  
+	* [5.2. Caso de Estudio: SecTx Analysis](#5.2._Caso_de_Estudio_SecTx_Analysis)  
+	* [5.3. Casos de uso de SecTx Analysis](#5.3._Casos_de_uso_de_SecTx_Analysis)  
+	* [5.4. Funcionalidades del Producto](#5.4._Funcionalidades_del_Producto)  
+		* [5.4.1 Administración](#5.4.1_Administracion)  
+		* [5.4.2 Rule Based Engine](#5.4.2_Rule_Based_Engine)  
+		* [5.4.3 Fingerprint](#5.4.3_Fingerprint)  
+		* [5.4.4. Reportes y Analítica](#5.4.4._Reportes_y_Analítica)  
+		* [5.4.5 Notificaciones](#5.4.5_Notificaciones)  
+		* [5.4.6 Machine Learning](#5.4.6_Machine_Learning)  
+		* [5.4.7 Trazabilidad](#5.4.7_Trazabilidad) 
+		* [5.4.8 Directrio Activo](#5.4.8_Directorio_Activo)  
+		* [5.4.9 Auditoría](#5.4.9_Auditoría)
+		* [5.4.10 API](#5.4.10_API)
+	* [5.5. Estructura del proyecto](#5.5._Estructura_del_proyecto)  
+		* [5.5.1 Equipo y Roles](#5.5.1_Equipo_y_Roles)  
+		* [5.5.2 Mapa de versiones y EOL (end-of-life)](#5.5.2_Mapa_de_versiones_y_EOL)  
+		* [5.5.3 Metodología](#5.5.3_Metodología)  
+		* [5.5.4 Procesos y Framework: SCRUM y KANBAN](#5.5.4_Procesos_y_Framework_SCRUM_y_KANBAN)  
+		* [5.5.5 Herramientas: Git y Base de Conocimiento](#5.5.5_Herramientas_Git_y_Base_de_Conocimiento)  
+		* [5.5.6 Flujo de Trabajo Parte 1 y 2](#5.5.6_Flujo_de_Trabajo_Parte_1_y_2)  
+		* [5.5.7 Diseño, SAD, ADR's y MTP](#5.5.7_Diseño,_SAD,_ADR's_y_MTP)  
+		* [5.5.8. Flujo de Trabajo Parte 3](#5.5.8._Flujo_de_Trabajo_Parte_3)
+* [6. Conclusiones](#6_conclusiones)
 
 <a name="1.introduction"></a>
 # 1. Introducción
@@ -1983,17 +2008,17 @@ Como es normal, todo el tiempo están surgiendo herramientas nuevas, mejores o q
 
 ---
 
-<a name=""></a>
+<a name="5._Implementacion"></a>
 # 5. Implementación
 
-<a name=""></a>
+<a name="5.1._Introduccion"></a>
 ## 5.1. Introducción
 
 Para dar sustento al presente trabajo, se utilizará como caso de estudio una versión modificada del producto ficticio <mark style="background: #FFF3A3A6;">SecTx Analysis</mark> de la empresa Tx Security.
 
 Se expondrán detalles internos del producto, con algunos aspectos importantes que pudieran ser útiles para diseñar un plan de implementación, que se utilizarán a modo conceptual donde se expondrán aspectos de la arquitectura y desarrollo del producto para dar una idea de ejemplos de implementación de la metodología DevSecOps desde la perspectiva de QA automation y los posibles roadmaps de adopción de la misma.
 
-<a name=""></a>
+<a name="5.2._Caso_de_Estudio_SecTx_Analysis"></a>
 ## 5.2. Caso de Estudio: SecTx Analysis
 
 SecTx Analysis es una solución que genera perfiles de usuarios en base a la información provista por el core del cliente (actúa como middleware, ver Fig. 60). Genera un modelo de análisis de comportamiento de usuarios a través de reglas definidas en la solución SecTx Analysis utilizando una Interfaz Web (Backoffice) donde los analistas de riesgos definen las reglas de aplicación.
@@ -2004,7 +2029,7 @@ SecTx Analysis es una solución que genera perfiles de usuarios en base a la inf
 En base al almacenamiento y procesamiento de información proveniente de múltiples canales (Web, dispositivos móviles) denominadas eventos/transacciones con importes, fecha de transacción, tipo de transacción, frecuencia de operación y datos de conexión del usuario, SecTx Analysis identifica posibles casos de fraude o de comportamiento sospechoso, pudiendo alertar de forma pasiva o bien de forma activa disparando procesos de autenticación robusta personalizados para ese perfil de usuarios.
 
 
-<a name=""></a>
+<a name="5.3._Casos_de_uso_de_SecTx_Analysis"></a>
 ## 5.3. Casos de uso de SecTx Analysis
 
 El producto ficticio SectTx Analysis presenta los siguientes casos de uso:
@@ -2021,14 +2046,14 @@ El producto ficticio SectTx Analysis presenta los siguientes casos de uso:
 10. Dashboards (backoffice) de configuración generar.
 
 
-<a name=""></a>
-# 5.4. Funcionalidades del Producto
+<a name="5.4._Funcionalidades_del_Producto"></a>
+## 5.4. Funcionalidades del Producto
 
 A continuación se listar las principales funcionales del sistema. Cada funcionalidad es un module especifico, con un responsabilidad bien asignada y especifica. Todos los módulos del sistemas se pueden habilitar y deshabilitar de forma independiente.
 
 Cada modulo funcional está diseñado para ser stateless (todo los datos se persisten en una base de datos centralizada, dependiendo del dominio de negocio del modulo), con una API interna basada en gRPC para la comunicación entre módulos; un esquema de cola de mensajería para la comunicación asincrónica; un mecanismo de recolección y almacenamiento de logs del sistema (para auditoria); cada modulo está contenereizado utilizando docker, multi stage y con imágenes minimalista (alpine o similares) para reducir el tamaño y para disminuir la superficie de ataque (desde el punto de vista de ciberseguridad).
 
-<a name=""></a>
+<a name="5.4.1_Administracion"></a>
 ## 5.4.1 Administración
 
 - Configuración de Datos: Administración de canales que proporciona una solución multi-canal, donde en cada canal se puede configurar múltiples operaciones, y cada operación puede tener un formato similar o distintas de transacción/eventos. Administración de tipos de operaciones y administración de parámetros.
@@ -2036,7 +2061,7 @@ Cada modulo funcional está diseñado para ser stateless (todo los datos se pers
 - Parámetros generales del sistema, Parámetros de año fiscal y Usuarios: Manejo de usuarios de sistemas basados en roles personalizables de acuerdo con la necesidad del negocio. Roles. Agregado y administración de usuarios.
 - Gestión de API KEYs: Seguridad de acceso en las transacciones basados en las api keys.
 
-<a name=""></a>
+<a name="5.4.2_Rule_Based_Engine"></a>
 ## 5.4.2 Rule Based Engine
 
 
@@ -2044,48 +2069,48 @@ Cada modulo funcional está diseñado para ser stateless (todo los datos se pers
 - Histórico para carga de transacciones masivas y carga de eventos masiva.
 - Administración de casos para ver transacciones almacenadas y hacer análisis específicos. Visualización de casos procesados y exportación de información procesada.
 
-<a name=""></a>
+<a name="5.4.3_Fingerprint"></a>
 ## 5.4.3 Fingerprint
 
 - Administración de reglas de Browser Fingerprint y Device Fingerprint. Consultas y visualización a través de Dashboard para análisis de Fingerprint multi-canal y Consultas con tablero de consulta de Fingerprints por ID de usuarios.
 
-<a name=""></a>
+<a name="5.4.4._Reportes_y_Analítica"></a>
 ## 5.4.4. Reportes y Analítica
 - Usuarios y perfiles: Manejo de reportes a nivel usuarios y transacciones con perfil y cantidad de usuarios. Reportes dinámicos. Reportes estáticos.
 
-<a name=""></a>
+<a name="5.4.5_Notificaciones"></a>
 ## 5.4.5 Notificaciones
 - Tipos de Notificaciones: Configuración de grupo de interesados en las notificaciones para las asignaciones de los casos y envío de correos de alerta de asignación de transacciones mediante el protocolo SMTP. 
 - Notificaciones a grupos y Administración de grupos de negocio. Configuración de visibilidad de reglas y asignación automática.
 
-<a name=""></a>
+<a name="5.4.6_Machine_Learning"></a>
 ## 5.4.6 Machine Learning
 * Análisis de transacciones, redes y experimentos.
 
-<a name=""></a>
+<a name="5.4.7_Trazabilidad"></a>
 ## 5.4.7 Trazabilidad
 * Trazar: Disponibilidad de armar grafos enfocados a la transacción y los montos, con el fin de armar una trazabilidad del usuario y movimientos de fondos entre cuentas.
 
-<a name=""></a>
+<a name="5.4.8_Directorio_Activo"></a>
 ## 5.4.8 Directorio Activo
 * Conexión: Configuración para poder integrar con directorios activos (AD) para usuarios de sistemas protocolo LDAP y gestión de grupos.
 
-<a name=""></a>
+<a name="5.4.9_Auditoría"></a>
 ## 5.4.9 Auditoría
 * Registros de auditoría: Mecanismo de auditoría de eventos del sistema.
 
-<a name=""></a>
-## 5.4.10 API
+<a name="5.4.10_API"></a>
+### 5.4.10 API
 * API REST para interactuar e integrar la solución SecTx Analysis para permitir el ingreso y gestión de eventos y transacciones, y endpoints específicos para el ingreso y gestión de Fingerprints.
 
 ![](../../images/SecTx_modules_architecture.png)
 **Figura 60.1** Diagrama funcional del producto.
 
-<a name=""></a>
+<a name="5.5._Estructura_del_proyecto"></a>
 ## 5.5. Estructura del proyecto
 
 
-<a name=""></a>
+<a name="5.5.1_Equipo_y_Roles"></a>
 ### 5.5.1 Equipo y Roles
 
 El equipo de trabajo está conformado por personas de varias áreas de la organización:
@@ -2107,8 +2132,8 @@ Debido a que el producto fue desarrollado hace más de 10 años (por poner un ej
 
 La organización del equipo usando 2 esquemas de trabajo (scrum y kanban) puede ayudar a gestionar la complejidad de tener muchas versiones del mismo producto, desplegadas en distintos clientes, con diferentes ambientes.
 
-<a name=""></a>
-## 5.5.2 Mapa de versiones y EOL (end-of-life)
+<a name="5.5.2_Mapa_de_versiones_y_EOL"></a>
+### 5.5.2 Mapa de versiones y EOL (end-of-life)
 
 Otra herramienta muy útil es tener un mapa de todas las versiones "habilitadas" al día de hoy, que versión del producto es, en que clientes está desplegada, y otras características que puedan ser de interés.
 
@@ -2126,13 +2151,13 @@ En la tabla se muestra un ejemplo de como armar un mapa de todas las versiones d
 
 Asi como existen en muchos productos comerciales (como ubuntu) un mapa del ciclo de vida de todas las releases, aquí la idea es similar, identificar unas versiones "estables" o base que puedan servir de referencia tanto para las migraciones como para el equipo de desarrollo al momento de dar soporte a las nuevas funcionalidades.
 
-
+<a name="5.5.3_Metodología"></a>
 ### 5.5.3 Metodología
 La organización alienta a seguir los lineamientos de la metodología ágil (Agile, 2001) para todo el desarrollo de sus productos de software. Se prioriza el software funcional, respeto entre pares, buena predisposición, conversaciones, charlas, comunicación y propuestas de mejoras desde cualquier persona, independientemente del rol y responsabilidades asociadas.
 
 **Referencia:**  Agile. (2001). Manifesto for Agile Software Development. Manifesto for Agile Software Development. Retrieved April 14, 2022, from https://agilemanifesto.org/
 
-
+<a name="5.5.4_Procesos_y_Framework_SCRUM_y_KANBAN"></a>
 ### 5.5.4 Procesos y Framework: SCRUM y KANBAN
 
 El equipo utiliza 2 enfoques para el desarrollo:
@@ -2152,7 +2177,7 @@ El equipo utiliza 2 enfoques para el desarrollo:
 **Referencia:** Wikipedia contributors. (2022, March 30). Kanban (development). In Wikipedia, The Free Encyclopedia. Retrieved 17:25, April 14, 2022, from https://en.wikipedia.org/w/index.php?title=Kanban_(development)&oldid=1080155858
 
 
-
+<a name="5.5.5_Herramientas_Git_y_Base_de_Conocimiento"></a>
 ### 5.5.5 Herramientas: Git y Base de Conocimiento
 
 El equipo de producto SectTx Analysis utiliza las siguientes herramientas (Fig. 63) como base de conocimiento y repositorios de información:
@@ -2176,8 +2201,8 @@ El equipo de producto SectTx Analysis utiliza las siguientes herramientas (Fig. 
 ![](../../images/fig_63_Organizacion_Equipo_Roles_Herramientas_Base_Conocimiento.png)
 **Figura 63**: Organización de Equipo, Roles, Herramientas y Base de Conocimiento. Imagen Fuente (Propia)
 
-
-## 5.5.6 Flujo de Trabajo Parte 1 y 2
+<a name="5.5.6_Flujo_de_Trabajo_Parte_1_y_2"></a>
+### 5.5.6 Flujo de Trabajo Parte 1 y 2
 
 Para describir el flujo de trabajo y Organización de la Información, se utilizará la Fig. 64. El flujo de trabajo de desarrollo comienza con el Proceso de Descubrimiento (A) que arranca con 2 entradas: 
 
@@ -2235,7 +2260,7 @@ Dentro del flujo de trabajo con Git y el Pipeline de CI/CD se aplica el concepto
 - product-branch: ambiente de pruebas y evaluación de Producto en UX/UI, mejoras, detalles.
 - master-branch: Promoción a ambiente de producción.
 
-
+<a name="5.5.7_Diseño,_SAD,_ADR's_y_MTP"></a>
 ### 5.5.7 Diseño, SAD, ADR's y MTP
 
 La Fig. 66 muestra un ADR generado usando notación de Markdown desde la wiki de Arquitectura parte del repositorio Gitlab de SectTx Analysis. Se observa que todo ADR debe tener referencia a una task para indicar la trazabilidad u origen de dicha decisión de arquitectura.
@@ -2349,8 +2374,8 @@ Cada stage del pipeline de CI/CD se ejecuta y tiene un estado final de esa ejecu
 Ante la falla (Error) de cualquier stage en cualquier etapa del pipeline, la ejecución completa del pipeline finaliza con el estado de Error. Esa ejecución fallida dispara un correo electrónico y OpsChat (mensaje en un canal de Teams) para notificar del error y que el equipo de Desarrollo quede notificado inmediatamente. Ante un estado de error, es prioridad que el equipo de desarrollo lo resuelva lo más pronto posible.
 
 
-### 5.58. Flujo de Trabajo Parte 3
-
+<a name="5.5.8._Flujo_de_Trabajo_Parte_3"></a>
+### 5.5.8. Flujo de Trabajo Parte 3
 
 La última parte del flujo de trabajo se representa en la Fig. 73, donde se definen 4 procesos. El Proceso de Deployment y Producción (a) comienza una vez que el pipeline de CI/CD paso por todas sus etapas sin problemas. Al finalizar el pipeline, el artefacto final que representa una nueva versión del producto SectTx Analysis es promovida a una ambiente Cloud de producción.
 
@@ -2368,6 +2393,7 @@ En este último esquema de soporte y feedback se puede definir SLA y el mecanism
 
 ---
 
+<a name="6_conclusiones"></a>
 # 6. Conclusiones
 
 Todas las metodologías, procesos y técnicas que se han desarrollado buscan generar productos o servicios de alta calidad, que cumplan con las expectativas del negocio, la empresa y las empresas que los desarrollan. Para lograr ese nivel de calidad es indispensable plantear estrategias a corto, mediano y largo plazo. La estrategia tiene que tener una visión de alto nivel, que observe y articule todas las partes, equipos, tareas, herramientas y cualquier otro componente necesario para lograr el objetivo de calidad en el producto y/o servicio.
