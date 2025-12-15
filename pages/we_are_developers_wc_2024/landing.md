@@ -20,7 +20,8 @@
 ---
 
 
-Link a la web ==> [WeAreDevelopers World Congress • July 2024 • Berlin, Germany](https://www.wearedevelopers.com/world-congress/)
+* Link a la web ==> [WeAreDevelopers World Congress • July 2024 • Berlin, Germany](https://www.wearedevelopers.com/world-congress/)
 
-Post de Linkedin con el detalle: https://www.linkedin.com/posts/matiasmiguez_wwc24-wearedevs-softwaredevelopment-activity-7221231788491177987-9Dgp?utm_source=share&utm_medium=member_desktop
+* Post de Linkedin con el detalle: https://www.linkedin.com/posts/matiasmiguez_wwc24-wearedevs-softwaredevelopment-activity-7221231788491177987-9Dgp?utm_source=share&utm_medium=member_desktop
 
+* Link APP del evento: https://worldcongress.app.swapcard.com/event/wearedevelopers-world-congress-2024/my-schedule?view=schedule
