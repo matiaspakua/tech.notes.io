@@ -132,14 +132,14 @@ Charlas --> [Notas de las charlas](/pages/we_are_developers_wc_2024/landing.md)
 
 ### Módulo Ingeniería de Productos de Software 
 
-- [Ingeniería de Requerimientos](pages/sw_eng_specialization/software_requirements.md)
+- [Ingeniería de Requerimientos](software_requirements.md)
 - [Modelado de Software con Objetos](pages/sw_eng_specialization/software_modeling_with_objects.md)
 - [Arquitecturas de Software](contenidos.md)
 - [Mediciones de Software y Sistemas](pages/sw_eng_specialization/software_and_systems_measurements.md)
   
 ### Módulo Gestión de Proyectos de Desarrollo
 
-- [Planeamiento y Estimación de Proyectos de Software](pages/sw_eng_specialization/sofware_projects_scheduling_and_estimation.md)
+- [Planeamiento y Estimación de Proyectos de Software](sofware_projects_scheduling_and_estimation.md)
 - [Administración del Riesgo en Desarrollo de Software](pages/sw_eng_specialization/software_development_risk_management.md)
 - [Gestión de Recursos Humanos y Conducción de Equipos](pages/sw_eng_specialization/team_driving_and_human_resource_management.md)
 - [Métodos de Desarrollo de Software](pages/sw_eng_specialization/software_development_methods.md)
