@@ -1,4 +1,4 @@
-<mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
+<mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3" pages="2">
   <diagram name="IR-001" id="zTgLYM6Ug1bqBH8enFn-">
     <mxGraphModel dx="639" dy="383" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -30,6 +30,122 @@
         </mxCell>
         <mxCell id="y9lOlhyDfymP6QqYKaWm-9" value="Producto&lt;div&gt;&quot;erróeo&quot;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="669.5" y="440" width="71" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="j4pyB4drSzJ6En2xUOPO" name="IR002">
+    <mxGraphModel dx="926" dy="554" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="vVwM-ihiPe6-FZpHM5S4-5" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vVwM-ihiPe6-FZpHM5S4-1" target="vVwM-ihiPe6-FZpHM5S4-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vVwM-ihiPe6-FZpHM5S4-1" value="Elicitación" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="110" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vVwM-ihiPe6-FZpHM5S4-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vVwM-ihiPe6-FZpHM5S4-2" target="vVwM-ihiPe6-FZpHM5S4-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vVwM-ihiPe6-FZpHM5S4-2" value="Modelado" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="110" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vVwM-ihiPe6-FZpHM5S4-7" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="vVwM-ihiPe6-FZpHM5S4-3" target="vVwM-ihiPe6-FZpHM5S4-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vVwM-ihiPe6-FZpHM5S4-3" value="Análisis" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="110" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vVwM-ihiPe6-FZpHM5S4-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vVwM-ihiPe6-FZpHM5S4-4" target="vVwM-ihiPe6-FZpHM5S4-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vVwM-ihiPe6-FZpHM5S4-4" value="&lt;div&gt;&amp;lt;&amp;lt; Proceso &amp;gt;&amp;gt;&lt;/div&gt;Gestión" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="280" y="260" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vVwM-ihiPe6-FZpHM5S4-8" value="SRS" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.documents;" vertex="1" parent="1">
+          <mxGeometry x="460" y="262" width="64" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="vVwM-ihiPe6-FZpHM5S4-10" value="Ingenieria de Requerimientos - Modelo Conceptual" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="210" y="160" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vVwM-ihiPe6-FZpHM5S4-11" value="Universo del&lt;div&gt;&amp;nbsp;Discurso&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="100" y="480" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vVwM-ihiPe6-FZpHM5S4-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vVwM-ihiPe6-FZpHM5S4-12" target="vVwM-ihiPe6-FZpHM5S4-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vVwM-ihiPe6-FZpHM5S4-12" value="Procesos de la Ing. de Requerimientos" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="305" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vVwM-ihiPe6-FZpHM5S4-13" value="SRS" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.documents;" vertex="1" parent="1">
+          <mxGeometry x="460" y="471" width="64" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="vVwM-ihiPe6-FZpHM5S4-14" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=-0.007;entryY=0.18;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.825;exitY=0.139;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=#009900;" edge="1" parent="1" source="vVwM-ihiPe6-FZpHM5S4-11" target="vVwM-ihiPe6-FZpHM5S4-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="500" as="sourcePoint" />
+            <mxPoint x="260" y="450" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="220" y="470" />
+              <mxPoint x="260" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vVwM-ihiPe6-FZpHM5S4-18" value="Objetivos" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="vVwM-ihiPe6-FZpHM5S4-14">
+          <mxGeometry x="0.086" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vVwM-ihiPe6-FZpHM5S4-15" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.935;exitY=0.252;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=#0000CC;" edge="1" parent="1" source="vVwM-ihiPe6-FZpHM5S4-11" target="vVwM-ihiPe6-FZpHM5S4-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="491" as="sourcePoint" />
+            <mxPoint x="330" y="491" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="240" y="490" />
+              <mxPoint x="260" y="490" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vVwM-ihiPe6-FZpHM5S4-19" value="requerimientos" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="vVwM-ihiPe6-FZpHM5S4-15">
+          <mxGeometry x="-0.1331" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vVwM-ihiPe6-FZpHM5S4-16" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=-0.012;entryY=0.706;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.968;exitY=0.671;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=#FF0000;" edge="1" parent="1" source="vVwM-ihiPe6-FZpHM5S4-11" target="vVwM-ihiPe6-FZpHM5S4-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="599" as="sourcePoint" />
+            <mxPoint x="270" y="549" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="230" y="540" />
+              <mxPoint x="280" y="540" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vVwM-ihiPe6-FZpHM5S4-20" value="Contexto" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="vVwM-ihiPe6-FZpHM5S4-16">
+          <mxGeometry x="0.1751" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vVwM-ihiPe6-FZpHM5S4-17" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=1;entryY=1;entryDx=0;entryDy=0;exitX=0.335;exitY=1.006;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="vVwM-ihiPe6-FZpHM5S4-12" target="vVwM-ihiPe6-FZpHM5S4-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="542" as="sourcePoint" />
+            <mxPoint x="313" y="530" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="300" y="570" />
+              <mxPoint x="230" y="570" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vVwM-ihiPe6-FZpHM5S4-21" value="Propuesta" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="vVwM-ihiPe6-FZpHM5S4-17">
+          <mxGeometry x="-0.4526" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vVwM-ihiPe6-FZpHM5S4-23" value="- Requerimeintos&lt;div&gt;- Constraints&lt;/div&gt;&lt;div&gt;- Contexto: cross-cutting concerns&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="427" y="585" width="193" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vVwM-ihiPe6-FZpHM5S4-26" value="Ingenieria de Requerimientos - Interacciones, procesos y deliverables" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="200" y="420" width="290" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
