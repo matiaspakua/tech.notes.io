@@ -76,3 +76,4 @@ El PMBok se estructura de la siguiente manera:
 
 Estas áreas de conocimiento dependen mucho del "tipo" del proyecto y el contexto en el cual se desarrolla. 
 
+Un concepto importante es que el ciclo de vida de un proyecto no es el mismo que el ciclo de vida de un producto. Un producto puede ser el resultado de un proyecto, pero su vida se puede extender mucho más allá. El proyecto tiene un horizonte bien definido, se podría decir que los proyectos son un concepto mucho más efímero que un producto.
