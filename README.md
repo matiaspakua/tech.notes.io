@@ -133,7 +133,7 @@ Charlas --> [Notas de las charlas](/pages/we_are_developers_wc_2024/landing.md)
 ### Módulo Ingeniería de Productos de Software 
 
 - [Ingeniería de Requerimientos](software_requirements.md)
-- [Modelado de Software con Objetos](pages/sw_eng_specialization/software_modeling_with_objects.md)
+- [Modelado de Software con Objetos](software_modeling_with_objects.md)
 - [Arquitecturas de Software](contenidos.md)
 - [Mediciones de Software y Sistemas](pages/sw_eng_specialization/software_and_systems_measurements.md)
   
