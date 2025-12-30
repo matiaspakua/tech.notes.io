@@ -1,0 +1,42 @@
+# Conceptos claves
+
+Dentro del mundo del modelado de software con objectos, los siguientes conceptos son clave y pilares fundamentales del diseño y buenas prácticas:
+
+1. Modularidad;
+2. Orientación a objetos;
+3. Encapsulamiento;
+4. Ocultamiento de la información;
+
+Para iniciar el estudio, se introduce el concepto de "objeto" e instancia. La orientación a objetos nace a mediados de los años '60 con un lenguaje llamado ALGOL. En paralelo se desarrollo otro paradigma, denominado "estructurado". Y actualmente, hay un tercero que se suma y es el funcional (aunque también es una evolución de otro anterior).
+
+En la OO (orientación a objetos), el paradigma establece que todo es un objeto. Un objeto es una abstracción de una parte de la realidad, lo suficientemente simplificada para ser manipulada para resolver un determinado objetivo (dominio del problema) de negocio.
+
+Un objeto se caracteriza por tener un nombre (abstracción de la realidad), comportamiento (funciones o métodos) y un estado (propiedades del objeto).
+
+Lenguajes orientados a objetos son smaltalk y javascript.
+
+## Caso de estudio: D. Parnas. A-7 project
+
+En la década de los '70, se encargo a un equipo liderado por Parnas, el proyecto A7E Aircraft (el software de vuelo de un avión militar), modificar el software del avión. Hasta ese momento, la teoría sobre las ciencias de la computación no estaba siendo utilizada en producción, si no que se enfocaba en el ámbito académico.
+
+El objetivo del proyecto de Parnas era: "Rediseñar y re-implementar" el software de la aeronave. Esto pretendía demostrar la aplicación, hasta el momento académica, en el mundo real, en la industria y específicamente en un proyecto. En el proyecto, estaban involucrados científicos, que además eran quienes desarrollaban. 
+
+Lo que resulto del proyecto fue:
+
+1. Definición de una **estrategia**: sobre como abordar el rediseño. La necesidad de integración hardware y sobre, y la cooperación de procesos secuenciales dio origen al concepto de: "Information hidding". Ocultar la implementación (los detalles) de los consumidores. Donde la interface o contrato cobra especial relevancia.
+2. Definición de las **características** del proyecto: requerimientos poco flexibles, restricciones de memoria, tiempo de desarrollo acotado. Algunas de las características técnicas del proyecto eran: hard real-time system, embedded (HiL, SiL), auténtico/único, capacidades del HW restringidas.
+3. Principal output, un modelo de ingenieria de software completo: el proyecto especifico como: documentar, diseñar, codificar, tester, metodología a seguir y principios guías.
+
+Una de las premisas que buscaba el proyecto, luego de obtener todos estos outputs como resultados era el de establecer que si este proceso se podia repetir en otro ambito/proyecto, entonces, el proyecto se consideraría como exitoso.
+
+El equipo del proyecto estableció los siguientes pasos:
+
+<mark style="background: #FFF3A3A6;">Paso 1</mark>: Crear un SRS. El documento de requerimientos fue la base que utilizaron para luego comparar y validar los resultados de las pruebas. Básicamente, ayudo a definir los criterios de aceptación para indicar cuando un requerimiento estaba cumplido. En este caso, se desarrollo el método para crear el SRS.
+
+<mark style="background: #FFF3A3A6;">Paso 2</mark>: Separa responsabilidades, modular y diseñar interfaces. La base del proyecto fue un diseño orientado a objetos, preparado para ser adaptado a futuras funcionalidades.
+
+<mark style="background: #FFF3A3A6;">Paso 3</mark>: se creo un modelo de domino, que permitia ver al sistema, sus interfaces y el contexto como un todo.
+
+<mark style="background: #FFF3A3A6;">Paso 4</mark>: se establecio una arquitectura de referencia. Se diseño un estandar
+
+<mark style="background: #FFF3A3A6;">Paso 5</mark>: 
