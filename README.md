@@ -81,8 +81,9 @@
 
 ##  🛰️  Espacio, satélites e ingeniería aeroespacial
 
-[[space_introduccion]]
-[[orbit_propagation]]
+- [space_introduccion](/pages/space/space_introduction.md)
+- [orbit_propagation](/pages/space/orbit_propagation.md)
+
 
 ## 🔒 Ciberseguridad
 
