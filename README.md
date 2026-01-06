@@ -57,6 +57,11 @@
 - [OpenAPI](/pages/development/OpenApi.md)
 - [Interfaces Funcionales en Java](/pages/development/java_interfaces_funcionales.md)
 
+## Inteligencia Artificial
+
+- [AI. Conceptos de Introducción](/pages/artificial_intelligence/AI_introduction.md)
+
+
 ## 🧪 Testing de sistemas y software 
 
 - [Gherkin and Automation](/pages/testing/gherkin_and_automation.md)
