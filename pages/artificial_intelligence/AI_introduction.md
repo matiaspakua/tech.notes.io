@@ -142,6 +142,12 @@ Fine-tunning
 
 RAG (retrieval-augmented generation)
 
+RLHF
+
+Referencia:
+https://es.wikipedia.org/wiki/Aprendizaje_por_refuerzo_a_partir_de_retroalimentaci%C3%B3n_humana
+
+
 Hallucinations
 
 MPC (Model context Protocol)
