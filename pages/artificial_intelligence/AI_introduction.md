@@ -38,6 +38,8 @@ El Deep Learning toma inspiración de la neurociencia, al tomar el concepto de n
 2. Semi-supervisado;
 3. Sin supervisión;
 
+![[supervised_vs_no_supervised.png]]
+
 Algunas de las arquitecturas de redes de deep learning incluyen:
 
 * CNN - Convolutional neural networks
@@ -45,7 +47,7 @@ Algunas de las arquitecturas de redes de deep learning incluyen:
 
 Existen múltiples usos para este tipos de redes de deep learning, basando en el problema a resolver y la arquitectura seleccionada, como un ejemplo sencillo, supongamos un problema de reconocimiento de "caras" en imágenes. Para resolver este problema vamos a utilizar hipotéticamente un esquema de 4 capas de redes neuronales. Luego del obtener el input, el cual corresponde a una imagen en formato RAW, se pre-procesa como un Tensor de Pixeles, donde el tensor es una representación de los pixeles en un arreglo multi-dimensional (M-way array). Luego, en una primera capa de representación el algoritmo puede intentar reconocer formas básicas (lineas, círculos, etc); la segunda capa puede intentar componer bordes, figuras; la tercera capa intentará componer narices y ojos; finalmente, la cuarta capa intentará reconocer si la imagen contiene una cara.
 
-![](../../images/Deep_Learning.jpg)
+![](../../images/deep_learning.png)
 
 Referencia:
 https://en.wikipedia.org/wiki/Deep_learning
@@ -161,4 +163,4 @@ Agentes de CLI
 # Referencias
 
 https://dev.to/bladepipe/genai-core-concepts-explained-rag-function-calling-mcp-ai-agent-2bmc
-
+https://cme295.stanford.edu/syllabus/
