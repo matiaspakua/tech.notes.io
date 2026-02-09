@@ -34,11 +34,12 @@ Es una especialización del ML que se enfoca en la utilización de múltiples ca
 
 El Deep Learning toma inspiración de la neurociencia, al tomar el concepto de neurona, aquí, neurona digital que pueden ser entrenadas para procesar datos. Deep (profundo) se refiere al hecho de usar múltiples capas en la red. Existen 3 grandes grupos o categorías de entrenamiento:
 
-1. Supervisado;
-2. Semi-supervisado;
-3. Sin supervisión;
+1. Supervisado: <mark style="background: #FFF3A3A6;">datos etiquetados:</mark> => se usan para clasificación y regresión.
+2. Semi-supervisado, datos CON y SIN etiquetas: se usan en algoritmos generativos, análisis de voz, clasificación de contenido y secuencias de proteínas.
+3. Sin supervisión: <mark style="background: #ADCCFFA6;">datos SIN etiquetas</mark>, los algoritmos  agrupan y clasifican;
+4. Aprendizaje por refuerzo: los algoritmos aprenden por pruebas y error, se usan en robótica y videojuegos.
 
-![[supervised_vs_no_supervised.png]]
+![](../../images/supervised_vs_no_supervised.png)
 
 Algunas de las arquitecturas de redes de deep learning incluyen:
 
@@ -104,6 +105,28 @@ Gracias a los estudios en AI, y muy asociado a la teoría detrás, aparecen otra
 
 Referencia:
 https://en.wikipedia.org/wiki/Arithmetic_coding
+
+
+## Aprendisaje Supervisado: clasificación
+
+ - **Clase**: la categoría de los datos.
+ - **Características**: las medidas;
+ - **Muestras**: los puntos de los datos;
+ - **Parámetros**: las variables del modelo.
+
+Referencia:
+https://scikit-learn.org/stable/supervised_learning.html
+
+## SVM - Support Vector Machines
+
+
+El objetivo del algoritmo es encontrar una linea recta (cuando trabajamos en 2 dimensiones), llamada "frontera SVM" que separe los grupos de puntos (datos). El objetivo es encontrar la linea que más separa ambos conjuntos de datos con el mayor "margen" posible.
+ 
+![](../../images/ml_clasificacion_svm.png)
+
+Ref: https://colab.research.google.com/drive/1Yj3AS0b2uZx0y2LRk_ca_3GiDdAkG7cV#scrollTo=6hjecJGt1fZL&line=68&uniqifier=1
+
+
 
 
 ## LLM - Large language Model
