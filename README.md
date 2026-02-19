@@ -59,7 +59,7 @@
 
 ## Inteligencia Artificial
 
-- [AI. Conceptos de Introducción](/pages/artificial_intelligence/AI_introduction.md)
+- [AI. Conceptos de Introducción](1_conceptos_generales.md)
 
 
 ## 🧪 Testing de sistemas y software 
