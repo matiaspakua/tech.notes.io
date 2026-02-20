@@ -22,3 +22,7 @@ https://learn.nvidia.com/courses/course?course_id=course-v1:DLI+S-FX-39+V1&unit=
 
 https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+T-DS-03+V1
 
+
+## 06_Agents skills from anthropic
+
+https://learn.deeplearning.ai/courses/agent-skills-with-anthropic
