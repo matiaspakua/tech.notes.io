@@ -15,3 +15,7 @@ https://modelcontextprotocol.io/docs/getting-started/intro
 
 https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview
 https://agentskills.io/home
+
+
+# Agents Rules (spec)
+https://aicodingrules.org/
