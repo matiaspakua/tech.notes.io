@@ -19,3 +19,11 @@ https://agentskills.io/home
 
 # Agents Rules (spec)
 https://aicodingrules.org/
+
+
+# Prompt Engineering
+
+few-shot
+
+Referencia: 
+https://en.wikipedia.org/wiki/Prompt_engineering
