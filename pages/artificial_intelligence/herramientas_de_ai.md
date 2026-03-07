@@ -27,3 +27,11 @@ few-shot
 
 Referencia: 
 https://en.wikipedia.org/wiki/Prompt_engineering
+
+
+# Connect OpenCode and Github
+https://www.youtube.com/watch?v=-Zr2gI8R-Sk
+
+
+# gpt-tokenizer playground
+https://gpt-tokenizer.dev/
