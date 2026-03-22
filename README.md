@@ -256,6 +256,8 @@ Charlas --> [Notas de las charlas](/pages/we_are_developers_wc_2024/landing.md)
  * Cuentos completos de Robots.
  * 1984 George Orwell (54%)
 
+
+
 ---
 
 
