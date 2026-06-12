@@ -3717,7 +3717,7 @@ Implementar una base de datos.
 
 Debe implementar índices.
 
-# **14 . Programación Multiheading (hilo de ejecución)**
+# **14. Programación Multithreading (hilo de ejecución)**
 
 Si uno abre la secuencia de instrucciones de cualquier código que trabaje con funciones (como si se tratase de un acordeón), lo que se nota, es que todas las instrucciones vienen una detrás de la otra, formando de esta manera un “hilo“ de ejecución. Se llama de esta manera debido a que abstractamente se ven como una secuencia continua, una detrás de otra, de instrucciones de código.
 
@@ -3728,7 +3728,13 @@ Cada proceso tiene un espacio de direccionamiento propio, siempre de 2 GB (para 
 
 La memoria virtual, esta divida en secciones mas grande que un byte, llamada paginas, que en maquinas estándar miden aprox. 4KB. Cada pagina puede ser representada de distintas maneras y tener distintos estados, por ejemplo: RAM o de disco (en el caso del disco, este espacio es llamado el “swap del disco”), y los estados son NO USED y RESERVADO.
 
-El “squebler” junta todos los hilos de todos los procesos (sin diferenciarlos) en una pila, cuado el ultimo hilo termina, significa que termino el programa. En principio, el squebler no diferencia entre procesos, pero puede que dependiendo de la prioridad que el sistema operativo le de a un determinado proceso, se procese un hilo ante que otro o no.
+El “scheduler” junta todos los hilos de todos los procesos (sin diferenciarlos) en una pila, cuando el ultimo hilo termina, significa que termino el programa. En principio, el scheduler no diferencia entre procesos, pero puede que dependiendo de la prioridad que el sistema operativo le de a un determinado proceso, se procese un hilo antes que otro o no.
+
+## Referencias
+
+- [C (programming language) — Wikipedia](https://en.wikipedia.org/wiki/C_(programming_language))
+- [The C Programming Language — Brian W. Kernighan & Dennis M. Ritchie, 2.ª ed., 1988](https://en.wikipedia.org/wiki/The_C_Programming_Language)
+- [C standard library — Wikipedia](https://en.wikipedia.org/wiki/C_standard_library)
 
 Para poder hacer programas que permitan realizar tareas en multiheading, se debe incluir en el código del programa el header fila del sistema operativo que contenga las directivas necesarias para poder ejecutar procesos de esta manera.
 
