@@ -9,13 +9,21 @@ tags:
 
 I start reading 3 books about software engineering / development. My initial intention was to identify which problems still arise in the software industry and learn from the authors: WHY those problems exists, advises on how to solve and (with this writing) share what I found to improve and help our industry.
 
-## The books and the the Timeline
+## The books and the Timeline
 
 We will start with my books selected:
 
 1. The Mythical Man-Month: Essays on Software Engineering by Frederick Phillips Brooks (1975)
 2. Extreme Programming Explained: Embrace Change by Kent Beck (1999)
-3. Modern Software Engineering: Doing What Works to Build Better Software Faster (2021)
+3. Modern Software Engineering: Doing What Works to Build Better Software Faster by David Farley (2021)
+
+```mermaid
+timeline
+    title Línea de tiempo de los libros
+    1975 : The Mythical Man-Month (Fred Brooks)
+    1999 : Extreme Programming Explained (Kent Beck)
+    2021 : Modern Software Engineering (David Farley)
+```
 
 ![](../../images/software_engineering_timeline.png)
 
