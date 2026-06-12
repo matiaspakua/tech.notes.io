@@ -11,6 +11,8 @@ tags:
 
 # Conceptos y servicios del modelo Cloud Computing. 
 
+[← Inicio](https://matiaspakua.github.io/tech.notes.io)
+
 Procesamiento, almacenamiento, networking y servicios On-Premises .
 
 Modelos Cloud IAAS, PAAS, SAAS.

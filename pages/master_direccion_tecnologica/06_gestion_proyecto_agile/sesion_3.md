@@ -10,5 +10,7 @@ tags:
 
 # Roles y funciones / Artefactos Scrum
 
+[← Inicio](https://matiaspakua.github.io/tech.notes.io)
+
 [Prioritizing Your Product Backlog - InfoQ](https://www.infoq.com/presentations/prioritizing-your-product-backlog-mike-cohn/)
 

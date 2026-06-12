@@ -10,3 +10,5 @@ tags:
 
 # Sesion 6
 
+[← Inicio](https://matiaspakua.github.io/tech.notes.io)
+

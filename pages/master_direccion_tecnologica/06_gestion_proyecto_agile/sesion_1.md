@@ -10,6 +10,8 @@ tags:
 
 # Introducción Agile
 
+[← Inicio](https://matiaspakua.github.io/tech.notes.io)
+
 ### **Objetivos de la sesión**
 
 1. Comprender las diferencias entre proyectos gestionados con enfoques tradicionales (Waterfall) y metodologías ágiles.

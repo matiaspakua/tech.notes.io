@@ -8,3 +8,5 @@ tags:
 ---
 
 # Clase 5 - Liderazgo y Cultura Exponencial
+
+[← Inicio](https://matiaspakua.github.io/tech.notes.io)

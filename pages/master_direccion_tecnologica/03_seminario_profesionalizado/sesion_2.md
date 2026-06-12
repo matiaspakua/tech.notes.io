@@ -10,6 +10,8 @@ tags:
 
 # Sesión 2 · Comunicación Interpersonal
 
+[← Inicio](https://matiaspakua.github.io/tech.notes.io)
+
 ## Estilos de influencia
 
 Los estilos de influencia son estrategias que los líderes y profesionales utilizan para persuadir y motivar a otros en el entorno laboral. A continuación, se presentan nueve estilos de influencia, cada uno con ejemplos aplicables en empresas tecnológicas:

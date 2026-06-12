@@ -10,6 +10,8 @@ tags:
 
 # Gobierno TI
 
+[← Inicio](https://matiaspakua.github.io/tech.notes.io)
+
 ## Lectura 1: ¿Qué es el gobierno de TI_ _ IBM.pdf
 
 1.  **Elementos Fundamentales del Gobierno de TI**

@@ -10,6 +10,8 @@ tags:
 
 # Gestión Económico Financiera
 
+[← Inicio](https://matiaspakua.github.io/tech.notes.io)
+
 - Sesión 1 -> [1. Introducción a la Contabilidad](sesion_1_26-10-2024.md)
 - Sesión 2 -> [2.INTERPRETACIÓN DE LAS CUENTAS ANUALES. ANÁLISIS DEL BALANCE DE SITUACIÓN](sesion_2_08-11-2024.md)
 - Sesión 3 -> [3.Análisis de la cuenta de resultados](sesion_3_16-11-2024.md)

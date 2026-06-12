@@ -10,6 +10,8 @@ tags:
 
 # Arquitectura de Ciberseguridad
 
+[← Inicio](https://matiaspakua.github.io/tech.notes.io)
+
 1. Visión general de la arquitectura de seguridad 
 2. El modelo de redes OSI 
 3. Defensa en profundidad 

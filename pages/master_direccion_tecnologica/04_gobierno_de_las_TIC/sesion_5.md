@@ -11,6 +11,8 @@ tags:
 
 # Ciberseguridad
 
+[← Inicio](https://matiaspakua.github.io/tech.notes.io)
+
 NIS2 => normativa europea
 medianas y grandes empresas => sectores críticos: banca, energía, salud, infraestructura, etc.
 España es el 5to país más atacado.

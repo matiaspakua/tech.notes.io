@@ -9,3 +9,5 @@ tags:
 ---
 
 # Trabajo en Equipo parte 2
+
+[← Inicio](https://matiaspakua.github.io/tech.notes.io)

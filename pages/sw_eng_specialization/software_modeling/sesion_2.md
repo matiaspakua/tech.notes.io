@@ -11,6 +11,8 @@ tags:
 
 # Conceptos claves
 
+[← Inicio](https://matiaspakua.github.io/tech.notes.io)
+
 Dentro del mundo del modelado de software con objectos, los siguientes conceptos son clave y pilares fundamentales del diseño y buenas prácticas:
 
 1. Modularidad;

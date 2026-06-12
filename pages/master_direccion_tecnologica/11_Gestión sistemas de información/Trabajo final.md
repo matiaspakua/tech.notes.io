@@ -9,6 +9,8 @@ tags:
 
 # Trabajo Final
 
+[← Inicio](https://matiaspakua.github.io/tech.notes.io)
+
 Como identificar la necesidad de la compañía: madurez, presupuesto, procesos.
 Eficiencia operativa
 Ventaja competitiva

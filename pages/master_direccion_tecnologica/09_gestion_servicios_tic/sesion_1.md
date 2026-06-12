@@ -10,6 +10,8 @@ tags:
 
 # Lecturas previas
 
+[← Inicio](https://matiaspakua.github.io/tech.notes.io)
+
 Link 1: [ISO - How IT service management delivers value](https://www.iso.org/news/ref2696.html)
 
 Agile => en combinación con normas ISO y para la gestión de servicios IT

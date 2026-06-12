@@ -11,6 +11,8 @@ tags:
 
 # El proceso de la Ingeniería de Requerimientos
 
+[← Inicio](https://matiaspakua.github.io/tech.notes.io)
+
 El proceso inicia con conocer y comenzar a indagar el "universo del discurso", que representa el mundo real que se desea modelar. De aquí, es donde se debe extraer la información relevante.
 
 Un dato importante es entender las características intrínsecas de los usuarios. Los usuarios se deben identificar, categorizar y junto con las características identificadas, se deberá además asociar como ayudarán a validar los requerimientos.

@@ -11,6 +11,8 @@ tags:
 
 # Introducción a los conceptos
 
+[← Inicio](https://matiaspakua.github.io/tech.notes.io)
+
 1. Paradigma: una forma de pensar. Se trata de una lente para ver la realidad; Puede ser estructurado: datos + procesos, que generan una serie de transformaciones.
 2. Software/programa: modelado computable de la realidad. Parte de un dominio (negocio), que es parte de una realidad. Pueden existir múltiples abstracciones, por ejemplo, la máquina de Von Neumann (modelo o arquitectura de una computación genérica) o la máquina de Turing que es un modelo matemático capaz de computar cualquier algoritmo.
 

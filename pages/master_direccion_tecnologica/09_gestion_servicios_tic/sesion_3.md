@@ -10,6 +10,8 @@ tags:
 
 # modelo de gobierno
 
+[← Inicio](https://matiaspakua.github.io/tech.notes.io)
+
 Presupuestos
 
 Ventas  

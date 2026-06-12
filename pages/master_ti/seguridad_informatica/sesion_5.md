@@ -10,6 +10,8 @@ tags:
 
 # Respuesta a Incidentes
 
+[← Inicio](https://matiaspakua.github.io/tech.notes.io)
+
 1. Evento vs. Incidente 
 2. Respuesta a incidentes de seguridad 
 3. Investigaciones, retenciones legales y preservación 

@@ -10,6 +10,8 @@ tags:
 
 # Introducción Gestión de Proyectos, Iniciación y Planificación de proyectos IT
 
+[← Inicio](https://matiaspakua.github.io/tech.notes.io)
+
 Tareas previas a la sesión informativa 
 1. Lectura de la Guía académica 
 2. Lectura light del artículo o https://www.ticportal.es/glosario-tic/gestion-proyectos 

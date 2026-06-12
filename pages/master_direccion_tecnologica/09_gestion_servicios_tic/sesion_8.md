@@ -10,6 +10,8 @@ tags:
 
 # Fundamentos de LEAN IT
 
+[← Inicio](https://matiaspakua.github.io/tech.notes.io)
+
 Todo lo que hagamos, sirva para algo.
 Generalmente hacemos cosas que no aportan valor.
 Valor para el cliente.

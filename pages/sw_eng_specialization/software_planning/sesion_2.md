@@ -11,6 +11,8 @@ tags:
 
 # alcance y objetivos
 
+[← Inicio](https://matiaspakua.github.io/tech.notes.io)
+
 Un proyecto es un esfuerzo constituido por un grupo de procesos. Estos procesos se identifican como:
 1. iniciación;
 2. planificación;

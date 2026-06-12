@@ -10,6 +10,8 @@ tags:
 
 # Rol del CIO
 
+[← Inicio](https://matiaspakua.github.io/tech.notes.io)
+
 Reflexión sobre la figura del CIO en su empresa 
 
 Lectura artículo:  [El papel del CIO en 2024: una retrospectiva del año en clave TI | CIO](https://www.cio.com/article/3624204/el-papel-del-cio-en-2024-una-retrospectiva-del-ano-en-clave-ti.html?amp=1)

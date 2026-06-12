@@ -10,6 +10,8 @@ tags:
 
 # Control de costes del departamento
 
+[← Inicio](https://matiaspakua.github.io/tech.notes.io)
+
 Lectura: Relación entre la capacidad financiera de una empresa y su capacidad para ofrecer servicios
 Link: [Administración TI](https://itpadmonti.blogspot.com/)}
 

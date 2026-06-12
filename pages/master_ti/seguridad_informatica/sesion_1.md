@@ -10,6 +10,8 @@ tags:
 
 # Overview general: Principales conceptos de Cyberseguridad.
 
+[← Inicio](https://matiaspakua.github.io/tech.notes.io)
+
 1. Principales conceptos de Cyberseguridad. 
 2. Fundamentos de Arquitecturas de Seguridad. 
 3. Seguridad en Redes, Sistemas, Aplicaciones y Datos. 

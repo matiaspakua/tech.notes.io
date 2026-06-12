@@ -9,6 +9,8 @@ tags:
 
 # Sistemas de gestión empresarial
 
+[← Inicio](https://matiaspakua.github.io/tech.notes.io)
+
 Herramientas + Procedimientos + Politicas  que permiten gestionar:
 Procesos
 Personas

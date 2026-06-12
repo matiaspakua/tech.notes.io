@@ -10,6 +10,8 @@ tags:
 
 # Innovación incremental vs radical
 
+[← Inicio](https://matiaspakua.github.io/tech.notes.io)
+
 Incremantal => lo que yo ya se hacer + nuevos matices. Amplia lo que haces. Una amplicación de una gama de productos.
 
 Radical => parte de conocimiento nuevo. Sustitutiva = es un cambio, desplaza a la oferta actual. Destruye competencias anteriores.

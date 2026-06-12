@@ -10,3 +10,5 @@ tags:
 
 # Estimaciones y Presupuesto para elegir proyectos
 
+[← Inicio](https://matiaspakua.github.io/tech.notes.io)
+

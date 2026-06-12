@@ -10,6 +10,8 @@ tags:
 
 # Innovación y Creatividad
 
+[← Inicio](https://matiaspakua.github.io/tech.notes.io)
+
 Método de innovación práctica
 
 Efecto Shinkansen: 4 fases. 

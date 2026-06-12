@@ -10,6 +10,8 @@ tags:
 
 # Iniciación y planificación de un proyecto
 
+[← Inicio](https://matiaspakua.github.io/tech.notes.io)
+
 Tareas previas a la sesión o Leer caso implementación Netsuite Oracle ERP
 
 - [Del subsuelo a la nube - El rol del CIO a lo largo de cuatro décadas](https://www2.deloitte.com/ar/es/pages/tecnologia/articles/el-rol-del-cio.html)

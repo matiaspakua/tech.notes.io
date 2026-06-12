@@ -10,6 +10,8 @@ tags:
 
 # Organizaciones digitales
 
+[← Inicio](https://matiaspakua.github.io/tech.notes.io)
+
 • Evolución de la función TI 
 • Impactos esperados y visión de negocio de aportación de valor 
 • Inversiones y prioridades del negocio 

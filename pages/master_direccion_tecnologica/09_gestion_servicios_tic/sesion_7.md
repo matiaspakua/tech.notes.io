@@ -11,6 +11,8 @@ tags:
 
 # Feedback del trabajo
 
+[← Inicio](https://matiaspakua.github.io/tech.notes.io)
+
 1) facturación de la empresa
 2) tamaño del departamento
 3) presupuesto del departamento

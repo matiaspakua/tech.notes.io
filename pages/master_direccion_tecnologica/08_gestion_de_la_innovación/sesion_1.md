@@ -10,6 +10,8 @@ tags:
 
 # Lecturas previas
 
+[← Inicio](https://matiaspakua.github.io/tech.notes.io)
+
 Link 1: [Formes de generar valor – treva.cat](https://treva.cat/es/formes-de-generar-valor/)
 
 ![[formas_de_generar_valor.png]]

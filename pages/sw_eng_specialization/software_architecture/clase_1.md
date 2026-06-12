@@ -11,3 +11,5 @@ tags:
 
 # clase 1 - Noción de Arquitectura de Software
 
+[← Inicio](https://matiaspakua.github.io/tech.notes.io)
+

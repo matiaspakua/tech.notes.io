@@ -11,6 +11,8 @@ tags:
 
 # Migracion de Aplicaciones On-Premise hacia Cloud. 
 
+[← Inicio](https://matiaspakua.github.io/tech.notes.io)
+
 Planificación de la Migración.
 
 Estrategias de Migración: Re-Host, Re-Platform, Re-Purchase, Re-Architect.

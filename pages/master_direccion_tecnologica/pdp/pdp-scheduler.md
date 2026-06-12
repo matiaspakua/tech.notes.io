@@ -11,6 +11,8 @@ tags:
 
 # 1. **Gestión Emocional y Empatía**
 
+[← Inicio](https://matiaspakua.github.io/tech.notes.io)
+
 
 Curso: Inteligencia Emocional [[emotional_intelligence]]
 
@@ -37,16 +39,12 @@ TBD. Hay varias propuesta, inclusive me han sugerido que yo de una charla.
 
 ### 2024
 
-**12/11/2024**
-Este fue co-organizado por mi en oficinas de K-Lagan (la consultora donde trabajo.)
+**12/11/2024** — Co-organizado por mí en oficinas de K-Lagan (la consultora donde trabajo).
+[Evento Barcelona JUG](https://www.meetup.com/es-ES/barcelonajug/events/304146598/)
 
-https://www.meetup.com/es-ES/barcelonajug/events/304146598/?utm_medium=referral&utm_campaign=yourEvent_savedevents_share_modal&utm_source=link
+**30/10/2024** — [Evento Barcelona JUG](https://www.meetup.com/es-ES/barcelonajug/events/304141020/)
 
-**30/10/2024**
-https://www.meetup.com/es-ES/barcelonajug/events/304141020/?utm_medium=referral&utm_campaign=yourEvent_savedevents_share_modal&utm_source=link
-
-**17/09/2024**
-https://www.meetup.com/es-ES/barcelonajug/events/303352116/?utm_medium=referral&utm_campaign=yourEvent_savedevents_share_modal&utm_source=link
+**17/09/2024** — [Evento Barcelona JUG](https://www.meetup.com/es-ES/barcelonajug/events/303352116/)
 
 
 # 3. **Comunicación Persuasiva y Presentaciones**

@@ -9,3 +9,5 @@ tags:
 
 # Clase 2 - Conceptos de Innovación
 
+[← Inicio](https://matiaspakua.github.io/tech.notes.io)
+

@@ -9,6 +9,8 @@ tags:
 ---
 
 # Mercado y Tendencias de las TIC
+
+[← Inicio](https://matiaspakua.github.io/tech.notes.io)
 El mercado de las TIC continúa evolucionando rápidamente. Para entender su evolución y tendencias es preciso buscar y entender los principales indicadores que lo caracterizan. 
 
 En esta sesión se estudiarán en detalle los indicadores para el sector TIC en España. También se darán las fuentes para la obtención de indicadores de otros países.

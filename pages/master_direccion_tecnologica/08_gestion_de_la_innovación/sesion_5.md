@@ -14,6 +14,8 @@ Empresas que vendian hielo en el pasado y cuando llego la electricidad.
 
 # Dinamica de la innovación
 
+[← Inicio](https://matiaspakua.github.io/tech.notes.io)
+
 Modelo de Abernathy - Utterback
 
 ![[Pasted image 20250328163113.png]]

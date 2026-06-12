@@ -10,3 +10,5 @@ tags:
 ---
 
 # Migración a Cloud
+
+[← Inicio](https://matiaspakua.github.io/tech.notes.io)

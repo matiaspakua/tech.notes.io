@@ -9,6 +9,8 @@ tags:
 
 # Roadmap de la transformación digital
 
+[← Inicio](https://matiaspakua.github.io/tech.notes.io)
+
 Ruta transformación digital.
 ----------------------------.
 1. Definir el "PROPOSITO", el tipo de innovación (Radical, Disruptivo, plazos). Incluye los objetivos generales, "la meta", o sea, hacia donde quiere ir la empresa. La cultura.

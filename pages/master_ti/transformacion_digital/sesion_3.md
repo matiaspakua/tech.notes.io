@@ -8,3 +8,5 @@ tags:
 ---
 
 # Clase 3 - Creatividad e Innovación
+
+[← Inicio](https://matiaspakua.github.io/tech.notes.io)

@@ -10,3 +10,5 @@ tags:
 
 # Negociación y Gestión Conflicto
 
+[← Inicio](https://matiaspakua.github.io/tech.notes.io)
+

@@ -10,6 +10,8 @@ tags:
 
 # Repaso
 
+[← Inicio](https://matiaspakua.github.io/tech.notes.io)
+
 1. Siempre plantear el peor escenario.
 2. Hacer un ejercicio siempre de Corto, Medio y Largo plazo para entender adonde quiero llegar.
 3. Al iniciar, los primeros 90 días, mapear todos los problemas, identificarlos, hablar con el resto.

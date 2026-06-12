@@ -9,3 +9,5 @@ tags:
 
 # Clase 1 - Introducción Transformación Digital
 
+[← Inicio](https://matiaspakua.github.io/tech.notes.io)
+

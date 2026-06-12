@@ -10,3 +10,5 @@ tags:
 
 # Rol del CIO y la función TI
 
+[← Inicio](https://matiaspakua.github.io/tech.notes.io)
+

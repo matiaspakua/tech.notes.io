@@ -10,6 +10,8 @@ tags:
 
 # Estrategia Empresarial y Digital
 
+[← Inicio](https://matiaspakua.github.io/tech.notes.io)
+
 ## Qué es la estrategia? 
 
 

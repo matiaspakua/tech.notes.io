@@ -11,6 +11,8 @@ tags:
 
 # Sesion 1
 
+[← Inicio](https://matiaspakua.github.io/tech.notes.io)
+
 ## Historia
 
 1969 => PMI

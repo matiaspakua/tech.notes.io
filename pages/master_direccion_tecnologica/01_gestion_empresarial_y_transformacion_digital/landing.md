@@ -11,6 +11,8 @@ tags:
 
 # Gestión Empresarial y Transformación Digital
 
+[← Inicio](https://matiaspakua.github.io/tech.notes.io)
+
 
 - Sesión 1 -> [Alineación de la estrategia empresarial con IT](sesion_1_25-10-2024.md)
 - Sesión 2 -> [Estrategia de Transformación Digital (DX): Cultura e innovación](sesion_2_25-10-2024.md)

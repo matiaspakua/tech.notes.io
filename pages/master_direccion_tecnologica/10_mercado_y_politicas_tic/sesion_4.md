@@ -20,6 +20,8 @@ Los objetivos de esta sesión son:
 
 # Innovación
 
+[← Inicio](https://matiaspakua.github.io/tech.notes.io)
+
 ![[innovation_google_acquisition_timeline.png]]
 
 

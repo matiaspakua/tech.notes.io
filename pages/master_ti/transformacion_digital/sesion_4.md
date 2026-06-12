@@ -8,3 +8,5 @@ tags:
 ---
 
 # Clase 4 - Herramientas para la innovación
+
+[← Inicio](https://matiaspakua.github.io/tech.notes.io)

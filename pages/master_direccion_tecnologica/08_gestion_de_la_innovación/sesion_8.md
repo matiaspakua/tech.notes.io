@@ -10,4 +10,6 @@ tags:
 
 # Sesion 8
 
+[← Inicio](https://matiaspakua.github.io/tech.notes.io)
+
 Que es la innovación.

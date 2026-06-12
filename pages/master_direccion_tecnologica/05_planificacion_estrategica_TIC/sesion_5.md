@@ -10,6 +10,8 @@ tags:
 
 # Alineamiento IT con Negocio
 
+[← Inicio](https://matiaspakua.github.io/tech.notes.io)
+
 ## Generación de valor
 
 vender más

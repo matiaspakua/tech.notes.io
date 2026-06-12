@@ -33,6 +33,8 @@ Plantearse objetviss a
 
 # Expectativas
 
+[← Inicio](https://matiaspakua.github.io/tech.notes.io)
+
 Underpromise, underdeliver
 MVP
 Gestión de hitos y feedbacks.

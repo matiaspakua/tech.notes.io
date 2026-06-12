@@ -10,6 +10,8 @@ tags:
 
 # Lectura 1: ITIL® 4: An Introduction to the Service Value Chain
 
+[← Inicio](https://matiaspakua.github.io/tech.notes.io)
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/r0w68Z-xHVU?si=2HjZv5BBvo3MBCni" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 

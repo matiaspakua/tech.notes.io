@@ -10,6 +10,8 @@ tags:
 
 # Microeconomía y Macroeconomía
 
+[← Inicio](https://matiaspakua.github.io/tech.notes.io)
+
 ## Introducción a la microeconomía
 
 Analizaremos la demanda y oferta y la relación que guardan entre sí, que es el núcleo fundamental de la economía. El concepto de elasticidad. La determinación del precio y nivel de producción en las distintas estructuras de mercado. La intervención del Estado en el mercado.

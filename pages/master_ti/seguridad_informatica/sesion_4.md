@@ -10,6 +10,8 @@ tags:
 
 # Seguridad de Redes, Sistemas, Aplicaciones y Datos
 
+[← Inicio](https://matiaspakua.github.io/tech.notes.io)
+
 1. Controles de proceso—Evaluaciones del riesgo 
 2. Controles de proceso—Gestión de la vulnerabilidad 
 3. Controles de proceso—Pruebas de penetración 

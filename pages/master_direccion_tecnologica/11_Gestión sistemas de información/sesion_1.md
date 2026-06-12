@@ -9,6 +9,8 @@ tags:
 
 # Sistemas de información en la empresa
 
+[← Inicio](https://matiaspakua.github.io/tech.notes.io)
+
 Gestión de la información y los procesos
 Gobernanza de la interoperabilidad: de la información y los procesos dentro de una compañía.
 

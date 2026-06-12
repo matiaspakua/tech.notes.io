@@ -10,6 +10,8 @@ tags:
 
 # Grupo 1 - SoundTech
 
+[← Inicio](https://matiaspakua.github.io/tech.notes.io)
+
 16% en 3 años....
 Mucha estructura organizacional. Cuando empleados tienen? 
 12 meses

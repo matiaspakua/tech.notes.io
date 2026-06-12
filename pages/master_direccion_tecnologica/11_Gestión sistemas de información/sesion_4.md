@@ -65,6 +65,8 @@ Cadena de valor y Sistemas de información están estrechamente ligados. uno se 
 
 # Sistemas de información y Competitividad
 
+[← Inicio](https://matiaspakua.github.io/tech.notes.io)
+
 
 Controlar la competitividad y mejorarla u optimizarla.
 

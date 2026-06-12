@@ -10,6 +10,8 @@ tags:
 
 # Conceptos de Ciberseguridad
 
+[← Inicio](https://matiaspakua.github.io/tech.notes.io)
+
 1. Gestión de riesgos 
 2. Agentes de amenazas y vectores comunes de ataque 
 3. Los patrones y tipos de ataques 

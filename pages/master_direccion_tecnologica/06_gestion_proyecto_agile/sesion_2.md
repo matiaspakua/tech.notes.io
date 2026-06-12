@@ -10,3 +10,5 @@ tags:
 
 # Introducción a SCRUM
 
+[← Inicio](https://matiaspakua.github.io/tech.notes.io)
+

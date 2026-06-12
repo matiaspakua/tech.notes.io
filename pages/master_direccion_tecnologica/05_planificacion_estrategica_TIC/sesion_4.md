@@ -10,6 +10,8 @@ tags:
 
 # Sesion 4
 
+[← Inicio](https://matiaspakua.github.io/tech.notes.io)
+
 Plan Estratégico: las acciones del día a día para ejecutar un plan.
 Estrategia => largo plazo
 Planes estratégicos => medio plazo
