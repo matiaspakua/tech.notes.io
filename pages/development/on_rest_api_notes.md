@@ -30,6 +30,32 @@ A REST API follows a set of architectural principles, such as being stateless, c
 
 Typically, REST APIs use JSON (JavaScript Object Notation) as the data format for requests and responses, although other formats such as XML can also be used. They are widely used for building web and mobile applications, as well as for integrating different systems and services.
 
+El intercambio request/response, en un diagrama:
+
+```mermaid
+sequenceDiagram
+    participant C as Cliente
+    participant S as Servidor (REST API)
+    C->>S: HTTP Request (GET /cashcards/99)
+    S->>S: Procesa y busca el recurso
+    S-->>C: HTTP Response (200 OK + JSON)
+```
+
+Métodos HTTP y su semántica CRUD:
+
+| Método | Acción (CRUD) | Idempotente | Cuerpo |
+|---|---|---|---|
+| `GET` | Read (leer) | Sí | No |
+| `POST` | Create (crear) | No | Sí |
+| `PUT` | Update/Replace (reemplazar) | Sí | Sí |
+| `PATCH` | Update parcial | No | Sí |
+| `DELETE` | Delete (borrar) | Sí | No |
+
+> [!note]
+> REST fue definido por **Roy Fielding** en su tesis doctoral (2000). Sus
+> restricciones clave: cliente-servidor, *stateless*, cacheable, interfaz
+> uniforme y sistema en capas.
+
 ## API Contracts
 
 The software industry has adopted several patterns for capturing agreed upon API behaviour in documentation and code. These agreements are often called "contracts". Two examples include Consumer Driven Contracts and Provider Driven Contracts. We'll provide resources for these patterns, but won't discuss them in detail in this course. Instead, we'll discuss a lightweight concept called API contracts.

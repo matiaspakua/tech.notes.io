@@ -18,6 +18,15 @@ Video: [TDD or BDD When It Comes To Automated Testing?](https://www.youtube.com/
 
 This great video of David Farley discusses the benefits and challenges of automated testing, and compares two approaches: test-driven development (TDD) and behavior-driven development (BDD). It argues that BDD is a more effective starting point for improving automated testing in most cases, and explains how to implement it using a domain-specific language and a four-layer approach.
 
+The classic **TDD cycle** (Red → Green → Refactor):
+
+```mermaid
+flowchart LR
+    R["🔴 Red<br/>Escribir un test que falla"] --> G["🟢 Green<br/>Código mínimo para que pase"]
+    G --> RF["🔵 Refactor<br/>Mejorar el diseño sin romper tests"]
+    RF -->|siguiente requisito| R
+```
+
 Highlights:
 
 1. The problem of automated testing
