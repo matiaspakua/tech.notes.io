@@ -36,7 +36,6 @@ back_to_top: true
 back_to_top_text: "Volver arriba"
 
 heading_anchors: true
-permalink: pretty
 
 callouts:
   note:
