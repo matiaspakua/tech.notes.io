@@ -1,5 +1,5 @@
 ---
-title: "Programming Foundations Web Security"
+title: "Programming Foundations: Web Security"
 tags:
   - ciberseguridad
   - seguridad
@@ -17,3 +17,10 @@ tags:
 
 - [Programming Foundations: Web Security — LinkedIn Learning](https://www.linkedin.com/learning/programming-foundations-web-security-22680062/the-importance-of-security)
 - [OWASP Top 10 (2021) — OWASP](https://owasp.org/www-project-top-ten/)
+
+## Notas relacionadas
+
+- [Cybersecurity Foundations](cybersecurity_foundations.md)
+- [IT Security Foundations: Core Concepts](it_security_foundations_core_concepts.md)
+- [DevSecOps Foundations](dev_sec_ops_foundations.md)
+- [Falco: Runtime Security para contenedores](falco_runtime_security_for_container.md)

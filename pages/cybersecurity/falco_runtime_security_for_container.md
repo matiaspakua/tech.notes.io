@@ -1,5 +1,5 @@
 ---
-title: "Falco"
+title: "Falco: Runtime Security para contenedores"
 tags:
   - ciberseguridad
   - seguridad
@@ -43,3 +43,10 @@ Falco es un proyecto open-source originalmente creado por Sysdig y actualmente g
 - [Falco Documentation — falco.org](https://falco.org/docs/#what-is-falco)
 - [Falco en CNCF — CNCF](https://www.cncf.io/projects/falco/)
 - [AWS Security Hub — AWS](https://aws.amazon.com/security-hub/)
+
+## Notas relacionadas
+
+- [Cybersecurity Foundations](cybersecurity_foundations.md)
+- [IT Security Foundations: Core Concepts](it_security_foundations_core_concepts.md)
+- [Programming Foundations: Web Security](programming_foundations_web_security.md)
+- [DevSecOps Foundations](dev_sec_ops_foundations.md)

@@ -455,3 +455,11 @@ This recommendations are particularly useful for formal and semi-formal events s
 
 
 # Advanced Spring: Effective Integration Testing with Spring Boot
+
+## Notas relacionadas
+
+- [Notas de Java](on_java_notes.md)
+- [Spring Framework Notes](spring_framework_notes.md)
+- [01. Learning Spring with Spring Boot](getting_started_spring_development.md)
+- [Concurrencia en Java](concurrencia_java.md)
+- [Java Interfaces Funcionales](java_interfaces_funcionales.md)

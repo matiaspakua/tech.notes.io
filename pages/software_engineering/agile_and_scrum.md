@@ -293,3 +293,11 @@ Overall, while it is certainly helpful to have some knowledge and experience wit
 - [Agile Manifesto — Beck, Cockburn, Fowler, Sutherland et al., 2001](https://agilemanifesto.org/)
 - [History of Scrum — Sutherland & Schwaber (co-creators, early 1990s; presented at OOPSLA '95)](https://scrumguides.org/ken.html)
 - ChatGPT, Google, books, Wikipedia for validate information and cross references.
+
+## Notas relacionadas
+
+- [Waterfall. The misunderstood concept in software engineering](waterfall.md)
+- [Software Engineering Timeline](software_engineering_timeline.md)
+- [Modern Software Engineering: Doing What Works to Build Better Software Faster](../books/modern_software_engineering.md)
+- [Extreme Programming Explained by Kent Beck](../books/book_extreme_programming_explained.md)
+- [The Mythical Man-Month](../books/the_mythical_man_month.md)

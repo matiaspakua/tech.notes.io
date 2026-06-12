@@ -52,3 +52,11 @@ This article is about managing the development of large software systems. The au
 
 - [Managing the Development of Large Software Systems — Winston W. Royce, IEEE WESCON, 1970](https://dl.acm.org/doi/pdf/10.5555/41765.41801)
 - [Winston W. Royce — Wikipedia](https://en.wikipedia.org/wiki/Winston_W._Royce)
+
+## Notas relacionadas
+
+- [Agile and Scrum. The perks of know nothing](agile_and_scrum.md)
+- [Software Engineering Timeline](software_engineering_timeline.md)
+- [Modern Software Engineering: Doing What Works to Build Better Software Faster](../books/modern_software_engineering.md)
+- [Extreme Programming Explained by Kent Beck](../books/book_extreme_programming_explained.md)
+- [The Mythical Man-Month](../books/the_mythical_man_month.md)

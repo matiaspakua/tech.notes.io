@@ -1,5 +1,5 @@
 ---
-title: "Dev Sec Ops Foundations"
+title: "DevSecOps Foundations"
 tags:
   - ciberseguridad
   - seguridad
@@ -39,3 +39,10 @@ flowchart LR
 ## Referencia
 
 - [DevOps Foundations: DevSecOps — LinkedIn Learning](https://www.linkedin.com/learning/devops-foundations-devsecops-17416896/introduction-to-the-devsecops-course)
+
+## Notas relacionadas
+
+- [Cybersecurity Foundations](cybersecurity_foundations.md)
+- [IT Security Foundations: Core Concepts](it_security_foundations_core_concepts.md)
+- [Programming Foundations: Web Security](programming_foundations_web_security.md)
+- [Falco: Runtime Security para contenedores](falco_runtime_security_for_container.md)

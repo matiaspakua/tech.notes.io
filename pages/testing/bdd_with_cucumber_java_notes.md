@@ -55,3 +55,8 @@ In every meeting new business rules or user scenario can be discovered. The whol
 ## Reference
 
  - [BDD with Cucumber (Java) — Cucumber School](https://school.cucumber.io/courses/take/bdd-with-cucumber-java)
+
+## Notas relacionadas
+
+- [On Unit Test, TDD and BDD](on_unit_test_tdd_and_bdd.md)
+- [Gherkin and Automation](gherkin_and_automation.md)

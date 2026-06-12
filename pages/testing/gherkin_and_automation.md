@@ -54,3 +54,8 @@ Feature: Login de usuario
  - [SpecFlow — Official Site](https://specflow.org/)
  - [Cucumber — Official Site](https://cucumber.io/)
  - [Gherkin Specification — Cucumber Docs](https://cucumber.io/docs/gherkin/)
+
+## Notas relacionadas
+
+- [On Unit Test, TDD and BDD](on_unit_test_tdd_and_bdd.md)
+- [BDD with Cucumber for JAVA](bdd_with_cucumber_java_notes.md)

@@ -151,4 +151,6 @@ y esto se debe renderizar de la siguiente manera:
 
 ## URLs, Paths, and Methods
 
+## Notas relacionadas
 
+- [On APIs Notes](on_rest_api_notes.md)

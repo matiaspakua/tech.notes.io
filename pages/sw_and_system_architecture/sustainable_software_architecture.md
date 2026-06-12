@@ -295,3 +295,8 @@ Software engineers aim to avoid "big ball of mud" situations by implementing goo
  - [Sustainable Software Architecture: Analyze and Reduce Technical Debt — Carola Lilienthal, dpunkt/O'Reilly](https://www.oreilly.com/library/view/sustainable-software-architecture/9781098123086/)
  - [Anti-pattern — Wikipedia](https://en.wikipedia.org/wiki/Anti-pattern#Software_engineering_anti-patterns)
  - [Improve Your Architecture with the Modularity Maturity Index — Software Architecture Metrics, O'Reilly](https://www.oreilly.com/library/view/software-architecture-metrics/9781098112226/ch04.html)
+
+## Notas relacionadas
+
+- [On Hexagonal Architecture notes](on_hexagonal_architecture_notes.md)
+- [Software Architecture. Vertical Slicing Architectures](vertical_slicing_architectures.md)

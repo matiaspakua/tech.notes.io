@@ -1,5 +1,5 @@
 ---
-title: "It Security Foundations Core Concepts"
+title: "IT Security Foundations: Core Concepts"
 tags:
   - ciberseguridad
   - seguridad
@@ -16,3 +16,10 @@ tags:
 ## Referencia
 
 - [IT Security Foundations: Core Concepts — LinkedIn Learning](https://www.linkedin.com/learning/it-security-foundations-core-concepts-16737118/tech-savvy-tech-safe)
+
+## Notas relacionadas
+
+- [Cybersecurity Foundations](cybersecurity_foundations.md)
+- [Programming Foundations: Web Security](programming_foundations_web_security.md)
+- [DevSecOps Foundations](dev_sec_ops_foundations.md)
+- [Falco: Runtime Security para contenedores](falco_runtime_security_for_container.md)

@@ -380,3 +380,11 @@ In this test code, we can identify the measurements points:
 - [David Farley's Blog & YouTube Channel](https://www.davefarley.net/)
 - [Hexagonal Architecture — Alistair Cockburn](https://alistair.cockburn.us/hexagonal-architecture/)
 - [Conway's Law — Wikipedia](https://en.wikipedia.org/wiki/Conway%27s_law)
+
+## Notas relacionadas
+
+- [Agile and Scrum. The perks of know nothing](../software_engineering/agile_and_scrum.md)
+- [Waterfall. The misunderstood concept in software engineering](../software_engineering/waterfall.md)
+- [Software Engineering Timeline](../software_engineering/software_engineering_timeline.md)
+- [Extreme Programming Explained by Kent Beck](book_extreme_programming_explained.md)
+- [The Mythical Man-Month](the_mythical_man_month.md)

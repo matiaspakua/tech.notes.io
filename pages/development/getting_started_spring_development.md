@@ -1078,3 +1078,11 @@ The equals, hashCode, and toString methods, as well as the private, final fields
  - [Curso de Java Spring](https://platzi.com/cursos/java-spring/)
  - [ Spring: Spring Data 2 ](https://www.linkedin.com/learning/spring-spring-data-2-2017/welcome)
  - [Java Records](https://www.baeldung.com/java-record-keyword)
+
+## Notas relacionadas
+
+- [Notas de Java](on_java_notes.md)
+- [Spring Framework Notes](spring_framework_notes.md)
+- [Spring Cloud Load Balancing](advance_your_spring_development_skills.md)
+- [Concurrencia en Java](concurrencia_java.md)
+- [Java Interfaces Funcionales](java_interfaces_funcionales.md)
