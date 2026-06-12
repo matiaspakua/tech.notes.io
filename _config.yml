@@ -1,6 +1,56 @@
-remote_theme: pages-themes/midnight@v0.2.0
+remote_theme: just-the-docs/just-the-docs
 plugins:
   - jekyll-remote-theme
-  
-title: Tech-Notes
-description: Blog de notas sobre Software, Ingeniería y Tecnología
+  - jekyll-seo-tag
+
+title: "Tech Notes · Matias Miguez"
+description: "Base de conocimiento personal sobre Ingeniería de Software, IA, Arquitectura, Ciberseguridad y más."
+author: Matias Miguez
+
+url: "https://matiaspakua.github.io"
+baseurl: "/tech.notes.io"
+
+search_enabled: true
+search:
+  heading_level: 2
+  previews: 3
+  preview_words_before: 5
+  preview_words_after: 10
+  tokenizer_separator: /[\s/]+/
+  rel_url: true
+  button: false
+
+color_scheme: dark
+
+aux_links:
+  "LinkedIn ↗":
+    - "https://www.linkedin.com/in/matiasmiguez/"
+  "GitHub ↗":
+    - "https://github.com/matiaspakua/tech.notes.io"
+
+aux_links_new_tab: true
+
+footer_content: "Matias Miguez &mdash; Ingeniería de Software, IA, Tecnología"
+
+back_to_top: true
+back_to_top_text: "Volver arriba"
+
+heading_anchors: true
+permalink: pretty
+
+callouts:
+  note:
+    title: Nota
+    color: blue
+  warning:
+    title: Advertencia
+    color: yellow
+  highlight:
+    title: Destacado
+    color: purple
+  tip:
+    title: Tip
+    color: green
+  important:
+    title: Importante
+    color: red

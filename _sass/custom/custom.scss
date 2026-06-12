@@ -1,0 +1,153 @@
+// ============================================================
+// Custom styles for tech.notes.io
+// Just-the-docs dark theme overrides + Obsidian compatibility
+// ============================================================
+
+// --- Obsidian callout blockquotes ([!note], [!warning], etc.) ---
+blockquote {
+  border-left: 4px solid #58a6ff;
+  background: rgba(88, 166, 255, 0.07);
+  padding: 0.6rem 1rem;
+  border-radius: 0 6px 6px 0;
+  margin: 1.2rem 0;
+  font-style: normal;
+
+  p {
+    margin: 0.2rem 0;
+  }
+}
+
+// --- Global back-button style (replaces inline <style> in each page) ---
+.back-button {
+  display: inline-block;
+  background-color: #2da44e;
+  border: none;
+  color: #fff !important;
+  padding: 8px 20px;
+  text-align: center;
+  text-decoration: none !important;
+  font-size: 14px;
+  margin: 4px 4px 20px;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: background-color 0.18s ease;
+
+  &:hover {
+    background-color: #218838;
+    color: #fff !important;
+    text-decoration: none !important;
+  }
+}
+
+// --- LinkedIn follow button ---
+.libutton {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 7px;
+  text-align: center;
+  outline: none;
+  text-decoration: none !important;
+  color: #fff !important;
+  width: 200px;
+  height: 32px;
+  border-radius: 16px;
+  background-color: #0a66c2;
+  font-family: "SF Pro Text", Helvetica, sans-serif;
+  margin: 8px 0;
+
+  &:hover {
+    background-color: #084f96;
+    color: #fff !important;
+  }
+}
+
+// --- Responsive images ---
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+  display: block;
+  margin: 0.5rem 0;
+}
+
+// Inline images (icons, badges) should stay inline
+img[alt=""] {
+  display: inline;
+  margin: 0;
+}
+
+// --- Mark / highlight tags from Obsidian ---
+mark {
+  padding: 0.1em 0.25em;
+  border-radius: 3px;
+  color: inherit;
+  font-style: normal;
+}
+
+// --- Code styling ---
+code {
+  padding: 0.15em 0.4em;
+  border-radius: 3px;
+  font-size: 0.88em;
+}
+
+// --- Table improvements ---
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.2rem 0;
+  font-size: 0.9em;
+
+  th {
+    font-weight: 600;
+  }
+
+  th,
+  td {
+    padding: 8px 14px;
+  }
+}
+
+// --- List spacing ---
+ul,
+ol {
+  padding-left: 1.5rem;
+
+  li {
+    margin-bottom: 0.3rem;
+  }
+}
+
+// --- Section dividers ---
+hr {
+  margin: 2rem 0;
+  opacity: 0.35;
+}
+
+// --- WIP / status span badges from README ---
+span[style*="color:green"],
+span[style*="color:blue"],
+span[style*="color:red"] {
+  font-size: 0.78em;
+  font-weight: 600;
+  padding: 2px 7px;
+  border-radius: 3px;
+  vertical-align: middle;
+}
+
+// --- Heading anchor improvements ---
+h1,
+h2,
+h3,
+h4 {
+  margin-top: 1.5rem;
+}
+
+// --- Landing page section headers spacing ---
+h2 + ul,
+h2 + ol,
+h3 + ul,
+h3 + ol {
+  margin-top: 0.5rem;
+}

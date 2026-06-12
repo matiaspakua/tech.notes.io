@@ -1,3 +1,8 @@
+---
+title: Home
+nav_order: 1
+---
+
 ![](images/banner.png)
 
 ¡Bienvenidos a mi blog personal de Notas Tecnológicas! 🚀 Aquí voy recopilando información sobre cursos, libros, notas, universidad, posgrados y cualquier otra fuente. Una bolsa de sastre básicamente.
@@ -59,7 +64,7 @@
 
 ## Inteligencia Artificial
 
-- [AI. Conceptos de Introducción](1_conceptos_generales.md)
+- [AI. Conceptos de Introducción](pages/artificial_intelligence/ruta_de_aprendisaje/1.fundamentos_inteligencia_artificial/1_conceptos_generales.md)
 
 
 ## 🧪 Testing de sistemas y software 
@@ -138,14 +143,14 @@ Charlas --> [Notas de las charlas](/pages/we_are_developers_wc_2024/landing.md)
 
 ### Módulo Ingeniería de Productos de Software 
 
-- [Ingeniería de Requerimientos](software_requirements.md)
-- [Modelado de Software con Objetos](software_modeling_with_objects.md)
-- [Arquitecturas de Software](contenidos.md)
+- [Ingeniería de Requerimientos](pages/sw_eng_specialization/ingenieria_requisitos/software_requirements.md)
+- [Modelado de Software con Objetos](pages/sw_eng_specialization/software_modeling/software_modeling_with_objects.md)
+- [Arquitecturas de Software](pages/sw_eng_specialization/software_architecture/contenidos.md)
 - [Mediciones de Software y Sistemas](pages/sw_eng_specialization/software_and_systems_measurements.md)
   
 ### Módulo Gestión de Proyectos de Desarrollo
 
-- [Planeamiento y Estimación de Proyectos de Software](sofware_projects_scheduling_and_estimation.md)
+- [Planeamiento y Estimación de Proyectos de Software](pages/sw_eng_specialization/software_planning/sofware_projects_scheduling_and_estimation.md)
 - [Administración del Riesgo en Desarrollo de Software](pages/sw_eng_specialization/software_development_risk_management.md)
 - [Gestión de Recursos Humanos y Conducción de Equipos](pages/sw_eng_specialization/team_driving_and_human_resource_management.md)
 - [Métodos de Desarrollo de Software](pages/sw_eng_specialization/software_development_methods.md)
@@ -182,7 +187,7 @@ Charlas --> [Notas de las charlas](/pages/we_are_developers_wc_2024/landing.md)
  - [Gestión Empresarial y Transformación Digital](pages/master_direccion_tecnologica/01_gestion_empresarial_y_transformacion_digital/landing.md)
  - [Habilidades Directivas (S. Profesionalizante)](pages/master_direccion_tecnologica/03_seminario_profesionalizado/landing.md)
  - [Gestión Económico Financiera](pages/master_direccion_tecnologica/02_gestion_economico_financiera/landing.md)
-* [Materias y Notas del master](pages/master_direccion_tecnologica/landing.md)
+ - [Materias y Notas del master](pages/master_direccion_tecnologica/landing.md)
 
 
 ---
