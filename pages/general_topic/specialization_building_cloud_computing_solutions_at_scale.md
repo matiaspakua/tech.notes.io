@@ -1,14 +1,20 @@
 ---
-title: "Introduction"
+title: "Building Cloud Computing Solutions at Scale"
 tags:
   - tecnologia
   - notas
+  - cloud
+  - aws
+  - cursos
 ---
+
+# Building Cloud Computing Solutions at Scale
 
 [← Inicio](https://matiaspakua.github.io/tech.notes.io)
 
---- 
-# Introduction
+---
+
+## Introduction
 
 This is a very complete, hand-on, medium level specialization based on cloud computing. Goes from the basics to some advanced and very helpful examples. The examples show you the 3 main cloud vendors platform: AWS, Azure and GCP.
 

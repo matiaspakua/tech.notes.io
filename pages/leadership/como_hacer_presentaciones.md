@@ -16,7 +16,7 @@ tags:
 
 Hacer buenas presentaciones orales requiere práctica, preparación y el desarrollo de ciertas habilidades. 
 
-- [How to Speak](/pages/leadership/how_to_speak_by_patrick_winston.md)
+- [How to Speak](how_to_speak_by_patrick_winston.md)
 
 ---
 

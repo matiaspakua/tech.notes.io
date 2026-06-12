@@ -8,6 +8,8 @@ tags:
   - notas
 ---
 
+# Sesion 4
+
 Plan Estratégico: las acciones del día a día para ejecutar un plan.
 Estrategia => largo plazo
 Planes estratégicos => medio plazo

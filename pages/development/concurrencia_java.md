@@ -81,7 +81,7 @@ public interface Runnable
 
 Algo particular de `Runnable` es que se trata de una interfaz funcional, ahora: ¿Qué es una interfaz funcional?:
 
---> [Interfaz Funcional en Java](/java_interfaces_funcionales.md)
+--> [Interfaz Funcional en Java](java_interfaces_funcionales.md)
 
 ## Acceso a Memoria en java y sus problemas
 

@@ -356,13 +356,13 @@ Las "<mark style="background: #FFF3A3A6;">fases</mark>" de un conflicto son:
 
 1. Por sobre todo, la dirección (lideres y mandos medios) deben definir bien los "objetivos".
 2. Luego, armar un esquema donde los <mark style="background: #FFF3A3A6;">"éxitos del individuo"</mark>, dependan en gran medida de los <mark style="background: #BBFABBA6;">"éxitos del grupo"</mark>.
-3. Luego están las herramientas, procesos y prácticas => [Notas en resolución de Conflictos](/pages/leadership/resolucion_de_conflictos.md).
+3. Luego están las herramientas, procesos y prácticas => [Notas en resolución de Conflictos](resolucion_de_conflictos.md).
 
 ## Personas de Alto Rendimiento
 
 Son aquellas que cumple con las siguientes condiciones:
 
-1. Manejo de sus emociones ("emotional thinking") ==> [](/pages/leadership/emotional_intelligence.md)
+1. Manejo de sus emociones ("emotional thinking") ==> [](emotional_intelligence.md)
 2. Capaces de "neutralizar" personas difíciles (negativas, conflictivas)
 3. Saben poner "limites". Ponen distancia. 
 4. Siempre están pensando en: ¿Cómo se puede solucionar el problema X?

@@ -6,6 +6,8 @@ tags:
   - notas
 ---
 
+# Java Interfaces Funcionales
+
 [← Inicio](https://matiaspakua.github.io/tech.notes.io)
 
 ### ¿Qué es una Interfaz Funcional en Java?

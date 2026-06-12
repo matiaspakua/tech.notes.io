@@ -7,6 +7,8 @@ tags:
   - notas
 ---
 
+# Trabajo Final
+
 Como identificar la necesidad de la compañía: madurez, presupuesto, procesos.
 Eficiencia operativa
 Ventaja competitiva
