@@ -52,19 +52,20 @@ jobs:
           else
             FILES=$(git diff --name-only --diff-filter=ACM HEAD~1 HEAD -- 'pages/**/*.md' || true)
           fi
-          echo "Notas a revisar:"
-          echo "$FILES"
+          # Lista en una sola línea (separada por espacios) para usar en shell.
+          ONELINE=$(echo "$FILES" | tr '\n' ' ' | sed 's/  */ /g; s/^ //; s/ $//')
+          echo "Notas a revisar: $ONELINE"
           {
             echo "files<<EOF"
             echo "$FILES"
             echo "EOF"
           } >> "$GITHUB_OUTPUT"
-          if [ -z "$FILES" ]; then echo "empty=true" >> "$GITHUB_OUTPUT"; fi
+          echo "files_oneline=$ONELINE" >> "$GITHUB_OUTPUT"
+          if [ -z "$ONELINE" ]; then echo "empty=true" >> "$GITHUB_OUTPUT"; fi
 
       - name: Validación determinista
         if: steps.changed.outputs.empty != 'true'
-        run: |
-          python3 scripts/validate_notes.py ${{ steps.changed.outputs.files }} || true
+        run: python3 scripts/validate_notes.py ${{ steps.changed.outputs.files_oneline }} || true
 
       - name: Mejorar notas con la skill (Claude Code)
         if: steps.changed.outputs.empty != 'true'
