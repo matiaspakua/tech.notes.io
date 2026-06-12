@@ -55,4 +55,11 @@ Some of the main characteristics of a software-based knowledge base are:
 
 Basically are the attributes of a Wiki, but inside a organisation/company, when there is a legacy project is important to have all of those attributes on mind.
 
-Not a minor issue, when you need to start from zero, maybe the best option is to use the simplest tools available, nothing fancy nether advanced tools.
+Not a minor issue, when you need to start from zero, maybe the best option is to use the simplest tools available, nothing fancy neither advanced tools.
+
+## Referencias
+
+- [Knowledge base — Wikipedia](https://en.wikipedia.org/wiki/Knowledge_base)
+- [Personal knowledge management — Wikipedia](https://en.wikipedia.org/wiki/Personal_knowledge_management)
+- [Zettelkasten — Wikipedia](https://en.wikipedia.org/wiki/Zettelkasten)
+- [Obsidian — Knowledge base sobre archivos Markdown locales](https://obsidian.md/)

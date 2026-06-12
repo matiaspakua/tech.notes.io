@@ -151,6 +151,13 @@ y esto se debe renderizar de la siguiente manera:
 
 ## URLs, Paths, and Methods
 
+## Referencias
+
+- [OpenAPI Specification (sitio oficial)](https://www.openapis.org/)
+- [OpenAPI Specification v3.1.0 — OpenAPI Initiative](https://spec.openapis.org/oas/latest.html)
+- [Swagger — Herramientas para OpenAPI](https://swagger.io/specification/)
+- [OpenAPI Specification — Wikipedia](https://en.wikipedia.org/wiki/OpenAPI_Specification)
+
 ## Notas relacionadas
 
 - [On APIs Notes](on_rest_api_notes.md)
