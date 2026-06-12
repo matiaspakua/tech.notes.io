@@ -21,6 +21,20 @@ tags:
 
 "<mark style="background: #FFF3A3A6;">Managing the Development of Large Software Systems</mark>" is a paper published in 1970 by Winston W. Royce, which outlines a traditional sequential software development process that is sometimes referred to as the "Waterfall" model. The paper describes a linear approach to software development, where each phase of the development process (requirements, design, implementation, testing, and maintenance) is completed before the next phase can begin.
 
+El modelo secuencial "en cascada", tal como se lo interpreta habitualmente:
+
+```mermaid
+flowchart TB
+    R["Requirements"] --> D["Design"]
+    D --> I["Implementation"]
+    I --> T["Testing"]
+    T --> M["Maintenance"]
+```
+
+> [!warning]
+> Esta interpretación rígida es justamente la que Royce **criticaba**. En el
+> paper él proponía iteración y feedback entre fases (ver "The True meaning").
+
 Royce presents this model as a response to the increasing complexity of software projects and the need for a structured, disciplined approach to software development. However, he acknowledges the limitations of this approach, particularly when it comes to dealing with changing requirements or unexpected issues.
 
 Overall, the paper is an important historical document in the field of software engineering, as it helped to establish the Waterfall model as a widely accepted approach to software development. However, it has also been criticised for its inflexibility and its failure to account for the 

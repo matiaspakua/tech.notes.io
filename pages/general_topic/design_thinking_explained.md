@@ -23,6 +23,19 @@ The article explains what design thinking is, how it works, and why it matters. 
 - Design thinking can help executives across industries rethink their product offerings, grow their markets, offer greater value to customers, or innovate and stay relevant.
 
 ![Design Thinking](../../images/desgin-thinking.png)
+
+Las cinco etapas del proceso (modelo de la d.school de Stanford), con su naturaleza iterativa:
+
+```mermaid
+flowchart LR
+    E["Empathize<br/>(empatizar)"] --> D["Define<br/>(definir)"]
+    D --> I["Ideate<br/>(idear)"]
+    I --> P["Prototype<br/>(prototipar)"]
+    P --> T["Test<br/>(probar)"]
+    T -->|iterar| E
+    T -->|iterar| I
+```
+
 ## Example: global platform
 
 Applying Design Thinking to standardize various software platforms into a global one involves a structured and iterative approach to problem-solving. Here's a step-by-step example:
