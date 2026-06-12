@@ -456,6 +456,13 @@ This recommendations are particularly useful for formal and semi-formal events s
 
 # Advanced Spring: Effective Integration Testing with Spring Boot
 
+## Referencias
+
+- [Spring Boot — Documentación oficial](https://docs.spring.io/spring-boot/index.html)
+- [Spring Data JPA — Reference Documentation](https://docs.spring.io/spring-data/jpa/reference/)
+- [Hibernate ORM — Documentation](https://hibernate.org/orm/documentation/)
+- [High-Performance Java Persistence — Vlad Mihalcea](https://vladmihalcea.com/books/high-performance-java-persistence/)
+
 ## Notas relacionadas
 
 - [Notas de Java](on_java_notes.md)

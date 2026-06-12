@@ -82,3 +82,15 @@ Referencias:
 - Conexión con aplicaciones de AI (recomendadores, detección de fraude, etc.).
 
 ---
+
+## Referencias
+
+- [Statistics — Wikipedia](https://en.wikipedia.org/wiki/Statistics)
+- [Descriptive statistics — Wikipedia](https://en.wikipedia.org/wiki/Descriptive_statistics)
+- [Machine learning — Wikipedia](https://en.wikipedia.org/wiki/Machine_learning)
+- [Training, validation, and test data sets — Wikipedia](https://en.wikipedia.org/wiki/Training,_validation,_and_test_data_sets)
+- [scikit-learn — Documentación (modelos y métricas)](https://scikit-learn.org/stable/user_guide.html)
+
+## Notas relacionadas
+
+- [Conceptos Generales de Inteligencia Artificial](1_conceptos_generales.md)
