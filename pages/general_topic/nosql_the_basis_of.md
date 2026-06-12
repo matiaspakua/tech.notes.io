@@ -107,6 +107,22 @@ CAP theorem, also known as Brewer's theorem, states that it is impossible for a 
 
  - **Partition Tolerance** means that the database can continue functioning even when communication between nodes is lost.
 
+En un sistema distribuido (donde la partición de red es inevitable), en la práctica se elige entre **C** y **A**:
+
+```mermaid
+flowchart TB
+    C["Consistency"]
+    A["Availability"]
+    P["Partition Tolerance"]
+    C ---|"CA: RDBMS de un solo nodo<br/>(PostgreSQL, MySQL)"| A
+    C ---|"CP: MongoDB, HBase, Redis"| P
+    A ---|"AP: Cassandra, DynamoDB, CouchDB"| P
+```
+
+> [!note]
+> El teorema CAP fue formulado por **Eric Brewer** (2000) y demostrado
+> formalmente por Gilbert & Lynch (2002).
+
 NoSQL databases generally sacrifice Consistency in favor of Availability and Partition Tolerance, although the specifics of this trade-off can vary between different types of NoSQL databases. For example, some NoSQL databases prioritize consistency, while others prioritize partition tolerance.
 
 The CAP theorem is often used as a guide for choosing a database that is suitable for a particular use case, depending on the relative importance of consistency, availability, and partition tolerance for that application. NoSQL databases are often favoured for applications that require very high availability and partition tolerance, or for storing and processing large amounts of unstructured or semi-structured data.
