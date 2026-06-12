@@ -1,3 +1,14 @@
+---
+title: "Modelado de Software con Objetos"
+tags:
+  - especializacion
+  - uca
+  - universidad
+  - modelado
+  - uml
+  - notas
+---
+
 # Modelado de Software con Objetos
 
 <style>

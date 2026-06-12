@@ -1,3 +1,12 @@
+---
+title: "Marketing"
+tags:
+  - especializacion
+  - uca
+  - universidad
+  - notas
+---
+
 # Marketing
 
 <style>

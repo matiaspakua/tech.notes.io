@@ -1,3 +1,14 @@
+---
+title: "Sesion 1"
+tags:
+  - especializacion
+  - uca
+  - universidad
+  - planificacion
+  - estimacion
+  - notas
+---
+
 ## Historia
 
 1969 => PMI

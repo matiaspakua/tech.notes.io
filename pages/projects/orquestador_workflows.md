@@ -1,3 +1,10 @@
+---
+title: "Proyecto: Orquestador de workflows"
+tags:
+  - proyectos
+  - notas
+---
+
 # Proyecto: Orquestador de workflows
 
 ## Introducción

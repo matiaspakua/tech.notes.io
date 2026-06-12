@@ -1,3 +1,13 @@
+---
+title: "Organización para innovar"
+tags:
+  - master
+  - lasalle-bcn
+  - innovacion
+  - gestion-innovacion
+  - notas
+---
+
 # Organización para innovar
 
 Cada vez es más transversal. La innovación aplica a varios sectores.

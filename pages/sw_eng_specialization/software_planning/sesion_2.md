@@ -1,3 +1,14 @@
+---
+title: "alcance y objetivos"
+tags:
+  - especializacion
+  - uca
+  - universidad
+  - planificacion
+  - estimacion
+  - notas
+---
+
 # alcance y objetivos
 
 Un proyecto es un esfuerzo constituido por un grupo de procesos. Estos procesos se identifican como:

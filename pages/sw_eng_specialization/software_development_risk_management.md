@@ -1,3 +1,12 @@
+---
+title: "Administración del Riesgo en Desarrollo de Software"
+tags:
+  - especializacion
+  - uca
+  - universidad
+  - notas
+---
+
 # Administración del Riesgo en Desarrollo de Software
 
 <style>

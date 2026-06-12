@@ -1,3 +1,13 @@
+---
+title: "Introducción Gestión de Proyectos, Iniciación y Planificación de proyectos IT"
+tags:
+  - master
+  - lasalle-bcn
+  - gestion-proyectos
+  - pmo
+  - notas
+---
+
 # Introducción Gestión de Proyectos, Iniciación y Planificación de proyectos IT
 
 Tareas previas a la sesión informativa 

@@ -1,3 +1,13 @@
+---
+title: "Iniciación y planificación de un proyecto"
+tags:
+  - master
+  - lasalle-bcn
+  - gestion-proyectos
+  - pmo
+  - notas
+---
+
 # Iniciación y planificación de un proyecto
 
 Tareas previas a la sesión o Leer caso implementación Netsuite Oracle ERP

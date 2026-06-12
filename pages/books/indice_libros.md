@@ -1,3 +1,10 @@
+---
+title: "Índice de Libros Mencionados"
+tags:
+  - libros
+  - notas
+---
+
 # Índice de Libros Mencionados
 
 Recopilación de todos los libros que he anotado y estudiado a lo largo de mis notas de investigación personal.

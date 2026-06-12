@@ -1,3 +1,11 @@
+---
+title: "Guía de python"
+tags:
+  - espacio
+  - satelites
+  - notas
+---
+
 Diferentes órbitas: LEO, MEO, GEO
 Orbita Kleperiana
 

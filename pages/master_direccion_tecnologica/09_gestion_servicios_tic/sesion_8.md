@@ -1,3 +1,13 @@
+---
+title: "Fundamentos de LEAN IT"
+tags:
+  - master
+  - lasalle-bcn
+  - itil
+  - gestion-servicios-tic
+  - notas
+---
+
 # Fundamentos de LEAN IT
 
 Todo lo que hagamos, sirva para algo.

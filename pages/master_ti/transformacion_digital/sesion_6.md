@@ -1,3 +1,12 @@
+---
+title: "Roadmap de la transformación digital"
+tags:
+  - master
+  - universidad-palermo
+  - transformacion-digital
+  - notas
+---
+
 # Roadmap de la transformación digital
 
 Ruta transformación digital.

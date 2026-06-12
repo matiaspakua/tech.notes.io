@@ -1,3 +1,10 @@
+---
+title: "Modern Software Engineering: Doing What Works to Build Better Software Faster"
+tags:
+  - libros
+  - notas
+---
+
 # Modern Software Engineering: Doing What Works to Build Better Software Faster
 
 <style>

@@ -1,3 +1,12 @@
+---
+title: "The Future of Open Source"
+tags:
+  - conferencia
+  - we-are-developers
+  - 2024
+  - notas
+---
+
 # The Future of Open Source
 
 Sobre la historia de la mermelada. La OpenSource Initiative fue creada hace mucho tiempo y actualmente se puede decir que el mundo ha evolucionado.

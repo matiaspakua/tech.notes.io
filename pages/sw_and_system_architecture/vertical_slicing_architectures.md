@@ -1,3 +1,11 @@
+---
+title: "Software Architecture. Vertical Slicing Architectures"
+tags:
+  - arquitectura
+  - software-engineering
+  - notas
+---
+
 # Software Architecture. Vertical Slicing Architectures
 
 <style>

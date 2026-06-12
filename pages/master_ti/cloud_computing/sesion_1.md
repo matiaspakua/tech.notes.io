@@ -1,3 +1,14 @@
+---
+title: "Conceptos y servicios del modelo Cloud Computing."
+tags:
+  - master
+  - universidad-palermo
+  - cloud
+  - aws
+  - cloud-computing
+  - notas
+---
+
 # Conceptos y servicios del modelo Cloud Computing. 
 
 Procesamiento, almacenamiento, networking y servicios On-Premises .

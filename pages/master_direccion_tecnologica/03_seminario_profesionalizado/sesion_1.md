@@ -1,3 +1,13 @@
+---
+title: "Sesión 1 · Introducción & Liderazgo Personal"
+tags:
+  - master
+  - lasalle-bcn
+  - habilidades-directivas
+  - liderazgo
+  - notas
+---
+
 # Sesión 1 · Introducción & Liderazgo Personal
 
 Esta sesión profundiza en el concepto de autoconocimiento, un elemento clave del 

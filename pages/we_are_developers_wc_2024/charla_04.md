@@ -1,3 +1,12 @@
+---
+title: "Architecting the future: leveraging AI, Cloud, and data for business Sucess"
+tags:
+  - conferencia
+  - we-are-developers
+  - 2024
+  - notas
+---
+
 # Architecting the future: leveraging AI, Cloud, and data for business Sucess
 
 ---

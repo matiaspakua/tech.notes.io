@@ -1,3 +1,11 @@
+---
+title: "Master en Ciencias: Tecnologías de la Información"
+tags:
+  - master
+  - universidad-palermo
+  - notas
+---
+
 # Master en Ciencias: Tecnologías de la Información 
 
 <style>

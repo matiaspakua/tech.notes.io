@@ -1,3 +1,12 @@
+---
+title: "Next Level Enterprise Architecture: Modular, Flexible, Scalable and IA ready?"
+tags:
+  - conferencia
+  - we-are-developers
+  - 2024
+  - notas
+---
+
 # Next Level Enterprise Architecture: Modular, Flexible, Scalable and IA ready?
 
 ![](../../images/fi_logo.png)

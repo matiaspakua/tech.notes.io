@@ -1,3 +1,11 @@
+---
+title: "Gherkin and Automation"
+tags:
+  - testing
+  - qa
+  - notas
+---
+
 # Gherkin and Automation
 
 <style>

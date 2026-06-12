@@ -1,3 +1,12 @@
+---
+title: "Autor"
+tags:
+  - conferencia
+  - we-are-developers
+  - 2024
+  - notas
+---
+
 ### Durable Execution: A revolutionary abstraction for building resilient applications
 
 ---

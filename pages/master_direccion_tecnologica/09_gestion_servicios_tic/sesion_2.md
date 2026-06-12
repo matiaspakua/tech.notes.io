@@ -1,3 +1,13 @@
+---
+title: "Lectura 1: ITIL® 4: An Introduction to the Service Value Chain"
+tags:
+  - master
+  - lasalle-bcn
+  - itil
+  - gestion-servicios-tic
+  - notas
+---
+
 # Lectura 1: ITIL® 4: An Introduction to the Service Value Chain
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/r0w68Z-xHVU?si=2HjZv5BBvo3MBCni" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

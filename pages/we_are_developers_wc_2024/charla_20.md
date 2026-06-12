@@ -1,3 +1,12 @@
+---
+title: "Serverless Java in action: cloud agnostic design patterns and tips"
+tags:
+  - conferencia
+  - we-are-developers
+  - 2024
+  - notas
+---
+
 # Serverless Java in action: cloud agnostic design patterns and tips
 
 ## sobre el uso 

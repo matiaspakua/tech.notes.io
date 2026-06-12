@@ -1,3 +1,11 @@
+---
+title: "2 Fundamentos Estadistica Aprendizaje Automatico"
+tags:
+  - inteligencia-artificial
+  - ai
+  - notas
+---
+
 ## 1. ¿Qué son datos, estadística y machine learning?
 
 - Qué es un dato, conjuntos de datos, ejemplos cotidianos (fotos, texto, sensores).

@@ -1,3 +1,10 @@
+---
+title: "The Mythical Man-Month"
+tags:
+  - libros
+  - notas
+---
+
 # The Mythical Man-Month
 
 <style>

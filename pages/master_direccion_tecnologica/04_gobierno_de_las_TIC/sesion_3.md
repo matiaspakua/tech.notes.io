@@ -1,3 +1,13 @@
+---
+title: "Gobierno TI"
+tags:
+  - master
+  - lasalle-bcn
+  - gobernanza-tic
+  - gobierno-ti
+  - notas
+---
+
 # Gobierno TI
 
 ## Lectura 1: ¿Qué es el gobierno de TI_ _ IBM.pdf

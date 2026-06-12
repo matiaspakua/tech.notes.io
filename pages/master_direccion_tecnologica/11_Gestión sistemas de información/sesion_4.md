@@ -1,3 +1,12 @@
+---
+title: "Sistemas de información y Competitividad"
+tags:
+  - master
+  - lasalle-bcn
+  - sistemas-informacion
+  - notas
+---
+
 Eficiencia operativa
 Ventaja competitiva
 

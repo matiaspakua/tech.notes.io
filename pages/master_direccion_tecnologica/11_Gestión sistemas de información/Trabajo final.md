@@ -1,3 +1,12 @@
+---
+title: "Trabajo Final"
+tags:
+  - master
+  - lasalle-bcn
+  - sistemas-informacion
+  - notas
+---
+
 Como identificar la necesidad de la compañía: madurez, presupuesto, procesos.
 Eficiencia operativa
 Ventaja competitiva

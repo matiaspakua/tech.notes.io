@@ -1,3 +1,13 @@
+---
+title: "Grupo 1 - SoundTech"
+tags:
+  - master
+  - lasalle-bcn
+  - itil
+  - gestion-servicios-tic
+  - notas
+---
+
 # Grupo 1 - SoundTech
 
 16% en 3 años....

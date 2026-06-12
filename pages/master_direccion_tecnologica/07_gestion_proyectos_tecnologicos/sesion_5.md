@@ -1,3 +1,13 @@
+---
+title: "Un buen funcional"
+tags:
+  - master
+  - lasalle-bcn
+  - gestion-proyectos
+  - pmo
+  - notas
+---
+
 # Un buen funcional
 
 Documentos de requisitos de negocio (BRD)

@@ -1,3 +1,13 @@
+---
+title: "Repaso"
+tags:
+  - master
+  - lasalle-bcn
+  - itil
+  - gestion-servicios-tic
+  - notas
+---
+
 # Repaso
 
 1. Siempre plantear el peor escenario.

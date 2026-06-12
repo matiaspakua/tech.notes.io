@@ -1,3 +1,10 @@
+---
+title: "Python Flask ML Demo Project with CI/CD"
+tags:
+  - proyectos
+  - notas
+---
+
 # Python Flask ML Demo Project with CI/CD
 
 Link to GitHub Repo: [matiaspakua/ml-demo-project: Demostration project for the Specialization Building Cloud Computing Solutions at Scale](https://github.com/matiaspakua/ml-demo-project)

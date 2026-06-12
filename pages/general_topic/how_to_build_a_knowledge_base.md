@@ -1,3 +1,10 @@
+---
+title: "How to build a Knowledge Base"
+tags:
+  - tecnologia
+  - notas
+---
+
 # How to build a Knowledge Base
 
 <style>

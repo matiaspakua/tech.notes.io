@@ -1,3 +1,12 @@
+---
+title: "Autonomous microservices with event-driven architecture"
+tags:
+  - conferencia
+  - we-are-developers
+  - 2024
+  - notas
+---
+
 # Autonomous microservices with event-driven architecture
 
 servicios

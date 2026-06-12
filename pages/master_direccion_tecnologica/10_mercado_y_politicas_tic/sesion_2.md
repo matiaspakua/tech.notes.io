@@ -1,3 +1,13 @@
+---
+title: "Mercado y Tendencias de las TIC"
+tags:
+  - master
+  - lasalle-bcn
+  - politicas-tic
+  - mercado
+  - notas
+---
+
 # Mercado y Tendencias de las TIC
 El mercado de las TIC continúa evolucionando rápidamente. Para entender su evolución y tendencias es preciso buscar y entender los principales indicadores que lo caracterizan. 
 

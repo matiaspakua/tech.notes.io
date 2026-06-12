@@ -1,3 +1,11 @@
+---
+title: "¿Qué nos enseña El Principito para aplicar en la ingeniería?"
+tags:
+  - liderazgo
+  - soft-skills
+  - notas
+---
+
 # ¿Qué nos enseña _El Principito_ para aplicar en la ingeniería?
 
 <style>

@@ -1,3 +1,12 @@
+---
+title: "From zero to Hero: Launch & manage your cloud apps with free OpenShift & Red Hat developer Hub"
+tags:
+  - conferencia
+  - we-are-developers
+  - 2024
+  - notas
+---
+
 # From zero to Hero: Launch & manage your cloud apps with free OpenShift & Red Hat developer Hub
 
 ## Mayores desafíos

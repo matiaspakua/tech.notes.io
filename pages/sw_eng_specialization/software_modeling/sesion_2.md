@@ -1,3 +1,14 @@
+---
+title: "Conceptos claves"
+tags:
+  - especializacion
+  - uca
+  - universidad
+  - modelado
+  - uml
+  - notas
+---
+
 # Conceptos claves
 
 Dentro del mundo del modelado de software con objectos, los siguientes conceptos son clave y pilares fundamentales del diseño y buenas prácticas:

@@ -1,3 +1,10 @@
+---
+title: "The Histoty of the project A-7 by David Parnas"
+tags:
+  - software-engineering
+  - notas
+---
+
 # The Histoty of the project A-7 by David Parnas
 
 <style>

@@ -1,3 +1,12 @@
+---
+title: "Quantum Computing for classical developers"
+tags:
+  - conferencia
+  - we-are-developers
+  - 2024
+  - notas
+---
+
 # Quantum Computing for classical developers
 
 ## introducción

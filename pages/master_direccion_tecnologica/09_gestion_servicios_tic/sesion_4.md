@@ -1,3 +1,13 @@
+---
+title: "Marcos de referencias principales"
+tags:
+  - master
+  - lasalle-bcn
+  - itil
+  - gestion-servicios-tic
+  - notas
+---
+
 # Marcos de referencias principales
 
 Framework => te da referencias. DA ideas. Es descriptivo, no prescriptivo.

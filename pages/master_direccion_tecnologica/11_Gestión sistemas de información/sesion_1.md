@@ -1,3 +1,12 @@
+---
+title: "Sistemas de información en la empresa"
+tags:
+  - master
+  - lasalle-bcn
+  - sistemas-informacion
+  - notas
+---
+
 # Sistemas de información en la empresa
 
 Gestión de la información y los procesos

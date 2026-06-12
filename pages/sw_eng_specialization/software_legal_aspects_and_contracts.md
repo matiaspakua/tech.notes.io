@@ -1,3 +1,12 @@
+---
+title: "Contratos y Aspectos Legales de Software"
+tags:
+  - especializacion
+  - uca
+  - universidad
+  - notas
+---
+
 # Contratos y Aspectos Legales de Software 
 
 <style>

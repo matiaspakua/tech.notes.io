@@ -1,3 +1,12 @@
+---
+title: "Métodos de Desarrollo de Software"
+tags:
+  - especializacion
+  - uca
+  - universidad
+  - notas
+---
+
 # Métodos de Desarrollo de Software
 
 <style>

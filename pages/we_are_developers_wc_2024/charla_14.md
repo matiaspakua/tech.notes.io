@@ -1,3 +1,12 @@
+---
+title: "Scaling Databases"
+tags:
+  - conferencia
+  - we-are-developers
+  - 2024
+  - notas
+---
+
 # Scaling Databases
 
 ## introduccion

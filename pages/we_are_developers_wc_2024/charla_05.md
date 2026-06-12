@@ -1,3 +1,12 @@
+---
+title: "Beyond the hype: Real-World AI strategies"
+tags:
+  - conferencia
+  - we-are-developers
+  - 2024
+  - notas
+---
+
 # Beyond the hype: Real-World AI strategies
 
 ## Panelistas

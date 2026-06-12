@@ -1,3 +1,13 @@
+---
+title: "Como gestionar Innovación"
+tags:
+  - master
+  - lasalle-bcn
+  - politicas-tic
+  - mercado
+  - notas
+---
+
 # Como gestionar Innovación 
 
 La innovación empresarial ha sido determinante para el crecimiento del sector TIC. La<mark style="background: #FFF3A3A6;"> Ley de Moore</mark> obliga a buscar continuamente nuevos dispositivos y aplicaciones para las capacidades de los dispositivos y los sistemas, siempre crecientes (hasta ahora). Cómo pasar de una idea a un producto o servicio que tenga éxito en el mercado sigue siendo una habilidad difícil de copiar. Sobre todo, cuando además no se trata de hacerlo de manera excepcional, sino continuamente.  

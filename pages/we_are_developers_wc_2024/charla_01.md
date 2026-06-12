@@ -1,3 +1,12 @@
+---
+title: "Evolutionary Architecture: the art of making decisions"
+tags:
+  - conferencia
+  - we-are-developers
+  - 2024
+  - notas
+---
+
 # Evolutionary Architecture: the art of making decisions
 
 ---

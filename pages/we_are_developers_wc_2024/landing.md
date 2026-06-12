@@ -1,3 +1,12 @@
+---
+title: "We Are Developers World Congress 2024 Berlin"
+tags:
+  - conferencia
+  - we-are-developers
+  - 2024
+  - notas
+---
+
 # We Are Developers World Congress 2024 Berlin
 
 <style>

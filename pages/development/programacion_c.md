@@ -1,3 +1,11 @@
+---
+title: "Introducción a la Programación en C"
+tags:
+  - desarrollo
+  - programacion
+  - notas
+---
+
 # Introducción a la Programación en C
 
 # 1 . Introducción

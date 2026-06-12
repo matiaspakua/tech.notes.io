@@ -1,3 +1,12 @@
+---
+title: "Modern data Architectures need software engineering"
+tags:
+  - conferencia
+  - we-are-developers
+  - 2024
+  - notas
+---
+
 # Modern data Architectures need software engineering
 
 ## introducción

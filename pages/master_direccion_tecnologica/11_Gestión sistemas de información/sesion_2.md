@@ -1,3 +1,12 @@
+---
+title: "Sistemas de gestión empresarial"
+tags:
+  - master
+  - lasalle-bcn
+  - sistemas-informacion
+  - notas
+---
+
 # Sistemas de gestión empresarial
 
 Herramientas + Procedimientos + Politicas  que permiten gestionar:

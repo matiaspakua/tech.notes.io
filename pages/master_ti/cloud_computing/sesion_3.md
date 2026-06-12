@@ -1,3 +1,14 @@
+---
+title: "Ciclo de Madurez de la seguridad en la nube"
+tags:
+  - master
+  - universidad-palermo
+  - cloud
+  - aws
+  - cloud-computing
+  - notas
+---
+
 # Ciclo de Madurez de la seguridad en la nube
 
 Analisis, evolución e impacto de tecnologías de herramientas :

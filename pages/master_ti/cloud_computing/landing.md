@@ -1,3 +1,14 @@
+---
+title: "Cloud Computing"
+tags:
+  - master
+  - universidad-palermo
+  - cloud
+  - aws
+  - cloud-computing
+  - notas
+---
+
 # Cloud Computing
 
 <style>

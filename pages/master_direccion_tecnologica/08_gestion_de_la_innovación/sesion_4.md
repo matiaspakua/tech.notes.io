@@ -1,3 +1,13 @@
+---
+title: "Innovación incremental vs radical"
+tags:
+  - master
+  - lasalle-bcn
+  - innovacion
+  - gestion-innovacion
+  - notas
+---
+
 # Innovación incremental vs radical
 
 Incremantal => lo que yo ya se hacer + nuevos matices. Amplia lo que haces. Una amplicación de una gama de productos.

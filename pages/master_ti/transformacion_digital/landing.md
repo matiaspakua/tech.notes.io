@@ -1,3 +1,12 @@
+---
+title: "Transformación Digital"
+tags:
+  - master
+  - universidad-palermo
+  - transformacion-digital
+  - notas
+---
+
 # Transformación Digital
 
 <style>

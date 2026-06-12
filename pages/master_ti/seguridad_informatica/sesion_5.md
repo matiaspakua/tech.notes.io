@@ -1,3 +1,13 @@
+---
+title: "Respuesta a Incidentes"
+tags:
+  - master
+  - universidad-palermo
+  - ciberseguridad
+  - seguridad
+  - notas
+---
+
 # Respuesta a Incidentes
 
 1. Evento vs. Incidente 

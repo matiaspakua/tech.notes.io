@@ -1,3 +1,13 @@
+---
+title: "Seguridad Informática"
+tags:
+  - master
+  - universidad-palermo
+  - ciberseguridad
+  - seguridad
+  - notas
+---
+
 # Seguridad Informática
 
 <style>

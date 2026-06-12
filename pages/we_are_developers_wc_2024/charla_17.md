@@ -1,3 +1,12 @@
+---
+title: "Micro-Frontends discovery"
+tags:
+  - conferencia
+  - we-are-developers
+  - 2024
+  - notas
+---
+
 # Micro-Frontends discovery
 
 SPA es deployada a producción y luego los cliente la ven.

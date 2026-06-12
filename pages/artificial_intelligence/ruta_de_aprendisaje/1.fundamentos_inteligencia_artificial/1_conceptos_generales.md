@@ -1,3 +1,11 @@
+---
+title: "Referencias"
+tags:
+  - inteligencia-artificial
+  - ai
+  - notas
+---
+
 
 ## Machine learning
 

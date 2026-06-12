@@ -1,3 +1,14 @@
+---
+title: "El proceso de la Ingeniería de Requerimientos"
+tags:
+  - especializacion
+  - uca
+  - universidad
+  - requerimientos
+  - ir
+  - notas
+---
+
 # El proceso de la Ingeniería de Requerimientos
 
 El proceso inicia con conocer y comenzar a indagar el "universo del discurso", que representa el mundo real que se desea modelar. De aquí, es donde se debe extraer la información relevante.

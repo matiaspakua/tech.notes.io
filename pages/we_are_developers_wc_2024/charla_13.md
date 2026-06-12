@@ -1,3 +1,12 @@
+---
+title: "The Lifehackers guide to software architecture"
+tags:
+  - conferencia
+  - we-are-developers
+  - 2024
+  - notas
+---
+
 # The Lifehackers guide to software architecture
 
 ## Beaware of the faith healer. 

@@ -1,3 +1,13 @@
+---
+title: "Dinamica de la innovación"
+tags:
+  - master
+  - lasalle-bcn
+  - innovacion
+  - gestion-innovacion
+  - notas
+---
+
 El caso del hielo (hielo natural vs fabricado)
 Empresas que vendian hielo en el pasado y cuando llego la electricidad.
 

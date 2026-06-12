@@ -1,3 +1,12 @@
+---
+title: "Intentional code: minimalism in a world of dogmatic design"
+tags:
+  - conferencia
+  - we-are-developers
+  - 2024
+  - notas
+---
+
 # Intentional code: minimalism in a world of dogmatic design
 
 Codigo complejo

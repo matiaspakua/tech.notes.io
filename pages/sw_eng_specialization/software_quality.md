@@ -1,3 +1,12 @@
+---
+title: "Calidad de Software"
+tags:
+  - especializacion
+  - uca
+  - universidad
+  - notas
+---
+
 # Calidad de Software
 
 <style>

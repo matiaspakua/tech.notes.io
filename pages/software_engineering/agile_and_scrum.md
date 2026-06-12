@@ -1,3 +1,10 @@
+---
+title: "Agile and Scrum. The perks of know nothing"
+tags:
+  - software-engineering
+  - notas
+---
+
 # Agile and Scrum. The perks of know nothing
 
 <style>

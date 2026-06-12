@@ -1,3 +1,12 @@
+---
+title: "Software Engineering Specialization"
+tags:
+  - especializacion
+  - uca
+  - universidad
+  - notas
+---
+
 # Software Engineering Specialization 
 
 <style>

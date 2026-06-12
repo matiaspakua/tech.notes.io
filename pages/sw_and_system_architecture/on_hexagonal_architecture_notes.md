@@ -1,3 +1,11 @@
+---
+title: "On Hexagonal Architecture notes"
+tags:
+  - arquitectura
+  - software-engineering
+  - notas
+---
+
 # On Hexagonal Architecture notes
 
 <style>

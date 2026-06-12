@@ -1,3 +1,11 @@
+---
+title: "Spring Cloud Load Balancing"
+tags:
+  - desarrollo
+  - programacion
+  - notas
+---
+
 ## Advance Your Spring Development Skills
 
 <style>

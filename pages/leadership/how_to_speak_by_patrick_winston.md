@@ -1,3 +1,11 @@
+---
+title: "How To Speak by Patrick Winston"
+tags:
+  - liderazgo
+  - soft-skills
+  - notas
+---
+
 # How To Speak by Patrick Winston
 
 <style>

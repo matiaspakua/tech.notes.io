@@ -1,3 +1,13 @@
+---
+title: "Innovación y Creatividad"
+tags:
+  - master
+  - lasalle-bcn
+  - innovacion
+  - gestion-innovacion
+  - notas
+---
+
 # Innovación y Creatividad
 
 Método de innovación práctica

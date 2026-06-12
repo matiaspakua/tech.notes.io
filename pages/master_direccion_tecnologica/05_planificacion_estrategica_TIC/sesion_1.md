@@ -1,3 +1,13 @@
+---
+title: "Estrategia Empresarial y Digital"
+tags:
+  - master
+  - lasalle-bcn
+  - planificacion-estrategica
+  - tic
+  - notas
+---
+
 # Estrategia Empresarial y Digital
 
 ## Qué es la estrategia? 

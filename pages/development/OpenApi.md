@@ -1,3 +1,11 @@
+---
+title: "OpenApi foundations"
+tags:
+  - desarrollo
+  - programacion
+  - notas
+---
+
 # OpenApi foundations
 
 Definición: es un lenguaje de descripción de API

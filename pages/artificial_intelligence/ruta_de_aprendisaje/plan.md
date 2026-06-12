@@ -1,3 +1,11 @@
+---
+title: "1. Fundamentos de Inteligencia Artificial"
+tags:
+  - inteligencia-artificial
+  - ai
+  - notas
+---
+
 # 1. Fundamentos de Inteligencia Artificial
 1. Conceptos generales
 2. Fundamentos de estadística y aprendizaje automático (5 ECTS)

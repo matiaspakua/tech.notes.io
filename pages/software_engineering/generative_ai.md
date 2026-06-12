@@ -1,3 +1,10 @@
+---
+title: "Generative IA"
+tags:
+  - software-engineering
+  - notas
+---
+
 # Generative IA
 
 <style>

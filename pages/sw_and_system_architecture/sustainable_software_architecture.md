@@ -1,3 +1,11 @@
+---
+title: "Sustainable Software Architecture"
+tags:
+  - arquitectura
+  - software-engineering
+  - notas
+---
+
 <style>
   .back-button {
     background-color: #4CAF50; /* Green */

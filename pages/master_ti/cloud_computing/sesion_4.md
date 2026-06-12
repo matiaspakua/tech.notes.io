@@ -1,3 +1,14 @@
+---
+title: "Migracion de Aplicaciones On-Premise hacia Cloud."
+tags:
+  - master
+  - universidad-palermo
+  - cloud
+  - aws
+  - cloud-computing
+  - notas
+---
+
 # Migracion de Aplicaciones On-Premise hacia Cloud. 
 
 Planificación de la Migración.

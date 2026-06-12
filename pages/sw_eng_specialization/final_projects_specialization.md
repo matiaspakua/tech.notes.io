@@ -1,3 +1,12 @@
+---
+title: "TPF Especialización: DevSecOps desde la perspectiva de QA Automation"
+tags:
+  - especializacion
+  - uca
+  - universidad
+  - notas
+---
+
 # TPF Especialización: DevSecOps desde la perspectiva de QA Automation
 
 <style>

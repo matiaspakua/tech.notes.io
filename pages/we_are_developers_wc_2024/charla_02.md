@@ -1,3 +1,12 @@
+---
+title: "Architecture Antipattern"
+tags:
+  - conferencia
+  - we-are-developers
+  - 2024
+  - notas
+---
+
 # Architecture Antipattern
 
 ![](../../images/antipatterns_concept_board.png)

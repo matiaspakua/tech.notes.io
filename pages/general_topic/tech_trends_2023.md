@@ -1,3 +1,10 @@
+---
+title: "Tech Trends (2023 so far and 2024)"
+tags:
+  - tecnologia
+  - notas
+---
+
 # Tech Trends (2023 so far and 2024)
 
 <style>

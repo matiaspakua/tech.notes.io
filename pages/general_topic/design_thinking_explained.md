@@ -1,3 +1,10 @@
+---
+title: "Design Thinking Explained"
+tags:
+  - tecnologia
+  - notas
+---
+
 # Design Thinking Explained
 
 <style>

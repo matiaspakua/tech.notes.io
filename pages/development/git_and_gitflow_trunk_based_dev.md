@@ -1,3 +1,11 @@
+---
+title: "Git, GitFlow and trunk based development."
+tags:
+  - desarrollo
+  - programacion
+  - notas
+---
+
 # Git, GitFlow and trunk based development.
 
 <style>

@@ -1,3 +1,13 @@
+---
+title: "Expectativas"
+tags:
+  - master
+  - lasalle-bcn
+  - itil
+  - gestion-servicios-tic
+  - notas
+---
+
 Gestión de un departamento:
 1. Proyectos.
 2. operativa

@@ -37,6 +37,11 @@ back_to_top_text: "Volver arriba"
 
 heading_anchors: true
 
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+
 callouts:
   note:
     title: Nota

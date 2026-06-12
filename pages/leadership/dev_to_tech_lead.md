@@ -1,3 +1,11 @@
+---
+title: "De developer a líder: notas y libros sugeridos"
+tags:
+  - liderazgo
+  - soft-skills
+  - notas
+---
+
 # De developer a líder: notas y libros sugeridos
 
 <style>

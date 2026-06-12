@@ -1,3 +1,13 @@
+---
+title: "Innovación"
+tags:
+  - master
+  - lasalle-bcn
+  - politicas-tic
+  - mercado
+  - notas
+---
+
 
 En la economía del conocimiento, la competencia ya no es solo entre empresas. También lo es entre estados. Los estados se organizan (o no) para que sus economías sean más competitivas. Y esto implica saber cómo el conocimiento se transforma en innovaciones. En esta sesión se examinarán las herramientas que los estados usan para (intentar) mejorar su posición competitiva en la economía del conocimiento: los sistemas nacionales de innovación. En esta sesión se analizarán sistemas de innovación de países muy diferentes, con políticas de innovación (y por lo tanto políticas TIC) muy diferentes.
 

@@ -1,3 +1,13 @@
+---
+title: "Organizaciones digitales"
+tags:
+  - master
+  - lasalle-bcn
+  - planificacion-estrategica
+  - tic
+  - notas
+---
+
 # Organizaciones digitales
 
 • Evolución de la función TI 

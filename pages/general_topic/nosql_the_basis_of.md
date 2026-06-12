@@ -1,3 +1,10 @@
+---
+title: "Introduction and notes on NoSQL Databases"
+tags:
+  - tecnologia
+  - notas
+---
+
 # Introduction and notes on NoSQL Databases
 
 <style>

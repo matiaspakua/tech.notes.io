@@ -1,3 +1,14 @@
+---
+title: "Introducción a los conceptos"
+tags:
+  - especializacion
+  - uca
+  - universidad
+  - modelado
+  - uml
+  - notas
+---
+
 # Introducción a los conceptos
 
 1. Paradigma: una forma de pensar. Se trata de una lente para ver la realidad; Puede ser estructurado: datos + procesos, que generan una serie de transformaciones.

@@ -1,3 +1,11 @@
+---
+title: "Cómo hablar. Patrick Winston"
+tags:
+  - liderazgo
+  - soft-skills
+  - notas
+---
+
 # Cómo hablar. Patrick Winston
 
 Hacer buenas presentaciones orales requiere práctica, preparación y el desarrollo de ciertas habilidades. 

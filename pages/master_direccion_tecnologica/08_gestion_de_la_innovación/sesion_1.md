@@ -1,3 +1,13 @@
+---
+title: "Lecturas previas"
+tags:
+  - master
+  - lasalle-bcn
+  - innovacion
+  - gestion-innovacion
+  - notas
+---
+
 # Lecturas previas
 
 Link 1: [Formes de generar valor – treva.cat](https://treva.cat/es/formes-de-generar-valor/)

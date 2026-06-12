@@ -1,3 +1,14 @@
+---
+title: "Arquitectura de Software"
+tags:
+  - especializacion
+  - uca
+  - universidad
+  - arquitectura
+  - patrones
+  - notas
+---
+
 # Arquitectura de Software
 
 <style>

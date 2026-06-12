@@ -1,3 +1,12 @@
+---
+title: "Ética Profesional"
+tags:
+  - especializacion
+  - uca
+  - universidad
+  - notas
+---
+
 # Ética Profesional
 
 <style>

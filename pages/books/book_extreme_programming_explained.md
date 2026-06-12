@@ -1,3 +1,10 @@
+---
+title: "Extreme Programming Explained by Kent Beck"
+tags:
+  - libros
+  - notas
+---
+
 # Extreme Programming Explained by Kent Beck
 
 <style>

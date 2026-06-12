@@ -1,3 +1,11 @@
+---
+title: "Gemini CLI"
+tags:
+  - inteligencia-artificial
+  - ai
+  - notas
+---
+
 
 # Gemini CLI
 

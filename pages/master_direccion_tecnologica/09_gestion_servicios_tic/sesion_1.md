@@ -1,3 +1,13 @@
+---
+title: "Lecturas previas"
+tags:
+  - master
+  - lasalle-bcn
+  - itil
+  - gestion-servicios-tic
+  - notas
+---
+
 # Lecturas previas
 
 Link 1: [ISO - How IT service management delivers value](https://www.iso.org/news/ref2696.html)

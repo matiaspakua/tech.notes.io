@@ -1,3 +1,11 @@
+---
+title: "Concurrencia en Java"
+tags:
+  - desarrollo
+  - programacion
+  - notas
+---
+
 # Concurrencia en Java
 
 <style>

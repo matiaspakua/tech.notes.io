@@ -1,3 +1,13 @@
+---
+title: "Rol del CIO"
+tags:
+  - master
+  - lasalle-bcn
+  - gobernanza-tic
+  - gobierno-ti
+  - notas
+---
+
 # Rol del CIO
 
 Reflexión sobre la figura del CIO en su empresa 

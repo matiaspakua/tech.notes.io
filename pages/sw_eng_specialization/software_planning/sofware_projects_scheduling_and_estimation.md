@@ -1,3 +1,14 @@
+---
+title: "Planeamiento y Estimación de Proyectos de Software"
+tags:
+  - especializacion
+  - uca
+  - universidad
+  - planificacion
+  - estimacion
+  - notas
+---
+
 # Planeamiento y Estimación de Proyectos de Software
 
 <style>

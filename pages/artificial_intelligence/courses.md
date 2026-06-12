@@ -1,3 +1,11 @@
+---
+title: "cursos de AI, genAI, DL, etc."
+tags:
+  - inteligencia-artificial
+  - ai
+  - notas
+---
+
 # cursos de AI, genAI, DL, etc.
 
 ## 01_Generative AI explained

@@ -1,3 +1,12 @@
+---
+title: "Specifications as the better way of software development"
+tags:
+  - conferencia
+  - we-are-developers
+  - 2024
+  - notas
+---
+
 # Specifications as the better way of software development
 
 

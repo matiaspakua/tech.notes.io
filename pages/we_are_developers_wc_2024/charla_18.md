@@ -1,3 +1,12 @@
+---
+title: "Non-Functional user Stories Specification and test"
+tags:
+  - conferencia
+  - we-are-developers
+  - 2024
+  - notas
+---
+
 # Non-Functional user Stories Specification and test
 
 ## Agile requerimiento artefacto

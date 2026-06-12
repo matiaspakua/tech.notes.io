@@ -1,3 +1,13 @@
+---
+title: "Sesión 2 · Comunicación Interpersonal"
+tags:
+  - master
+  - lasalle-bcn
+  - habilidades-directivas
+  - liderazgo
+  - notas
+---
+
 # Sesión 2 · Comunicación Interpersonal
 
 ## Estilos de influencia

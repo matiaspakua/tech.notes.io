@@ -1,3 +1,13 @@
+---
+title: "Microeconomía y Macroeconomía"
+tags:
+  - master
+  - lasalle-bcn
+  - politicas-tic
+  - mercado
+  - notas
+---
+
 # Microeconomía y Macroeconomía
 
 ## Introducción a la microeconomía

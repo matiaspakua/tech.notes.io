@@ -1,3 +1,13 @@
+---
+title: "Gestión Empresarial y Transformación Digital"
+tags:
+  - master
+  - lasalle-bcn
+  - transformacion-digital
+  - estrategia-empresarial
+  - notas
+---
+
 
 # Gestión Empresarial y Transformación Digital
 

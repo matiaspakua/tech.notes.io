@@ -1,3 +1,14 @@
+---
+title: "Sesion 1"
+tags:
+  - especializacion
+  - uca
+  - universidad
+  - requerimientos
+  - ir
+  - notas
+---
+
 ## Definiciones
 
  Que es un **Requerimiento**?; Necesidad del cliente que debe ser cumplida por el software. Condición que debe cumplir el software: Esto implica que el desarrollo del software debe satisfacer ciertos criterios y funcionalidades para ser considerado exitoso.

@@ -1,3 +1,14 @@
+---
+title: "Ciclo de Madurez de Tecnologías Cloud."
+tags:
+  - master
+  - universidad-palermo
+  - cloud
+  - aws
+  - cloud-computing
+  - notas
+---
+
 # Ciclo de Madurez de Tecnologías Cloud.
 
 Análisis, evolución e impacto de tecnologías:

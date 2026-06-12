@@ -1,3 +1,13 @@
+---
+title: "Seguridad de Redes, Sistemas, Aplicaciones y Datos"
+tags:
+  - master
+  - universidad-palermo
+  - ciberseguridad
+  - seguridad
+  - notas
+---
+
 # Seguridad de Redes, Sistemas, Aplicaciones y Datos
 
 1. Controles de proceso—Evaluaciones del riesgo 

@@ -1,3 +1,11 @@
+---
+title: "Java Interfaces Funcionales"
+tags:
+  - desarrollo
+  - programacion
+  - notas
+---
+
 ### ¿Qué es una Interfaz Funcional en Java?
 
 Una **interfaz funcional** en Java es una interfaz que tiene exactamente un método abstracto. Estas interfaces son una parte clave del paradigma de programación funcional introducido en Java 8. Aunque puede tener métodos predeterminados o estáticos, solo un método abstracto es el requisito que la define como funcional. Las interfaces funcionales son especialmente útiles en combinación con expresiones lambda, ya que las lambdas pueden ser utilizadas donde se espera una interfaz funcional.

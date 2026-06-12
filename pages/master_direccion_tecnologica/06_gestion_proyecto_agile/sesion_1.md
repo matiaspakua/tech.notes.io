@@ -1,3 +1,13 @@
+---
+title: "Introducción Agile"
+tags:
+  - master
+  - lasalle-bcn
+  - agile
+  - gestion-proyectos
+  - notas
+---
+
 # Introducción Agile
 
 ### **Objetivos de la sesión**

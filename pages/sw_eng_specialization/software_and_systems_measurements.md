@@ -1,3 +1,12 @@
+---
+title: "Mediciones de Software y sistemas"
+tags:
+  - especializacion
+  - uca
+  - universidad
+  - notas
+---
+
 # Mediciones de Software y sistemas
 
 <style>

@@ -1,3 +1,11 @@
+---
+title: "Gestión del tiempo"
+tags:
+  - liderazgo
+  - soft-skills
+  - notas
+---
+
 # Gestión del tiempo
 
 <style>

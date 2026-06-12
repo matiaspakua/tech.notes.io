@@ -1,3 +1,11 @@
+---
+title: "Curso Negociación y resolución de conflictos"
+tags:
+  - liderazgo
+  - soft-skills
+  - notas
+---
+
 # Curso Negociación y resolución de conflictos
 
 <style>

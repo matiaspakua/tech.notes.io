@@ -1,3 +1,13 @@
+---
+title: "modelo de gobierno"
+tags:
+  - master
+  - lasalle-bcn
+  - itil
+  - gestion-servicios-tic
+  - notas
+---
+
 # modelo de gobierno
 
 Presupuestos

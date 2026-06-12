@@ -1,3 +1,13 @@
+---
+title: "Kanban"
+tags:
+  - master
+  - lasalle-bcn
+  - agile
+  - gestion-proyectos
+  - notas
+---
+
 # Kanban
 
 Visualizar el trabajo.

@@ -1,3 +1,13 @@
+---
+title: "Habilidades Directivas (Seminario Profesionalizante)"
+tags:
+  - master
+  - lasalle-bcn
+  - habilidades-directivas
+  - liderazgo
+  - notas
+---
+
 # Habilidades Directivas (Seminario Profesionalizante)
 
 - Sesión 1 -> [Introducción & Liderazgo Personal](pages/master_direccion_tecnologica/03_seminario_profesionalizado/sesion_1.md)

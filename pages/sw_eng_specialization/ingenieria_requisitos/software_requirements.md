@@ -1,3 +1,14 @@
+---
+title: "Requerimientos de Software"
+tags:
+  - especializacion
+  - uca
+  - universidad
+  - requerimientos
+  - ir
+  - notas
+---
+
 # Requerimientos de Software
 
 <style>

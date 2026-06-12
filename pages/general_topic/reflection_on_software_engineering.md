@@ -1,3 +1,10 @@
+---
+title: "A reflection on Software Engineering: A Journey of Creativity and Rigor"
+tags:
+  - tecnologia
+  - notas
+---
+
 # A reflection on Software Engineering: A Journey of Creativity and Rigor
 
 <style>

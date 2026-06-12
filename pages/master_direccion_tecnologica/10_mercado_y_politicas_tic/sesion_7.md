@@ -1,3 +1,13 @@
+---
+title: "historia de silicon valley"
+tags:
+  - master
+  - lasalle-bcn
+  - politicas-tic
+  - mercado
+  - notas
+---
+
 # historia de silicon valley
 
 1950 - 1990 => Crisis guerra fria

@@ -1,3 +1,11 @@
+---
+title: "System Instruction"
+tags:
+  - inteligencia-artificial
+  - ai
+  - notas
+---
+
 System Instruction: Absolute Mode
 
 1. Remove emojis, filler, hype, and soft transitions

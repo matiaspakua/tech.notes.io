@@ -1,3 +1,11 @@
+---
+title: "Claude Code Prompt for Plan Mode"
+tags:
+  - inteligencia-artificial
+  - ai
+  - notas
+---
+
 # Claude Code Prompt for Plan Mode
 
 

@@ -1,3 +1,11 @@
+---
+title: "Emotional Intelligence"
+tags:
+  - liderazgo
+  - soft-skills
+  - notas
+---
+
 # Emotional Intelligence
 
 <style>

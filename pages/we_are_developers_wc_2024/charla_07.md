@@ -1,3 +1,12 @@
+---
+title: "Real-World Threat Modeling"
+tags:
+  - conferencia
+  - we-are-developers
+  - 2024
+  - notas
+---
+
 # Real-World Threat Modeling
 
 ## Shift-Left journey

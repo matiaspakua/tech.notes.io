@@ -1,3 +1,12 @@
+---
+title: "Gestión de Recursos Humanos y Conducción de Equipos"
+tags:
+  - especializacion
+  - uca
+  - universidad
+  - notas
+---
+
 # Gestión de Recursos Humanos y Conducción de Equipos
 
 <style>

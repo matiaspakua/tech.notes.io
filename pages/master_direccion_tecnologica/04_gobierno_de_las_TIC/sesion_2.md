@@ -1,3 +1,13 @@
+---
+title: "Control de costes del departamento"
+tags:
+  - master
+  - lasalle-bcn
+  - gobernanza-tic
+  - gobierno-ti
+  - notas
+---
+
 # Control de costes del departamento
 
 Lectura: Relación entre la capacidad financiera de una empresa y su capacidad para ofrecer servicios

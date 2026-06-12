@@ -1,3 +1,13 @@
+---
+title: "Feedback del trabajo"
+tags:
+  - master
+  - lasalle-bcn
+  - itil
+  - gestion-servicios-tic
+  - notas
+---
+
 
 # Feedback del trabajo
 

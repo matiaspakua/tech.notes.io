@@ -1,3 +1,10 @@
+---
+title: "Charla MeetUp DevOps BCN"
+tags:
+  - tecnologia
+  - notas
+---
+
 
 # Charla MeetUp DevOps BCN
 

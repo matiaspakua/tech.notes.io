@@ -1,3 +1,13 @@
+---
+title: "1. Gestión Emocional y Empatía"
+tags:
+  - master
+  - lasalle-bcn
+  - pdp
+  - desarrollo-profesional
+  - notas
+---
+
 
 # 1. **Gestión Emocional y Empatía**
 

@@ -1,3 +1,10 @@
+---
+title: "Visual Thinking: Piensa haciendo dibujos."
+tags:
+  - cursos
+  - notas
+---
+
 # Visual Thinking: Piensa haciendo dibujos.
 
 ![400x400](../../images/conways_law_example.jpeg)

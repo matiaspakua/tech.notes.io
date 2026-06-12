@@ -1,3 +1,13 @@
+---
+title: "Ciberseguridad"
+tags:
+  - master
+  - lasalle-bcn
+  - gobernanza-tic
+  - gobierno-ti
+  - notas
+---
+
 
 # Ciberseguridad
 

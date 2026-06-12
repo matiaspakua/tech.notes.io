@@ -1,3 +1,13 @@
+---
+title: "Gestión Económico Financiera"
+tags:
+  - master
+  - lasalle-bcn
+  - finanzas
+  - gestion-economica
+  - notas
+---
+
 # Gestión Económico Financiera
 
 - Sesión 1 -> [1. Introducción a la Contabilidad](sesion_1_26-10-2024.md)

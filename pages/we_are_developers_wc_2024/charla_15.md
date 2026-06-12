@@ -1,3 +1,12 @@
+---
+title: "The Transformative impact of GenAI for software development and its implications for cybersecurity"
+tags:
+  - conferencia
+  - we-are-developers
+  - 2024
+  - notas
+---
+
 # The Transformative impact of GenAI for software development and its implications for cybersecurity
 
 ## Contexto
