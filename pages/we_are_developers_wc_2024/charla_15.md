@@ -9,6 +9,8 @@ tags:
 
 # The Transformative impact of GenAI for software development and its implications for cybersecurity
 
+[← Inicio](https://matiaspakua.github.io/tech.notes.io)
+
 ## Contexto
 
 La mejor forma de asegurar un producto es tratar de romperlo.

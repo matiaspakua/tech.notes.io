@@ -9,6 +9,8 @@ tags:
 
 # Non-Functional user Stories Specification and test
 
+[← Inicio](https://matiaspakua.github.io/tech.notes.io)
+
 ## Agile requerimiento artefacto
 
 Como se organizan los artefactos desde el alto nivel hasta las user-stories. Tanto del lado del clientes-->developer->management. Basicamente un mapa de donde cae cada cosa en un matrix.

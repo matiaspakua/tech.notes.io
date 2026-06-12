@@ -9,6 +9,8 @@ tags:
 
 # Autonomous microservices with event-driven architecture
 
+[← Inicio](https://matiaspakua.github.io/tech.notes.io)
+
 servicios
 bus de eventos
 event-broken

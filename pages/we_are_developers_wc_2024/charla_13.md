@@ -9,6 +9,8 @@ tags:
 
 # The Lifehackers guide to software architecture
 
+[← Inicio](https://matiaspakua.github.io/tech.notes.io)
+
 ## Beaware of the faith healer. 
 
 2. Todas las decisiones tinene trade-off y downsides. Para lidiar con estos, se puede: lidiar con los trade.off

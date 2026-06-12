@@ -9,6 +9,8 @@ tags:
 
 # Intentional code: minimalism in a world of dogmatic design
 
+[← Inicio](https://matiaspakua.github.io/tech.notes.io)
+
 Codigo complejo
 Patrones de diseño
 Diseños comunes

@@ -9,6 +9,8 @@ tags:
 
 # Quantum Computing for classical developers
 
+[← Inicio](https://matiaspakua.github.io/tech.notes.io)
+
 ## introducción
 
 La computación clásica será "aumentada" por QC

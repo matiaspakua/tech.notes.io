@@ -9,6 +9,8 @@ tags:
 
 # Architecting the future: leveraging AI, Cloud, and data for business Sucess
 
+[← Inicio](https://matiaspakua.github.io/tech.notes.io)
+
 ---
 
 ## Introducción Panelistas

@@ -9,6 +9,8 @@ tags:
 
 # Specifications as the better way of software development
 
+[← Inicio](https://matiaspakua.github.io/tech.notes.io)
+
 
 ## Que es: Specifications
 

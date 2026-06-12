@@ -9,6 +9,8 @@ tags:
 
 # The Future of Open Source
 
+[← Inicio](https://matiaspakua.github.io/tech.notes.io)
+
 Sobre la historia de la mermelada. La OpenSource Initiative fue creada hace mucho tiempo y actualmente se puede decir que el mundo ha evolucionado.
 
 tema de licencias

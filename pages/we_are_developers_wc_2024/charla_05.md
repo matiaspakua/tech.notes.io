@@ -9,6 +9,8 @@ tags:
 
 # Beyond the hype: Real-World AI strategies
 
+[← Inicio](https://matiaspakua.github.io/tech.notes.io)
+
 ## Panelistas
 
 --> SAP. 16 GenAI casos de aplicación. Usan múltiples modelos, de varios vendors, desde Open Source hasta propietarios (foundation models).

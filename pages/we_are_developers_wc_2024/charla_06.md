@@ -13,6 +13,8 @@ tags:
 
 # Autor
 
+[← Inicio](https://matiaspakua.github.io/tech.notes.io)
+
 Maxim Fateev
 CTO/Cofounder @ Temporal.io
 

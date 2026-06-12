@@ -9,6 +9,8 @@ tags:
 
 # Real-World Threat Modeling
 
+[← Inicio](https://matiaspakua.github.io/tech.notes.io)
+
 ## Shift-Left journey
 
 SAST, DAST, basicamente es mover las pruebas de seguridad desde luego de la APP en producción hasta el código. Pero sigue siendo insuficiente.

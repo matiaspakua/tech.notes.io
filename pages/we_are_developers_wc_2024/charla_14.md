@@ -9,6 +9,8 @@ tags:
 
 # Scaling Databases
 
+[← Inicio](https://matiaspakua.github.io/tech.notes.io)
+
 ## introduccion
 
 Es "x" suficientemente rápido?

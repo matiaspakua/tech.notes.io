@@ -9,6 +9,8 @@ tags:
 
 # Serverless Java in action: cloud agnostic design patterns and tips
 
+[← Inicio](https://matiaspakua.github.io/tech.notes.io)
+
 ## sobre el uso 
 
 graficos que demuestra que serverless solo usaitlizas los recursos cuando los necesitas, o sea, cuando la cantidad de request aumenta, entonces el ambiente se encarga de crear instancias y bajarlas.

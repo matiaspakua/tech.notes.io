@@ -5,19 +5,19 @@ tags:
   - we-are-developers
   - 2024
   - notas
+  - arquitectura
 ---
 
 # Architecture Antipattern
 
+[← Inicio](https://matiaspakua.github.io/tech.notes.io)
+
 ![](../../images/antipatterns_concept_board.png)
 
-# Autor
+## Autor
 
-Andreas Voigt
-
-Pricipal software architect @ Adesso SE
-
-Linkedin: https://www.linkedin.com/in/andreas-voigt-0a855b11/
+**Andreas Voigt** — Principal Software Architect @ Adesso SE.
+[LinkedIn](https://www.linkedin.com/in/andreas-voigt-0a855b11/)
 
 ---
 
@@ -25,12 +25,10 @@ Linkedin: https://www.linkedin.com/in/andreas-voigt-0a855b11/
 
 Consecuencias negativas de aplicar una solución, de la evolución de las arquitecturas, decisiones, contexto, negocio, la vida.
 
-**Video**:  https://youtu.be/BNTt2aLB1tg
-
-Stefan Tilkov, Goto conference. Achitecture antipatterns.
+> [!note]
+> Charla relacionada: [Architecture Antipatterns — Stefan Tilkov, GOTO Conference](https://youtu.be/BNTt2aLB1tg).
 
 ---
-
 
 ## Antipattern: Emotional Attachment
 
@@ -46,8 +44,7 @@ Una empresa de desarrollo de software para seguros desarrolló su propio middlew
 
 **Desventajas**: costo elevado (no es parte del negocio), obsolescencia de la tecnología, transferencia de conocimiento dificil.
 
-
-Ejemplo: https://architecture-antipatterns.tech/case_studies/diy_middleware.html
+Ejemplo: [DIY Middleware — Architecture Antipatterns](https://architecture-antipatterns.tech/case_studies/diy_middleware.html)
 
 ---
 
@@ -68,7 +65,7 @@ Una <mark style="background: #FFF3A3A6;">solución muy genérica para ser usada 
 ## Como evitar el problema de soluciones genéricas
 
 - **Diseña para Casos de Uso Específicos** 🎯
-- **Mantén la Simplicidad - KIS** 🧩
+- **Mantén la Simplicidad — KISS (Keep It Simple, Stupid)** 🧩
 - **Itera y Refina Basado en Feedback** 🔄
 
 ---
@@ -83,7 +80,7 @@ Una <mark style="background: #FFF3A3A6;">solución muy genérica para ser usada 
 
 ---
 
-## Anti-Patrón: Never change a running system 🚧
+## Anti-Patrón: Never change a running system 🚧
 
 ![](../../images/if_works_dont_touch.png)
 
@@ -128,7 +125,7 @@ App vieja en java, 4 millones LOC, 15 años, etc.
 -> documentar
 -> CI/CD armar pipelines.
 -> refactorings.
--> evolucionaty architecture.
+-> evolutionary architecture.
 
 ---
 
@@ -152,8 +149,7 @@ Usar conceptos sin conocer el porque y como?
 
 ---
 
-## Referencias:
+## Referencias
 
-https://github.com/innoq/architecture-antipatterns
-
-https://architecture-antipatterns.tech/
+- [innoq/architecture-antipatterns — GitHub](https://github.com/innoq/architecture-antipatterns)
+- [Architecture Antipatterns (sitio oficial)](https://architecture-antipatterns.tech/)

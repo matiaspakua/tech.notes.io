@@ -5,13 +5,20 @@ tags:
   - we-are-developers
   - 2024
   - notas
+  - arquitectura
+  - data-engineering
 ---
 
 # Modern data Architectures need software engineering
 
-## introducción
+[← Inicio](https://matiaspakua.github.io/tech.notes.io)
 
-que es data architecture? sistemas, processos, analisis de datos, toma de decisiones. Data-Driven decision, design, etc.
+> [!note]
+> Charla de **Matthias Niehoff** sobre cómo las arquitecturas de datos modernas necesitan prácticas de ingeniería de software.
+
+## Introducción
+
+¿Qué es data architecture? Sistemas, procesos, análisis de datos, toma de decisiones. Data-Driven decision, design, etc.
 
 ==> Problemas?
 
@@ -28,7 +35,7 @@ Luego Cloud Data Lakes (snowflake)
 
 ETL a ELT => Extract, Load => luego Transform
 
-Data Lakehouse (IcerBerg) y formatos de almacenamiento.
+Data Lakehouse (Apache Iceberg) y formatos de almacenamiento.
 
 
 ## Challenge: centralización
@@ -46,13 +53,13 @@ sobre los ambientes de pruebas: dev, pre-prod, prod y como se debe hacer ingenie
 ## modern data stack => dbt
 
 Devops aplicado a data
-dbt => herramienta para hacer consultas SQL y archivos yaml para confgurar
+dbt => herramienta para hacer consultas SQL y archivos yaml para configurar
 con esta herramienta podemos hacer test_unitarios para "datos", o sea, TDD en datos.
 poner todo en el repositorio "dbt" hace que se pueda crear un pipeline y por lo tanto, automatizar el proceso.
 
-## Data Contract - Like API pero para DATA
+## Data Contract — como una API pero para DATA
 
-https://datacontract.com/
+Ver [Data Contract Specification](https://datacontract.com/).
 
 ## Data-as-a-Product & data-thinking
 

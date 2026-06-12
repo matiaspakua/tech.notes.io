@@ -9,6 +9,8 @@ tags:
 
 # From zero to Hero: Launch & manage your cloud apps with free OpenShift & Red Hat developer Hub
 
+[← Inicio](https://matiaspakua.github.io/tech.notes.io)
+
 ## Mayores desafíos
 
 1. 80% Modernización de aplicaciones. Deuda técnica
