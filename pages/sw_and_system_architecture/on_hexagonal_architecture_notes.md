@@ -32,9 +32,26 @@ In the example of a Java with Spring-based platform, here’s are some concepts 
     
 4. **Services**: In a microservices architecture, each service could be a hexagon (i.e., it has its own ports and adapters). They communicate with each other through APIs.
 
-  
+### Puertos y adaptadores de un vistazo
 
-![Example by VALENTINA CUPAĆ ](https://substackcdn.com/image/fetch/w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe5f9ca77-0fc5-4fd4-8b89-c2e43ffff9c2_3601x4442.jpeg)
+```mermaid
+flowchart LR
+    UI["UI / REST Controller<br/>(Driving Adapter)"] -->|llama| PP[["Primary Port<br/>(Use Case interface)"]]
+    Test["Test / CLI<br/>(Driving Adapter)"] -->|llama| PP
+    subgraph Core["Núcleo de la aplicación"]
+        PP --> DM(("Domain Model<br/>Business Logic"))
+        DM --> SP[["Secondary Port<br/>(Repository interface)"]]
+    end
+    SP -->|implementado por| DB["DB Adapter<br/>(Driven Adapter)"]
+    SP -->|implementado por| MQ["Message Queue Adapter<br/>(Driven Adapter)"]
+    DB --> Postgres[("PostgreSQL")]
+    MQ --> Kafka[("Kafka")]
+```
+
+> [!tip]
+> Las **flechas siempre apuntan hacia el dominio**: el núcleo no conoce a los adaptadores, solo define puertos (interfaces). Esa inversión de dependencias es lo que mantiene la lógica de negocio independiente de la tecnología.
+
+![Example by Valentina Cupać](https://substackcdn.com/image/fetch/w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe5f9ca77-0fc5-4fd4-8b89-c2e43ffff9c2_3601x4442.jpeg)
 
 Here’s a simple example in Java:
 

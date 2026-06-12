@@ -41,7 +41,38 @@ The most important elements of the Git Flow approach are:
 - **Release Branches**: These support preparation of a new production release.
 - **Hotfix Branches**: These are very much like release branches in that they are also meant to prepare for a new production release, albeit unplanned.
 
-### GitFlow original diagram
+### GitFlow en un diagrama
+
+```mermaid
+gitGraph
+    commit id: "init"
+    branch develop
+    checkout develop
+    commit id: "setup"
+    branch feature/login
+    checkout feature/login
+    commit id: "login UI"
+    commit id: "login API"
+    checkout develop
+    merge feature/login
+    branch release/1.0
+    checkout release/1.0
+    commit id: "rc fixes"
+    checkout main
+    merge release/1.0 tag: "v1.0"
+    checkout develop
+    merge release/1.0
+    checkout main
+    branch hotfix/1.0.1
+    checkout hotfix/1.0.1
+    commit id: "fix crash"
+    checkout main
+    merge hotfix/1.0.1 tag: "v1.0.1"
+    checkout develop
+    merge hotfix/1.0.1
+```
+
+### GitFlow: diagrama original de Vincent Driessen
 
 ![Original Git flow](https://nvie.com/img/git-model@2x.png)
 

@@ -135,6 +135,22 @@ Scrum is an Agile framework for software development that is widely used to mana
 
 ![Scrum framework](../../images/scrum-framework.png)
 
+El ciclo de un Sprint, en un diagrama:
+
+```mermaid
+flowchart LR
+    PB["Product Backlog"] --> SP["Sprint Planning"]
+    SP --> SB["Sprint Backlog"]
+    SB --> S{{"Sprint<br/>(2-4 semanas)"}}
+    S --> DS["Daily Scrum"]
+    DS --> S
+    S --> INC["Increment<br/>(potentially shippable)"]
+    INC --> SR["Sprint Review"]
+    SR --> RETRO["Sprint Retrospective"]
+    RETRO -->|mejora continua| SP
+    SR -.->|feedback| PB
+```
+
 The Scrum framework emphasizes collaboration and communication among team members, and places a strong emphasis on delivering a potentially shippable product increment at the end of each sprint. The framework is designed to be flexible and adaptable, and can be tailored to fit the specific needs of a development team.
 
 ### Scrum Board example

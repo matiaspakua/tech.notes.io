@@ -102,6 +102,20 @@ Referencia:
 
 Dentro de cada área hay un mundo por si mismo, pero a modo de resumen el siguiente gráfico muestra como se relacionan cada uno de los conceptos:
 
+```mermaid
+flowchart TB
+    subgraph AI["Inteligencia Artificial (AI)"]
+        subgraph ML["Machine Learning (ML)"]
+            subgraph DL["Deep Learning (DL)"]
+                LLM["LLMs / GenAI<br/>(Transformers)"]
+            end
+        end
+    end
+    AI -.- a["Sistemas que simulan<br/>comportamiento inteligente"]
+    ML -.- b["Aprenden de los datos<br/>sin reglas explícitas"]
+    DL -.- c["Redes neuronales<br/>multicapa"]
+```
+
 ![](AI-ML-DL.jpeg)
 
 Gracias a los estudios en AI, y muy asociado a la teoría detrás, aparecen otras aplicaciones que mucho interés:
