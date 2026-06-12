@@ -100,3 +100,8 @@ The key idea behind Hexagonal Architecture is to isolate the core logic of your 
  - [Hexagonal Architecture — Wikipedia](https://en.wikipedia.org/wiki/Hexagonal_architecture_(software))
  - [Hexagonal Architecture: Ports and Adapters — Optivem Journal](https://journal.optivem.com/p/hexagonal-architecture-ports-and-adapters)
  - [Understanding Hexagonal Architecture: Ports and Adapters — Tricentis Webinar Recap](https://shiftsync.tricentis.com/development-methodologies-47/webinar-recap-understanding-hexagonal-architecture-ports-and-adapters-513)
+
+## Notas relacionadas
+
+- [Software Architecture. Vertical Slicing Architectures](vertical_slicing_architectures.md)
+- [Sustainable Software Architecture](sustainable_software_architecture.md)

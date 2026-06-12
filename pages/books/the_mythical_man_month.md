@@ -48,3 +48,11 @@ tags:
 - [The Mythical Man-Month — Frederick P. Brooks Jr., 1975 (anniversary ed. 1995)](https://www.amazon.com/Mythical-Man-Month-Software-Engineering-Anniversary/dp/0201835959) (ISBN: 978-0201835953)
 - [Brooks's Law — Wikipedia](https://en.wikipedia.org/wiki/Brooks%27s_law)
 - [Frederick P. Brooks Jr. — Wikipedia](https://en.wikipedia.org/wiki/Fred_Brooks)
+
+## Notas relacionadas
+
+- [Agile and Scrum. The perks of know nothing](../software_engineering/agile_and_scrum.md)
+- [Waterfall. The misunderstood concept in software engineering](../software_engineering/waterfall.md)
+- [Software Engineering Timeline](../software_engineering/software_engineering_timeline.md)
+- [Modern Software Engineering: Doing What Works to Build Better Software Faster](modern_software_engineering.md)
+- [Extreme Programming Explained by Kent Beck](book_extreme_programming_explained.md)

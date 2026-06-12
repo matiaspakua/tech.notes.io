@@ -55,3 +55,8 @@ flowchart TB
 
 - [Vertical Slice Architecture — Jimmy Bogard, 2018 (original blog post)](https://www.jimmybogard.com/vertical-slice-architecture/)
 - [Modular Monolith — Victor Rentea (YouTube live)](https://www.youtube.com/live/H7HWOlANX78?feature=share)
+
+## Notas relacionadas
+
+- [On Hexagonal Architecture notes](on_hexagonal_architecture_notes.md)
+- [Sustainable Software Architecture](sustainable_software_architecture.md)

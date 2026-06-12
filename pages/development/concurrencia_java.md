@@ -307,3 +307,11 @@ public class CompletableFuture<T> implements Future<T>, CompletionStage<T>
  - [Lesson: Concurrency (The Java™ Tutorials > Essential Java Classes) (oracle.com)](https://docs.oracle.com/javase/tutorial/essential/concurrency/)
  - [JobRunr](https://github.com/jobrunr/jobrunr?tab=readme-ov-file) / [Official Web](https://www.jobrunr.io/en/)
  - [Java Concurrency Video Tutorial](https://www.youtube.com/playlist?list=PLL8woMHwr36EDxjUoCzboZjedsnhLP1j4)
+
+## Notas relacionadas
+
+- [Notas de Java](on_java_notes.md)
+- [Spring Framework Notes](spring_framework_notes.md)
+- [01. Learning Spring with Spring Boot](getting_started_spring_development.md)
+- [Spring Cloud Load Balancing](advance_your_spring_development_skills.md)
+- [Java Interfaces Funcionales](java_interfaces_funcionales.md)

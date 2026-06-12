@@ -38,3 +38,11 @@ timeline
 4. **Poor project management**: Poor project management can lead to missed deadlines, budget overruns, and other problems. 
     
 5. **Inadequate documentation**: Documentation is essential for software development, but it is often neglected or done poorly. This can lead to confusion, errors, and other issues.
+
+## Notas relacionadas
+
+- [Agile and Scrum. The perks of know nothing](agile_and_scrum.md)
+- [Waterfall. The misunderstood concept in software engineering](waterfall.md)
+- [Modern Software Engineering: Doing What Works to Build Better Software Faster](../books/modern_software_engineering.md)
+- [Extreme Programming Explained by Kent Beck](../books/book_extreme_programming_explained.md)
+- [The Mythical Man-Month](../books/the_mythical_man_month.md)

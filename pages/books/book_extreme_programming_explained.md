@@ -560,3 +560,11 @@ Projects that start and stop frequently, with the team scattered at each shutdow
 - [XP Programming — Rules and Practices](http://www.extremeprogramming.org/rules.html)
 - [Conway's Law — Wikipedia](https://en.wikipedia.org/wiki/Conway%27s_law)
 - [Theory of Constraints in Software Development](https://www.eferro.net/2023/11/harnessing-efficiency-theory-of.html)
+
+## Notas relacionadas
+
+- [Agile and Scrum. The perks of know nothing](../software_engineering/agile_and_scrum.md)
+- [Waterfall. The misunderstood concept in software engineering](../software_engineering/waterfall.md)
+- [Software Engineering Timeline](../software_engineering/software_engineering_timeline.md)
+- [Modern Software Engineering: Doing What Works to Build Better Software Faster](modern_software_engineering.md)
+- [The Mythical Man-Month](the_mythical_man_month.md)

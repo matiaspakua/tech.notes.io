@@ -65,3 +65,11 @@ Las interfaces funcionales en Java son una herramienta poderosa para simplificar
 
 - [java.util.function — Java SE 17 API Docs](https://docs.oracle.com/en/java/docs/api/java.base/java/util/function/package-summary.html)
 - [Lambda Expressions — The Java Tutorials (Oracle)](https://docs.oracle.com/javase/tutorial/java/javaOO/lambdaexpressions.html)
+
+## Notas relacionadas
+
+- [Notas de Java](on_java_notes.md)
+- [Spring Framework Notes](spring_framework_notes.md)
+- [01. Learning Spring with Spring Boot](getting_started_spring_development.md)
+- [Spring Cloud Load Balancing](advance_your_spring_development_skills.md)
+- [Concurrencia en Java](concurrencia_java.md)

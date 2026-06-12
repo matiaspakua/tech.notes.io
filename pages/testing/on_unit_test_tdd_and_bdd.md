@@ -66,3 +66,8 @@ Highlights:
 - [TestDrivenDevelopment — Martin Fowler](https://martinfowler.com/bliki/TestDrivenDevelopment.html)
 - [The Cycles of TDD — Robert C. Martin](http://blog.cleancoder.com/uncle-bob/2014/12/17/TheCyclesOfTDD.html)
 - [¿Por qué hacer TDD? — Robert C. Martin (YouTube)](https://www.youtube.com/watch?v=GvAzrC6-spQ)
+
+## Notas relacionadas
+
+- [Gherkin and Automation](gherkin_and_automation.md)
+- [BDD with Cucumber for JAVA](bdd_with_cucumber_java_notes.md)
