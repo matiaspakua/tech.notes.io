@@ -1,0 +1,109 @@
+name: Note Content Fixer
+
+# Pre-validation content fixer.
+# Cuando se añaden o editan notas (pages/**.md) en main, este workflow:
+#   1. Valida las notas con scripts/validate_notes.py (chequeo determinista).
+#   2. Ejecuta Claude Code aplicando la skill note-content-fixer SOLO sobre las
+#      notas cambiadas (mejora formato, contenido, tags, referencias y estilo).
+#   3. Abre una Pull Request con las mejoras propuestas para que el dueño revise
+#      y mergee. NUNCA escribe directamente en main.
+#
+# Requisito: definir el secret ANTHROPIC_API_KEY en el repositorio
+# (Settings → Secrets and variables → Actions → New repository secret).
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "pages/**/*.md"
+  workflow_dispatch:
+    inputs:
+      target:
+        description: "Ruta o glob de notas a revisar (vacío = todas las de pages/)"
+        required: false
+        default: ""
+
+# Evita loops: ignora los pushes generados por el propio fixer.
+concurrency:
+  group: note-content-fixer-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  fix-notes:
+    # No re-procesar el merge de una PR del propio fixer.
+    if: >-
+      github.actor != 'github-actions[bot]' &&
+      !contains(github.event.head_commit.message, 'note-content-fixer')
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Detectar notas cambiadas
+        id: changed
+        run: |
+          if [ -n "${{ github.event.inputs.target }}" ]; then
+            FILES=$(ls ${{ github.event.inputs.target }} 2>/dev/null | grep '\.md$' || true)
+          else
+            FILES=$(git diff --name-only --diff-filter=ACM HEAD~1 HEAD -- 'pages/**/*.md' || true)
+          fi
+          echo "Notas a revisar:"
+          echo "$FILES"
+          {
+            echo "files<<EOF"
+            echo "$FILES"
+            echo "EOF"
+          } >> "$GITHUB_OUTPUT"
+          if [ -z "$FILES" ]; then echo "empty=true" >> "$GITHUB_OUTPUT"; fi
+
+      - name: Validación determinista
+        if: steps.changed.outputs.empty != 'true'
+        run: |
+          python3 scripts/validate_notes.py ${{ steps.changed.outputs.files }} || true
+
+      - name: Mejorar notas con la skill (Claude Code)
+        if: steps.changed.outputs.empty != 'true'
+        uses: anthropics/claude-code-action@v1
+        with:
+          anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
+          claude_args: "--allowedTools Edit,Read,Write,Grep,Glob"
+          prompt: |
+            Eres el "note-content-fixer" de la base de conocimiento tech.notes.io.
+
+            1. Lee la skill en `.claude/skills/note-content-fixer/SKILL.md` y
+               aplica TODAS sus reglas (template, tags, referencias, estilo del
+               autor, compatibilidad Obsidian + web).
+            2. Revisa y mejora ÚNICAMENTE estas notas (no toques ninguna otra):
+               ${{ steps.changed.outputs.files }}
+            3. Cambios LEVES y MODERADOS: mejora formato, frontmatter, tags,
+               headings, referencias y errores factuales claros (contrastando
+               con fuentes fiables). NO reescribas, NO traduzcas, NO cambies las
+               reflexiones personales ni el idioma original.
+            4. Edita los archivos en el working tree. NO hagas commits ni pushes
+               (de eso se encarga el siguiente paso del workflow).
+
+      - name: Abrir Pull Request con las mejoras
+        if: steps.changed.outputs.empty != 'true'
+        uses: peter-evans/create-pull-request@v6
+        with:
+          branch: bot/note-content-fixer/${{ github.run_id }}
+          base: main
+          commit-message: "note-content-fixer: mejoras de formato y contenido"
+          title: "🤖 Note Content Fixer: mejoras propuestas"
+          body: |
+            Mejoras automáticas propuestas por la skill **note-content-fixer**
+            sobre las notas añadidas/editadas en el último push.
+
+            Revisá los cambios y mergeá si estás de acuerdo. Si algo no te gusta,
+            editá el branch o cerrá la PR.
+
+            > Generado por `.github/workflows/note-content-fixer.yml`.
+          labels: |
+            automated
+            content-fixer
+          delete-branch: true

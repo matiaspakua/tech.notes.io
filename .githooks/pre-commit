@@ -1,0 +1,38 @@
+#!/usr/bin/env bash
+#
+# Pre-commit hook: valida las notas de pages/ en staging antes de commitear.
+# Parte del "pre-validation content fixer". Los chequeos son deterministas y
+# rápidos (sin IA). El fix profundo de contenido lo hace la GitHub Action que
+# abre una PR de revisión.
+#
+# Activar una sola vez con:
+#     git config core.hooksPath .githooks
+#
+# Bloquea el commit si hay ERRORES graves (links rotos, frontmatter ausente,
+# HTML legacy). Los WARNINGS solo se muestran, no bloquean.
+
+set -euo pipefail
+
+# Notas markdown en staging dentro de pages/
+mapfile -t STAGED < <(git diff --cached --name-only --diff-filter=ACM | grep '^pages/.*\.md$' || true)
+
+if [ ${#STAGED[@]} -eq 0 ]; then
+  exit 0
+fi
+
+echo "🔎 note-content-fixer: validando ${#STAGED[@]} nota(s) en staging…"
+
+if ! command -v python3 >/dev/null 2>&1; then
+  echo "⚠ python3 no disponible; se omite la validación."
+  exit 0
+fi
+
+if python3 scripts/validate_notes.py "${STAGED[@]}"; then
+  echo "✓ Validación OK."
+  exit 0
+else
+  echo ""
+  echo "✗ Hay errores graves en las notas. Corrígelos o usa 'git commit --no-verify'"
+  echo "  para saltar la validación. La GitHub Action propondrá mejoras vía PR."
+  exit 1
+fi

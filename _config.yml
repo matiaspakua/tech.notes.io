@@ -45,6 +45,10 @@ exclude:
   - README.md
   - Gemfile
   - Gemfile.lock
+  - .claude/
+  - .githooks/
+  - scripts/
+  - docs/
 
 callouts:
   note:
