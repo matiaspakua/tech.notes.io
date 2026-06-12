@@ -35,6 +35,39 @@ nav_order: 1
 
 ---
 
+## 🗺️ Mapa de conocimiento
+
+```mermaid
+flowchart LR
+    TN(("Tech Notes"))
+    TN --> SE["Ingeniería de Software"]
+    TN --> DEV["Desarrollo"]
+    TN --> IA["Inteligencia Artificial"]
+    TN --> CD["Cloud y Datos"]
+    TN --> SEC["Ciberseguridad"]
+    TN --> LID["Liderazgo"]
+    TN --> POS["Posgrados"]
+    SE --> SE1["Agile · Scrum · Waterfall"]
+    SE --> SE2["Hexagonal · Vertical Slice"]
+    SE --> SE3["TDD · BDD · Gherkin"]
+    DEV --> DEV1["Java · Spring"]
+    DEV --> DEV2["REST · OpenAPI"]
+    DEV --> DEV3["Concurrencia · C"]
+    IA --> IA1["ML · DL"]
+    IA --> IA2["LLMs · GenAI"]
+    CD --> CD1["Cloud Computing"]
+    CD --> CD2["NoSQL"]
+    SEC --> SEC1["DevSecOps"]
+    SEC --> SEC2["Web Security"]
+    LID --> LID1["Comunicación · Tiempo"]
+    POS --> POS1["UCA · UP · laSalle"]
+```
+
+> [!tip]
+> Usá el **buscador** (arriba a la izquierda) para encontrar notas por palabra clave, o navegá por las secciones de abajo.
+
+---
+
 ## 🌐 General
 
 - [Introduction and notes on NoSQL Databases](/pages/general_topic/nosql_the_basis_of.md) 
