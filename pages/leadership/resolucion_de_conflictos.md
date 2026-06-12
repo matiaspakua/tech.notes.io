@@ -285,3 +285,9 @@ Existe una gran cantidad de técnicas de aplicación para la tarea de mediación
 5. Re-Equilibrar.
 6. Reforzamiento.
 
+## Referencias
+
+- [Getting to Yes: Negotiating Agreement Without Giving In — Roger Fisher & William Ury, 1981](https://en.wikipedia.org/wiki/Getting_to_Yes)
+- [Thomas–Kilmann Conflict Mode Instrument — Wikipedia](https://en.wikipedia.org/wiki/Thomas%E2%80%93Kilmann_Conflict_Mode_Instrument)
+- [Conflict resolution — Wikipedia](https://en.wikipedia.org/wiki/Conflict_resolution)
+

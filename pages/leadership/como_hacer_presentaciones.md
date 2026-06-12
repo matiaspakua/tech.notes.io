@@ -106,3 +106,8 @@ Hacer buenas presentaciones orales requiere práctica, preparación y el desarro
     - ¿Recibiste buenas preguntas o comentarios de la audiencia?
 2. **Integra las lecciones aprendidas**:
     - Aplica mejoras en tus próximas presentaciones.
+
+## Referencias
+
+- [How to Speak — Patrick Winston (MIT OpenCourseWare)](https://ocw.mit.edu/courses/res-tll-005-how-to-speak-january-iap-2018/)
+- [How to Speak (video) — Patrick Winston, MIT](https://www.youtube.com/watch?v=Unzc731iCUY)
