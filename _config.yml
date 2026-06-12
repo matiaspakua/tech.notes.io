@@ -37,6 +37,10 @@ back_to_top_text: "Volver arriba"
 
 heading_anchors: true
 
+# Diagramas Mermaid (se renderizan en web y en Obsidian de forma nativa)
+mermaid:
+  version: "11.6.0"
+
 exclude:
   - README.md
   - Gemfile

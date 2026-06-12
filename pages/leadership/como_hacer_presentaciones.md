@@ -1,12 +1,18 @@
 ---
-title: "Cómo hablar. Patrick Winston"
+title: "Cómo hacer presentaciones"
 tags:
   - liderazgo
   - soft-skills
   - notas
+  - comunicacion
 ---
 
-# Cómo hablar. Patrick Winston
+# Cómo hacer presentaciones
+
+[← Inicio](https://matiaspakua.github.io/tech.notes.io)
+
+> [!note]
+> Notas basadas en la charla *"How to Speak"* de Patrick Winston (MIT). Ver también la nota relacionada [[how_to_speak_by_patrick_winston]].
 
 Hacer buenas presentaciones orales requiere práctica, preparación y el desarrollo de ciertas habilidades. 
 

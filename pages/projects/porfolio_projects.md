@@ -1,11 +1,13 @@
 ---
-title: "Porfolio de Proyectos"
+title: "Portfolio de Proyectos"
 tags:
   - proyectos
   - notas
 ---
 
-# Porfolio de Proyectos
+# Portfolio de Proyectos
+
+[← Inicio](https://matiaspakua.github.io/tech.notes.io)
 
 
 

@@ -7,6 +7,8 @@ tags:
 
 # Índice de Libros Mencionados
 
+[← Inicio](https://matiaspakua.github.io/tech.notes.io)
+
 Recopilación de todos los libros que he anotado y estudiado a lo largo de mis notas de investigación personal.
 
 ---
