@@ -21,6 +21,22 @@ tags:
 
 ![](../../images/vertical_slicing.jpg)
 
+Capas técnicas (horizontal) vs. slices por funcionalidad (vertical):
+
+```mermaid
+flowchart TB
+    subgraph H["Layered (horizontal)"]
+        direction TB
+        UI1["Controllers"] --> SV1["Services"] --> RP1["Repositories"]
+    end
+    subgraph V["Vertical Slice"]
+        direction LR
+        F1["Crear Pedido<br/>UI+lógica+datos"]
+        F2["Cancelar Pedido<br/>UI+lógica+datos"]
+        F3["Listar Pedidos<br/>UI+lógica+datos"]
+    end
+```
+
 - **Vertical slicing**: A technique to group the code by use cases or business capabilities, instead of technical layers. It allows more freedom and independence for each slice, and reduces coupling and complexity. It can be combined with concentric architectures such as onion or hexagonal.
 - **Modular monolith**: An alternative to microservices that consists of breaking a large monolithic codebase into smaller modules that are loosely coupled and have clear boundaries. It is easier to change and refactor than microservices, and avoids the challenges of distributed systems.
 - **Finding module boundaries**: A challenging task that requires balancing local and global complexity, aligning with business domains and teams, and avoiding scope creep and domain model dilution. The author suggests some tactics such as grouping by business capabilities, not concepts, and using domain-driven design principles.

@@ -214,6 +214,30 @@ Repo: https://github.com/matiaspakua/python-scaffold
 
 ## Cloud Computing Service Models
 
+Quién gestiona qué, según el modelo (responsabilidad compartida):
+
+```mermaid
+flowchart TB
+    subgraph leyenda[" "]
+        direction LR
+        Y["🟦 Gestiona el proveedor"]
+        N["🟨 Gestiona el usuario"]
+    end
+    subgraph OnPrem["On-Premise"]
+        OP["Apps · Datos · Runtime · OS · Virtualización · Servidores · Red"]
+    end
+    subgraph IaaS["IaaS"]
+        I["🟨 Apps · Datos · Runtime · OS<br/>🟦 Virtualización · Servidores · Red"]
+    end
+    subgraph PaaS["PaaS"]
+        P["🟨 Apps · Datos<br/>🟦 Runtime · OS · Infra"]
+    end
+    subgraph SaaS["SaaS"]
+        S["🟦 Todo gestionado por el proveedor"]
+    end
+    OnPrem --> IaaS --> PaaS --> SaaS
+```
+
 1. **Software as a Service:**
 • Examples include Gmail, Splunk, and data dog.
 • These services eliminate the need for hosting a dedicated web server.
