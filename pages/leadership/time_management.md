@@ -97,6 +97,19 @@ Como primer paso es importante "priorizar", el siguiente cuadrante de prioridade
 
 ![](../../images/cuadrante_gestion_tiempo.png)
 
+La **matriz de Eisenhower** clasifica las tareas según urgencia e importancia:
+
+```mermaid
+quadrantChart
+    title Matriz de Eisenhower
+    x-axis No urgente --> Urgente
+    y-axis No importante --> Importante
+    quadrant-1 Hacer ya
+    quadrant-2 Planificar
+    quadrant-3 Eliminar
+    quadrant-4 Delegar
+```
+
 ### Planificación y ejecución eficaz
 
 Establecer estrategias y planes premeditados.
