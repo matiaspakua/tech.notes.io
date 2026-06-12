@@ -58,6 +58,21 @@ Los <mark style="background: #FFF3A3A6;">hilos existen dentro de un proceso</mar
 
 La ejecución multiproceso es una característica esencial de la plataforma Java. Cada aplicación tiene al menos un hilo, o varios, si se cuentan los hilos del "sistema" que hacen cosas como la gestión de la memoria y el manejo de señales. Pero desde el punto de vista del programador de aplicaciones, se comienza con un solo hilo, llamado hilo principal. Este hilo tiene la capacidad de crear hilos adicionales, como demostraremos en la siguiente sección.
 
+Los estados del ciclo de vida de un hilo en Java (`java.lang.Thread.State`):
+
+```mermaid
+stateDiagram-v2
+    [*] --> NEW: new Thread()
+    NEW --> RUNNABLE: start()
+    RUNNABLE --> BLOCKED: espera lock (synchronized)
+    BLOCKED --> RUNNABLE: obtiene el lock
+    RUNNABLE --> WAITING: wait() / join()
+    WAITING --> RUNNABLE: notify() / notifyAll()
+    RUNNABLE --> TIMED_WAITING: sleep(t) / wait(t)
+    TIMED_WAITING --> RUNNABLE: timeout
+    RUNNABLE --> TERMINATED: run() finaliza
+    TERMINATED --> [*]
+```
 
 ## Java, keywords
 
