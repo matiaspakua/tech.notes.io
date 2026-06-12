@@ -8,22 +8,7 @@ tags:
 
 # How To Speak by Patrick Winston
 
-<style>
-  .back-button {
-    background-color: #4CAF50; /* Green */
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-  }
-</style>
-
-<button class="back-button" onclick="window.location.href='https://matiaspakua.github.io/tech.notes.io'">All notes</button>
+[← Inicio](https://matiaspakua.github.io/tech.notes.io)
 
 ## Introduction
 
@@ -69,4 +54,6 @@ Overall, the talk emphasizes the importance of clear and effective communication
 
 
 ## References
- - https://ocw.mit.edu/courses/res-tll-005-how-to-speak-january-iap-2018/pages/how-to-speak/
+
+- [How to Speak — Patrick H. Winston, MIT OpenCourseWare (IAP 2018)](https://ocw.mit.edu/courses/res-tll-005-how-to-speak-january-iap-2018/pages/how-to-speak/)
+- [Patrick Henry Winston — Wikipedia](https://en.wikipedia.org/wiki/Patrick_Winston)

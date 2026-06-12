@@ -18,7 +18,6 @@ Lectura 2: [El joc de les respostes – treva.cat](https://treva.cat/es/el-joc-d
 >Una buena manera de empezar el proceso de innovación es encontrar una buena pregunta, que consideremos que delimita bien lo que estamos buscando.
 
 
-
 Lectura 3: [Marcar el ritme – treva.cat](https://treva.cat/es/marcar-el-ritme/)
 
 ![[innovacion_encontrar_los_momentos.png]]

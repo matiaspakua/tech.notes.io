@@ -96,7 +96,6 @@ RFQ => Buy Power
 ## Terminación de servicios
 
 
-
 # Operacion sercivios TIC
 
 

@@ -7,22 +7,7 @@ tags:
 
 # Generative IA
 
-<style>
-  .back-button {
-    background-color: #4CAF50; /* Green */
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-  }
-</style>
-
-<button class="back-button" onclick="window.location.href='https://matiaspakua.github.io/tech.notes.io'">All notes</button>
+[← Inicio](https://matiaspakua.github.io/tech.notes.io)
 
 # Table of content
 
@@ -43,6 +28,9 @@ tags:
 ---
 
 ![](../../images/generative_ai.jpeg)
+
+> [!warning]
+> Este topic evoluciona rápidamente. Algunas referencias a modelos específicos (GPT-3, DALL-E, Midjourney) pueden estar desactualizadas. Verificar con fuentes actuales antes de citar datos concretos.
 
 ## Introduction
 
@@ -198,7 +186,7 @@ These topics collectively paint a picture of a future where generative AI plays 
 # Reference
 
  * [Introduction to Generative AI](https://www.linkedin.com/learning/what-is-generative-ai/)
- * [Generative artificial intelligence Wikipedi](https://en.wikipedia.org/wiki/Generative_artificial_intelligence)
+ * [Generative artificial intelligence — Wikipedia](https://en.wikipedia.org/wiki/Generative_artificial_intelligence)
  * [A Beginner's Guide to Generative AI](https://wiki.pathmind.com/generative-adversarial-network-gan)
  * [What is Generative AI?](https://www.nvidia.com/en-us/glossary/generative-ai/)
  * [Generative Models OpenAI](https://openai.com/research/generative-models)

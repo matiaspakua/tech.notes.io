@@ -8,6 +8,11 @@ tags:
 
 # Introducción a la Programación en C
 
+[← Inicio](https://matiaspakua.github.io/tech.notes.io)
+
+> [!note]
+> El lenguaje C fue creado por Dennis Ritchie en Bell Labs entre 1969 y 1973. La primera edición del libro "The C Programming Language" (Kernighan & Ritchie) fue publicada en 1978. El estándar ANSI C (C89/C90) fue adoptado en 1989. Versiones posteriores: C99 (1999), C11 (2011), C17 (2018).
+
 # 1 . Introducción
 
 NIVEL DE ABSTRACCIÓN  - COMO ATACAR EL PROBLEMA PARA ENCONTRAR UNA SOLUCIÓN  

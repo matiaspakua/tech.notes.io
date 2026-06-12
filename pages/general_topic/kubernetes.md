@@ -14,10 +14,10 @@ tags:
 **Abstract**: Kubernetes, Componente a Componente  
 Introducción a los principios básicos y los componentes que constituyen la arquitectura de Kubernetes. Levantaremos un clúster de Kubernetes desde 0, desplegando cada componente por separado y aprendiendo de forma práctica cómo cada pieza encaja en el puzzle. Daremos los recursos para poder reproducir el tutorial en casa.
 
-# Presentación completa de Kubernetes
+## Presentación completa de Kubernetes
 
-https://docs.google.com/presentation/d/18e4Lg4ARKWPMSl6UrlzPu89vvX1w8W1cKkwaL_Hr3bI/edit?usp=sharing
+[Kubernetes: Componente a Componente — Rael García (Google Slides)](https://docs.google.com/presentation/d/18e4Lg4ARKWPMSl6UrlzPu89vvX1w8W1cKkwaL_Hr3bI/edit?usp=sharing)
 
-# Repositorio de GitHub para levantar desde cero
+## Repositorio de GitHub para levantar desde cero
 
-https://github.com/raelga/kubernetes-talks/tree/master/k8s-from-scratch
+[raelga/kubernetes-talks: k8s-from-scratch (GitHub)](https://github.com/raelga/kubernetes-talks/tree/master/k8s-from-scratch)

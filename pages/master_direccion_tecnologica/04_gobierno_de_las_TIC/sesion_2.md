@@ -58,8 +58,6 @@ Payback = 0,52
 # VAN
 
 
-
-
 # TIR
 
 ---

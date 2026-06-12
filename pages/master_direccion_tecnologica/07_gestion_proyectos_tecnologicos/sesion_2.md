@@ -36,8 +36,6 @@ En la época actual, donde emergen nuevas tecnología y metodologías (y claro, 
 - [9 metrics for IT success](https://www.cio.com/article/219666/9-key-metrics-for-it-success.html)
 
 
-
-
 - [https://www.du.edu/it/about/it-projects](https://www.du.edu/it/about/it-projects)
 - [¿Why no one can manage projects?](https://www.forbes.com/sites/steveandriole/2020/12/01/why-no-one-can-manage-projects-especially-technology-projects/)
 - A Sixth sense of Project Management -YT TedTalk

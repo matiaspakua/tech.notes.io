@@ -6,22 +6,7 @@ tags:
   - notas
 ---
 
-<style>
-  .back-button {
-    background-color: #4CAF50; /* Green */
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-  }
-</style>
-
-<button class="back-button" onclick="window.location.href='https://matiaspakua.github.io/tech.notes.io'">All notes</button>
+[← Inicio](https://matiaspakua.github.io/tech.notes.io)
 
 # Sustainable Software Architecture
 ## Software architecture and sustainability
@@ -304,8 +289,9 @@ Software engineers aim to avoid "big ball of mud" situations by implementing goo
 
 ![](../../images/software_architecture_structured.png)
 
-# Reference:
+# Reference
 
- - [Sustainable Software Architecture](https://www.linkedin.com/learning/sustainable-software-architecture)
- - [Anti-pattern - Wikipedia](https://en.wikipedia.org/wiki/Anti-pattern#Software_engineering_anti-patterns)
- - [4. Improve Your Architecture with the Modularity Maturity Index - Software Architecture Metrics [Book] (oreilly.com)](https://www.oreilly.com/library/view/software-architecture-metrics/9781098112226/ch04.html)
+ - [Sustainable Software Architecture — Dr. Carola Lilienthal (LinkedIn Learning course)](https://www.linkedin.com/learning/sustainable-software-architecture)
+ - [Sustainable Software Architecture: Analyze and Reduce Technical Debt — Carola Lilienthal, dpunkt/O'Reilly](https://www.oreilly.com/library/view/sustainable-software-architecture/9781098123086/)
+ - [Anti-pattern — Wikipedia](https://en.wikipedia.org/wiki/Anti-pattern#Software_engineering_anti-patterns)
+ - [Improve Your Architecture with the Modularity Maturity Index — Software Architecture Metrics, O'Reilly](https://www.oreilly.com/library/view/software-architecture-metrics/9781098112226/ch04.html)

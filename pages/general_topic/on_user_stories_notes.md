@@ -7,24 +7,9 @@ tags:
 
 # Notes on user Stories
 
-<style>
-  .back-button {
-    background-color: #4CAF50; /* Green */
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-  }
-</style>
+[← Inicio](https://matiaspakua.github.io/tech.notes.io)
 
-<button class="back-button" onclick="window.location.href='https://matiaspakua.github.io/tech.notes.io'">All notes</button>
-
-# Introduction
+## Introduction
 
 ## What is a User Story?
 
@@ -44,8 +29,9 @@ User stories are a core practice in Agile methodologies, used to capture and des
 
 * **Independent:** Each user story should be independent of other stories, so that it can be developed and delivered in isolation.
 * **Negotiable:** User stories are not set in stone, and they can be negotiated between the product owner and the development team.
-* **Estimable:** Each user story should be small enough that it can be estimated in terms of effort.
 * **Valuable:** Each user story should deliver value to the end user.
+* **Estimable:** Each user story should be small enough that it can be estimated in terms of effort.
+* **Small:** Each user story should be small enough to be completed within a single sprint.
 * **Testable:** Each user story should be testable, so that you can know when it is complete.
 
 ## Examples of simple user stories (post-its)

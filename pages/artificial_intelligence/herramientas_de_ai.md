@@ -1,45 +1,52 @@
 ---
-title: "Gemini CLI"
+title: "Herramientas de AI"
 tags:
   - inteligencia-artificial
   - ai
   - notas
 ---
 
+[← Inicio](https://matiaspakua.github.io/tech.notes.io)
+
+# Herramientas de AI
+
 
 # Gemini CLI
 
-https://github.com/google-gemini/gemini-cli
+[Gemini CLI — Google Gemini, GitHub](https://github.com/google-gemini/gemini-cli)
 
 # OpenCode
 
-https://opencode.ai/
+[OpenCode — opencode.ai](https://opencode.ai/)
 
 # MCP - Model Context Protocol
 
-https://modelcontextprotocol.io/docs/getting-started/intro
+[Introduction — Model Context Protocol](https://modelcontextprotocol.io/docs/getting-started/intro)
 
 # Agents Skills
 
-https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview
-https://agentskills.io/home
+- [Agent Skills Overview — Anthropic](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview)
+- [Agent Skills Directory — agentskills.io](https://agentskills.io/home)
 
 
 # Agents Rules (spec)
-https://aicodingrules.org/
+
+[AI Coding Rules — aicodingrules.org](https://aicodingrules.org/)
 
 
 # Prompt Engineering
 
 few-shot
 
-Referencia: 
-https://en.wikipedia.org/wiki/Prompt_engineering
+Referencia:
+- [Prompt Engineering — Wikipedia](https://en.wikipedia.org/wiki/Prompt_engineering)
 
 
 # Connect OpenCode and Github
-https://www.youtube.com/watch?v=-Zr2gI8R-Sk
+
+[Connect OpenCode and GitHub — YouTube](https://www.youtube.com/watch?v=-Zr2gI8R-Sk)
 
 
-# gpt-tokenizer playground
-https://gpt-tokenizer.dev/
+# GPT Tokenizer Playground
+
+[GPT Tokenizer Playground — gpt-tokenizer.dev](https://gpt-tokenizer.dev/)

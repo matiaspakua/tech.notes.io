@@ -8,22 +8,7 @@ tags:
 
 ## Advance Your Spring Development Skills
 
-<style>
-  .back-button {
-    background-color: #4CAF50; /* Green */
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-  }
-</style>
-
-<button class="back-button" onclick="window.location.href='https://matiaspakua.github.io/tech.notes.io'">All notes</button>
+[← Inicio](https://matiaspakua.github.io/tech.notes.io)
 
 ---
 
@@ -39,7 +24,6 @@ This are the notes for the 6 courses Specialization PATH on Linkedin Learning.
 6. [Advanced Spring: Effective Integration Testing with Spring Boot](#06)
 
 ---
-<a name="01"></a>
 # Spring Cloud Load Balancing
 
 ## Introduction
@@ -74,11 +58,10 @@ Both load balancers are internal, meaning they serve traffic between internal in
 - **TCP Proxy Balancer**: Distributes TCP traffic from the external internet across regional or global instances. It proxies TCP traffic, meaning it creates two connections - one from the client to the load balancer, and another from the load balancer to the instance.
 - **SSL Proxy Load Balancer**: Similar to the TCP Proxy, but serves encrypted or secure SSL traffic instead.
 
- - **Documentation**: [Cloud Load Balancing overview  |  Google Cloud](https://cloud.google.com/load-balancing/docs/load-balancing-overview)
+ - **Documentation**: [Cloud Load Balancing overview — Google Cloud](https://cloud.google.com/load-balancing/docs/load-balancing-overview)
 
 
 
-<a name="02"></a>
 # Performance Tuning in Spring Apps
 
 ## Introduction
@@ -200,7 +183,7 @@ Spring Boot Actuator is a sub-project of the Spring Boot Framework. It brings pr
 
 In essence, the <mark style="background: #FFF3A3A6;">Spring Boot Actuator is used for monitoring our app</mark>, gathering metrics, and understanding traffic or the state of our database. It becomes trivial with this dependency.
 
- Spring Boot Actuator: Production-ready Features. https://docs.spring.io/spring-boot/docs/2.5.6/reference/html/actuator.html.
+ [Spring Boot Actuator: Production-ready Features — Spring Docs](https://docs.spring.io/spring-boot/docs/2.5.6/reference/html/actuator.html)
 
 ![](../../images/spring_actuators_endpoints.png)
 
@@ -356,8 +339,8 @@ Weaving is a crucial process in Aspect-Oriented Programming (AOP). It's the proc
 - **How the second-level cache works**: When fetching an entity, Hibernate first checks the first-level cache, which is bound to the current Thread. If the entity is not found there, Hibernate checks the second-level cache, which is enabled by configuration. If the entity is not found in the second-level cache either, Hibernate loads it from the database using an SQL query.
 - **How to scale the second-level cache**: The second-level cache can be scaled by using a distributed system, such as Redis, to store the cached data. This way, the cache size is not limited by the memory of a single node, and the cache is not cold when new application nodes are added.
 
-The JPA and Hibernate second-level cache - Vlad Mihalcea. https://vladmihalcea.com/jpa-hibernate-second-level-cache/.
-The JPA and Hibernate first-level cache - Vlad Mihalcea. https://vladmihalcea.com/jpa-hibernate-first-level-cache/.
+[The JPA and Hibernate second-level cache — Vlad Mihalcea](https://vladmihalcea.com/jpa-hibernate-second-level-cache/)
+[The JPA and Hibernate first-level cache — Vlad Mihalcea](https://vladmihalcea.com/jpa-hibernate-first-level-cache/)
 
 
 ### Metrics in prometheus
@@ -460,19 +443,15 @@ This recommendations are particularly useful for formal and semi-formal events s
 
 ---
 
-<a name="03"></a>
 # Spring Boot Observability: Deep Dive into Logging, Metrics, and Tracing
 
 ---
 
-<a name="04"></a>
 # Advanced Spring: Spring Boot Actuator
 
 ---
 
-<a name="05"></a>
 # Advanced Spring: Application Events
 
 
-<a name="06"></a>
 # Advanced Spring: Effective Integration Testing with Spring Boot

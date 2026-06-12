@@ -7,22 +7,7 @@ tags:
 
 # Agile and Scrum. The perks of know nothing
 
-<style>
-  .back-button {
-    background-color: #4CAF50; /* Green */
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-  }
-</style>
-
-<button class="back-button" onclick="window.location.href='https://matiaspakua.github.io/tech.notes.io'">All notes</button>
+[← Inicio](https://matiaspakua.github.io/tech.notes.io)
 
 
 ## Table of content
@@ -53,14 +38,12 @@ tags:
   - [The Perks of knowing nothing about Agile and Scrum. Conclusions](#the-perks-of-knowing-nothing-about-agile-and-scrum-conclusions)
   - [References](#references)
 
-<a name="the-problem"></a>
 ## The problem
 
 Begins with the classical problem of a company that starts a project/product. The company says that there is the need of rapid development and release of new versions of the product "X" with new features, less bugs, better performance, improve quality…and so forth.
 
 After a year or so, a new team was assembled and was assigned to continue the development of the product (here is where I started), so here we go, knowing nothing about Scrum and Agile.
 
-<a name="problem-breakdown-stages"></a>
 ## Problem breakdown stages
 
 The process we had walk through can be summarised in 4 big stages:
@@ -126,7 +109,6 @@ In the next 6 to 8 week after the stabilisation phase, starts a development flow
 
 5. **Increased adaptability**: Scrum's iterative and incremental approach allows teams to be more adaptable to changes in requirements, market conditions, or technology. By working in short sprints and delivering working software frequently, teams can quickly adjust their priorities and make changes as needed.
 
-<a name="agile-and-scrum"></a>
 ## Agile and SCRUM
 
 So far we talk about Agile Methodology and the SCRUM framework. So here is a brief description of each.
@@ -164,7 +146,6 @@ The Scrum framework emphasizes collaboration and communication among team member
 
 In this example, each row represents a task or user story and the columns represent the stages of progress, from "Open" to "WIP," "R2QA," and "Done." As the team works on each task, they move it to the appropriate column until it is complete.
 
-<a name="technical-excellence"></a>
 ## Technical Excellence
 
 ### What is technical excellence and the relation with agile
@@ -196,7 +177,6 @@ Cockburn has identified four pillars of technical excellence that are critical t
 
 Cockburn also emphasizes that Agile methodologies require a collaborative and iterative approach to development. He advocates for practices such as pair programming, continuous integration, and test-driven development (TDD) as key components of an Agile development process. These practices help ensure that the code is of high quality, reliable, and maintainable, which is critical for successful Agile development.
 
-<a name="challenges-when-trying-to-implement-an-agile-culture"></a>
 ## Challenges when trying to implement an AGILE culture
 
 1. **Resistance to change**: The biggest challenge is often the resistance to change. People may be comfortable with the status quo, or may not understand the benefits of agile practices.
@@ -213,7 +193,6 @@ Cockburn also emphasizes that Agile methodologies require a collaborative and it
 
 7. **Inadequate infrastructure**: Agile practices require modern tools and infrastructure to support rapid development and testing. Without them, it can be difficult to implement agile methodologies effectively.
 
-<a name="how-to-fix-a-bad-agile"></a>
 ## How to fix a bad agile
 
 ### Standar fixes
@@ -238,7 +217,6 @@ Cockburn also emphasizes that Agile methodologies require a collaborative and it
 7. **Ride CIO turnarounds**, avoid following the trending: “if company X is innovative, then I need do the same”. This is called the “Diffusion of innovations theory”, a real agile transformation requires understanding the current culture, people and social context. Only follow a trend is not a guarantee.
 8. **Ensure humans are not resources**: switch people in and out of a team is the worst practice. A team creates empathy, relation and a kind of safe space for the people. Another problem, increasing capacity does not increase productivity (again Brooks comes here with the mythical man-month). A person is not a resource, so change language. Keep teams small.
 
-<a name="constant-priority-changes-and-new-requirements"></a>
 ## Constant priority changes and new requirements
 
 If task priorities are constantly changing and the team has the ability to adapt quickly, a 1- or 2-week sprint may be more appropriate than a longer 4-week sprint. This would allow for more frequent check-ins and re-prioritization of tasks.
@@ -248,7 +226,6 @@ Another item to improve is the Backlog refinement. This is a technique in which 
 Last and always useful is the Kanban board: Kanban is a visual management tool that helps to visualize the workflow and track the progress of work. It can be used to manage the tasks within a sprint and to respond to changes in priority by moving tasks around on the board.
 
 
-<a name="better-agility"></a>
 ## Better Agility
 
 IMHO main aspect to implement to create a better agility in a team are the following: 
@@ -267,7 +244,6 @@ By **combining** these elements, teams can achieve better agility, allowing them
 
 The idea is not to sacrifice software engineering principles for the sake of agility, but rather to **incorporate agile practices in a way that reinforces good engineering practices**. This approach helps to create a balance between agility and engineering, allowing teams to be flexible and adaptive while also building software that is robust and sustainable over time.
 
-<a name="kanban-when-scrum-fails?"></a>
 ## Kanban when Scrum fails?
 
 While both Scrum and Kanban are Agile methodologies, they have different approaches and are suited for different types of projects and teams. Kanban is generally better suited for continuous delivery projects or support/maintenance teams, while Scrum is better suited for teams that work on product development with specific goals and deadlines.
@@ -276,7 +252,6 @@ If a Scrum sprint fails, it's important to analyze the reasons for the failure a
 
 Switching to Kanban may be a solution in some cases, but it's not a guaranteed fix for Scrum issues.
 
-<a name="the_perks_of_knowing_nothing_about_agile_and_scrum_conclusions"></a>
 ## The Perks of knowing nothing about Agile and Scrum. Conclusions
 
 While there are certainly some disadvantages to not knowing anything about Agile and Scrum, there are also some potential benefits, such as:
@@ -289,7 +264,6 @@ While there are certainly some disadvantages to not knowing anything about Agile
 
 Overall, while it is certainly helpful to have some knowledge and experience with Agile and Scrum, approaching a new project with an open mind and a willingness to learn can also have its advantages.
 
-<a name="references"></a>
 ## References
 
 - [Scrum: How to do twice as much in half the time, Jeff Sutherland, TEDxAix](https://youtu.be/s4thQcgLCqk)
@@ -300,4 +274,6 @@ Overall, while it is certainly helpful to have some knowledge and experience wit
 - [The Scrum Framework poster](https://www.scrum.org/resources/scrum-framework-poster)
 - [How to Fix bad Agile Course](https://www.linkedin.com/learning/how-to-fix-bad-agile)
 - [The role of the manager in modern agile projects, Alistair Cockburn](https://www.linkedin.com/posts/alistaircockburn_the-rold-of-the-manager-in-modern-agile-projects-activity-7033138672350744576-5oTc?utm_source=share&utm_medium=member_desktop)
-- ChatGPT, google, books, Wikipedia for validate information and cross references.
+- [Agile Manifesto — Beck, Cockburn, Fowler, Sutherland et al., 2001](https://agilemanifesto.org/)
+- [History of Scrum — Sutherland & Schwaber (co-creators, early 1990s; presented at OOPSLA '95)](https://scrumguides.org/ken.html)
+- ChatGPT, Google, books, Wikipedia for validate information and cross references.

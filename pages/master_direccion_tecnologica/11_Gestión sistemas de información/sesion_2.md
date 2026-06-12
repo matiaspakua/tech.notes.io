@@ -66,4 +66,3 @@ Es el CRM de los proveedores.
 Busca constantemente la conversiín. Que el cleinte vuelva, compre más y más. GEnerar más ventas.
 
 
-

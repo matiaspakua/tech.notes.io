@@ -8,22 +8,7 @@ tags:
 
 # Git, GitFlow and trunk based development.
 
-<style>
-  .back-button {
-    background-color: #4CAF50; /* Green */
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-  }
-</style>
-
-<button class="back-button" onclick="window.location.href='https://matiaspakua.github.io/tech.notes.io'">All notes</button>
+[← Inicio](https://matiaspakua.github.io/tech.notes.io)
 
 ![](../../images/git_gitflow_mindmap.png)
 
@@ -34,6 +19,9 @@ tags:
 Git is a [free and open source](https://git-scm.com/about/free-and-open-source) distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
 
 ## GitFlow
+
+> [!note]
+> GitFlow fue propuesto por Vincent Driessen en enero de 2010 en su blog nvie.com.
 
 The model introduces a set of procedures for a managed software development process. It uses a central “truth” repository, referred to as origin. Each developer pulls and pushes to origin. Besides the centralized push-pull relationships, each developer may also pull changes from other peers to form sub-teams.
 
@@ -59,6 +47,8 @@ The most important elements of the Git Flow approach are:
 
 ## Trunk-Based Development
 
+> [!note]
+> Paul Hammant es uno de los principales evangelizadores y documentadores de Trunk-Based Development. Creó el sitio trunkbaseddevelopment.com y ha documentado su experiencia en ThoughtWorks y Google. El modelo tiene raíces en los años 90, pero Hammant lo popularizó y sistematizó a partir de los 2000s.
 
 Trunk-based development has its roots in the early days of software development, when programmers didn't have the luxury of modern version control systems. They developed two versions of their software concurrently as a means of tracking changes and reversing them if necessary. Over time, this process proved to be labor-intensive, costly, and inefficient.
 
@@ -75,6 +65,6 @@ When CVS's limitations were determined to be unsurmountable, the Subversion proj
 ![Trunk Based Development](https://trunkbaseddevelopment.com/trunk1c.png)
 ## References
  
-* Git: [About - Git (git-scm.com)](https://git-scm.com/about)
-* Vinvent Driessen Original idea: https://nvie.com/posts/a-successful-git-branching-model/
-* Trunk-Based Development: [Introduction (trunkbaseddevelopment.com)](https://trunkbaseddevelopment.com/)
+* Git: [About — Git](https://git-scm.com/about)
+* [A successful Git branching model — Vincent Driessen, 2010](https://nvie.com/posts/a-successful-git-branching-model/)
+* [Trunk-Based Development — Paul Hammant](https://trunkbaseddevelopment.com/)

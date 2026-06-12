@@ -5,22 +5,7 @@ tags:
   - notas
 ---
 
-<style>
-  .back-button {
-    background-color: #4CAF50; /* Green */
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-  }
-</style>
-
-<button class="back-button" onclick="window.location.href='https://matiaspakua.github.io/tech.notes.io'">All notes</button>
+[← Inicio](https://matiaspakua.github.io/tech.notes.io)
 
 --- 
 # Introduction
@@ -60,7 +45,6 @@ This is a very complete, hand-on, medium level specialization based on cloud com
 4. [04: Cloud Machine Learning Engineering and MLOps](#04)
 
 --- 
-<a name="01"></a>
 # Course 01: Cloud Computing Foundations
 
 ## Technical discussions
@@ -355,7 +339,6 @@ resource "aws_instance" "example" {
 
 
 ---
-<a name="02"></a>
 # Course 02: Cloud Virtualisation, Containers and APIs
 
 ## Introduction
@@ -620,7 +603,6 @@ Reference: [Five whys - Wikipedia](https://en.wikipedia.org/wiki/Five_whys)
 
 
 ---
-<a name="03"></a>
 # Course 03: Cloud Data Engineering
 
 ## The Problem with Concurrency in Python
@@ -1111,7 +1093,6 @@ In summary, Amazon S3 provides various features to enhance your data resiliency 
 Official Web: [Amazon S3](http://aws.amazon.com/s3/)
 
 ---
-<a name="04"></a>
 # Course 04: Cloud Machine Learning Engineering and MLOps
  
 ## Machine Learning Architecture

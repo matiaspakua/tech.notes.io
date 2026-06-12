@@ -8,22 +8,7 @@ tags:
 
 # BDD with Cucumber for JAVA
 
-<style>
-  .back-button {
-    background-color: #4CAF50; /* Green */
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-  }
-</style>
-
-<button class="back-button" onclick="window.location.href='https://matiaspakua.github.io/tech.notes.io'">All notes</button>
+[← Inicio](https://matiaspakua.github.io/tech.notes.io)
 
 ## Table of content 
 
@@ -44,7 +29,7 @@ BDD involve do 3 thinks:
 
 The combination of this 3 thinks is "Living Documentation". We call it "Living Documentation" because the documentation automatically tells us when it goes out of sync with the behaviour of the application. That's what special about it.
 
-We start by collaboratively _**discovering**_ the scope of the behaviour required by the story. Once we have agreed on that behaviour, we **_formulate_** the specification in business-readable language. Finally, we **_automate_** the formulated specification to verify that the system actually behaves as expected.
+We start by collaboratively _**discovering**_ the scope of the behaviour required by the story. Once we have agreed on that behaviour, we **_formulate_** the specification in business-readable language. Finally, we **_automate_** the formulated specification to verify that the system actually behaves as expected.
 
 BDD need that an Agile Process is in place and BDD need to be done JUST IN TIME, in the last responsible moment. Is important that the work is broken down into User Stories and on each user story there are written the Acceptance Criteria.
 
@@ -65,7 +50,8 @@ More than three people might attend a three amigos meeting, because:
 - some stories are broad enough to require the input of more than three perspectives
 - more than one representative of each perspective may attend
 
-In every meeting new business rules or user scenario can be discovered. The whole purpose of the three amigos meeting is to **_discover_** things about the story that weren't previously obvious. We should expect to learn new things during a three amigos meeting.
+In every meeting new business rules or user scenario can be discovered. The whole purpose of the three amigos meeting is to **_discover_** things about the story that weren't previously obvious. We should expect to learn new things during a three amigos meeting.
+
 ## Reference
 
- * Official Cucumber Course: (https://school.cucumber.io/courses/take/bdd-with-cucumber-java)
+ - [BDD with Cucumber (Java) — Cucumber School](https://school.cucumber.io/courses/take/bdd-with-cucumber-java)

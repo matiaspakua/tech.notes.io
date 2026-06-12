@@ -82,7 +82,6 @@ Traducir las funcionales en Dinero (que es más fácil de evaluar y ver)
 ![[Pasted image 20250322100525.png]]
 
 
-
 ---
 
 

@@ -8,22 +8,7 @@ tags:
 
 # Emotional Intelligence
 
-<style>
-  .back-button {
-    background-color: #4CAF50; /* Green */
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-  }
-</style>
-
-<button class="back-button" onclick="window.location.href='https://matiaspakua.github.io/tech.notes.io'">All notes</button>
+[← Inicio](https://matiaspakua.github.io/tech.notes.io)
 
 ## Introduction
 
@@ -171,3 +156,14 @@ Take importance of <mark style="background: #FFF3A3A6;">being objective</mark> w
 - **Adaptability in Communication**: Being adaptable and flexible in communication is key. Instead of focusing on the exact message, concentrate on the intention and what you want the other person to take away from the interaction.
 - **Understanding Intentions**: If people understand your intentions, even if the execution isn’t perfect, they’re more likely to engage with you, leading to trust-building.
 - **Confidence and Authenticity**: Focusing on intent can boost your confidence and help you come across as natural and authentic. It also provides the freedom to make mistakes, as long as you can explain your intentions.
+
+---
+
+## Referencias
+
+> [!note]
+> El modelo de los **4 cuadrantes de la Inteligencia Emocional** (Self-Awareness, Self-Management, Social Awareness, Relationship Management) es parte del modelo de EQ popularizado por Daniel Goleman. El modelo ABCDE que se menciona en estas notas proviene del **Cognitive Behavioral Coaching** (CBC), derivado de la Rational Emotive Behavior Therapy (REBT) de Albert Ellis.
+
+- [Emotional Intelligence: Why It Can Matter More Than IQ — Daniel Goleman, 1995](https://www.goodreads.com/book/show/26329.Emotional_Intelligence) (ISBN: 978-0553383713)
+- [Daniel Goleman — Wikipedia](https://en.wikipedia.org/wiki/Daniel_Goleman)
+- [Emotional Intelligence — Wikipedia](https://en.wikipedia.org/wiki/Emotional_intelligence)

@@ -1,11 +1,14 @@
 ---
-title: "Referencias"
+title: "Conceptos Generales de Inteligencia Artificial"
 tags:
   - inteligencia-artificial
   - ai
   - notas
 ---
 
+[← Inicio](https://matiaspakua.github.io/tech.notes.io)
+
+# Conceptos Generales de Inteligencia Artificial
 
 ## Machine learning
 
@@ -24,8 +27,8 @@ Dentro del campo de ML se han desarrollado 2 ramas complementarias, una en el ca
 
 
 Referencias:
-https://en.wikipedia.org/wiki/Generalization
-https://en.wikipedia.org/wiki/Machine_learning
+- [Generalization — Wikipedia](https://en.wikipedia.org/wiki/Generalization)
+- [Machine Learning — Wikipedia](https://en.wikipedia.org/wiki/Machine_learning)
 
 ## Deep Learning
 
@@ -58,11 +61,11 @@ Existen múltiples usos para este tipos de redes de deep learning, basando en el
 
 ![](deep_learning.png)
 
-Referencia:
-https://en.wikipedia.org/wiki/Deep_learning
-https://en.wikipedia.org/wiki/Regression_analysis
-https://en.wikipedia.org/wiki/Feature_learning
-https://en.wikipedia.org/wiki/Tensor_(machine_learning)
+Referencias:
+- [Deep Learning — Wikipedia](https://en.wikipedia.org/wiki/Deep_learning)
+- [Regression Analysis — Wikipedia](https://en.wikipedia.org/wiki/Regression_analysis)
+- [Feature Learning — Wikipedia](https://en.wikipedia.org/wiki/Feature_learning)
+- [Tensor (machine learning) — Wikipedia](https://en.wikipedia.org/wiki/Tensor_(machine_learning))
 
 ## Neural Network
 
@@ -79,20 +82,20 @@ Lo nodos tienen lo que denominan "edges" (bordes), que emulan las sinapsis o con
 ![](Colored_neural_network.jpeg)
 
 Referencias:
-https://en.wikipedia.org/wiki/Neural_network_(machine_learning)
-https://en.wikipedia.org/wiki/Nonlinear_system
+- [Neural Network (machine learning) — Wikipedia](https://en.wikipedia.org/wiki/Neural_network_(machine_learning))
+- [Nonlinear System — Wikipedia](https://en.wikipedia.org/wiki/Nonlinear_system)
 
 
-## NPL. Natural Processing language
+## NLP - Natural Language Processing
 
-Se trata de una técnica (y campo de estudio por si mismo), donde se intenta procesar el lenguaje natural humano a través de una computación. Es como enseñar a una máquina a leer, escribir y hablar como un humano. 
+Se trata de una técnica (y campo de estudio por si mismo), donde se intenta procesar el lenguaje natural humano a través de una computación. Es como enseñar a una máquina a leer, escribir y hablar como un humano.
 
-NPL se basa en una combinación de modelo basado en reglas, computación linguistica, estadistica, machine learning y deep learning.
+NLP se basa en una combinación de modelo basado en reglas, computación lingüística, estadística, machine learning y deep learning.
 
 
 
 Referencia:
-https://en.wikipedia.org/wiki/Natural_language_processing
+- [Natural Language Processing — Wikipedia](https://en.wikipedia.org/wiki/Natural_language_processing)
 
 
 ## Uniendo conceptos
@@ -112,7 +115,7 @@ Gracias a los estudios en AI, y muy asociado a la teoría detrás, aparecen otra
 
 
 Referencia:
-https://en.wikipedia.org/wiki/Arithmetic_coding
+- [Arithmetic Coding — Wikipedia](https://en.wikipedia.org/wiki/Arithmetic_coding)
 
 
 ## Aprendisaje Supervisado: clasificación
@@ -123,7 +126,7 @@ https://en.wikipedia.org/wiki/Arithmetic_coding
  - **Parámetros**: las variables del modelo.
 
 Referencia:
-https://scikit-learn.org/stable/supervised_learning.html
+- [Supervised Learning — scikit-learn](https://scikit-learn.org/stable/supervised_learning.html)
 
 ## SVM - Support Vector Machines
 
@@ -132,27 +135,30 @@ El objetivo del algoritmo es encontrar una linea recta (cuando trabajamos en 2 d
  
 ![](ml_clasificacion_svm.png)
 
-Ref: https://colab.research.google.com/drive/1Yj3AS0b2uZx0y2LRk_ca_3GiDdAkG7cV#scrollTo=6hjecJGt1fZL&line=68&uniqifier=1
+Ref: [SVM Colab Notebook — Google Colab](https://colab.research.google.com/drive/1Yj3AS0b2uZx0y2LRk_ca_3GiDdAkG7cV#scrollTo=6hjecJGt1fZL&line=68&uniqifier=1)
 
 
 
 
-## LLM - Large language Model
+## LLM - Large Language Model
 
-Se trata de un modelo de AI entrenado con millones de parametros de datos masivo. La función principal es predecir el siguiente TOKEN (palabra o frase o secuencia de caracteres), permitiendo generar texto coherente en base a una pregunta.
+Se trata de un modelo de AI entrenado con miles de millones de parámetros sobre enormes corpus de datos. La función principal es predecir el siguiente TOKEN (palabra o frase o secuencia de caracteres), permitiendo generar texto coherente en base a una pregunta.
+
+> [!note]
+> Los LLMs modernos tienen parámetros que van desde millones hasta billones. Ejemplos clave: GPT (OpenAI, 2018), BERT (Google, 2018), GPT-2 (2019), GPT-3 (2020), ChatGPT (2022), GPT-4 (2023), Claude (Anthropic, 2023+), LLaMA (Meta, 2023+).
 
 ## GenAI - AI generativa
 
 
 
 Referencia:
-https://es.wikipedia.org/wiki/Inteligencia_artificial_generativa
+- [Inteligencia Artificial Generativa — Wikipedia](https://es.wikipedia.org/wiki/Inteligencia_artificial_generativa)
 
 ## AI multimodal
 
 
 Referencia:
-https://es.wikipedia.org/wiki/Inteligencia_artificial_multimodal
+- [Inteligencia Artificial Multimodal — Wikipedia](https://es.wikipedia.org/wiki/Inteligencia_artificial_multimodal)
 
 Token
 
@@ -162,8 +168,8 @@ Tokenización
 
 ## Embeddings
 
-Referencias: 
-https://dev.to/aws-builders/from-coffee-products-to-ai-search-building-a-serverless-semantic-search-architecture-with-amazon-5g5b
+Referencias:
+- [From Coffee Products to AI Search: Building a Serverless Semantic Search Architecture with Amazon — AWS Builders, dev.to](https://dev.to/aws-builders/from-coffee-products-to-ai-search-building-a-serverless-semantic-search-architecture-with-amazon-5g5b)
 
 Vector database
 
@@ -180,12 +186,12 @@ RAG (retrieval-augmented generation)
 RLHF
 
 Referencia:
-https://es.wikipedia.org/wiki/Aprendizaje_por_refuerzo_a_partir_de_retroalimentaci%C3%B3n_humana
+- [Aprendizaje por refuerzo a partir de retroalimentación humana (RLHF) — Wikipedia](https://es.wikipedia.org/wiki/Aprendizaje_por_refuerzo_a_partir_de_retroalimentaci%C3%B3n_humana)
 
 
 Hallucinations
 
-MPC (Model context Protocol)
+MCP (Model Context Protocol)
 
 AI Agents
 
@@ -195,5 +201,5 @@ Agentes de CLI
 
 # Referencias
 
-https://dev.to/bladepipe/genai-core-concepts-explained-rag-function-calling-mcp-ai-agent-2bmc
-https://cme295.stanford.edu/syllabus/
+- [GenAI Core Concepts Explained: RAG, Function Calling, MCP, AI Agent — BladePipe, dev.to](https://dev.to/bladepipe/genai-core-concepts-explained-rag-function-calling-mcp-ai-agent-2bmc)
+- [CME 295: AI for Engineers — Stanford University](https://cme295.stanford.edu/syllabus/)

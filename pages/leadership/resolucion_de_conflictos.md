@@ -8,25 +8,11 @@ tags:
 
 # Curso Negociación y resolución de conflictos
 
-<style>
-  .back-button {
-    background-color: #4CAF50; /* Green */
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-  }
-</style>
+[← Inicio](https://matiaspakua.github.io/tech.notes.io)
 
-<button class="back-button" onclick="window.location.href='https://matiaspakua.github.io/tech.notes.io'">All notes</button>
 ---
 
-<a name="01"></a>
+
 # Introducción
 
 **Que es un conflicto**? En términos generales, un conflicto es una situación en la cual dos o más personas con intereses distintos entran en confrontación, oposición o emprenden acciones mutuamente antagonistas, con el objetivo de dañar, eliminar a la parte rival o arrebatarle poder de algún tipo en favor de la propia persona o grupo.
@@ -88,7 +74,7 @@ De estos aspectos se desprenden 5 tipos de comportamientos:
 2. Conflicto Personal o Estructural: Generalmente causado a partir del conflicto subyacente. Se manifiesta con las relaciones entre las personas, las habilidades sociales y de comunicación.
 3. Conflicto estructural. Asociado a los roles, las normas, malas relaciones de poder generalmente explican muchas de las tensiones.
 
-<a name="02"></a>
+
 # Resolución de conflictos
 
 ![](../../images/conflictos_y_relaciones.svg)
@@ -169,7 +155,7 @@ Se recurre a una persona/entidad tercerizada, que actuará de mediador objetivo.
  2. Especialización (del mediador / arbitro)
  3. Confidencialidad.
 
-<a name="03"></a>
+
 # El proceso de mediación
 
 La mediación es un mecanismo que ya se comenzó a utilizar en China, Japón y Africa. Actualmente la "mediación" como concepto se aplica al mundo empresarial y judicial principalmente. Esta forma de aplicar la mediación comenzó en los años 60 en EEUU y luego en los años 70 en Europa.

@@ -7,22 +7,10 @@ tags:
 
 # Tech Trends (2023 so far and 2024)
 
-<style>
-  .back-button {
-    background-color: #4CAF50; /* Green */
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-  }
-</style>
+[← Inicio](https://matiaspakua.github.io/tech.notes.io)
 
-<button class="back-button" onclick="window.location.href='https://matiaspakua.github.io/tech.notes.io'">All notes</button>
+> [!note]
+> Este documento refleja las tendencias tecnológicas de 2023. Algunos puntos han evolucionado significativamente desde entonces.
 
 ---
 # Table of Contents
@@ -314,7 +302,7 @@ Reference: [What is Prompt Engineering?](https://promptengineering.org/what-is-p
 ![](../../images/chips_vendors_by_country.png)
 
 1. **Global Shipping Disruptions**: Aftermath of the COVID-19 pandemic led to unbalanced global shipping, impacting the movement of products, including chips, from manufacturers to customers.
-2. **Geographic Concentration of Chip Factories**: Most of the world's high-capacity chip factories are located in Europe, the Middle East, and Southeast Asia, leading to supply chain vulnerabilities.
+2. **Geographic Concentration of Chip Factories**: Most of the world's high-capacity chip factories are located in East Asia (Taiwan, South Korea, Japan) and the United States, leading to supply chain vulnerabilities.
 3. **Efforts to Increase Manufacturing Diversity**: There's an effort to open new chip fabs in the U.S. and elsewhere to increase geographic diversity of manufacturing, but it will take time due to the complexity of fab technology and processes.
 4. **Timing and Size of Orders**: Car manufacturers canceled chip orders early in the pandemic due to low demand, leading to disruptions when demand later increased, and orders had to be placed after other competitors.
 5. **Finite Capacity of Chip Fabs**: Fabs have a limited capacity to produce chips, leading to delays as everyone competes for production slots.
@@ -328,5 +316,5 @@ Reference: [What is Prompt Engineering?](https://promptengineering.org/what-is-p
 13. **Continued Delays in Production**: Until the supply chain issues are resolved, delays in the production of various products, from laptops to cars, will persist.
 
 References:
- * https://www.reuters.com/technology/global-manufacturers-see-chip-shortage-easing-2022-07-21/
- * https://www.datapandas.org/ranking/semiconductor-manufacturing-by-country
+- [Global manufacturers see chip shortage easing — Reuters, 2022](https://www.reuters.com/technology/global-manufacturers-see-chip-shortage-easing-2022-07-21/)
+- [Semiconductor Manufacturing by Country — DataPandas](https://www.datapandas.org/ranking/semiconductor-manufacturing-by-country)

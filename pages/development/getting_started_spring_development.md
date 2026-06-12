@@ -8,22 +8,7 @@ tags:
 
 ## Getting Started In Spring Development
 
-<style>
-  .back-button {
-    background-color: #4CAF50; /* Green */
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-  }
-</style>
-
-<button class="back-button" onclick="window.location.href='https://matiaspakua.github.io/tech.notes.io'">All notes</button>
+[← Inicio](https://matiaspakua.github.io/tech.notes.io)
 
 This are the notes for the 6 courses Specialization PATH on Linkedin Learning.
 
@@ -38,7 +23,6 @@ This are the notes for the 6 courses Specialization PATH on Linkedin Learning.
 7. [Example project: Card Cash Application Spring training](#07)
 
 ---
-<a name="01"></a>
 # 01. Learning Spring with Spring Boot
 
 The Spring framework is built and designed such that it provides <mark style="background: #FFF3A3A6;">comprehensive support</mark> for developing applications for the JVM, including abstractions for some of the most powerful and common enterprise systems integrations, specifically around common infrastructure. 
@@ -136,7 +120,6 @@ For testing purposes you can use embedded database such as H2 o if you are in pr
 * Writing RESTful web services using Spring and Spring Boot is very straightforward.
 
 ---
-<a name="02"></a>
 # 02. Creating your First Spring Boot Microservice
 
 - Setting up the project
@@ -152,7 +135,6 @@ For testing purposes you can use embedded database such as H2 o if you are in pr
 - Migrating microservices to a MongoDB repository
 
 ---
-<a name="03"></a>
 # 03. Extending, Securing and Dockerizing Spring Boot Microservices
 
 * Enhancing a Spring Boot microservice
@@ -162,7 +144,6 @@ For testing purposes you can use embedded database such as H2 o if you are in pr
 * Dockerizing your microservice
 
 ---
-<a name="04"></a>
 # 04. Spring DATA
 
 ### Repository Code
@@ -640,7 +621,6 @@ Documentation: [Spring | Reactive](https://spring.io/reactive)
 
 ---
 
-<a name="05"></a>
 # 05. Spring Security
 
 ![](../../images/spring_security.svg)
@@ -800,7 +780,6 @@ WebFlux Security is an extension of the Spring Security framework specifically d
 
 
 ---
-<a name="06"></a>
 # 06. Building Full-Stack Apps with React and Spring
 
 ## Introduction
@@ -867,7 +846,6 @@ Materialize: [Documentation - Materialize (materializecss.com)](https://material
 Adding components to the "client" side is straightforward, just select the component that you need, copy the code and customise as you need.
 
 
-<a name="07"></a>
 # 07 Example project: Card Cash Application Spring training
 
 [https://github.com/matiaspakua/cashCardSpringBoot](https://github.com/matiaspakua/cashCardSpringBoot)

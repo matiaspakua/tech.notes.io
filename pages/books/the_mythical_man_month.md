@@ -7,24 +7,17 @@ tags:
 
 # The Mythical Man-Month
 
-<style>
-  .back-button {
-    background-color: #4CAF50; /* Green */
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-  }
-</style>
-
-<button class="back-button" onclick="window.location.href='https://matiaspakua.github.io/tech.notes.io'">All notes</button>
+[← Inicio](https://matiaspakua.github.io/tech.notes.io)
 
 ---
+
+> [!note]
+> **"The Mythical Man-Month: Essays on Software Engineering"** por Frederick P. Brooks Jr.
+> Primera edición: 1975. Edición aniversario (20 años) con capítulos adicionales: 1995.
+> ISBN (edición aniversario): 978-0201835953
+>
+> **Brooks's Law**: "Adding manpower to a late software project makes it later."
+
 # Mythical Man Month. By Fred Brooks.
 
 ## Chapter One. The tar pit.
@@ -47,3 +40,11 @@ tags:
 5.	Of course, they technological base on which one builds is always advancing as soon as one freeze design is become obsolete in terms of its concepts.
 
 ## Chapter 2. The mythical Man Month.
+
+---
+
+## References
+
+- [The Mythical Man-Month — Frederick P. Brooks Jr., 1975 (anniversary ed. 1995)](https://www.amazon.com/Mythical-Man-Month-Software-Engineering-Anniversary/dp/0201835959) (ISBN: 978-0201835953)
+- [Brooks's Law — Wikipedia](https://en.wikipedia.org/wiki/Brooks%27s_law)
+- [Frederick P. Brooks Jr. — Wikipedia](https://en.wikipedia.org/wiki/Fred_Brooks)

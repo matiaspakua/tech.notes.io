@@ -8,22 +8,7 @@ tags:
 
 # De developer a líder: notas y libros sugeridos
 
-<style>
-  .back-button {
-    background-color: #4CAF50; /* Green */
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-  }
-</style>
-
-<button class="back-button" onclick="window.location.href='https://matiaspakua.github.io/tech.notes.io'">All notes</button>
+[← Inicio](https://matiaspakua.github.io/tech.notes.io)
 
 Estas son algunas notas de una Masterclass en la que participé recientemente. En esta reunión, el orador comparte algunos aspectos clave a tener en cuenta cuando un Desarrollador Senior es promovido (o pretende construir un camino hacia un rol de gestión de ingeniería) a un rol gerencial.
 
@@ -53,7 +38,7 @@ Adaptar tu agenda diaria anterior/actual implica un cambio en tus responsabilida
 
 3. **Pensamiento estratégico:** Tu agenda debe incluir tiempo para el pensamiento estratégico. Esto podría implicar establecer objetivos a largo plazo, seleccionar tecnología y alinear el trabajo del equipo con los objetivos de la organización. "<mark style="background: #BBFABBA6;">Good Strategy Bad Strategy" de Richard Rumelt</mark> es una lectura obligada para el pensamiento estratégico.
 
-4. **Comunicación:** La comunicación eficaz se convierte en una parte fundamental de tu función. Deberás comunicarse con las partes interesadas, los superiores y su equipo. El libro <mark style="background: #FFF3A3A6;">"Crucial Conversations" de Kerry Patterson</mark> ofrece información valiosa sobre la comunicación eficaz.
+4. **Comunicación:** La comunicación eficaz se convierte en una parte fundamental de tu función. Deberás comunicarse con las partes interesadas, los superiores y su equipo. El libro <mark style="background: #FFF3A3A6;">"Crucial Conversations" de Kerry Patterson, Joseph Grenny, Ron McMillan y Al Switzler (2002)</mark> ofrece información valiosa sobre la comunicación eficaz.
 
 5. **Gestión del tiempo:** A medida que asumís más responsabilidades, la gestión eficaz del tiempo es crucial. Es posible que desee leer <mark style="background: #ADCCFFA6;">"Getting Things Done" de David Allen</mark> para obtener técnicas prácticas.
 
@@ -143,4 +128,16 @@ Un proceso de incorporación bien estructurado puede facilitar significativament
 
 20. **Ciclo de retroalimentación:** Crear un ciclo de retroalimentación para mejorar continuamente tu liderazgo y el desempeño de tu equipo.
 
+---
 
+## Referencias
+
+- [Leaders Eat Last — Simon Sinek, 2014](https://www.goodreads.com/book/show/16144853-leaders-eat-last) (ISBN: 978-1591845324)
+- [Crucial Conversations: Tools for Talking When Stakes Are High — Kerry Patterson, Joseph Grenny, Ron McMillan, Al Switzler, 2002](https://www.goodreads.com/book/show/15014.Crucial_Conversations) (ISBN: 978-0071401946)
+- [Getting Things Done: The Art of Stress-Free Productivity — David Allen, 2001](https://www.goodreads.com/book/show/1633.Getting_Things_Done) (ISBN: 978-0142000281)
+- [Scrum: The Art of Doing Twice the Work in Half the Time — Jeff Sutherland, 2014](https://www.goodreads.com/book/show/19288230-scrum) (ISBN: 978-0385346450)
+- [Good Strategy Bad Strategy — Richard Rumelt, 2011](https://www.goodreads.com/book/show/11721966-good-strategy-bad-strategy) (ISBN: 978-0307886231)
+- [Drive: The Surprising Truth About What Motivates Us — Daniel H. Pink, 2009](https://www.goodreads.com/book/show/6452796-drive) (ISBN: 978-1594484803)
+- [Difficult Conversations — Douglas Stone, Bruce Patton, Sheila Heen, 1999](https://www.goodreads.com/book/show/774088.Difficult_Conversations) (ISBN: 978-0143118442)
+- [Measure What Matters — John Doerr, 2018](https://www.goodreads.com/book/show/39286958-measure-what-matters) (ISBN: 978-0525536222)
+- [The Culture Code — Daniel Coyle, 2018](https://www.goodreads.com/book/show/33517721-the-culture-code) (ISBN: 978-0804176989)

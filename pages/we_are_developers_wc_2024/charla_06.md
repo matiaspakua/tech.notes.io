@@ -123,7 +123,6 @@ Ref. https://en.wikipedia.org/wiki/Event-driven_architecture
  - Ejemplo de un banco y transacciones.
 
 
-
 ---
 ### Armar ambiente dev
 

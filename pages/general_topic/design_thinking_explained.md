@@ -7,22 +7,7 @@ tags:
 
 # Design Thinking Explained
 
-<style>
-  .back-button {
-    background-color: #4CAF50; /* Green */
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-  }
-</style>
-
-<button class="back-button" onclick="window.location.href='https://matiaspakua.github.io/tech.notes.io'">All notes</button>
+[← Inicio](https://matiaspakua.github.io/tech.notes.io)
 
 The article explains what design thinking is, how it works, and why it matters. It covers the following points:
 
@@ -38,7 +23,7 @@ The article explains what design thinking is, how it works, and why it matters. 
 - Design thinking can help executives across industries rethink their product offerings, grow their markets, offer greater value to customers, or innovate and stay relevant.
 
 ![Design Thinking](../../images/desgin-thinking.png)
-## Example: global plattfom
+## Example: global platform
 
 Applying Design Thinking to standardize various software platforms into a global one involves a structured and iterative approach to problem-solving. Here's a step-by-step example:
 
@@ -126,4 +111,4 @@ Applying Design Thinking to standardize various software platforms into a global
 - **Communication:** Maintain transparent communication to keep stakeholders informed about the progress and benefits.
 ## Reference
 
- * [Design thinking, explained MIT Sloan](http://mitsloan.mit.edu/ideas-made-to-matter/design-thinking-explained?utm_source=mitsloanlinkedin&utm_medium=social&utm_campaign=designthinkingexplainer)
+- [Design Thinking, Explained — MIT Sloan Management Review](https://mitsloan.mit.edu/ideas-made-to-matter/design-thinking-explained)

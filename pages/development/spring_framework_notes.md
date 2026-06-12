@@ -6,3 +6,5 @@ tags:
   - notas
 ---
 
+[← Inicio](https://matiaspakua.github.io/tech.notes.io)
+

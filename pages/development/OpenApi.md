@@ -8,6 +8,11 @@ tags:
 
 # OpenApi foundations
 
+[← Inicio](https://matiaspakua.github.io/tech.notes.io)
+
+> [!note]
+> OpenAPI Specification (OAS) es el nombre oficial desde 2016, cuando Swagger Specification fue donado a la OpenAPI Initiative (Linux Foundation). La versión actual es OpenAPI 3.1.0 (febrero 2021). El nombre "Swagger" ahora refiere al ecosistema de herramientas, no a la especificación.
+
 Definición: es un lenguaje de descripción de API
 
 ## API Economy
@@ -50,7 +55,7 @@ Es una forma de comunicar, estandarizar y poner un estructura en común para la 
 
 Una de las forma más estándar de describir los datos es usar el forma de JSON.
 
-Swagger es parte de OpenAPI es el método más común para documentar y describir API's.
+OpenAPI Specification (antes llamada Swagger Specification) es el método más común para documentar y describir APIs. Las herramientas Swagger (Swagger UI, Swagger Editor, etc.) forman el ecosistema de soporte.
 
 ## Descripción general de OpenAPI
 
@@ -58,7 +63,7 @@ OpenAPI es un lenguaje que permite la transferencia de conocimiento de los prove
 
 ## El Rol de HTTP
 
-[Fielding Dissertation: CHAPTER 5: Representational State Transfer (REST)](https://ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm)
+[Architectural Styles and the Design of Network-based Software Architectures — Roy T. Fielding, 2000 (Chapter 5: REST)](https://ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm)
 
 Open API está soportado por el protocolo HTTP que es el más extendido en Internet, además del lenguaje JSON para definir el formato del contenido.
 
@@ -76,7 +81,7 @@ Open API está soportado por el protocolo HTTP que es el más extendido en Inter
 
 ### HTTP Status Codes Convention 
 
-[RFC 7231 - Hypertext Transfer Protocol (HTTP/1.1): Semantics and Content](https://datatracker.ietf.org/doc/html/rfc7231#section-6)
+[RFC 7231 — HTTP/1.1: Semantics and Content (IETF)](https://datatracker.ietf.org/doc/html/rfc7231#section-6)
 
    o  1xx (Informational): The request was received, continuing process
    o  2xx (Successful): The request was successfully received, understood, and accepted

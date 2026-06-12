@@ -8,27 +8,15 @@ tags:
 
 # On Hexagonal Architecture notes
 
-<style>
-  .back-button {
-    background-color: #4CAF50; /* Green */
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-  }
-</style>
-
-<button class="back-button" onclick="window.location.href='https://matiaspakua.github.io/tech.notes.io'">All notes</button>
+[← Inicio](https://matiaspakua.github.io/tech.notes.io)
 
 1. [Introduction](#introduction)
 1. [References](#references)
 
 ## Introduction
+
+> [!note]
+> Hexagonal Architecture was coined by **Alistair Cockburn** in his original article published on September 4, 2005 (HaT Technical Report 2005.02). He also named it "Ports and Adapters".
 
 Hexagonal Architecture, also known as<mark style="background: #FFF3A3A6;"> Ports and Adapters</mark> pattern, is a design pattern used in software application development. It aims to create loosely coupled application components that can be easily connected to their software environment by means of ports and adapters. This makes the system easy to maintain, adaptable for future changes and independent of any external agency.
 
@@ -91,6 +79,7 @@ The key idea behind Hexagonal Architecture is to isolate the core logic of your 
 
 ## References
 
- - [The original article](https://alistair.cockburn.us/hexagonal-architecture/)
- - [Hexagonal Architecture - Ports and Adapters](https://journal.optivem.com/p/hexagonal-architecture-ports-and-adapters)
- - [Webinar recap 🎥 Understanding Hexagonal Architecture: Ports and Adapters](https://shiftsync.tricentis.com/development-methodologies-47/webinar-recap-understanding-hexagonal-architecture-ports-and-adapters-513)
+ - [Hexagonal Architecture — Alistair Cockburn, 2005 (original article)](https://alistair.cockburn.us/hexagonal-architecture/)
+ - [Hexagonal Architecture — Wikipedia](https://en.wikipedia.org/wiki/Hexagonal_architecture_(software))
+ - [Hexagonal Architecture: Ports and Adapters — Optivem Journal](https://journal.optivem.com/p/hexagonal-architecture-ports-and-adapters)
+ - [Understanding Hexagonal Architecture: Ports and Adapters — Tricentis Webinar Recap](https://shiftsync.tricentis.com/development-methodologies-47/webinar-recap-understanding-hexagonal-architecture-ports-and-adapters-513)

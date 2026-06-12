@@ -33,4 +33,3 @@ Escribir las user stories, especificando con datos que puedan ser validados a tr
 5. NFR demandan demasiado tiempo, considerar que testear y como (priorizar)
 
 
-

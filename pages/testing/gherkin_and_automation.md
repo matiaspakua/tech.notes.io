@@ -8,22 +8,7 @@ tags:
 
 # Gherkin and Automation
 
-<style>
-  .back-button {
-    background-color: #4CAF50; /* Green */
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-  }
-</style>
-
-<button class="back-button" onclick="window.location.href='https://matiaspakua.github.io/tech.notes.io'">All notes</button>
+[← Inicio](https://matiaspakua.github.io/tech.notes.io)
 
 ## Table of Content
 
@@ -42,7 +27,6 @@ Gherkin was originated as part of the Cucumber framework, which was initially cr
 
 ## References
 
- - [SpecFlow](https://specflow.org/)
- - [Cucumber](https://cucumber.io/)
- - [Gherkin Specification](https://cucumber.io/docs/gherkin/)
-  
+ - [SpecFlow — Official Site](https://specflow.org/)
+ - [Cucumber — Official Site](https://cucumber.io/)
+ - [Gherkin Specification — Cucumber Docs](https://cucumber.io/docs/gherkin/)

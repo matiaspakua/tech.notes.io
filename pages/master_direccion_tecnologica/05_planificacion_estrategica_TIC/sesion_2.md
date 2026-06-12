@@ -19,7 +19,6 @@ tags:
 • Competencias y habilidades clave 
 
 
-
 ## Consultora de Sostenibilidad
 
 Misión: Volver al mundo más verde!

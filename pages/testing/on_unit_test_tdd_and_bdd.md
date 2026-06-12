@@ -8,26 +8,9 @@ tags:
 
 # On Unit Test, TDD and BDD
 
-<style>
-  .back-button {
-    background-color: #4CAF50; /* Green */
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-  }
-</style>
-
-<button class="back-button" onclick="window.location.href='https://matiaspakua.github.io/tech.notes.io'">All notes</button>
+[← Inicio](https://matiaspakua.github.io/tech.notes.io)
 
 ## Table of content
-
-
 
 ## TDD vs BDD
 
@@ -67,9 +50,10 @@ Highlights:
  - BDD can increase the determinism and control of the system
 
 ## References
-- [10 Pines videos](https://academia.10pines.com/webinars_and_videos)
-- [10 pines Diseño a la Gorra](https://academia.10pines.com/disenio_a_la_gorra)
-- [TDD Cycle Wikipedia](https://en.wikipedia.org/wiki/Test-driven_development)
-- Martin Fowler - TDD: https://martinfowler.com/bliki/TestDrivenDevelopment.html
-Robert C. Martin - Cycles of TDD: http://blog.cleancoder.com/uncle-bob/2014/12/17/TheCyclesOfTDD.html
-Robert C. Martin - ¿Por qué hacer TDD?: https://www.youtube.com/watch?v=GvAzrC6-spQ
+
+- [10 Pines videos — Academia 10 Pines](https://academia.10pines.com/webinars_and_videos)
+- [10 Pines Diseño a la Gorra — Academia 10 Pines](https://academia.10pines.com/disenio_a_la_gorra)
+- [Test-Driven Development — Wikipedia](https://en.wikipedia.org/wiki/Test-driven_development)
+- [TestDrivenDevelopment — Martin Fowler](https://martinfowler.com/bliki/TestDrivenDevelopment.html)
+- [The Cycles of TDD — Robert C. Martin](http://blog.cleancoder.com/uncle-bob/2014/12/17/TheCyclesOfTDD.html)
+- [¿Por qué hacer TDD? — Robert C. Martin (YouTube)](https://www.youtube.com/watch?v=GvAzrC6-spQ)

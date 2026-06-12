@@ -7,22 +7,7 @@ tags:
 
 # Waterfall. The misunderstood concept in software engineering
 
-<style>
-  .back-button {
-    background-color: #4CAF50; /* Green */
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-  }
-</style>
-
-<button class="back-button" onclick="window.location.href='https://matiaspakua.github.io/tech.notes.io'">All notes</button>
+[← Inicio](https://matiaspakua.github.io/tech.notes.io)
 
 ## Table of content 
 - [Waterfall. The misunderstood concept in software engineering](#18-waterfall-the-misunderstood-concept-in-software-engineering)
@@ -65,4 +50,5 @@ This article is about managing the development of large software systems. The au
 
 ## References
 
-[Original paper](https://dl.acm.org/doi/pdf/10.5555/41765.41801)
+- [Managing the Development of Large Software Systems — Winston W. Royce, IEEE WESCON, 1970](https://dl.acm.org/doi/pdf/10.5555/41765.41801)
+- [Winston W. Royce — Wikipedia](https://en.wikipedia.org/wiki/Winston_W._Royce)

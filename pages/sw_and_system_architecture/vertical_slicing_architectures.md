@@ -8,28 +8,17 @@ tags:
 
 # Software Architecture. Vertical Slicing Architectures
 
-<style>
-  .back-button {
-    background-color: #4CAF50; /* Green */
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-  }
-</style>
-
-<button class="back-button" onclick="window.location.href='https://matiaspakua.github.io/tech.notes.io'">All notes</button>
+[← Inicio](https://matiaspakua.github.io/tech.notes.io)
 
 1. [Introduction](#introduction)
 1. [Implementation considerations](#implementation-considerations)
 1. [References](#references)
 
 ## Introduction
+
+> [!note]
+> The term "Vertical Slice Architecture" was popularized by **Jimmy Bogard** (creator of AutoMapper) in a 2018 blog post and NDC conference talk.
+
 ![](../../images/vertical_slicing.jpg)
 
 - **Vertical slicing**: A technique to group the code by use cases or business capabilities, instead of technical layers. It allows more freedom and independence for each slice, and reduces coupling and complexity. It can be combined with concentric architectures such as onion or hexagonal.
@@ -48,4 +37,5 @@ tags:
 - **How to deal with cyclic dependencies**: The author suggests to **reconsider the reasons** for having cyclic dependencies and to **explore alternatives** such as extracting common modules, using events, applying dependency inversion, creating a facade API, or merging the modules back. For example, if the `Order` module depends on the `Customer` module and vice versa, you could extract a `Payment` module that both modules depend on, or use an event bus to publish and subscribe to events between the modules, or invert the dependencies by using abstract interfaces, or create a `CustomerOrderService` that acts as a facade for both modules, or simply combine the `Order` and `Customer` modules into one.
 ## References
 
-- [Victor Rentea](https://www.youtube.com/live/H7HWOlANX78?feature=share)
+- [Vertical Slice Architecture — Jimmy Bogard, 2018 (original blog post)](https://www.jimmybogard.com/vertical-slice-architecture/)
+- [Modular Monolith — Victor Rentea (YouTube live)](https://www.youtube.com/live/H7HWOlANX78?feature=share)

@@ -8,22 +8,7 @@ tags:
 
 # Gestión del tiempo
 
-<style>
-  .back-button {
-    background-color: #4CAF50; /* Green */
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-  }
-</style>
-
-<button class="back-button" onclick="window.location.href='https://matiaspakua.github.io/tech.notes.io'">All notes</button>
+[← Inicio](https://matiaspakua.github.io/tech.notes.io)
 
 ---
 
@@ -436,3 +421,16 @@ Es una herramienta de planificación y previsión estratégica que se utiliza pa
 1. Armar un "código de conducta" y comunicarlo.
 2. Comunicación clara y con canales bien definidos.
 3. Metas claras.
+
+---
+
+## Referencias
+
+> [!note]
+> La **Técnica Pomodoro** fue desarrollada por Francesco Cirillo a finales de los años 80. El **Método GTD (Getting Things Done)** es de David Allen (2001). La **Matriz de Eisenhower** (Urgente/Importante) es atribuida al presidente Dwight D. Eisenhower y popularizada por Stephen Covey en "The 7 Habits of Highly Effective People" (1989). La **Rueda del Futuro** fue desarrollada por Jerome Glenn en 1971.
+
+- [Getting Things Done: The Art of Stress-Free Productivity — David Allen, 2001](https://www.goodreads.com/book/show/1633.Getting_Things_Done) (ISBN: 978-0142000281)
+- [The Pomodoro Technique — Francesco Cirillo](https://francescocirillo.com/pages/pomodoro-technique)
+- [Eisenhower Matrix — Wikipedia](https://en.wikipedia.org/wiki/Time_management#The_Eisenhower_Method)
+- [Futures Wheel (Rueda del Futuro) — Jerome Glenn, 1971 — Wikipedia](https://en.wikipedia.org/wiki/Futures_wheel)
+- [Método Philips 66 — Wikipedia](https://es.wikipedia.org/wiki/Phillips_66_(din%C3%A1mica_de_grupos))

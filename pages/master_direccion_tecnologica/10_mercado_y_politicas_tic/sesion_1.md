@@ -247,7 +247,6 @@ PBI PER CAPITA = PIB (producto interior bruto) / número de  habitantes.
     En 2023, Burundi presenta un **PIB de 2.640 millones de dólares** y una población de **14.315.873 habitantes, l**o que arroja un PIB per cápita de aproximadamente **185 dólares.** Este valor tan bajo está relacionado con su economía predominantemente agrícola, la falta de diversificación y los efectos de conflictos internos
 
 
-
 ## Macroeconomía
 
 Analizaremos para qué sirven las variables y las políticas macroeconómicas y por qué están importante tener en cuenta la situación macroeconómica en el momento de realizar una inversión empresarial.
