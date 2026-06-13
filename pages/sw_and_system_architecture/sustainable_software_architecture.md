@@ -28,6 +28,30 @@ tags:
 - **Unplannable process**: software development is an unplannable process over a long period of time. The new software usually changes business processes and has effects when integrating into the target organization that are rarely fully predictable.
 - **Sustainable software architecture**: to achieve this, one should take care to have as little technical debt as possible. It should be maintainable and extensible.
 
+### Modelo de evolución: deuda vs sostenibilidad
+
+```mermaid
+flowchart LR
+    START["🚀 Inicio del proyecto\n(velocidad alta)"]
+    DEBT["📈 Acumulación\nde deuda técnica"]
+    SLOW["🐢 Desaceleración\n(velocity cae)"]
+    MUD["🌊 Big Ball of Mud\n(caos)"]
+    REF["🔧 Refactoring\ncontinuo"]
+    SUST["✅ Arquitectura\nSostenible"]
+
+    START -->|"decisiones rápidas\nsin diseño"| DEBT
+    DEBT -->|"código frágil,\ntest debt"| SLOW
+    SLOW -->|"sin intervención"| MUD
+
+    START -->|"diseño modular\n+ tests desde el inicio"| REF
+    REF -->|"mejora incremental\ncontrolada"| SUST
+    SUST -->|"ciclo virtuoso"| REF
+
+    style MUD fill:#1e1e2e,stroke:#ff5555,color:#f8f8f2
+    style SUST fill:#1e1e2e,stroke:#50fa7b,color:#f8f8f2
+    style REF fill:#1e1e2e,stroke:#ffd700,color:#f8f8f2
+```
+
 ## Origin of tech debt
 
 - Old technology (libraries, frameworks, SDK and on)
@@ -289,7 +313,7 @@ Software engineers aim to avoid "big ball of mud" situations by implementing goo
 
 ![](../../images/software_architecture_structured.png)
 
-# Reference
+## Referencias
 
  - [Sustainable Software Architecture — Dr. Carola Lilienthal (LinkedIn Learning course)](https://www.linkedin.com/learning/sustainable-software-architecture)
  - [Sustainable Software Architecture: Analyze and Reduce Technical Debt — Carola Lilienthal, dpunkt/O'Reilly](https://www.oreilly.com/library/view/sustainable-software-architecture/9781098123086/)

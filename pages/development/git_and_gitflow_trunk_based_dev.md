@@ -93,7 +93,36 @@ The pioneers of trunk-based development were trying to track down what their rat
 
 When CVS's limitations were determined to be unsurmountable, the Subversion project kicked off (the initial 0.x release was in 2000). Subversion took influences from other commercial packages like Perforce too.
 
-![Trunk Based Development](https://trunkbaseddevelopment.com/trunk1c.png)
+### Trunk-Based Development: diagrama
+
+```mermaid
+gitGraph
+    commit id: "v1.0.0"
+    branch feature/add-search
+    checkout feature/add-search
+    commit id: "search UI"
+    checkout main
+    merge feature/add-search tag: "deploy"
+    branch feature/fix-auth
+    checkout feature/fix-auth
+    commit id: "auth fix"
+    checkout main
+    merge feature/fix-auth tag: "deploy"
+    branch release/1.1
+    checkout release/1.1
+    commit id: "rc-1.1"
+    checkout main
+    merge release/1.1 tag: "v1.1.0"
+    branch feature/cache
+    checkout feature/cache
+    commit id: "add cache"
+    checkout main
+    merge feature/cache tag: "deploy"
+```
+
+> [!tip]
+> En Trunk-Based Development las ramas de feature son **muy cortas** (horas o 1-2 días máximo) y se mergean directamente a `main`/`trunk`. Las ramas `release` son opcionales y solo se crean al cortar una versión estable.
+
 ## References
  
 * Git: [About — Git](https://git-scm.com/about)
