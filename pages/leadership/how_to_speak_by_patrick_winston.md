@@ -31,6 +31,31 @@ In MIT talk "How To Speak" are lots of useful insight to improve the way of spea
  - How to Stop: Final Slide, Final Words
  - Final Words: Joke, Thank You, Examples
 
+## Marco de "How to Speak"
+
+```mermaid
+flowchart LR
+    SPEAK["🎤 How to Speak\n(Patrick Winston)"]
+
+    SPEAK --> START["🚀 Cómo Empezar\n(no con un chiste,\nsí con una promesa)"]
+    SPEAK --> TOOLS["🛠️ Herramientas\nde Presentación"]
+    SPEAK --> MODES["🎯 Modos de\nPresentación"]
+    SPEAK --> END["🏁 Cómo Terminar\n(contribución, no\n'thank you')"]
+
+    TOOLS --> BOARD["🖊️ Pizarrón\n(engagement, ritmo)"]
+    TOOLS --> SLIDES["📊 Slides\n(limpieza, sin\nbullets de texto)"]
+    TOOLS --> PROPS["🔧 Props\n(objetos reales\npara anclaje)"]
+
+    MODES --> INFORM["📢 Informar\n(promesa + inspiración)"]
+    MODES --> PERSUADE["💡 Persuadir\n(oral exam / job talk)"]
+    MODES --> FAMOUS["🏆 Hacerse Conocido\n(slogan, símbolo, sorpresa)"]
+
+    style SPEAK fill:#1e1e2e,stroke:#ffd700,color:#f8f8f2
+    style TOOLS fill:#1e1e2e,stroke:#61dafb,color:#f8f8f2
+    style MODES fill:#1e1e2e,stroke:#bd93f9,color:#f8f8f2
+    style END fill:#1e1e2e,stroke:#50fa7b,color:#f8f8f2
+```
+
 ## Personal Notes
 I use a lot of tips in slides mainly, trying to make clean, concise and useful slides to present new topics, ideas and other subjects.
 

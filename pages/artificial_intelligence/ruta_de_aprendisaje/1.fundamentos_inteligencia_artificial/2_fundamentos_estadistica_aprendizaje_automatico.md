@@ -10,6 +10,32 @@ tags:
 
 # Fundamentos de Estadística y Aprendizaje Automático
 
+## Flujo de un Proyecto de Machine Learning
+
+```mermaid
+flowchart TD
+    DATA["📊 Datos Crudos\n(imágenes, texto, sensores)"]
+    DATA --> EDA["🔍 Estadística Descriptiva\n(media, mediana, varianza,\nhistogramas, outliers)"]
+    EDA --> SPLIT["✂️ División del Dataset\nTrain / Validation / Test"]
+    SPLIT --> MODEL["🧠 Selección de Modelo"]
+    MODEL --> REG["📈 Regresión Lineal\n(predecir números)"]
+    MODEL --> CLAS["🏷️ Clasificación\n(spam/no-spam, gato/perro)"]
+    MODEL --> TREE["🌲 Árbol de Decisión\n(preguntas sí/no)"]
+
+    REG --> TRAIN["⚙️ Entrenamiento"]
+    CLAS --> TRAIN
+    TREE --> TRAIN
+
+    TRAIN --> EVAL["📏 Evaluación\n(accuracy, precisión,\nrecall, MAE, MSE)"]
+    EVAL -->|"overfitting/underfitting"| MODEL
+    EVAL -->|"modelo OK"| PROD["🚀 Producción\n(recomendadores, detección\nde fraude, clasificadores)"]
+
+    style DATA fill:#1e1e2e,stroke:#61dafb,color:#f8f8f2
+    style TRAIN fill:#1e1e2e,stroke:#ffd700,color:#f8f8f2
+    style EVAL fill:#1e1e2e,stroke:#64ffda,color:#f8f8f2
+    style PROD fill:#1e1e2e,stroke:#50fa7b,color:#f8f8f2
+```
+
 ## 1. ¿Qué son datos, estadística y machine learning?
 
 - Qué es un dato, conjuntos de datos, ejemplos cotidianos (fotos, texto, sensores).

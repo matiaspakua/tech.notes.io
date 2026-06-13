@@ -18,6 +18,27 @@ Hacer buenas presentaciones orales requiere práctica, preparación y el desarro
 
 - [How to Speak](how_to_speak_by_patrick_winston.md)
 
+```mermaid
+flowchart TD
+    PREP["📋 1. Preparar\nel Contenido"] --> FLOW["🔗 2. Hilo\nConductor"]
+    FLOW --> BODY["🤲 3. Gesticular\nCorrectamente"]
+    BODY --> VOICE["🎙️ 4. Respiración\ny Control de Voz"]
+    VOICE --> PRACT["🔄 5. Practicar\nRegularmente"]
+    PRACT --> NERV["🧘 6. Superar\nlos Nervios"]
+    NERV --> EXEC["🎯 Presentación"]
+    EXEC --> EVAL["📊 7. Evaluación\nPost-Presentación"]
+    EVAL -->|"mejora continua"| PREP
+
+    PREP --> P1["Objetivo claro\nIntro + Dev + Cierre"]
+    FLOW --> P2["Transiciones suaves\nHistorias y ejemplos"]
+    VOICE --> P3["Tono variado\nPausas con propósito"]
+
+    style EXEC fill:#1e1e2e,stroke:#ffd700,color:#f8f8f2
+    style PREP fill:#1e1e2e,stroke:#61dafb,color:#f8f8f2
+    style EVAL fill:#1e1e2e,stroke:#50fa7b,color:#f8f8f2
+    style NERV fill:#1e1e2e,stroke:#bd93f9,color:#f8f8f2
+```
+
 ---
 
 ### **1. Preparar el contenido con anticipación**
