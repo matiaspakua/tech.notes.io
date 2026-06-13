@@ -23,6 +23,31 @@ tags:
 
 ## Que son los anti-patrones de arquitectura?
 
+```mermaid
+flowchart TD
+    AP["⚠️ Architecture Antipatterns\n(consecuencias negativas de\ndecisiones de diseño)"]
+
+    AP --> EA["❤️ Emotional Attachment\nUsar siempre la misma\ntecnología (zona de confort)"]
+    AP --> MG["🔧 Misapplied Genericity\nSolución genérica para todo\n→ complejidad innecesaria"]
+    AP --> NCTS["🚧 Never Change\na Running System\nSistemas legacy bloqueados"]
+    AP --> CC["🦜 Cargo-Culting\nCopiar sin entender\n(Spotify model, microservices, AI)"]
+    AP --> OT["🔢 Otros"]
+
+    OT --> DA["Domain Allergy"]
+    OT --> HZ["Horizontalism"]
+    OT --> II["Infrastructure Ignorance"]
+    OT --> MG2["Malignant Growth"]
+    OT --> OE["Over-Engineering"]
+
+    EA -->|"solución"| SOL["✅ KISS + Tests +\nDocumentación +\nCI/CD + Refactoring"]
+    MG --> SOL
+    NCTS --> SOL
+    CC --> SOL
+
+    style AP fill:#1e1e2e,stroke:#ff5555,color:#f8f8f2
+    style SOL fill:#1e1e2e,stroke:#50fa7b,color:#f8f8f2
+```
+
 Consecuencias negativas de aplicar una solución, de la evolución de las arquitecturas, decisiones, contexto, negocio, la vida.
 
 > [!note]
