@@ -17,6 +17,20 @@ tags:
 
 ### BDD concept
 
+```mermaid
+flowchart TD
+    US["📝 User Story"] --> DISC["🔍 Discovery\n3-Amigos Meeting\n(PO + Dev + QA)"]
+    DISC --> FORM["📋 Formulation\nGherkin Scenarios\nGiven / When / Then"]
+    FORM --> AUTO["🤖 Automation\nCucumber Steps\n(Java / Kotlin)"]
+    AUTO --> LD["📚 Living Documentation\nTests = Documentación\nauto-actualizada"]
+    LD -->|"falla = desincronización"| DISC
+
+    style DISC fill:#1e1e2e,stroke:#61dafb,color:#f8f8f2
+    style FORM fill:#1e1e2e,stroke:#ffd700,color:#f8f8f2
+    style AUTO fill:#1e1e2e,stroke:#50fa7b,color:#f8f8f2
+    style LD fill:#1e1e2e,stroke:#bd93f9,color:#f8f8f2
+```
+
 Stands for: Behaviour-Driven Development. BDD is an approach that collaboratively specifies the system's desired behaviour. Each time a piece of behaviour is agreed, we use that specification to "drive" the development of the code that will implement that behaviour.
 
 Objective: Reduce the GAP between business people and technical people.
