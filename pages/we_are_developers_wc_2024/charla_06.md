@@ -63,6 +63,17 @@ Fuente: https://pivovarit.github.io/talks/embracing-microservices/
 ---
 ### Event-Driven Architecture al rescate
 
+```mermaid
+flowchart LR
+    PROD["📤 Productor\n(genera evento)"] -->|"publica"| CANAL["📡 Canal / Broker\n(Kafka / RabbitMQ)"]
+    CANAL -->|"propaga"| C1["📥 Consumidor A\n(procesa evento)"]
+    CANAL -->|"propaga"| C2["📥 Consumidor B\n(procesa evento)"]
+    CANAL -->|"propaga"| C3["📥 Consumidor C\n(procesa evento)"]
+
+    style CANAL fill:#1e1e2e,stroke:#ffd700,color:#f8f8f2
+    style PROD fill:#1e1e2e,stroke:#61dafb,color:#f8f8f2
+```
+
  - <mark style="background: #FFF3A3A6;">Productores</mark>: produced => un EVENTO es generado
  - <mark style="background: #FFF3A3A6;">Canal</mark>: publica y propaga un mensaje (asociado un evento)
 - <mark style="background: #FFF3A3A6;">Consumidores</mark>: detectan el mensaje del canal y consumen el mensaje, para luego actuar sobre el "evento"
@@ -98,6 +109,28 @@ Ref. https://en.wikipedia.org/wiki/Event-driven_architecture
 =><mark style="background: #FFF3A3A6;"> ejecución que no crashea por causas de fallas a nivel sistema</mark>.
 
 **La principal idea es**: recuperar el estado de una transacción distribuida, pese a la falla de una parte o todo el sistema.
+
+```mermaid
+sequenceDiagram
+    participant C as Cliente
+    participant W as Workflow\n(Temporal.io)
+    participant A as Activity A\n(debit)
+    participant B as Activity B\n(credit)
+    participant S as State Store\n(persistente)
+
+    C->>W: start transfer(100$)
+    W->>S: persist state=STARTED
+    W->>A: execute debit()
+    A-->>W: success
+    W->>S: persist state=DEBITED
+    Note over W: sistema falla aquí 💥
+    Note over W: se reinicia y recupera estado
+    W->>S: recover state=DEBITED
+    W->>B: execute credit()
+    B-->>W: success
+    W->>S: persist state=COMPLETED
+    W-->>C: transfer done ✓
+```
 
 ---
 ### Caracteristicas:
