@@ -2372,4 +2372,26 @@ La tarea no es sencilla, pero justamente ésta complejidad es la que nos tiene q
 
 **UCA - Universidad Católica Argentina**
 
+---
+
+## Referencias principales
+
+- [Accelerate: The Science of Lean Software and DevOps — Nicole Forsgren, Jez Humble & Gene Kim, IT Revolution Press, 2018](https://itrevolution.com/product/accelerate/)
+- [The DevOps Handbook — Gene Kim, Patrick Debois, John Willis & Jez Humble, IT Revolution Press, 2016](https://itrevolution.com/product/the-devops-handbook/)
+- [Modern Software Engineering — David Farley, Addison-Wesley, 2021](../books/modern_software_engineering.md)
+- [Continuous Delivery — Jez Humble & David Farley, Addison-Wesley, 2010](https://continuousdelivery.com/)
+- [ISO/IEC 25010:2023 — SQuaRE Quality Model](https://www.iso.org/standard/78175.html)
+- [OWASP Top Ten — Open Web Application Security Project](https://owasp.org/www-project-top-ten/)
+- [The Pragmatic Programmer — Andrew Hunt & David Thomas, Addison-Wesley, 2019](https://pragprog.com/titles/tpp20/the-pragmatic-programmer-20th-anniversary-edition/)
+
+## Notas relacionadas
+
+- [DevSecOps Foundations](../cybersecurity/dev_sec_ops_foundations.md)
+- [TDD y BDD](../testing/on_unit_test_tdd_and_bdd.md)
+- [BDD con Cucumber](../testing/bdd_with_cucumber_java_notes.md)
+- [Architecture — Hexagonal](../sw_and_system_architecture/on_hexagonal_architecture_notes.md)
+- [Agile y Scrum](../software_engineering/agile_and_scrum.md)
+- [Calidad de Software](software_quality.md)
+- [Testing de Software](software_testing.md)
+
 **Año: Octubre 2022**
