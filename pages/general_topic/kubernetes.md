@@ -8,6 +8,8 @@ tags:
 
 # Charla MeetUp DevOps BCN
 
+[← Inicio](https://matiaspakua.github.io/tech.notes.io)
+
 **Title**: Kubernetes, Componente a Componente  
 **Speaker:** [Rael García](https://www.linkedin.com/in/rael/) | SRE en Red Hat  
 **Duration**: 45 mins  
