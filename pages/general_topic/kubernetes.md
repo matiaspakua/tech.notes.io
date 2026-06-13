@@ -23,3 +23,14 @@ Introducción a los principios básicos y los componentes que constituyen la arq
 ## Repositorio de GitHub para levantar desde cero
 
 [raelga/kubernetes-talks: k8s-from-scratch (GitHub)](https://github.com/raelga/kubernetes-talks/tree/master/k8s-from-scratch)
+
+## Referencias
+
+- [Kubernetes Official Documentation](https://kubernetes.io/docs/home/)
+- [Kubernetes: Up and Running — Brendan Burns, Joe Beda & Kelsey Hightower, O'Reilly, 2022](https://www.oreilly.com/library/view/kubernetes-up-and/9781098110192/)
+
+## Notas relacionadas
+
+- [Cloud Computing Solutions at Scale](specialization_building_cloud_computing_solutions_at_scale.md)
+- [DevSecOps Foundations](../cybersecurity/dev_sec_ops_foundations.md)
+- [Docker — WeAreDevelopers charla_20](../we_are_developers_wc_2024/charla_20.md)

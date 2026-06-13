@@ -1309,8 +1309,15 @@ The advantage of using an <mark style="background: #FFF3A3A6;">AI API is that yo
 - Once the service has been deployed, consider triggering a **nightly test**. This could be a load test that runs at midnight in a staging environment. This ensures that your app is performing correctly and can handle the load.
 - Not guessing about the performance of your service. Just as you would have a smoke detector in your house to alert you to problems, you should have tests in place to alert you to any issues with your service. Don’t assume that what happened today will be what happens in the future.
 
-# References
+## References
 
-Repo with example: [noahgift/gcp-flask-ml-deploy: This is a project to auto-deploy with an ML payload (github.com)](https://github.com/noahgift/gcp-flask-ml-deploy)
+- [Cloud Computing for Data — Pragmatic AI Labs and Solutions](https://paiml.com/docs/home/books/cloud-computing-for-data/)
+- [noahgift/gcp-flask-ml-deploy — Example repo (GitHub)](https://github.com/noahgift/gcp-flask-ml-deploy)
+- [AWS Well-Architected Framework](https://aws.amazon.com/architecture/well-architected/)
 
-Web Book: [Cloud Computing for Data Pragmatic AI Labs and Solutions](https://paiml.com/docs/home/books/cloud-computing-for-data/)
+## Notas relacionadas
+
+- [Kubernetes](kubernetes.md)
+- [NoSQL](nosql_the_basis_of.md)
+- [Python ML Demo Project](../projects/uso_modelo_machine_learning.md)
+- [DevSecOps Foundations](../cybersecurity/dev_sec_ops_foundations.md)
