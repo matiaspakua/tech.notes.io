@@ -1,24 +1,20 @@
 ---
-title: "Autor"
+title: "Durable Execution: A revolutionary abstraction for building resilient applications"
 tags:
   - conferencia
   - we-are-developers
   - 2024
   - notas
+  - arquitectura
 ---
 
-### Durable Execution: A revolutionary abstraction for building resilient applications
-
----
-
-# Autor
+# Durable Execution: A revolutionary abstraction for building resilient applications
 
 [← Inicio](https://matiaspakua.github.io/tech.notes.io)
 
-Maxim Fateev
-CTO/Cofounder @ Temporal.io
-
-Linkedin: https://www.linkedin.com/in/fateev
+> [!note]
+> Charla de **Maxim Fateev** — CTO/Cofounder @ Temporal.io
+> [LinkedIn](https://www.linkedin.com/in/fateev)
 
 ---
 ### Introducción
@@ -182,7 +178,12 @@ Básicamente la aplicación es lo siguiente:
 
 # Temporal.io  Durable Execution platform
 
-Web: https://temporal.io
-Github original: https://github.com/temporalio/money-transfer-project-java
+- Web: [temporal.io](https://temporal.io)
+- GitHub demo: [temporalio/money-transfer-project-java](https://github.com/temporalio/money-transfer-project-java)
+
+## Notas relacionadas
+
+- [Autonomous microservices with event-driven architecture](charla_11.md)
+- [The Lifehackers guide to software architecture](charla_13.md)
 
 

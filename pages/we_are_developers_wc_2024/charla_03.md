@@ -98,6 +98,10 @@ Perspectiva de cliente, negocio y desarrollo.
 
 ---
 
---> Hackatones
+- **Hackatones**: mecanismo para aprender, compartir ideas y construir en base a la colaboración de la comunidad de desarrolladores.
 
-Mecanismo para aprender, compartir ideas y construir ideas en base a la colaboración de la comunidad de desarrolladores.
+## Notas relacionadas
+
+- [The Lifehackers guide to software architecture](charla_13.md)
+- [Arquitectura Hexagonal](../sw_and_system_architecture/on_hexagonal_architecture_notes.md)
+- [Vertical Slicing Architectures](../sw_and_system_architecture/vertical_slicing_architectures.md)
