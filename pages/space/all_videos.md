@@ -26,5 +26,5 @@ tags:
 
 ## Notas relacionadas
 
-- [[space_introduccion]]
-- [[orbit_propagation]]
+- [Introducción al sector espacial](space_introduccion.md)
+- [Propagación Orbital y Guía de Python](orbit_propagation.md)

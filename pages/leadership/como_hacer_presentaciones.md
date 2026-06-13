@@ -12,7 +12,7 @@ tags:
 [← Inicio](https://matiaspakua.github.io/tech.notes.io)
 
 > [!note]
-> Notas basadas en la charla *"How to Speak"* de Patrick Winston (MIT). Ver también la nota relacionada [[how_to_speak_by_patrick_winston]].
+> Notas basadas en la charla *"How to Speak"* de Patrick Winston (MIT). Ver también la nota relacionada [How to Speak by Patrick Winston](how_to_speak_by_patrick_winston.md).
 
 Hacer buenas presentaciones orales requiere práctica, preparación y el desarrollo de ciertas habilidades. 
 

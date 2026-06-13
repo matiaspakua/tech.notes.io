@@ -18,6 +18,16 @@ tags:
 - **MEO** (Medium Earth Orbit): altitud entre 2,000 y 35,786 km. Ejemplos: GPS, Galileo, GLONASS.
 - **GEO** (Geostationary Orbit): altitud ~35,786 km. El satélite orbita en sincronía con la rotación terrestre.
 
+```mermaid
+flowchart TD
+    Earth["🌍 Tierra"] --> LEO["LEO\n200–2.000 km\n(ISS, Starlink)"]
+    Earth --> MEO["MEO\n2.000–35.786 km\n(GPS, Galileo, GLONASS)"]
+    Earth --> GEO["GEO\n~35.786 km\n(Meteorología, TV)"]
+    LEO --> |mayor drag, ↑resolución| Obs["Observación terrestre"]
+    MEO --> |cobertura media| Nav["Navegación global"]
+    GEO --> |punto fijo sobre Ecuador| Com["Comunicaciones"]
+```
+
 ## Órbita Kepleriana
 
 La **órbita Kepleriana** se describe mediante los 6 **elementos orbitales de Kepler** (Keplerian Elements):
