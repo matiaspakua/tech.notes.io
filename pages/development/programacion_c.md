@@ -15,6 +15,29 @@ tags:
 
 # 1 . Introducción
 
+## Proceso de Resolución de Problemas en C
+
+```mermaid
+flowchart TD
+    REAL["🌍 Mundo Real\n(problema a resolver)"] -->|"gap semántico"| ANAL["🔍 1. Análisis\ndel Problema\n(entender contexto)"]
+    ANAL --> DESIGN["📐 2. Diseño\ndel Algoritmo\n(lógica de solución)"]
+    DESIGN --> CODE["💻 3. Codificación\ndel Algoritmo\n(C: código fuente .c)"]
+
+    CODE --> COMP["⚙️ Compilación\n(gcc: .c → .obj)"]
+    COMP --> LINK["🔗 Linkeo\n(.obj + libs → .exe)"]
+    LINK --> EXEC["🚀 Ejecución\n(solución real)"]
+
+    DESIGN --> LEVEL["📊 Niveles de Abstracción"]
+    LEVEL --> L1["Imperativo\n(instrucciones de bajo nivel)"]
+    LEVEL --> L2["Declarativo\n(describirle el problema)"]
+    LEVEL --> L3["OOP\n(relaciones entre entidades)"]
+
+    style REAL fill:#1e1e2e,stroke:#61dafb,color:#f8f8f2
+    style DESIGN fill:#1e1e2e,stroke:#ffd700,color:#f8f8f2
+    style CODE fill:#1e1e2e,stroke:#50fa7b,color:#f8f8f2
+    style EXEC fill:#1e1e2e,stroke:#64ffda,color:#f8f8f2
+```
+
 NIVEL DE ABSTRACCIÓN  - COMO ATACAR EL PROBLEMA PARA ENCONTRAR UNA SOLUCIÓN  
 Un problema real requiere de un análisis que depender del **mundo real**. Este análisis genera un gap semántico que genera una **representación del problema** en un **mundo virtual**. A partir de ese punto, se puede definir una **solución virtual** al problema presentación y que finalmente se puede convertir en la **solución real.**
 
