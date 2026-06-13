@@ -48,6 +48,41 @@ tags:
 * **Subcategories of AI**: Self-driving cars, limited memory AI (weather forecasting), Theory of mind AI (customer service chatbots), and others.
 * **Key Distinction**: <mark style="background: #BBFABBA6;">Generative AI is specifically designed to create new content, while other AI subcategories might generate content as a secondary function.</mark>
 
+### Arquitectura de un pipeline LLM
+
+```mermaid
+flowchart LR
+    U["👤 Usuario"] --> P["Prompt\n(instrucción)"]
+    P --> T["Tokenizer\n(split + encode)"]
+    T --> E["Embeddings\n(vectores flotantes)"]
+    E --> TF["Transformer\n(atención multi-cabeza)"]
+    TF --> DEC["Decoder\n(next-token prediction)"]
+    DEC -->|"loop until EOS"| DEC
+    DEC --> O["🔤 Output\n(texto generado)"]
+    style TF fill:#1e1e2e,stroke:#bd93f9,color:#f8f8f2
+    style E fill:#1e1e2e,stroke:#61dafb,color:#f8f8f2
+```
+
+### Arquitectura RAG (Retrieval-Augmented Generation)
+
+```mermaid
+flowchart TD
+    Q["❓ Query del usuario"] --> EMB["Embedding\ndel query"]
+    EMB --> VS["Vector Store\n(FAISS / Pinecone)"]
+    VS -->|"top-k chunks"| CTX["Contexto\nrecuperado"]
+    CTX --> AUG["Prompt aumentado\n= query + contexto"]
+    AUG --> LLM["LLM\n(GPT / Claude / etc.)"]
+    LLM --> ANS["✅ Respuesta\nfundamentada"]
+
+    KB["📚 Knowledge Base\n(docs, PDFs, wiki)"] --> CHUNK["Chunking"]
+    CHUNK --> EMBC["Embedding\npor chunk"]
+    EMBC --> VS
+
+    style LLM fill:#1e1e2e,stroke:#ff79c6,color:#f8f8f2
+    style VS fill:#1e1e2e,stroke:#64ffda,color:#f8f8f2
+    style KB fill:#1e1e2e,stroke:#ffd700,color:#f8f8f2
+```
+
 ### Understanding how Generative AI works
 
  * **Building Blocks of AI**: Similar to how we can identify objects based on past experiences, AI is trained on massive amounts of data to perform tasks.

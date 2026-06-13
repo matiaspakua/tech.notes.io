@@ -153,6 +153,157 @@ Este comportamiento puede o no ocurrir dependiendo de como el SO gestione los th
 
 - **Operaciones no atómicas**: Las operaciones como no son atómicas, lo que significa que constan de varios pasos (lectura, actualización, escritura) que pueden ser interrumpidos por otros subprocesos, lo que provoca resultados incorrectos.
 
+### Visualización animada: Race Condition vs synchronized
+
+<div id="race-demo" style="border-radius:12px;overflow:hidden;border:1px solid #30363d;margin:0.75rem 0;background:#0d1117;height:210px;"></div>
+
+<script>
+(function(){
+  var wrap = document.getElementById('race-demo');
+  if (!wrap) return;
+  var dpr = window.devicePixelRatio || 1;
+  var W = Math.max(320, (wrap.offsetWidth || 780));
+  var H = 210;
+  var cv = document.createElement('canvas');
+  cv.width = W*dpr; cv.height = H*dpr;
+  cv.style.cssText = 'display:block;width:'+W+'px;height:'+H+'px;';
+  wrap.appendChild(cv);
+  var g = cv.getContext('2d');
+  g.scale(dpr, dpr);
+
+  var A='#61dafb', B='#ff9f43', HP='#64ffda', ERR='#ff5555', OK='#50fa7b';
+  var BG='#0d1117', TX='#f8f8f2', MUT='#6272a4';
+
+  var TAx=18, TAy=48, TAw=Math.min(145,W*0.19), TAh=90;
+  var HHw=Math.min(130,W*0.17), HHx=W/2-HHw/2, HHy=48, HHh=90;
+  var TBx=W-18-Math.min(145,W*0.19), TBy=48, TBw=Math.min(145,W*0.19), TBh=90;
+
+  var RACE=5500, SYNC=8000, TOTAL=RACE+SYNC;
+  var t0 = Date.now();
+
+  function ease(t){ return t<.5?2*t*t:-1+(4-2*t)*t; }
+  function lerp(a,b,t){ return a+(b-a)*Math.max(0,Math.min(1,t)); }
+
+  function box(x,y,w,h,col,title,sub,alpha){
+    g.globalAlpha = alpha||1;
+    g.beginPath(); g.roundRect(x,y,w,h,8);
+    g.fillStyle=col+'1a'; g.fill();
+    g.strokeStyle=col; g.lineWidth=1.8; g.stroke();
+    g.fillStyle=col; g.font='bold 12px "Segoe UI",system-ui,sans-serif';
+    g.textAlign='center'; g.textBaseline='middle';
+    g.fillText(title, x+w/2, y+h*0.32);
+    if(sub!==null){
+      g.fillStyle=TX; g.font='13px monospace';
+      g.fillText(sub, x+w/2, y+h*0.68);
+    }
+    g.globalAlpha=1;
+  }
+
+  function arrow(x1,y1,x2,y2,col,p,thick){
+    var ex=x1+(x2-x1)*p, ey=y1+(y2-y1)*p;
+    g.strokeStyle=col; g.lineWidth=thick||2.2; g.setLineDash([]);
+    g.beginPath(); g.moveTo(x1,y1); g.lineTo(ex,ey); g.stroke();
+    if(p>0.85){
+      var a=Math.atan2(y2-y1,x2-x1);
+      g.fillStyle=col; g.beginPath();
+      g.moveTo(ex,ey);
+      g.lineTo(ex-9*Math.cos(a-.45),ey-9*Math.sin(a-.45));
+      g.lineTo(ex-9*Math.cos(a+.45),ey-9*Math.sin(a+.45));
+      g.closePath(); g.fill();
+    }
+  }
+
+  function label(txt,col,size){
+    g.fillStyle=col; g.font=(size||11)+'px "Segoe UI",system-ui,sans-serif';
+    g.textAlign='center'; g.textBaseline='bottom';
+    g.fillText(txt, W/2, H-6);
+  }
+
+  function renderRace(t){
+    var p = ease(t);
+    var ctr=5, lA=null, lB=null, pa=0, pb=0, pulse=0, msg='', mcol=MUT;
+
+    if(p<.15){ ctr=5; msg='counter = 5, ambos threads listos para incrementar'; }
+    else if(p<.38){ var u=ease((p-.15)/.23);
+      ctr=5; lA=5; lB=5; pa=u; pb=u;
+      msg='⚠ Ambos leen counter=5 simultáneamente!'; mcol=ERR; }
+    else if(p<.58){ ctr=5; lA=6; lB=6;
+      msg='Cada thread incrementa su copia local: 5+1=6'; }
+    else if(p<.78){ var u=ease((p-.58)/.2);
+      ctr=u>.5?6:5; lA=6; lB=6; pa=Math.min(1,u*2); pb=Math.min(1,u*2);
+      msg='Ambos escriben 6 al heap... segunda escritura sobreescribe la primera'; }
+    else{ ctr=6; lA=6; lB=6;
+      pulse=.5+.5*Math.sin((p-.78)/.22*Math.PI*5);
+      msg='⚠ counter=6 — esperado: 7! Se perdió un incremento'; mcol=ERR; }
+
+    var hcol = pulse>0 ? '#ff'+Math.round(lerp(0x64,0x55,pulse)).toString(16).padStart(2,'0')+'da' : HP;
+
+    box(TAx,TAy,TAw,TAh, A, 'Thread A', lA!==null?'local='+lA:'idle');
+    box(HHx,HHy,HHw,HHh, hcol, 'HEAP', 'counter='+ctr);
+    box(TBx,TBy,TBw,TBh, B, 'Thread B', lB!==null?'local='+lB:'idle');
+
+    // read arrows (heap → threads)
+    if(p>=.15&&p<.58){ arrow(HHx, HHy+HHh/2, TAx+TAw, TAy+TAh/2, A, pa>0?pa:1); arrow(HHx+HHw, HHy+HHh/2, TBx, TBy+TBh/2, B, pb>0?pb:1); }
+    // write arrows (threads → heap)
+    if(p>=.58&&p<.78){ arrow(TAx+TAw, TAy+TAh/2, HHx, HHy+HHh/2, A, pa); arrow(TBx, TBy+TBh/2, HHx+HHw, HHy+HHh/2, B, pb); }
+
+    label(msg, mcol, 11);
+  }
+
+  function renderSync(t){
+    var p = ease(t);
+    var ctr=5, lA=null, lB=null, lockA=false, lockB=false, pa=0, pb=0, msg='', mcol=MUT;
+
+    if(p<.08){ ctr=5; msg='counter=5, Thread A esperando para adquirir el lock'; }
+    else if(p<.28){ var u=ease((p-.08)/.2);
+      ctr=5; lA=5; lockA=true; pa=u;
+      msg='Thread A adquiere 🔒 lock y lee counter=5'; mcol=OK; }
+    else if(p<.46){ ctr=5; lA=6; lockA=true;
+      msg='Thread A incrementa local: 5+1=6'; mcol=OK; }
+    else if(p<.58){ var u=ease((p-.46)/.12);
+      ctr=u>.5?6:5; lA=6; lockA=true; pa=u;
+      msg='Thread A escribe 6 y libera el lock 🔓'; mcol=OK; }
+    else if(p<.68){ ctr=6; lA=null;
+      msg='Thread B espera que el lock esté libre...'; }
+    else if(p<.82){ var u=ease((p-.68)/.14);
+      ctr=6; lB=6; lockB=true; pb=u;
+      msg='Thread B adquiere 🔒 lock y lee counter=6'; mcol=OK; }
+    else if(p<.92){ var u=ease((p-.82)/.1);
+      ctr=u>.5?7:6; lB=7; lockB=true; pb=u;
+      msg='Thread B escribe 7 y libera el lock 🔓'; mcol=OK; }
+    else{ ctr=7; lB=null;
+      msg='✓ counter=7 — resultado correcto! (5+1+1=7)'; mcol=OK; }
+
+    box(TAx,TAy,TAw,TAh, lockA?OK:A, (lockA?'🔒 ':'')+'Thread A', lA!==null?'local='+lA:'idle');
+    box(HHx,HHy,HHw,HHh, p>=.92?OK:HP, 'HEAP', 'counter='+ctr);
+    box(TBx,TBy,TBw,TBh, lockB?OK:B, (lockB?'🔒 ':'')+'Thread B', lB!==null?'local='+lB:'idle');
+
+    if(p>=.08&&p<.46){ arrow(HHx, HHy+HHh/2, TAx+TAw, TAy+TAh/2, OK, p<.28?pa:1); }
+    if(p>=.46&&p<.58){ arrow(TAx+TAw, TAy+TAh/2, HHx, HHy+HHh/2, OK, pa); }
+    if(p>=.68&&p<.82){ arrow(HHx+HHw, HHy+HHh/2, TBx, TBy+TBh/2, OK, pb); }
+    if(p>=.82&&p<.92){ arrow(TBx, TBy+TBh/2, HHx+HHw, HHy+HHh/2, OK, pb); }
+
+    label(msg, mcol, 11);
+  }
+
+  function frame(){
+    g.fillStyle=BG; g.fillRect(0,0,W,H);
+    var elapsed=(Date.now()-t0)%TOTAL;
+    var isRace=elapsed<RACE;
+    var t=isRace?elapsed/RACE:(elapsed-RACE)/SYNC;
+
+    g.fillStyle=isRace?ERR:OK;
+    g.font='bold 12px "Segoe UI",system-ui,sans-serif';
+    g.textAlign='center'; g.textBaseline='top';
+    g.fillText(isRace?'⚡ SIN synchronized — Race Condition':'🔒 CON synchronized — Ejecución correcta', W/2, 8);
+
+    if(isRace) renderRace(t); else renderSync(t);
+    requestAnimationFrame(frame);
+  }
+  frame();
+})();
+</script>
+
 ## keyword: "volatile"
 
 **Volatile**: el uso de la palabra clave `volatile` puede ayudar a evitar los **data race** al garantizar la visibilidad de los valores de las variables en todos los subprocesos, pero no bloquea los datos.
@@ -301,8 +452,30 @@ public class CompletableFuture<T> implements Future<T>, CompletionStage<T>
 
 ```
 
+### Pipeline asíncrono con CompletableFuture
 
-# Referencias
+```mermaid
+sequenceDiagram
+    participant M as Main Thread
+    participant CF1 as CompletableFuture<br/>fetchData()
+    participant CF2 as CompletableFuture<br/>processData()
+    participant CF3 as CompletableFuture<br/>saveResult()
+    participant P as ForkJoinPool<br/>(common)
+
+    M->>CF1: supplyAsync(() -> fetch())
+    CF1->>P: submit task
+    P-->>CF1: "raw data"
+    CF1->>CF2: thenApplyAsync(data -> process(data))
+    CF2->>P: submit task
+    P-->>CF2: "processed"
+    CF2->>CF3: thenAcceptAsync(r -> save(r))
+    CF3->>P: submit task
+    P-->>CF3: void
+    M->>CF3: join() / get()
+    CF3-->>M: done
+```
+
+## Referencias
 
  - [Lesson: Concurrency (The Java™ Tutorials > Essential Java Classes) (oracle.com)](https://docs.oracle.com/javase/tutorial/essential/concurrency/)
  - [JobRunr](https://github.com/jobrunr/jobrunr?tab=readme-ov-file) / [Official Web](https://www.jobrunr.io/en/)
