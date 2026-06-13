@@ -46,6 +46,29 @@ La complejidad de una aplicación debe ser como mucho tan compleja como el probl
 
 Repasar el diseño y el código que se escribe y ser autocrítico: ¿se entiende la intención sin leer los comentarios?
 
+```mermaid
+flowchart TD
+    INT["🎯 Código Intencional\n(Intentional Code)"]
+
+    INT --> MACRO["📐 Nivel Macro\n(arquitectura / módulos)"]
+    INT --> MICRO["🔬 Nivel Micro\n(funciones / variables / forma)"]
+
+    MACRO --> M1["Patrones de organización\ncon propósito claro"]
+    MACRO --> M2["Arquitectura ≤ complejidad\ndel problema"]
+    MICRO --> U1["Nombres que comunican\nla intención"]
+    MICRO --> U2["Cohesión visible\nen la estructura"]
+    MICRO --> U3["Párrafos de código:\nlíneas en blanco como señales"]
+
+    INT --> OPP["⚠️ Lo opuesto:\nComplejidad Accidental"]
+    OPP --> D1["Patrones dogmáticos\nsin necesidad real"]
+    OPP --> D2["Abstracciones prematuras\nque oscurecen la intención"]
+
+    style INT fill:#1e1e2e,stroke:#64ffda,color:#f8f8f2
+    style MACRO fill:#1e1e2e,stroke:#61dafb,color:#f8f8f2
+    style MICRO fill:#1e1e2e,stroke:#50fa7b,color:#f8f8f2
+    style OPP fill:#1e1e2e,stroke:#ff5555,color:#f8f8f2
+```
+
 ## References
 
 - [A Philosophy of Software Design — John Ousterhout, Yaknyam Press, 2018](https://www.goodreads.com/book/show/39996759-a-philosophy-of-software-design)

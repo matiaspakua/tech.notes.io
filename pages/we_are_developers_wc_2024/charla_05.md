@@ -32,6 +32,26 @@ Tema crítico: el consumo masivo de procesamiento que requieren los modelos de A
 - **Deep-dive selectivo**: curiosidad enfocada en temas puntuales + colaboración.
 - **Razonamiento y pensamiento crítico**: las herramientas cambian, la capacidad de pensar no.
 
+```mermaid
+flowchart TD
+    HYPE["🌀 Fase de Hype\nTodos quieren AI en todo"] --> PILOT["🧪 Pilotos y Experimentación\n(SAP: 16 casos de uso)"]
+    PILOT --> ADOPT["🚀 Adopción Selectiva\n(Mercedes-Benz: Copilot\n→ +productividad, +creatividad)"]
+    ADOPT --> SCALE["📈 Escalamiento\n(Accenture: poco escalamiento real)"]
+    SCALE --> SUSTAIN["🌱 Sustentabilidad\n(huella energética / costo)"]
+
+    SUSTAIN --> BACK["🔁 Refinamiento\nSelectivo"]
+    BACK --> ADOPT
+
+    HYPE --> WARN["⚠️ Riesgo: escalar sin\nconsiderar impacto ambiental\ny complejidad operativa"]
+
+    style HYPE fill:#1e1e2e,stroke:#ffd700,color:#f8f8f2
+    style PILOT fill:#1e1e2e,stroke:#61dafb,color:#f8f8f2
+    style ADOPT fill:#1e1e2e,stroke:#50fa7b,color:#f8f8f2
+    style SCALE fill:#1e1e2e,stroke:#bd93f9,color:#f8f8f2
+    style SUSTAIN fill:#1e1e2e,stroke:#64ffda,color:#f8f8f2
+    style WARN fill:#1e1e2e,stroke:#ff5555,color:#f8f8f2
+```
+
 ## Notas relacionadas
 
 - [Generative AI](../software_engineering/generative_ai.md)
