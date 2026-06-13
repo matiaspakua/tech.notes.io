@@ -50,8 +50,14 @@ Tres tensiones principales que define el estado actual:
 
 - **Fair-source** ([fair.io](https://fair.io/)): modelo intermedio que intenta equilibrar sostenibilidad comercial con apertura de código.
 
-## References
+## Referencias
 
-- [The Cathedral and the Bazaar — Eric S. Raymond (full text)](http://www.catb.org/~esr/writings/cathedral-bazaar/)
+- [The Cathedral and the Bazaar — Eric S. Raymond (full text)](https://www.catb.org/~esr/writings/cathedral-bazaar/)
 - [Open Source Initiative — History](https://opensource.org/history)
 - [Fair Source License — fair.io](https://fair.io/)
+
+## Notas relacionadas
+
+- [Generative AI](../software_engineering/generative_ai.md)
+- [DevSecOps Foundations](../cybersecurity/dev_sec_ops_foundations.md)
+- [Git y Gitflow](../development/git_and_gitflow_trunk_based_dev.md)

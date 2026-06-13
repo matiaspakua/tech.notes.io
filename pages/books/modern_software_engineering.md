@@ -398,7 +398,7 @@ In this test code, we can identify the measurements points:
 2. **Digitally disruptive organizations**. Control the variables, keep relates ideas close together with cohesion, and keep unrelated ideas apart with modularity, separation of concerns, abstraction, and reductions in coupling.
 
 
-# References
+## References
 
 - [Modern Software Engineering — David Farley, 2021](https://www.amazon.com/Modern-Software-Engineering-Discipline-Development/dp/0137314914) (ISBN: 978-0137314911)
 - [David Farley's Blog & YouTube Channel](https://www.davefarley.net/)

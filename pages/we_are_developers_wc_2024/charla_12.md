@@ -57,8 +57,14 @@ flowchart LR
 1. **Quantum Machine Learning (QML)**
 2. **Problemas de optimización** (logistics, portfolio optimization, drug discovery)
 
-## References
+## Referencias
 
 - [Shor's Algorithm — Wikipedia](https://en.wikipedia.org/wiki/Shor%27s_algorithm)
 - [Quantum Computing — Wikipedia](https://en.wikipedia.org/wiki/Quantum_computing)
 - [IBM Quantum — Official Site](https://www.ibm.com/quantum)
+
+## Notas relacionadas
+
+- [Architecting the future: AI, Cloud y datos](charla_04.md)
+- [Generative AI](../software_engineering/generative_ai.md)
+- [Cybersecurity: h4ck3d](../cybersecurity/cybersecurity_h4ck3d.md)

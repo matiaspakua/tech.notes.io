@@ -68,3 +68,10 @@ flowchart LR
 - [Day #01 — YouTube](https://lnkd.in/dn3J_Rxj)
 - [Day #02 — YouTube](https://lnkd.in/dwwK55Rm)
 - [Day #03 — YouTube](https://lnkd.in/dtXTGXn6)
+
+## Notas relacionadas
+
+- [Cybersecurity Foundations](cybersecurity_foundations.md)
+- [IT Security Foundations: Core Concepts](it_security_foundations_core_concepts.md)
+- [DevSecOps Foundations](dev_sec_ops_foundations.md)
+- [Falco: Runtime Security para contenedores](falco_runtime_security_for_container.md)

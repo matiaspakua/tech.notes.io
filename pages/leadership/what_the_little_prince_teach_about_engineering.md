@@ -71,7 +71,7 @@ flowchart TD
 
 Antoine de Saint-Exupéry tuvo una conexión muy intensa con la Patagonia argentina porque laburó como piloto de correo aéreo para la Aeroposta Argentina en los años 30. Le tocaba volar rutas bien largas y solitarias que pasaban por esa región, incluyendo Península Valdés. Dicen que la inmensidad y la belleza medio desolada de la Patagonia lo inspiraron en varias de sus obras. De hecho, se comenta que algunos pasajes de _El Principito_ y otros libros reflejan un poco esa mezcla de soledad y maravilla que sintió mientras sobrevolaba esos paisajes argentinos.
 
-## Referencia
+## Referencias
 
 - _**El Principito**_ — Antoine de Saint-Exupéry, 1943
 - [El principito — Wikipedia](https://es.wikipedia.org/wiki/El_principito)

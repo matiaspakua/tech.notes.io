@@ -59,7 +59,7 @@ Ejemplo:
 4. Escribir los acceptance criteria y automatizar los tests asociados
 5. Los NFR demandan mucho tiempo — priorizar qué testear y cómo
 
-## References
+## Referencias
 
 - [ISO/IEC 25010:2023 — Systems and software Quality Requirements and Evaluation (SQuaRE)](https://www.iso.org/standard/35733.html)
 - [Non-Functional Requirements — Wikipedia](https://en.wikipedia.org/wiki/Non-functional_requirement)

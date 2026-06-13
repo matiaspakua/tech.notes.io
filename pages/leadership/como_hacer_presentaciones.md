@@ -132,3 +132,9 @@ flowchart TD
 
 - [How to Speak — Patrick Winston (MIT OpenCourseWare)](https://ocw.mit.edu/courses/res-tll-005-how-to-speak-january-iap-2018/)
 - [How to Speak (video) — Patrick Winston, MIT](https://www.youtube.com/watch?v=Unzc731iCUY)
+
+## Notas relacionadas
+
+- [How to Speak — Patrick Winston](how_to_speak_by_patrick_winston.md)
+- [Visual Thinking: Piensa haciendo dibujos](../cursos/visual_thinking.md)
+- [Dev to Tech Lead](dev_to_tech_lead.md)

@@ -72,7 +72,7 @@ flowchart LR
 
 Ejemplo: Smart Home threat modeling (disponible en GitHub de OWASP Threat Dragon).
 
-## References
+## Referencias
 
 - [OWASP Threat Modeling — OWASP Foundation](https://owasp.org/www-community/Threat_Modeling)
 - [OWASP Threat Dragon — GitHub](https://github.com/OWASP/threat-dragon)

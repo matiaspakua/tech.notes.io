@@ -579,10 +579,10 @@ Projects that start and stop frequently, with the team scattered at each shutdow
 ---
 
 
-# References
+## References
 
 - [Extreme Programming Explained: Embrace Change — Kent Beck, Cynthia Andres, 2nd ed. 2004](https://www.amazon.com/Extreme-Programming-Explained-Embrace-Change/dp/0321278658) (ISBN: 978-0321278654)
-- [XP Programming — Rules and Practices](http://www.extremeprogramming.org/rules.html)
+- [XP Programming — Rules and Practices](https://www.extremeprogramming.org/rules.html)
 - [Conway's Law — Wikipedia](https://en.wikipedia.org/wiki/Conway%27s_law)
 - [Theory of Constraints in Software Development](https://www.eferro.net/2023/11/harnessing-efficiency-theory-of.html)
 

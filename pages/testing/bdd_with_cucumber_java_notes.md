@@ -66,7 +66,7 @@ More than three people might attend a three amigos meeting, because:
 
 In every meeting new business rules or user scenario can be discovered. The whole purpose of the three amigos meeting is to **_discover_** things about the story that weren't previously obvious. We should expect to learn new things during a three amigos meeting.
 
-## Reference
+## Referencias
 
  - [BDD with Cucumber (Java) — Cucumber School](https://school.cucumber.io/courses/take/bdd-with-cucumber-java)
 

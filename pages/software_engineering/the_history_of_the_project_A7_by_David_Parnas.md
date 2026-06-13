@@ -75,3 +75,8 @@ These contributions have had a lasting impact on the field of software engineeri
 - [David Lorge Parnas — Wikipedia](https://en.wikipedia.org/wiki/David_Parnas)
 
 ![A7E project](../../images/history_of_a7e_project_by_Paul_Clements.jpeg)
+## Notas relacionadas
+
+- [Sustainable Software Architecture](../sw_and_system_architecture/sustainable_software_architecture.md)
+- [Modern Software Engineering](../books/modern_software_engineering.md)
+- [Software Architecture — Contenidos](../sw_eng_specialization/software_architecture/contenidos.md)

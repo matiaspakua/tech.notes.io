@@ -59,7 +59,7 @@ El problema: un `SELECT` que necesita datos distribuidos en diferentes servidore
 > **KISS siempre**: antes de caer en sharding, asegurarse de haber agotado
 > todas las optimizaciones y estrategias más simples.
 
-## References
+## Referencias
 
 - [Database Sharding — Wikipedia](https://en.wikipedia.org/wiki/Shard_(database_architecture))
 - [CAP Theorem — Wikipedia](https://en.wikipedia.org/wiki/CAP_theorem)

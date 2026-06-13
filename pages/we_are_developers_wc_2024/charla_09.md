@@ -42,7 +42,7 @@ flowchart LR
     G --> D["Documentación\nautomática"]
 ```
 
-## References
+## Referencias
 
 - [OpenAPI Specification — OpenAPI Initiative](https://spec.openapis.org/oas/latest.html)
 - [go-swagger — GitHub](https://github.com/go-swagger/go-swagger)

@@ -175,3 +175,10 @@ Un proceso de incorporación bien estructurado puede facilitar significativament
 - [Difficult Conversations — Douglas Stone, Bruce Patton, Sheila Heen, 1999](https://www.goodreads.com/book/show/774088.Difficult_Conversations) (ISBN: 978-0143118442)
 - [Measure What Matters — John Doerr, 2018](https://www.goodreads.com/book/show/39286958-measure-what-matters) (ISBN: 978-0525536222)
 - [The Culture Code — Daniel Coyle, 2018](https://www.goodreads.com/book/show/33517721-the-culture-code) (ISBN: 978-0804176989)
+
+## Notas relacionadas
+
+- [Inteligencia Emocional](emotional_intelligence.md)
+- [Resolución de Conflictos](resolucion_de_conflictos.md)
+- [Gestión de Equipos](../sw_eng_specialization/team_driving_and_human_resource_management.md)
+- [Gestión del Tiempo](time_management.md)

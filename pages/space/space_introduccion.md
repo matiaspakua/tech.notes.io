@@ -311,3 +311,9 @@ El sector espacial ofrece oportunidades excepcionales para ingenieros con formac
 - [Galileo — Sistema Europeo de Navegación por Satélite — ESA](https://www.esa.int/Applications/Navigation/Galileo)
 - [Copernicus — Programa de Observación de la Tierra — ESA](https://www.esa.int/Applications/Observing_the_Earth/Copernicus)
 - [Iris² — Comunicaciones seguras europeas](https://www.esa.int/Applications/Telecommunications_Integrated_Applications/IRIS)
+## Notas relacionadas
+
+- [Videos del sector espacial](all_videos.md)
+- [Propagación Orbital y Python](orbit_propagation.md)
+- [Generative AI](../software_engineering/generative_ai.md)
+- [Fundamentos de Estadística y ML](../artificial_intelligence/ruta_de_aprendisaje/1.fundamentos_inteligencia_artificial/2_fundamentos_estadistica_aprendizaje_automatico.md)

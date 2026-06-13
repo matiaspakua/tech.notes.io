@@ -160,11 +160,11 @@ In this example we create a custom class with 2 keyword. RobotFramework allows y
 
 ## Test Executor and the Command and Control environment
 
-// TODO
+El ejecutor de pruebas coordina la ejecución de los scripts RobotFramework contra el sistema bajo prueba (SUT), enviando comandos a través del entorno de Command & Control (C2). El C2 actúa como intermediario entre los test cases y el hardware del satélite o subsistema.
 
 ## Procedures Database
 
-// TODO
+La base de datos de procedimientos almacena los pasos de prueba estandarizados, secuencias de verificación y scripts de automatización reutilizables. Permite mantener trazabilidad entre requisitos, procedimientos y resultados de prueba.
 
 ## Testing Platform Architecture
 
@@ -187,7 +187,7 @@ flowchart TD
     TR --> REP
 ```
 
-## References
+## Referencias
 
 - [Robot Framework — Official Documentation](https://robotframework.org/)
 - [Robot Framework User Guide](https://robotframework.org/robotframework/latest/RobotFrameworkUserGuide.html)

@@ -81,7 +81,7 @@ Soluciones:
 
 Entender y aplicar estándares: por ejemplo, los status codes de HTTP ya resuelven la semántica de las respuestas — no inventar un sistema propio.
 
-## References
+## Referencias
 
 - [Enterprise Integration Patterns — Gregor Hohpe & Bobby Woolf, Addison-Wesley, 2003](https://www.enterpriseintegrationpatterns.com/)
 - [Microservices.io — Chris Richardson](https://microservices.io/)

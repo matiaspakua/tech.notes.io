@@ -70,3 +70,9 @@ Esta configuración debe ser cargada antes que nada, lo primero para que sea rec
 - [awslabs/frontend-discovery — GitHub](https://github.com/awslabs/frontend-discovery)
 - [awslabs/frontend-discovery-service — GitHub](https://github.com/awslabs/frontend-discovery-service)
 
+
+## Notas relacionadas
+
+- [Kubernetes](../general_topic/kubernetes.md)
+- [Durable Execution — Temporal.io](charla_06.md)
+- [Platform Engineering](charla_10.md)
