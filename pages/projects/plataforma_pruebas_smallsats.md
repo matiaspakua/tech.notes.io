@@ -166,6 +166,38 @@ In this example we create a custom class with 2 keyword. RobotFramework allows y
 
 // TODO
 
+## Testing Platform Architecture
+
+```mermaid
+flowchart TD
+    TC["Test Cases\n(RobotFramework .robot)"]
+    KW["Keyword Libraries\n(Python)"]
+    TR["Test Runner\n(RobotFramework)"]
+    CC["Command & Control Console\n(estimula SUT)"]
+    SUT["SUT/DUT\n(Satélite / Subsistema)"]
+    TM["Telemetry Monitor\n(recibe datos)"]
+    REP["Test Reports\n(HTML / XML)"]
+
+    TC --> TR
+    KW --> TR
+    TR --> CC
+    CC -- MIL1553 / CAN / SPACEWIRE --> SUT
+    SUT -- telemetría --> TM
+    TM --> TR
+    TR --> REP
+```
+
 ## References
 
- - [Satellite Engineering](https://www.intechopen.com/chapters/72725)
+- [Robot Framework — Official Documentation](https://robotframework.org/)
+- [Robot Framework User Guide](https://robotframework.org/robotframework/latest/RobotFrameworkUserGuide.html)
+- [Satellite Engineering — IntechOpen](https://www.intechopen.com/chapters/72725)
+- [ESA ECSS Standards for Software Testing — European Space Agency](https://ecss.nl/standard/ecss-e-st-40c-software/)
+- [Keyword-Driven Testing — Dorothy Graham & Mark Fewster](https://www.keytestingbook.com/)
+
+## Notas relacionadas
+
+- [BDD con Cucumber](../testing/bdd_with_cucumber_java_notes.md)
+- [Gherkin y Automatización](../testing/gherkin_and_automation.md)
+- [TDD y BDD](../testing/on_unit_test_tdd_and_bdd.md)
+- [Introducción al Sector Espacial](../space/space_introduccion.md)

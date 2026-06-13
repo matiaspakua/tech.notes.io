@@ -63,15 +63,20 @@ tags:
    - **Descripción**: Construye un dashboard interactivo para visualizar y analizar grandes conjuntos de datos en tiempo real usando Apache Spark y Hadoop para el procesamiento de datos masivos.
    - **Enfoque**: Big Data, procesamiento de datos a gran escala, visualización de datos.
 
-### Minio test:
-https://lf-onap.atlassian.net/wiki/spaces/DW/pages/99057714/Spring+Boot+MinIO+Integration+Lab+and+Exercises
+### 11. **Integración con MinIO (Object Storage)**
+   - **Tecnologías**: Spring Boot, MinIO, Docker
+   - **Referencia**: [Spring Boot MinIO Integration Lab — ONAP](https://lf-onap.atlassian.net/wiki/spaces/DW/pages/99057714/Spring+Boot+MinIO+Integration+Lab+and+Exercises)
+   - **Enfoque**: Object storage, S3-compatible API, integración con Spring.
 
-### rabbit MQ example
+## Referencias
 
-### DDD example
+- [Spring Boot Reference Documentation](https://docs.spring.io/spring-boot/docs/current/reference/html/)
+- [Building Microservices — Sam Newman, O'Reilly, 2015](https://samnewman.io/books/building_microservices/)
+- [Clean Architecture — Robert C. Martin, Prentice Hall, 2017](https://www.oreilly.com/library/view/clean-architecture-a/9780134494272/)
 
-### Port-and-adapters example
+## Notas relacionadas
 
-### Kafka example
-
-
+- [Spring Framework](../development/spring_framework_notes.md)
+- [REST API Notes](../development/on_rest_api_notes.md)
+- [DevSecOps Foundations](../cybersecurity/dev_sec_ops_foundations.md)
+- [Architecture — Hexagonal](../sw_and_system_architecture/on_hexagonal_architecture_notes.md)
