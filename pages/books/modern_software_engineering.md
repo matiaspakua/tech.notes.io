@@ -74,6 +74,30 @@ tags:
 
 ## 3. Fundamentals of an Engineering Approach
 
+```mermaid
+flowchart TD
+    SE["🏗️ Modern Software Engineering\n(Dave Farley)"]
+
+    SE --> LEARN["📚 Expert at Learning"]
+    SE --> COMPLEX["🧩 Expert at Managing Complexity"]
+
+    LEARN --> WI["🔄 Working Iteratively"]
+    LEARN --> FB["📣 Fast Feedback"]
+    LEARN --> INC["📈 Incrementalism"]
+    LEARN --> EMP["🔬 Empiricism"]
+    LEARN --> EXP["🧪 Being Experimental"]
+
+    COMPLEX --> MOD["🧱 Modularity"]
+    COMPLEX --> COH["🎯 Cohesion"]
+    COMPLEX --> SOC["↔️ Separation of Concerns"]
+    COMPLEX --> ABS["🔒 Information Hiding\n& Abstraction"]
+    COMPLEX --> COU["🔗 Coupling\n(manage and minimize)"]
+
+    style SE fill:#1e1e2e,stroke:#bd93f9,color:#f8f8f2
+    style LEARN fill:#1e1e2e,stroke:#61dafb,color:#f8f8f2
+    style COMPLEX fill:#1e1e2e,stroke:#50fa7b,color:#f8f8f2
+```
+
 1. **The important of measurements**: The most important concepts are stability and throughput. Stability is tracked by:
 	1. Change Failure Rate
 	2. Recovery Failure time

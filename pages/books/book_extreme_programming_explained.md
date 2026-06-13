@@ -129,6 +129,31 @@ tags:
 3. Bringing values together with practices means that the programmer can perform practice, in this case **root-cause** analysis, at effective times and for good reasons. Values bring purpose to practices.
 4. Principles: are domain-specific guidelines for life.
 
+```mermaid
+flowchart TD
+    V["💎 Values\n(el 'por qué')"]
+    P["📐 Principles\n(guías de dominio)"]
+    PR["🔧 Practices\n(el 'cómo')"]
+
+    V --> P --> PR
+
+    V --> V1["💬 Communication"]
+    V --> V2["🎯 Simplicity"]
+    V --> V3["📣 Feedback"]
+    V --> V4["💪 Courage"]
+    V --> V5["🤝 Respect"]
+
+    PR --> PR1["🧪 TDD\n(Test-First)"]
+    PR --> PR2["👥 Pair Programming"]
+    PR --> PR3["🔄 CI / Small Releases"]
+    PR --> PR4["🔁 Refactoring"]
+    PR --> PR5["📋 Planning Game"]
+
+    style V fill:#1e1e2e,stroke:#ffd700,color:#f8f8f2
+    style P fill:#1e1e2e,stroke:#bd93f9,color:#f8f8f2
+    style PR fill:#1e1e2e,stroke:#50fa7b,color:#f8f8f2
+```
+
 ![](../../images/xp_practices_values_principles.png)
 
 **Reference**: Image from the book Extreme programming by Kent Beck
