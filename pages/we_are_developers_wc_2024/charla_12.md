@@ -11,33 +11,42 @@ tags:
 
 [← Inicio](https://matiaspakua.github.io/tech.notes.io)
 
-## introducción
+## Introducción
 
-La computación clásica será "aumentada" por QC
-Quantum Computing Processing Unit (QPU)
+La computación clásica será **aumentada** por Quantum Computing (QC), no reemplazada. La unidad de procesamiento se llama **QPU** (Quantum Computing Processing Unit).
 
 La gran diferencia:
 
-Bit (0,1) hacia 2exp"n" vs Quantum Bit (0,1) o al mismo tiempo a traves de superposición.
-por lo tanto n QBIT pueden representar 2 EXP "n" simultaneamente.
-La superposición en si no sirve de mucho por que el resultado VERDADERO se mecla con todos los resultados FALSOS superpuestos (ejecutados simulataneamente).
+| | Computación Clásica | Computación Cuántica |
+|---|---|---|
+| Unidad básica | Bit (0 ó 1) | Qubit (0, 1, o ambos simultáneamente) |
+| Estados posibles con n unidades | 2^n estados **secuenciales** | 2^n estados **simultáneos** |
 
-Quantum Fourier Transformation
+La <mark style="background: #FFF3A3A6;">superposición</mark> en sí no sirve de mucho porque el resultado verdadero se mezcla con todos los resultados falsos superpuestos. Aquí entra la **Quantum Fourier Transformation** para extraer los resultados relevantes.
 
-## Caso de ejemplo: algorimo quantum para romper encriptación (RSA)
+## Caso de ejemplo: Algoritmo de Shor (romper RSA)
 
-Shor's Algorithm.
+Demostración matemática de cómo se podría resolver una encriptación usando quantum computing.
 
-Demostración matematica de como se podria resolver una encriptación usando quantum compuint.
+El punto principal: los QPU solo harán **parte** del trabajo de procesamiento, apoyándose en la computación clásica. El flujo es:
 
-El punto principal es que la computación quantica y los QPU solo harrán parte del trabajo de procesamiento, basandose en la computación clasica. Entonces, para resolver el problema de encriptación, primero se plantea el problema de forma clasica y luego se pasa la "carga" de procesamiento a QPU quien hara un procesamiento en paralelo y simultaneo para todas las alternativas para resolver el problema de cifrado. De todas los resultados en simulataneo, solo se toma los "resultados" más probables.
+1. Se plantea el problema de forma clásica
+2. Se pasa la "carga" de procesamiento al QPU
+3. El QPU procesa en paralelo y simultáneamente todas las alternativas
+4. De todos los resultados simultáneos, solo se toman los más probables
 
 ## Problemas actuales
 
-1. Para resolver el algoritmo de shor, RSA-2048 se necesitan 2 millones de QBIT.
-2. Error corrección: como corregir las interferencias que puedan hacer colapsar el calculo.
+1. Para resolver el algoritmo de Shor sobre RSA-2048 se necesitan **2 millones de qubits** (actualmente existen procesadores de ~1000 qubits)
+2. **Error correction**: cómo corregir las interferencias que pueden hacer colapsar el cálculo (decoherencia)
 
 ## Aplicaciones prácticas
 
-1. Quantum Machine Learning (QML)
-2. Optiization problem
+1. **Quantum Machine Learning (QML)**
+2. **Problemas de optimización** (logistics, portfolio optimization, drug discovery)
+
+## References
+
+- [Shor's Algorithm — Wikipedia](https://en.wikipedia.org/wiki/Shor%27s_algorithm)
+- [Quantum Computing — Wikipedia](https://en.wikipedia.org/wiki/Quantum_computing)
+- [IBM Quantum — Official Site](https://www.ibm.com/quantum)

@@ -5,29 +5,43 @@ tags:
   - we-are-developers
   - 2024
   - notas
+  - cloud
 ---
 
 # Serverless Java in action: cloud agnostic design patterns and tips
 
 [← Inicio](https://matiaspakua.github.io/tech.notes.io)
 
-## sobre el uso 
+## Serverless: el modelo de uso
 
-graficos que demuestra que serverless solo usaitlizas los recursos cuando los necesitas, o sea, cuando la cantidad de request aumenta, entonces el ambiente se encarga de crear instancias y bajarlas.
+Serverless solo utiliza los recursos cuando los necesitás. Cuando la cantidad de requests aumenta, el ambiente se encarga de crear instancias y bajarlas automáticamente (auto-scaling a cero incluido).
 
-## Java & Serverless
+Frameworks de referencia para Java: <mark style="background: #FFF3A3A6;">Quarkus</mark> (supersonic, subatomic Java).
 
-supersonix, subatomic java quarkus
-el problem se ve cuando los vendor exijen que se importen funciones especifcicas  o librerias del SDK de cada vendor en nuestro código, esto lo hace imposible de migarr.
+## Java & Serverless: el problema del vendor lock-in
 
-1. AWS lambdas, functions ==> tiene dependencias del vendor
-2. Serverless container => ahora no tenemos dependencias de librerias, pero si de como conectar los componentes/containers, depedendemos de la infraestructura del vendor.
-3. Kubernestes esta en la base de todo, existe un proyecto "knative" para deployar serverless sobre kubernetes.
+El problema se ve cuando los vendors exigen que se importen funciones específicas o librerías del SDK de cada vendor en nuestro código. Esto hace imposible migrar.
+
+Evolución de las opciones:
+
+```mermaid
+flowchart TD
+    A["1. AWS Lambdas / Functions\n(dependencias del vendor en el código)"]
+    B["2. Serverless Containers\n(sin dependencias de librerías,\npero depende de la infra del vendor)"]
+    C["3. Kubernetes + Knative\n(cloud-agnostic, portátil)"]
+    A --> B --> C
+    style C fill:#BBFABBA6,color:#000
+```
 
 ## Knative
 
-knative eventing usage pattern
+Proyecto que permite deployar funciones serverless sobre Kubernetes usando el patrón *knative eventing*. Desacopla el código de la infraestructura del vendor.
 
-## Demo
+## References
 
-demostración de como se escala una app en serverless.
+- [Quarkus — Supersonic Subatomic Java](https://quarkus.io/)
+- [Knative — Kubernetes-based Serverless](https://knative.dev/)
+
+## Notas relacionadas
+
+- [Charla MeetUp DevOps BCN — Kubernetes](../general_topic/kubernetes.md)
