@@ -11,6 +11,31 @@ tags:
 
 
 
+## Stack Tecnológico por Proyecto
+
+```mermaid
+flowchart LR
+    CORE["☕ Spring Boot\n(backend común)"]
+
+    CORE --> SEC["🔐 Proyecto 1\nSeguridad OAuth2/JWT\nSpring Security + React + PG"]
+    CORE --> EDA["📨 Proyecto 2\nEvent-Driven\nKafka + Docker + React"]
+    CORE --> WS["⚡ Proyecto 3\nReal-Time\nRabbitMQ + WebSockets + MongoDB"]
+    CORE --> OBS["📊 Proyecto 4\nObservabilidad\nActuator + Prometheus + Grafana"]
+    CORE --> SRCH["🔍 Proyecto 5\nBúsqueda Avanzada\nElasticsearch + React"]
+    CORE --> BTCH["⚙️ Proyecto 6\nTareas Asíncronas\nSpring Batch + Scheduler"]
+    CORE --> CICD["🚀 Proyecto 7\nCI/CD\nJenkins + Docker + K8s"]
+    CORE --> TDD["🧪 Proyecto 8\nTDD\nJUnit + Selenium"]
+    CORE --> CACHE["🗄️ Proyecto 9\nCaching\nRedis + Spring Cache"]
+    CORE --> BIG["📈 Proyecto 10\nBig Data\nApache Spark + Hadoop"]
+
+    style CORE fill:#1e1e2e,stroke:#ffd700,color:#f8f8f2
+    style SEC fill:#1e1e2e,stroke:#ff5555,color:#f8f8f2
+    style EDA fill:#1e1e2e,stroke:#61dafb,color:#f8f8f2
+    style OBS fill:#1e1e2e,stroke:#50fa7b,color:#f8f8f2
+    style CICD fill:#1e1e2e,stroke:#bd93f9,color:#f8f8f2
+    style TDD fill:#1e1e2e,stroke:#64ffda,color:#f8f8f2
+```
+
 ### 1. **Sistema de Gestión de Usuarios con Autenticación y Autorización (OAuth2/Spring Security)**
    - **Tecnologías**: Spring Boot, Spring Security, OAuth2, JWT, React, PostgreSQL
    - **Descripción**: Desarrolla una aplicación que permita la creación, autenticación y autorización de usuarios mediante OAuth2 y JWT, usando PostgreSQL como base de datos. Implementa diferentes roles de usuario con permisos específicos.
