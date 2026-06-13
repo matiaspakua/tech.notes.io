@@ -17,6 +17,43 @@ tags:
 
 **Analisis, Diseño y Programación Orientada a Objetos con Java**
 
+### Los 4 pilares de la OOP en Java
+
+```mermaid
+classDiagram
+    class Objeto {
+        +atributos
+        +metodos()
+    }
+    class Abstraccion {
+        <<concepto>>
+        Modelar solo lo esencial
+        Ocultar detalles irrelevantes
+    }
+    class Encapsulamiento {
+        <<concepto>>
+        -camposPrivados
+        +gettersSetters()
+        Proteger estado interno
+    }
+    class Herencia {
+        <<concepto>>
+        extends Padre
+        Reutilizar comportamiento
+        Jerarquía de tipos
+    }
+    class Polimorfismo {
+        <<concepto>>
+        @Override metodo()
+        interface Contrato
+        Un tipo, muchas formas
+    }
+    Objeto <|-- Abstraccion
+    Objeto <|-- Encapsulamiento
+    Objeto <|-- Herencia
+    Objeto <|-- Polimorfismo
+```
+
 # Índice de contenido
 
 [Introducción](\#introducción)  
