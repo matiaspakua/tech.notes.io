@@ -1,6 +1,9 @@
 ---
 title: "Master en Dirección Tecnológica — laSalle BCN"
 nav_order: 11
+tags:
+  - master
+  - notas
 ---
 
 # Master en Dirección Tecnológica e Innovación Digital

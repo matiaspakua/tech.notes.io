@@ -7,6 +7,8 @@ tags:
 
 # Visual Thinking: Piensa haciendo dibujos.
 
+[← Inicio](https://matiaspakua.github.io/tech.notes.io)
+
 ![400x400](../../images/conways_law_example.jpeg)
 
 ---
@@ -176,7 +178,7 @@ Link: [Doodlers, Unite! — Sunni Brown (YouTube)](https://youtu.be/7fx0QcHyrFk?
 ### Otras Herramientas: Obsidian
 
 
-[[design_thinking_explained]]
+[Design Thinking Explained](../general_topic/design_thinking_explained.md)
 
 
 ![](../../images/obsidian_graph_diagram.png)

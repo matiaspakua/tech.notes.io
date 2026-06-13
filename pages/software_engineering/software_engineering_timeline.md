@@ -7,6 +7,8 @@ tags:
 
 # Software Engineering Timeline
 
+[← Inicio](https://matiaspakua.github.io/tech.notes.io)
+
 I start reading 3 books about software engineering / development. My initial intention was to identify which problems still arise in the software industry and learn from the authors: WHY those problems exists, advises on how to solve and (with this writing) share what I found to improve and help our industry.
 
 ## The books and the Timeline
