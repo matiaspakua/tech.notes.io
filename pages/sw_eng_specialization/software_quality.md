@@ -14,6 +14,35 @@ tags:
 
 --- 
 
+## Modelo de Calidad ISO 25010
+
+```mermaid
+flowchart TD
+    Q["🏆 Calidad de Software\n(ISO 25010:2023)"]
+
+    Q --> FUNC["⚙️ Adecuación\nFuncional"]
+    Q --> PERF["⚡ Eficiencia de\nRendimiento"]
+    Q --> COMPAT["🔗 Compatibilidad"]
+    Q --> USE["👤 Usabilidad"]
+    Q --> REL["🛡️ Confiabilidad"]
+    Q --> SEC["🔒 Seguridad"]
+    Q --> MAINT["🔧 Mantenibilidad"]
+    Q --> PORT["📦 Portabilidad"]
+
+    MAINT --> ANA["Analizabilidad"]
+    MAINT --> MOD["Modificabilidad"]
+    MAINT --> TEST["Testeabilidad"]
+
+    REL --> AVAIL["Disponibilidad"]
+    REL --> FT["Tolerancia a fallos"]
+    REL --> REC["Recuperabilidad"]
+
+    style Q fill:#1e1e2e,stroke:#ffd700,color:#f8f8f2
+    style MAINT fill:#1e1e2e,stroke:#61dafb,color:#f8f8f2
+    style SEC fill:#1e1e2e,stroke:#ff5555,color:#f8f8f2
+    style REL fill:#1e1e2e,stroke:#50fa7b,color:#f8f8f2
+```
+
 ## Contenidos
 
 Introducción a la calidad. Aseguramiento, control y mejora de la calidad. La calidad en el ciclo de vida del producto de software. El proceso de desarrollo de software. Estándares de calidad del producto. Gestión de Procesos. Conceptos básicos Definición, medición, control y mejora. Modelado de procesos, herramientas, métodos. Desarrollo de un modelo de procesos de desarrollo de software. Calidad asociada a los procesos. Dominios de la Ingeniería de Software relacionada a los procesos de desarrollo. 
