@@ -26,6 +26,21 @@ Panel sobre cómo las grandes empresas están arquitectando sus soluciones con A
 - **Microsoft**: integra Copilot como plataforma central. Los clientes construyen encima.
 - **Salesforce**: LLM propio entrenado con datos del cliente para mantener privacidad y personalización.
 
+### Cómo las grandes empresas introducen AI
+
+```mermaid
+flowchart LR
+    ENT["🏢 Empresa"] --> PLAT["🤖 AI Platform\n(Copilot / LLM propio)"]
+    PLAT --> USE1["📝 Generación de código\ny documentación"]
+    PLAT --> USE2["🔍 Análisis de datos\ny predicciones"]
+    PLAT --> USE3["💬 Asistentes\nconversacionales"]
+    PRIV["🔒 Datos privados\ndel cliente"] --> TRAIN["⚙️ Fine-tuning\no RAG"]
+    TRAIN --> PLAT
+
+    style PLAT fill:#1e1e2e,stroke:#bd93f9,color:#f8f8f2
+    style PRIV fill:#1e1e2e,stroke:#ffd700,color:#f8f8f2
+```
+
 ## Quantum: el límite del silicio
 
 El nuevo paradigma que será esencial para acelerar los LLM, que cada vez requieren más datos y más procesamiento. El enfoque actual:

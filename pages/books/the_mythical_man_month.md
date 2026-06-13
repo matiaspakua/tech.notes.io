@@ -41,6 +41,23 @@ tags:
 
 ## Chapter 2. The mythical Man Month.
 
+### Brooks's Law visualizado
+
+```mermaid
+flowchart LR
+    LAT["⏰ Proyecto\ntardío"] -->|"solución intuitiva"| ADD["➕ Agregar\npersonas"]
+    ADD -->|"más canales de comunicación\nn*(n-1)/2"| COM["💬 Overhead de\ncomunicación"]
+    COM -->|"curva de aprendizaje\n+ distracción del equipo"| MORE["⏳ Más tardío\naún"]
+    MORE -->|"Brooks's Law"| LAT
+
+    style LAT fill:#1e1e2e,stroke:#ff5555,color:#f8f8f2
+    style ADD fill:#1e1e2e,stroke:#ffd700,color:#f8f8f2
+    style COM fill:#1e1e2e,stroke:#ff9f43,color:#f8f8f2
+    style MORE fill:#1e1e2e,stroke:#ff5555,color:#f8f8f2
+```
+
+> "Adding manpower to a late software project makes it later." — Fred Brooks, 1975
+
 ---
 
 ## References
