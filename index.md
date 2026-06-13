@@ -35,36 +35,168 @@ nav_order: 1
 
 ---
 
-## 🗺️ Mapa de conocimiento
+## 🌐 Nube de conocimiento
 
-```mermaid
-flowchart LR
-    TN(("Tech Notes"))
-    TN --> SE["Ingeniería de Software"]
-    TN --> DEV["Desarrollo"]
-    TN --> IA["Inteligencia Artificial"]
-    TN --> CD["Cloud y Datos"]
-    TN --> SEC["Ciberseguridad"]
-    TN --> LID["Liderazgo"]
-    TN --> POS["Posgrados"]
-    SE --> SE1["Agile · Scrum · Waterfall"]
-    SE --> SE2["Hexagonal · Vertical Slice"]
-    SE --> SE3["TDD · BDD · Gherkin"]
-    DEV --> DEV1["Java · Spring"]
-    DEV --> DEV2["REST · OpenAPI"]
-    DEV --> DEV3["Concurrencia · C"]
-    IA --> IA1["ML · DL"]
-    IA --> IA2["LLMs · GenAI"]
-    CD --> CD1["Cloud Computing"]
-    CD --> CD2["NoSQL"]
-    SEC --> SEC1["DevSecOps"]
-    SEC --> SEC2["Web Security"]
-    LID --> LID1["Comunicación · Tiempo"]
-    POS --> POS1["UCA · UP · laSalle"]
-```
+<div style="border-radius:14px;border:1px solid #30363d;box-shadow:0 4px 24px rgba(0,0,0,0.5),0 0 48px rgba(100,255,218,0.05);overflow:hidden;margin:0.5rem 0 1rem;">
+<canvas id="ws-canvas" style="display:block;width:100%;cursor:default;"></canvas>
+</div>
+
+<script>
+(function(){
+  var canvas = document.getElementById('ws-canvas');
+  if (!canvas) return;
+  var dpr = window.devicePixelRatio || 1;
+  var W = Math.max(320, Math.min(900, (canvas.parentElement.offsetWidth || 720) - 2));
+  var H = Math.round(W * 0.44);
+  canvas.width = W * dpr; canvas.height = H * dpr;
+  canvas.style.width = W + 'px'; canvas.style.height = H + 'px';
+  var ctx = canvas.getContext('2d');
+  ctx.scale(dpr, dpr);
+
+  var CX = W/2, CY = H/2;
+  var R = Math.min(W, H) * 0.41;
+  var BASE = Math.max(10, Math.floor(W * 0.021));
+
+  var DATA = [
+    {t:"Java",         w:9, u:"pages/development/on_java_notes"},
+    {t:"Spring Boot",  w:8, u:"pages/development/getting_started_spring_development"},
+    {t:"Architecture", w:9, u:"pages/sw_and_system_architecture/on_hexagonal_architecture_notes"},
+    {t:"Testing",      w:8, u:"pages/testing/on_unit_test_tdd_and_bdd"},
+    {t:"DevOps",       w:8, u:"pages/cybersecurity/dev_sec_ops_foundations"},
+    {t:"Agile",        w:8, u:"pages/software_engineering/agile_and_scrum"},
+    {t:"Scrum",        w:7, u:"pages/software_engineering/agile_and_scrum"},
+    {t:"AI",           w:9, u:"pages/artificial_intelligence/ruta_de_aprendisaje/1.fundamentos_inteligencia_artificial/1_conceptos_generales"},
+    {t:"Machine Learning",w:7,u:"pages/artificial_intelligence/ruta_de_aprendisaje/1.fundamentos_inteligencia_artificial/2_fundamentos_estadistica_aprendizaje_automatico"},
+    {t:"Cloud",        w:8, u:"pages/general_topic/specialization_building_cloud_computing_solutions_at_scale"},
+    {t:"Docker",       w:7, u:"pages/general_topic/specialization_building_cloud_computing_solutions_at_scale"},
+    {t:"Security",     w:7, u:"pages/cybersecurity/cybersecurity_foundations"},
+    {t:"TDD",          w:8, u:"pages/testing/on_unit_test_tdd_and_bdd"},
+    {t:"BDD",          w:7, u:"pages/testing/bdd_with_cucumber_java_notes"},
+    {t:"Microservices",w:7, u:"pages/sw_and_system_architecture/vertical_slicing_architectures"},
+    {t:"REST API",     w:7, u:"pages/development/on_rest_api_notes"},
+    {t:"Git",          w:7, u:"pages/development/git_and_gitflow_trunk_based_dev"},
+    {t:"Kubernetes",   w:6, u:"pages/general_topic/kubernetes"},
+    {t:"NoSQL",        w:6, u:"pages/general_topic/nosql_the_basis_of"},
+    {t:"GenAI",        w:8, u:"pages/software_engineering/generative_ai"},
+    {t:"LLM",          w:7, u:"pages/software_engineering/generative_ai"},
+    {t:"Serverless",   w:6, u:"pages/we_are_developers_wc_2024/charla_20"},
+    {t:"Hexagonal",    w:6, u:"pages/sw_and_system_architecture/on_hexagonal_architecture_notes"},
+    {t:"DevSecOps",    w:7, u:"pages/cybersecurity/dev_sec_ops_foundations"},
+    {t:"Quantum",      w:5, u:"pages/we_are_developers_wc_2024/charla_12"},
+    {t:"OpenAPI",      w:6, u:"pages/development/OpenApi"},
+    {t:"Gherkin",      w:6, u:"pages/testing/gherkin_and_automation"},
+    {t:"Leadership",   w:7, u:"pages/leadership/dev_to_tech_lead"},
+    {t:"Data",         w:7, u:"pages/we_are_developers_wc_2024/charla_19"},
+    {t:"Maven",        w:5, u:"pages/development/maven"},
+    {t:"CI/CD",        w:8, u:"pages/cybersecurity/dev_sec_ops_foundations"},
+    {t:"Concurrencia", w:6, u:"pages/development/concurrencia_java"},
+    {t:"Patterns",     w:7, u:"pages/sw_and_system_architecture/sustainable_software_architecture"},
+    {t:"Waterfall",    w:6, u:"pages/software_engineering/waterfall"},
+    {t:"XP",           w:6, u:"pages/books/book_extreme_programming_explained"},
+    {t:"Python",       w:6, u:"pages/artificial_intelligence/ruta_de_aprendisaje/1.fundamentos_inteligencia_artificial/1_conceptos_generales"},
+    {t:"Space",        w:5, u:"pages/space/space_introduccion"},
+    {t:"Liderazgo",    w:6, u:"pages/leadership/dev_to_tech_lead"},
+    {t:"Spring Data",  w:5, u:"pages/development/advance_your_spring_development_skills"},
+    {t:"C",            w:5, u:"pages/development/programacion_c"}
+  ];
+
+  var COLORS = [
+    "#64ffda","#61dafb","#ffd700","#ff7b54","#bd93f9",
+    "#50fa7b","#ff79c6","#f1fa8c","#8be9fd","#ff5555",
+    "#80cbc4","#a3e635","#fb923c","#c084fc","#34d399"
+  ];
+
+  var phi = Math.PI * (3 - Math.sqrt(5));
+  var N = DATA.length;
+  var pts = DATA.map(function(d, i) {
+    var y = 1 - (i / (N - 1)) * 2;
+    var r = Math.sqrt(Math.max(0, 1 - y*y));
+    var th = phi * i;
+    return {text:d.t, weight:d.w, url:d.u,
+            color:COLORS[i % COLORS.length],
+            x:Math.cos(th)*r, y:y, z:Math.sin(th)*r,
+            px:CX, py:CY, hw:0, hh:0};
+  });
+
+  var mX = 0, mY = 0;
+
+  canvas.addEventListener('mousemove', function(e) {
+    var rect = canvas.getBoundingClientRect();
+    var scaleX = W / rect.width;
+    var scaleY = H / rect.height;
+    var cx = (e.clientX - rect.left) * scaleX;
+    var cy = (e.clientY - rect.top) * scaleY;
+    mX = (cx / W - 0.5) * 2;
+    mY = (cy / H - 0.5) * 2;
+    var over = pts.some(function(p) {
+      return Math.abs(cx - p.px) < p.hw + 4 && Math.abs(cy - p.py) < p.hh + 4;
+    });
+    canvas.style.cursor = over ? 'pointer' : 'default';
+  });
+
+  canvas.addEventListener('mouseleave', function() { mX = 0; mY = 0; canvas.style.cursor = 'default'; });
+
+  canvas.addEventListener('click', function(e) {
+    var rect = canvas.getBoundingClientRect();
+    var cx = (e.clientX - rect.left) * (W / rect.width);
+    var cy = (e.clientY - rect.top) * (H / rect.height);
+    var sorted = pts.slice().sort(function(a,b){ return b.z - a.z; });
+    for (var i = 0; i < sorted.length; i++) {
+      var p = sorted[i];
+      if (Math.abs(cx - p.px) < p.hw + 4 && Math.abs(cy - p.py) < p.hh + 4) {
+        window.location.href = p.url; break;
+      }
+    }
+  });
+
+  function rotate(ax, ay) {
+    var cx = Math.cos(ax), sx = Math.sin(ax);
+    var cy = Math.cos(ay), sy = Math.sin(ay);
+    for (var i = 0; i < pts.length; i++) {
+      var p = pts[i];
+      var ny = p.y*cx - p.z*sx, nz = p.y*sx + p.z*cx;
+      p.y = ny; p.z = nz;
+      var nx = p.x*cy + nz*sy; nz = -p.x*sy + nz*cy;
+      p.x = nx; p.z = nz;
+    }
+  }
+
+  var FOV = 2.3;
+
+  function render() {
+    rotate(0.002 + mY*0.003, 0.004 + mX*0.003);
+
+    var g = ctx.createRadialGradient(CX, CY, 0, CX, CY, R*1.6);
+    g.addColorStop(0, '#1a2332'); g.addColorStop(1, '#0d1117');
+    ctx.fillStyle = g; ctx.fillRect(0, 0, W, H);
+
+    var sorted = pts.slice().sort(function(a,b){ return a.z - b.z; });
+    for (var i = 0; i < sorted.length; i++) {
+      var p = sorted[i];
+      var sc = FOV / (FOV + p.z);
+      p.px = CX + p.x * R * sc;
+      p.py = CY - p.y * R * sc;
+      var fs = Math.round((BASE * (0.68 + p.weight * 0.06)) * sc * 1.35);
+      fs = Math.max(8, fs);
+      var op = Math.max(0.08, (p.z + 1.35) / 2.35);
+      ctx.globalAlpha = op;
+      ctx.font = 'bold ' + fs + 'px "Segoe UI",Inter,system-ui,sans-serif';
+      ctx.fillStyle = p.color;
+      ctx.textAlign = 'center';
+      ctx.textBaseline = 'middle';
+      ctx.fillText(p.text, p.px, p.py);
+      p.hw = ctx.measureText(p.text).width / 2;
+      p.hh = fs / 2;
+    }
+    ctx.globalAlpha = 1;
+    requestAnimationFrame(render);
+  }
+  render();
+})();
+</script>
 
 > [!tip]
-> Usá el **buscador** (arriba a la izquierda) para encontrar notas por palabra clave, o navegá por las secciones de abajo.
+> Hacé clic en cualquier término para ir a la nota correspondiente. Usá el **buscador** (arriba a la izquierda) para encontrar notas por palabra clave, o navegá por las secciones de abajo.
 
 ---
 
@@ -118,7 +250,7 @@ flowchart LR
 
 ## 🛰️ Espacio, satélites e ingeniería aeroespacial
 
-- [Introducción al Sector Espacial](/pages/space/space_introduction.md)
+- [Introducción al Sector Espacial](/pages/space/space_introduccion.md)
 - [Propagación Orbital](/pages/space/orbit_propagation.md)
 
 
