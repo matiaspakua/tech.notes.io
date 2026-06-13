@@ -183,11 +183,17 @@ These topics collectively paint a picture of a future where generative AI plays 
 
 ---
 
-# Reference
+## Referencias
 
- * [Introduction to Generative AI](https://www.linkedin.com/learning/what-is-generative-ai/)
- * [Generative artificial intelligence — Wikipedia](https://en.wikipedia.org/wiki/Generative_artificial_intelligence)
- * [A Beginner's Guide to Generative AI](https://wiki.pathmind.com/generative-adversarial-network-gan)
- * [What is Generative AI?](https://www.nvidia.com/en-us/glossary/generative-ai/)
- * [Generative Models OpenAI](https://openai.com/research/generative-models)
+- [Introduction to Generative AI — LinkedIn Learning](https://www.linkedin.com/learning/what-is-generative-ai/)
+- [Generative artificial intelligence — Wikipedia](https://en.wikipedia.org/wiki/Generative_artificial_intelligence)
+- [A Beginner's Guide to Generative AI — Pathmind](https://wiki.pathmind.com/generative-adversarial-network-gan)
+- [What is Generative AI? — NVIDIA](https://www.nvidia.com/en-us/glossary/generative-ai/)
+- [Generative Models — OpenAI Research](https://openai.com/research/generative-models)
+
+## Notas relacionadas
+
+- [Conceptos de IA](../artificial_intelligence/ruta_de_aprendisaje/1.fundamentos_inteligencia_artificial/1_conceptos_generales.md)
+- [Herramientas de AI](../artificial_intelligence/herramientas_de_ai.md)
+- [LLMs — GenAI en WeAreDevelopers 2024](../we_are_developers_wc_2024/charla_05.md)
 

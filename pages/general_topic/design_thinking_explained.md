@@ -122,6 +122,14 @@ Applying Design Thinking to standardize various software platforms into a global
 - **Flexibility:** Design the standardized platform with flexibility to accommodate diverse regional requirements.
     
 - **Communication:** Maintain transparent communication to keep stakeholders informed about the progress and benefits.
-## Reference
+## Referencias
 
 - [Design Thinking, Explained — MIT Sloan Management Review](https://mitsloan.mit.edu/ideas-made-to-matter/design-thinking-explained)
+- [IDEO Design Thinking — IDEO.org](https://www.ideo.org/approach)
+- [Design Thinking — d.school Stanford University](https://dschool.stanford.edu/resources/design-thinking-bootleg)
+
+## Notas relacionadas
+
+- [Visual Thinking](../cursos/visual_thinking.md)
+- [On User Stories](on_user_stories_notes.md)
+- [Tech Trends 2023](tech_trends_2023.md)

@@ -213,7 +213,14 @@ Agentes de CLI
 
 
 
-# Referencias
+## Referencias
 
 - [GenAI Core Concepts Explained: RAG, Function Calling, MCP, AI Agent — BladePipe, dev.to](https://dev.to/bladepipe/genai-core-concepts-explained-rag-function-calling-mcp-ai-agent-2bmc)
 - [CME 295: AI for Engineers — Stanford University](https://cme295.stanford.edu/syllabus/)
+- [Artificial Intelligence: A Modern Approach — Russell & Norvig, Pearson, 2020](https://aima.cs.berkeley.edu/)
+
+## Notas relacionadas
+
+- [Herramientas de AI](../../herramientas_de_ai.md)
+- [Fundamentos de estadística y ML](2_fundamentos_estadistica_aprendizaje_automatico.md)
+- [Generative AI](../../../software_engineering/generative_ai.md)

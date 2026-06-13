@@ -49,6 +49,12 @@ Antoine de Saint-Exupéry tuvo una conexión muy intensa con la Patagonia argent
 
 ## Referencia
 
-_**El Principito**_ de Antoine de Saint-Exupéry.
-[El principito - Wikipedia, la enciclopedia libre](https://es.wikipedia.org/wiki/El_principito)
-[Antoine de Saint-Exupéry - Wikipedia, la enciclopedia libre](https://es.wikipedia.org/wiki/Antoine_de_Saint-Exup%C3%A9ry)
+- _**El Principito**_ — Antoine de Saint-Exupéry, 1943
+- [El principito — Wikipedia](https://es.wikipedia.org/wiki/El_principito)
+- [Antoine de Saint-Exupéry — Wikipedia](https://es.wikipedia.org/wiki/Antoine_de_Saint-Exup%C3%A9ry)
+
+## Notas relacionadas
+
+- [Dev to Tech Lead](dev_to_tech_lead.md)
+- [Inteligencia Emocional](emotional_intelligence.md)
+- [A reflection on Software Engineering](../general_topic/reflection_on_software_engineering.md)
