@@ -15,6 +15,25 @@ tags:
 
 ## Hitos clave
 
+```mermaid
+timeline
+    title Evolución de los LLMs
+    2017 : Google — Transformer
+         : "Attention Is All You Need" (Vaswani et al.)
+    2018 : OpenAI — GPT (117M parámetros)
+         : Google — BERT (bidireccional)
+    2019 : OpenAI — GPT-2 (1.5B parámetros)
+    2020 : OpenAI — GPT-3 (175B parámetros)
+    2022 : OpenAI — ChatGPT (interfaz conversacional)
+         : Meta — LLaMA (open-weight)
+    2023 : OpenAI — GPT-4 (multimodal)
+         : Anthropic — Claude 1/2/3
+         : Meta — LLaMA 2
+    2024 : Google — Gemini (DeepMind)
+         : Anthropic — Claude 3.5 Sonnet
+         : Meta — LLaMA 3
+```
+
 | Año  | Modelo      | Organización | Notas                                             |
 |------|-------------|--------------|---------------------------------------------------|
 | 2017 | Transformer | Google       | Arquitectura base: "Attention Is All You Need"    |
