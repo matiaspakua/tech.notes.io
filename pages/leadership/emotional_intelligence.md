@@ -22,7 +22,26 @@ Emotional intelligence, or EQ, is the ability to be aware of your emotions and t
 
 ### Quadrants of EQ
 
-![](../../images/quadrants_eq.png)|
+![](../../images/quadrants_eq.png)
+
+```mermaid
+flowchart TD
+    EQ["🧠 Inteligencia Emocional\n(Emotional Intelligence)"]
+
+    EQ --> SA["🪞 Self-Awareness\n(Autoconciencia)\n─────────────────\n• Reconocer emociones propias\n• Evaluar fortalezas y límites\n• Confianza en uno mismo"]
+    EQ --> SM["⚙️ Self-Management\n(Autogestión)\n─────────────────\n• Control emocional\n• Orientación a logros\n• Adaptabilidad"]
+    EQ --> SOC["👁️ Social Awareness\n(Conciencia social)\n─────────────────\n• Empatía\n• Leer la sala (org awareness)\n• Orientación al servicio"]
+    EQ --> RM["🤝 Relationship Management\n(Gestión de relaciones)\n─────────────────\n• Inspirar y motivar\n• Manejo de conflictos\n• Trabajo en equipo"]
+
+    SA --> SM
+    SOC --> RM
+
+    style SA fill:#1e1e2e,stroke:#61dafb,color:#f8f8f2
+    style SM fill:#1e1e2e,stroke:#50fa7b,color:#f8f8f2
+    style SOC fill:#1e1e2e,stroke:#ffd700,color:#f8f8f2
+    style RM fill:#1e1e2e,stroke:#ff79c6,color:#f8f8f2
+    style EQ fill:#1e1e2e,stroke:#bd93f9,color:#f8f8f2
+```
 
 ## 1. Being Self-Aware
 

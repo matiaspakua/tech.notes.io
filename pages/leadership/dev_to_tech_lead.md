@@ -27,6 +27,40 @@ Una recomendación para planificar el tiempo es la siguiente:
 * **Producto** => 30% (visión del producto, hoja de ruta, estrategia, arquitectura del sistema)
 * **Liderazgo** => 50% (la mayor parte del tiempo debe centrarse en tareas de liderazgo: uno a uno, plan de carrera, incorporación, resolución de conflictos)
 
+### Transición: Dev → Tech Lead
+
+```mermaid
+flowchart TD
+    DEV["👨‍💻 Developer\n(IC contribuidor individual)"]
+    SDEV["🔧 Senior Developer\n(+mentoring, +diseño técnico)"]
+    TL["🧭 Tech Lead\n(sin gestión de personas)"]
+    EML["👥 Engineering Manager\n(gestión de personas + carrera)"]
+    ARCH["🏛️ Software Architect\n(visión técnica cross-equipo)"]
+
+    DEV -->|"años de experiencia +\ndestacarse técnicamente"| SDEV
+    SDEV -->|"liderazgo técnico informal,\nrecibir oportunidad"| TL
+    TL -->|"foco en personas,\n1:1s, performance"| EML
+    TL -->|"foco en sistema,\nADRs, diseño"| ARCH
+
+    style TL fill:#1e1e2e,stroke:#bd93f9,color:#f8f8f2
+    style EML fill:#1e1e2e,stroke:#50fa7b,color:#f8f8f2
+    style ARCH fill:#1e1e2e,stroke:#64ffda,color:#f8f8f2
+```
+
+### Distribución del tiempo recomendada
+
+```mermaid
+flowchart LR
+    T["🕐 Agenda\ndel Tech Lead"]
+    T -->|"50%"| L["👥 Liderazgo\n1:1s · plan carrera\nonboarding · conflictos"]
+    T -->|"30%"| P["📋 Producto\nroadmap · estrategia\narquitectura · visión"]
+    T -->|"20%"| D["💻 Desarrollo\nmentoría · code review\narquitectura soporte"]
+
+    style L fill:#1e1e2e,stroke:#ff79c6,color:#f8f8f2
+    style P fill:#1e1e2e,stroke:#ffd700,color:#f8f8f2
+    style D fill:#1e1e2e,stroke:#61dafb,color:#f8f8f2
+```
+
 
 ### Aspecto n.° 2: Adaptar tu agenda al nuevo rol
 
