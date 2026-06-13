@@ -97,6 +97,35 @@ Here's a list of some of the most common types of NoSQL databases:
 
 This list is not exhaustive and new types of NoSQL databases continue to emerge as the field evolves. The choice of a particular type of NoSQL database often depends on the specific needs of the application and the data being stored.
 
+### Comparativa de tipos NoSQL
+
+| Tipo | Modelo de datos | Escalabilidad | Casos de uso típicos | Ejemplos |
+|------|----------------|---------------|----------------------|----------|
+| **Document** | JSON / BSON | Horizontal | Catálogos, CMS, perfiles | MongoDB, CouchDB |
+| **Key-Value** | Par clave→valor | Muy alta | Caché, sesiones, rankings | Redis, DynamoDB |
+| **Column-Family** | Columnas agrupadas | Muy alta | Series temporales, IoT, logs | Cassandra, HBase |
+| **Graph** | Nodos + aristas | Media | Redes sociales, recomendaciones | Neo4j, Amazon Neptune |
+| **Time-Series** | Stamps + métricas | Alta | Monitoreo, telemetría, finanzas | InfluxDB, TimescaleDB |
+
+```mermaid
+quadrantChart
+    title NoSQL: Consistencia vs Escalabilidad
+    x-axis "Baja Consistencia" --> "Alta Consistencia"
+    y-axis "Baja Escalabilidad" --> "Alta Escalabilidad"
+    quadrant-1 CP - Escala con consistencia
+    quadrant-2 AP - Escala sin garantía consistencia
+    quadrant-3 Limitado
+    quadrant-4 CA - Consistencia sin partición
+    Redis: [0.75, 0.60]
+    MongoDB: [0.65, 0.55]
+    Cassandra: [0.20, 0.90]
+    DynamoDB: [0.30, 0.88]
+    Neo4j: [0.70, 0.40]
+    HBase: [0.72, 0.65]
+    PostgreSQL: [0.90, 0.20]
+    CouchDB: [0.25, 0.70]
+```
+
 ## CAP theorem and NoSQL Databases
 
 CAP theorem, also known as Brewer's theorem, states that it is impossible for a distributed database system to simultaneously guarantee all three of the following properties: Consistency, Availability, and Partition Tolerance.

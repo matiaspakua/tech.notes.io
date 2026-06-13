@@ -121,6 +121,28 @@ Agile is based on a set of values and principles outlined in the Agile Manifesto
 
 The Agile methodology includes several different frameworks or methodologies, including Scrum, Kanban, Extreme Programming (XP), and others. Each framework has its own specific practices and processes, but all are based on the Agile values and principles and share a focus on delivering high-quality software that meets the needs of the customer.
 
+### Línea de tiempo del movimiento Ágil
+
+```mermaid
+timeline
+    title Historia del Movimiento Ágil
+    1986 : Takeuchi & Nonaka publican "The New New Product Development Game"
+         : Primeras ideas de sprints iterativos en manufactura
+    1991 : James Martin acuña RAD (Rapid Application Development)
+    1994 : DSDM — Dynamic Systems Development Method (UK)
+    1995 : Ken Schwaber & Jeff Sutherland presentan Scrum en OOPSLA
+         : Ward Cunningham lanza el primer Wiki (colaboración de conocimiento)
+    1996 : Kent Beck define Extreme Programming (XP)
+    1999 : XP Explained publicado (Kent Beck)
+    2001 : Agile Manifesto firmado por 17 líderes en Snowbird, Utah
+         : 4 valores y 12 principios fundacionales
+    2003 : Lean Software Development — Poppendieck
+    2004 : Kanban adaptado para software por David Anderson
+    2010 : Scrum Guide v1 publicado (Schwaber & Sutherland)
+    2015 : SAFe (Scaled Agile Framework) gana adopción corporativa masiva
+    2020 : Scrum Guide actualizado — énfasis en equipos auto-organizados
+```
+
 
 ### Scrum Framework
 
