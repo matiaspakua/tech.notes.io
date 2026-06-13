@@ -56,6 +56,24 @@ User stories are a core practice in Agile methodologies, used to capture and des
 
 ## Anatomy of user stories
 
+```mermaid
+flowchart TD
+    US["📝 User Story"]
+    US --> ACTOR["👤 Actor / Rol\n¿Quién se beneficia?"]
+    US --> GOAL["🎯 Goal / Acción\n¿Qué quiere lograr?"]
+    US --> BENEFIT["💡 Beneficio / Why\n¿Por qué es valioso?"]
+    US --> AC["✅ Acceptance Criteria\n¿Cuándo está 'done'?"]
+
+    ACTOR --> TMPL["\"Como [usuario]\nquiero [acción]\npara [beneficio]\""]
+    GOAL --> TMPL
+    BENEFIT --> TMPL
+    AC --> GH["🥒 Gherkin\nGiven / When / Then"]
+
+    style US fill:#1e1e2e,stroke:#ffd700,color:#f8f8f2
+    style TMPL fill:#1e1e2e,stroke:#50fa7b,color:#f8f8f2
+    style GH fill:#1e1e2e,stroke:#61dafb,color:#f8f8f2
+```
+
 User stories consist of key components that provide a clear picture of the desired functionality. The essential parts of a user story:
 
 1. **The User (Actor):** This identifies the individual who will benefit from the feature. It can be a specific user role (e.g., administrator, customer) or a user persona representing a target user group.
@@ -72,6 +90,25 @@ Optionally, user stories can also include:
 4. **Acceptance Criteria:** This acts as a checklist outlining the specific conditions that must be met for the feature to be considered successful. These criteria ensure everyone agrees on what "done" looks like (e.g., "The search results should be paginated with 10 items per page").
 
 ## Gherkin, Cucumber and acceptance criterias
+
+```mermaid
+flowchart LR
+    AC["📋 Acceptance Criteria\n(natural language)"]
+    GH["📝 Gherkin\nGiven / When / Then"]
+    CUC["🥒 Cucumber\n(BDD framework)"]
+    AT["🤖 Automated Tests\n(paso a paso ejecutable)"]
+    CI["🔄 CI Pipeline\n(validación continua)"]
+
+    AC -->|"redactar"| GH
+    GH -->|"parsear"| CUC
+    CUC -->|"generar"| AT
+    AT -->|"ejecutar en"| CI
+    CI -->|"feedback"| AC
+
+    style GH fill:#1e1e2e,stroke:#50fa7b,color:#f8f8f2
+    style CUC fill:#1e1e2e,stroke:#61dafb,color:#f8f8f2
+    style CI fill:#1e1e2e,stroke:#ff79c6,color:#f8f8f2
+```
 
 Gherkin is a **domain-specific language (DSL)** designed specifically to express software behavior in a natural, human-readable way. It focuses on describing what the system should do from the user's perspective, making it easier for both technical and non-technical stakeholders to understand the acceptance criteria.
 

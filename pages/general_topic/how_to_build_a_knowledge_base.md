@@ -11,6 +11,21 @@ tags:
 
 ## Introduction
 
+```mermaid
+flowchart LR
+    RAW["📥 Información cruda\n(notas, docs, links)"] --> CAP["📝 Captura\n(Obsidian / Markdown)"]
+    CAP --> ORG["🗂️ Organización\n(categorías / tags)"]
+    ORG --> LINK["🔗 Interconexión\n(links cruzados)"]
+    LINK --> PUB["🌐 Publicación\n(Jekyll / GitHub Pages)"]
+    PUB --> SRCH["🔍 Búsqueda\n(lunr.js)"]
+    SRCH --> USE["✅ Consulta\ny aprendizaje"]
+    USE -->|"nuevas ideas"| CAP
+
+    style CAP fill:#1e1e2e,stroke:#61dafb,color:#f8f8f2
+    style PUB fill:#1e1e2e,stroke:#50fa7b,color:#f8f8f2
+    style USE fill:#1e1e2e,stroke:#ffd700,color:#f8f8f2
+```
+
 A knowledge base is a centralised repository that contains information, data, and knowledge about a specific topic or domain. It is a collection of structured and unstructured data, such as articles, documents, manuals, procedures, and FAQs, that are organised and stored in a searchable format for easy access and retrieval. A knowledge base is typically used to provide support, guidance, and answers to common questions or issues for customers, employees, or other stakeholders. It can also be used for knowledge management and sharing within an organisation to improve efficiency, productivity, and decision-making.
 
 ## Benefits of building a Knowledge-base
