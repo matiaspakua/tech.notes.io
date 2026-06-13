@@ -11,6 +11,36 @@ tags:
 # Herramientas de AI
 
 
+## Ecosistema de Herramientas de AI
+
+```mermaid
+flowchart TD
+    DEV["👨‍💻 Desarrollador"] --> CLI["💻 CLI / Agentes\nde Coding"]
+    DEV --> PROTO["🧪 Protocolos\ny Estándares"]
+    DEV --> PROMPT["📝 Prompt\nEngineering"]
+    DEV --> TOOLS["🛠️ Herramientas\nde Exploración"]
+
+    CLI --> GEMCLI["Gemini CLI"]
+    CLI --> OPENCODE["OpenCode"]
+    CLI --> CLAUDE["Claude Code"]
+
+    PROTO --> MCP["MCP\n(Model Context Protocol)"]
+    PROTO --> SKILLS["Agent Skills"]
+    PROTO --> RULES["AI Coding Rules"]
+
+    PROMPT --> FEWSHOT["Few-Shot\nPrompting"]
+    PROMPT --> CHAIN["Chain of Thought"]
+
+    TOOLS --> TOKENIZER["GPT Tokenizer\nPlayground"]
+    TOOLS --> GITHUB["GitHub\nIntegrations"]
+
+    style DEV fill:#1e1e2e,stroke:#64ffda,color:#f8f8f2
+    style CLI fill:#1e1e2e,stroke:#61dafb,color:#f8f8f2
+    style PROTO fill:#1e1e2e,stroke:#bd93f9,color:#f8f8f2
+    style PROMPT fill:#1e1e2e,stroke:#ffd700,color:#f8f8f2
+    style TOOLS fill:#1e1e2e,stroke:#50fa7b,color:#f8f8f2
+```
+
 # Gemini CLI
 
 [Gemini CLI — Google Gemini, GitHub](https://github.com/google-gemini/gemini-cli)
