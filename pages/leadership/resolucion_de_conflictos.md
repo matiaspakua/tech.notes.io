@@ -100,6 +100,22 @@ Queda claro en éste punto, que se debe comenzar a trabajar en el conflicto GENU
 
 ## Ciclo del conflicto
 
+```mermaid
+stateDiagram-v2
+    [*] --> Identificacion : problema detectado
+    Identificacion : 🔍 Identificación y escalada\nPocos involucrados\nProblemas específicos
+    Establecimiento : ⚔️ Establecimiento\nAplicación de tácticas\nMás personas implicadas
+    Climax : 🌋 Clímax\nPunto máximo\nTransformaciones
+    Desescalada : 📉 Desescalada\n+comunicación\nobjetivos comunes
+    PuntoRetorno : 🔚 Punto de no retorno\nAcuerdo / Ruptura definitiva
+
+    Identificacion --> Establecimiento : tácticas adoptadas
+    Establecimiento --> Climax : agotamiento / fracaso
+    Climax --> Desescalada : iniciativas de conciliación
+    Desescalada --> PuntoRetorno : acuerdo o disolución
+    PuntoRetorno --> [*]
+```
+
 Los componentes del ciclo de un conflicto son los siguientes:
 
 1. **Identificación y escalada**: Se origina cuando se identifican problemas específicos y hay poca gente involucrada.
