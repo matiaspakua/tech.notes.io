@@ -25,8 +25,6 @@ Sobre todo, un conflicto es un "<mark style="background: #FFF3A3A6;">rasgo de la
 
 Un conflicto, además de su definición tiene otros componentes:
 
-![[conflictos.canvas]]
-
 ![](../../images/conflictos_canvas.png)
 
 ## Utilidad de los conflictos

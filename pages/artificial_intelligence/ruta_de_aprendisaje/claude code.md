@@ -22,4 +22,3 @@ Claude Code is best explained through the **agentic loop**:
 
 Throughout this loop, you can add context, interrupt, or steer the model to help guide it toward your goal.
 
-![[Pasted image 20260414192844.png]]
