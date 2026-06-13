@@ -62,6 +62,23 @@ Como responder a éstas preguntas?
 
 Del Libro: The software architecture elevator. Gregor Hohpe. 
 
+```mermaid
+flowchart TD
+    DEC["🏗️ Decisión Arquitectónica"]
+    DEC --> NT["❓ No-trivial\n¿Tiene múltiples alternativas\ny no hay respuesta obvia?"]
+    DEC --> DS["⚖️ Tiene Downside\n¿Hay trade-offs y costos\nasociados?"]
+    DEC --> MN["🎯 Meaningful\n¿Impacta escalabilidad,\nseguridad o mantenibilidad?"]
+
+    NT & DS & MN -->|"✓ todas se cumplen"| VALID["✅ Decisión válida\npara documentar"]
+    VALID --> SIMP["🎯 SIMPLICIDAD como norte"]
+    VALID --> EXP["🧪 Experimentar primero\n(POC rápido)"]
+    VALID --> DOC["📋 Documentar\n(ADR / C4 model)"]
+
+    style DEC fill:#1e1e2e,stroke:#bd93f9,color:#f8f8f2
+    style VALID fill:#1e1e2e,stroke:#50fa7b,color:#f8f8f2
+    style SIMP fill:#1e1e2e,stroke:#ffd700,color:#f8f8f2
+```
+
 --> **Poner foco en decisiones pertinentes**
 
 ---

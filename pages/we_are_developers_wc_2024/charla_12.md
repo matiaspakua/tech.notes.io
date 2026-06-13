@@ -30,6 +30,18 @@ Demostración matemática de cómo se podría resolver una encriptación usando 
 
 El punto principal: los QPU solo harán **parte** del trabajo de procesamiento, apoyándose en la computación clásica. El flujo es:
 
+```mermaid
+flowchart LR
+    PROB["🖥️ Problema clásico\n(RSA-2048 factorización)"] --> QPU["⚛️ QPU\n(Quantum Processing Unit)"]
+    QPU -->|"superposición\n2ⁿ estados simultáneos"| STATES["🌀 Todos los estados\nen paralelo"]
+    STATES -->|"Quantum Fourier\nTransformation"| EXTRACT["🎯 Extracción de\nresultados relevantes"]
+    EXTRACT -->|"los más probables"| CPU["💻 CPU clásica\n(post-procesamiento)"]
+    CPU --> RESULT["✅ Resultado final"]
+
+    style QPU fill:#1e1e2e,stroke:#bd93f9,color:#f8f8f2
+    style STATES fill:#1e1e2e,stroke:#61dafb,color:#f8f8f2
+```
+
 1. Se plantea el problema de forma clásica
 2. Se pasa la "carga" de procesamiento al QPU
 3. El QPU procesa en paralelo y simultáneamente todas las alternativas
