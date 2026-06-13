@@ -14,6 +14,28 @@ tags:
 
 --- 
 
+## Evolución de Modelos de Ciclo de Vida
+
+```mermaid
+timeline
+    title Evolución de Métodos de Desarrollo de Software
+    1970 : Waterfall (Royce)
+         : Fases secuenciales
+         : Críticas al modelo
+    1985 : Prototipado
+         : Modelos Iterativos
+         : Espiral (Boehm)
+    1990 : Unified Process (UP)
+         : Fases, Iteraciones, Workflows
+         : Rational Unified Process
+    2001 : Agile Manifesto
+         : Scrum y XP
+         : TDD e Integración Continua
+    2010 : Lean / Kanban
+         : DevOps y CI/CD
+         : Software Product Lines
+```
+
 ## Contenidos
 
 Definición de Modelo de Ciclo de Vida. Waterfall y sus variantes. Las críticas de Royce al Waterfall. Modelos basados en prototipos. Modelos iterativos incrementales y sus variantes, el modelo en espiral. Modelos evolutivos y co-evolutivos. Modelos guiados por la arquitectura. Criterios para seleccionar un modelo de ciclo de vida en un proyecto.
