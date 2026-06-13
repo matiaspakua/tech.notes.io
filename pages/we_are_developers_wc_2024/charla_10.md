@@ -5,38 +5,48 @@ tags:
   - we-are-developers
   - 2024
   - notas
+  - cloud
+  - devops
 ---
 
 # From zero to Hero: Launch & manage your cloud apps with free OpenShift & Red Hat developer Hub
 
 [← Inicio](https://matiaspakua.github.io/tech.notes.io)
 
-## Mayores desafíos
+## Mayores desafíos en la industria
 
-1. 80% Modernización de aplicaciones. Deuda técnica
-2. 80% GenAI
-3. 76% Productividad de desarrolladores (somos caros).
-4. 742% Seguridad en la cadena de suministros de software
+Datos de encuesta a organizaciones tech:
 
-==> quien es el que casi siempre detiene el desarrollo: **OPERATIONS**
-==> arriba moslestando es el **ARQUITECTO**
+| Desafío | % de empresas afectadas |
+|---|---|
+| Modernización de aplicaciones / deuda técnica | 80% |
+| GenAI | 80% |
+| Productividad de desarrolladores | 76% |
+| Seguridad en la cadena de suministro de software | 74% |
+
+Observación: quien casi siempre detiene el desarrollo es **Operations**. Y quien molesta desde arriba es el **Arquitecto**. DevOps nació para resolver exactamente esa tensión.
 
 ## Origen de DevOps
 
-Shift left, tu lo construyes, tu lo deployas.
-Seguridad tambien va a aparecer aqui.
+<mark style="background: #FFF3A3A6;">Shift left</mark>: "tú lo construyes, tú lo deployas." La seguridad también entra en el shift left (DevSecOps).
 
 ## Cognitive Load
 
-la cantidad de cosas que constantemente tenemos que ir aprendiendo. Este es el problema de la carga cognitiva.
+La cantidad de cosas que constantemente tenemos que aprender — ese es el problema de la **carga cognitiva**. En organizaciones grandes (50-100 ingenieros) llegan a un cuello de botella porque cada equipo no puede ser experto en tantas herramientas.
 
-Grandes organizaciones con mas de 50/100 ingenieros llegan a un cuello de botella, por que cada equipo no puede ser experto en tantas herramientas.
+## RedHat OpenShift y Platform Engineering
 
-## RedHat openshift
+Personas, procesos, tecnologías + una plataforma cohesiva.
 
-Personas, procesos, tecnologias and una plataforma cohesiva.
-platform engineering => va a ser la evolución de devops.
+<mark style="background: #BBFABBA6;">Platform Engineering</mark> va a ser la evolución de DevOps: en lugar de que cada equipo configure su propio stack, un equipo de plataforma provee abstracciones que reducen la carga cognitiva.
 
-==> podman desktop 
+Herramientas mencionadas: **Podman Desktop**, libros en PDF disponibles gratis desde Red Hat.
 
-libros en PDF gratis
+## References
+
+- [Red Hat OpenShift — Official Site](https://www.redhat.com/en/technologies/cloud-computing/openshift)
+- [Red Hat Developer Hub](https://developers.redhat.com/rhdh)
+
+## Notas relacionadas
+
+- [DevSecOps Foundations](../cybersecurity/dev_sec_ops_foundations.md)
