@@ -37,7 +37,7 @@ flowchart TD
 
 Proyecto que permite deployar funciones serverless sobre Kubernetes usando el patrón *knative eventing*. Desacopla el código de la infraestructura del vendor.
 
-## References
+## Referencias
 
 - [Quarkus — Supersonic Subatomic Java](https://quarkus.io/)
 - [Knative — Kubernetes-based Serverless](https://knative.dev/)

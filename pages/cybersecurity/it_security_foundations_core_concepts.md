@@ -13,7 +13,7 @@ tags:
 > [!note]
 > Notas del curso "IT Security Foundations: Core Concepts" en LinkedIn Learning. El curso cubre los conceptos fundamentales de seguridad informática.
 
-## Referencia
+## Referencias
 
 - [IT Security Foundations: Core Concepts — LinkedIn Learning](https://www.linkedin.com/learning/it-security-foundations-core-concepts-16737118/tech-savvy-tech-safe)
 

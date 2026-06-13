@@ -66,9 +66,15 @@ Ver [Data Contract Specification](https://datacontract.com/).
 
 Los datos pueden producir valor (son el "oro" de nuestros tiempos). La pregunta clave: ¿qué se puede hacer con estos datos para generar valor?
 
-## References
+## Referencias
 
 - [dbt — Data Build Tool](https://www.getdbt.com/)
 - [Data Contract Specification — datacontract.com](https://datacontract.com/)
 - [Data Mesh — Martin Fowler](https://martinfowler.com/articles/data-mesh-principles.html)
 - [Apache Iceberg — Open Table Format](https://iceberg.apache.org/)
+
+## Notas relacionadas
+
+- [NoSQL: The Basis Of](../general_topic/nosql_the_basis_of.md)
+- [Generative AI](../software_engineering/generative_ai.md)
+- [Fundamentos de Estadística y ML](../artificial_intelligence/ruta_de_aprendisaje/1.fundamentos_inteligencia_artificial/2_fundamentos_estadistica_aprendizaje_automatico.md)

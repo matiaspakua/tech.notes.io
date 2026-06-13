@@ -447,3 +447,8 @@ Es una herramienta de planificación y previsión estratégica que se utiliza pa
 - [Eisenhower Matrix — Wikipedia](https://en.wikipedia.org/wiki/Time_management#The_Eisenhower_Method)
 - [Futures Wheel (Rueda del Futuro) — Jerome Glenn, 1971 — Wikipedia](https://en.wikipedia.org/wiki/Futures_wheel)
 - [Método Philips 66 — Wikipedia](https://es.wikipedia.org/wiki/Phillips_66_(din%C3%A1mica_de_grupos))
+## Notas relacionadas
+
+- [Dev to Tech Lead](dev_to_tech_lead.md)
+- [Inteligencia Emocional](emotional_intelligence.md)
+- [Resolución de Conflictos](resolucion_de_conflictos.md)

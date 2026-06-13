@@ -36,7 +36,7 @@ flowchart LR
 > [!tip]
 > Cada etapa incorpora una *security gate*: SCA revisa librerías de terceros, SAST analiza el código fuente, DAST prueba la aplicación en ejecución, y el monitoreo en runtime (ej. [Falco](falco_runtime_security_for_container.md)) detecta amenazas en producción.
 
-## Referencia
+## Referencias
 
 - [DevOps Foundations: DevSecOps — LinkedIn Learning](https://www.linkedin.com/learning/devops-foundations-devsecops-17416896/introduction-to-the-devsecops-course)
 

@@ -1514,7 +1514,7 @@ Pero Java exige que se haga una implementación que se llama **Interface Marcada
 
 4. ## **System.out** {#system.out}
 
-**public static final [PrintStream](http://ii/api/java/io/PrintStream.html) out**
+**public static final [PrintStream](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/io/PrintStream.html) out**
 
 The "standard" output stream. This stream is already open and ready to accept output data. Typically this stream corresponds to display output or another output destination specified by the host environment or user.   
 For simple stand-alone Java applications, a typical way to write a line of output data is:
@@ -2948,15 +2948,14 @@ Paca daca diagrama de eventos de sistema, se le pone al lado una interfaz gráfi
 
 
 
-# References
+## References
 
-* Sandro Mancuso - SOLID: https://reversecoding.net/solid-principles-explained-sandro-mancuso/
-* Clean Code: https://medium.com/mindorks/how-to-write-clean-code-lessons-learnt-from-the-clean-code-robert-c-martin-9ffc7aef870c
-* https://medium.com/s/story/reflections-on-clean-code-8c9b683277ca
-* https://williamdurand.fr/2013/06/03/object-calisthenics/
-* https://sourcemaking.com/refactoring/smells
-* IDD - Sandro Mancuso vimeo.com/130256611
- * DDD - https://medium.com/the-coding-matrix/ddd-101-the-5-minute-tour-7a3037cf53b8
+- [SOLID Principles — Sandro Mancuso (Reverse Coding)](https://reversecoding.net/solid-principles-explained-sandro-mancuso/)
+- [How to Write Clean Code — Mindorks / Medium](https://medium.com/mindorks/how-to-write-clean-code-lessons-learnt-from-the-clean-code-robert-c-martin-9ffc7aef870c)
+- [Object Calisthenics — William Durand](https://williamdurand.fr/2013/06/03/object-calisthenics/)
+- [Refactoring Smells — SourceMaking](https://sourcemaking.com/refactoring/smells)
+- [IDD — Sandro Mancuso (Vimeo)](https://vimeo.com/130256611)
+- [DDD 101: The 5-Minute Tour — Medium](https://medium.com/the-coding-matrix/ddd-101-the-5-minute-tour-7a3037cf53b8)
 
 ## Notas relacionadas
 

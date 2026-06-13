@@ -33,7 +33,7 @@ This is a very complete, hand-on, medium level specialization based on cloud com
 
  - The app is live in AZURE in this URL: [ML Image Classificator](https://ml-demo.azurewebsites.net/)
 
- - Or in AWS EC2 in this URL: [ML Image Classificator](http://ec2-54-90-167-155.compute-1.amazonaws.com:8080/)
+ - ~~AWS EC2 instance (decommissioned)~~ — ver repo para instrucciones de despliegue local
 
 ## Run locally the app:
 
@@ -1050,8 +1050,8 @@ Building a social network from scratch involves leveraging influencer marketing 
 
 - **Data Engineering Pipeline**: The speaker describes how he built a data engineering pipeline to predict the page views per post for users on his platform, using social media metadata from Amazon Mechanical Turk and machine learning models.
 
-- **Iterative Process**:building a data pipeline from scratch is an iterative process that can take a long time and requires multiple loops to get the data right.
-- 
+- **Iterative Process**: building a data pipeline from scratch is an iterative process that can take a long time and requires multiple loops to get the data right.
+
 - **Edge Cases**: the edge cases that he encountered in building the pipeline, such as the difficulty of data input, the quality of the data collectors, and the ambiguity of the names of the users.
 
 ## Cloud Databases
@@ -1059,10 +1059,10 @@ Building a social network from scratch involves leveraging influencer marketing 
 ### One Size Does Not Fit All in the Cloud?
 
 - **One Size Fit Database**: The CTO of Amazon, Werner Vogel, said that there is no single database that fits all use cases. Different databases have different characteristics and trade-offs.
-- 
+
 - **Examples of Databases**: Depending on the problem, different databases may be more suitable. For example, a transactional database may be good for banking operations, while a content management system may benefit from an eventually consistent database. A graph database may be useful for social network analysis.
 
--**Cloud Computing and Database Choice**: When building applications in the cloud, such as on AWS, there are many databases to choose from. It’s important to pick the right database for the right task, and not rely on just one database for everything.
+- **Cloud Computing and Database Choice**: When building applications in the cloud, such as on AWS, there are many databases to choose from. It’s important to pick the right database for the right task, and not rely on just one database for everything.
 
 Examples are: Google BigQuery, AWS Aurora, DynamoDB, RedShift
 
@@ -1120,7 +1120,7 @@ Amazon S3 is a cloud storage service that offers several capabilities to help su
 In summary, Amazon S3 provides various features to enhance your data resiliency and backup, such as versioning, replication, lifecycle management, object lock, and encryption. These features can help you mitigate data loss, corruption, or breach, and recover from disasters.
 
 
-Official Web: [Amazon S3](http://aws.amazon.com/s3/)
+Official Web: [Amazon S3](https://aws.amazon.com/s3/)
 
 ---
 # Course 04: Cloud Machine Learning Engineering and MLOps

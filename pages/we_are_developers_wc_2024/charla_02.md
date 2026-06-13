@@ -178,3 +178,9 @@ Usar conceptos sin conocer el porque y como?
 
 - [innoq/architecture-antipatterns — GitHub](https://github.com/innoq/architecture-antipatterns)
 - [Architecture Antipatterns (sitio oficial)](https://architecture-antipatterns.tech/)
+
+## Notas relacionadas
+
+- [Arquitectura Sostenible](../sw_and_system_architecture/sustainable_software_architecture.md)
+- [Noción de Arquitectura de Software](../sw_eng_specialization/software_architecture/contenidos.md)
+- [Decisiones Arquitecturales — Gregor Hohpe](charla_01.md)

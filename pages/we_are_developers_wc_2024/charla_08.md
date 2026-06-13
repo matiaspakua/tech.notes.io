@@ -69,7 +69,7 @@ flowchart TD
     style OPP fill:#1e1e2e,stroke:#ff5555,color:#f8f8f2
 ```
 
-## References
+## Referencias
 
 - [A Philosophy of Software Design — John Ousterhout, Yaknyam Press, 2018](https://www.goodreads.com/book/show/39996759-a-philosophy-of-software-design)
 - [Clean Code — Robert C. Martin, Prentice Hall, 2008](https://www.oreilly.com/library/view/clean-code-a/9780136083238/)

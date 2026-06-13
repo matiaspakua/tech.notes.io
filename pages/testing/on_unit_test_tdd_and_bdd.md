@@ -64,7 +64,7 @@ Highlights:
 - [10 Pines Diseño a la Gorra — Academia 10 Pines](https://academia.10pines.com/disenio_a_la_gorra)
 - [Test-Driven Development — Wikipedia](https://en.wikipedia.org/wiki/Test-driven_development)
 - [TestDrivenDevelopment — Martin Fowler](https://martinfowler.com/bliki/TestDrivenDevelopment.html)
-- [The Cycles of TDD — Robert C. Martin](http://blog.cleancoder.com/uncle-bob/2014/12/17/TheCyclesOfTDD.html)
+- [The Cycles of TDD — Robert C. Martin](https://blog.cleancoder.com/uncle-bob/2014/12/17/TheCyclesOfTDD.html)
 - [¿Por qué hacer TDD? — Robert C. Martin (YouTube)](https://www.youtube.com/watch?v=GvAzrC6-spQ)
 
 ## Notas relacionadas

@@ -306,7 +306,7 @@ SEC01: reporte de libros
 ## Plan de Despliegue
 
 - Estrategia de implementación
-- 
+
 Esta POC utiliza:
 
 1. Google Sheet para mantener la base de datos de libros disponibles, registro de devoluciones y préstamos.

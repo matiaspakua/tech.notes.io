@@ -204,11 +204,14 @@ Spring Boot Actuator is a sub-project of the Spring Boot Framework. It brings pr
     </dependency>
     ```
 
-- **Spring Boot 2.x Actuator**: In 2.x, the Actuator keeps its fundamental intent but simplifies its model, extends its capabilities, and incorporates better defaults. This version becomes technology-agnostic. It also simplifies its security model by merging it with the application one. The latest version now supports the CRUD model as opposed to the old read/write model.
+- **Spring Boot Actuator** (desde 2.x, actualizado en 3.x): mantiene su propósito fundamental pero simplifica el modelo, extiende sus capacidades e incorpora mejores defaults. Se vuelve independiente de la tecnología de monitoreo (Micrometer). El modelo de seguridad se unifica con el de la aplicación. Usa el modelo CRUD completo (reemplaza el modelo read/write antiguo).
+
+> [!note]
+> Spring Boot 3.x (2022+) es la versión actualmente mantenida. Requiere Java 17+ y Jakarta EE 10. Las URLs de documentación ahora apuntan a `https://docs.spring.io/spring-boot/reference/`.
 
 In essence, the <mark style="background: #FFF3A3A6;">Spring Boot Actuator is used for monitoring our app</mark>, gathering metrics, and understanding traffic or the state of our database. It becomes trivial with this dependency.
 
- [Spring Boot Actuator: Production-ready Features — Spring Docs](https://docs.spring.io/spring-boot/docs/2.5.6/reference/html/actuator.html)
+ [Spring Boot Actuator: Production-ready Features — Spring Docs](https://docs.spring.io/spring-boot/reference/actuator/)
 
 ![](../../images/spring_actuators_endpoints.png)
 

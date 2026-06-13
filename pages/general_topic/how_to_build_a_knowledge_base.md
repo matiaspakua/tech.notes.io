@@ -78,3 +78,9 @@ Not a minor issue, when you need to start from zero, maybe the best option is to
 - [Personal knowledge management — Wikipedia](https://en.wikipedia.org/wiki/Personal_knowledge_management)
 - [Zettelkasten — Wikipedia](https://en.wikipedia.org/wiki/Zettelkasten)
 - [Obsidian — Knowledge base sobre archivos Markdown locales](https://obsidian.md/)
+
+## Notas relacionadas
+
+- [Visual Thinking: Piensa haciendo dibujos](../cursos/visual_thinking.md)
+- [Design Thinking Explained](design_thinking_explained.md)
+- [Herramientas de AI](../artificial_intelligence/herramientas_de_ai.md)

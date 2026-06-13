@@ -66,7 +66,7 @@ Personas, procesos, tecnologías + una plataforma cohesiva.
 
 Herramientas mencionadas: **Podman Desktop**, libros en PDF disponibles gratis desde Red Hat.
 
-## References
+## Referencias
 
 - [Red Hat OpenShift — Official Site](https://www.redhat.com/en/technologies/cloud-computing/openshift)
 - [Red Hat Developer Hub](https://developers.redhat.com/rhdh)

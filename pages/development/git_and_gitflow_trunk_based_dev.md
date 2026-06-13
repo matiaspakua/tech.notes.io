@@ -128,3 +128,8 @@ gitGraph
 * Git: [About — Git](https://git-scm.com/about)
 * [A successful Git branching model — Vincent Driessen, 2010](https://nvie.com/posts/a-successful-git-branching-model/)
 * [Trunk-Based Development — Paul Hammant](https://trunkbaseddevelopment.com/)
+## Notas relacionadas
+
+- [DevSecOps Foundations](../cybersecurity/dev_sec_ops_foundations.md)
+- [CI/CD — Agile and Scrum](../software_engineering/agile_and_scrum.md)
+- [Spring Framework Notes](spring_framework_notes.md)

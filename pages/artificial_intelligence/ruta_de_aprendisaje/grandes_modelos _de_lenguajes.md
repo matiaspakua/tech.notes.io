@@ -53,3 +53,10 @@ timeline
 - [Attention Is All You Need — Vaswani et al., 2017](https://arxiv.org/abs/1706.03762)
 - [GPT — OpenAI](https://openai.com/research/language-unsupervised)
 - [BERT — Google, 2018](https://arxiv.org/abs/1810.04805)
+
+## Notas relacionadas
+
+- [Conceptos Generales de IA](1.fundamentos_inteligencia_artificial/1_conceptos_generales.md)
+- [Fundamentos de Estadística y ML](1.fundamentos_inteligencia_artificial/2_fundamentos_estadistica_aprendizaje_automatico.md)
+- [Generative AI](../../software_engineering/generative_ai.md)
+- [Herramientas de AI](../herramientas_de_ai.md)
