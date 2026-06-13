@@ -11,35 +11,59 @@ tags:
 
 [← Inicio](https://matiaspakua.github.io/tech.notes.io)
 
-## introduccion
+## Introducción
 
-Es "x" suficientemente rápido?
-La base de datos es uno de los principales cuellos de botella.
+¿Es "X" suficientemente rápido? La base de datos es uno de los principales cuellos de botella en aplicaciones a escala.
 
 ## Before scaling: Optimize, Optimize, Optimize
 
-1. encontrar las querys lentas y arreglarlas
-2. optimizar el backend y el acceso a la bbdd (no hacer FIND ALL)
-3. implementar chaching (CACHE)
-4. mejorar el HW de la PC de la maquina donde corre la BBDD.
+Antes de escalar horizontalmente, agotar las optimizaciones:
 
-## multi-master replication
+1. Encontrar las queries lentas y arreglarlas (usar `EXPLAIN ANALYZE`)
+2. Optimizar el backend y el acceso a la BBDD (evitar `FIND ALL`, paginar)
+3. Implementar <mark style="background: #FFF3A3A6;">caching</mark> (Redis, Memcached)
+4. Mejorar el hardware de la máquina donde corre la BBDD
 
-mantener varias bbdd (server) sincronizadas.
-problemas de conflictos en multiples request sobre un mismo DATO ejecutada en diferentes clientes. En este caso, no funciona completamente.
+## Estrategias de escalado
 
-## Read Replication
+```mermaid
+flowchart TD
+    O["Optimización\n(queries, índices, caché)"] --> R["Read Replication\n(1 primario + N secundarios)"]
+    R --> MM["Multi-Master Replication\n(varios primarios)"]
+    MM --> SH["Sharding\n(distribución por clave)"]
+    style O fill:#BBFABBA6,color:#000
+    style SH fill:#FFF3A3A6,color:#000
+```
 
-1 servidor primaria
-varios servidores secundarios
-el request-response se hace a un servidor primario y el resto de la DATA se sincroniza en background.
-El problema de la replicación asincronica es que se puede hacer una lectura de una base de datos secundaria que AUN no ha sido actualizada ocn los datos de la primaria.
+### Multi-Master Replication
 
-## Sharding
+Mantener varias BBDD (servidores) sincronizadas. Problema: conflictos en múltiples requests sobre un mismo dato ejecutados en diferentes clientes. No funciona bien para escrituras concurrentes intensas.
 
-Distribuir los datos en distintras base de datos, no hay replication. Pero se necesita de un tercero (REDIS) que te diga donde están esos datos.
+### Read Replication
 
-El problema es cuando hay un SELECT que necesita datos que estan distribuidos en diferentes servidores: todas las compras de un determinado ususario y los productos asociados. En SQL no se puede hacer un join en distrinso servidores, pero a nivel backend se puede hacer el join en JAVA por ejemplos, pero es lo más ineficientes que hay. 
+- 1 servidor primario (escrituras)
+- N servidores secundarios (lecturas)
+- Los datos se sincronizan en background
 
+> [!warning]
+> Con replicación asíncrona, una lectura en un secundario puede devolver datos
+> desactualizados si la sincronización aún no completó.
 
-KISS siempre, antes de caer en Sharding.
+### Sharding
+
+Distribuir los datos en distintas bases de datos sin replicación. Se necesita un coordinador (ej: Redis) que indique dónde están los datos.
+
+El problema: un `SELECT` que necesita datos distribuidos en diferentes servidores no puede hacer un `JOIN` entre ellos en SQL. El join debe hacerse a nivel backend (ineficiente).
+
+> [!important]
+> **KISS siempre**: antes de caer en sharding, asegurarse de haber agotado
+> todas las optimizaciones y estrategias más simples.
+
+## References
+
+- [Database Sharding — Wikipedia](https://en.wikipedia.org/wiki/Shard_(database_architecture))
+- [CAP Theorem — Wikipedia](https://en.wikipedia.org/wiki/CAP_theorem)
+
+## Notas relacionadas
+
+- [NoSQL — The basis of](../general_topic/nosql_the_basis_of.md)

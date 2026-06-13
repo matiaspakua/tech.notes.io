@@ -11,17 +11,26 @@ tags:
 
 [← Inicio](https://matiaspakua.github.io/tech.notes.io)
 
-Sobre la historia de la mermelada. La OpenSource Initiative fue creada hace mucho tiempo y actualmente se puede decir que el mundo ha evolucionado.
+## Historia y evolución
 
-tema de licencias
-distribucions de codigo en repositorios publicos
+La Open Source Initiative fue creada en 1998 (derivada del Free Software Movement de Stallman). Desde entonces el mundo ha evolucionado enormemente. La charla usa la metáfora de "la historia de la mermelada" para ilustrar cómo algo que empezó como un movimiento comunitario se convirtió en infraestructura crítica de la economía digital.
 
-The cathedral and the Bazaar => recomendación.
+Temas centrales: **licencias** y **distribución de código en repositorios públicos**.
 
-## open source actualmente
+Recomendación del speaker: <mark style="background: #FFF3A3A6;">The Cathedral and the Bazaar</mark> de Eric S. Raymond.
 
---> developer sustainability => que pasa cuando en una infraestructura grande, se depende de una libreria critica que está siendo mantenida por una sola persona en el otro lado del mundo.
+## Open Source actualmente
 
---> comertial open-source => 
+Tres tensiones principales que define el estado actual:
 
---> fair-source (fair.io)
+- **Developer sustainability**: ¿qué pasa cuando una infraestructura grande depende de una librería crítica mantenida por una sola persona al otro lado del mundo? (ver: incidente log4shell, xz utils backdoor)
+
+- **Commercial open-source**: empresas que construyen negocios sobre proyectos open-source, generando tensión con la comunidad (ej: HashiCorp, Redis, Elastic).
+
+- **Fair-source** ([fair.io](https://fair.io/)): modelo intermedio que intenta equilibrar sostenibilidad comercial con apertura de código.
+
+## References
+
+- [The Cathedral and the Bazaar — Eric S. Raymond (full text)](http://www.catb.org/~esr/writings/cathedral-bazaar/)
+- [Open Source Initiative — History](https://opensource.org/history)
+- [Fair Source License — fair.io](https://fair.io/)
