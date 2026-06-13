@@ -43,6 +43,30 @@ El libro resalta el valor de conectar con los demás. En el mundo tech, el traba
 
 _El Principito_ valora la belleza de lo simple. En ingeniería de software, mantener el código y los sistemas lo más simples posible garantiza que sean fáciles de mantener y que anden mejor.
 
+## Lecciones del Principito → Ingeniería de Software
+
+```mermaid
+flowchart TD
+    LP["🌹 El Principito\n(Antoine de Saint-Exupéry, 1943)"]
+
+    LP --> IMA["🎨 Imaginación\ny Creatividad\n→ Diseño innovador"]
+    LP --> CUR["🔍 Curiosidad\n→ Aprendizaje continuo\ny exploración tecnológica"]
+    LP --> DET["🔬 Atención al Detalle\n→ Calidad del código,\nprevención de bugs"]
+    LP --> EMP["❤️ Ver con el Corazón\n→ Empatía con el usuario,\nUX Design"]
+    LP --> EXPL["🚀 Exploración\ny Aventura\n→ Nuevas tecnologías,\nR&D"]
+    LP --> CON["🤝 Conexiones\ny Relaciones\n→ Trabajo en equipo,\ncomunicación"]
+    LP --> SIMP["✂️ Simplicidad\n→ KISS, Clean Code,\nRefactoring"]
+
+    style LP fill:#1e1e2e,stroke:#ffd700,color:#f8f8f2
+    style IMA fill:#1e1e2e,stroke:#ff79c6,color:#f8f8f2
+    style CUR fill:#1e1e2e,stroke:#61dafb,color:#f8f8f2
+    style DET fill:#1e1e2e,stroke:#50fa7b,color:#f8f8f2
+    style EMP fill:#1e1e2e,stroke:#ff5555,color:#f8f8f2
+    style EXPL fill:#1e1e2e,stroke:#bd93f9,color:#f8f8f2
+    style CON fill:#1e1e2e,stroke:#64ffda,color:#f8f8f2
+    style SIMP fill:#1e1e2e,stroke:#ff9f43,color:#f8f8f2
+```
+
 # Sobre el autor
 
 Antoine de Saint-Exupéry tuvo una conexión muy intensa con la Patagonia argentina porque laburó como piloto de correo aéreo para la Aeroposta Argentina en los años 30. Le tocaba volar rutas bien largas y solitarias que pasaban por esa región, incluyendo Península Valdés. Dicen que la inmensidad y la belleza medio desolada de la Patagonia lo inspiraron en varias de sus obras. De hecho, se comenta que algunos pasajes de _El Principito_ y otros libros reflejan un poco esa mezcla de soledad y maravilla que sintió mientras sobrevolaba esos paisajes argentinos.
