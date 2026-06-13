@@ -36,6 +36,21 @@ En la medida que el software evoluciona, el volumen de vulnerabilidades también
 
 ## ¿Dónde entra GenAI?
 
+```mermaid
+flowchart LR
+    CODE["👨‍💻 Código generado\npor LLM (Copilot, etc.)"] -->|"41% con vulnerabilidades"| VULN["⚠️ Vulnerabilidades\nde Seguridad"]
+    VULN --> SCAN["🔍 SAST / DAST\n(análisis automático)"]
+    SCAN -->|"hallazgos"| LLM["🤖 LLM\n(remediación)"]
+    LLM -->|"fix sugerido"| REVIEW["👁️ Code Review\nhumano"]
+    REVIEW -->|"aprobado"| PIPE["🔄 Pipeline CI\n(tests de seguridad)"]
+    PIPE -->|"retroalimentar"| LLM
+    PIPE -->|"código seguro"| PROD["✅ Producción"]
+
+    style VULN fill:#1e1e2e,stroke:#ff5555,color:#f8f8f2
+    style LLM fill:#1e1e2e,stroke:#bd93f9,color:#f8f8f2
+    style PROD fill:#1e1e2e,stroke:#50fa7b,color:#f8f8f2
+```
+
 El problema con los LLM son los datos de entrenamiento, que también pueden tener vulnerabilidades (descubiertas y sin describir).
 
 Usos actuales:

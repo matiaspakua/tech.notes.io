@@ -33,6 +33,30 @@ como?
 blue-gree deployment
 canary release
 
+### Arquitectura de Micro-Frontend con Service Discovery
+
+```mermaid
+flowchart TD
+    subgraph SHELL["🏠 Application Shell"]
+        CFG["📋 JSON Schema Config\n(URLs + versiones + fallback)"]
+    end
+
+    CFG -->|"carga al inicio"| MF1["🧩 Micro-Frontend A\n(v2.1)"]
+    CFG -->|"carga al inicio"| MF2["🧩 Micro-Frontend B\n(v1.8)"]
+
+    subgraph DEPLOY["🚀 Deployment Strategy"]
+        BG["🔵🟢 Blue-Green\n(switch instantáneo)"]
+        CN["🐦 Canary Release\n(% de usuarios progresivo)"]
+    end
+
+    CFG --> DEPLOY
+    DEPLOY -->|"fallback URL"| FB["⬅️ Versión anterior\n(rollback automático)"]
+
+    style SHELL fill:#1e1e2e,stroke:#61dafb,color:#f8f8f2
+    style DEPLOY fill:#1e1e2e,stroke:#50fa7b,color:#f8f8f2
+    style FB fill:#1e1e2e,stroke:#ffd700,color:#f8f8f2
+```
+
 ## Problema y solución
 
 como implementar todas las features en un application shell?

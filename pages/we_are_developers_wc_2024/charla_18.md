@@ -17,6 +17,26 @@ Cómo se organizan los artefactos desde el alto nivel hasta las user-stories. Ta
 
 ## Req. Funcionales vs RNF
 
+```mermaid
+flowchart TD
+    US["📝 User Story"]
+    US --> FR["⚙️ Req. Funcional (RF)\n¿QUÉ hace el sistema?\n'El usuario puede hacer login'"]
+    US --> NFR["📊 Req. No Funcional (RNF)\n¿CÓMO lo hace?\n'Carga en < 2s con 1000 usuarios'"]
+
+    NFR --> ISO["🏷️ ISO 25010:2023\nCategorías de calidad"]
+    ISO --> PERF["⚡ Performance"]
+    ISO --> SEC["🔒 Security"]
+    ISO --> MAINT["🔧 Maintainability"]
+    ISO --> USE["🖥️ Usability"]
+
+    NFR --> AC["✅ Acceptance Criteria\nmedibles + automatizables"]
+    AC --> TEST["🤖 Tests automatizados\n(load testing, security scans)"]
+
+    style NFR fill:#1e1e2e,stroke:#ffd700,color:#f8f8f2
+    style ISO fill:#1e1e2e,stroke:#61dafb,color:#f8f8f2
+    style TEST fill:#1e1e2e,stroke:#50fa7b,color:#f8f8f2
+```
+
 - **Requisitos funcionales**: describen el comportamiento del sistema (qué hace).
 - **Requisitos no funcionales (RNF)**: describen restricciones de calidad (cómo lo hace).
 

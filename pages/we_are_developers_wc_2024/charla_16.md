@@ -13,6 +13,27 @@ tags:
 
 ## Historia y evolución
 
+```mermaid
+timeline
+    title Evolución del Open Source
+    1983 : Richard Stallman funda GNU Project
+         : "Free Software Movement" — 4 libertades
+    1991 : Linus Torvalds lanza Linux
+         : Primer kernel open-source masivo
+    1998 : Open Source Initiative (OSI) fundada
+         : Término "open source" acuñado (Raymond)
+    2000 : "The Cathedral and the Bazaar"
+         : Open source como modelo de desarrollo
+    2005 : Git creado por Linus Torvalds
+         : GitHub fundado en 2008
+    2010 : Cloud providers adoptan masivamente OSS
+         : Business model: SaaS sobre proyectos abiertos
+    2020 : Incidente log4shell (log4j)
+         : Debate sobre sostenibilidad y seguridad
+    2024 : xz utils backdoor
+         : Fair-source como modelo intermedio
+```
+
 La Open Source Initiative fue creada en 1998 (derivada del Free Software Movement de Stallman). Desde entonces el mundo ha evolucionado enormemente. La charla usa la metáfora de "la historia de la mermelada" para ilustrar cómo algo que empezó como un movimiento comunitario se convirtió en infraestructura crítica de la economía digital.
 
 Temas centrales: **licencias** y **distribución de código en repositorios públicos**.
