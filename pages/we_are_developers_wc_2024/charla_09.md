@@ -11,25 +11,44 @@ tags:
 
 [← Inicio](https://matiaspakua.github.io/tech.notes.io)
 
+## ¿Qué es una Specification?
 
-## Que es: Specifications
+Es una descripción detallada del diseño para hacer (make) algo. Lo importante es que es <mark style="background: #FFF3A3A6;">agnóstica a la implementación</mark>: es un contrato que se establece antes de iniciar el desarrollo.
 
-Es una descripción detallada del diseño para hacer(make) algo. 
+Ejemplos de especificaciones usadas en la industria:
 
-UML
-gRPC
-OpenAPI
-IaC, etc.
-
-los importanete de la especificación , es que es agnostica a como está implementado. Es un contrato que se hace para luego iniciar el desarrollo.
+| Especificación | Dominio |
+|---|---|
+| UML | Modelado de software |
+| gRPC / Protocol Buffers | Comunicación entre servicios |
+| OpenAPI / Swagger | REST APIs |
+| IaC (Terraform, CloudFormation) | Infraestructura |
 
 ## El problema
 
-Specification-first
-Problemas clasico de la ing de software.
+El enfoque habitual es **code-first**: se desarrolla y luego (o nunca) se documenta. El enfoque **specification-first** invierte el orden: se define el contrato, se valida con stakeholders y recién entonces se empieza a codificar.
 
-## Solucion
+Esto resuelve problemas clásicos de la ingeniería de software: malentendidos de requisitos, integraciones rotas, acoplamiento entre equipos.
 
-go-swagger
+## Solución: go-swagger
 
-generación el código y la estructura desde la especificación. Usa un archivo YAML y la libreria genera todo el resto.
+Generación del código y la estructura desde la especificación. Usa un archivo YAML y la librería genera todo el resto.
+
+```mermaid
+flowchart LR
+    S["Especificación\n(OpenAPI YAML)"] --> G["go-swagger\n(generador)"]
+    G --> SC["Código servidor\n(stubs)"]
+    G --> CC["Código cliente\n(SDK)"]
+    G --> D["Documentación\nautomática"]
+```
+
+## References
+
+- [OpenAPI Specification — OpenAPI Initiative](https://spec.openapis.org/oas/latest.html)
+- [go-swagger — GitHub](https://github.com/go-swagger/go-swagger)
+- [gRPC — Official Site](https://grpc.io/)
+
+## Notas relacionadas
+
+- [On APIs Notes](../development/on_rest_api_notes.md)
+- [OpenApi foundations](../development/OpenApi.md)

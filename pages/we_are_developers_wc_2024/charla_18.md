@@ -11,27 +11,40 @@ tags:
 
 [← Inicio](https://matiaspakua.github.io/tech.notes.io)
 
-## Agile requerimiento artefacto
+## Agile: artefactos de requerimientos
 
-Como se organizan los artefactos desde el alto nivel hasta las user-stories. Tanto del lado del clientes-->developer->management. Basicamente un mapa de donde cae cada cosa en un matrix.
+Cómo se organizan los artefactos desde el alto nivel hasta las user-stories. Tanto del lado del cliente → developer → management. Básicamente un mapa de donde cae cada cosa en una matrix: épicas, features, user stories, acceptance criteria.
 
 ## Req. Funcionales vs RNF
 
-Descripción de la diferencia. entre funcionalidad y restricciones.
-Arbol de categorias de requerimientos no funcionales basados en ISO 25010:2023
+- **Requisitos funcionales**: describen el comportamiento del sistema (qué hace).
+- **Requisitos no funcionales (RNF)**: describen restricciones de calidad (cómo lo hace).
+
+Árbol de categorías de RNF basado en <mark style="background: #FFF3A3A6;">ISO 25010:2023</mark>: rendimiento, usabilidad, seguridad, mantenibilidad, portabilidad, confiabilidad, compatibilidad.
 
 ## Specification on Scrum
 
-generalmente los requerimientos no funcionale sno se escriben como debería, pasan a ser un wishlist.
+Generalmente los RNF no se escriben como debería. Pasan a ser un "wishlist" vago ("el sistema debe ser rápido") sin métricas ni criterios de aceptación claros.
 
-Escribir las user stories, especificando con datos que puedan ser validados a traves de pruebas usando los "criterios de aceptacion."
+La solución: escribir los RNF como user stories con datos que puedan ser validados a través de pruebas, usando **criterios de aceptación** medibles.
+
+Ejemplo:
+> *"Como usuario final, quiero que la página de inicio cargue en menos de 2 segundos bajo una carga de 1000 usuarios concurrentes."*
 
 ## Takeaways
 
-1. considerar los RNF desde el inicio
-2. VEr la norma ISO 25010:2023
-3. Especificar con criterio, que alto tenga sentido de ser testeado.
-4. Escribir los aceptance criteria y escribir los test que sea automaticos
-5. NFR demandan demasiado tiempo, considerar que testear y como (priorizar)
+1. Considerar los RNF desde el inicio del proyecto
+2. Revisar la norma **ISO 25010:2023** como base de categorías
+3. Especificar con criterio: solo lo que tenga sentido testear
+4. Escribir los acceptance criteria y automatizar los tests asociados
+5. Los NFR demandan mucho tiempo — priorizar qué testear y cómo
 
+## References
 
+- [ISO/IEC 25010:2023 — Systems and software Quality Requirements and Evaluation (SQuaRE)](https://www.iso.org/standard/35733.html)
+- [Non-Functional Requirements — Wikipedia](https://en.wikipedia.org/wiki/Non-functional_requirement)
+
+## Notas relacionadas
+
+- [Testing de Software](../sw_eng_specialization/software_testing.md)
+- [Gherkin and Automation](../testing/gherkin_and_automation.md)
