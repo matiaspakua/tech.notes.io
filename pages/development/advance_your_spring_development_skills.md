@@ -28,6 +28,18 @@ This are the notes for the 6 courses Specialization PATH on Linkedin Learning.
 
 ## Introduction
 
+```mermaid
+flowchart LR
+    C["👤 Client"] --> LB["⚖️ Load Balancer\n(Spring Cloud LB)"]
+    LB -->|"round-robin\n/ weighted"| I1["🟢 Instance 1\n(Spring Boot)"]
+    LB --> I2["🟢 Instance 2\n(Spring Boot)"]
+    LB --> I3["🟢 Instance 3\n(Spring Boot)"]
+    I1 & I2 & I3 --> DB[("🗄️ Database")]
+    SD["🔍 Service Discovery\n(Eureka / Consul)"] -.->|"service registry"| LB
+    style LB fill:#1e1e2e,stroke:#61dafb,color:#f8f8f2
+    style SD fill:#1e1e2e,stroke:#ffd700,color:#f8f8f2
+```
+
 In software engineering, **Load Balancing** is the practice of <mark style="background: #FFF3A3A6;">distributing</mark> computational workloads across multiple servers. This process ensures that no single server bears too much demand. By spreading the work evenly, load balancing improves application responsiveness. It also increases the <mark style="background: #FFF3A3A6;">availability</mark> of applications and websites for users. Load balancers evaluate client requests by examining application-level characteristics (the IP address, the HTTP header, and the contents of the request). The load balancer then looks at the servers and determines which server to send the request to.
 
 Load balancing has a significant impact on **user experience**. By dividing user requests among multiple servers, user wait time is vastly cut down. This results in a <mark style="background: #FFF3A3A6;">better user experience</mark>. Long page load times, and poor response times to user actions, create a bad user experience. Waiting for content to load becomes frustrating for users and may provoke them into leaving the site or application altogether. Load balancers handle traffic spikes by moving data efficiently, optimizing application delivery resource usage, and preventing server overloads. That way, the website performance stays high, and users remain satisfied.
@@ -160,6 +172,19 @@ Code:
 
 
 ## Spring Actuators
+
+```mermaid
+flowchart LR
+    APP["🚀 Spring Boot App"] --> ACT["📊 Spring Actuator\n/health /metrics\n/info /env"]
+    ACT --> MIC["📈 Micrometer\n(abstracción de métricas)"]
+    MIC --> PROM["🔥 Prometheus\n(scrape + storage)"]
+    PROM --> GRA["📉 Grafana\n(dashboards)"]
+    MIC --> INF["📡 InfluxDB\n(alternativa)"]
+    ACT --> LOG["📋 Log / JMX"]
+    style ACT fill:#1e1e2e,stroke:#50fa7b,color:#f8f8f2
+    style MIC fill:#1e1e2e,stroke:#61dafb,color:#f8f8f2
+    style GRA fill:#1e1e2e,stroke:#ff79c6,color:#f8f8f2
+```
 
 Spring Boot Actuator is a sub-project of the Spring Boot Framework. It brings production-ready features to our application. The main benefit of using this library is that <mark style="background: #FFF3A3A6;">we get health and monitoring metrics</mark> from production-ready applications. 
 

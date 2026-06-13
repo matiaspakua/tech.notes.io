@@ -27,6 +27,23 @@ El software lleva más de una década devorando al mundo. En esta metáfora culi
 
 ![](../../images/rol_apis_uber.png)
 
+## Ciclo de vida OpenAPI
+
+```mermaid
+flowchart TD
+    D["📝 OpenAPI Spec\n(YAML / JSON)"] --> ED["✏️ Swagger Editor\n/ Stoplight"]
+    D --> CG["⚙️ Code Generator\n(OpenAPI Generator)"]
+    CG --> SRV["🖥️ Server Stub\n(Spring Boot / FastAPI)"]
+    CG --> CLI["📱 Client SDK\n(Java / Python / JS)"]
+    D --> UI["🌐 Swagger UI\n(documentación interactiva)"]
+    D --> VAL["✅ Validator\n(lint + contract tests)"]
+    SRV --> DEP["🚀 Deploy\n(API Gateway / K8s)"]
+    CLI --> CON["🤝 Consumidor\n(frontend / otro servicio)"]
+    style D fill:#1e1e2e,stroke:#ffd700,color:#f8f8f2
+    style UI fill:#1e1e2e,stroke:#50fa7b,color:#f8f8f2
+    style CG fill:#1e1e2e,stroke:#61dafb,color:#f8f8f2
+```
+
 ## Apis-as-products
 
 Cada vez es más común que las organizaciones tomen un aproach de APIs como productos (por ejemplos, existen API Products Managers). 
