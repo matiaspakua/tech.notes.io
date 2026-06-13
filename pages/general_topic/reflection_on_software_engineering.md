@@ -15,6 +15,27 @@ Software engineering is a fascinating discipline that combines creativity and ri
 
 ![](../../images/software_engineering_banner.png)
 
+```mermaid
+flowchart LR
+    IDEA["💡 Idea / Problema\n(Conceptualización)"]
+    IDEA --> S["S — Proceso\nBien Definido\n(metodología)"]
+    S --> O["O — CI/CD\n(integración y\ndespliegue continuo)"]
+    O --> F["F — TDD\n(red-green-refactor)"]
+    F --> T["T — Feedback\nLoops\n(mejora iterativa)"]
+    T --> W["W — Incremental\nIterativo\n(pequeños pasos)"]
+    W --> A["A — Conceptualización\n(nueva idea)"]
+    A --> R["R — Artifacts\n(código, docs,\nresultados)"]
+    R -->|"refresh — siempre\nhay mejora posible"| IDEA
+
+    style IDEA fill:#1e1e2e,stroke:#ffd700,color:#f8f8f2
+    style S fill:#1e1e2e,stroke:#61dafb,color:#f8f8f2
+    style O fill:#1e1e2e,stroke:#50fa7b,color:#f8f8f2
+    style F fill:#1e1e2e,stroke:#ff5555,color:#f8f8f2
+    style T fill:#1e1e2e,stroke:#bd93f9,color:#f8f8f2
+    style W fill:#1e1e2e,stroke:#64ffda,color:#f8f8f2
+    style R fill:#1e1e2e,stroke:#ff79c6,color:#f8f8f2
+```
+
 The image begins with a light bulb icon, which represents the conception of an idea or a problem to solve. This is the spark that ignites the software engineering journey, where we identify a need or an opportunity and come up with innovative solutions.
 
 The word “Software” is spelled out with colorful blocks, each letter representing a crucial element or phase in the software development life-cycle. Let’s look at them one by one:

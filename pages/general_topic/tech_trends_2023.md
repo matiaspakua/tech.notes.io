@@ -40,6 +40,30 @@ tags:
 6. Technology Business. Chip Shortage
 
 ---
+
+## Mapa de Tendencias 2023–2024
+
+```mermaid
+quadrantChart
+    title Tech Trends 2023-2024 — Hype vs Impacto Real
+    x-axis Bajo Hype --> Alto Hype
+    y-axis Bajo Impacto Real --> Alto Impacto Real
+    quadrant-1 Transformadores
+    quadrant-2 Sobre-valorados
+    quadrant-3 Nicho Emergente
+    quadrant-4 En crecimiento silencioso
+    Generative AI: [0.85, 0.90]
+    GitHub Copilot: [0.75, 0.85]
+    Zero Trust Security: [0.45, 0.80]
+    Prompt Engineering: [0.70, 0.65]
+    No-Code/Low-Code: [0.60, 0.60]
+    Web3: [0.80, 0.20]
+    Metaverse: [0.75, 0.15]
+    Cross-Platform Tools: [0.35, 0.70]
+    DBT Data Build Tool: [0.30, 0.65]
+    Chip Shortage Impact: [0.50, 0.75]
+```
+
 ![](../../images/tech_trends.jpeg)
 
 # The Latest tech trends 2023 and 2024
