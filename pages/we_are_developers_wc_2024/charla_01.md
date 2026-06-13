@@ -215,3 +215,9 @@ Example: [monorepo-vs-multirepo](https://github.com/joelparkerhenderson/architec
 ---
 
 ![](../../images/disponibilidad_informacion_con_AI_LLM.png)
+
+## Notas relacionadas
+
+- [How to Build a Knowledge Base](../general_topic/how_to_build_a_knowledge_base.md)
+- [The Lifehackers guide to software architecture](charla_13.md)
+- [Architecture Antipattern](charla_02.md)
