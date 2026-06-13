@@ -15,7 +15,27 @@ tags:
 Excellent 3 days of the #H4CK3D 2022 event organized by Securetia and the Faculty of Engineering of the University of Palermo.
 
 ## Day 1 Highlights
-  
+
+### Cifrado simétrico vs asimétrico (SSL/TLS)
+
+```mermaid
+flowchart LR
+    subgraph SIM["🔑 Cifrado Simétrico"]
+        direction LR
+        S_A["👤 Alice"] -->|"misma clave"| S_KEY["🗝️ Clave\ncompartida"]
+        S_KEY -->|"misma clave"| S_B["👤 Bob"]
+        S_KEY -.->|"⚠️ riesgo: transmitir\nla clave por red"| RISK["❌ Vulnerable"]
+    end
+
+    subgraph ASIM["🔐 Cifrado Asimétrico (SSL/TLS)"]
+        direction LR
+        A_A["👤 Alice"] -->|"cifra con"| PUB["🔓 Clave pública\nde Bob"]
+        PUB -->|"mensaje cifrado"| WIRE["📡 Red"]
+        WIRE -->|"descifra con"| PRIV["🔒 Clave privada\n(solo Bob)"]
+        PRIV --> A_B["👤 Bob"]
+    end
+```
+
  - SSL is essential for encrypting web traffic and ensuring data security.
  - Symmetric encryption uses the same key for encryption and decryption, while asymmetric encryption uses a pair of public and private keys.
  - Symmetric encryption is vulnerable due to the need to transmit the encryption key.

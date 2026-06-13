@@ -32,6 +32,26 @@ Falco es un proyecto open-source originalmente creado por Sysdig y actualmente g
 
 # High level overview
 
+```mermaid
+flowchart TD
+    subgraph K8S["☸️ Kubernetes Cluster (EKS)"]
+        POD["🐳 Pods / Containers"]
+        NODE["🖥️ Node (EC2)"]
+        POD --> NODE
+    end
+
+    NODE -->|"syscall events\n(ebpf / kernel module)"| FALCO["🦅 Falco\n(runtime threat detection)"]
+    FALCO -->|"alert"| FSK["🔀 Falcosidekick\n(event forwarder)"]
+    FSK --> CW["📊 AWS CloudWatch\n(logs)"]
+    FSK --> LAMBDA["⚡ AWS Lambda\n(procesamiento)"]
+    LAMBDA --> HUB["🔒 AWS Security Hub\n(centro unificado)"]
+    HUB --> NOTIFY["🔔 Alertas /\nNotificaciones"]
+
+    style FALCO fill:#1e1e2e,stroke:#ff5555,color:#f8f8f2
+    style HUB fill:#1e1e2e,stroke:#ffd700,color:#f8f8f2
+    style K8S fill:#1e1e2e,stroke:#61dafb,color:#f8f8f2
+```
+
 ![](../../images/falco_high_level_overview.png)
 
 # AWS security hub con alertas

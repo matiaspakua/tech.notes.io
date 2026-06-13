@@ -31,6 +31,26 @@ The A7 project is widely regarded as a seminal moment in the history of software
 
 ##  Parnas's contributions from the A7E project
 
+```mermaid
+flowchart TD
+    A7["✈️ A-7E Project\n(US Naval Research Lab, 1970s)"]
+
+    A7 --> IH["🔒 Information Hiding\nEncapsular datos y comportamiento\npor módulo → reduce acoplamiento"]
+    A7 --> MOD["🧩 Modularity\nComponentes independientes\n→ mantenibilidad y reutilización"]
+    A7 --> SA["🏛️ Software Architecture\nLa arquitectura es el principal\nconcepto de diseño"]
+    A7 --> FS["📋 Formal Specification\nInterfaces tabulares para\nespecificar módulos"]
+    A7 --> SQ["✅ Software Quality\nInspecciones de código + testing\n→ calidad desde el inicio"]
+
+    IH --> OOP["🏗️ OOP: Encapsulamiento\ny Abstracción"]
+    MOD --> SDD["📦 Separation of Concerns\n(Dijkstra + Parnas)"]
+    SA --> ADR["📄 Architecture Decision\nRecords (ADRs)"]
+
+    style A7 fill:#1e1e2e,stroke:#ffd700,color:#f8f8f2
+    style IH fill:#1e1e2e,stroke:#61dafb,color:#f8f8f2
+    style MOD fill:#1e1e2e,stroke:#50fa7b,color:#f8f8f2
+    style SA fill:#1e1e2e,stroke:#bd93f9,color:#f8f8f2
+```
+
 David Parnas is best known for his contributions to the field of software engineering after working on the A-7E project, conducted at the US Naval Research Laboratory. During the course of the A-7E project, Parnas developed and refined his ideas on software design, architecture, and modularity. These ideas had a significant impact on the software engineering community and are still widely cited today.
 
 Some of Parnas' key contributions to the field of software engineering after the A7 project include:
