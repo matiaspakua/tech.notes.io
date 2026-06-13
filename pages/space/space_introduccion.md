@@ -10,6 +10,33 @@ tags:
 
 # **Contexto del Sector Espacial**
 
+## Mapa del Sector Espacial
+
+```mermaid
+flowchart TD
+    ESA["🚀 Sector Espacial\n(ESA: €22.100M — Bremen 2025)"]
+
+    ESA --> GNSS["🛰️ Navegación GNSS\n(Galileo, GPS, GLONASS, BeiDou)\nCoches autónomos, drones, finanzas"]
+    ESA --> OBS["🌍 Observación de la Tierra\n(Copernicus)\nAgricultura 4.0, cambio climático,\nrespuesta a desastres"]
+    ESA --> COMM["📡 Comunicaciones\n(Iris², Moonlight)\nSatélites seguros, IoT, luna"]
+    ESA --> DEBRIS["🗑️ Basura Espacial\n(36.000+ objetos)\nMonitorización, predicción,\nlimpieza orbital"]
+    ESA --> LAUNCH["🔥 Lanzadores\n(SpaceX, Ariane, PLD Space)\nCohetes reutilizables,\nacceso más barato"]
+
+    GNSS --> TECH["⚙️ Tecnologías Clave\nPython, C/C++, ML/DL\nFiltros Kalman, GNSS processing\nDocker, Kubernetes"]
+    OBS --> TECH
+    COMM --> TECH
+    TECH --> JOBS["💼 Empleadores\nAirbus D&S, Thales, GMV\nTelespazio, ESA, CE"]
+
+    style ESA fill:#1e1e2e,stroke:#ffd700,color:#f8f8f2
+    style GNSS fill:#1e1e2e,stroke:#61dafb,color:#f8f8f2
+    style OBS fill:#1e1e2e,stroke:#50fa7b,color:#f8f8f2
+    style COMM fill:#1e1e2e,stroke:#bd93f9,color:#f8f8f2
+    style DEBRIS fill:#1e1e2e,stroke:#ff5555,color:#f8f8f2
+    style LAUNCH fill:#1e1e2e,stroke:#ff9f43,color:#f8f8f2
+    style TECH fill:#1e1e2e,stroke:#64ffda,color:#f8f8f2
+    style JOBS fill:#1e1e2e,stroke:#ff79c6,color:#f8f8f2
+```
+
 ## Momento Histórico de Crecimiento
 
 El sector espacial está experimentando un **boom sin precedentes**. En noviembre de 2025, el Consejo Ministerial de la Agencia Espacial Europea (ESA) en Bremen estableció un hito histórico con una **financiación de 22,100 millones de euros** para los próximos años, la mayor inversión jamás realizada.

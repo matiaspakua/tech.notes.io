@@ -63,6 +63,31 @@ Fuente: [Dibujar para comprender. Casos de Visual Thinking en las empresas — U
 - **Colores y Formas** 🎨: Usar diferentes colores y formas para destacar lo importante y diferenciar ideas.
 
 ---
+## Visual Thinking → Design Thinking
+
+```mermaid
+flowchart LR
+    VT["🖊️ Visual Thinking\n(ver + pensar + dibujar)"]
+    VT --> IMG["🖼️ Imágenes\n(símbolos, iconos)"]
+    VT --> WORDS["📝 Palabras\n(texto corto y claro)"]
+    VT --> MAPS["🗺️ Mapas y Diagramas\n(relaciones entre ideas)"]
+    VT --> FLOWS["🔄 Flujos y Esquemas\n(secuencias de pasos)"]
+    VT --> COLOR["🎨 Colores y Formas\n(énfasis, diferenciación)"]
+
+    VT --> DT["💡 Design Thinking\n(resolver problemas creativamente)"]
+    DT --> EMP["🤝 Empatizar\n(entender al usuario)"]
+    DT --> DEF["🔍 Definir\n(problema claro)"]
+    DT --> IDE["💭 Idear\n(divergir soluciones)"]
+    DT --> PROTO["🛠️ Prototipar\n(tangibilizar ideas)"]
+    DT --> TEST["✅ Testear\n(validar con usuarios)"]
+    TEST -->|"iteración"| DEF
+
+    style VT fill:#1e1e2e,stroke:#ffd700,color:#f8f8f2
+    style DT fill:#1e1e2e,stroke:#bd93f9,color:#f8f8f2
+    style PROTO fill:#1e1e2e,stroke:#50fa7b,color:#f8f8f2
+    style TEST fill:#1e1e2e,stroke:#64ffda,color:#f8f8f2
+```
+
 ## Visual Thinking y Design Thinking
 
 El Design Thinking es un proceso de <mark style="background: #FFF3A3A6;">resolución de problemas</mark> que comienza con la comprensión de las necesidades no satisfechas e implica el desarrollo de <mark style="background: #BBFABBA6;">conceptos</mark>, <mark style="background: #ADCCFFA6;">creatividad</mark>, la creación de <mark style="background: #FFF3A3A6;">prototipos</mark> y la realización de pruebas.
