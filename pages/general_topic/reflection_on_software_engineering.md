@@ -39,3 +39,15 @@ The image ends with a refresh icon, which indicates that the software engineerin
 The little joke inserted—a Linux bash command (`$ /home/matias/miguez/ls -la`)—adds a touch of humor while subtly nodding to the technical acumen integral in software engineering. It shows the contents of an imaginary folder (my LinkedIn profile or my GitHub landing page), where you can see information about my self (project in git, my blog, working experience, courses, certification, posts that I share, etc.)
 
 As you can see, software engineering is a journey of creativity and rigor, where we use our skills and knowledge to create solutions that make a difference in the world. I hope you enjoyed this post and learned something new. Feel free to share your thoughts and comments below. Thank you for reading! 😊
+
+## References
+
+- [Modern Software Engineering: Doing What Works to Build Better Software Faster — David Farley, Addison-Wesley, 2021](https://www.oreilly.com/library/view/modern-software-engineering/9780137314942/)
+- [The Pragmatic Programmer — Andrew Hunt & David Thomas, Addison-Wesley, 2019](https://pragprog.com/titles/tpp20/the-pragmatic-programmer-20th-anniversary-edition/)
+- [What is Software Engineering? — Wikipedia](https://en.wikipedia.org/wiki/Software_engineering)
+- [Continuous Delivery: Reliable Software Releases through Build, Test, and Deployment Automation — Jez Humble & David Farley, Addison-Wesley, 2010](https://continuousdelivery.com/)
+
+## Notas relacionadas
+
+- [Software Engineering Timeline](../software_engineering/software_engineering_timeline.md)
+- [Modern Software Engineering: Doing What Works to Build Better Software Faster](../books/modern_software_engineering.md)

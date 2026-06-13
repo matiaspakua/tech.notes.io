@@ -61,6 +61,29 @@ public class Calculadora {
 
 Las interfaces funcionales en Java son una herramienta poderosa para simplificar la programación, especialmente en el contexto de la programación funcional. Permiten expresar de manera concisa comportamientos que se pueden pasar y reutilizar, reduciendo la cantidad de código boilerplate. Sin embargo, se deben utilizar con cuidado, asegurando que el uso de lambdas y interfaces funcionales no sacrifique la claridad o el diseño de tu código.
 
+Las interfaces funcionales principales del paquete `java.util.function`:
+
+```mermaid
+flowchart LR
+    subgraph Input["Entrada → Salida"]
+        F["Function&lt;T,R&gt;\nt → r"]
+        BF["BiFunction&lt;T,U,R&gt;\n(t,u) → r"]
+        UO["UnaryOperator&lt;T&gt;\nt → t"]
+        BO["BinaryOperator&lt;T&gt;\n(t,t) → t"]
+    end
+    subgraph NoOutput["Solo entrada (efecto)"]
+        C["Consumer&lt;T&gt;\nt → void"]
+        BC["BiConsumer&lt;T,U&gt;\n(t,u) → void"]
+    end
+    subgraph NoInput["Solo salida (proveedor)"]
+        S["Supplier&lt;T&gt;\n() → t"]
+    end
+    subgraph Test["Predicado (boolean)"]
+        P["Predicate&lt;T&gt;\nt → boolean"]
+        BP["BiPredicate&lt;T,U&gt;\n(t,u) → boolean"]
+    end
+```
+
 ## Referencias
 
 - [java.util.function — Java SE 17 API Docs](https://docs.oracle.com/en/java/docs/api/java.base/java/util/function/package-summary.html)

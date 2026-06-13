@@ -45,6 +45,23 @@ Now, back to the plumbing idea, Spring promotes <mark style="background: #FFF3A3
 
 One of the most powerful aspects of Spring Boot is that it provides <mark style="background: #FFF3A3A6;">auto-configuration</mark> of the application context so that you, as the developer, can leverage simple properties and conventions to configure the Beans loaded into the Bean Factory and used by the IoC container. 
 
+Relación entre IoC container, ApplicationContext y los Beans:
+
+```mermaid
+flowchart TD
+    Dev["Developer Code\n(@Component, @Service, @Repository)"] -->|registra| AC
+    Config["Configuration\n(application.properties / @Configuration)"] -->|configura| AC
+    subgraph AC["ApplicationContext (IoC Container)"]
+        BF["BeanFactory"]
+        BF -->|instantiate| B1["Bean: UserService"]
+        BF -->|instantiate| B2["Bean: UserRepository"]
+        BF -->|instantiate| B3["Bean: DataSource"]
+        B1 -->|inyecta| B2
+        B2 -->|inyecta| B3
+    end
+    AC -->|expone| App["Application\n(Business Logic)"]
+```
+
 More information in: [spring_framework_notes](spring_framework_notes.md)
 
 
