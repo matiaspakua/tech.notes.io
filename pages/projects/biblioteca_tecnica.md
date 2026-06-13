@@ -143,7 +143,40 @@ Con esta definición de los actores, podemos avanzar a **diagramar los casos de 
 
 ## Modelo Conceptual Inicial
 
-* Diagrama de clases conceptuales principales*
+```mermaid
+classDiagram
+    class Libro {
+        +String titulo
+        +String autor
+        +String estado
+        +calcularFechaDevolucion()
+    }
+    class Prestamo {
+        +Date fechaPrestamo
+        +Date fechaDevolucion
+        +String estado
+    }
+    class Usuario {
+        +String nombre
+        +String email
+        +solicitarPrestamo()
+        +devolverLibro()
+    }
+    class Administrador {
+        +gestionarLibros()
+        +generarReporte()
+    }
+    class SistemaBiblioteca {
+        +procesarFormulario()
+        +enviarNotificacion()
+        +actualizarEstado()
+    }
+    Usuario "1" --> "0..*" Prestamo : solicita
+    Prestamo "1" --> "1" Libro : referencia
+    Administrador --|> Usuario : hereda
+    SistemaBiblioteca ..> Prestamo : gestiona
+    SistemaBiblioteca ..> Libro : actualiza estado
+```
 
 ## Glosario del Dominio
 
@@ -287,3 +320,31 @@ Esta POC utiliza:
 - Plan de pruebas
 - Casos de prueba
 - Resultados de pruebas
+
+## Arquitectura de despliegue
+
+```mermaid
+flowchart LR
+    GF["Google Forms\n(solicitud / devolución)"]
+    AS["Google Apps Script\n(lógica de negocio)"]
+    GS["Google Sheets\n(base de datos)"]
+    GM["Gmail\n(notificaciones)"]
+    GF -- envío formulario --> AS
+    AS -- CRUD libros/préstamos --> GS
+    AS -- recordatorio vencimiento --> GM
+    GM -- email --> US["Usuario"]
+    AS -- reporte --> AD["Administrador"]
+```
+
+## Referencias
+
+- [Google Apps Script — documentación oficial](https://developers.google.com/apps-script)
+- [Google Sheets API — Google Developers](https://developers.google.com/sheets/api)
+- [Use Case Diagrams — UML Reference, Object Management Group](https://www.omg.org/spec/UML/)
+- [Writing Effective Use Cases — Alistair Cockburn, 2000](https://alistair.cockburn.us/use-cases/)
+
+## Notas relacionadas
+
+- [Testing (TDD/BDD)](../testing/on_unit_test_tdd_and_bdd.md)
+- [REST API Notes](../development/on_rest_api_notes.md)
+- [Maven](../development/maven.md)

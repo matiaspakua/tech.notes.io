@@ -51,7 +51,38 @@ steps:
 
 ## Contexto
 
-
 ![](../../images/C0_orquestador_workflows.png)
 
+## Flujo de ejecución
 
+```mermaid
+sequenceDiagram
+    participant C as Cliente
+    participant O as Orquestador
+    participant T as Tarea (Step)
+    participant E as Componente Externo
+
+    C->>O: Enviar workflow YAML
+    O->>O: Parsear definición
+    loop Para cada step
+        O->>T: Ejecutar tarea(input)
+        alt componente externo
+            T->>E: Llamada externa
+            E-->>T: Resultado
+        end
+        T-->>O: output_data
+    end
+    O-->>C: Resultado final del workflow
+```
+
+## Referencias
+
+- [YAML Specification — yaml.org](https://yaml.org/spec/)
+- [Workflow Orchestration Patterns — Maxim Fateev, Temporal.io](https://temporal.io/blog/workflow-orchestration)
+- [Martin Fowler — Process Manager Pattern](https://www.enterpriseintegrationpatterns.com/ProcessManager.html)
+
+## Notas relacionadas
+
+- [Durable Execution (Temporal.io)](../we_are_developers_wc_2024/charla_06.md)
+- [REST API Notes](../development/on_rest_api_notes.md)
+- [Architecture — Hexagonal](../sw_and_system_architecture/on_hexagonal_architecture_notes.md)
