@@ -143,6 +143,13 @@ Other popular data formats include YAML (Yet Another Markup Language) and XML (E
 
 For these reasons, JSON has largely superseded XML as the most widely used format for APIs used by Web apps, including REST APIs.
 
+## References
+
+- [Architectural Styles and the Design of Network-based Software Architectures — Roy T. Fielding, PhD Dissertation, UC Irvine, 2000](https://ics.uci.edu/~fielding/pubs/dissertation/top.htm)
+- [OpenAPI Specification — OpenAPI Initiative](https://spec.openapis.org/oas/latest.html)
+- [HTTP Methods — MDN Web Docs (Mozilla)](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods)
+- [RESTful Web API Patterns and Practices Cookbook — Mike Amundsen, O'Reilly, 2022](https://www.oreilly.com/library/view/restful-web-api/9781098106737/)
+
 ## Notas relacionadas
 
 - [OpenApi foundations](OpenApi.md)
