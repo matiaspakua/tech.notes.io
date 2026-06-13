@@ -40,6 +40,26 @@ Head of Architecture Management @ Finanz Informatik GmbH & Co. KG
 
 ## Evolución de los sistemas bancarios modernos
 
+```mermaid
+timeline
+    title Evolución de Sistemas Bancarios (FI, Alemania)
+    1980 : Mainframes 🖥️
+         : Procesamiento centralizado y batch
+    1990 : PC 💻
+         : Aplicaciones cliente-servidor
+    2000 : Mobile 📱
+         : Apps bancarias en smartphones
+    2010 : Personal y Social 👥
+         : Personalización y redes sociales
+    2015 : Conveniencia y a-demanda ⏱️
+         : APIs, Open Banking
+    2020 : IoT, todo conectado 🌐
+         : Cloud Native, microservicios
+    2024 : Responsable y sustentable 🌱
+         : Acelerada por AI 🤖
+         : LLMs integrados en productos
+```
+
 **Evolución**
 
 - **Mainframes** 🖥️
