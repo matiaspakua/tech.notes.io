@@ -188,3 +188,15 @@ Link: [Doodlers, Unite! — Sunni Brown (YouTube)](https://youtu.be/7fx0QcHyrFk?
 ### Draw.io de ejemplo
 
 ![30x30](../../images/download.png) [Descargar Ejemplo:](https://github.com/matiaspakua/tech.notes.io/blob/08c0d9e956789029b2689af4acd98ba1fd51652e/canvas/visual_thinking_and_problem_solving.drawio)
+
+## Referencias
+
+- [The Back of the Napkin: Solving Problems and Selling Ideas with Pictures — Dan Roam, Portfolio, 2008](https://www.danroam.com/books/the-back-of-the-napkin/)
+- [Sunni Brown — The Doodle Revolution (TED Talk)](https://www.ted.com/talks/sunni_brown_doodlers_unite)
+- [Visual Thinking — Wikipedia](https://en.wikipedia.org/wiki/Visual_thinking)
+
+## Notas relacionadas
+
+- [Design Thinking Explained](../general_topic/design_thinking_explained.md)
+- [How to Speak — Patrick Winston](../leadership/how_to_speak_by_patrick_winston.md)
+- [Como hacer presentaciones](../leadership/como_hacer_presentaciones.md)
