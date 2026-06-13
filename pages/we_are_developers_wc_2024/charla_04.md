@@ -5,51 +5,45 @@ tags:
   - we-are-developers
   - 2024
   - notas
+  - inteligencia-artificial
+  - cloud
 ---
 
 # Architecting the future: leveraging AI, Cloud, and data for business Sucess
 
 [← Inicio](https://matiaspakua.github.io/tech.notes.io)
 
----
+Panel sobre cómo las grandes empresas están arquitectando sus soluciones con AI, Cloud y datos.
 
-## Introducción Panelistas
+## Panelistas
 
---> Quantum Computing and AI: Acelera el procesamiento de problemas complejos y por lo tanto va a potenciar a las AI.
---> Microsoft (agregaron AI an muchos de sus productos)
---> Salesfoce: consumer requirements on AI and enterprice requirements with AI.
+- **Quantum Computing + AI**: acelera el procesamiento de problemas complejos y potencia las capacidades de AI.
+- **Microsoft**: empresa de "plataformas", integrando Copilot como una plataforma que los clientes incorporan en sus soluciones.
+- **Salesforce**: los datos vienen de todos lados (competencia, partners). Salesforce tiene su propio modelo LLM para ser entrenado con datos "privados" de los clientes.
 
----
+## Cómo se introduce AI en las empresas
 
-## Como se introduce AI en las empresas
+- **Microsoft**: integra Copilot como plataforma central. Los clientes construyen encima.
+- **Salesforce**: LLM propio entrenado con datos del cliente para mantener privacidad y personalización.
 
---> microsoft: es una empresa de "plataformas", ellos están integrando copilot como una plataforma más, que los cliente integran en sus soluciones.
+## Quantum: el límite del silicio
 
---> salesforce: los datos vienen de todos lado, tanto de la competencia como de partners. Salesforce tiene su propio modelo LLM para ser entrenado con datos "privados" de los clientes.
+El nuevo paradigma que será esencial para acelerar los LLM, que cada vez requieren más datos y más procesamiento. El enfoque actual:
 
----
+1. **Corto plazo**: optimizar los modelos actuales, mejorando algoritmos dentro de las restricciones de procesamiento actuales.
+2. **Largo plazo**: cuando avance Quantum Computing, se podrá crear algoritmos cuánticos que realmente aceleren el procesamiento que requieren los LLMs.
 
-## Que pasa cuando se llegue al limite de procesamiento de Silicio => Quantum
+## Implicaciones éticas del Quantum Computing
 
-El nuevo paradigma que será esencial para acelerar los nuevos modelos de LLM que cada vez requieres más datos, más poder de procesamiento. Aquí es donde será fundamental el avance en Quantum Computing.
-
----
-
-Actualmente, el enfoque está yendo en:
-
-1. Optimizar los modelos actuales, mejorando sus algoritmos con las restricciones de procesamiento que actualmente existen
-2. Cuando se avance en el desarrollo de Quantum Computer, se podrá crear algoritmos usando la arquitectura Quantum para "realmente" acelerar el procesamiento de datos que requieren los LLM's.
-
----
-
-## Ethical implication of Quantum Computing
-
-QC va a destruir todos los algoritmos de cifrado del mundo. 
-
-¿Cómo nos preparamos para esto? 
-
----
+> [!warning]
+> QC va a destruir todos los algoritmos de cifrado actuales (RSA, ECC). La preparación
+> requiere migrar a algoritmos **post-quantum** antes de que QC alcance esa escala.
 
 ## Futuro
 
-<mark style="background: #FFF3A3A6;">QC error correction</mark> es el siguiente gran paso. Una vez que se resuelva, se podrá exponer QC a niveles más altos.
+<mark style="background: #FFF3A3A6;">QC error correction</mark> es el siguiente gran paso. Una vez resuelto, se podrá exponer QC a niveles más altos y útiles para aplicaciones reales.
+
+## Notas relacionadas
+
+- [Quantum Computing for classical developers](charla_12.md)
+- [Generative AI](../software_engineering/generative_ai.md)

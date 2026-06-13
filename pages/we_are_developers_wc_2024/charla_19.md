@@ -18,50 +18,57 @@ tags:
 
 ## Introducción
 
-¿Qué es data architecture? Sistemas, procesos, análisis de datos, toma de decisiones. Data-Driven decision, design, etc.
+¿Qué es data architecture? Sistemas, procesos, análisis de datos, toma de decisiones. Data-driven decision, design, etc.
 
-==> Problemas?
-
+Problemas recurrentes:
 1. Datos distribuidos
-2. Datos dificiles de manejar.
+2. Datos difíciles de manejar
 
-## Evolución de Procesos clasicos
+## Evolución de los procesos clásicos
 
-Fuente -> ETL => data warehouse -> reportes, BI, analytics.
+```mermaid
+flowchart LR
+    S1["Fuentes"] -->|ETL| DW["Data Warehouse\n(reportes, BI, analytics)"]
+    S2["Fuentes\n(streaming)"] -->|ELT| DL["Data Lake\n(raw storage)"]
+    DL --> CDL["Cloud Data Lake\n(Snowflake)"]
+    CDL --> DLH["Data Lakehouse\n(Apache Iceberg)"]
+```
 
-Luego Fuente pueden ser "data lakes"
-
-Luego Cloud Data Lakes (snowflake)
-
-ETL a ELT => Extract, Load => luego Transform
-
-Data Lakehouse (Apache Iceberg) y formatos de almacenamiento.
-
+Evolución del patrón: **ETL** → **ELT** (Extract, Load → luego Transform). El Lakehouse combina lo mejor del data lake y el data warehouse.
 
 ## Challenge: centralización
 
-Es lo más práctico, pero en grandes organizaciones puede ser un problema por el volumen.
+Es lo más práctico, pero en grandes organizaciones puede ser un problema por el volumen y los equipos.
 
-==> Data Mesh => DDD para los datos.
+**Data Mesh**: aplicar DDD (Domain-Driven Design) para los datos. Cada dominio es dueño de sus datos y los expone como productos.
 
-## Influencia en la Ingenieria del software
+## Influencia en la ingeniería del software
 
-Python ecosistema para el procesamiento de datos.
-Testing= unit, integration, and data test.
-sobre los ambientes de pruebas: dev, pre-prod, prod y como se debe hacer ingeniería de datos
+- **Python**: ecosistema estándar para procesamiento de datos
+- **Testing**: unit, integration, y **data tests** (validar la calidad de los datos)
+- Ambientes: dev, pre-prod, prod — igual que en software tradicional
 
-## modern data stack => dbt
+## Modern Data Stack: dbt
 
-Devops aplicado a data
-dbt => herramienta para hacer consultas SQL y archivos yaml para configurar
-con esta herramienta podemos hacer test_unitarios para "datos", o sea, TDD en datos.
-poner todo en el repositorio "dbt" hace que se pueda crear un pipeline y por lo tanto, automatizar el proceso.
+<mark style="background: #FFF3A3A6;">DevOps aplicado a data</mark>.
+
+**dbt** (data build tool): herramienta para hacer consultas SQL y archivos YAML de configuración. Permite:
+- Escribir **unit tests para datos** (TDD aplicado a transformaciones)
+- Versionado en repositorio → pipeline automatizado
 
 ## Data Contract — como una API pero para DATA
+
+Un data contract define el esquema, semántica y SLA de los datos que un productor provee a sus consumidores.
 
 Ver [Data Contract Specification](https://datacontract.com/).
 
 ## Data-as-a-Product & data-thinking
 
-Puede producir valor (es el oro de nuestros tiempos)
-Que se puede hacer con los datos?
+Los datos pueden producir valor (son el "oro" de nuestros tiempos). La pregunta clave: ¿qué se puede hacer con estos datos para generar valor?
+
+## References
+
+- [dbt — Data Build Tool](https://www.getdbt.com/)
+- [Data Contract Specification — datacontract.com](https://datacontract.com/)
+- [Data Mesh — Martin Fowler](https://martinfowler.com/articles/data-mesh-principles.html)
+- [Apache Iceberg — Open Table Format](https://iceberg.apache.org/)
