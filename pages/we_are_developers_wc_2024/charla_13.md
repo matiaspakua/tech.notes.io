@@ -43,6 +43,22 @@ Patrones para dividir:
 
 ## Manage Failure
 
+```mermaid
+flowchart TD
+    FAIL["❌ Falla en sistema distribuido"]
+    FAIL --> TF["⏱️ Transient Failure\n(error temporal)"]
+    FAIL --> PP["☠️ Poison Pill\n(mensaje inválido siempre falla)"]
+
+    TF -->|"solución"| RETRY["🔁 Retry Logic\n(con backoff exponencial)"]
+    PP -->|"solución"| DLQ["📮 Dead-Letter Queue (DLQ)\n+ Archive and Reply"]
+
+    RETRY --> DEDUP["🛡️ Deduplication\n(evitar procesar dos veces)"]
+
+    style FAIL fill:#1e1e2e,stroke:#ff5555,color:#f8f8f2
+    style DLQ fill:#1e1e2e,stroke:#ffd700,color:#f8f8f2
+    style DEDUP fill:#1e1e2e,stroke:#50fa7b,color:#f8f8f2
+```
+
 <mark style="background: #FFF3A3A6;">La principal causa de fallas en sistemas distribuidos es la RETRY LOGIC</mark> mal implementada.
 
 Herramientas: **Dead-Letter Queue (DLQ)**

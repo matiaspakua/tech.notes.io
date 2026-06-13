@@ -36,6 +36,30 @@ La cantidad de cosas que constantemente tenemos que aprender — ese es el probl
 
 ## RedHat OpenShift y Platform Engineering
 
+```mermaid
+flowchart TD
+    subgraph PE["🏗️ Platform Engineering (IDP)"]
+        PT["🛠️ Platform Team"]
+        PT --> ABS["📦 Golden Paths\ny Templates"]
+        PT --> TOOLS["🔧 Tooling\n(OpenShift, Helm, ArgoCD)"]
+        PT --> OBS["📊 Observabilidad\n(Prometheus, Grafana)"]
+    end
+
+    subgraph TEAMS["👥 Product Teams"]
+        T1["Team A"]
+        T2["Team B"]
+        T3["Team C"]
+    end
+
+    TEAMS -->|"self-service"| PE
+    PE -->|"reduce carga\ncognitiva"| TEAMS
+    PT --> K8S["☸️ Kubernetes\n(RedHat OpenShift)"]
+    K8S --> CLOUD["☁️ Cloud\n(AWS / GCP / Azure)"]
+
+    style PE fill:#1e1e2e,stroke:#ff5555,color:#f8f8f2
+    style TEAMS fill:#1e1e2e,stroke:#50fa7b,color:#f8f8f2
+```
+
 Personas, procesos, tecnologías + una plataforma cohesiva.
 
 <mark style="background: #BBFABBA6;">Platform Engineering</mark> va a ser la evolución de DevOps: en lugar de que cada equipo configure su propio stack, un equipo de plataforma provee abstracciones que reducen la carga cognitiva.
