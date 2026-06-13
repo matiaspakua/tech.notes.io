@@ -11,7 +11,7 @@ tags:
 [← Inicio](https://matiaspakua.github.io/tech.notes.io)
 
 > [!note]
-> Notas rápidas de libros que quiero leer. Ver el [[indice_libros|Índice de libros]] para la lista completa de libros anotados.
+> Notas rápidas de libros que quiero leer. Ver el [Índice de libros](indice_libros.md) para la lista completa de libros anotados.
 
 ## Pendientes
 

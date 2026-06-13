@@ -758,7 +758,7 @@ Explains the concept of a highly available architecture, which can respond to re
 
 ![](../../images/availability.png)
 
-- Reference to Load Balancer: [[advance_your_spring_development_skills]]
+- Reference to Load Balancer: [Spring Cloud Load Balancing](../development/advance_your_spring_development_skills.md)
 
 The concept of **High Availability** in cloud computing, often referred to as “Nine Nines”. Here are the key points:
 

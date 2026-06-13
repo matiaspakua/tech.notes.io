@@ -315,6 +315,12 @@ Reference: [What is Prompt Engineering?](https://promptengineering.org/what-is-p
 12. **Challenges in Switching Designs**: Switching to different chips incurs costs and delays due to testing, regulatory approval, and changes in specifications.
 13. **Continued Delays in Production**: Until the supply chain issues are resolved, delays in the production of various products, from laptops to cars, will persist.
 
-References:
+## References
+
 - [Global manufacturers see chip shortage easing — Reuters, 2022](https://www.reuters.com/technology/global-manufacturers-see-chip-shortage-easing-2022-07-21/)
 - [Semiconductor Manufacturing by Country — DataPandas](https://www.datapandas.org/ranking/semiconductor-manufacturing-by-country)
+
+## Notas relacionadas
+
+- [Generative AI](../software_engineering/generative_ai.md)
+- [AI — Conceptos Generales](../artificial_intelligence/ruta_de_aprendisaje/1.fundamentos_inteligencia_artificial/1_conceptos_generales.md)
