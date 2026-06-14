@@ -1,7 +1,7 @@
 {
-  "name": "knowledge-nebula",
+  "name": "knowledge-atlas",
   "private": true,
-  "version": "1.0.0",
+  "version": "2.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -9,7 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "three": "^0.165.0",
+    "d3": "^7.9.0",
     "gsap": "^3.12.5"
   },
   "devDependencies": {

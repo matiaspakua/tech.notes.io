@@ -3,432 +3,404 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Knowledge Nebula — tech.notes.io</title>
+  <title>Knowledge Atlas — tech.notes.io</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
     :root {
-      --bg: #070711;
-      --surface: rgba(14, 14, 28, 0.92);
-      --border: rgba(100, 255, 218, 0.12);
-      --text: #e2e8f0;
-      --muted: #64748b;
-      --accent: #64ffda;
-      --font-ui: 'Space Grotesk', sans-serif;
-      --font-mono: 'JetBrains Mono', monospace;
+      --bg:      #070709;
+      --bg-2:    #0d0d12;
+      --border:  rgba(255,255,255,0.06);
+      --text:    #f0f0f0;
+      --muted:   rgba(255,255,255,0.32);
+      --amber:   #C9A84C;
+      --amber-d: rgba(201,168,76,0.18);
+      --mono:    'JetBrains Mono', monospace;
+      --sans:    'Inter', sans-serif;
     }
 
     html, body {
       width: 100%; height: 100%;
       background: var(--bg);
       overflow: hidden;
-      font-family: var(--font-ui);
+      font-family: var(--sans);
       color: var(--text);
-      cursor: crosshair;
+      -webkit-font-smoothing: antialiased;
     }
 
-    #canvas-container {
+    /* ── GRAIN CANVAS ── */
+    #grain {
       position: fixed;
       inset: 0;
+      pointer-events: none;
+      z-index: 0;
+      opacity: 0.45;
     }
 
-    canvas { display: block; }
-
-    /* ── LOADING SCREEN ── */
-    #loading {
+    /* ── ATLAS SVG ── */
+    #atlas {
       position: fixed;
       inset: 0;
-      background: var(--bg);
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      z-index: 100;
-      gap: 2rem;
-    }
-
-    #loading-title {
-      font-size: clamp(2rem, 5vw, 4rem);
-      font-weight: 700;
-      letter-spacing: 0.3em;
-      text-transform: uppercase;
-      background: linear-gradient(135deg, #64ffda, #61dafb, #bd93f9);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      background-clip: text;
-    }
-
-    #loading-sub {
-      font-family: var(--font-mono);
-      font-size: 0.8rem;
-      color: var(--muted);
-      letter-spacing: 0.2em;
-    }
-
-    .loading-bar {
-      width: 200px;
-      height: 1px;
-      background: rgba(100,255,218,0.15);
-      position: relative;
-      overflow: hidden;
-    }
-    .loading-bar::after {
-      content: '';
-      position: absolute;
-      left: -100%;
-      top: 0;
       width: 100%;
       height: 100%;
-      background: linear-gradient(90deg, transparent, #64ffda, transparent);
-      animation: loading-sweep 1.5s infinite;
-    }
-    @keyframes loading-sweep {
-      to { left: 100%; }
+      z-index: 1;
+      cursor: default;
     }
 
     /* ── HEADER ── */
     #header {
       position: fixed;
       top: 0; left: 0; right: 0;
-      height: 56px;
+      z-index: 10;
       display: flex;
       align-items: center;
-      padding: 0 1.5rem;
       gap: 1.5rem;
-      background: linear-gradient(to bottom, rgba(7,7,17,0.9) 0%, transparent 100%);
-      z-index: 10;
-      opacity: 0;
-      pointer-events: none;
+      padding: 0 1.75rem;
+      height: 52px;
+      border-bottom: 1px solid var(--border);
+      background: rgba(7,7,9,0.9);
+      backdrop-filter: blur(8px);
     }
 
-    #header-title {
-      font-size: 0.75rem;
-      font-weight: 600;
-      letter-spacing: 0.25em;
+    #logo {
+      font-family: var(--mono);
+      font-size: 0.65rem;
+      font-weight: 500;
+      letter-spacing: 0.3em;
       text-transform: uppercase;
-      color: var(--accent);
-      font-family: var(--font-mono);
+      color: var(--amber);
+      flex-shrink: 0;
     }
 
-    #header-stats {
-      font-size: 0.7rem;
-      font-family: var(--font-mono);
+    #breadcrumb {
+      font-family: var(--mono);
+      font-size: 0.65rem;
       color: var(--muted);
-      display: flex;
-      gap: 1.5rem;
+      flex: 1;
     }
 
-    .stat-item { display: flex; align-items: center; gap: 0.4rem; }
-    .stat-value { color: var(--text); font-weight: 500; }
+    .bc-sep { margin: 0 0.4em; opacity: 0.4; }
+    .bc-home { cursor: pointer; transition: color 0.15s; }
+    .bc-home:hover { color: var(--amber); }
 
-    #search-container {
-      margin-left: auto;
+    #search-wrap {
       position: relative;
+      flex-shrink: 0;
     }
 
     #search {
-      background: rgba(255,255,255,0.04);
+      background: rgba(255,255,255,0.035);
       border: 1px solid var(--border);
-      border-radius: 6px;
-      padding: 0.35rem 0.75rem 0.35rem 2rem;
-      font-family: var(--font-mono);
-      font-size: 0.7rem;
+      border-radius: 5px;
+      padding: 0.3rem 0.75rem 0.3rem 1.8rem;
+      font-family: var(--mono);
+      font-size: 0.65rem;
       color: var(--text);
-      width: 200px;
-      transition: border-color 0.2s, width 0.3s;
+      width: 180px;
       outline: none;
+      transition: border-color 0.2s, width 0.3s;
     }
-    #search:focus {
-      border-color: rgba(100,255,218,0.4);
-      width: 260px;
-    }
+    #search:focus { border-color: rgba(201,168,76,0.4); width: 240px; }
     #search::placeholder { color: var(--muted); }
-    #search-icon {
+    .search-icon {
       position: absolute;
-      left: 0.6rem;
-      top: 50%;
+      left: 0.55rem; top: 50%;
       transform: translateY(-50%);
-      font-size: 0.7rem;
+      font-size: 0.65rem;
       color: var(--muted);
       pointer-events: none;
     }
+
+    #reset-btn {
+      font-family: var(--mono);
+      font-size: 0.6rem;
+      letter-spacing: 0.1em;
+      color: var(--amber);
+      background: none;
+      border: 1px solid rgba(201,168,76,0.3);
+      border-radius: 4px;
+      padding: 0.28rem 0.65rem;
+      cursor: pointer;
+      opacity: 0;
+      pointer-events: none;
+      transition: background 0.15s;
+      flex-shrink: 0;
+    }
+    #reset-btn:hover { background: var(--amber-d); }
+
+    /* ── NOTE CARD ── */
+    #note-card {
+      position: fixed;
+      right: 1.5rem;
+      top: 68px;
+      width: 256px;
+      background: rgba(13,13,18,0.95);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 1.25rem;
+      z-index: 10;
+      opacity: 0;
+      transform: translateX(16px);
+      pointer-events: none;
+      backdrop-filter: blur(10px);
+    }
+
+    #nc-bar {
+      width: 100%;
+      height: 1px;
+      background: var(--amber);
+      margin-bottom: 1rem;
+      transform: scaleX(0);
+      transform-origin: left;
+      transition: transform 0.4s ease;
+    }
+    #note-card.visible #nc-bar { transform: scaleX(1); }
+
+    #nc-domain {
+      font-family: var(--mono);
+      font-size: 0.58rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      margin-bottom: 0.5rem;
+      color: var(--amber);
+    }
+
+    #nc-title {
+      font-family: var(--sans);
+      font-size: 0.9rem;
+      font-weight: 500;
+      line-height: 1.35;
+      color: #fff;
+      margin-bottom: 0.7rem;
+    }
+
+    #nc-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.3rem;
+      margin-bottom: 0.7rem;
+    }
+
+    .nc-tag {
+      font-family: var(--mono);
+      font-size: 0.55rem;
+      letter-spacing: 0.05em;
+      padding: 0.15rem 0.5rem;
+      border-radius: 100px;
+      background: rgba(255,255,255,0.05);
+      border: 1px solid rgba(255,255,255,0.08);
+      color: var(--muted);
+    }
+
+    #nc-meta {
+      font-family: var(--mono);
+      font-size: 0.58rem;
+      color: var(--muted);
+      margin-bottom: 1rem;
+    }
+
+    #nc-link {
+      display: block;
+      text-align: center;
+      font-family: var(--mono);
+      font-size: 0.6rem;
+      letter-spacing: 0.1em;
+      color: var(--amber);
+      padding: 0.45rem;
+      border: 1px solid rgba(201,168,76,0.25);
+      border-radius: 5px;
+      text-decoration: none;
+      transition: background 0.15s;
+    }
+    #nc-link:hover { background: var(--amber-d); }
 
     /* ── LEGEND ── */
     #legend {
       position: fixed;
-      left: 1.25rem;
-      top: 70px;
-      bottom: 70px;
-      width: 200px;
+      bottom: 1.5rem;
+      left: 1.75rem;
       z-index: 10;
-      opacity: 0;
-      pointer-events: none;
-      overflow-y: auto;
-      scrollbar-width: none;
-    }
-    #legend::-webkit-scrollbar { display: none; }
-
-    .legend-header {
-      font-size: 0.6rem;
-      font-family: var(--font-mono);
-      letter-spacing: 0.2em;
-      color: var(--muted);
-      text-transform: uppercase;
-      margin-bottom: 0.75rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.35rem;
     }
 
-    .legend-item {
+    .legend-group {
       display: flex;
       align-items: center;
-      gap: 0.6rem;
-      padding: 0.35rem 0.5rem;
-      border-radius: 6px;
-      cursor: pointer;
-      transition: background 0.15s;
-      margin-bottom: 0.1rem;
+      gap: 0.5rem;
     }
-    .legend-item:hover { background: rgba(255,255,255,0.05); }
-    .legend-item.active { background: rgba(255,255,255,0.08); }
 
     .legend-dot {
-      width: 8px; height: 8px;
+      width: 6px; height: 6px;
       border-radius: 50%;
       flex-shrink: 0;
-      box-shadow: 0 0 6px currentColor;
     }
 
     .legend-label {
-      font-size: 0.7rem;
-      color: var(--text);
-      flex: 1;
-      white-space: nowrap;
-      overflow: hidden;
-      text-overflow: ellipsis;
-    }
-
-    .legend-count {
-      font-size: 0.6rem;
-      font-family: var(--font-mono);
-      color: var(--muted);
-    }
-
-    /* ── INFO PANEL ── */
-    #info-panel {
-      position: fixed;
-      right: 1.25rem;
-      top: 70px;
-      width: 280px;
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: 12px;
-      padding: 1.25rem;
-      z-index: 10;
-      opacity: 0;
-      transform: translateX(20px);
-      pointer-events: none;
-      backdrop-filter: blur(12px);
-    }
-
-    #info-section-bar {
-      width: 3px;
-      height: 100%;
-      position: absolute;
-      left: 0;
-      top: 0;
-      border-radius: 12px 0 0 12px;
-    }
-
-    #info-section-label {
-      font-size: 0.6rem;
-      font-family: var(--font-mono);
-      letter-spacing: 0.15em;
-      text-transform: uppercase;
-      margin-bottom: 0.5rem;
-    }
-
-    #info-title {
-      font-size: 0.95rem;
-      font-weight: 600;
-      line-height: 1.3;
-      margin-bottom: 0.75rem;
-      color: #fff;
-    }
-
-    #info-tags {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 0.35rem;
-      margin-bottom: 0.75rem;
-    }
-
-    .info-tag {
-      font-size: 0.6rem;
-      font-family: var(--font-mono);
-      padding: 0.15rem 0.5rem;
-      border-radius: 100px;
-      background: rgba(255,255,255,0.07);
-      color: var(--muted);
-      border: 1px solid rgba(255,255,255,0.08);
-    }
-
-    #info-meta {
-      display: flex;
-      gap: 1rem;
-      margin-bottom: 1rem;
-      font-size: 0.65rem;
-      font-family: var(--font-mono);
-      color: var(--muted);
-    }
-
-    .info-meta-item { display: flex; align-items: center; gap: 0.3rem; }
-
-    #info-open {
-      display: block;
-      width: 100%;
-      padding: 0.5rem;
-      background: rgba(100,255,218,0.08);
-      border: 1px solid rgba(100,255,218,0.25);
-      border-radius: 6px;
-      color: var(--accent);
-      font-family: var(--font-mono);
-      font-size: 0.65rem;
+      font-family: var(--mono);
+      font-size: 0.55rem;
       letter-spacing: 0.1em;
-      text-align: center;
-      cursor: pointer;
-      transition: background 0.2s;
-      text-decoration: none;
+      color: var(--muted);
+      text-transform: uppercase;
     }
-    #info-open:hover { background: rgba(100,255,218,0.15); }
 
-    /* ── BOTTOM CONTROLS ── */
-    #controls {
+    /* ── FOOTER ── */
+    #footer {
       position: fixed;
-      bottom: 1.25rem;
+      bottom: 0; left: 0; right: 0;
+      height: 40px;
+      border-top: 1px solid var(--border);
+      background: rgba(7,7,9,0.9);
+      backdrop-filter: blur(8px);
+      display: flex;
+      align-items: center;
+      padding: 0 1.75rem;
+      gap: 2rem;
+      z-index: 10;
+    }
+
+    .footer-stat {
+      font-family: var(--mono);
+      font-size: 0.58rem;
+      color: var(--muted);
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+    }
+
+    .footer-stat strong {
+      color: var(--text);
+      font-weight: 500;
+    }
+
+    #footer-hint {
+      margin-left: auto;
+      font-family: var(--mono);
+      font-size: 0.55rem;
+      color: rgba(255,255,255,0.18);
+      letter-spacing: 0.05em;
+    }
+
+    /* ── LOADING ── */
+    #loading {
+      position: fixed;
+      inset: 0;
+      background: var(--bg);
+      z-index: 100;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 1.5rem;
+    }
+
+    #loading-title {
+      font-family: var(--mono);
+      font-size: clamp(1.2rem, 3vw, 2rem);
+      font-weight: 500;
+      letter-spacing: 0.4em;
+      text-transform: uppercase;
+      color: var(--amber);
+    }
+
+    #loading-sub {
+      font-family: var(--mono);
+      font-size: 0.65rem;
+      color: var(--muted);
+      letter-spacing: 0.15em;
+    }
+
+    #loading-progress {
+      width: 160px;
+      height: 1px;
+      background: rgba(255,255,255,0.08);
+      overflow: hidden;
+    }
+
+    #loading-bar {
+      height: 100%;
+      background: var(--amber);
+      width: 0%;
+      transition: width 0.1s;
+    }
+
+    /* ── INSTRUCTIONS OVERLAY ── */
+    #instructions {
+      position: fixed;
+      bottom: 50px;
       left: 50%;
       transform: translateX(-50%);
+      z-index: 9;
+      opacity: 0;
+      pointer-events: none;
       display: flex;
-      gap: 0.5rem;
-      z-index: 10;
-      opacity: 0;
-      pointer-events: none;
+      gap: 2rem;
     }
 
-    .ctrl-btn {
-      background: rgba(255,255,255,0.04);
-      border: 1px solid var(--border);
-      border-radius: 6px;
-      padding: 0.4rem 0.75rem;
-      font-family: var(--font-mono);
-      font-size: 0.6rem;
-      color: var(--muted);
-      cursor: pointer;
-      transition: all 0.15s;
-      letter-spacing: 0.1em;
+    .instr-item {
+      font-family: var(--mono);
+      font-size: 0.58rem;
+      color: rgba(255,255,255,0.22);
+      letter-spacing: 0.08em;
+      display: flex;
+      align-items: center;
+      gap: 0.4em;
     }
-    .ctrl-btn:hover { border-color: rgba(100,255,218,0.4); color: var(--accent); }
-    .ctrl-btn.active { border-color: rgba(100,255,218,0.5); color: var(--accent); background: rgba(100,255,218,0.06); }
-
-    /* ── TOOLTIP ── */
-    #tooltip {
-      position: fixed;
-      pointer-events: none;
-      z-index: 20;
-      font-family: var(--font-mono);
-      font-size: 0.65rem;
-      color: #fff;
-      background: rgba(10,10,24,0.9);
-      border: 1px solid var(--border);
-      border-radius: 6px;
-      padding: 0.35rem 0.65rem;
-      opacity: 0;
-      transform: translate(-50%, -130%);
-      white-space: nowrap;
-      backdrop-filter: blur(8px);
-    }
-
-    /* ── PULSE COUNTER ── */
-    #pulse-counter {
-      position: fixed;
-      bottom: 1.25rem;
-      right: 1.25rem;
-      font-family: var(--font-mono);
-      font-size: 0.6rem;
-      color: var(--muted);
-      z-index: 10;
-      opacity: 0;
-      text-align: right;
-    }
-
-    #pulse-counter .pulse-num {
-      font-size: 1.2rem;
-      color: var(--accent);
-      display: block;
-      line-height: 1;
+    .instr-key {
+      border: 1px solid rgba(255,255,255,0.15);
+      border-radius: 3px;
+      padding: 0.1em 0.4em;
+      font-size: 0.55rem;
     }
   </style>
 </head>
 <body>
-  <div id="loading">
-    <div id="loading-title">Knowledge Nebula</div>
-    <div id="loading-sub">Initializing 217 nodes · 1815 connections</div>
-    <div class="loading-bar"></div>
-  </div>
+  <canvas id="grain"></canvas>
 
-  <div id="canvas-container"></div>
+  <svg id="atlas"></svg>
 
   <div id="header">
-    <div id="header-title">⬡ Knowledge Nebula</div>
-    <div id="header-stats">
-      <div class="stat-item">
-        <span>nodes</span>
-        <span class="stat-value" id="stat-nodes">217</span>
-      </div>
-      <div class="stat-item">
-        <span>domains</span>
-        <span class="stat-value">16</span>
-      </div>
-      <div class="stat-item">
-        <span>connections</span>
-        <span class="stat-value" id="stat-connections">1815</span>
-      </div>
+    <div id="logo">⬡ Knowledge Atlas</div>
+    <div id="breadcrumb"><span class="bc-current">Overview</span></div>
+    <div id="search-wrap">
+      <span class="search-icon">⌕</span>
+      <input id="search" type="text" placeholder="Search notes or tags…" autocomplete="off" spellcheck="false" />
     </div>
-    <div id="search-container">
-      <span id="search-icon">⌕</span>
-      <input id="search" type="text" placeholder="Search notes…" autocomplete="off" spellcheck="false" />
-    </div>
+    <button id="reset-btn">↩ Overview</button>
   </div>
 
-  <div id="legend">
-    <div class="legend-header">Domains</div>
-    <div id="legend-items"></div>
+  <div id="note-card">
+    <div id="nc-bar"></div>
+    <div id="nc-domain"></div>
+    <div id="nc-title"></div>
+    <div id="nc-tags"></div>
+    <div id="nc-meta"></div>
+    <a id="nc-link" href="#" target="_blank">Open note →</a>
   </div>
 
-  <div id="info-panel">
-    <div id="info-section-bar"></div>
-    <div id="info-section-label"></div>
-    <div id="info-title"></div>
-    <div id="info-tags"></div>
-    <div id="info-meta">
-      <div class="info-meta-item" id="info-words"></div>
-      <div class="info-meta-item" id="info-diagram"></div>
-    </div>
-    <a id="info-open" href="#" target="_blank">Open note →</a>
+  <div id="legend"></div>
+
+  <div id="footer">
+    <div class="footer-stat"><strong>217</strong> notes</div>
+    <div class="footer-stat"><strong>16</strong> domains</div>
+    <div class="footer-stat"><strong>1,815</strong> connections</div>
+    <div id="footer-hint">hover domain • click to explore • hover note for connections</div>
   </div>
 
-  <div id="controls">
-    <button class="ctrl-btn active" id="btn-rotate">⟳ Auto-rotate</button>
-    <button class="ctrl-btn" id="btn-connections">⬡ Show all connections</button>
-    <button class="ctrl-btn" id="btn-reset">⌖ Reset view</button>
+  <div id="instructions">
+    <div class="instr-item"><span class="instr-key">hover</span> domain to preview</div>
+    <div class="instr-item"><span class="instr-key">click</span> domain to explore</div>
+    <div class="instr-item"><span class="instr-key">hover</span> note for activation</div>
   </div>
 
-  <div id="tooltip"></div>
-
-  <div id="pulse-counter">
-    <span class="pulse-num" id="pulse-num">0</span>
-    synaptic pulses
+  <div id="loading">
+    <div id="loading-title">Knowledge Atlas</div>
+    <div id="loading-sub">Computing knowledge topology…</div>
+    <div id="loading-progress"><div id="loading-bar"></div></div>
   </div>
 
   <script type="module" src="./src/main.js"></script>
