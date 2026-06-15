@@ -10,6 +10,9 @@ tags:
 
 # Fundamentos de Estadística y Aprendizaje Automático
 
+[← Conceptos Generales de Inteligencia Artificial](1_conceptos_generales)
+
+
 ## Flujo de un Proyecto de Machine Learning
 
 ```mermaid

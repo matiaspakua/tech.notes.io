@@ -10,6 +10,9 @@ tags:
 
 # Rol del CIO
 
+[← Control de costes del departamento](sesion_2)
+
+
 [← Inicio](https://matiaspakua.github.io/tech.notes.io)
 
 Reflexión sobre la figura del CIO en su empresa 

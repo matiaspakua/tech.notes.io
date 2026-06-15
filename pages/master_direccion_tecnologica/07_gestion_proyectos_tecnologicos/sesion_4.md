@@ -10,5 +10,8 @@ tags:
 
 # Sesion 4
 
+[← Iniciación y planificación de un proyecto](sesion_2)
+
+
 [← Inicio](https://matiaspakua.github.io/tech.notes.io)
 

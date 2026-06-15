@@ -85,7 +85,7 @@ Desde 1980 hasta la actualidad. Desde mainframes hasta cloud native.
 
 ---
 
-![](lego_model_modern_architecture.png)
+![](images/lego_model_modern_architecture.png)
 
 ---
 

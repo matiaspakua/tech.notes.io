@@ -151,7 +151,7 @@ info:
   
     This provides a high-level summary. An image is provided below:  
   
-    ![Image embedded in OpenAPI description](example-image.png)  
+    ![Image embedded in OpenAPI description](images/example-image.png)  
   
     These are the services levels available:  
   
@@ -162,9 +162,7 @@ info:
 
 ```
 
-y esto se debe renderizar de la siguiente manera:
-
-![](../../images/openapi_render.png)
+y esto se debe renderizar de la siguiente manera (ver especificación oficial para ejemplos visuales).
 
 ## URLs, Paths, and Methods
 

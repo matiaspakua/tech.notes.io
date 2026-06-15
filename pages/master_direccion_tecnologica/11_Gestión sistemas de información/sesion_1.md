@@ -9,6 +9,9 @@ tags:
 
 # Sistemas de información en la empresa
 
+[← Sistemas de gestión empresarial](sesion_2)
+
+
 [← Inicio](https://matiaspakua.github.io/tech.notes.io)
 
 Gestión de la información y los procesos

@@ -10,6 +10,9 @@ tags:
 
 # Grupo 1 - SoundTech
 
+[← Lectura 1: ITIL® 4: An Introduction to the Service Value Chain](sesion_2)
+
+
 [← Inicio](https://matiaspakua.github.io/tech.notes.io)
 
 16% en 3 años....

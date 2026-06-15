@@ -313,3 +313,12 @@ PESTEL viene de:
 
 
 ![[analisis_pestel.png]]
+
+## Índice de temas
+
+- [Mercado y Tendencias de las TIC](sesion_2)
+- [Como gestionar Innovación](sesion_3)
+- [Innovación](sesion_4)
+- [Sesion 5](sesion_5)
+- [Sesion 6](sesion_6)
+- [historia de silicon valley](sesion_7)

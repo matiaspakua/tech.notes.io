@@ -80,3 +80,13 @@ El modelo A.I.D. (Anticipar, Influir, Dirigir) describe recursos comunicativos c
 4. **Comunicación Informal**: Es la comunicación no oficial y espontánea, como el intercambio de opiniones en charlas.
    - *Ejemplo*: Durante una pausa para el café, un grupo de empleados comenta sobre posibles cambios en la dirección de la empresa tras el ingreso de un nuevo directivo.
 
+
+
+## Índice de temas
+
+- [Habilidades Directivas (Seminario Profesionalizante)](landing)
+- [Sesión 1 · Introducción & Liderazgo Personal](sesion_1)
+- [Trabajo en Equipo parte 1](sesion_3)
+- [Trabajo en Equipo parte 2](sesion_4)
+- [Estilos de liderazgo](sesion_5)
+- [Negociación y Gestión Conflicto](sesion_6)

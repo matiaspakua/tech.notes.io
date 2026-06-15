@@ -11,6 +11,9 @@ tags:
 
 # Planeamiento y Estimación de Proyectos de Software
 
+[← alcance y objetivos](sesion_2)
+
+
 [← Inicio](https://matiaspakua.github.io/tech.notes.io)
 
 

@@ -10,6 +10,9 @@ tags:
 
 # Un buen funcional
 
+[← Iniciación y planificación de un proyecto](sesion_2)
+
+
 [← Inicio](https://matiaspakua.github.io/tech.notes.io)
 
 Documentos de requisitos de negocio (BRD)

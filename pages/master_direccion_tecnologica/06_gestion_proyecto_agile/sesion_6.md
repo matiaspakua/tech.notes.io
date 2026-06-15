@@ -10,4 +10,7 @@ tags:
 
 # Lean
 
+[← Introducción Agile](sesion_1)
+
+
 [← Inicio](https://matiaspakua.github.io/tech.notes.io)

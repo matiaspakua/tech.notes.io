@@ -11,6 +11,9 @@ tags:
 
 # Introducción a los conceptos
 
+[← Conceptos claves](sesion_2)
+
+
 [← Inicio](https://matiaspakua.github.io/tech.notes.io)
 
 1. Paradigma: una forma de pensar. Se trata de una lente para ver la realidad; Puede ser estructurado: datos + procesos, que generan una serie de transformaciones.

@@ -68,3 +68,10 @@ Es el CRM de los proveedores.
 Busca constantemente la conversiín. Que el cleinte vuelva, compre más y más. GEnerar más ventas.
 
 
+
+
+## Índice de temas
+
+- [Trabajo Final](Trabajo final)
+- [Sistemas de información en la empresa](sesion_1)
+- [Sistemas de información y Competitividad](sesion_4)

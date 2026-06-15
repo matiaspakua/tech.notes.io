@@ -49,7 +49,7 @@ Software Product Line. Definición de reuso sistemático. Definición de Product
 ## Referencias
 
 - [The Agile Manifesto — Beck et al., 2001](https://agilemanifesto.org/)
-- [Managing the Development of Large Software Systems — Winston W. Royce, 1970](http://www-scf.usc.edu/~csci201/lectures/Lecture11/royce1970.pdf)
+- [Managing the Development of Large Software Systems — Winston W. Royce, 1970](https://www-scf.usc.edu/~csci201/lectures/Lecture11/royce1970.pdf)
 - [Extreme Programming Explained — Kent Beck, Addison-Wesley, 1999](../books/book_extreme_programming_explained.md)
 
 ## Notas relacionadas

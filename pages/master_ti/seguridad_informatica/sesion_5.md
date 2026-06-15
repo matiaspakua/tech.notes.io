@@ -10,6 +10,9 @@ tags:
 
 # Respuesta a Incidentes
 
+[← Overview general: Principales conceptos de Cyberseguridad.](sesion_1)
+
+
 [← Inicio](https://matiaspakua.github.io/tech.notes.io)
 
 1. Evento vs. Incidente 

@@ -10,6 +10,9 @@ tags:
 
 # Sesion 4
 
+[← Estrategia Empresarial y Digital](sesion_1)
+
+
 [← Inicio](https://matiaspakua.github.io/tech.notes.io)
 
 Plan Estratégico: las acciones del día a día para ejecutar un plan.

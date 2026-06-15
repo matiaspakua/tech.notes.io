@@ -10,6 +10,9 @@ tags:
 
 # Workflow Orchestration
 
+[← Claude Code Prompt for Plan Mode](Claude Code Prompt for Plan Mode)
+
+
 ## Workflow Orchestration
 
 ### 1. Plan Node Default

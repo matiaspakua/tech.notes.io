@@ -22,3 +22,12 @@ Ruta transformación digital.
 7. Aceptar los errores, iterar. 
 
 NOTA: estos puntos no siguen un ORDEN SECUENCIAL, sino que se pueden dar en paralelo y en distinto orden.
+
+## Índice de temas
+
+- [Transformación Digital](landing)
+- [Clase 1 - Introducción Transformación Digital](sesion_1)
+- [Clase 2 - Conceptos de Innovación](sesion_2)
+- [Clase 3 - Creatividad e Innovación](sesion_3)
+- [Clase 4 - Herramientas para la innovación](sesion_4)
+- [Clase 5 - Liderazgo y Cultura Exponencial](sesion_5)

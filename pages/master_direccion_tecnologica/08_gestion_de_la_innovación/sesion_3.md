@@ -10,6 +10,9 @@ tags:
 
 # Innovación y Creatividad
 
+[← Lecturas previas](sesion_1)
+
+
 [← Inicio](https://matiaspakua.github.io/tech.notes.io)
 
 Método de innovación práctica

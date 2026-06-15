@@ -9,6 +9,9 @@ tags:
 
 # Trabajo Final
 
+[← Sistemas de gestión empresarial](sesion_2)
+
+
 [← Inicio](https://matiaspakua.github.io/tech.notes.io)
 
 Como identificar la necesidad de la compañía: madurez, presupuesto, procesos.

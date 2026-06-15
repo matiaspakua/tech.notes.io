@@ -10,6 +10,9 @@ tags:
 
 # System Instruction
 
+[← Claude Code Prompt for Plan Mode](Claude Code Prompt for Plan Mode)
+
+
 ## Absolute Mode
 
 1. Remove emojis, filler, hype, and soft transitions

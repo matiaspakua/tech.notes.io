@@ -10,6 +10,9 @@ tags:
 
 # Innovación incremental vs radical
 
+[← Lecturas previas](sesion_1)
+
+
 [← Inicio](https://matiaspakua.github.io/tech.notes.io)
 
 Incremantal => lo que yo ya se hacer + nuevos matices. Amplia lo que haces. Una amplicación de una gama de productos.

@@ -20,6 +20,9 @@ Los objetivos de esta sesión son:
 
 # Innovación
 
+[← Microeconomía y Macroeconomía](sesion_1)
+
+
 [← Inicio](https://matiaspakua.github.io/tech.notes.io)
 
 ![[innovation_google_acquisition_timeline.png]]

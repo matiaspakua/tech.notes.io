@@ -441,9 +441,7 @@ La Fig. 15 muestra un posible checklist para determinar qué tanto se adhiere al
 
 Cada commit es conveniente que genere la ejecución de un “build” en un servidor de integración preparado con una copia de un ambiente, ya sea de desarrollo, testing o producción. Luego de disparar la ejecución de un build, se debe asegurar que se ejecute por completo sin problemas y si no fuera el caso, repararlo debe ser una prioridad. Con la maduración de la práctica, se deben pensar y mejorar los <mark style="background: #FFF3A3A6;">“tiempos de ejecución”</mark> de los builds, tratando de acelerarlos cuando sea posible. Para acelerar o mejorar los builds, es conveniente armar pipelines de integración con etapas (o stages) y los servidores que ejecuten los build deberían poder ser configurables para reproducir los ambientes y todas las dependencias necesarias para generar una versión del producto.
 
-![](https://martinfowler.com/bliki/images/ci-certification/sketch.png)
-
-**Fig. 15 Checklist verificación de adherencia a Continuous Integration. Imagen Fuente (Fowler, 2017)**
+> **Fig. 15**: Ver [Continuous Integration Certification](https://martinfowler.com/bliki/ContinuousIntegrationCertification.html) para checklist visual de adherencia a CI (Fowler, 2017)
 
 **Referencia:** Fowler, M. (2017, January 18). ContinuousIntegrationCertification. Martin Fowler. Retrieved February 20, 2022, from https://martinfowler.com/bliki/ContinuousIntegrationCertification.html
 
@@ -999,7 +997,7 @@ El modelado de los aspectos de QA desde un inicio tiene varios beneficios pero a
 ![](../../images/fig_27_xUnit_four-Phase_test_pattern.png)
 **Figura 27: xUnit Four-Phase Test Pattern.**
 
-**Referencia:** [Four Phase Test at XUnitPatterns.com](http://xunitpatterns.com/Four%20Phase%20Test.html)
+**Referencia:** [Four Phase Test at XUnitPatterns.com](https://xunitpatterns.com/Four%20Phase%20Test.html)
 
 
 #### 3.2.2.1 Deep-Dive en el esquema de Testing
@@ -1461,7 +1459,7 @@ Las pruebas de penetración o Pentesting (Bell et al., 2017, 322) son una forma 
 
 |Detalle|Ejemplo|
 |---|---|
-|**Entorno de prueba**|Sitio web interno: `http://inventory-app.local`|
+|**Entorno de prueba**|Sitio web interno: `https://inventory-app.local`|
 |**Pruebas permitidas**|Inyección SQL, XSS, fuerza bruta en autenticación.|
 |**Restricciones**|No probar fuera del horario laboral ni afectar sistemas en producción.|
 |**Objetivo**|Identificar vulnerabilidades críticas en la autenticación y el manejo de inventarios.|
@@ -1514,7 +1512,7 @@ Se crea un mapa de amenazas y se identifican:
 - Herramienta: `sqlmap`.
 
 ```bash
-sqlmap -u "http://inventory-app.local/login" --data="username=admin&password=test"
+sqlmap -u "https://inventory-app.local/login" --data="username=admin&password=test"
 ```
 
 **Resultado**: Se extrae información de la tabla `users`, confirmando la vulnerabilidad.
@@ -1572,7 +1570,7 @@ Se identificaron tres vulnerabilidades críticas:
 - **Impacto**: Acceso total a la base de datos.
 - **Reproducción**: 
 
-sqlmap -u "[http://inventory-app.local/login](http://inventory-app.local/login)" --data="username=admin&password=test"
+sqlmap -u "[https://inventory-app.local/login](https://inventory-app.local/login)" --data="username=admin&password=test"
 
 - **Recomendación**: Usar consultas parametrizadas y validar entradas.
 
@@ -1811,7 +1809,7 @@ El siguiente es un ejemplo de un template para generar un análisis post-mortem:
 **Figura 55**: Template para generar un Informe PostMortem
 
 
-**Referencia:** Rachitsky, L. (2010, March 2). A guideline for postmortem communication. Transparent Uptime. Retrieved February 22, 2022, from http://www.transparentuptime.com/2010/03/guideline-for-postmortem-communication.html 
+**Referencia:** Rachitsky, L. (2010, March 2). A guideline for postmortem communication. Transparent Uptime. Retrieved February 22, 2022, from https://www.transparentuptime.com/2010/03/guideline-for-postmortem-communication.html 
 
 
 ## 3.8. Personas y Roles ByDesign

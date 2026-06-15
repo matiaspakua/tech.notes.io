@@ -37,11 +37,11 @@ Es una especialización del ML que se enfoca en la utilización de múltiples ca
 - Clasificación: mecanismos de clasificación usando algoritmos estadísticos:
 - Regresión: método estadísticos para estimar la relación entre una variable independientes sobre otro conjunto de variables.
 
-![](Normdist_regression.png)
+![](images/Normdist_regression.png)
 
 - aprendizaje de representación (representation learning): es una técnica que permite a un sistema de forma automática descubrir representaciones o clasificaciones de los datos crudos.
 
-![](Feature_Learning_Diagram.png)
+![](images/Feature_Learning_Diagram.png)
 
 El Deep Learning toma inspiración de la neurociencia, al tomar el concepto de neurona, aquí, neurona digital que pueden ser entrenadas para procesar datos. Deep (profundo) se refiere al hecho de usar múltiples capas en la red. Existen 3 grandes grupos o categorías de entrenamiento:
 
@@ -50,7 +50,7 @@ El Deep Learning toma inspiración de la neurociencia, al tomar el concepto de n
 3. Sin supervisión: <mark style="background: #ADCCFFA6;">datos SIN etiquetas</mark>, los algoritmos  agrupan y clasifican;
 4. Aprendizaje por refuerzo: los algoritmos aprenden por pruebas y error, se usan en robótica y videojuegos.
 
-![](supervised_vs_no_supervised.png)
+![](images/supervised_vs_no_supervised.png)
 
 Algunas de las arquitecturas de redes de deep learning incluyen:
 
@@ -59,7 +59,7 @@ Algunas de las arquitecturas de redes de deep learning incluyen:
 
 Existen múltiples usos para este tipos de redes de deep learning, basando en el problema a resolver y la arquitectura seleccionada, como un ejemplo sencillo, supongamos un problema de reconocimiento de "caras" en imágenes. Para resolver este problema vamos a utilizar hipotéticamente un esquema de 4 capas de redes neuronales. Luego del obtener el input, el cual corresponde a una imagen en formato RAW, se pre-procesa como un Tensor de Pixeles, donde el tensor es una representación de los pixeles en un arreglo multi-dimensional (M-way array). Luego, en una primera capa de representación el algoritmo puede intentar reconocer formas básicas (lineas, círculos, etc); la segunda capa puede intentar componer bordes, figuras; la tercera capa intentará componer narices y ojos; finalmente, la cuarta capa intentará reconocer si la imagen contiene una cara.
 
-![](deep_learning.png)
+![](images/deep_learning.png)
 
 Referencias:
 - [Deep Learning — Wikipedia](https://en.wikipedia.org/wiki/Deep_learning)
@@ -79,7 +79,7 @@ En concreto, una red neuronal es un <mark style="background: #FFF3A3A6;">MODELO 
 
 Lo nodos tienen lo que denominan "edges" (bordes), que emulan las sinapsis o conexiones biológicas de las neuronas. Al igual que en teoría de la computación, los nodos reciben como imput un valor numérico, procesan o computan en base a una función no-lineal (el resultado puede no ser proporcional al input). La señal o input es un numero real que es computado por una función no lineal, llamada "función de activación". La fuerza de la señal tiene asignado un peso que se le asigna durante el proceso de aprendizaje.
 
-![](Colored_neural_network.jpeg)
+![](images/Colored_neural_network.jpeg)
 
 Referencias:
 - [Neural Network (machine learning) — Wikipedia](https://en.wikipedia.org/wiki/Neural_network_(machine_learning))
@@ -116,7 +116,7 @@ flowchart TB
     DL -.- c["Redes neuronales<br/>multicapa"]
 ```
 
-![](AI-ML-DL.jpeg)
+![](images/AI-ML-DL.jpeg)
 
 Gracias a los estudios en AI, y muy asociado a la teoría detrás, aparecen otras aplicaciones que mucho interés:
 
@@ -147,7 +147,7 @@ Referencia:
 
 El objetivo del algoritmo es encontrar una linea recta (cuando trabajamos en 2 dimensiones), llamada "frontera SVM" que separe los grupos de puntos (datos). El objetivo es encontrar la linea que más separa ambos conjuntos de datos con el mayor "margen" posible.
  
-![](ml_clasificacion_svm.png)
+![](images/ml_clasificacion_svm.png)
 
 Ref: [SVM Colab Notebook — Google Colab](https://colab.research.google.com/drive/1Yj3AS0b2uZx0y2LRk_ca_3GiDdAkG7cV#scrollTo=6hjecJGt1fZL&line=68&uniqifier=1)
 
@@ -224,3 +224,7 @@ Agentes de CLI
 - [Herramientas de AI](../../herramientas_de_ai.md)
 - [Fundamentos de estadística y ML](2_fundamentos_estadistica_aprendizaje_automatico.md)
 - [Generative AI](../../../software_engineering/generative_ai.md)
+
+## Índice de temas
+
+- [Fundamentos de Estadística y Aprendizaje Automático](2_fundamentos_estadistica_aprendizaje_automatico)

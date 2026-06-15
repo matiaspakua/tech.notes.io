@@ -89,3 +89,11 @@ tags:
     - Períodos regulares de inspección y adaptación para perfeccionar procesos.
 
 ![[entorno_complejo_VUCA.png]]
+
+## Índice de temas
+
+- [Introducción a SCRUM](sesion_2)
+- [Roles y funciones / Artefactos Scrum](sesion_3)
+- [Kanban](sesion_5)
+- [Lean](sesion_6)
+- [Sesion 7](sesion_7)

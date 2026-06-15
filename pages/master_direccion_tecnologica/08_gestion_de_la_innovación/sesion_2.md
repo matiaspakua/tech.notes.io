@@ -59,5 +59,8 @@ Promueve dinámicas de equipo donde las ideas se construyen colectivamente. Incl
 
 # Personas y equipos innovadores
 
+[← Lecturas previas](sesion_1)
+
+
 [← Inicio](https://matiaspakua.github.io/tech.notes.io)
 

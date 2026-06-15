@@ -10,6 +10,9 @@ tags:
 
 # Organizaciones digitales
 
+[← Estrategia Empresarial y Digital](sesion_1)
+
+
 [← Inicio](https://matiaspakua.github.io/tech.notes.io)
 
 • Evolución de la función TI 

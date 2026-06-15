@@ -10,6 +10,9 @@ tags:
 
 # Lecturas previas
 
+[← Lectura 1: ITIL® 4: An Introduction to the Service Value Chain](sesion_2)
+
+
 [← Inicio](https://matiaspakua.github.io/tech.notes.io)
 
 Link 1: [ISO - How IT service management delivers value](https://www.iso.org/news/ref2696.html)

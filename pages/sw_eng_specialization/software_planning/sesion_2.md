@@ -144,3 +144,9 @@ No importa el sector o naturaleza del proyecto, <mark style="background: #FFF3A3
 
 Independientemente de la cascada de consecuencias que genera la gestión del cambios, tener un plan de gestión del cambio se traduce en algo critico para un proyecto: TRANQUILIDAD. Al tener los cambios y por lo tanto, los riesgos gestionado y controlados, generar tranquilidad a quienes gestionar el proyecto y también para los interesados.
 
+
+
+## Índice de temas
+
+- [Sesion 1](sesion_1)
+- [Planeamiento y Estimación de Proyectos de Software](sofware_projects_scheduling_and_estimation)
