@@ -1875,7 +1875,7 @@ Las siguientes herramientas se pueden utilizar desde el análisis, hasta la impl
 - Drawio - Para un análisis más "libre": [Link](https://www.drawio.com/)
 - Git - Gestión de código fuente: [Link](https://git-scm.com/ )
 - Gitlab - Repositorio de Código Fuente Integrado: [Link](https://about.gitlab.com/)
-- Etiquetado o Tagging: [Link](https://semver.org/)[Link](
+- Etiquetado o Tagging: [Link](https://semver.org/)
 - Git Flow - Gestión de ramas o Branching (Driessen, 2010)
 - Changelog de ramas y versiones: [Link](https://keepachangelog.com/en/1.0.0/)
 - Readme y datos importantes: [Link](https://www.makeareadme.com/)

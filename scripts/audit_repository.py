@@ -18,6 +18,7 @@ import re
 from pathlib import Path
 from collections import defaultdict
 import json
+from urllib.parse import unquote
 
 REPO_ROOT = Path("/Users/matiasmiguez/workspace/tech.notes.io")
 PAGES_ROOT = REPO_ROOT / "pages"
@@ -167,8 +168,9 @@ def check_markdown_links(content: str, file_path: Path, content_start: int = 0):
             continue
 
         # Check if target file exists
-        # Resolve relative path properly
-        target = (file_path.parent / link).resolve()
+        # Resolve relative path properly, decoding URL-encoded characters
+        decoded_link = unquote(link)
+        target = (file_path.parent / decoded_link).resolve()
 
         # Try with .md extension
         if not target.exists() and not target.suffix:
