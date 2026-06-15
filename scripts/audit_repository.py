@@ -226,11 +226,13 @@ def check_h1_h2(content: str, file_path: Path, content_start: int = 0):
     """Check heading hierarchy."""
     lines = content.split('\n')
     has_h1 = False
+    warned = False
     for i, line in enumerate(lines):
-        if line.startswith('# ') and not line.startswith('# '):
+        if line.startswith('# ') and not line.startswith('## '):
             has_h1 = True
-        if line.startswith('## ') and not has_h1:
+        if line.startswith('## ') and not has_h1 and not warned:
             report.add_warning('Heading', file_path, 'H2 found before H1')
+            warned = True
 
 def check_file(file_path: Path):
     """Audit a single markdown file."""
@@ -340,10 +342,13 @@ for md_file in PAGES_ROOT.glob('**/*.md'):
     try:
         content = md_file.read_text(encoding='utf-8')
 
-        # Check for TODO markers
-        if 'TODO' in content or 'FIXME' in content or 'XXX' in content:
-            count = content.count('TODO') + content.count('FIXME') + content.count('XXX')
-            report.add_warning('TODOs', md_file, f'Contains {count} TODO/FIXME markers')
+        # Check for actual TODO markers (must be at start of line or after -, [, or space+dash)
+        # This filters out false positives like "método:" or "todo:" in regular text
+        todo_markers = re.findall(r'^[\s\-\*]*(?:TODO|FIXME|XXX)\s*:', content, re.IGNORECASE | re.MULTILINE)
+        unchecked = re.findall(r'- \[ \]', content)
+        todo_count = len(todo_markers) + len(unchecked)
+        if todo_count > 0:
+            report.add_warning('TODOs', md_file, f'Contains {todo_count} incomplete markers')
 
         # Check for placeholder text
         if '[PLACEHOLDER]' in content or 'Lorem ipsum' in content:

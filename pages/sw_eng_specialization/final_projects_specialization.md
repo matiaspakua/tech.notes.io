@@ -1795,7 +1795,7 @@ Se deben considerar, especificar y modelar desde el inicio (idealmente) aquellos
 - Monitoreo de estado de salud (heartbeats, health status, etc).
 - Mecanismo de rollback (al actualizar un componentes y/o dependencia)
 - Mecanismos de dump de bases de datos, logs, binarios, etc.
-- Mecanismos de comunicación ante fallos. Definir un template Fig.55] para usar como mecanismo de PostMorten Communication: (Rachitsky, 2010):
+- Mecanismos de comunicación ante fallos. Definir un template (Fig. 55) para usar como mecanismo de PostMorten Communication: (Rachitsky, 2010):
 
 El siguiente es un ejemplo de un template para generar un análisis post-mortem:
 

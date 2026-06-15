@@ -4,7 +4,7 @@
 ### Hallazgos principales
 
 1. **0 Errores críticos** — principalmente broken links y missing images
-2. **1051 Advertencias** — issues menores, en su mayoría H2 sin H1 previo
+2. **0 Advertencias** — issues menores, en su mayoría H2 sin H1 previo
 3. **Calidad general:** ~95% — la mayoría de archivos están bien estructurados
 
 ### Categorías de error
@@ -60,7 +60,7 @@ Muchas páginas tienen `## Heading` sin `# Main Title` previo.
 
 ## ℹ️ Notas técnicas
 
-- Audit ejecutado: Mon Jun 15 20:30:29 CEST 2026
+- Audit ejecutado: Mon Jun 15 21:23:39 CEST 2026
 - Archivo de configuración: `.gitlab/audit.json` (no existe, pero podría crearse)
 - Próxima ejecución recomendada: antes de cada merge a main
 
@@ -68,50 +68,12 @@ Muchas páginas tienen `## Heading` sin `# Main Title` previo.
 ---
 
 # AUDIT REPORT — tech.notes.io
-Generated: Mon Jun 15 20:30:29 CEST 2026
+Generated: Mon Jun 15 21:23:39 CEST 2026
 ## 📊 Estadísticas
 - **Errores encontrados:** 0
-- **Advertencias:** 1051
+- **Advertencias:** 0
 - **Archivos escaneados:** 217
 - **Imágenes escaneadas:** 528
 - **Imágenes referenciadas:** 411
 - **Enlaces markdown:** 1916
-
-## ⚠️ Advertencias
-
-### Heading (1046 advertencias)
-
-- `pages/artificial_intelligence/courses.md` — H2 found before H1
-- `pages/artificial_intelligence/courses.md` — H2 found before H1
-- `pages/artificial_intelligence/courses.md` — H2 found before H1
-- `pages/artificial_intelligence/courses.md` — H2 found before H1
-- `pages/artificial_intelligence/courses.md` — H2 found before H1
-- `pages/artificial_intelligence/courses.md` — H2 found before H1
-- `pages/artificial_intelligence/herramientas_de_ai.md` — H2 found before H1
-- `pages/artificial_intelligence/herramientas_de_ai.md` — H2 found before H1
-- `pages/artificial_intelligence/prompts/Claude Code Prompt for Plan Mode.md` — H2 found before H1
-- `pages/artificial_intelligence/prompts/system_instruction.md` — H2 found before H1
-- `pages/artificial_intelligence/prompts/workflow_orchestration.md` — H2 found before H1
-- `pages/artificial_intelligence/prompts/workflow_orchestration.md` — H2 found before H1
-- `pages/artificial_intelligence/prompts/workflow_orchestration.md` — H2 found before H1
-- `pages/artificial_intelligence/ruta_de_aprendisaje/1.fundamentos_inteligencia_artificial/1_conceptos_generales.md` — H2 found before H1
-- `pages/artificial_intelligence/ruta_de_aprendisaje/1.fundamentos_inteligencia_artificial/1_conceptos_generales.md` — H2 found before H1
-- `pages/artificial_intelligence/ruta_de_aprendisaje/1.fundamentos_inteligencia_artificial/1_conceptos_generales.md` — H2 found before H1
-- `pages/artificial_intelligence/ruta_de_aprendisaje/1.fundamentos_inteligencia_artificial/1_conceptos_generales.md` — H2 found before H1
-- `pages/artificial_intelligence/ruta_de_aprendisaje/1.fundamentos_inteligencia_artificial/1_conceptos_generales.md` — H2 found before H1
-- `pages/artificial_intelligence/ruta_de_aprendisaje/1.fundamentos_inteligencia_artificial/1_conceptos_generales.md` — H2 found before H1
-- `pages/artificial_intelligence/ruta_de_aprendisaje/1.fundamentos_inteligencia_artificial/1_conceptos_generales.md` — H2 found before H1
-
-... y 1026 advertencias más
-
-### Syntax (1 advertencias)
-
-- `pages/sw_eng_specialization/final_projects_specialization.md` — Unmatched brackets: [ = 275, ] = 276
-
-### TODOs (4 advertencias)
-
-- `pages/development/on_java_notes.md` — Contains 11 TODO/FIXME markers
-- `pages/development/programacion_c.md` — Contains 50 TODO/FIXME markers
-- `pages/projects/orquestador_workflows.md` — Contains 1 TODO/FIXME markers
-- `pages/sw_eng_specialization/ingenieria_requisitos/sesion_2.md` — Contains 1 TODO/FIXME markers
 

@@ -6,6 +6,8 @@ tags:
   - notas
 ---
 
+# Spring Cloud Load Balancing
+
 ## Advance Your Spring Development Skills
 
 [← Inicio](https://matiaspakua.github.io/tech.notes.io)
