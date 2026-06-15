@@ -12,7 +12,7 @@ name: Note Content Fixer
 # (Settings → Secrets and variables → Actions → New repository secret).
 
 on:
-  push:
+  pull_request:
     branches: [main]
     paths:
       - "pages/**/*.md"
