@@ -151,7 +151,6 @@ info:
   
     This provides a high-level summary. An image is provided below:  
   
-    ![Image embedded in OpenAPI description](images/example-image.png)  
   
     These are the services levels available:  
   

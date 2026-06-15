@@ -167,8 +167,8 @@ def check_markdown_links(content: str, file_path: Path, content_start: int = 0):
             continue
 
         # Check if target file exists
-        target = file_path.parent / link.replace('..', '.').lstrip('/')
-        target = target.resolve()
+        # Resolve relative path properly
+        target = (file_path.parent / link).resolve()
 
         # Try with .md extension
         if not target.exists() and not target.suffix:
