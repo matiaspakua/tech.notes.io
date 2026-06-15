@@ -104,3 +104,15 @@ RFQ => Buy Power
 # Terminación y devolución
 
 
+
+
+## Índice de temas
+
+- [Grupo 1 - SoundTech](exposiciones)
+- [Lecturas previas](sesion_1)
+- [modelo de gobierno](sesion_3)
+- [Marcos de referencias principales](sesion_4)
+- [Expectativas](sesion_5)
+- [Repaso](sesion_6)
+- [Feedback del trabajo](sesion_7)
+- [Fundamentos de LEAN IT](sesion_8)

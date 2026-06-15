@@ -10,6 +10,9 @@ tags:
 
 # Habilidades Directivas (Seminario Profesionalizante)
 
+[← Sesión 2 · Comunicación Interpersonal](sesion_2)
+
+
 [← Inicio](https://matiaspakua.github.io/tech.notes.io)
 
 - Sesión 1 -> [Introducción & Liderazgo Personal](sesion_1.md)

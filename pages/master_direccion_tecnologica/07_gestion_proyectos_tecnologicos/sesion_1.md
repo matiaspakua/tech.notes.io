@@ -10,6 +10,9 @@ tags:
 
 # Introducción Gestión de Proyectos, Iniciación y Planificación de proyectos IT
 
+[← Iniciación y planificación de un proyecto](sesion_2)
+
+
 [← Inicio](https://matiaspakua.github.io/tech.notes.io)
 
 Tareas previas a la sesión informativa 

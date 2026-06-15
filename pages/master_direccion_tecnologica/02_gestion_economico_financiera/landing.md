@@ -10,6 +10,9 @@ tags:
 
 # Gestión Económico Financiera
 
+[← 1. Introducción a la Contabilidad](sesion_1_26-10-2024)
+
+
 [← Inicio](https://matiaspakua.github.io/tech.notes.io)
 
 - Sesión 1 -> [1. Introducción a la Contabilidad](sesion_1_26-10-2024.md)

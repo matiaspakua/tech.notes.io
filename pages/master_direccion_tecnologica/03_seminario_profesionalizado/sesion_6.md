@@ -10,5 +10,8 @@ tags:
 
 # Negociación y Gestión Conflicto
 
+[← Sesión 2 · Comunicación Interpersonal](sesion_2)
+
+
 [← Inicio](https://matiaspakua.github.io/tech.notes.io)
 

@@ -86,3 +86,12 @@ Detectar tendencias y reacción hacia ellas.
 
 
 ![[ciclo_de_la_innovacion.png]]
+
+## Índice de temas
+
+- [Personas y equipos innovadores](sesion_2)
+- [Innovación y Creatividad](sesion_3)
+- [Innovación incremental vs radical](sesion_4)
+- [Dinamica de la innovación](sesion_5)
+- [Organización para innovar](sesion_6)
+- [Sesion 8](sesion_8)

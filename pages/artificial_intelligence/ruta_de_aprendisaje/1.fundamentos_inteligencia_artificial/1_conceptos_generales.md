@@ -224,3 +224,7 @@ Agentes de CLI
 - [Herramientas de AI](../../herramientas_de_ai.md)
 - [Fundamentos de estadística y ML](2_fundamentos_estadistica_aprendizaje_automatico.md)
 - [Generative AI](../../../software_engineering/generative_ai.md)
+
+## Índice de temas
+
+- [Fundamentos de Estadística y Aprendizaje Automático](2_fundamentos_estadistica_aprendizaje_automatico)

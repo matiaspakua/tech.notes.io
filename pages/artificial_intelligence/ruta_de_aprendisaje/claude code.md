@@ -10,6 +10,9 @@ tags:
 
 # Claude Code
 
+[← Grandes Modelos de Lenguajes](grandes_modelos _de_lenguajes)
+
+
 ## Agentic Loop
 
 Claude Code is best explained through the **agentic loop**:

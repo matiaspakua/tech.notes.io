@@ -30,3 +30,11 @@ tags:
 ## Transformación a Digital: Netflix
 
 ![[caso_netflix_vs_blockbuster.png]]
+
+## Índice de temas
+
+- [Organizaciones digitales](sesion_2)
+- [Rol del CIO y la función TI](sesion_3)
+- [Sesion 4](sesion_4)
+- [Alineamiento IT con Negocio](sesion_5)
+- [Sesion 6](sesion_6)

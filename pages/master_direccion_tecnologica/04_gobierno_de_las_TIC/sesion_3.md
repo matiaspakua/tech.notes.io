@@ -10,6 +10,9 @@ tags:
 
 # Gobierno TI
 
+[← Control de costes del departamento](sesion_2)
+
+
 [← Inicio](https://matiaspakua.github.io/tech.notes.io)
 
 ## Lectura 1: ¿Qué es el gobierno de TI_ _ IBM.pdf

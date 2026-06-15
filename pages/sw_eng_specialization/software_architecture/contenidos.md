@@ -48,3 +48,8 @@ Conceptos, técnicas y modelos de Arquitectura de Software: Conceptos de Arquite
 Complejidad de crear una arquitectura de software Documentación formal en ingeniería de software. Necesidades y puntos a tener en cuenta al realizar cualquier tipo de documentación. Documentación de arquitecturas de software. Cómo se documenta una arquitectura de software. Las vistas y estilos existentes para modelar una arquitectura. Los roles y la importancia relativa de los distintos aspectos de una arquitectura. Aspectos humanos de la comunicación de arquitecturas de software. 
 
 Evaluación y juicio crítico-objetivo de arquitecturas de software. Métodos y procesos formales, semi-formales e informales para evaluar arquitecturas de software. ROI de analizar una arquitectura de software. Parámetros para decidir si una arquitectura es lo suficientemente buena. Costo de evaluar arquitecturas de software.
+
+## Índice de temas
+
+- [clase 1 - Noción de Arquitectura de Software](clase_1)
+- [Trabajo Final Arquitectura](trabajo_final_arquitectura)

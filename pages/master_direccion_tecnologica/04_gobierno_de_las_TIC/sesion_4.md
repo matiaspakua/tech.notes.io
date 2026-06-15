@@ -10,5 +10,8 @@ tags:
 
 # Sesion 4
 
+[← Control de costes del departamento](sesion_2)
+
+
 [← Inicio](https://matiaspakua.github.io/tech.notes.io)
 

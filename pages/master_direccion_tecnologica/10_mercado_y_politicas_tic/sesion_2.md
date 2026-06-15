@@ -10,6 +10,9 @@ tags:
 
 # Mercado y Tendencias de las TIC
 
+[← Microeconomía y Macroeconomía](sesion_1)
+
+
 [← Inicio](https://matiaspakua.github.io/tech.notes.io)
 El mercado de las TIC continúa evolucionando rápidamente. Para entender su evolución y tendencias es preciso buscar y entender los principales indicadores que lo caracterizan. 
 

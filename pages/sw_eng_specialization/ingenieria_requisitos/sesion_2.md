@@ -236,3 +236,8 @@ Existen 2 conceptos que se pueden usar para entender estos "cambios":
 2. Transculturización: cuando se altera la cultura actual de la organización, sucede cuando se compra un enlatado y se implanta de forma forzosa, se obliga a su uso
 
 Ambos conceptos generalmente se dan en mayor o menor medida en cualquier organización. Lo importante sería tenerlos en cuenta y minimizar, a través de un correcto análisis y planificación su impacto en la organización.
+
+## Índice de temas
+
+- [Sesion 1](sesion_1)
+- [Requerimientos de Software](software_requirements)

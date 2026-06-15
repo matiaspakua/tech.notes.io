@@ -10,6 +10,9 @@ tags:
 
 # Fundamentos de LEAN IT
 
+[← Lectura 1: ITIL® 4: An Introduction to the Service Value Chain](sesion_2)
+
+
 [← Inicio](https://matiaspakua.github.io/tech.notes.io)
 
 Todo lo que hagamos, sirva para algo.

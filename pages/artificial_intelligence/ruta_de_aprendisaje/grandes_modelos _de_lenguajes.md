@@ -60,3 +60,9 @@ timeline
 - [Fundamentos de Estadística y ML](1.fundamentos_inteligencia_artificial/2_fundamentos_estadistica_aprendizaje_automatico.md)
 - [Generative AI](../../software_engineering/generative_ai.md)
 - [Herramientas de AI](../herramientas_de_ai.md)
+
+
+## Índice de temas
+
+- [Claude Code](claude code)
+- [Plan de Aprendizaje de Inteligencia Artificial](plan)

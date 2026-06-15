@@ -74,3 +74,9 @@ Ask if I want one of two options:
 2. **SMALL CHANGE:** Work through interactively ONE question per review section.
 
 **FOR EACH STAGE OF REVIEW:** Output the explanation and pros and cons of each stage's questions AND your opinionated recommendation and why, and then use AskUserQuestion. Also NUMBER issues and then give LETTERS for options and when using AskUserQuestion make sure each option clearly labels the issue NUMBER and option LETTER so the user doesn't get confused. Make the recommended option always the 1st option.
+
+
+## Índice de temas
+
+- [System Instruction](system_instruction)
+- [Workflow Orchestration](workflow_orchestration)

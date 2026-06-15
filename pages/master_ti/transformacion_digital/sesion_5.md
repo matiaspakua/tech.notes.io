@@ -9,4 +9,7 @@ tags:
 
 # Clase 5 - Liderazgo y Cultura Exponencial
 
+[← Roadmap de la transformación digital](sesion_6)
+
+
 [← Inicio](https://matiaspakua.github.io/tech.notes.io)

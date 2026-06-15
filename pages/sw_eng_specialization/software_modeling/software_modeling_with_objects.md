@@ -11,6 +11,9 @@ tags:
 
 # Modelado de Software con Objetos
 
+[← Conceptos claves](sesion_2)
+
+
 [← Inicio](https://matiaspakua.github.io/tech.notes.io)
 
 

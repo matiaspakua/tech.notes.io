@@ -11,6 +11,9 @@ tags:
 
 # Requerimientos de Software
 
+[← El proceso de la Ingeniería de Requerimientos](sesion_2)
+
+
 [← Inicio](https://matiaspakua.github.io/tech.notes.io)
 
 

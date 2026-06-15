@@ -119,3 +119,10 @@ Si un proyecto tiene flujos de fondos negativos al inicio (inversión) y positiv
 
 
 ![](../../../images/criterio_seleccion_proyecto_TIR.png)
+
+## Índice de temas
+
+- [Rol del CIO](sesion_1)
+- [Gobierno TI](sesion_3)
+- [Sesion 4](sesion_4)
+- [Ciberseguridad](sesion_5)

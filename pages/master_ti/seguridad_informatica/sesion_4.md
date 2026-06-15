@@ -10,6 +10,9 @@ tags:
 
 # Seguridad de Redes, Sistemas, Aplicaciones y Datos
 
+[← Overview general: Principales conceptos de Cyberseguridad.](sesion_1)
+
+
 [← Inicio](https://matiaspakua.github.io/tech.notes.io)
 
 1. Controles de proceso—Evaluaciones del riesgo 

@@ -54,3 +54,12 @@ Agentes de cambio, pero como hacer los cambios:
 
 # Alcance del Proyecto
 
+
+
+## Índice de temas
+
+- [Introducción Gestión de Proyectos, Iniciación y Planificación de proyectos IT](sesion_1)
+- [Sesion 3](sesion_3)
+- [Sesion 4](sesion_4)
+- [Un buen funcional](sesion_5)
+- [Estimaciones y Presupuesto para elegir proyectos](sesion_6)

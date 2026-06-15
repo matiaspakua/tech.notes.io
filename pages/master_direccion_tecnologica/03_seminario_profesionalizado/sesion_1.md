@@ -10,6 +10,9 @@ tags:
 
 # Sesión 1 · Introducción & Liderazgo Personal
 
+[← Sesión 2 · Comunicación Interpersonal](sesion_2)
+
+
 [← Inicio](https://matiaspakua.github.io/tech.notes.io)
 
 Esta sesión profundiza en el concepto de autoconocimiento, un elemento clave del 

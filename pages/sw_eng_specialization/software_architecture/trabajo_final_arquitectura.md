@@ -11,5 +11,8 @@ tags:
 
 # Trabajo Final Arquitectura
 
+[← Arquitectura de Software](contenidos)
+
+
 [← Inicio](https://matiaspakua.github.io/tech.notes.io)
 
