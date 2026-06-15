@@ -60,7 +60,7 @@ Muchas páginas tienen `## Heading` sin `# Main Title` previo.
 
 ## ℹ️ Notas técnicas
 
-- Audit ejecutado: Mon Jun 15 21:23:39 CEST 2026
+- Audit ejecutado: Mon Jun 15 21:24:41 CEST 2026
 - Archivo de configuración: `.gitlab/audit.json` (no existe, pero podría crearse)
 - Próxima ejecución recomendada: antes de cada merge a main
 
@@ -68,7 +68,7 @@ Muchas páginas tienen `## Heading` sin `# Main Title` previo.
 ---
 
 # AUDIT REPORT — tech.notes.io
-Generated: Mon Jun 15 21:23:39 CEST 2026
+Generated: Mon Jun 15 21:24:41 CEST 2026
 ## 📊 Estadísticas
 - **Errores encontrados:** 0
 - **Advertencias:** 0
