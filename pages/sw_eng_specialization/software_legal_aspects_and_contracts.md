@@ -49,7 +49,7 @@ Legislación vigente y proyectos de ley relacionados con el software en la Argen
 
 - [Open Source Initiative — Licenses & Standards](https://opensource.org/licenses)
 - [GDPR — General Data Protection Regulation, European Union, 2018](https://gdpr-info.eu/)
-- [Ley de Protección de Datos Personales — Argentina, Ley 25.326](http://servicios.infoleg.gob.ar/infolegInternet/anexos/60000-64999/64790/texact.htm)
+- [Ley de Protección de Datos Personales — Argentina, Ley 25.326](https://servicios.infoleg.gob.ar/infolegInternet/anexos/60000-64999/64790/texact.htm)
 
 ## Notas relacionadas
 

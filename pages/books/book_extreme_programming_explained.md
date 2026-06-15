@@ -494,9 +494,7 @@ Faced with the apparent need for larger team, first ask if a small team can solv
 
 Projects that start and stop frequently, with the team scattered at each shutdown, are more difficult to maintain over time. In this case, XP teams often write a "<mark style="background: #FFF3A3A6;">Rosetta Stone</mark>" document before shutting down the project.
 
-![](https://upload.wikimedia.org/wikipedia/commons/b/bf/Rosetta_Stone.jpg)
-
-**Reference**: Rosetta Stone Wikipedia.
+> **Referencia**: Un documento "Rosetta Stone" es un artefacto de conocimiento que traduce conceptos del proyecto a un formato que nuevos miembros del equipo puedan entender fácilmente. Ver [Rosetta Stone en Wikipedia](https://en.wikipedia.org/wiki/Rosetta_Stone) para el concepto histórico.
 
 
 ### Problem and Solution Complexity

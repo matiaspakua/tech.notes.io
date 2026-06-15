@@ -97,7 +97,7 @@ This is a very complete, hand-on, medium level specialization based on cloud com
 
 The key takeaway is that effective technical project management is about making small, incremental changes that lead to a predictable outcome. 
 
-<img width="556" alt="goals by week" src="https://user-images.githubusercontent.com/20072974/213302327-fd548e29-740d-472f-a99f-f755b6f8ebd0.png">
+> **Nota**: Ver diagrama en GitHub: [goals by week](https://github.com/users/matiaspakua) para visualizar el flujo de trabajo semanal.
 
 ## Project Management Anti-Patterns
 

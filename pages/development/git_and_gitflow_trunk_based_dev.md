@@ -74,7 +74,12 @@ gitGraph
 
 ### GitFlow: diagrama original de Vincent Driessen
 
-![Original Git flow](https://nvie.com/img/git-model@2x.png)
+> Ver [A successful Git branching model](https://nvie.com/posts/a-successful-git-branching-model/) para el diagrama original de Vincent Driessen (2010). El modelo propone:
+> - `main`: versiones estables
+> - `develop`: rama de integración
+> - `feature/*`: ramas de feature
+> - `release/*`: ramas de preparación de release
+> - `hotfix/*`: ramas de correcciones críticas
 
 ## Trunk-Based Development
 

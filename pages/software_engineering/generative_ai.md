@@ -93,9 +93,7 @@ flowchart TD
  * **Creative Users**: Use pre-built generative AI models from repositories like GitHub and then combine them with AI notebooks (like Google Colab) to run the model.
  * **General Users**: Access generative AI through online services or apps like DALL-E, Midjourney, etc.
 
-![](https://upload.wikimedia.org/wikipedia/commons/1/16/GenAI_Agent.png)
-
-[Example of generic AI generative architecture - High Level]
+> **Nota**: Ver en Wikimedia Commons: [Generic AI Generative Architecture - High Level](https://commons.wikimedia.org/wiki/File:GenAI_Agent.png) para diagrama visual.
 
 ### Using Generative AI Models for Content Creation
 
@@ -128,9 +126,7 @@ flowchart TD
 
 - **Industrial Uses**: Examples include Cuebric for film backgrounds, Stitch Fix for fashion, and various marketing campaigns using generative AI for efficiency and a unique aesthetic.
 
-![](https://upload.wikimedia.org/wikipedia/commons/6/69/Th%C3%A9%C3%A2tre_D%E2%80%99op%C3%A9ra_Spatial.png)
-
-[Example image Wikipedia]
+> **Nota**: Ver en Wikimedia Commons: [Theatre D'opera Spatial](https://commons.wikimedia.org/wiki/File:Th%C3%A9%C3%A2tre_D%E2%80%99op%C3%A9ra_Spatial.png) para ejemplo visual generado por DALL-E.
 
 ### Generative Adversarial Networks (GANs)
 

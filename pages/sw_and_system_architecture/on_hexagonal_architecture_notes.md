@@ -51,7 +51,7 @@ flowchart LR
 > [!tip]
 > Las **flechas siempre apuntan hacia el dominio**: el núcleo no conoce a los adaptadores, solo define puertos (interfaces). Esa inversión de dependencias es lo que mantiene la lógica de negocio independiente de la tecnología.
 
-![Example by Valentina Cupać](https://substackcdn.com/image/fetch/w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe5f9ca77-0fc5-4fd4-8b89-c2e43ffff9c2_3601x4442.jpeg)
+> **Nota visual**: Ver artículo de Valentina Cupać en Substack para diagrama detallado de Hexagonal Architecture con ejemplos visuales.
 
 Here’s a simple example in Java:
 
