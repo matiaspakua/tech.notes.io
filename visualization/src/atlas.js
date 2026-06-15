@@ -120,11 +120,7 @@ export class Atlas {
     const TICKS = 320;
     for (let i = 0; i < TICKS; i++) {
       sim.tick();
-      if (i % 40 === 0) {
-        const pct = Math.round(i / TICKS * 100);
-        const bar = document.getElementById('loading-bar');
-        if (bar) bar.style.width = pct + '%';
-      }
+      // DOM updates during sync loop don't paint — handled by main.js
     }
 
     this.nodePos = new Map(this.simNodes.map(n => [n.id, { x: n.x, y: n.y }]));
@@ -190,7 +186,7 @@ export class Atlas {
     this._renderNoteLabels();
     this._setupInteractions();
     this._buildLegend();
-    this._entrance();
+    // entrance() is called externally by main.js after loading screen dismissal
   }
 
   // ── RENDER LAYERS ────────────────────────────────────────────────────────────
@@ -641,7 +637,7 @@ export class Atlas {
     document.getElementById('nc-meta').textContent =
       `${note.words.toLocaleString()} words${note.has_diagram ? ' · ⟁ diagram' : ''}`;
 
-    const url = 'https://matiaspakua.github.io/tech.notes.io/' + note.path.replace('.md', '');
+    const url = 'https://matiaspakua.github.io/tech.notes.io/pages/' + note.path.replace('.md', '');
     document.getElementById('nc-link').href = url;
 
     const card = document.getElementById('note-card');

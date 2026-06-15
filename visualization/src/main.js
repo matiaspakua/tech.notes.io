@@ -4,6 +4,7 @@ import gsap from 'gsap';
 // ── GRAIN CANVAS ──────────────────────────────────────────────────────────────
 function buildGrain() {
   const canvas = document.getElementById('grain');
+  if (!canvas) return;
   canvas.width = window.innerWidth;
   canvas.height = window.innerHeight;
   const ctx = canvas.getContext('2d');
@@ -17,42 +18,56 @@ function buildGrain() {
 
 buildGrain();
 
-// ── ATLAS INIT ────────────────────────────────────────────────────────────────
-const svgEl = document.getElementById('atlas');
-const atlas = new Atlas(svgEl);
-window.__atlas = atlas; // for breadcrumb onclick
+let atlas = null;
 
-// ── LOADING DISMISS ───────────────────────────────────────────────────────────
-gsap.to('#loading-bar', { width: '100%', duration: 0.3, delay: 0.1, onComplete() {
-  gsap.to('#loading', {
-    opacity: 0,
-    duration: 0.5,
-    delay: 0.2,
-    onComplete() {
-      document.getElementById('loading').style.display = 'none';
-      atlas.entrance();
-    }
-  });
-}});
+// ── INIT — single rAF to let loading screen paint, then build ─────────────────
+requestAnimationFrame(() => {
+  const loadSub  = document.getElementById('loading-sub');
+  const loadEl   = document.getElementById('loading');
+  const svgEl    = document.getElementById('atlas');
+
+  const report = (msg) => { if (loadSub) loadSub.textContent = msg; };
+  const fail   = (err) => {
+    const m = err?.message || String(err);
+    if (loadSub) { loadSub.textContent = '✗ ' + m; loadSub.style.color = '#ff6b6b'; }
+    console.error('[Atlas]', err);
+  };
+
+  try {
+    report('Computing topology…');
+    atlas = new Atlas(svgEl);
+    window.__atlas = atlas;
+    report('Ready');
+  } catch (err) {
+    fail(err);
+    return;
+  }
+
+  // Use CSS opacity transition to dismiss (no GSAP needed for loading)
+  loadEl.style.transition = 'opacity 0.5s ease';
+  loadEl.style.opacity = '0';
+  setTimeout(() => {
+    loadEl.style.display = 'none';
+    atlas.entrance();
+  }, 550);
+});
 
 // ── SEARCH ────────────────────────────────────────────────────────────────────
-const searchEl = document.getElementById('search');
 let searchDebounce;
-searchEl.addEventListener('input', () => {
+document.getElementById('search').addEventListener('input', function() {
   clearTimeout(searchDebounce);
-  searchDebounce = setTimeout(() => atlas.search(searchEl.value), 80);
+  const q = this.value;
+  searchDebounce = setTimeout(() => atlas?.search(q), 80);
 });
-searchEl.addEventListener('keydown', e => { if (e.key === 'Escape') { searchEl.value = ''; atlas.search(''); } });
+document.getElementById('search').addEventListener('keydown', function(e) {
+  if (e.key === 'Escape') { this.value = ''; atlas?.search(''); this.blur(); }
+});
 
-// ── RESET BUTTON ──────────────────────────────────────────────────────────────
 document.getElementById('reset-btn').addEventListener('click', () => {
-  atlas.resetView();
-  searchEl.value = '';
-  atlas.search('');
+  atlas?.resetView();
+  const s = document.getElementById('search');
+  s.value = '';
+  atlas?.search('');
 });
 
-// ── RESIZE ────────────────────────────────────────────────────────────────────
-window.addEventListener('resize', () => {
-  buildGrain();
-  // SVG viewBox is coordinate-system-based, no resize needed
-});
+window.addEventListener('resize', buildGrain);

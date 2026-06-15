@@ -49,6 +49,7 @@ exclude:
   - .githooks/
   - scripts/
   - docs/
+  - visualization/
 
 callouts:
   note:
