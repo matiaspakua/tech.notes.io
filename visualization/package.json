@@ -1,0 +1,21 @@
+{
+  "name": "knowledge-atlas",
+  "private": true,
+  "version": "2.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "d3": "^7.9.0",
+    "gsap": "^3.12.5"
+  },
+  "devDependencies": {
+    "vite": "^5.2.12"
+  },
+  "allowScripts": {
+    "esbuild@0.21.5": true
+  }
+}

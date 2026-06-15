@@ -200,6 +200,25 @@ nav_order: 1
 
 ---
 
+## 🗺️ Knowledge Atlas — Mapa interactivo
+
+Visualización interactiva de las 217 notas y sus 1.815 conexiones, agrupadas en 16 dominios de conocimiento. Basada en principios de neurociencia cognitiva (Cognitive Load Theory, Dual Coding, Spreading Activation).
+
+<div style="border-radius:14px;border:1px solid #30363d;box-shadow:0 4px 24px rgba(0,0,0,0.5);overflow:hidden;margin:0.75rem 0 0.5rem;">
+  <iframe
+    src="/tech.notes.io/atlas/"
+    style="width:100%;height:700px;border:none;display:block;background:#070709;"
+    title="Knowledge Atlas — mapa interactivo de conocimiento"
+    loading="lazy">
+  </iframe>
+</div>
+
+<p style="text-align:right;margin:0.25rem 0 0;font-size:0.8rem;">
+  <a href="/tech.notes.io/atlas/" target="_blank" rel="noopener">Abrir en pantalla completa ↗</a>
+</p>
+
+---
+
 ## 🌐 General
 
 - [Introduction and notes on NoSQL Databases](/pages/general_topic/nosql_the_basis_of.md) 
