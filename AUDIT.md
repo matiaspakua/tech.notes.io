@@ -3,7 +3,7 @@
 
 ### Hallazgos principales
 
-1. **480 Errores críticos** — principalmente broken links y missing images
+1. **211 Errores críticos** — principalmente broken links y missing images
 2. **1051 Advertencias** — issues menores, en su mayoría H2 sin H1 previo
 3. **Calidad general:** ~95% — la mayoría de archivos están bien estructurados
 
@@ -60,7 +60,7 @@ Muchas páginas tienen `## Heading` sin `# Main Title` previo.
 
 ## ℹ️ Notas técnicas
 
-- Audit ejecutado: Mon Jun 15 20:16:38 CEST 2026
+- Audit ejecutado: Mon Jun 15 20:28:15 CEST 2026
 - Archivo de configuración: `.gitlab/audit.json` (no existe, pero podría crearse)
 - Próxima ejecución recomendada: antes de cada merge a main
 
@@ -68,168 +68,24 @@ Muchas páginas tienen `## Heading` sin `# Main Title` previo.
 ---
 
 # AUDIT REPORT — tech.notes.io
-Generated: Mon Jun 15 20:16:38 CEST 2026
+Generated: Mon Jun 15 20:28:15 CEST 2026
 ## 📊 Estadísticas
-- **Errores encontrados:** 480
+- **Errores encontrados:** 211
 - **Advertencias:** 1051
 - **Archivos escaneados:** 217
 - **Imágenes escaneadas:** 528
-- **Imágenes referenciadas:** 420
-- **Enlaces markdown:** 1914
+- **Imágenes referenciadas:** 412
+- **Enlaces markdown:** 1918
 
 ## ❌ Errores
 
-### Broken Images (8 errores)
+### Broken Images (1 errores)
 
-- `pages/books/book_extreme_programming_explained.md:501` — Image not found: https://upload.wikimedia.org/wikipedia/commons/b/bf/Rosetta_Stone.jpg
 - `pages/development/OpenApi.md:159` — Image not found: images/example-image.png
-- `pages/development/git_and_gitflow_trunk_based_dev.md:82` — Image not found: https://nvie.com/img/git-model@2x.png
-- `pages/general_topic/specialization_building_cloud_computing_solutions_at_scale.md:107` — Image not found: https://user-images.githubusercontent.com/20072974/213302327-fd548e29-740d-472f-a99f-f755b6f8ebd0.png
-- `pages/software_engineering/generative_ai.md:100` — Image not found: https://upload.wikimedia.org/wikipedia/commons/1/16/GenAI_Agent.png
-- `pages/software_engineering/generative_ai.md:135` — Image not found: https://upload.wikimedia.org/wikipedia/commons/6/69/Th%C3%A9%C3%A2tre_D%E2%80%99op%C3%A9ra_Spatial.png
-- `pages/sw_and_system_architecture/on_hexagonal_architecture_notes.md:59` — Image not found: https://substackcdn.com/image/fetch/w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe5f9ca77-0fc5-4fd4-8b89-c2e43ffff9c2_3601x4442.jpeg
-- `pages/sw_eng_specialization/final_projects_specialization.md:450` — Image not found: https://martinfowler.com/bliki/images/ci-certification/sketch.png
 
-### Broken Links (472 errores)
+### Broken Links (210 errores)
 
-- `pages/artificial_intelligence/herramientas_de_ai.md:92` — Link target not found: ../software_engineering/generative_ai.md
-- `pages/artificial_intelligence/herramientas_de_ai.md:93` — Link target not found: ruta_de_aprendisaje/claude%20code.md
-- `pages/artificial_intelligence/ruta_de_aprendisaje/1.fundamentos_inteligencia_artificial/1_conceptos_generales.md:229` — Link target not found: ../../herramientas_de_ai.md
-- `pages/artificial_intelligence/ruta_de_aprendisaje/1.fundamentos_inteligencia_artificial/1_conceptos_generales.md:231` — Link target not found: ../../../software_engineering/generative_ai.md
-- `pages/artificial_intelligence/ruta_de_aprendisaje/grandes_modelos _de_lenguajes.md:66` — Link target not found: ../../software_engineering/generative_ai.md
-- `pages/artificial_intelligence/ruta_de_aprendisaje/grandes_modelos _de_lenguajes.md:67` — Link target not found: ../herramientas_de_ai.md
-- `pages/books/book_extreme_programming_explained.md:18` — Link target not found: ../../images/xp_programming.jpeg
-- `pages/books/book_extreme_programming_explained.md:595` — Link target not found: ../software_engineering/agile_and_scrum.md
-- `pages/books/book_extreme_programming_explained.md:596` — Link target not found: ../software_engineering/waterfall.md
-- `pages/books/book_extreme_programming_explained.md:597` — Link target not found: ../software_engineering/software_engineering_timeline.md
-- `pages/books/indice_libros.md:23` — Link target not found: ../leadership/dev_to_tech_lead.md
-- `pages/books/indice_libros.md:28` — Link target not found: ../../README.md
-- `pages/books/indice_libros.md:31` — Link target not found: ../software_engineering/agile_and_scrum.md
-- `pages/books/indice_libros.md:32` — Link target not found: ../software_engineering/software_engineering_timeline.md
-- `pages/books/indice_libros.md:33` — Link target not found: ../development/getting_started_spring_development.md
-- `pages/books/indice_libros.md:34` — Link target not found: ../general_topic/specialization_building_cloud_computing_solutions_at_scale.md
-- `pages/books/indice_libros.md:35` — Link target not found: ../sw_eng_specialization/final_projects_specialization.md
-- `pages/books/indice_libros.md:36` — Link target not found: ../sw_eng_specialization/software_development_methods.md
-- `pages/books/indice_libros.md:37` — Link target not found: ../master_direccion_tecnologica/06_gestion_proyecto_agile/sesion_1.md
-- `pages/books/indice_libros.md:38` — Link target not found: ../projects/plataforma_pruebas_smallsats.md
-- `pages/books/indice_libros.md:42` — Link target not found: ../leadership/dev_to_tech_lead.md
-- `pages/books/indice_libros.md:45` — Link target not found: ../leadership/dev_to_tech_lead.md
-- `pages/books/indice_libros.md:48` — Link target not found: ../leadership/dev_to_tech_lead.md
-- `pages/books/indice_libros.md:52` — Link target not found: ../software_engineering/waterfall.md
-- `pages/books/indice_libros.md:55` — Link target not found: ../leadership/dev_to_tech_lead.md
-- `pages/books/indice_libros.md:59` — Link target not found: ../../README.md
-- `pages/books/indice_libros.md:61` — Link target not found: ../software_engineering/agile_and_scrum.md
-- `pages/books/indice_libros.md:62` — Link target not found: ../software_engineering/software_engineering_timeline.md
-- `pages/books/indice_libros.md:63` — Link target not found: ../software_engineering/waterfall.md
-- `pages/books/indice_libros.md:64` — Link target not found: ../development/getting_started_spring_development.md
-- `pages/books/indice_libros.md:65` — Link target not found: ../development/git_and_gitflow_trunk_based_dev.md
-- `pages/books/indice_libros.md:66` — Link target not found: ../development/on_rest_api_notes.md
-- `pages/books/indice_libros.md:67` — Link target not found: ../general_topic/specialization_building_cloud_computing_solutions_at_scale.md
-- `pages/books/indice_libros.md:68` — Link target not found: ../general_topic/tech_trends_2023.md
-- `pages/books/indice_libros.md:69` — Link target not found: ../sw_eng_specialization/team_driving_and_human_resource_management.md
-- `pages/books/indice_libros.md:70` — Link target not found: ../master_direccion_tecnologica/01_gestion_empresarial_y_transformacion_digital/sesion_2_25-10-2024.md
-- `pages/books/indice_libros.md:71` — Link target not found: ../master_ti/cloud_computing/sesion_4.md
-- `pages/books/indice_libros.md:72` — Link target not found: ../master_ti/transformacion_digital/sesion_6.md
-- `pages/books/indice_libros.md:73` — Link target not found: ../we_are_developers_wc_2024/charla_03.md
-- `pages/books/indice_libros.md:74` — Link target not found: ../we_are_developers_wc_2024/charla_10.md
-- `pages/books/indice_libros.md:75` — Link target not found: ../we_are_developers_wc_2024/charla_13.md
-- `pages/books/indice_libros.md:76` — Link target not found: ../we_are_developers_wc_2024/charla_19.md
-- `pages/books/indice_libros.md:79` — Link target not found: ../leadership/dev_to_tech_lead.md
-- `pages/books/indice_libros.md:85` — Link target not found: ../general_topic/specialization_building_cloud_computing_solutions_at_scale.md
-- `pages/books/indice_libros.md:86` — Link target not found: ../we_are_developers_wc_2024/charla_19.md
-- `pages/books/indice_libros.md:89` — Link target not found: ../cursos/visual_thinking.md
-- `pages/books/indice_libros.md:92` — Link target not found: ../leadership/dev_to_tech_lead.md
-- `pages/books/indice_libros.md:97` — Link target not found: ../../README.md
-- `pages/books/indice_libros.md:99` — Link target not found: ../software_engineering/agile_and_scrum.md
-- `pages/books/indice_libros.md:100` — Link target not found: ../software_engineering/software_engineering_timeline.md
-- `pages/books/indice_libros.md:101` — Link target not found: ../software_engineering/waterfall.md
-- `pages/books/indice_libros.md:102` — Link target not found: ../software_engineering/generative_ai.md
-- `pages/books/indice_libros.md:103` — Link target not found: ../software_engineering/the_history_of_the_project_A7_by_David_Parnas.md
-- `pages/books/indice_libros.md:104` — Link target not found: ../leadership/dev_to_tech_lead.md
-- `pages/books/indice_libros.md:105` — Link target not found: ../leadership/emotional_intelligence.md
-- `pages/books/indice_libros.md:106` — Link target not found: ../leadership/how_to_speak_by_patrick_winston.md
-- `pages/books/indice_libros.md:107` — Link target not found: ../leadership/what_the_little_prince_teach_about_engineering.md
-- `pages/books/indice_libros.md:108` — Link target not found: ../general_topic/on_user_stories_notes.md
-- `pages/books/indice_libros.md:109` — Link target not found: ../general_topic/reflection_on_software_engineering.md
-- `pages/books/indice_libros.md:110` — Link target not found: ../general_topic/design_thinking_explained.md
-- `pages/books/indice_libros.md:111` — Link target not found: ../general_topic/how_to_build_a_knowledge_base.md
-- `pages/books/indice_libros.md:112` — Link target not found: ../general_topic/nosql_the_basis_of.md
-- `pages/books/indice_libros.md:113` — Link target not found: ../general_topic/specialization_building_cloud_computing_solutions_at_scale.md
-- `pages/books/indice_libros.md:114` — Link target not found: ../general_topic/tech_trends_2023.md
-- `pages/books/indice_libros.md:117` — Link target not found: ../development/advance_your_spring_development_skills.md
-- `pages/books/indice_libros.md:118` — Link target not found: ../development/concurrencia_java.md
-- `pages/books/indice_libros.md:119` — Link target not found: ../development/getting_started_spring_development.md
-- `pages/books/indice_libros.md:120` — Link target not found: ../development/git_and_gitflow_trunk_based_dev.md
-- `pages/books/indice_libros.md:121` — Link target not found: ../development/on_java_notes.md
-- `pages/books/indice_libros.md:122` — Link target not found: ../development/on_rest_api_notes.md
-- `pages/books/indice_libros.md:123` — Link target not found: ../development/OpenApi.md
-- `pages/books/indice_libros.md:124` — Link target not found: ../development/programacion_c.md
-- `pages/books/indice_libros.md:125` — Link target not found: ../cursos/visual_thinking.md
-- `pages/books/indice_libros.md:126` — Link target not found: ../cybersecurity/cybersecurity_foundations.md
-- `pages/books/indice_libros.md:127` — Link target not found: ../cybersecurity/cybersecurity_h4ck3d.md
-- `pages/books/indice_libros.md:128` — Link target not found: ../cybersecurity/dev_sec_ops_foundations.md
-- `pages/books/indice_libros.md:129` — Link target not found: ../cybersecurity/programming_foundations_web_security.md
-- `pages/books/indice_libros.md:130` — Link target not found: ../sw_and_system_architecture/on_hexagonal_architecture_notes.md
-- `pages/books/indice_libros.md:131` — Link target not found: ../sw_and_system_architecture/sustainable_software_architecture.md
-- `pages/books/indice_libros.md:132` — Link target not found: ../sw_and_system_architecture/vertical_slicing_architectures.md
-- `pages/books/indice_libros.md:133` — Link target not found: ../sw_eng_specialization/final_projects_specialization.md
-- `pages/books/indice_libros.md:134` — Link target not found: ../testing/bdd_with_cucumber_java_notes.md
-- `pages/books/indice_libros.md:135` — Link target not found: ../testing/gherkin_and_automation.md
-- `pages/books/indice_libros.md:136` — Link target not found: ../testing/on_unit_test_tdd_and_bdd.md
-- `pages/books/indice_libros.md:137` — Link target not found: ../we_are_developers_wc_2024/charla_01.md
-- `pages/books/indice_libros.md:138` — Link target not found: ../we_are_developers_wc_2024/charla_03.md
-- `pages/books/indice_libros.md:139` — Link target not found: ../we_are_developers_wc_2024/charla_04.md
-- `pages/books/indice_libros.md:140` — Link target not found: ../we_are_developers_wc_2024/charla_05.md
-- `pages/books/indice_libros.md:141` — Link target not found: ../we_are_developers_wc_2024/charla_07.md
-- `pages/books/indice_libros.md:142` — Link target not found: ../we_are_developers_wc_2024/charla_08.md
-- `pages/books/indice_libros.md:143` — Link target not found: ../we_are_developers_wc_2024/charla_09.md
-- `pages/books/indice_libros.md:144` — Link target not found: ../we_are_developers_wc_2024/charla_13.md
-- `pages/books/indice_libros.md:145` — Link target not found: ../we_are_developers_wc_2024/charla_15.md
-- `pages/books/indice_libros.md:146` — Link target not found: ../we_are_developers_wc_2024/charla_16.md
-- `pages/books/indice_libros.md:147` — Link target not found: ../we_are_developers_wc_2024/charla_17.md
-- `pages/books/indice_libros.md:148` — Link target not found: ../artificial_intelligence/prompts/Claude%20Code%20Prompt%20for%20Plan%20Mode.md
-- `pages/books/indice_libros.md:149` — Link target not found: ../artificial_intelligence/ruta_de_aprendisaje/1.fundamentos_inteligencia_artificial/2_fundamentos_estadistica_aprendizaje_automatico.md
-- `pages/books/indice_libros.md:150` — Link target not found: ../artificial_intelligence/ruta_de_aprendisaje/claude%20code.md
-- `pages/books/indice_libros.md:151` — Link target not found: ../master_direccion_tecnologica/01_gestion_empresarial_y_transformacion_digital/sesion_6_15-11-2024.md
-- `pages/books/indice_libros.md:152` — Link target not found: ../master_direccion_tecnologica/01_gestion_empresarial_y_transformacion_digital/sesion_11_13-12-2024.md
-- `pages/books/indice_libros.md:153` — Link target not found: ../master_direccion_tecnologica/01_gestion_empresarial_y_transformacion_digital/sesion_12_13-12-2024.md
-- `pages/books/indice_libros.md:154` — Link target not found: ../master_direccion_tecnologica/09_gestion_servicios_tic/sesion_1.md
-- `pages/books/indice_libros.md:155` — Link target not found: ../master_direccion_tecnologica/09_gestion_servicios_tic/sesion_2.md
-- `pages/books/indice_libros.md:156` — Link target not found: ../master_direccion_tecnologica/09_gestion_servicios_tic/sesion_3.md
-- `pages/books/indice_libros.md:157` — Link target not found: ../projects/porfolio_projects.md
-- `pages/books/indice_libros.md:158` — Link target not found: ../projects/uso_modelo_machine_learning.md
-- `pages/books/indice_libros.md:159` — Link target not found: ../projects/plataforma_pruebas_smallsats.md
-- `pages/books/modern_software_engineering.md:414` — Link target not found: ../software_engineering/agile_and_scrum.md
-- `pages/books/modern_software_engineering.md:415` — Link target not found: ../software_engineering/waterfall.md
-- `pages/books/modern_software_engineering.md:416` — Link target not found: ../software_engineering/software_engineering_timeline.md
-- `pages/books/the_mythical_man_month.md:75` — Link target not found: ../software_engineering/agile_and_scrum.md
-- `pages/books/the_mythical_man_month.md:76` — Link target not found: ../software_engineering/waterfall.md
-- `pages/books/the_mythical_man_month.md:77` — Link target not found: ../software_engineering/software_engineering_timeline.md
-- `pages/cursos/visual_thinking.md:16` — Link target not found: ../../images/conways_law_example.jpeg
-- `pages/cursos/visual_thinking.md:47` — Link target not found: ../../images/building_confuse.png
-- `pages/cursos/visual_thinking.md:57` — Link target not found: ../../images/iot_diagram.png
-- `pages/cursos/visual_thinking.md:63` — Link target not found: ../../images/diagramas_secuancia.png
-- `pages/cursos/visual_thinking.md:113` — Link target not found: ../../images/drawio_landing_page.png
-- `pages/cursos/visual_thinking.md:121` — Link target not found: ../../images/desgin-thinking.png
-- `pages/cursos/visual_thinking.md:152` — Link target not found: ../../images/post_linkedin_voyayer.png
-- `pages/cursos/visual_thinking.md:173` — Link target not found: ../../images/demo_time_going_wrong.png
-- `pages/cursos/visual_thinking.md:210` — Link target not found: ../general_topic/design_thinking_explained.md
-- `pages/cursos/visual_thinking.md:219` — Link target not found: ../../images/download.png
-- `pages/cursos/visual_thinking.md:229` — Link target not found: ../general_topic/design_thinking_explained.md
-- `pages/cursos/visual_thinking.md:230` — Link target not found: ../leadership/how_to_speak_by_patrick_winston.md
-- `pages/cursos/visual_thinking.md:231` — Link target not found: ../leadership/como_hacer_presentaciones.md
 - `pages/development/OpenApi.md:159` — Link target not found: images/example-image.png
-- `pages/development/getting_started_spring_development.md:179` — Link target not found: ../../images/spring_data_schema.svg
-- `pages/development/getting_started_spring_development.md:230` — Link target not found: ../../images/query_methods_rules.png
-- `pages/development/getting_started_spring_development.md:233` — Link target not found: ../../images/query_method_verify_at_bootstrap.png
-- `pages/development/getting_started_spring_development.md:246` — Link target not found: ../../images/query_native.png
-- `pages/development/getting_started_spring_development.md:917` — Link target not found: ../../images/spring-overview.png
-- `pages/development/getting_started_spring_development.md:977` — Link target not found: ../../images/test-pyramid.jpg
-- `pages/development/getting_started_spring_development.md:997` — Link target not found: ../../images/tdd-cycle.png
-- `pages/development/getting_started_spring_development.md:1010` — Link target not found: ../../images/crud-rest-api.png
-- `pages/development/git_and_gitflow_trunk_based_dev.md:22` — Link target not found: ../../images/git_flow.jpeg
-- `pages/development/git_and_gitflow_trunk_based_dev.md:138` — Link target not found: ../cybersecurity/dev_sec_ops_foundations.md
-- `pages/development/git_and_gitflow_trunk_based_dev.md:139` — Link target not found: ../software_engineering/agile_and_scrum.md
 - `pages/development/on_java_notes.md:64` — Link target not found: \#introducción
 - `pages/development/on_java_notes.md:65` — Link target not found: \#¿qué-es-el-paradigma-de-la-orientación-a-objetos?
 - `pages/development/on_java_notes.md:66` — Link target not found: \#ventajas-del-paradigma-de-la-orientación-a-objetos
@@ -436,135 +292,10 @@ Generated: Mon Jun 15 20:16:38 CEST 2026
 - `pages/development/on_java_notes.md:267` — Link target not found: \#volviendo-sobre-el-modelo-conceptual.
 - `pages/development/on_java_notes.md:268` — Link target not found: \#diagrama-de-colaboración.
 - `pages/development/on_java_notes.md:269` — Link target not found: \#interfaz-gráfica-de-prototipo
-- `pages/development/on_rest_api_notes.md:68` — Link target not found: ../../images/api-contract-consumer-provider.png
-- `pages/general_topic/design_thinking_explained.md:29` — Link target not found: ../../images/desgin-thinking.png
-- `pages/general_topic/design_thinking_explained.md:137` — Link target not found: ../cursos/visual_thinking.md
-- `pages/general_topic/how_to_build_a_knowledge_base.md:88` — Link target not found: ../cursos/visual_thinking.md
-- `pages/general_topic/how_to_build_a_knowledge_base.md:90` — Link target not found: ../artificial_intelligence/herramientas_de_ai.md
-- `pages/general_topic/kubernetes.md:77` — Link target not found: ../cybersecurity/dev_sec_ops_foundations.md
-- `pages/general_topic/kubernetes.md:78` — Link target not found: ../we_are_developers_wc_2024/charla_20.md
-- `pages/general_topic/nosql_the_basis_of.md:227` — Link target not found: ../../images/mdb-vs-sql.png
-- `pages/general_topic/nosql_the_basis_of.md:267` — Link target not found: ../../images/sharding.png
-- `pages/general_topic/nosql_the_basis_of.md:448` — Link target not found: ../../images/CAP theorem and NoSQL.png
-- `pages/general_topic/reflection_on_software_engineering.md:77` — Link target not found: ../software_engineering/software_engineering_timeline.md
-- `pages/general_topic/reflection_on_software_engineering.md:78` — Link target not found: ../books/modern_software_engineering.md
-- `pages/general_topic/specialization_building_cloud_computing_solutions_at_scale.md:28` — Link target not found: ../../images/cloud_specialization_the_roadmap.png
-- `pages/general_topic/specialization_building_cloud_computing_solutions_at_scale.md:768` — Link target not found: ../development/advance_your_spring_development_skills.md
-- `pages/general_topic/specialization_building_cloud_computing_solutions_at_scale.md:1329` — Link target not found: ../projects/uso_modelo_machine_learning.md
-- `pages/general_topic/specialization_building_cloud_computing_solutions_at_scale.md:1330` — Link target not found: ../cybersecurity/dev_sec_ops_foundations.md
-- `pages/general_topic/tech_trends_2023.md:353` — Link target not found: ../software_engineering/generative_ai.md
-- `pages/general_topic/tech_trends_2023.md:354` — Link target not found: ../artificial_intelligence/ruta_de_aprendisaje/1.fundamentos_inteligencia_artificial/1_conceptos_generales.md
-- `pages/leadership/como_hacer_presentaciones.md:145` — Link target not found: ../cursos/visual_thinking.md
-- `pages/leadership/dev_to_tech_lead.md:20` — Link target not found: ../../images/dev_to_lead.jpeg
-- `pages/leadership/dev_to_tech_lead.md:188` — Link target not found: ../sw_eng_specialization/team_driving_and_human_resource_management.md
-- `pages/leadership/how_to_speak_by_patrick_winston.md:20` — Link target not found: ../../images/how_to_speak.jpeg
-- `pages/leadership/what_the_little_prince_teach_about_engineering.md:18` — Link target not found: ../../images/little_prince_sw_engineering.jpeg
-- `pages/leadership/what_the_little_prince_teach_about_engineering.md:89` — Link target not found: ../general_topic/reflection_on_software_engineering.md
-- `pages/master_direccion_tecnologica/12_TFM_trabajo_final_master/2025-04-19_revision_v0.1.md:64` — Link target not found: 2025-05-03_revisión_v0.2
-- `pages/master_direccion_tecnologica/12_TFM_trabajo_final_master/2025-04-19_revision_v0.1.md:65` — Link target not found: 2025-05-20_revisión_v0.4
-- `pages/master_direccion_tecnologica/12_TFM_trabajo_final_master/2025-04-19_revision_v0.1.md:66` — Link target not found: 2025-06-05 review 5.0
-- `pages/master_direccion_tecnologica/12_TFM_trabajo_final_master/2025-05-03_revisión_v0.2.md:20` — Link target not found: 2025-04-19_revision_v0.1
-- `pages/master_direccion_tecnologica/12_TFM_trabajo_final_master/2025-05-20_revisión_v0.4.md:20` — Link target not found: 2025-04-19_revision_v0.1
-- `pages/master_direccion_tecnologica/12_TFM_trabajo_final_master/2025-06-05 review 5.0.md:20` — Link target not found: 2025-04-19_revision_v0.1
-- `pages/master_direccion_tecnologica/12_TFM_trabajo_final_master/Feedback workshop.md:20` — Link target not found: 2025-04-19_revision_v0.1
-- `pages/master_direccion_tecnologica/landing.md:94` — Link target not found: 11_Gestión%20sistemas%20de%20información/sesion_1.md
-- `pages/master_direccion_tecnologica/landing.md:95` — Link target not found: 11_Gestión%20sistemas%20de%20información/sesion_2.md
-- `pages/master_direccion_tecnologica/landing.md:96` — Link target not found: 11_Gestión%20sistemas%20de%20información/sesion_4.md
-- `pages/projects/biblioteca_tecnica.md:352` — Link target not found: ../testing/on_unit_test_tdd_and_bdd.md
-- `pages/projects/biblioteca_tecnica.md:353` — Link target not found: ../development/on_rest_api_notes.md
-- `pages/projects/biblioteca_tecnica.md:354` — Link target not found: ../development/maven.md
-- `pages/projects/orquestador_workflows.md:90` — Link target not found: ../we_are_developers_wc_2024/charla_06.md
-- `pages/projects/orquestador_workflows.md:91` — Link target not found: ../development/on_rest_api_notes.md
-- `pages/projects/orquestador_workflows.md:92` — Link target not found: ../sw_and_system_architecture/on_hexagonal_architecture_notes.md
-- `pages/projects/plataforma_pruebas_smallsats.md:26` — Link target not found: ../../images/generic_satellite.jpg
-- `pages/projects/plataforma_pruebas_smallsats.md:52` — Link target not found: ../../images/satellite_overview.png
-- `pages/projects/plataforma_pruebas_smallsats.md:101` — Link target not found: ../../images/satellite_environment_context.png
-- `pages/projects/plataforma_pruebas_smallsats.md:115` — Link target not found: ../../images/system_overview.png
-- `pages/projects/plataforma_pruebas_smallsats.md:134` — Link target not found: ../../images/robot_framework_overwiew.png
-- `pages/projects/plataforma_pruebas_smallsats.md:204` — Link target not found: ../testing/bdd_with_cucumber_java_notes.md
-- `pages/projects/plataforma_pruebas_smallsats.md:205` — Link target not found: ../testing/gherkin_and_automation.md
-- `pages/projects/plataforma_pruebas_smallsats.md:206` — Link target not found: ../testing/on_unit_test_tdd_and_bdd.md
-- `pages/projects/plataforma_pruebas_smallsats.md:207` — Link target not found: ../space/space_introduccion.md
-- `pages/projects/porfolio_projects.md:108` — Link target not found: ../development/spring_framework_notes.md
-- `pages/projects/porfolio_projects.md:109` — Link target not found: ../development/on_rest_api_notes.md
-- `pages/projects/porfolio_projects.md:110` — Link target not found: ../cybersecurity/dev_sec_ops_foundations.md
-- `pages/projects/porfolio_projects.md:111` — Link target not found: ../sw_and_system_architecture/on_hexagonal_architecture_notes.md
-- `pages/projects/uso_modelo_machine_learning.md:50` — Link target not found: ../artificial_intelligence/ruta_de_aprendisaje/1.fundamentos_inteligencia_artificial/1_conceptos_generales.md
-- `pages/projects/uso_modelo_machine_learning.md:51` — Link target not found: ../artificial_intelligence/ruta_de_aprendisaje/1.fundamentos_inteligencia_artificial/2_fundamentos_estadistica_aprendizaje_automatico.md
-- `pages/projects/uso_modelo_machine_learning.md:52` — Link target not found: ../general_topic/specialization_building_cloud_computing_solutions_at_scale.md
-- `pages/software_engineering/agile_and_scrum.md:55` — Link target not found: ../../images/stages.png
-- `pages/software_engineering/agile_and_scrum.md:162` — Link target not found: ../../images/scrum-framework.png
-- `pages/software_engineering/agile_and_scrum.md:327` — Link target not found: ../books/modern_software_engineering.md
-- `pages/software_engineering/agile_and_scrum.md:328` — Link target not found: ../books/book_extreme_programming_explained.md
-- `pages/software_engineering/agile_and_scrum.md:329` — Link target not found: ../books/the_mythical_man_month.md
-- `pages/software_engineering/generative_ai.md:235` — Link target not found: ../artificial_intelligence/ruta_de_aprendisaje/1.fundamentos_inteligencia_artificial/1_conceptos_generales.md
-- `pages/software_engineering/generative_ai.md:236` — Link target not found: ../artificial_intelligence/herramientas_de_ai.md
-- `pages/software_engineering/generative_ai.md:237` — Link target not found: ../we_are_developers_wc_2024/charla_05.md
-- `pages/software_engineering/software_engineering_timeline.md:52` — Link target not found: ../books/modern_software_engineering.md
-- `pages/software_engineering/software_engineering_timeline.md:53` — Link target not found: ../books/book_extreme_programming_explained.md
-- `pages/software_engineering/software_engineering_timeline.md:54` — Link target not found: ../books/the_mythical_man_month.md
-- `pages/software_engineering/the_history_of_the_project_A7_by_David_Parnas.md:81` — Link target not found: ../../images/history_of_a7e_project_by_Paul_Clements.jpeg
-- `pages/software_engineering/the_history_of_the_project_A7_by_David_Parnas.md:84` — Link target not found: ../sw_and_system_architecture/sustainable_software_architecture.md
-- `pages/software_engineering/the_history_of_the_project_A7_by_David_Parnas.md:85` — Link target not found: ../books/modern_software_engineering.md
-- `pages/software_engineering/the_history_of_the_project_A7_by_David_Parnas.md:86` — Link target not found: ../sw_eng_specialization/software_architecture/contenidos.md
-- `pages/software_engineering/waterfall.md:78` — Link target not found: ../books/modern_software_engineering.md
-- `pages/software_engineering/waterfall.md:79` — Link target not found: ../books/book_extreme_programming_explained.md
-- `pages/software_engineering/waterfall.md:80` — Link target not found: ../books/the_mythical_man_month.md
-- `pages/space/space_introduccion.md:323` — Link target not found: ../software_engineering/generative_ai.md
-- `pages/space/space_introduccion.md:324` — Link target not found: ../artificial_intelligence/ruta_de_aprendisaje/1.fundamentos_inteligencia_artificial/2_fundamentos_estadistica_aprendizaje_automatico.md
-- `pages/sw_eng_specialization/final_projects_specialization.md:1886` — Link target not found: 
+- `pages/master_direccion_tecnologica/12_TFM_trabajo_final_master/2025-04-19_revision_v0.1.md:66` — Link target not found: 2025-06-05%20review%205.0.md
+- `pages/master_direccion_tecnologica/12_TFM_trabajo_final_master/2025-04-19_revision_v0.1.md:67` — Link target not found: Feedback%20workshop.md
+- `pages/sw_eng_specialization/final_projects_specialization.md:1884` — Link target not found: 
 - Git Flow - Gestión de ramas o Branching (Driessen, 2010
-- `pages/sw_eng_specialization/final_projects_specialization.md:2387` — Link target not found: ../books/modern_software_engineering.md
-- `pages/sw_eng_specialization/final_projects_specialization.md:2395` — Link target not found: ../cybersecurity/dev_sec_ops_foundations.md
-- `pages/sw_eng_specialization/final_projects_specialization.md:2396` — Link target not found: ../testing/on_unit_test_tdd_and_bdd.md
-- `pages/sw_eng_specialization/final_projects_specialization.md:2397` — Link target not found: ../testing/bdd_with_cucumber_java_notes.md
-- `pages/sw_eng_specialization/final_projects_specialization.md:2398` — Link target not found: ../sw_and_system_architecture/on_hexagonal_architecture_notes.md
-- `pages/sw_eng_specialization/final_projects_specialization.md:2399` — Link target not found: ../software_engineering/agile_and_scrum.md
-- `pages/sw_eng_specialization/software_development_methods.md:59` — Link target not found: ../books/book_extreme_programming_explained.md
-- `pages/sw_eng_specialization/software_development_methods.md:63` — Link target not found: ../software_engineering/agile_and_scrum.md
-- `pages/sw_eng_specialization/software_development_methods.md:64` — Link target not found: ../software_engineering/waterfall.md
-- `pages/sw_eng_specialization/software_quality.md:72` — Link target not found: ../cybersecurity/dev_sec_ops_foundations.md
-- `pages/sw_eng_specialization/software_quality.md:73` — Link target not found: ../testing/on_unit_test_tdd_and_bdd.md
-- `pages/sw_eng_specialization/software_testing.md:60` — Link target not found: ../testing/on_unit_test_tdd_and_bdd.md
-- `pages/sw_eng_specialization/software_testing.md:61` — Link target not found: ../testing/bdd_with_cucumber_java_notes.md
-- `pages/sw_eng_specialization/software_testing.md:62` — Link target not found: ../testing/gherkin_and_automation.md
-- `pages/sw_eng_specialization/team_driving_and_human_resource_management.md:59` — Link target not found: ../leadership/dev_to_tech_lead.md
-- `pages/sw_eng_specialization/team_driving_and_human_resource_management.md:60` — Link target not found: ../leadership/emotional_intelligence.md
-- `pages/testing/bdd_with_cucumber_java_notes.md:55` — Link target not found: ../general_topic/on_user_stories_notes.md
-- `pages/we_are_developers_wc_2024/charla_01.md:244` — Link target not found: ../general_topic/how_to_build_a_knowledge_base.md
-- `pages/we_are_developers_wc_2024/charla_02.md:191` — Link target not found: ../sw_and_system_architecture/sustainable_software_architecture.md
-- `pages/we_are_developers_wc_2024/charla_02.md:192` — Link target not found: ../sw_eng_specialization/software_architecture/contenidos.md
-- `pages/we_are_developers_wc_2024/charla_03.md:132` — Link target not found: ../sw_and_system_architecture/on_hexagonal_architecture_notes.md
-- `pages/we_are_developers_wc_2024/charla_03.md:133` — Link target not found: ../sw_and_system_architecture/vertical_slicing_architectures.md
-- `pages/we_are_developers_wc_2024/charla_04.md:72` — Link target not found: ../software_engineering/generative_ai.md
-- `pages/we_are_developers_wc_2024/charla_05.md:64` — Link target not found: ../software_engineering/generative_ai.md
-- `pages/we_are_developers_wc_2024/charla_05.md:65` — Link target not found: ../artificial_intelligence/ruta_de_aprendisaje/1.fundamentos_inteligencia_artificial/1_conceptos_generales.md
-- `pages/we_are_developers_wc_2024/charla_06.md:31` — Link target not found: ../../images/sistema_solar_trajectoria_planetas_real.png
-- `pages/we_are_developers_wc_2024/charla_06.md:38` — Link target not found: ../../images/sistema_solar_copernico.png
-- `pages/we_are_developers_wc_2024/charla_06.md:43` — Link target not found: ../../images/durable_execution_complexity.png
-- `pages/we_are_developers_wc_2024/charla_06.md:48` — Link target not found: ../../images/durable_execution_monolito_transaccion.png
-- `pages/we_are_developers_wc_2024/charla_06.md:54` — Link target not found: ../../images/durable_execution_transaccional.png
-- `pages/we_are_developers_wc_2024/charla_07.md:91` — Link target not found: ../cybersecurity/dev_sec_ops_foundations.md
-- `pages/we_are_developers_wc_2024/charla_09.md:59` — Link target not found: ../development/on_rest_api_notes.md
-- `pages/we_are_developers_wc_2024/charla_09.md:60` — Link target not found: ../development/OpenApi.md
-- `pages/we_are_developers_wc_2024/charla_10.md:84` — Link target not found: ../cybersecurity/dev_sec_ops_foundations.md
-- `pages/we_are_developers_wc_2024/charla_11.md:48` — Link target not found: ../sw_and_system_architecture/on_hexagonal_architecture_notes.md
-- `pages/we_are_developers_wc_2024/charla_11.md:49` — Link target not found: ../sw_and_system_architecture/vertical_slicing_architectures.md
-- `pages/we_are_developers_wc_2024/charla_12.md:75` — Link target not found: ../software_engineering/generative_ai.md
-- `pages/we_are_developers_wc_2024/charla_12.md:76` — Link target not found: ../cybersecurity/cybersecurity_h4ck3d.md
-- `pages/we_are_developers_wc_2024/charla_14.md:75` — Link target not found: ../general_topic/nosql_the_basis_of.md
-- `pages/we_are_developers_wc_2024/charla_15.md:92` — Link target not found: ../cybersecurity/dev_sec_ops_foundations.md
-- `pages/we_are_developers_wc_2024/charla_15.md:93` — Link target not found: ../software_engineering/generative_ai.md
-- `pages/we_are_developers_wc_2024/charla_16.md:67` — Link target not found: ../software_engineering/generative_ai.md
-- `pages/we_are_developers_wc_2024/charla_16.md:68` — Link target not found: ../cybersecurity/dev_sec_ops_foundations.md
-- `pages/we_are_developers_wc_2024/charla_16.md:69` — Link target not found: ../development/git_and_gitflow_trunk_based_dev.md
-- `pages/we_are_developers_wc_2024/charla_17.md:84` — Link target not found: ../general_topic/kubernetes.md
-- `pages/we_are_developers_wc_2024/charla_18.md:75` — Link target not found: ../sw_eng_specialization/software_testing.md
-- `pages/we_are_developers_wc_2024/charla_18.md:76` — Link target not found: ../testing/gherkin_and_automation.md
-- `pages/we_are_developers_wc_2024/charla_19.md:86` — Link target not found: ../general_topic/nosql_the_basis_of.md
-- `pages/we_are_developers_wc_2024/charla_19.md:87` — Link target not found: ../software_engineering/generative_ai.md
-- `pages/we_are_developers_wc_2024/charla_19.md:88` — Link target not found: ../artificial_intelligence/ruta_de_aprendisaje/1.fundamentos_inteligencia_artificial/2_fundamentos_estadistica_aprendizaje_automatico.md
-- `pages/we_are_developers_wc_2024/charla_20.md:54` — Link target not found: ../general_topic/kubernetes.md
 
 ## ⚠️ Advertencias
 

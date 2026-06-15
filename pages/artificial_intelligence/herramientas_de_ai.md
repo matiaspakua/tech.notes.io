@@ -85,4 +85,4 @@ Referencia:
 
 - [Conceptos de IA](ruta_de_aprendisaje/1.fundamentos_inteligencia_artificial/1_conceptos_generales.md)
 - [Generative AI](../software_engineering/generative_ai.md)
-- [Claude Code](ruta_de_aprendisaje/claude%20code.md)
+- [Claude Code](ruta_de_aprendisaje/claude code.md)

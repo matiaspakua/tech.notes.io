@@ -86,9 +86,9 @@ tags:
 - [Sesión 7](10_mercado_y_politicas_tic/sesion_7.md)
 
 ### Módulo 11 — Gestión de Sistemas de Información
-- [Sesión 1](11_Gestión%20sistemas%20de%20información/sesion_1.md)
-- [Sesión 2](11_Gestión%20sistemas%20de%20información/sesion_2.md)
-- [Sesión 4](11_Gestión%20sistemas%20de%20información/sesion_4.md)
+- [Sesión 1](11_Gestión sistemas de información/sesion_1.md)
+- [Sesión 2](11_Gestión sistemas de información/sesion_2.md)
+- [Sesión 4](11_Gestión sistemas de información/sesion_4.md)
 
 ### TFM — Trabajo Final de Master
 - [Revisión v0.1 (2025-04-19)](12_TFM_trabajo_final_master/2025-04-19_revision_v0.1.md)
