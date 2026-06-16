@@ -22,17 +22,17 @@ tags:
 
 Los usuarios de ordenadores dan por sentado que sus sistemas pueden hacer más de una cosa a la vez. Suponen que pueden seguir trabajando en un procesador de textos mientras otras aplicaciones descargan archivos, gestionan la cola de impresión y transmiten audio. Incluso <mark style="background: #FFF3A3A6;">se espera que una sola aplicación haga más de una cosa a la vez.</mark> Por ejemplo, esa aplicación de transmisión de audio debe leer simultáneamente el audio digital de la red, descomprimirlo, gestionar la reproducción y actualizar su pantalla. Incluso el procesador de textos debería estar siempre preparado para responder a los eventos del teclado y del ratón, sin importar lo ocupado que esté reformateando el texto o actualizando la pantalla. El software que puede hacer estas cosas se conoce como<mark style="background: #BBFABBA6;"> software concurrente</mark>.
 
-![](../../images/concurrency_concept.png)
+![](../../images/concurrency_concept.png))
 
 ## Procesos e hilos
 
 En la programación concurrente, hay dos unidades básicas de ejecución: procesos e hilos. En el lenguaje de programación Java, la programación concurrente se ocupa principalmente de los hilos. Sin embargo, los procesos también son importantes.
 
-![](../../images/java_concurencia_procesos_hilos.png)
+![](../../images/java_concurencia_procesos_hilos.png))
 
 Un sistema informático normalmente tiene muchos procesos e hilos activos. Esto es así incluso en sistemas que solo tienen un único núcleo de ejecución y, por lo tanto, solo tienen un hilo ejecutándose en un momento dado. El tiempo de procesamiento de un solo núcleo se comparte entre los procesos e hilos a través de una característica del sistema operativo llamada <mark style="background: #FFF3A3A6;">división de tiempo (time slicing)</mark>.
 
-![](../../images/time_slicing.png)
+![](../../images/time_slicing.png))
 
 Cada vez es más común que los sistemas informáticos tengan varios procesadores o procesadores con varios núcleos de ejecución. Esto mejora enormemente la capacidad de un sistema para la ejecución concurrente de procesos e hilos, pero la concurrencia es posible incluso en sistemas simples, sin varios procesadores o núcleos de ejecución.
 
@@ -40,7 +40,7 @@ Cada vez es más común que los sistemas informáticos tengan varios procesadore
 
 El modelo de memoria y los subprocesos en Java tienen su propia memoria del **stack**, pero comparten la memoria del **heap**. El **stack** contiene variables locales y de referencia, mientras que el **heap** contiene objetos.
 
-![](../../images/java_concurencia_RAM.png)
+![](../../images/java_concurencia_RAM.png))
 
 ## Procesos
 
@@ -353,7 +353,7 @@ public void run() {
 Consideraciones de rendimiento: la sincronización puede provocar sobrecargas de rendimiento, bloqueos y falta de rendimiento, por lo que debe utilizarse con prudencia.
 
 
-![](../../images/java_concurencia_synchronization.png)
+![](../../images/java_concurencia_synchronization.png))
 
 # Programación Asíncrona
 
@@ -361,14 +361,14 @@ Consideraciones de rendimiento: la sincronización puede provocar sobrecargas de
 
 - **Programación sincrónica**: implica una ejecución secuencial en la que las tareas esperan a que se completen entre sí, lo que puede provocar <mark style="background: #FFF3A3A6;">bloqueos</mark>, especialmente con tareas que consumen mucho tiempo, como las operaciones de E/S.
 
-![](../../images/java_concurencia_sync_process.png)
+![](../../images/java_concurencia_sync_process.png))
 
 - **Programación asíncrona**: Permite que varias tareas se ejecuten simultáneamente <mark style="background: #BBFABBA6;">sin esperarse unas a otras</mark>, lo que mejora la eficiencia y el rendimiento, especialmente en tareas como operaciones de red o acceso a bases de datos.
 
 
 - **Subproceso principal**: En la programación sincrónica, el<mark style="background: #ADCCFFA6;"> subproceso principal espera</mark> a que se completen otros subprocesos, lo que puede dificultar la generación de nuevos subprocesos. La programación asincrónica permite que el subproceso principal continúe ejecutando otras tareas sin esperar.
 
-![](../../images/java_concurencia_async_process.png)
+![](../../images/java_concurencia_async_process.png))
 
 ## Keywork: Future (promesas)
 

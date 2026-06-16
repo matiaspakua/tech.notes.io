@@ -25,7 +25,7 @@ De esa ecosistema de API hay pagar y libres. Tener una forma de describir esas A
 
 El software lleva más de una década devorando al mundo. En esta metáfora culinaria, las API son las herramientas del chef para elaborar la comida y los cubiertos que utilizamos para devorarla. Las <mark style="background: #FFF3A3A6;">API son fundamentales para la forma en que hacemos negocios en muchas industrias diferentes</mark> y son un elemento fundamental en muchas otras tendencias tecnológicas, incluidas las criptomonedas, la banca abierta y la inteligencia artificial.
 
-![](../../images/rol_apis_uber.png)
+![](../../images/rol_apis_uber.png))
 
 ## Ciclo de vida OpenAPI
 
@@ -68,7 +68,7 @@ El segundo y orientado a la tecnología HTTP es REST.
 
 Es una forma de comunicar, estandarizar y poner un estructura en común para la definición de las API.s
 
-![](../../images/api_structure.png)
+![](../../images/api_structure.png))
 
 Una de las forma más estándar de describir los datos es usar el forma de JSON.
 
@@ -136,7 +136,7 @@ El primer objeto del documento, es la descripción:
 
 ```
 
-![](../../images/openAPI_object_root.png)
+![](../../images/openAPI_object_root.png))
 
 ## Ejemplo:
 

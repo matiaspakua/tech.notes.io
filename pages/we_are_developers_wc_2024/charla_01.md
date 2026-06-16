@@ -13,7 +13,7 @@ tags:
 
 ---
 
-![](../../images/sagrada_familia_columns.jpg)
+![](../../images/sagrada_familia_columns.jpg))
 
 ---
 # Autor
@@ -27,7 +27,7 @@ Linkedin: https://www.linkedin.com/in/josecalderonsanz
 
 ## Introducción
 
-![](../../images/architecture_timeline_to_software.png)
+![](../../images/architecture_timeline_to_software.png))
 
 ---
 
@@ -41,7 +41,7 @@ Analogía con el juego de Legos => sirven para crear representaciones físicas d
 
 ---
 
-![](../../images/legos_software_architecture.png)
+![](../../images/legos_software_architecture.png))
 
 ---
 
@@ -93,7 +93,7 @@ _Ejemplo_: Decidir entre una arquitectura de microservicios y una monolítica pa
 
 ---
 
-![](../../images/microservice_vs_monolito.png)
+![](../../images/microservice_vs_monolito.png))
 
 ---
 
@@ -152,7 +152,7 @@ _Ejemplo_: Adoptar un marco de autenticación y autorización (como OAuth) para 
 
 ---
 
-![](../../images/sagrada_familia_experiment_model.png)
+![](../../images/sagrada_familia_experiment_model.png))
 
 ---
 
@@ -170,30 +170,30 @@ _Ejemplo_: Adoptar un marco de autenticación y autorización (como OAuth) para 
 
 web -> [The C4 model for visualising software architecture](https://c4model.com/)
 
-![](../../images/c4model_overview.png)
+![](../../images/c4model_overview.png))
 
 ---
 ## C1 - System Context
 
-![](../../images/c4model_SystemContext.png)
+![](../../images/c4model_SystemContext.png))
 
 ---
 
 ## C2 - Contenedor
 
-![](../../images/c4model_Containers.png)
+![](../../images/c4model_Containers.png))
 
 ---
 
 ## C3 - Componente
 
-![](../../images/c4model_Components.png)
+![](../../images/c4model_Components.png))
 
 ---
 
 ## C4 - Código
 
-![](../../images/c4model_class-diagram.png)
+![](../../images/c4model_class-diagram.png))
 
 ---
 
@@ -207,7 +207,7 @@ Example: [monorepo-vs-multirepo](https://github.com/joelparkerhenderson/architec
 
 ---
 
-![](../../images/ADR_example.png)
+![](../../images/ADR_example.png))
 
 ---
 
@@ -219,7 +219,7 @@ Example: [monorepo-vs-multirepo](https://github.com/joelparkerhenderson/architec
 
 ---
 
-![](../../images/architecture_decisions_rollback_evolve.png)
+![](../../images/architecture_decisions_rollback_evolve.png))
 
 --- 
 
@@ -231,7 +231,7 @@ Example: [monorepo-vs-multirepo](https://github.com/joelparkerhenderson/architec
 
 ---
 
-![](../../images/disponibilidad_informacion_con_AI_LLM.png)
+![](../../images/disponibilidad_informacion_con_AI_LLM.png))
 
 ## Notas relacionadas
 

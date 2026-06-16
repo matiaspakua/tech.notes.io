@@ -139,7 +139,7 @@ Con esta definición de los actores, podemos avanzar a **diagramar los casos de 
 ### Diagrama de Casos de Uso
 
 
-![](../../images/dcu_general.png)
+![](../../images/dcu_general.png))
 
 ## Modelo Conceptual Inicial
 
@@ -278,7 +278,7 @@ classDiagram
 
 SEC01: reporte de libros
 
-![](../../images/diagrama_secuencia_01_reporte_libros.png)
+![](../../images/diagrama_secuencia_01_reporte_libros.png))
 
 
 - Contratos de Operación
@@ -313,7 +313,7 @@ Esta POC utiliza:
 2. Google Forms con un formulario para solicitud de libros y otro form para devolución de libros.
 3. Google APP Scrips para los CRUD automáticos disparados con los envios de formularios, notificación de devoluciones y otras validaciones internas.
 
-![](../../images/c3_componentes_bilbioteca.png)
+![](../../images/c3_componentes_bilbioteca.png))
 
 ## Pruebas
 

@@ -14,7 +14,7 @@ tags:
 
 ---
 
-![](../../images/tpf_titulo.png)
+![](../../images/tpf_titulo.png))
 
 ---
 
@@ -137,7 +137,7 @@ A grandes rasgos, las tareas a realizar para lograr este objetivo involucran:
 - Brindar, como cierre, las conclusiones del trabajo.
 
 
-![](../../images/fig_1_dev_sec_ops_esquema_conceptual.png)
+![](../../images/fig_1_dev_sec_ops_esquema_conceptual.png))
 
 **Fig. 1. Esquema conceptual DevSecOps**
 
@@ -160,7 +160,7 @@ El primer concepto sienta las bases del presente trabajo. Los pilares de la inge
 
 **Referencia**:  Pressman, R. S. (2006). Ingeniería del software: un enfoque práctico (V. Campos Olguín, E. Pineda Rojas, & J. E. Murrieta Murrieta, Trans.). McGraw-Hill.
 
-![](../../images/fig_2_pilares_de_la_ingenieria_del_software.png)
+![](../../images/fig_2_pilares_de_la_ingenieria_del_software.png))
 
 **Figura 2: Pilares de la Ingeniería del Software (basado en “Pressman,2006,24”)**
 
@@ -175,7 +175,7 @@ La importancia de que las personas estén “motivadas” y “positivas” para
 
 **Referencia:** Development Cooperation Handbook/The development aid organization/Organizational Culture. (2018, February 22). Wikibooks, The Free Textbook Project. Retrieved 19:04, February 20, 2022 from https://en.wikibooks.org/w/index.php?title=Development_Cooperation_Handbook/The_development_aid_organization/Organizational_Culture&oldid=3377380.
 
-![](../../images/fig_3_cultura_procesos_personas_organizacion.png)
+![](../../images/fig_3_cultura_procesos_personas_organizacion.png))
 
 **Figura 3: Cultura, Procesos, Personas y Organización.**
 
@@ -196,7 +196,7 @@ El enfoque de gestión de calidad del presente trabajo incluye los aspectos asoc
 
 Como se muestra en la Fig. 4, DevOps no solo incluye las fases de desarrollo (Dev ) y de operación o puesta en producción (Ops), sino que el tercer pilar de de la metodología es QA, con lo cual la importancia de QA es fundamental.
 
-![](../../images/fig_4_QA_automation_como_pilar_de_DevOps.png)
+![](../../images/fig_4_QA_automation_como_pilar_de_DevOps.png))
 
 **Fig. 4. QA Automation como pilar de DevOps**
 
@@ -219,7 +219,7 @@ En la Fig. 5 se resalta el hecho de tener como guía, por sobre los procesos y p
 
 Luego de resolver como la información se va a organizar, queda resolver los Procesos y Prácticas que se asocian comúnmente al desarrollo de productos de software.
 
-![](../../images/fig_5_organizacion_procesos_informacion_practicas.png)
+![](../../images/fig_5_organizacion_procesos_informacion_practicas.png))
 
 **Fig. 5. Organización de procesos, información, prácticas.**
 
@@ -234,13 +234,13 @@ Un <mark style="background: #FFF3A3A6;">artefacto</mark> [Storz, 2022] define un
 
 Un proceso se comunica con otro utilizando, en la mayoría de los casos, uno o varios artefactos. En la Fig. 6 se muestran ejemplos de distintos tipos de artefactos, típicamente generados durante el desarrollo de un producto.
 
-![](../../images/fig_6_ejemplos_atefactos_generados_producto_software.png)
+![](../../images/fig_6_ejemplos_atefactos_generados_producto_software.png))
 
 **Fig. 6 Ejemplos de Artefactos generados en un producto de Software**
 
 Es importante que exista uno o varios repositorios de artefactos, según el tipo o categoría de los artefactos. Cuando se trata de artefactos de software (por ejemplo: ejecutables, binarios, archivos de configuración de servicios, etc.) es recomendable usar herramientas específicas que se puedan integrar en la infraestructura de desarrollo. Cuando se trata de artefactos como pueden ser: diagramas, documentos, o notas, se debería usar otro tipo de repositorio acorde al tipo de artefactos, por ejemplo un disco en la nube.
 
-![](../../images/fig_7_flujo_vida_uso_artefactos.png)
+![](../../images/fig_7_flujo_vida_uso_artefactos.png))
 
 **Fig. 7 Flujo de vida y uso de los Artefactos**
 
@@ -263,7 +263,7 @@ La Fig. 7 representa el un flujo de vida típico de artefactos, divido en 3 etap
 
 Una práctica indispensable de QA es asegurar la <mark style="background: #FFF3A3A6;">trazabilidad</mark> en el desarrollo de un producto de software. La trazabilidad es una característica esencial de un producto de software porque permite tener un hilo conductor, un **“camino de migas” (“breadcrumb trail”)** o inicio y un fin para una determinada funcionalidad. La Fig. 8 representa la idea conceptual de la trazabilidad, es decir, tener en claro el hilo conductor del desarrollo de un producto, desde un inicio, por ejemplo la definición de una nueva funcionalidad, hasta la UI/UX de usuario al utilizar dicha funcionalidad.
 
-![](../../images/fig_8_concepto_trazabilidad.png)
+![](../../images/fig_8_concepto_trazabilidad.png))
 
 **Fig 8. Concepto de Trazabilidad.**
 
@@ -271,7 +271,7 @@ Un concepto importante de la trazabilidad es el de traza: “Huella, vestigio.�
 
 **Referencia:** (REAL ACADEMIA ESPAÑOLA: Diccionario de la lengua española, 23.ª ed., [versión 23.5 en línea]. <https://dle.rae.es> 01/03/2022.)
 
-![](../../images/fig_9_trazabilidad_entre_artefactos.png)
+![](../../images/fig_9_trazabilidad_entre_artefactos.png))
 
 **Fig. 9. Trazabilidad entre artefactos**
 
@@ -285,7 +285,7 @@ Para lograr trazabilidad, hay varios aspectos a considerar:
 
 **Referencia:** Pitchford, M., Hurley, F., Dahad, N., & Roy, A. (2021, July 19). DevSecOps brings defense in depth to embedded security. Embedded.com. Retrieved February 23, 2022, from https://www.embedded.com/devsecops-brings-defense-in-depth-to-embedded-security/ 
 
-![](../../images/fig_10_trazabilidad_adelante_hacia_atras.png)
+![](../../images/fig_10_trazabilidad_adelante_hacia_atras.png))
 
 **Fig. 10 Trazabilidad hacia adelante (Forward) y hacia atrás (Backward)**
 
@@ -298,7 +298,7 @@ Link: [XP book notes: Root Analysis](https://matiaspakua.github.io/tech.notes.io
 
 La <mark style="background: #FFF3A3A6;">identificación</mark> de los elementos de información o artefactos es importante tanto desde el punto de vista de QA como en la operación. Para identificar los artefactos, un posible ejemplo es definir la siguiente nomenclatura general:
 
-![](../../images/practica_identificacion.png)
+![](../../images/practica_identificacion.png))
 
 Todos los artefactos deben ser identificados y almacenados en la base de conocimiento y se debe usar el ID de los artefactos para asociar y/o referenciar otros artefactos o documentos de cualquier tipo, de modo tal de asegurar trazabilidad en el proceso.
 
@@ -329,7 +329,7 @@ Todos los artefactos deben ser identificados y almacenados en la base de conocim
    - **Descripción:** Los documentos clave del proyecto, como las especificaciones de requisitos del software (SRS) y los planes de prueba, se identifican con IDs únicos.
    - **Utilidad:** Facilita la organización, el acceso y la referencia cruzada de los documentos, asegurando que todos los miembros del equipo puedan localizar y utilizar la información necesaria de manera eficiente.
 
-![](../../images/fig_9.1_practica_identificacion_trazabilidad.png)
+![](../../images/fig_9.1_practica_identificacion_trazabilidad.png))
 
 **Fig. 10.1. Ejemplo de trazabilidad de artefactos**
 
@@ -338,7 +338,7 @@ Todos los artefactos deben ser identificados y almacenados en la base de conocim
 
 Todos los artefactos se recomienda almacenarlos en un <mark style="background: #FFF3A3A6;">repositorio único</mark> (por ejemplo, un disco en la nube) que permita identificar al proyecto o producto y del cual se pueda recuperar la información almacenada.
 
-![](../../images/fig_11_concepto_base_conocimiento_centralizada_nube.png)
+![](../../images/fig_11_concepto_base_conocimiento_centralizada_nube.png))
 
 **Fig. 11. Concepto de Base de Conocimiento Centralizada y en la Nube**
 
@@ -397,7 +397,7 @@ La premisa es que un mismo equipo lleve adelante todos los procesos, que sea una
 
 En la Fig. 12 se presenta un ejemplo de un diagrama de arquitectura de alto nivel para los procesos asociados a la implementación de la metodología DevSecOps y QA.
 
-![](../../images/fig_12_arquitectura_procesos_alto_nivel.png)
+![](../../images/fig_12_arquitectura_procesos_alto_nivel.png))
 
 **Figura 12: Arquitectura de Procesos de Alto Nivel.**
 
@@ -425,13 +425,13 @@ Las principales características de la Integración Continua [Fowler, 2006] (CI)
 
 La integración continua incluye alguna o todas las siguiente fases, que son justamente las etapas que se deben integrar durante el desarrollo de un producto de software. Al considerar las fases de la Fig. 13, integrarlas y ordenarlas de forma “continua”, se pueden ver como si fuera una tubería o **pipeline**:
 
-![](../../images/fig_13_fases_comunes_pipeline_Integracion_continua.png)
+![](../../images/fig_13_fases_comunes_pipeline_Integracion_continua.png))
 
 **Fig. 13: Fases comunes de un pipeline de Integración Continua**
 
 Para entender la importancia de CI, se usará la analogía de un rompecabezas 🧩Fig. 14. Cada módulo de software es único, tiene una funcionalidad, se debe articular en una parte determinada, y para hacer que esa articulación funcione se deben respetar sus interfaces. Pero además, se debe validar que la posición donde se colocó corresponda a la función del módulo, y que además el módulo cumpla con su funcionalidad tanto individual como para todo el sistema:
 
-![](../../images/fig_14_concepto_integracion_rompecabezas.png)
+![](../../images/fig_14_concepto_integracion_rompecabezas.png))
 
 **Fig. 14 Concepto de Integración. Rompecabezas.**
 
@@ -521,7 +521,7 @@ La analogía de una pirámide, ver Fig. 15.1, se usa para representar visualment
     
 - **Frecuencia de Ejecución**: Las pruebas en la base de la pirámide (unitarias) se ejecutan con <mark style="background: #FFF3A3A6;">mayor frecuencia</mark> en el ciclo de desarrollo, por ejemplo, con cada commit o integración continua. Las pruebas en los niveles superiores, debido a su costo y tiempo, se ejecutan con menos frecuencia, por ejemplo, en integraciones diarias o semanales, o antes de las liberaciones.
 
-![](../../images/testing_pyramid_and_CI.png)
+![](../../images/testing_pyramid_and_CI.png))
 
 **Figura 15.1. Pirámide de Testing**
 
@@ -551,7 +551,7 @@ La complejidad en esta disciplina proviene de que se requiere un alto nivel de c
 
 La Fig. 16 hace visible que CI y CD son parte de procesos que se comunican entre sí usando “artefactos”. Así como como se definió en apartados iniciales, los artefactos sirven como elementos de intercambio, y por lo tanto, definen de alguna manera las interfaces de comunicación entre procesos.
 
-![](../../images/Fig_16_esquema_CI_artefactos_CD.png)
+![](../../images/Fig_16_esquema_CI_artefactos_CD.png))
 
 **Figura 16 Esquema de CI, Artefactos y CD.**
 
@@ -564,7 +564,7 @@ Una API (API, 2022) permite que un programa acceda a los datos y servicios de ot
 
 Una API se considera como el<mark style="background: #FFF3A3A6;"> “contrato”</mark> por el cual los sistemas pueden interactuar e intercambiar información.
 
-![](../../images/api_concepto_postman.png)
+![](../../images/api_concepto_postman.png))
 
 **Figura 17 Concepto de API. Imagen fuente (Postman, Inc., 2022**
 
@@ -601,7 +601,7 @@ A continuación se listan las etapas (Lane, 2022) de implementación de una estr
 
 Como se verá más adelante, la etapa diseño es muy importante para el éxito de un producto de software. Generar roadmaps de alto nivel Fig. 18 es una práctica recomendada para tener una visión clara durante el desarrollo.
 
-![](../../images/api_first_design_principles_postman.png)
+![](../../images/api_first_design_principles_postman.png))
 
 **Figura 18 Roadmap hacia un desarrollo Api-First. Imagen fuente (Postman, Inc., 2022)**
 
@@ -618,7 +618,7 @@ Por ejemplo, según las recomendaciones de Google (Google LLC, n.d.), una organi
 
 Link: [Simulador DORA Quick Check](https://dora.dev/quickcheck/)
 
-![](../../images/dora_software_delivery_performance.png)
+![](../../images/dora_software_delivery_performance.png))
 
 **Figura 19 Ejemplo Estado de Delivery de Software de una Organización. Imágen Fuente (Google LLC, n.d.)**
 
@@ -631,7 +631,7 @@ Terminamos de repasar las principales "prácticas", ahora vamos a realizar un re
 
 Desde una perspectiva académica, (Bass et al., 2015) definen DevOps como: "un conjunto de prácticas Fig. 20 destinadas a reducir el tiempo entre la realización de un cambio en un sistema y el momento en que el cambio se coloca en producción, garantizando al mismo tiempo una alta calidad".
 
-![](../../images/devops_toolchain.png)
+![](../../images/devops_toolchain.png))
 
 **Figura 20 Esquema Conceptual DevOps. Imagen Fuente (DevOps, 2020)**
 
@@ -664,7 +664,7 @@ Desde el punto de vista cultural, otros aspectos importantes incluyen:
 
 En <mark style="background: #FFF3A3A6;">“The DevOps Handbook”</mark> (Humble et al., 2021, 72), se toman como referencia los principios que se muestran en la Fig. 21 y que rigen una buena implementación de DevOps llamada “The Three Ways” (ó las 3 formas).
 
-![](../../images/devops_the_three_ways.png)
+![](../../images/devops_the_three_ways.png))
 
 **Figura 21 Principios de DevOps. The Three Ways. Imagen Fuente: (Humble et al., 2021, 72)**
 
@@ -686,7 +686,7 @@ La seguridad de la información (**InfoSEC**) y en general “seguridad digital�
  * Toma de <mark style="background: #FFF3A3A6;">conciencia</mark> del nivel de protección/exposición actual. 
  * Definición <mark style="background: #BBFABBA6;">medidas de protección</mark>.
 
-![](../../images/fig_22_concepto_seguridad.png)
+![](../../images/fig_22_concepto_seguridad.png))
 
 **Figura 22 Concepto de Seguridad.**
 
@@ -729,12 +729,12 @@ Las siguientes definiciones proveen el marco en el cual se debe considerar la se
 #### Ataques Comunes: 
 * 🔐 Ataque con credenciales: robo, elevación de privilegios, fuerza bruta, suffing. Protección con: Contraseñas robustas, Password Hashing, Login Throttling. 
 
-![](../../images/common_attacks_schema.png)
+![](../../images/common_attacks_schema.png))
 
 
 * 🌐 IDOR (Insecure Direct Object Reference) o manipulación de URLs 
 
-![](../../images/IDOR_schema.png)
+![](../../images/IDOR_schema.png))
 
 
 En éste ejemplo, si no protegemos una API correctamente, cualquier petición que exponga el ID del usuario (como la URL debajo) puede permitir conocer los detalles de cualquier otro usuario manipulando y cambiando el ID:
@@ -756,7 +756,7 @@ GET https://example.com/user/10000
 * 💉 SQLi (Inyección de SQL). Manipular DB, robo datos. Protección con: control de inputs, sanitizar datos, uso de librerías del lenguaje/framework. 
 
 
-![](../../images/SQLi_schema.png)
+![](../../images/SQLi_schema.png))
 
 
 El ejemplos más clásico de SQLi sería: si tenemos una consulta SQL como esta:
@@ -776,11 +776,11 @@ Esto podría permitir el acceso no autorizado a la base de datos.
 
 * 🎯 XSS (Cross Site Scripting). Ataques manipulando sitios webs de terceros. Tipos de ataques: reflected, stored, DOM-based. Protección con CSP o Content Security Policy. Protección con: Validación de request de las API (GET/POST), usar tokens CSRF. 
 
-![](../../images/XSS_schema.png)
+![](../../images/XSS_schema.png))
 
 * 🕵 Robo y Visibilización de Cookies. Limitar y encriptar datos sensibles. Proteger con: Uso de Sesiones, SSL, HTTPS, Sign-Cookie. 
 
-![](../../images/cookies_stolen.png)
+![](../../images/cookies_stolen.png))
 
 
 * 🔒 Session Hijacking: Robo se sesiones activas. Proteger con HTTPS, SessionID. 
@@ -867,7 +867,7 @@ Si se observa desde un punto de vista histórico, existen 3 grandes movimientos 
 
 **Referencia:** Lietz, S. (2020). History of DevSecOps. SKILup Day. https://www.devopsinstitute.com/skilup-days-devsecops/ 
 
-![](../../images/fig_23_DevOps_vs_DevSecOps_oncepto.png)
+![](../../images/fig_23_DevOps_vs_DevSecOps_oncepto.png))
 
 **Figura 23: DevOps vs DevSecOps. Concepto. Imagen Fuente (DevSecOps, 2021)**
 
@@ -879,7 +879,7 @@ Habiendo planteado los conceptos necesarios del marco teórico, se puede consoli
 - <mark style="background: #ADCCFFA6;">Ops</mark>: Deliver, Deploy, Operate, Monitor, Feedback.
 - <mark style="background: #BBFABBA6;">Sec</mark>: Requirements Analysis, Secure Coding, SAST, WhiteBox DAST, BlackBox DAST, Digital Sign, Secure Transfer, Secure Config, Security Scan, Security Patch, Security Audit, Security Monitor, Security Analysis.
 
-![](../../images/fig_24_dev_sec_ops_etapas_fases_flujos.png)
+![](../../images/fig_24_dev_sec_ops_etapas_fases_flujos.png))
 
 **Figura 24: DevSecOps: Etapas, Fases, Flujo. Imagen Fuente**
 
@@ -945,7 +945,7 @@ El framework Cynefin (Cynefin, 2022) Fig. 25 establece que a medida que se pasa 
 
 **Referencia:** Wikipedia contributors. (2022, February 28). Cynefin framework. In Wikipedia, The Free Encyclopedia. Retrieved 13:04, February 28, 2022, from https://en.wikipedia.org/w/index.php?title=Cynefin_framework&oldid=1074421336
 
-![](../../images/framework_cynefin.png)
+![](../../images/framework_cynefin.png))
 
 **Figura 25 Etapas del Framework Cynefin. Imagen Fuente (Cynefin, 2014)**
 
@@ -977,7 +977,7 @@ QA ByDesign o QA basado en modelos (Model-Based QA, 2021) es la aplicación de d
 
 Se puede pensar en el modelado de QA como en el modelado de los componentes de un sistema de software, pero en lugar de modelar “componentes funcionales”, se modelan los “componentes para probar la funcionalidad” de un sistema de software. El modelo representa no solo los elementos necesarios para entender el esquema de QA sino las interfaces, conexiones y resultados de la instancia de un flujo de ejecución de pruebas.
 
-![](../../images/model_based_testing.png)
+![](../../images/model_based_testing.png))
 
 **Figura 26: Flujo de trabajo de QA basado en modelos. Imagen Fuente((Model-Based QA, 2021)**
 
@@ -994,7 +994,7 @@ El modelado de los aspectos de QA desde un inicio tiene varios beneficios pero a
 4. Fixture teardown
 
 
-![](../../images/fig_27_xUnit_four-Phase_test_pattern.png)
+![](../../images/fig_27_xUnit_four-Phase_test_pattern.png))
 **Figura 27: xUnit Four-Phase Test Pattern.**
 
 **Referencia:** [Four Phase Test at XUnitPatterns.com](https://xunitpatterns.com/Four%20Phase%20Test.html)
@@ -1057,7 +1057,7 @@ Quizás la etapa más conocida, documentada y discutida en el área de la Ingeni
 
 La Fig. 28 muestra un ejemplo del modelado gráfico de un sistema de software de alto nivel utilizando la técnica C4, donde se puede observar cómo se van explotando los distintos niveles de abstracción, desde el nivel 1 (más abstracto y de alto nivel) hasta el nivel 4 (nivel de código). Este último nivel no es recomendado por el autor, dada la complejidad y el costo/beneficio de llegar a dicho nivel.
 
-![](../../images/The_C4_Model_for_Software_Architecture.png)
+![](../../images/The_C4_Model_for_Software_Architecture.png))
 **Figura 28: Modelado de Arquitectura con C4. Imagen Fuente (C4 Model, 2022) (Brown & Betts, 2018)**
 
 **Referencias:**
@@ -1073,7 +1073,7 @@ Un aspecto muy importante del diseño en el desarrollo y que no está explícita
 **Referencia:** Driessen, V. (2010, January 5). A successful Git branching model » nvie.com. nvie.com. Retrieved March 23, 2022, from [https://nvie.com/posts/a-successful-git-branching-model/](https://nvie.com/posts/a-successful-git-branching-model/)
 
 
-![](../../images/git_flow_a_successful_Git_branching_model.png)
+![](../../images/git_flow_a_successful_Git_branching_model.png))
 **Figura 29: Git Flow. Imagen Fuente (Driessen, 2010)**
 
 DevSecOps y sobre todo QA requieren que las bases del producto de software, por ejemplo los repositorios de código, estén ordenados, prolijos y sobre todo utilicen un modelado de uso (Fowler, 2020), o flujo de trabajo, claro y estándar.
@@ -1137,7 +1137,7 @@ La Fig. 31 es un ejemplo de modelado de amenazas utilizado la notación gráfica
 
 El siguiente ejemplo es un diagrama de arquitectura de un sitio web, usando el modelado C4Model y agregando notaciones adicionales para identificar amenazas (STRIDE + LIDU) y luego registrar los riesgos asociados (Rn).
 
-![](../../images/threat_modeling_web_site_STRIDE.png)
+![](../../images/threat_modeling_web_site_STRIDE.png))
 **Figura 31: Threat Model usando Diagrama C4. Imagen Fuente (Spilsbury, 2020)**
 
 Luego, este diagrama se traduce a una tabla de Riesgos y mitigaciones que deberán aplicarse o tenerse en cuenta en la arquitectura:
@@ -1170,7 +1170,7 @@ Se proponen los siguientes pasos para la elicitación, especificación y modelad
 9. Inspección de los requerimientos
 
 
-![](../../images/fig_32_ejemplo_arbol_ataque.png)
+![](../../images/fig_32_ejemplo_arbol_ataque.png))
 **Figura 32: Ejemplo de Árbol de Ataque. Imagen Fuente (Mead et al., 2006)**
 
 **Referencia:** Mead, N. R., Hough, E. D., & Stehney II, T. R. (2006, January 30). SQUARE Process CISA. US-CERT. Retrieved March 3, 2022, from https://www.cisa.gov/uscert/bsi/articles/best-practices/requirements-engineering/square-process 
@@ -1225,7 +1225,7 @@ En la Fig. 35 cada nivel representa amenazas de seguridad, por lo tanto, para ca
 
 Los puntos de interés donde el modelado de la arquitectura de seguridad es relevante se pueden resumir en las siguientes 6 etapas, como se muestra en la Fig. 36:
 
-![](../../images/fig_36_aspectos_interes_modelado_arquitectura_segura_software.png)
+![](../../images/fig_36_aspectos_interes_modelado_arquitectura_segura_software.png))
 **Figura 36: Aspectos de Interés para el modelado de Arquitectura Segura de Software. Imagen Fuente (Ryoo, 2020)**
 
 **Referencia:** Ryoo, J. (2020, 07 08). Developing Secure Software. Architectural analysis for security. https://www.linkedin.com/learning/developing-secure-software/architectural-analysis-for-security?autoplay=true&resume=false 
@@ -1240,7 +1240,7 @@ Teniendo en cuenta las etapas del ciclo de desarrollo, para el diseño de la arq
 **Referencia:** Wikipedia contributors. (2020, April 20). Security pattern. In Wikipedia, The Free Encyclopedia. Retrieved 22:33, February 23, 2022, from https://en.wikipedia.org/w/index.php?title=Security_pattern&oldid=952064080 
 
 
-![](../../images/fig_37_interceptor-Validator_patron_seguridad.png)
+![](../../images/fig_37_interceptor-Validator_patron_seguridad.png))
 **Figura 37: Interceptor-Validator Patrón de seguridad. Imagen Fuente (Security Pattern, 2020)**
 
 El patrón **Interceptor-Validator** se utiliza para agregar una capa de validación y procesamiento previo a las solicitudes en un sistema, interceptándolas antes de que lleguen a su destino (recurso protegido o funcionalidad). Su uso promueve:
@@ -1265,7 +1265,7 @@ En el mundo de la seguridad, se han desarrollado una variedad de tipos de prueba
 Referencia web: https://safestack.io/blog/app-sec/secure-development-bringing-security-testing-into-your-sdlc
 
 
-![](../../images/fig_38_SDLC_STLC_SSecLC.png)
+![](../../images/fig_38_SDLC_STLC_SSecLC.png))
 **Figura 38. SDLC, STLC y SSecLC.**
 
 
@@ -1408,7 +1408,7 @@ DAST es un tipo de prueba de “caja negra”, donde se prueba un sistema en eje
 
 Herramientas como ZAPPROXY son muy prácticas al momento de realizar análisis de seguridad dinámicos, por ejemplo sobre sitios web:
 
-![](../../images/zapproxy_ui_desktop_scan_example.png)
+![](../../images/zapproxy_ui_desktop_scan_example.png))
 **Figura 38.1** ZAPPROXY interfaz gráfica.
 
 **Referencia:**  [ZAP – Getting Started](https://www.zaproxy.org/getting-started/)
@@ -1447,7 +1447,7 @@ Las pruebas de penetración o Pentesting (Bell et al., 2017, 322) son una forma 
 6. Reporting: Generación de un reporte final con los resultados de las vulnerabilidades identificadas.
 
 
-![](../../images/Fig_39_Metodología_Pentesting.png)
+![](../../images/Fig_39_Metodología_Pentesting.png))
 **Figura 39: Metodología de Pentesting. Imagen fuente (CIPHER ©, 2020)**
 
 
@@ -1468,7 +1468,7 @@ Las pruebas de penetración o Pentesting (Bell et al., 2017, 322) son una forma 
 
 **Objetivo**: Recopilar información sobre el sistema y posibles puntos vulnerables.
 
-![](../../images/threat_modeling_analysis.png)
+![](../../images/threat_modeling_analysis.png))
 
 **Ejemplo**:
 
@@ -1494,7 +1494,7 @@ nmap -sV admin.inventory-app.local
 **Objetivo**: Crear un mapa de los componentes del sistema y sus posibles vulnerabilidades.
 
 
-![](../../images/threat_modelling_design_to_attack.png)
+![](../../images/threat_modelling_design_to_attack.png))
 
 **Ejemplo**:  
 Se crea un mapa de amenazas y se identifican:
@@ -1590,7 +1590,7 @@ Un pipeline de desarrollo tendrá éxito en la operación en base a todo el conj
 
 * Factor 01: **Código Base (Codebase)**: Un código base gestionado con control de revisión (git), que permita muchos deploys (Fig. 40).
 
-![](../../images/fig_40_codebase-deploys.png)
+![](../../images/fig_40_codebase-deploys.png))
 
 Fig. 40: Código Base gestionado y configurable para ambientes de deploy. Imagen Fuente (Wiggins, 2017)
 
@@ -1598,12 +1598,12 @@ Fig. 40: Código Base gestionado y configurable para ambientes de deploy. Imagen
 * Factor 03. **Configuración** (Config): Almacenar la configuración del entorno (ambiente, backups, credenciales, etc).
 * Factor 04. **Servicios de respaldo/adicionales** (Backing services): Tratar los servicios de respaldo (bases de datos, brokers, buses, etc) como recursos adjuntos independientes, como se muestra en la Fig. 41. Los recursos se pueden adjuntar y separar de los deployments a voluntad.
 
-![](../../images/fig_41_backing_service.png)
+![](../../images/fig_41_backing_service.png))
 
 
 * Factor 05. ***Construir, lanzar, ejecutar** (build, release, run): Las etapas de construcción y ejecución deben estar estrictamente separadas (Fig. 42).
 
-![](../../images/fig_42_build_release_run.png)
+![](../../images/fig_42_build_release_run.png))
 
 **Figura 42**: Tratar Etapas  de desarrollo de forma Separadas. Imagen Fuente (Wiggins, 2017)
 
@@ -1611,7 +1611,7 @@ Fig. 40: Código Base gestionado y configurable para ambientes de deploy. Imagen
 * Factor 07. *Enlace de puerto**  (Port binding): Exportar servicios a través de la vinculación de puertos
 * Factor 08. **Concurrencia** (Concurrency): Escalar horizontalmente (Fig. 43) a través del modelo de proceso.
 
-![](../../images/concurrence_and_scaling.png)
+![](../../images/concurrence_and_scaling.png))
 
 
 * Factor 09. **Desechabilidad** (Disposability): Maximizar la robustez con un inicio rápido y un apagado ordenado
@@ -1652,7 +1652,7 @@ Para obtener y aplicar ese feedback, por ejemplo, SRE plantea aplicar los siguie
 - <mark style="background: #FFF3A3A6;">Observabilidad</mark>, la capacidad de poder hacer preguntas arbitrarias sobre el sistema sin tener que saber de antemano lo que se quería preguntar. Generalmente se establecen niveles de observabilidad, y una referencia a ello se puede indagar en la Fig. 44.
 
 
-![](../../images/pyramid_observability.drawio.png)
+![](../../images/pyramid_observability.drawio.png))
 **Figura 44:** La pirámide de observabilidad de los microservicios: seguimientos, métricas, 
 registros y sondeos. Imagen Fuente (Carvalho, 2021)
 
@@ -1670,31 +1670,31 @@ Parte de conocer el estado actual de un proyecto, las mejoras a implementar, las
 
 * **Flow Velocity**: número de work-item o features completadas, por semana ó sprint.
 
-![](../../images/fig_45_Flow-Velocity.png)
+![](../../images/fig_45_Flow-Velocity.png))
 **Figura 45:** Flow Velocity. Imagen Fuente: https://flowframework.org/flow-metrics/
 
 
 * **Flow Efficiency**: La eficiencia es la relación entre el tiempo activo (verde) y el tiempo de flujo total.
 
-![](../../images/fig_46_Flow-Time.png)
+![](../../images/fig_46_Flow-Time.png))
 **Figura 46:** Flow Efficiency. Imagen Fuente: https://flowframework.org/flow-metrics/ 
 
 
 * **Flow Time**: el tiempo transcurrido que tarda una solicitud (una épica, una historia) en pasar de "Sí, hagámoslo" a "Terminado".
 
-![](../../images/fig_47_Flow-Efficiency.png)
+![](../../images/fig_47_Flow-Efficiency.png))
 **Figura 47**: Flow Time. Imagen Fuente: https://flowframework.org/flow-metrics/ 
 
 * **Flow Load**: mide la cantidad de elementos de flujo actualmente en curso (activos o en espera) dentro de un flujo de valor particular.
 
-![](../../images/fig_48_Flow-Load.png)
+![](../../images/fig_48_Flow-Load.png))
 **Figura 48**: Flow Load. Imagen Fuente: https://flowframework.org/flow-metrics/ 
 
 
 * **Flow Distribution**: mide la distribución de los cuatro elementos de Flujo (Características, Defectos, Riesgos y Deudas) en la entrega del flujo de valor.
 
 
-![](../../images/fig_49_Flow-Distribution.png)
+![](../../images/fig_49_Flow-Distribution.png))
 **Figura 49**  Flow Distribution. Imagen Fuente: https://flowframework.org/flow-metrics/ 
 
 
@@ -1709,7 +1709,7 @@ Los 3 aspectos más importantes se ilustran como:
 2. El pipeline de **"seguridad"**, que incluye desde la aplicación de buenas prácticas, análisis estáticos de código, threat modeling, análisis en runtime de los contenedores deployados en un ambiente en la nube o hasta equipos de pentesting.
 3. En la capa inferior se muestra lo que se denomina un "feedback loop", un punto clave en cada paso de todo el proceso. En cada paso, se debe asegurar de alguna manera de obtener feedback para corregir / reajustar / mejorar. Aspecto clave, y no siempre modelado o tenido en cuenta como un proceso critico. 
 
-![](../../images/devsecops_pipeline_overview.png)
+![](../../images/devsecops_pipeline_overview.png))
 
 **Figura 50** DevSecOps Pipeline Alto Nivel (ZETTLER, 2022). Fuente:(  https://catalog.us-east-1.prod.workshops.aws/workshops/95ee7fde-4d85-47a5-99fc-7e0dee07fc94/en-US/introduction  )
 
@@ -1718,7 +1718,7 @@ Los 3 aspectos más importantes se ilustran como:
 
 Primero y a modo de ejemplo, se presenta el esquema de la Fig. 51 que presenta todas las partes componentes de un modelo DevSecOps + QA, que se llamará nivel 0. Éste tipo de diseño/modelos sirve para plantear el sistema completo, sin entrar en demasiado detalle, pero que a grandes rasgos da información sobre el ecosistema a considerar para el producto.
 
-![](../../images/DevSecOps_and_QA.png)
+![](../../images/DevSecOps_and_QA.png))
 
 **Figura 51**: DevSecOps + QA Ejemplo de Vista Completa Nivel 0. Imagen fuente ( https://www.linkedin.com/feed/update/urn:li:activity:6863289227103367168/  )
 
@@ -1755,7 +1755,7 @@ Si vamos etapa por etapa en todo el pipeline, desde el escritorio del desarrolla
 
 Finalmente, para el escenario planteado, se puede modelar un tercer nivel de detalle, que se llamará nivel 2 Fig. 53, donde se especifican con más detalle las prácticas y posibles herramientas para aplicar en cada etapa del pipeline DevSecOps + QA orientados en detectar fallas o vulnerabilidades de seguridad.
 
-![](../../images/dev_sec_ops_kubernetes-security.jpg)
+![](../../images/dev_sec_ops_kubernetes-security.jpg))
 
 **Figura 53:** DevSecOps + QA nivel 2. Imagen fuente (  https://www.infoworld.com/article/3545337/10-steps-to-automating-security-in-kubernetes-pipelines.html  )
 
@@ -1781,7 +1781,7 @@ Para cada una de las fases del ciclo de vida, las siguientes prácticas son las 
 
 Hasta ahora se ha planteado trabajar en el modelado, diseño, implementación y pruebas desde la perspectiva cuando todo funciona de manera correcta. No obstante, no se puede tener un buen diseño y mucho menos una implementación de la metodología DevSecOps y de los aspectos de QA asociados sin hablar de las fallas, caídas, ataques, DoS, DDOS y todas las categorías de escenario desafortunados que usualmente suceden (Fig. 54).
 
-![](../../images/404_error_page.png)
+![](../../images/404_error_page.png))
 **Figura 54** HTTP estado de error - Sistema fuera de servicio.
 
 
@@ -1846,7 +1846,7 @@ Dado que DevSecOps está destinado a ser una forma de trabajo multi-funcional, p
 
 Una "toolchain" no es otra cosa que un conjunto de herramientas configuradas, según un stack tecnológico específico, basado en el tipo de proyecto, para desarrollar, testear o simplemente ejecutar/levantar un componente de software.
 
-![](../../images/devops-lifecycle-with-toolchains-tool.jpg)
+![](../../images/devops-lifecycle-with-toolchains-tool.jpg))
 **Figura 56**: Herramientas o Toolchains de soporte en DevSecOps y QA.
 
 **Referencia:** https://www.ryadel.com/en/devops-methodology-lifecycle-best-practices-explained/
@@ -1919,7 +1919,7 @@ Las siguientes herramientas se pueden utilizar desde el análisis, hasta la impl
 - JFROG Artifactory - Repositorio Centralizado de Artefactos Fig. 57: [Link](https://www.jfrog.com/confluence/display/JFROG/JFrog+Artifactory)
 - Versionado de Artefactos y Meta-información
 
-![](../../images/artifactory_versionado.png)
+![](../../images/artifactory_versionado.png))
 **Figura 57:** Artifactory - Manipulación de artefactos
 
 **Referencia:** https://jfrog.com/help/r/how-does-build-promotion-work/artifactory-how-does-build-promotion-work
@@ -1929,7 +1929,7 @@ Las siguientes herramientas se pueden utilizar desde el análisis, hasta la impl
 
 * Artifactory + Gitlab - CI/CD con una estrategia de promoción de artefactos (Fig. 58):  [Link](https://jfrog.com/knowledge-base/how-does-build-promotion-work/)
 
-![](../../images/artifactory_promocion_artefactos.png)
+![](../../images/artifactory_promocion_artefactos.png))
 **Figura 58:** Artifactory - Mecanismo de Promoción de Artefactos
 
 
@@ -1982,7 +1982,7 @@ Se expondrán detalles internos del producto, con algunos aspectos importantes q
 
 SecTx Analysis es una solución que genera perfiles de usuarios en base a la información provista por el core del cliente (actúa como middleware, ver Fig. 60). Genera un modelo de análisis de comportamiento de usuarios a través de reglas definidas en la solución SecTx Analysis utilizando una Interfaz Web (Backoffice) donde los analistas de riesgos definen las reglas de aplicación.
 
-![](../../images/SecTx_Analysis_diagram_funcional.png)
+![](../../images/SecTx_Analysis_diagram_funcional.png))
 **Figura 60**: Esquema funcional de alto nivel del proyecto fictitio SecTX Analyis
 
 En base al almacenamiento y procesamiento de información proveniente de múltiples canales (Web, dispositivos móviles) denominadas eventos/transacciones con importes, fecha de transacción, tipo de transacción, frecuencia de operación y datos de conexión del usuario, SecTx Analysis identifica posibles casos de fraude o de comportamiento sospechoso, pudiendo alertar de forma pasiva o bien de forma activa disparando procesos de autenticación robusta personalizados para ese perfil de usuarios.
@@ -2060,7 +2060,7 @@ Cada modulo funcional está diseñado para ser stateless (todo los datos se pers
 ### 5.4.10 API
 * API REST para interactuar e integrar la solución SecTx Analysis para permitir el ingreso y gestión de eventos y transacciones, y endpoints específicos para el ingreso y gestión de Fingerprints.
 
-![](../../images/SecTx_modules_architecture.png)
+![](../../images/SecTx_modules_architecture.png))
 **Figura 60.1** Diagrama funcional del producto.
 
 
@@ -2120,13 +2120,13 @@ El equipo utiliza 2 enfoques para el desarrollo:
 * **Evolutivos**: se utiliza el framework de trabajo Scrum Fig. 61 (Sutherland & Schwaber, 2020). La instancia de Scrum utilizada establece sprints de 3 semanas y una 4ta semana de transición, donde se realizan las ceremonias: Cierre de Sprint, Refinamiento y Planning, Sprint Review y Demo, Retrospectiva y tareas de gestión varias.
 
 
-![](../../images/scrum_framework.jpeg)
+![](../../images/scrum_framework.jpeg))
 **Figura 61** Scrum Framework:  https://scrumorg-website-prod.s3.amazonaws.com/drupal/2021-01/Scrumorg-Scrum-Framework-tabloid.pdf 
 
 
 * **Correctivos**: Utiliza el método de Kanban (Kanban, 2022) para la gestión de tareas. Se utiliza un tablero simplificado (Fig. 62) con tareas en: To-Do, In Progress y Done. El ciclo temporal o similar sprint se define de 4 semanas. Al finalizar cada ciclo se realizan ceremonias de retrospectiva, reorganización, re-priorización del backlog de tareas y otras tareas de gestión varias.
 
-![](../../images/kanban_workflow.png)
+![](../../images/kanban_workflow.png))
 **Figura 62:** Kanban workflow:  https://about.gitlab.com/images/blogimages/workflow.png 
 
 **Referencia:** Wikipedia contributors. (2022, March 30). Kanban (development). In Wikipedia, The Free Encyclopedia. Retrieved 17:25, April 14, 2022, from https://en.wikipedia.org/w/index.php?title=Kanban_(development)&oldid=1080155858
@@ -2152,7 +2152,7 @@ El equipo de producto SectTx Analysis utiliza las siguientes herramientas (Fig. 
 	* Información asociada al producto: hojas de datos, documentos, presentaciones, imágenes, videos, recursos, etc.
 
 
-![](../../images/fig_63_Organizacion_Equipo_Roles_Herramientas_Base_Conocimiento.png)
+![](../../images/fig_63_Organizacion_Equipo_Roles_Herramientas_Base_Conocimiento.png))
 **Figura 63**: Organización de Equipo, Roles, Herramientas y Base de Conocimiento. Imagen Fuente (Propia)
 
 
@@ -2174,11 +2174,11 @@ Un aspecto importante del resultado de los procesos de Descubrimiento y Refinami
 Realizando el refinamiento, el equipo se sustenta en diagramas (Whiteboards), información disponible, información del mercado, casos de uso de los clientes y cualquier información adicional que pueda resultar útil para entender los desarrollos. Toda la información o artefactos generada es Identificada y almacenada en la Base de Conocimiento del Producto (6) (Sharepoint, Tech Wiki, etc).
 
 
-![](../../images/fig_64_flujo_de_trabajo_parte_1.png)
+![](../../images/fig_64_flujo_de_trabajo_parte_1.png))
 **Figura 64:** Flujo de Trabajo, parte 1. Descubrimiento y Refinamiento. Imagen Fuente (Propia)
 
 
-![](../../images/fig_65_flujo_de_trabajo_parte_2.png)
+![](../../images/fig_65_flujo_de_trabajo_parte_2.png))
 **Figura 65:** Flujo de Trabajo Parte 2. Tablero, Artefactos y Repositorio. Imagen Fuente (Propia)
 
 
@@ -2219,7 +2219,7 @@ Dentro del flujo de trabajo con Git y el Pipeline de CI/CD se aplica el concepto
 
 La Fig. 66 muestra un ADR generado usando notación de Markdown desde la wiki de Arquitectura parte del repositorio Gitlab de SectTx Analysis. Se observa que todo ADR debe tener referencia a una task para indicar la trazabilidad u origen de dicha decisión de arquitectura.
 
-![](../../images/fig_66_adr_with_mermaid.png)
+![](../../images/fig_66_adr_with_mermaid.png))
 
 La Fig. 67 se corresponde a la página renderizada de Markdown de la wiki. La página está estructurada a modo de un SAD (Software Architecture Document). En el SAD se registran y modelan los aspectos de interés sobre la arquitectura del producto SectTx Analysis. Si bien es un documento de orientación técnica, también se usa como fuente de información para la wiki de usuarios finales del producto gracias a la interacción con el equipo de technical writers.
 
@@ -2264,7 +2264,7 @@ La Fig. 67 se corresponde a la página renderizada de Markdown de la wiki. La p�
 
 Para documentar algunos aspectos de alto nivel de SectTxnalysis se utiliza el modelado usando C4-Models. Por ejemplo, la Fig. 68 muestra el diagrama de contexto de SectTx Analysis donde se puede observar la interacción con componentes externos, como son los usuario del producto (Analistas de Fraude), un core bancario de ejemplo y el motor de base de datos.
 
-![](../../images/Fig_68_C1_Modelo_Contexto.png)
+![](../../images/Fig_68_C1_Modelo_Contexto.png))
 **Figura 68:** C1 - Modelo de Contexto para SecTx Analysis. Imagen Fuente (Propia)
 
 
@@ -2272,7 +2272,7 @@ La Fig. 69 es un artefacto de modelado de seguridad, parte de la metodología de
 
 Todo artefacto tiene un identificador y una tarea asociada, componentes fundamentales para asegurar trazabilidad y por lo tanto, asegurar la calidad del producto.
 
-![](../../images/fig_69_Threat_model.png)
+![](../../images/fig_69_Threat_model.png))
 **Figura 69**: Threat-model para Funcionalidad de SecTx Analysis. Imagen Fuente (Propia)
 
 
@@ -2306,13 +2306,13 @@ En el MTP se define la estrategía de testing y aseguramiento de calidad del pro
 En la Fig. 71 se observan dos herramientas utilizadas para la generación de los artefactos o scripts de pruebas. Arriba se muestra el IDE Eclipse RED con Robot Framework y bibliotecas de Selenium entre otras para realizar el testing de UI o interfaces gráficas del producto. El framework permite la definición de scripting usando notación de funcionalidad estándar o Gherkin. Abajo se observa la herramienta Postman para la definición y pruebas de la API del producto. En ambos casos se observa que cada script tiene una estructura particular como nombre. Esa estructura o ID de test es la definida en el MTP de la wiki de Testing.
 
 
-![](../../images/Fig_70_Artefactos_QA_Automation.png)
+![](../../images/Fig_70_Artefactos_QA_Automation.png))
 **Figura 71:** Artefactos de QA Automation basados en Postman y Robot Framework. Imagen Fuente (Propia)
 
 Como parte del ciclo normal de desarrollo, se utiliza un pipeline de CI/CD que se ejecuta con cada merge-request en el repositorio Git para las ramas definidas del pipeline (no todas las ramas ejecutan el pipeline, el criterio es definido por el equipo de desarrollo). En la Fig. 72 se observa el pipeline completo de CI/CD, compuesto por 8 etapas, y en cada etapa pueden existir una o varias stages. Una stage es una división “lógica” utilizada para ejecutar una tarea automatizada específica, se puede pensar que cada stage tiene una responsabilidad asignada.
 
 
-![](../../images/Fig_71_Pipeline_CI_CD.png)
+![](../../images/Fig_71_Pipeline_CI_CD.png))
 **Figura 72:** Pipeline de CI/CD en Gitlab para SecTx Analysis. Imagen Fuente (Propia)
 
 Cada stage del pipeline de CI/CD se ejecuta y tiene un estado final de esa ejecución que puede ser:
@@ -2334,7 +2334,7 @@ Durante las etapas finales del desarrollo, se ejecuta el Proceso de Documentaci�
 
 Finalmente, queda el Proceso de Soporte y Feedback (d), donde el equipo de soporte y la mesa de entrada , son los encargados de dar soporte, guiar en la implementación, despejar dudas o inclusive hacer llegar a los responsables del producto mejoras o cualquier elemento de negocio que pudiera resultar en una oportunidad de negocio o mejora del producto. El proceso de soporte resulta en un input importante para el producto y es donde se generan Bugs o Task que inicia todo el proceso nuevamente.
 
-![](../../images/Fig_72_Flujo_Trabajo_parte_3.png)
+![](../../images/Fig_72_Flujo_Trabajo_parte_3.png))
 **Figura 73:** Flujo de Trabajo, parte 3. Procesos de Deploy, Monitoreo. Documentación de usuario, Soporte y Feedback. Imagen Fuente (Propia)
 
 En este último esquema de soporte y feedback se puede definir SLA y el mecanismo de niveles de soporte L0, L1, etc para el servicio. Junto con todo lo relativo a la gestión de releases y soporte en producción. Para estas tareas igualmente se requiere del diseño de esos procesos, iniciando por un alto nivel y estableciendo los niveles de comunicación, responsables, escalado y priorización de las incidencias o ticket.

@@ -17,10 +17,10 @@ tags:
 
 Cada vez es más transversal. La innovación aplica a varios sectores.
 
-![[Pasted image 20250404161624.png]]
+![Pasted image 20250404161624.png](../../../images/Pasted image 20250404161624.png))
 
 
 ## Open innovation
 
-![[Pasted image 20250404163914.png]]
+![Pasted image 20250404163914.png](../../../images/Pasted image 20250404163914.png))
 

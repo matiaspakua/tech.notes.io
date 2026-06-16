@@ -51,7 +51,7 @@ Highlights:
  - Start with a simple scenario and grow the DSL as needed
  - Use the four-layer approach to separate concerns and avoid coupling
 
-![](../../images/foru_layer_testing_schema.png)
+![](../../images/foru_layer_testing_schema.png))
 
 1. The benefits of behavior-driven development
  - BDD can replace manual testing with automated tests quickly

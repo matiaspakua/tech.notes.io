@@ -48,7 +48,7 @@ La innovación es gestionar el caos. Es difícil, frustrante y solo el 3% de tod
 
 ## Proceso de innovación
 
-![[proceso_de_innovacion.png]]
+![proceso_de_innovacion.png](../../../images/proceso_de_innovacion.png))
 
 
 <mark style="background: #FFF3A3A6;">La innovación requiere de un proceso, no lineal, y es arriesgado.</mark>
@@ -59,15 +59,15 @@ Entre el 1 y el 3% de todas las ideas generarán beneficios.
 
 Ejemplo de un proceso de innovación:
 
-![[proceso_innovacion_tempos21.png]]
+![proceso_innovacion_tempos21.png](../../../images/proceso_innovacion_tempos21.png))
 
 Luego, con este proceso, lo que resulta es lo siguiente:
 
-![[pharma_proceso_innovacion.png]]
+![pharma_proceso_innovacion.png](../../../images/pharma_proceso_innovacion.png))
 
 ## Concurrent engineering approach
 
-![[Pasted image 20250321211634.png]]
+![Pasted image 20250321211634.png](../../../images/Pasted image 20250321211634.png))
 
 ## Propuesta de innovación
 
@@ -92,7 +92,7 @@ Luego, con este proceso, lo que resulta es lo siguiente:
 
 En todo el documento, siempre debe quedar claro:
 
-![[propuesta_innovacion_indice.png]]
+![propuesta_innovacion_indice.png](../../../images/propuesta_innovacion_indice.png))
 
 <mark style="background: #ADCCFFA6;">Las 3 preguntas clave.</mark>
 
@@ -122,7 +122,7 @@ C. Análisis de Fortalezas (SWOT)
 	- Oportunidades
 	- Riesgos
 
-![[analisis_fortalezas_riesgos.png]]
+![analisis_fortalezas_riesgos.png](../../../images/analisis_fortalezas_riesgos.png))
 
 Finalmente, viene el:
 
@@ -130,16 +130,16 @@ D. Resumen.
 
 Debe ser un resumen, en el que se destaquen los aspectos más importantes del contenido del documento (hay gente que sólo lee la última página). Es decir
 
-![[preguntas_clave_propuesta.png]]
+![preguntas_clave_propuesta.png](../../../images/preguntas_clave_propuesta.png))
 
 ### Business Model Canvas (generación propuesta)
 
-![[business_mode_canvas_propuesta.png]]
+![business_mode_canvas_propuesta.png](../../../images/business_mode_canvas_propuesta.png))
 
 ## Selección de Propuestas
 
 
-![[seleccion_propuesta_proyectos_innovacion.png]]
+![seleccion_propuesta_proyectos_innovacion.png](../../../images/seleccion_propuesta_proyectos_innovacion.png))
 
 Los aspectos a tener en cuenta son:
 
@@ -153,11 +153,11 @@ Los aspectos a tener en cuenta son:
 
 Herramientas: estudios de mercado, inteligencia competitiva, análisis del entorno. La velocidad es clave.
 
-![[metodo_cuantitativo.png]]
+![metodo_cuantitativo.png](../../../images/metodo_cuantitativo.png))
 
 Si hay mucho riesgo o la propuesta es muy radical, usar matriz de riesgos.
 
-![[matriz_riesgos_nuevo_proyecto.png]]
+![matriz_riesgos_nuevo_proyecto.png](../../../images/matriz_riesgos_nuevo_proyecto.png))
 
 1. Cualitativos
 2. Pruebas reales (A/B testing)
@@ -167,7 +167,7 @@ Si hay mucho riesgo o la propuesta es muy radical, usar matriz de riesgos.
 >[!note]
 > La destrucción creativa describe el proceso por el cual la innovación tecnológica y empresarial transforma la economía: nuevas ideas, productos o métodos desplazan y reemplazan a los antiguos, revolucionando continuamente la estructura económica desde dentro. Aunque este proceso puede causar la desaparición de empresas o sectores obsoletos, Schumpeter lo consideraba esencial para el progreso económico y la renovación constante del capitalismo
 
-![[curva_ciclo_vida_tecnologia.png]]
+![curva_ciclo_vida_tecnologia.png](../../../images/curva_ciclo_vida_tecnologia.png))
 
 ## El sector High-Tech
 
@@ -180,7 +180,7 @@ El sector high-tech, o de alta tecnología, se define como el conjunto de sector
 
 ## Economía del Conocimiento
 
-![[economia_del_conocimiento.png]]
+![economia_del_conocimiento.png](../../../images/economia_del_conocimiento.png))
 
 Gestionar bien una empresa del sector TIC quiere decir mantener el motor en funcionamiento, en una variedad de contextos, tecnologías y negocios: 
 	• Emergentes 
@@ -190,7 +190,7 @@ Además, ninguna empresa tiene recursos suficientes para gestionar los procesos 
 
 ## Generación de Ideas
 
-![[origen_de_las_ideas.png]]
+![origen_de_las_ideas.png](../../../images/origen_de_las_ideas.png))
 
 Generación de Ideas 
 
@@ -202,5 +202,5 @@ Generación de Ideas
 
 ## La Gestión del Proceso de Innovación
 
-![[gestion_proceso_innovacion.png]]
+![gestion_proceso_innovacion.png](../../../images/gestion_proceso_innovacion.png))
 

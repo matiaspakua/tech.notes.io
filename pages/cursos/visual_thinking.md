@@ -9,7 +9,7 @@ tags:
 
 [← Inicio](https://matiaspakua.github.io/tech.notes.io)
 
-![400x400](../../images/conways_law_example.jpeg)
+![400x400](../../images/conways_law_example.jpeg))
 
 ---
 
@@ -40,7 +40,7 @@ Fuente: [Dibujar para comprender. Casos de Visual Thinking en las empresas — U
 
 - **Imágenes** 🖼️: Dibujos o símbolos que representan ideas o conceptos. Ayudan a visualizar lo que estás pensando.
 
-![400x400](../../images/building_confuse.png)
+![400x400](../../images/building_confuse.png))
 
 ---
 
@@ -50,13 +50,13 @@ Fuente: [Dibujar para comprender. Casos de Visual Thinking en las empresas — U
 
 - **Mapas y Diagramas** 🗺️: Organizar la información de manera que se vea cómo las ideas se conectan entre sí.
 
-![600x400](../../images/iot_diagram.png)
+![600x400](../../images/iot_diagram.png))
 
 ---
 
 - **Esquemas y Flujos** 🔄: Mostrar procesos o secuencias de pasos de forma visual, como un mapa de ruta.
 
-![500X300](../../images/diagramas_secuancia.png)
+![500X300](../../images/diagramas_secuancia.png))
 
 ---
 
@@ -106,7 +106,7 @@ El Design Thinking se puede aplicar a cualquier problema que necesite una soluci
 ---
 ## Herramientas
 
-![600x400](../../images/drawio_landing_page.png)
+![600x400](../../images/drawio_landing_page.png))
 
 - [Draw.io](https://www.drawio.com/)
 
@@ -114,12 +114,12 @@ El Design Thinking se puede aplicar a cualquier problema que necesite una soluci
 
 ### Design Thinking Canva en Obsidian
 
-![400x400](../../images/desgin-thinking.png)
+![400x400](../../images/desgin-thinking.png))
 
 ---
 ### Google Drawings
 
-![](../../images/google_drawings_landing.png)
+![](../../images/google_drawings_landing.png))
 
 - [Google Drawing](https://docs.google.com/drawings)
 
@@ -127,7 +127,7 @@ El Design Thinking se puede aplicar a cualquier problema que necesite una soluci
 
 ### Ejemplo Google Drawing
 
-![](../../images/test_manager_architecture_google_draw.png)
+![](../../images/test_manager_architecture_google_draw.png))
 
 Link: [Ejemplo Test Manager Architecture — Google Drawing](https://docs.google.com/drawings/d/1cBOqUlmJ5NF0shSbG3enm4T4eSLA-ZV8o2X1yrFvIJ4/edit?usp=sharing)
 
@@ -135,7 +135,7 @@ Link: [Ejemplo Test Manager Architecture — Google Drawing](https://docs.google
 
 ### Microsoft Whiteboard
 
-![](../../images/microsoft_whiteboard_landing.png)
+![](../../images/microsoft_whiteboard_landing.png))
 
 - [Microsoft Whiteboard](https://www.microsoft.com/es-es/microsoft-365/microsoft-whiteboard/digital-whiteboard-app)
 
@@ -145,14 +145,14 @@ Link: [Ejemplo Test Manager Architecture — Google Drawing](https://docs.google
 
 [Link Post](https://www.linkedin.com/posts/matiasmiguez_softwareengineering-softwaredebug-spaceengineering-activity-7189696668177416192-1JNV?utm_source=share&utm_medium=member_desktop)
 
-![400x400](../../images/post_linkedin_voyayer.png)
+![400x400](../../images/post_linkedin_voyayer.png))
 
 
 ---
 
 ### Ejemplo de Whiteboard: Voyager Bugfix NASA
 
-![](../../images/voyager_software_bug_update.png)
+![](../../images/voyager_software_bug_update.png))
 
 => [Link](https://wbd.ms/share/v2/aHR0cHM6Ly93aGl0ZWJvYXJkLm1pY3Jvc29mdC5jb20vYXBpL3YxLjAvd2hpdGVib2FyZHMvcmVkZWVtLzZjODBmYTcyNzkzYzQxNDBiNjk5ODM4M2NhODFmYzFjX0JCQTcxNzYyLTEyRTAtNDJFMS1CMzI0LTVCMTMxRjQyNEUzRF8wZjY4NzliYy1jM2ZmLTRlMmEtYjFlOC1kYTY0NzAwZDkxYWI=)
 
@@ -166,7 +166,7 @@ Link: [Diagrama interactivo de ejemplo — Draw.io Viewer](https://viewer.diagra
 
 # DEMO time
 
-![600x400](../../images/demo_time_going_wrong.png)
+![600x400](../../images/demo_time_going_wrong.png))
 
 ---
 
@@ -206,13 +206,13 @@ Link: [Doodlers, Unite! — Sunni Brown (YouTube)](https://youtu.be/7fx0QcHyrFk?
 [Design Thinking Explained](../general_topic/design_thinking_explained.md)
 
 
-![](../../images/obsidian_graph_diagram.png)
+![](../../images/obsidian_graph_diagram.png))
 
 ---
 
 ### Draw.io de ejemplo
 
-![30x30](../../images/download.png) [Descargar Ejemplo:](https://github.com/matiaspakua/tech.notes.io/blob/08c0d9e956789029b2689af4acd98ba1fd51652e/canvas/visual_thinking_and_problem_solving.drawio)
+![30x30](../../images/download.png)) [Descargar Ejemplo:](https://github.com/matiaspakua/tech.notes.io/blob/08c0d9e956789029b2689af4acd98ba1fd51652e/canvas/visual_thinking_and_problem_solving.drawio)
 
 ## Referencias
 

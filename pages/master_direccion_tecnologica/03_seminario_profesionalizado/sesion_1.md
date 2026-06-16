@@ -25,7 +25,7 @@ Desarrollo Profesional presentado en la primera sesión. Pretende sentar las bas
 
 La "Ventana de Johari" es un modelo <mark style="background: #FFF3A3A6;">conceptual que facilita el proceso de "dar y recibir feedback"</mark> en las relaciones interpersonales, ayudando a expandir el autoconocimiento y mejorar la comunicación entre individuos. <mark style="background: #ADCCFFA6;">Está estructurada en cuatro cuadrantes </mark>que representan diferentes aspectos del conocimiento propio y del conocimiento que los demás tienen de uno: el área libre (conocido por uno mismo y los demás), el área ciega (conocido por los demás, pero no por uno mismo), el área oculta (conocido por uno mismo, pero no por los demás) y el área desconocida (ni uno mismo ni los demás lo conocen). El objetivo del modelo es ampliar el área libre mediante el feedback y la comunicación, favoreciendo así relaciones más transparentes y efectivas.
 
-![](../../../images/ventana_johari.png)
+![](../../../images/ventana_johari.png))
 
 ## Circulo de Influencia
 
@@ -44,7 +44,7 @@ Para profundizar en este tema, puedes consultar el siguiente video que resume el
 
 ## De inconscientemente incompetentes, a inconscientemente competentes
 
-![](../../../images/ejemplo_ventana_johari.png)
+![](../../../images/ejemplo_ventana_johari.png))
 
 ## Modelos de aprendizaje
 
@@ -52,7 +52,7 @@ Para profundizar en este tema, puedes consultar el siguiente video que resume el
 
 ### Modelo de Aprendizaje de Kolb
 
-![](../../../images/modelo_aprendisaje_david_kolb.png)
+![](../../../images/modelo_aprendisaje_david_kolb.png))
 
 El Modelo de Aprendizaje de Kolb, desarrollado por David Kolb en 1984, propone que el aprendizaje es un proceso cíclico que consta de cuatro etapas interrelacionadas:
 
@@ -68,8 +68,8 @@ Este ciclo se repite continuamente, permitiendo a los individuos adquirir y apli
 - **Asimilador**: Combina la observación reflexiva y la conceptualización abstracta; se interesa por teorías y modelos lógicos.
 - **Acomodador**: Se basa en la experiencia concreta y la experimentación activa; es adaptable y orientado a la acción.
 
-![](../../../images/kolb_estilos_aprendisaje.png)
+![](../../../images/kolb_estilos_aprendisaje.png))
 
 ### Aprendizaje de habilidades: Noel Burch
 
-![](../../../images/desarrollar_habilidad_noel_burch.png)
+![](../../../images/desarrollar_habilidad_noel_burch.png))

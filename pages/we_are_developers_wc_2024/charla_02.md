@@ -12,7 +12,7 @@ tags:
 
 [← Inicio](https://matiaspakua.github.io/tech.notes.io)
 
-![](../../images/antipatterns_concept_board.png)
+![](../../images/antipatterns_concept_board.png))
 
 ## Autor
 
@@ -73,7 +73,7 @@ Ejemplo: [DIY Middleware — Architecture Antipatterns](https://architecture-ant
 
 ---
 
-![](../../images/antipattern_emotional_attachment_diy.png)
+![](../../images/antipattern_emotional_attachment_diy.png))
 
 ---
 
@@ -83,7 +83,7 @@ Una <mark style="background: #FFF3A3A6;">solución muy genérica para ser usada 
 
 ---
 
-![](../../images/big_ball_of_mud.png)
+![](../../images/big_ball_of_mud.png))
 
 ---
 
@@ -107,7 +107,7 @@ Una <mark style="background: #FFF3A3A6;">solución muy genérica para ser usada 
 
 ## Anti-Patrón: Never change a running system 🚧
 
-![](../../images/if_works_dont_touch.png)
+![](../../images/if_works_dont_touch.png))
 
 ---
 

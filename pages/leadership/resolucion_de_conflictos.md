@@ -19,13 +19,13 @@ tags:
 
 **Según la RAE**: Combate, lucha, pelea. Apuro, situación desgraciada y de difícil salida. Problema, cuestión, materia de discusión. 
 
-![](../../images/conflictos.jpeg)
+![](../../images/conflictos.jpeg))
 
 Sobre todo, un conflicto es un "<mark style="background: #FFF3A3A6;">rasgo de las relaciones humanas</mark>".
 
 Un conflicto, además de su definición tiene otros componentes:
 
-![](../../images/conflictos_canvas.png)
+![](../../images/conflictos_canvas.png))
 
 ## Utilidad de los conflictos
 
@@ -75,7 +75,7 @@ De estos aspectos se desprenden 5 tipos de comportamientos:
 
 # Resolución de conflictos
 
-![](../../images/conflictos_y_relaciones.svg)
+![](../../images/conflictos_y_relaciones.svg))
 
 
 Para poder resolver conflictos hay que iniciar el proceso con dos elementos fundamentales:
@@ -96,7 +96,7 @@ Queda claro en éste punto, que se debe comenzar a trabajar en el conflicto GENU
 
 ## Componentes del conflicto
 
-![](../../images/componentes_conflicto.svg)
+![](../../images/componentes_conflicto.svg))
 
 ## Ciclo del conflicto
 
@@ -126,7 +126,7 @@ Los componentes del ciclo de un conflicto son los siguientes:
 
 La  gráfica lineal que muestra la progresión del conflicto con puntos marcados para “identificación/escalada”, “establecimiento”, “clímax”, “desescalada” y “punto de vuelta atrás”.
 
-![](../../images/ciclo_del_conflicto.jpg)
+![](../../images/ciclo_del_conflicto.jpg))
 
 Las causas de un estancamiento o el clímax pueden ser:
 
@@ -150,7 +150,7 @@ En el des-escalamiento (que ocurre luego de haber llegado al punto límite) suce
 
 Estas técnicas se relacionan además con el nivel de asertividad y cooperación, por lo tanto, combinando éstos factores, se reconocer 5 modos o tipos de técnicas.
 
-![](../../images/modos_gestion_conflictos.png)
+![](../../images/modos_gestion_conflictos.png))
 
 ### Técnica de transacción
 
@@ -270,7 +270,7 @@ El proceso arranca con una escucha activa y análisis de situación y contexto. 
 
 En ésta etapa se intenta realizar legitimación en base a la información recabada. Se construyen las historias, se realizar reformulaciones asertivas. Se ensambla una pirámide de interés:
 
-![](../../images/piramide_de_intereses.png)
+![](../../images/piramide_de_intereses.png))
 
 ### 3. Negociación
 

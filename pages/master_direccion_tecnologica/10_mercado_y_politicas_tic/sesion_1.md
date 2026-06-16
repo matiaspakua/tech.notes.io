@@ -35,7 +35,7 @@ Es un proceso de retroalimentación por la cual los factores productivos de un p
  - Factores productivos
  - (mundo externo) importaciones y exportaciones.
 
-![[flujo_circular_renta.png]]
+![flujo_circular_renta.png](../../../images/flujo_circular_renta.png))
 
 ### Problema fundamental de la economía: Escasez
 
@@ -67,12 +67,12 @@ Tipos:
 
 Los ejes principales de los mercados son la "oferta" y la "demanda":
 
-![[mercados_oferta_demanda.png]]
+![mercados_oferta_demanda.png](../../../images/mercados_oferta_demanda.png))
 
 
 ## Sistemas Económicos
 
-![[sistemas_economicos.png]]
+![sistemas_economicos.png](../../../images/sistemas_economicos.png))
 
 ## Ramas de la economía
 
@@ -85,15 +85,15 @@ Los ejes principales de los mercados son la "oferta" y la "demanda":
 > Teoría de la Ley de la Oferta y la Demanda.
 
 
-![[ley_oferta_demanda.png]]
+![ley_oferta_demanda.png](../../../images/ley_oferta_demanda.png))
 
 
-![[ley_costo_demanda_equilibrio.png]]
+![ley_costo_demanda_equilibrio.png](../../../images/ley_costo_demanda_equilibrio.png))
 Estas curvas y la ley asociada puede variar, cambiando el punto de equilibrio y afectando tanto a la cantidad demandada como al precios. Estos valores de "excedentes", tanto del consumidor como del productor pueden ser perjudiciales, dependiendo del contexto.
 
 Otros factores que pueden impactar son:
 
-![[desplazamiento_curva_oferta.png]]
+![desplazamiento_curva_oferta.png](../../../images/desplazamiento_curva_oferta.png))
 
 Estos desplazamientos se pueden dar por varios factores:
 
@@ -127,7 +127,7 @@ Se dan 3 Escenarios:
 
 En todos los casos, hay escenario de excedentes, los cuales son perjudiciales:
 
-![[mercados_excedentes.png]]
+![mercados_excedentes.png](../../../images/mercados_excedentes.png))
 
 ## Estructuras de Mercado
 
@@ -144,11 +144,11 @@ En todos los casos, hay escenario de excedentes, los cuales son perjudiciales:
 
 ## Elasticidad
 
-![[elasticidad_demanda.png]]
+![elasticidad_demanda.png](../../../images/elasticidad_demanda.png))
 
 Pero de qué depende que varíen tanto estos valores:
 
-![[determinantes_demanda.png]]
+![determinantes_demanda.png](../../../images/determinantes_demanda.png))
 
 ## Conceptos económicos
 
@@ -159,7 +159,7 @@ Un ejemplo sencillo de economía de alcance en el sector TIC es el de una empres
 
 * **Economía de Escala**: se produce cuando un aumento en el volumen de producción produce una reducción del costo medio.
 
-![[economia_de_escala.png]]
+![economia_de_escala.png](../../../images/economia_de_escala.png))
 
 Claro que en este concepto existe un "punto de equilibrio".
 
@@ -169,7 +169,7 @@ Claro que en este concepto existe un "punto de equilibrio".
 >[!note]
 >Un modelo de negocio es escalable cuando permite aumentar los ingresos sin prácticamente aumentar los costos.
 
-![[modelo_negocio_escalable.png]]
+![modelo_negocio_escalable.png](../../../images/modelo_negocio_escalable.png))
 
 ## Coste de oportunidad
 
@@ -178,7 +178,7 @@ Claro que en este concepto existe un "punto de equilibrio".
 
 ## La Producción
 
-![[concepto_de_produccion.png]]
+![concepto_de_produccion.png](../../../images/concepto_de_produccion.png))
 
 Existe 2 tipos de producción, asociadas al área geográfica:
 
@@ -207,19 +207,19 @@ El deflactor del PIB es un índice que mide el nivel general de precios de todos
 
 ### PBI nominal
 
-![[pbi_nominal.png]]
+![pbi_nominal.png](../../../images/pbi_nominal.png))
 
 ### PBI real
 
-![[pbi_real.png]]
+![pbi_real.png](../../../images/pbi_real.png))
 
 ### Deflactor PBI
 
-![[deflactor_pbi.png]]
+![deflactor_pbi.png](../../../images/deflactor_pbi.png))
 
 ### Conclusión
 
-![[comparacion_pbis.png]]
+![comparacion_pbis.png](../../../images/comparacion_pbis.png))
 
 
 ## Calculo de PBI
@@ -269,7 +269,7 @@ Se ocupa de:
 - Las tasas de inflación y desempleo 
 - La balanza de pagos, los tipos de cambio
 
-![[variables_macroeconomicas.png]]
+![variables_macroeconomicas.png](../../../images/variables_macroeconomicas.png))
 
 ### Contabilidad nacional (partida doble)
 
@@ -295,7 +295,7 @@ De acuerdo con <mark style="background: #ADCCFFA6;">Michael Porter </mark>existe
 4. Poder de negociación de los clientes 
 5. Amenaza de ingreso de productos sustitutivos
 
-![[5_fuerzas_de_porter.png]]
+![5_fuerzas_de_porter.png](../../../images/5_fuerzas_de_porter.png))
 
 
 ### Análisis de macroentorno (PESTEL)
@@ -312,7 +312,7 @@ PESTEL viene de:
 6. Legales
 
 
-![[analisis_pestel.png]]
+![analisis_pestel.png](../../../images/analisis_pestel.png))
 
 ## Índice de temas
 

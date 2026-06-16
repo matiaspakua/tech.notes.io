@@ -64,7 +64,7 @@ quadrantChart
     Chip Shortage Impact: [0.50, 0.75]
 ```
 
-![](../../images/tech_trends.jpeg)
+![](../../images/tech_trends.jpeg))
 
 # The Latest tech trends 2023 and 2024
 
@@ -153,7 +153,7 @@ DBT serves as a valuable tool for teams looking to streamline and enhance their 
 
 ### Copilot for business 1.0
 
-![](../../images/copilot_for_business .png)
+![](../../images/copilot_for_business .png))
 
 1. **Introduction to Copilot for Business**: GitHub Copilot has been upgraded since its release in June 2022, and now includes a version tailored for business use.
 2. **Usage and Satisfaction Metrics**: Copilot has been widely adopted by developers, generating a significant portion of code across various programming languages, with Java developers particularly relying on it. High levels of satisfaction have been reported, with developers completing tasks faster and having better focus on more satisfying work.
@@ -164,7 +164,7 @@ DBT serves as a valuable tool for teams looking to streamline and enhance their 
 
 ### ChatGPT
 
-![](../../images/chatGPT.png)
+![](../../images/chatGPT.png))
 
 1. **Introduction to ChatGPT**: ChatGPT is an online application launched in November 2022, allowing users to converse with a technology known as GPT (Generative Pre-trained Transformer).
 2. **Understanding GPT**: GPT stands for Generative Pre-trained Transformer, with the goal of generating new content based on its pre-training with up to 175 billion parameters. GPT utilizes transformers, which excel at understanding human-written sentences, to process data and generate content.
@@ -173,7 +173,7 @@ DBT serves as a valuable tool for teams looking to streamline and enhance their 
 
 ### Ethereum - The Merge
 
-![](../../images/ethereum_the_merge.png)
+![](../../images/ethereum_the_merge.png))
 
 1. **Introduction to the Ethereum Merge**: In September 2022, Ethereum, one of the largest blockchains and platforms for Web3, underwent a significant technological shift known as "The Merge."
 2. **Transition from Proof of Work to Proof of Stake**:  The underlying consensus model of Ethereum shifted from proof of work to proof of stake. This transition has implications for the security and operation of the Ethereum network.
@@ -184,7 +184,7 @@ Reference: [Ethereum the Merge](https://ethereum.org/en/roadmap/merge/)
 
 ### Prompt Engineering
 
-![](../../images/prompt_engineering.png)
+![](../../images/prompt_engineering.png))
 
 - **Definition and Components**: A prompt is a means of communication with AI, ranging from simple questions to complex constructs with instructions, input data, examples, and code.
 - **Prompt Engineering**: This emerging discipline involves managing complex prompts at scale, necessary for products with AI backends. It encompasses design, quality assurance (QA), and feedback loops, often involving human evaluation.
@@ -198,7 +198,7 @@ Reference: [What is Prompt Engineering?](https://promptengineering.org/what-is-p
 
 ### Generative AI
 
-![](../../images/artificial_intelligence.png)
+![](../../images/artificial_intelligence.png))
 
 - **Pattern Recognition and Prediction**: The human brain's ability to store information and create rules to predict outcomes is paralleled in generative AI, which can also learn to predict and create new patterns.
 - **Biometrics and Face Recognition**: Generative AI can recognize and analyze patterns in biometric data, such as faces, by mapping out distances between facial features.
@@ -208,7 +208,7 @@ Reference: [What is Prompt Engineering?](https://promptengineering.org/what-is-p
 - **Limitations of Generative AI**: Despite its capabilities, generative AI requires vast data sets, may not always yield desired results, and is limited to recombining known patterns rather than creating entirely new concepts.
 - **Role in Data Processing**: Currently, generative AI excels at processing large data sets, offering numerous options, and reducing the time needed for repetitive tasks.
 
-![](../../images/generative_AI_introduction.png)
+![](../../images/generative_AI_introduction.png))
 
 **Reference**: [File:Unraveling AI Complexity - A Comparative View of AI, Machine Learning, Deep Learning, and Generative AI.png - Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Unraveling_AI_Complexity_-_A_Comparative_View_of_AI,_Machine_Learning,_Deep_Learning,_and_Generative_AI.png)
 
@@ -237,7 +237,7 @@ Reference: [What is Prompt Engineering?](https://promptengineering.org/what-is-p
 - **Developer Responsibility**: Developers should prioritize privacy and informed consent, and stay informed about AI bias and relevant legislation like GDPR and CPRA.
 - **Implementation Ethics**: Organizations should implement facial recognition responsibly, requiring informed consent and considering privacy laws.
 
-![](../../images/facial_recognition.png)
+![](../../images/facial_recognition.png))
 
 
 # Web3 and related
@@ -315,7 +315,7 @@ Reference: [What is Prompt Engineering?](https://promptengineering.org/what-is-p
 9. **Planning and Coordination**: Building a zero trust system requires careful planning and coordination, tailored to the organization's needs and security requirements.
 10. **Benefits and Future Trends**: While no security model can fully prevent security problems, the zero trust model provides a robust way to mitigate security risks in modern work environments, enabling secure access to resources from various devices and locations.
 
-![](../../images/zero-trust.png)
+![](../../images/zero-trust.png))
 
 **Reference:** [Zero trust security model - Wikipedia](https://en.wikipedia.org/wiki/Zero_trust_security_model)
 
@@ -323,7 +323,7 @@ Reference: [What is Prompt Engineering?](https://promptengineering.org/what-is-p
 
 ### Chip Shortage
 
-![](../../images/chips_vendors_by_country.png)
+![](../../images/chips_vendors_by_country.png))
 
 1. **Global Shipping Disruptions**: Aftermath of the COVID-19 pandemic led to unbalanced global shipping, impacting the movement of products, including chips, from manufacturers to customers.
 2. **Geographic Concentration of Chip Factories**: Most of the world's high-capacity chip factories are located in East Asia (Taiwan, South Korea, Japan) and the United States, leading to supply chain vulnerabilities.

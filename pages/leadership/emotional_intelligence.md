@@ -22,7 +22,7 @@ Emotional intelligence, or EQ, is the ability to be aware of your emotions and t
 
 ### Quadrants of EQ
 
-![](../../images/quadrants_eq.png)
+![](../../images/quadrants_eq.png))
 
 ```mermaid
 flowchart TD
@@ -47,7 +47,7 @@ flowchart TD
 
 ### Emotions
 
-![](../../images/emotions_cycle.png)
+![](../../images/emotions_cycle.png))
 
 - **Nature of Emotions**: Emotions are complex constructs in our brain that guide our responses to events. They can vary in intensity and can be pleasant or unpleasant.
 - **Individual Variation**: There is significant variation in emotional responses among individuals, and even within the same individual at different times.
@@ -63,7 +63,7 @@ flowchart TD
 
 ### Finding your Flow
 
-![](../../images/finding_your_flow.png)
+![](../../images/finding_your_flow.png))
 
 - **Concept of Flow**: Flow is a term from positive psychology. It refers to the state of being so absorbed in an activity that you enjoy and are good at, that time seems to stand still.
 - **Benefits of Flow**: Working in a state of flow can enhance your performance, develop your skills, and support your psychological wellbeing. It can also help you tackle challenges effectively and increase your chances of reaching your potential.
@@ -83,7 +83,7 @@ flowchart TD
 
 ### Disrupting thoughts and emotional intelligence
 
-![](../../images/disrupting_thoughts.png)
+![](../../images/disrupting_thoughts.png))
 
 The <mark style="background: #FFF3A3A6;">ABCDE model from cognitive behavioral coaching methodology</mark>, is a step-by-step process to manage challenges and emotions:
 
@@ -97,7 +97,7 @@ Take importance of <mark style="background: #FFF3A3A6;">being objective</mark> w
 
 ### Dealing with stressful situations
 
-![](../../images/stressful_situations.png)
+![](../../images/stressful_situations.png))
 
 - **Emotional Impulse**: Acting on emotional impulse means being led by emotions, which can be both positive and negative. The outcome depends on the situation and the type of emotion.
 
@@ -111,7 +111,7 @@ Take importance of <mark style="background: #FFF3A3A6;">being objective</mark> w
 
 ### Shift perspective to shape behavior
 
-![](../../images/shift_perspective.png)
+![](../../images/shift_perspective.png))
 
 - **Open-mindedness**: Encourages seeing things from different points of view, which can lead to new learnings and better understanding of situations.
 
@@ -127,7 +127,7 @@ Take importance of <mark style="background: #FFF3A3A6;">being objective</mark> w
 
 ## 3. Social Awareness
 
-![](../../images/social_awareness.png)
+![](../../images/social_awareness.png))
 
 - **Emotional Intelligence**: Developing self-awareness and social awareness is crucial for enhancing emotional intelligence. This involves understanding how you process information and applying it to build collaborative and rewarding relationships.
 - **Sensory Audit**: A sensory audit, where you focus on what you see, hear, and feel, can help develop social awareness. This involves paying attention to the details of your surroundings and using your senses to process information about others.
@@ -143,7 +143,7 @@ Take importance of <mark style="background: #FFF3A3A6;">being objective</mark> w
 
 ### Listen to improve social awareness
 
-![](../../images/active_listening.png)
+![](../../images/active_listening.png))
 
 - **Effective Communication**: Communication is a two-way process involving both providing and gathering information. <mark style="background: #FFF3A3A6;">The key to effective communication is listening.</mark>
 - **Building Relationships**: Listening to others, including their words, tone, and body language, is crucial for building effective and strong relationships.
@@ -161,7 +161,7 @@ Take importance of <mark style="background: #FFF3A3A6;">being objective</mark> w
 
 ### EQ and positive conflict management
 
-![](../../images/positive_conflict_management.png)
+![](../../images/positive_conflict_management.png))
 
 - **Healthy Conflicts**: Healthy conflicts at work can spark debates, helping people to consider alternative perspectives and often resulting in teams pushing the boundaries of what is achievable.
 - **Respectful Challenges**: Creating environments where people can respectfully challenge ideas, perspectives, and opinions creates a healthy culture.

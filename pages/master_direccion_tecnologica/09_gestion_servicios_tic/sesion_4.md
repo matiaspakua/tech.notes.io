@@ -62,7 +62,7 @@ Pensar en el cliente = momento de la verdad. Identificar que podemos mejorar par
 
 Los primero 90 días (libro)
 
-![[libro_los_primeros_90_días.png]]
+![libro_los_primeros_90_días.png](../../../images/libro_los_primeros_90_días.png))
 
 
 # DevOps
@@ -81,10 +81,10 @@ Traducir las funcionales en Dinero (que es más fácil de evaluar y ver)
 
 
 # Cadena de valor de servicio (ITIL)
-![[Pasted image 20250322100641.png]]
+![Pasted image 20250322100641.png](../../../images/Pasted image 20250322100641.png))
 
 
-![[Pasted image 20250322100525.png]]
+![Pasted image 20250322100525.png](../../../images/Pasted image 20250322100525.png))
 
 
 ---

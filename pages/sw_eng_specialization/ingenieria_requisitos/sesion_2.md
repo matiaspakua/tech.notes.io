@@ -17,7 +17,7 @@ El proceso inicia con conocer y comenzar a indagar el "universo del discurso", q
 
 Un dato importante es entender las características intrínsecas de los usuarios. Los usuarios se deben identificar, categorizar y junto con las características identificadas, se deberá además asociar como ayudarán a validar los requerimientos.
 
-![](../../../images/IR103_proceso.png)
+![](../../../images/IR103_proceso.png))
 
 Todo el proceso se basa en la consigna de "descubrir" lo que el usuario/cliente "necesita". Para ésta tarea, la ingeniería de requerimientos se basa en lo siguientes pilares:
 
@@ -41,7 +41,7 @@ Además de las habilidades técnicas, son necesarias otras habilidades "blandas"
 
 ## Actividades del proceso
 
-![](../../../images/IR104_overview_proceso.png)
+![](../../../images/IR104_overview_proceso.png))
 
 ### Elicitación
 
@@ -59,7 +59,7 @@ Otros objetivos que se persiguen son:
 Luego, viene la descripción de los requerimientos, para lo cual ya se deberán conocer a los usuarios. Una tarea que se desprende del proceso y se deberá realizar de forma planificada son las auditorias. Estas auditorias ayudarán a mantener el curso (horizonte) respecto de los requerimientos y el negocio. Generar los informes de auditoria permite además, de comunicar, hacer un cambio de curso si fuera necesario.
 
 
-![](../../../images/IR105_vigencia_informacion.png)
+![](../../../images/IR105_vigencia_informacion.png))
 
 Hay un aspecto critico que no siempre sale a la vista y es el punto <mark style="background: #FFF3A3A6;">3) la vigencia de la información</mark>. Tanto los informes de auditoria como el feedback continuo de los usuarios y el negocio son críticos para estables la vigencia de la información y poder actualizarla en caso de necesidad.
 
@@ -83,7 +83,7 @@ Este framework se basa en un modelo ya existente: 5W (5 veces por qué, hasta ll
 
 A lo cual se le suman las 2H (How y How much?)
 
-![](../../../images/que-es-5w2h.png)
+![](../../../images/que-es-5w2h.png))
 Fuente: https://tractian.com/es/blog/5w2h-que-es
 
 
@@ -151,7 +151,7 @@ Durante cada etapa del proceso de la IR, van a producirse varias <mark style="ba
 
 En las negociaciones aparecen varios sub-procesos y tareas que se retroalimentan para llegar a resultados. Desde analizar el conflicto, evaluar propuestas y luego conciliar los requisitos en base al input dado.
 
-![](../../../images/IR106_gestion_requisitos.png)
+![](../../../images/IR106_gestion_requisitos.png))
 
 La gestión de requerimientos involucra la gestión de varias tareas:
 
@@ -169,7 +169,7 @@ Referencia: https://en.wikipedia.org/wiki/Traceability
 Sumado al concepto de traceabilidad, está el concepto de "versionado". Como el mundo real cambia, cambia el negocio y así, a través del proceso de conciliación de los requerimientos, van a cambiar los requerimientos, es indispensable darle una versión a todos los artefactos. La versión permite gestionar la validez de un requerimientos, junto con su trazabilidad y así mantener la coherencia general.
 
 
-![](../../../images/IR107_trazabilidad_versionado_requerimientos.png)
+![](../../../images/IR107_trazabilidad_versionado_requerimientos.png))
 
 ### Contexto social
 

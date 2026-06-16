@@ -40,7 +40,7 @@ Evoluciona tus politicas y acuerdos para obtener resultados.
 
 1. Visualizar. Por ejemplo, el flujo de trabajo.
 
-![[visualizar_kanban.png]]
+![visualizar_kanban.png](../../../images/visualizar_kanban.png))
 
 # Value Stream
 

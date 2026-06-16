@@ -58,10 +58,10 @@ Buscar soluciones a puntos de dolor, este tipo de partidas sobre puntos de dolor
 
 ## Sistema de valor de Servicio (SVS)
 
-![[Pasted image 20250405095546.png]]
+![Pasted image 20250405095546.png](../../../images/Pasted image 20250405095546.png))
 
 
-![[Pasted image 20250405095757.png]]
+![Pasted image 20250405095757.png](../../../images/Pasted image 20250405095757.png))
 
 son las dimensiones que se aplican en ITIL para dar valor.
 
@@ -75,12 +75,12 @@ son las dimensiones que se aplican en ITIL para dar valor.
 
 ## Prácticas de ITIL
 
-![[Pasted image 20250405101340.png]]
+![Pasted image 20250405101340.png](../../../images/Pasted image 20250405101340.png))
 
 
 ## Mapa de calor
 
-![[Pasted image 20250405101437.png]]
+![Pasted image 20250405101437.png](../../../images/Pasted image 20250405101437.png))
 
 Hablar con el usuario para contrastar ctodo lo que está pasando.
 

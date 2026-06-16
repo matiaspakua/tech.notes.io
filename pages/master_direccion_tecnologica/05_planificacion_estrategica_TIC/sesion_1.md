@@ -25,11 +25,11 @@ tags:
 
 <mark style="background: #FFF3A3A6;">Estrategia (la):</mark> conjunto de acciones planificadas sistemáticamente para lograr un determinado fin o objetivo
 
-![[estrategía_corporativa_competitiva.png]]
+![estrategía_corporativa_competitiva.png](../../../images/estrategía_corporativa_competitiva.png))
 
 ## Transformación a Digital: Netflix
 
-![[caso_netflix_vs_blockbuster.png]]
+![caso_netflix_vs_blockbuster.png](../../../images/caso_netflix_vs_blockbuster.png))
 
 ## Índice de temas
 

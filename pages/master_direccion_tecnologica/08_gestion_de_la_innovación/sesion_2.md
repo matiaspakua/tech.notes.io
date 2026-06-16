@@ -10,7 +10,7 @@ tags:
 
 Lectura previa: [En què som bons? – treva.cat](https://treva.cat/es/en-que-som-bons/)
 
-![[en_que_somos_buenos.png]]
+![en_que_somos_buenos.png](../../../images/en_que_somos_buenos.png))
 
 Lectura 2: [El joc de les respostes – treva.cat](https://treva.cat/es/el-joc-de-les-respostes/)
 
@@ -20,14 +20,14 @@ Lectura 2: [El joc de les respostes – treva.cat](https://treva.cat/es/el-joc-d
 
 Lectura 3: [Marcar el ritme – treva.cat](https://treva.cat/es/marcar-el-ritme/)
 
-![[innovacion_encontrar_los_momentos.png]]
+![innovacion_encontrar_los_momentos.png](../../../images/innovacion_encontrar_los_momentos.png))
 
 >[!quote]
 > Todos tenemos momentos de máxima energía, y a menudo se concentran en horarios concretos del día, marcados por nuestros ritmos biológicos
 
 Lectura 5: Franc Ponti - Estrategias de creatividad
 
-![[franc_ponti.png]]
+![franc_ponti.png](../../../images/franc_ponti.png))
 
 Franc Ponti es un experto en creatividad e innovación, profesor y autor de obras como *Inteligencia creativa* y *Pasión por innovar*. Su trabajo se centra en derribar la creencia de que la creatividad es un don exclusivo de unos pocos, proponiendo estrategias prácticas para desarrollarla en personas y organizaciones. A continuación, se detallan sus **7 estrategias clave**:
 

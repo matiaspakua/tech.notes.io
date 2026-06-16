@@ -19,7 +19,7 @@ tags:
 > [!note]
 > The term "Vertical Slice Architecture" was popularized by **Jimmy Bogard** (creator of AutoMapper) in a 2018 blog post and NDC conference talk.
 
-![](../../images/vertical_slicing.jpg)
+![](../../images/vertical_slicing.jpg))
 
 Capas técnicas (horizontal) vs. slices por funcionalidad (vertical):
 

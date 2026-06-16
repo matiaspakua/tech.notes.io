@@ -14,7 +14,7 @@ tags:
 
 <mark style="background: #FFF3A3A6;">Apache Maven</mark> es una herramienta de automatización de builds para proyectos Java (y JVM en general). Gestiona dependencias, compila, testea, empaqueta y despliega proyectos a partir de un archivo de configuración llamado `pom.xml` (Project Object Model).
 
-![](../../images/maven_working.jpeg)
+![](../../images/maven_working.jpeg))
 
 ## Conceptos clave
 

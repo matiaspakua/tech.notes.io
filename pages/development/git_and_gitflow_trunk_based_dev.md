@@ -10,11 +10,11 @@ tags:
 
 [← Inicio](https://matiaspakua.github.io/tech.notes.io)
 
-![](../../images/git_gitflow_mindmap.png)
+![](../../images/git_gitflow_mindmap.png))
 
 ## Introduction
 
-![git flow](../../images/git_flow.jpeg)
+![git flow](../../images/git_flow.jpeg))
 
 Git is a [free and open source](https://git-scm.com/about/free-and-open-source) distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
 

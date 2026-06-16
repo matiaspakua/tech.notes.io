@@ -18,13 +18,13 @@ tags:
 
 This is a very complete, hand-on, medium level specialization based on cloud computing. Goes from the basics to some advanced and very helpful examples. The examples show you the 3 main cloud vendors platform: AWS, Azure and GCP.
 
-![The Roadmap](../../images/cloud_specialization_the_roadmap.png)
+![The Roadmap](../../images/cloud_specialization_the_roadmap.png))
 
 - **Link to the Specialization in Coursera**: [Building Cloud Computing Solutions at Scale Specialization - Duke University & Coursera](https://www.coursera.org/specializations/building-cloud-computing-solutions-at-scale)
 
 # Final Project: ML Image Classification 
 
-![](../../images/ml_demo_project.png)
+![](../../images/ml_demo_project.png))
 
 - Link to the final project: [matiaspakua/ml-demo-project: Demostration project for the Specialization Building Cloud Computing Solutions at Scale](https://github.com/matiaspakua/ml-demo-project)
 
@@ -136,7 +136,7 @@ The overall message encourages a balanced and structured approach to project man
 
 **Continuous Integration** is a way of ensuring that your software is always in a known state, and it <mark style="background: #FFF3A3A6;">saves you time</mark>. It is a form of automated testing and safety mechanism that ensures that your software is working or not. It is similar to the <mark style="background: #FFF3A3A6;">safety mechanisms</mark> like smoke alarms, seat belts, and drug testing, which save lives. 
 
-![](../../images/ci_example_schema.png)
+![](../../images/ci_example_schema.png))
 
 Once you understand the concepts of Continuous Integration, you can develop software much more quickly. It is a primary **DevOps best practice** that allows developers to frequently merge code changes into a central repository where builds and tests then run. 
 
@@ -150,7 +150,7 @@ Automated tools are used to assert the new code’s correctness before integrati
 
 Repo: https://github.com/matiaspakua/python-scaffold
 
-![](../../images/python_github_actions.png)
+![](../../images/python_github_actions.png))
 
 ## Introduction to Testing
 
@@ -190,7 +190,7 @@ Repo: https://github.com/matiaspakua/python-scaffold
 • The code can be pushed into a development branch, then merged into the staging branch for testing and deployment.
 • The code can then undergo extensive load testing before being merged to production.
 
-![](../../images/cd_schema.png)
+![](../../images/cd_schema.png))
 
 
 ## Cloud Computing Introduction
@@ -242,19 +242,19 @@ flowchart TB
 • Examples include Gmail, Splunk, and data dog.
 • These services eliminate the need for hosting a dedicated web server.
 
-![](../../images/01_s3_static_web_site.png)
+![](../../images/01_s3_static_web_site.png))
 
 2. **Platform as a Service:**
 • Platform as a service abstracts away the infrastructure, allowing developers to focus on application development.
 • Examples include Heroku, Google's GAE, and Amazon's Beanstalk.
 
-![](../../images/04_elastic_beanstalk_web_site.png)
+![](../../images/04_elastic_beanstalk_web_site.png))
 
 3. **Infrastructure as a Service:**
 • Extensive offerings like Amazon's EC2 allow for bulk rental of virtual machines at low costs.
 • This service requires the software engineer to spin up and set up the networking layer, but offers significant cost savings.
 
-![](../../images/03_ec2_web_service.png)
+![](../../images/03_ec2_web_service.png))
 
 4. **Metal as a Service:**
 • Provides the ability to spin up and provision machines yourself.
@@ -263,7 +263,7 @@ flowchart TB
 5. **Serverless:**
 • Similar to Platform as a Service, Serverless FaaS or function as a service.
 
-![](../../images/02_lambda_web_site.png)
+![](../../images/02_lambda_web_site.png))
 
 ## Economics of cloud computing
 
@@ -288,7 +288,7 @@ flowchart TB
 3. **Validated Learning**: The feedback that a team gathers with each cycle, based on real, actionable data. It helps the team to pivot or persevere, and to optimize their value delivery.
 4. **Release Pipeline**: The process of deploying a change of code or configuration to the production environment. It should be automated, hardened, and fast to shorten the cycle time and enable frequent deployments.
 
-![](../../images/devops_deploy_frequency.png)
+![](../../images/devops_deploy_frequency.png))
 
  * Documentation: [What-is-DevOps](https://d3c33hcgiwev3.cloudfront.net/ET0s4ZgmRIW9LOGYJrSFcg_476f7cfa77384d068aaf116839eec296_What-is-DevOps_.pdf?Expires=1703289600&Signature=NagV8XO8vnPbTcEYLtpv96Vrj-vJjmuI47Bm-7SFFXc~NbynExjmH4-3t-rSWXj0I1WTKwB39~sC~~QYtCDBML3dArX2qEVXpemlMJ~ruPSIcEL5zusa77o~fbjc1mGaLxEfYp4YWNdiiuS-u6-qo-WAkAKbNcnWAR3FEBgE0WQ_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A)
 
@@ -324,7 +324,7 @@ flowchart TB
 2. **Benefits of IaC**: IaC solves the problem of environment drift, enables consistent and repeatable deployments, and supports testing in production-like environments.
 3. **Idempotence**: A principle of IaC that ensures a deployment command always sets the target environment into the same configuration, regardless of the starting state.
 
-![](../../images/iac_schema.png)
+![](../../images/iac_schema.png))
 
 ### Example of a Terraform scripts
 
@@ -365,7 +365,7 @@ resource "aws_instance" "example" {
     
 - **Outcome**: Continuous delivery is not optional; it’s a necessity. It ensures you’re continuously making things better rather than worse. It’s a systematic way of continually improving your source control and overall system.
 
-![](../../images/cd_deep_dive.png)
+![](../../images/cd_deep_dive.png))
 
 
 ---
@@ -392,7 +392,7 @@ resource "aws_instance" "example" {
     
 - **Containers**: Unlike VMs, containers have a host and a runtime, which is a subset of the operating system. They are more like a process than an operating system. Only the files necessary for the application to run are packaged in the container, making them lightweight, smaller, and faster. They are DevOps best practice compliant and fit well with continuous integration and microservices.
 
-![](../../images/containes_vs_vm.png)
+![](../../images/containes_vs_vm.png))
 
 
 Reference: [Containers vs VMs (redhat.com)](https://www.redhat.com/en/topics/containers/containers-vs-vms)
@@ -403,7 +403,7 @@ Reference: [Containers vs VMs (redhat.com)](https://www.redhat.com/en/topics/con
  - The security group is important because it determines which port you can talk to when you launch the machine. Another component of the SSH mechanism is that you’ll have to use a PEM file and this will be the SSH key that will allow you to connect to that spot instance. 
  - Finally, if you wanted to do a separate API call, you would have to assign a role to the spot instance so that it had the ability to make those connections.
 
-![](../../images/spot_instance.png)
+![](../../images/spot_instance.png))
 
 ## Containers
 
@@ -423,11 +423,11 @@ It can interface with<mark style="background: #FFF3A3A6;"> Kubernetes to launch 
 
 Docker Desktop is more of a development environment, while Docker Hub is a collaborative environment. When using Docker, you can leverage the knowledge of core developers by pulling base images for your projects.
 
-![](../../images/docker_intro.png)
+![](../../images/docker_intro.png))
 
 Using DockerHub and Docker locally example:
 
-![](../../images/docker_hub_development.png)
+![](../../images/docker_hub_development.png))
 
 ## Container Registry
 
@@ -441,7 +441,7 @@ In summary, a container registry is an essential tool for <mark style="backgroun
 (2) Azure Container Registry | Microsoft Azure. https://azure.microsoft.com/en-us/products/container-registry/.
 (3) Azure Container Registry documentation | Microsoft Learn. https://learn.microsoft.com/en-us/azure/container-registry/.
 
-![](../../images/aws_container_registry.png)
+![](../../images/aws_container_registry.png))
 
 ## Introduction to Kubernetes
 
@@ -451,16 +451,16 @@ In summary, a container registry is an essential tool for <mark style="backgroun
 - **Workflow**: The basic workflow involves creating a Kubernetes cluster, deploying your application into the cluster, exposing the port for external access, and auto-scaling based on traffic demands.
 - **Cluster Architecture**: A Kubernetes cluster consists of multiple nodes, each containing multiple pods, which in turn can contain multiple containers.
 
-![](../../images/kubernetes.png)
+![](../../images/kubernetes.png))
 
 
-![](../../images/kubernetes_hierarchy.png)
+![](../../images/kubernetes_hierarchy.png))
 
 ## Autoscaling Kubernetes 
 
 One of the “killer” features of Kubernetes is the ability to set up auto-scaling via the Horizontal Pod Autoscaler. How does this work? The <mark style="background: #FFF3A3A6;">Kubernetes HPA</mark> (Horizontal Pod Autoscaler) will automatically scale the number of pods (remember they can contain multiple containers) in a replication controller, deployment or replica set. Thee scaling uses CPU utilization, memory, or custom metrics defined in the Kubernetes Metrics Server.
 
-![](../../images/kubernetes_autoscaling.png)
+![](../../images/kubernetes_autoscaling.png))
 
 ## Introduction to Microservices
 
@@ -468,7 +468,7 @@ One of the “killer” features of Kubernetes is the ability to set up auto-sca
 - **Types of Microservice Architectures**: event-driven web services. The success or failure of a project can depend on the chosen architecture.
 - **Serverless Computing**: Serverless is a paradigm where you can run code without provisioning servers, eliminating the need to worry about low-level details of provisioning machines. AWS Lambda, Google Cloud Functions, and Azure functions are examples of this, where they can map to different events. This is considered one of the best advancements in modern computing.
 
-![](../../images/microservices_architecture.png)
+![](../../images/microservices_architecture.png))
 
  - **Reference**:  [What are microservices?](https://microservices.io/)
 
@@ -485,12 +485,12 @@ One of the “killer” features of Kubernetes is the ability to set up auto-sca
 - **Cloud Native Capabilities**: Microservices can also be run using cloud native capabilities. All cloud platforms now allow you to write a function that maps to an event, such as AWS Lambda, Google Cloud Functions, or Azure Functions.
 - **Holistic Platforms**: Another option is to develop a microservice on a holistic platform, such as Elastic Beanstalk or Google App Engine, which can map together authentication and other services. These platforms could be places where you could run microservices.
 
-![](../../images/microservices_ecosystem.png)
+![](../../images/microservices_ecosystem.png))
 
 ## Operationalizing microservices
 
 
-![](../../images/operationalizing_microservices.png)
+![](../../images/operationalizing_microservices.png))
 
 A critical factor in developing a microservice is to think about the feedbaࢤ loop. In this diagram, a GitOps style workflow implements. • 
 
@@ -502,7 +502,7 @@ A critical factor in developing a microservice is to think about the feedbaࢤ l
 
 Metrics can be deployed and viewed in Prometheus: [Advance Your Spring Development Skills | Tech-Notes (matiaspakua.github.io)](https://matiaspakua.github.io/tech.notes.io/pages/development/advance_your_spring_development_skills.html#02)
 
-![](../../images/microservices_monitoring.png)
+![](../../images/microservices_monitoring.png))
 
 ## Five-Why’s and Kaizen 
 
@@ -520,7 +520,7 @@ This lesson focuses on **Flask**, a popular lightweight web framework in Python.
 
 **APIs**, which define interactions between services, and **JSON** (JavaScript Object Notation), a common data-interchange format used with APIs. When building a microservice, the core components are a Flask application, an API, and JSON. These elements work together to form a microservice.
 
-![](../../images/flask_microservicios.png)
+![](../../images/flask_microservicios.png))
 
 ## Introduction to Serverless Microservices
 
@@ -547,12 +547,12 @@ In this architecture, when a client sends an HTTP request, the API Gateway recei
 
  - **Official Documentation**: [What is AWS Step Functions? - AWS Step Functions](https://docs.aws.amazon.com/step-functions/latest/dg/welcome.html)
 
-![](../../images/aws_step_function_ec2Isolation.png)
+![](../../images/aws_step_function_ec2Isolation.png))
 
 
 ## AWS S3 trigger
 
-![](../../images/aws_s3_trigger.png)
+![](../../images/aws_s3_trigger.png))
 
 ## AWS Serverless Application Model (SAM)
 
@@ -585,7 +585,7 @@ In the context of serverless programming, event-driven architectures are often p
 - **Alerting Experiment**: in a experiment a company turn off the alerts for a month as an experiment, and nothing adverse happened. This led to the realization that they had been caught in a “cargo cult” way of thinking about alerts, which was more damaging than helpful.
 - **Key Takeaway**: having too many alerts can be counterproductive. It’s essential to ensure that alerts are meaningful and actionable.
 
-![](../../images/metrics_and_logs.png)
+![](../../images/metrics_and_logs.png))
 
 ## Load Testing
 
@@ -596,16 +596,16 @@ In the context of serverless programming, event-driven architectures are often p
 
 Tool: [Locust - A modern load testing framework](https://locust.io/)
 
-![](../../images/locust_main.png)
+![](../../images/locust_main.png))
 
-![](../../images/locust_graph.png)
+![](../../images/locust_graph.png))
 
 
 An excelent tools for monitoring is prometheus: 
 
 ## Introduction to Kaizen
 
-![](../../images/kaizen.png)
+![](../../images/kaizen.png))
 
 - **Continuous Improvement in Sports and Software**: Just as athletes strive to enhance their performance, continuous improvement applies to source code or cloud-based projects. The goal is to constantly seek ways to make things better, more visible, and reliable.
     
@@ -645,7 +645,7 @@ Reference: [Five whys - Wikipedia](https://en.wikipedia.org/wiki/Five_whys)
 
 ## Introduction to the End of Moore's Law
 
-![](../../images/end_moore_law.png)
+![](../../images/end_moore_law.png))
 
 - **End of Moore’s Law**:  states that the speed of single programs has stopped growing. This is attributed to the inefficiencies introduced by multi-core machines and the diminishing returns of parallel code execution.
 
@@ -668,7 +668,7 @@ The end of Moore's Law doesn't mean the end of technological progress. <mark sty
 
 ## CUDA
 
-![](../../images/cuda.png)
+![](../../images/cuda.png))
 
 - **Numba**: is a library that allows for GPU programming or Just-In-Time compilation. It offers various techniques and examples for usage.
 
@@ -676,7 +676,7 @@ The end of Moore's Law doesn't mean the end of technological progress. <mark sty
 
 ## ASIC
 
-![](../../images/asic.png)
+![](../../images/asic.png))
 
 - **ASICs**: ASIC stands for Application Specific Integrated Circuit. Unlike a CPU, which is designed for many tasks, an ASIC is a chip designed for a specific purpose.
     
@@ -691,11 +691,11 @@ The end of Moore's Law doesn't mean the end of technological progress. <mark sty
 ## Comparison
 
  - CPU:
-![](../../images/cpu.png)
+![](../../images/cpu.png))
  - GPU:
-![](../../images/gpu.png)
+![](../../images/gpu.png))
  - TPU:
-![](../../images/tpu.png)
+![](../../images/tpu.png))
 
 ## Introduction to Distributed Systems
 
@@ -713,7 +713,7 @@ The key aspects of building logging instrumentation for a distributed system to 
   
 ## CAP Theorem & Amdahl’s Law
 
-![](../../images/cap_theorem.png)
+![](../../images/cap_theorem.png))
 
 - **CAP Theorem**: <mark style="background: #FFF3A3A6;">This is a fundamental theorem in distributed computing, stating that there’s a trade-off between consistency, availability, and fault-tolerance. You can only have two out of these three.</mark>
     
@@ -725,7 +725,7 @@ The key aspects of building logging instrumentation for a distributed system to 
     
 - **Key-Value Databases**: These databases, like Amazon DynamoDB, have furthered the trade-off between consistency, availability, and fault-tolerance. DynamoDB is eventually consistent, allowing it to scale out to any number of requests.
 
-![](../../images/ahmdehl_law.png)
+![](../../images/ahmdehl_law.png))
 
 - **Amdahl’s Law**: <mark style="background: #FFF3A3A6;">This law describes the diminishing returns of parallelization. Even if you distribute tasks across all cores, the speedup is not proportional to the number of cores due to the overhead of distributing and locking the code.</mark>
     
@@ -741,7 +741,7 @@ The key aspects of building logging instrumentation for a distributed system to 
 
 Highlights the system’s ability to adapt to varying loads by spinning up more resources like Virtual Machines or networking.
 
-![](../../images/elasticity.png)
+![](../../images/elasticity.png))
 
 - **Elasticity in Cloud Computing**: <mark style="background: #FFF3A3A6;">Elasticity is a key attribute of modern cloud computing best practices. It allows automatic scaling of resources based on demand, which is crucial for efficient resource management and cost savings.</mark>
     
@@ -756,7 +756,7 @@ Highlights the system’s ability to adapt to varying loads by spinning up more 
 
 Explains the concept of a highly available architecture, which can respond to requests despite increased traffic.
 
-![](../../images/availability.png)
+![](../../images/availability.png))
 
 - Reference to Load Balancer: [Spring Cloud Load Balancing](../development/advance_your_spring_development_skills.md)
 
@@ -773,7 +773,7 @@ The concept of **High Availability** in cloud computing, often referred to as �
 
 Techniques for debugging Python code, a critical component in modern Data Systems.
 
-![](../../images/cloud_computing_debbuging.png)
+![](../../images/cloud_computing_debbuging.png))
 
 - **Software Engineering Best Practices**:  develop distributed systems that apply best practices like logging instrumentation and continuous delivery. These techniques are crucial for building a functional distributed system.
 
@@ -786,7 +786,7 @@ Techniques for debugging Python code, a critical component in modern Data System
 
 ## The three V's of Big Data
 
-![](../../images/big_data_challenges.png)
+![](../../images/big_data_challenges.png))
 
 - **Variety**: Big data comes in many forms such as CSV, binary, SQL files, APIs, and key-value databases. This variety requires specialized tools like AWS Glue for data wrangling.
 - **Velocity**: The speed at which data is generated can be a challenge. For instance, a social media company could have millions of requests per second. Solutions include stream processing systems like Spark or batch processing.
@@ -804,7 +804,7 @@ Web Reference: [Chapter05 Cloud Storage Pragmatic AI Labs and Solutions](https:/
 
 ## Big Data Processing
 
-![](../../images/big_data_processing.png)
+![](../../images/big_data_processing.png))
 
 - **Big Data Pipeline**: a pipeline includes historical data, real-time data, and predictive data. Each type of data requires different tools and technologies due to the nature of the time-based approach to big data processing.
 - **Historical Data**: This refers to past data, such as sales or customer numbers. It’s used to report what happened in the past and requires specialized tools for queries.
@@ -814,7 +814,7 @@ Web Reference: [Chapter05 Cloud Storage Pragmatic AI Labs and Solutions](https:/
 
 ## Feedback data loop
 
-![](../../images/big_data_feedback_loop.png)
+![](../../images/big_data_feedback_loop.png))
 
 - **Data Feedback Loop**:  This loop begins with users generating data, which eventually builds up into big data characterized by the three V’s: velocity, variety, and volume.
 - **Analytics and Predictions**: The big data can be transformed into analytics and predictions using artificial intelligence, machine learning, and deep learning techniques.
@@ -844,7 +844,7 @@ Big Data Platforms are similar in that they can move data around, just like a tr
 
 ## Batch vs. Streaming vs. Events
 
-![](../../images/batch_streaming_events.png)
+![](../../images/batch_streaming_events.png))
 
 In Data Engineering, there are three key paradigms: **Batch Data**, **Streaming Data**, and **Events**.
 
@@ -863,7 +863,7 @@ Events are a powerful concept in Data Engineering because they don't consume res
 
 **What is Hadoop**: The Apache Hadoop software library is a framework that allows for the distributed processing of large data sets across clusters of computers using simple programming models. It is designed to scale up from single servers to thousands of machines, each offering local computation and storage. Rather than rely on hardware to deliver high-availability, the library itself is designed to detect and handle failures at the application layer, so delivering a highly-available service on top of a cluster of computers, each of which may be prone to failures.
 
-![](../../images/hadoop_architecture.png)
+![](../../images/hadoop_architecture.png))
 
  - Reference: [Hadoop - Architecture - GeeksforGeeks](https://www.geeksforgeeks.org/hadoop-architecture/)
 
@@ -907,11 +907,11 @@ These benefits make containerized CLIs a powerful tool in modern software develo
 
 ## Kaizen + CI/CD
 
-![](../../images/kaizen_ci_cd.png)
+![](../../images/kaizen_ci_cd.png))
 
 ## Mapping Functions to CLI
 
-![](../../images/python_functions.png)
+![](../../images/python_functions.png))
 
 The versatility of functions in Python:
 
@@ -934,7 +934,7 @@ Serverless computing is a cloud computing model where the cloud provider manages
 
 ### Serverless Concepts: Service Model
 
-![](../../images/serverless_models.png)
+![](../../images/serverless_models.png))
 
 The three main service models: Infrastructure as a Service (IaaS), Platform as a Service (PaaS), and Serverless.
 
@@ -944,7 +944,7 @@ The three main service models: Infrastructure as a Service (IaaS), Platform as a
 
 ### Serverless Concepts: Functions
 
-![](../../images/serverless_functions.png)
+![](../../images/serverless_functions.png))
 
 <mark style="background: #FFF3A3A6;">The serverless computing and the power of functions</mark>. Here are the key points:
 
@@ -958,11 +958,11 @@ The three main service models: Infrastructure as a Service (IaaS), Platform as a
 
 ### Serverless Concepts: Ecosystem
 
-![](../../images/aws_serverless_ecosystem.png)
+![](../../images/aws_serverless_ecosystem.png))
 
-![](../../images/gcp_serverless_ecosystem.png)
+![](../../images/gcp_serverless_ecosystem.png))
 
-![](../../images/azure_serverless_ecosystem.png)
+![](../../images/azure_serverless_ecosystem.png))
 
  - **Main services:**
 AWS Lambda + AWS Cloud9: [noahgift/awslambda: AWS Lambda](https://github.com/noahgift/awslambda) 
@@ -978,7 +978,7 @@ The evolution of cloud computing, from monolithic architectures to the modern er
 
 The shift from monolithic to microservices and serverless architectures represents a significant advancement in cloud computing. It allows for more efficient use of resources, easier debugging, improved security, and overall better maintainability.
 
-![](../../images/evolution_cloud_computing.png)
+![](../../images/evolution_cloud_computing.png))
 
 
 ## Data Governance
@@ -990,7 +990,7 @@ Data governance is a crucial aspect of <mark style="background: #FFF3A3A6;">clou
 
 The principle of least privilege is a key security goal. It suggests that <mark style="background: #FFF3A3A6;">individuals should only have access to the resources they need</mark>, limiting potential security risks. This concept applies to various scenarios, from mail delivery to cloud computing. By granting access only to necessary resources, we protect all parties involved and prevent the creation of large security holes. This approach is one of the most effective ways to set up security.
 
-![](../../images/least_priviledge_principle.png)
+![](../../images/least_priviledge_principle.png))
 
  - Wikipedia: [Principle of least privilege - Wikipedia](https://en.wikipedia.org/wiki/Principle_of_least_privilege)
 
@@ -1006,7 +1006,7 @@ Key features of IAM include:
 
 IAM uses the principle of least privilege, meaning users should only have access to the resources they need. This limits potential security risks. It's important to note that IAM users, groups, and roles are concerned with authentication, while IAM policies deal with authorization. 
 
-![](../../images/iam_schema.png)
+![](../../images/iam_schema.png))
 
 Wikipedia: [Identity management - Wikipedia](https://en.wikipedia.org/wiki/Identity_management)
 
@@ -1014,7 +1014,7 @@ Wikipedia: [Identity management - Wikipedia](https://en.wikipedia.org/wiki/Ident
 
 AWS cloud security operations are crucial but often overlooked. <mark style="background: #FFF3A3A6;">The shared security model is a partnership between AWS and the customer to secure applications</mark>. Customers are responsible for their data and operating systems, while AWS handles foundational services like compute storage, infrastructure, regions, and availability zones. AWS ensures physical security, hardware security, network configuration, and virtualization. This includes controlling physical access to data centers, purchasing secure hardware, and setting up secure network configurations and virtualizations. Examples of physical security measures include need-based access, 24/7 security guards, and two-factor authentication.
 
-![](../../images/shared_security_model.png)
+![](../../images/shared_security_model.png))
 
 
 ## AWS Cloud Security Operations
@@ -1036,13 +1036,13 @@ Encryption is a critical aspect of data security and involves three key concepts
 
 These concepts are fundamental to encryption and are considered industry best practices. They also align with the principle of least privilege, which states that only those who need access to data should have it.
 
-![](../../images/data_encryption_rest_transit.png)
+![](../../images/data_encryption_rest_transit.png))
 
 ## Introduction to Extract, Transform, Load (ETL)
 
 ETL, standing for Extract, Transform, and Load, is a crucial process in data engineering pipelines. It involves extracting data from a source, which may not be in a clean form, transforming it by potentially decompressing it, changing its format, or removing corrupted or missing values, and then loading it into a new system, such as a business intelligence database. ETL is a fundamental concept to consider when building data pipelines, as most data engineering operations involve these processes.
 
-![](../../images/generic_etl.png)
+![](../../images/generic_etl.png))
 
 ### Real-World Problems in ETL: building a social network
 
@@ -1096,16 +1096,16 @@ More Documentation: [Chapter05 Cloud Storage Pragmatic AI Labs and Solutions](ht
 - **Pricing**: Cloud storage also offers different pricing options, depending on how frequently you access your data. You can pay less for infrequently accessed data, or archive your data using services like AWS Glacier. This way, you can optimize your costs and only pay for what you use.
 - **Offerings**: Cloud storage also offers different types of storage, such as object storage, databases, and search engines. You can choose the best storage for your use case, or use multiple storage types together. For example, you can use a relational database, a key-value database, a graph database, or a search engine, depending on your data structure and query needs. AWS has many offerings, such as S3, DynamoDB, Neptune, and Elasticsearch.
 
-![](../../images/cloud_storage_deep_dive.png)
+![](../../images/cloud_storage_deep_dive.png))
 
 Examples are:
 
-![](../../images/aws_cloud_storage.png)
+![](../../images/aws_cloud_storage.png))
 
 - **EFS**: EFS is a cloud storage service that allows you to mount a shared network file system on multiple machines. It is based on NFS, which was created by Sun Microsystems. EFS has advanced features, such as automatic scaling, performance, and archiving.
 - **Workflow**: You can use EFS to simplify your workflow by launching spot instances or serverless functions that have the same mount point. You can run scripts, computer vision, or machine learning jobs on the file system, and write the results back to it. You don't need to deploy software or spin up big data systems. EFS is a useful feature for cloud workflows.
 
-![](../../images/cloud_storage_efs_nfs.png)
+![](../../images/cloud_storage_efs_nfs.png))
 
 ### Amazon AWS S3
 
@@ -1127,7 +1127,7 @@ Official Web: [Amazon S3](https://aws.amazon.com/s3/)
  
 ## Machine Learning Architecture
 
-![](../../images/machine_learning_architecture.png)
+![](../../images/machine_learning_architecture.png))
 
 A typical machine learning architecture consists of a **microservice** with an API for handling requests. This service receives serialized data via a JSON payload and makes predictions. The microservice is composed of three main components:
 
@@ -1171,7 +1171,7 @@ The underlying data is a core component in this process, making it crucial to pa
 
 ### What is a Data Drift?
 
-![](../../images/ml_data_drift.png)
+![](../../images/ml_data_drift.png))
 
 Data Drift is a crucial concept in machine learning operations. <mark style="background: #FFF3A3A6;">It allows for the detection and alerting of changes in a new dataset, the analysis of historical data for drift, and the profiling of new data over time.</mark>
 
@@ -1185,7 +1185,7 @@ Data drift is a vital monitoring mechanism, akin to checking tire pressure or mo
 
 In the final project of this specialization, I develop a very simple flask app that uses all the concept previously mention:
 
-![](../../images/ml_demo_project_ci_cd_deploy.png)
+![](../../images/ml_demo_project_ci_cd_deploy.png))
 
 Repo: [matiaspakua/ml-demo-project: Demostration project for the Specialization Building Cloud Computing Solutions at Scale](https://github.com/matiaspakua/ml-demo-project)
 
@@ -1199,7 +1199,7 @@ The adoption of AutoML is increasing, with more companies using it to create too
 
 Example of: AutoML Computer Vision architecture:
 
-![](../../images/AutoML_omputer_vision_architecture.png)
+![](../../images/AutoML_omputer_vision_architecture.png))
 
 An AutoML computer vision pipeline can be used to build production-quality models. The process involves the following steps:
 
@@ -1229,7 +1229,7 @@ These platforms can be used for Exploratory Data Analysis (EDA), modeling, and d
 
 Example documentation in APPLE CREATE ML: [Create ML Overview - Machine Learning - Apple Developer](https://developer.apple.com/machine-learning/create-ml/)
 
-![](../../images/apple_create_ml.png)
+![](../../images/apple_create_ml.png))
 
 ## Ludwig AutoML
 
@@ -1243,7 +1243,7 @@ Ludwig is an open-source, code-free tool that simplifies the process of training
 
 ### Cloud AutoML workflow
 
-![](../../images/cloud_AutoML_workflow.png)
+![](../../images/cloud_AutoML_workflow.png))
 
 An example repository where is user Apple AutoML: [noahgift/Apple-CreateML-AutoML-Recipes: Some recipes around Apple CreateML (github.com)](https://github.com/noahgift/Apple-CreateML-AutoML-Recipes)
 
@@ -1253,7 +1253,7 @@ An example repository where is user Apple AutoML: [noahgift/Apple-CreateML-AutoM
 
 Machine learning + DepOps (Development and operations.)
 
-![](../../images/MLOps_deep_dive.png)
+![](../../images/MLOps_deep_dive.png))
 
 Machine learning engineering is the field of applying machine learning models to real-world problems and deploying them in production environments. Machine learning engineers use DevOps principles and practices, such as microservices and continuous delivery, to build, test, and maintain machine learning systems. Machine learning engineers work with data, algorithms, and software to create solutions for various domains, such as self-driving cars or wildlife detection.
 
@@ -1297,7 +1297,7 @@ The advantage of using an <mark style="background: #FFF3A3A6;">AI API is that yo
 
 ## Core Components of a Cloud Application
 
-![](../../images/core_components_cloud_application.png)
+![](../../images/core_components_cloud_application.png))
 
 ### Checklist for Building Professional Web Services
 

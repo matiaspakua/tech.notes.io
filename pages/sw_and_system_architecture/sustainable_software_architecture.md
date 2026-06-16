@@ -17,7 +17,7 @@ tags:
 
 - **Software archeology**: the process of recovering the original architecture of a software product from the source code, when it is not documented or known.
 
-![](../../images/software_archeology.jpeg)
+![](../../images/software_archeology.jpeg))
 
 - **Sustainability**: the ability of a software product to live a long time without requiring much change, resulting in lower maintenance and expansion costs.
 - **Technical debt**: the additional effort required at a later point in time due to suboptimal technical decisions made during software development, whether consciously or unconsciously.
@@ -70,7 +70,7 @@ And important concept to notice is that "software development" is unplannable (c
 
 The graphic below show how the evolution of technical debt affect the evolution of a software product:
 
-![](../../images/impact_technical_debt.png)
+![](../../images/impact_technical_debt.png))
 
 
 -> In the "Ideal World" we are situated at the bottom, where we had a team capacity and with each change or new feature, we can improve or fix a little of the architecture.
@@ -90,13 +90,13 @@ The graphic below show how the evolution of technical debt affect the evolution 
 
 First we will start understanding where the developers spend their time, the graphic below is an approximation:
 
-![](../../images/development_time_pie_chart.png)
+![](../../images/development_time_pie_chart.png))
 
 The human brain has a limited capacity. The brain can only remember about 30,000 lines of code and that developers spend most of their time reading and understanding existing code.
 
 That 70% explain why is so important to had a well defined architecture and behind that is a human reason: the human brain is trained to understand "structures"
 
-![](../../images/software_architecture_structures_human_brain.png)
+![](../../images/software_architecture_structures_human_brain.png))
 
 Software architecture benefits from these principles: Techniques like modularity, layering, and design patterns mirror these cognitive processes, making code easier to understand and maintain.
 
@@ -143,11 +143,11 @@ Layered architectures are a design approach in software development, introduced 
 
 - **Well-Layered System:** The first system (250k lines of code) demonstrates effective layering in both technical and domain aspects. This results in few architectural violations and easier maintenance.
 
-![](../../images/sotfware_architecture_layering.png)
+![](../../images/sotfware_architecture_layering.png))
 
 **Poorly-Layered System:** The second system (10 million lines of code), while technically layered, has a massive, tangled application/domain layer ("big ball of mud"). This leads to complex dependencies, difficult deployments, and reliance on a risky "forward-only" strategy.
 
-![](../../images/software_architecture_real_world_example.png)
+![](../../images/software_architecture_real_world_example.png))
 
 
 - Layered architectures promote maintainability and scalability when applied effectively.
@@ -172,7 +172,7 @@ Modularity is a principle to create <mark style="background: #FFF3A3A6;">self-co
 - Map the modular architecture to your code structure (e.g., packages, projects).
 - Ensure modules are reflected in code organization (avoid scattered elements).
 
-![](../../images/software_architecture_modules_colors.png)
+![](../../images/software_architecture_modules_colors.png))
 
 **Identifying Issues:**
 
@@ -181,7 +181,7 @@ Modularity is a principle to create <mark style="background: #FFF3A3A6;">self-co
     - **Method length**: Excessive length suggests refactoring for smaller, focused methods.
     - **Cyclomatic complexity**: High values indicate intricate logic, potentially needing modularization.
 
-![](../../images/software_architecture_metrics.png)
+![](../../images/software_architecture_metrics.png))
 
 ## Design Patterns
 
@@ -199,7 +199,7 @@ Modularity is a principle to create <mark style="background: #FFF3A3A6;">self-co
     - Patterns enforce hierarchical relationships between layers (e.g., view shouldn't call controller directly).
     - Improves maintainability and reduces coupling between layers.
 
-![](../../images/software_architecture_pattern_consistency.png)
+![](../../images/software_architecture_pattern_consistency.png))
 
 **Pattern Analysis:**
 
@@ -226,7 +226,7 @@ Modularity is a principle to create <mark style="background: #FFF3A3A6;">self-co
 - **Helper class abuse:** Helper classes used indiscriminately can become central to a cycle, hindering proper architecture.
 - **Giant build unit:** Excessive class and code concentration in a single unit creates a massive, difficult-to-maintain cycle.
 
-![](../../images/software_architecture_cyclic_classes.png)
+![](../../images/software_architecture_cyclic_classes.png))
 
 
 **Solutions:**
@@ -264,7 +264,7 @@ The presence of a "big ball of mud" can significantly impact software developmen
 
 Software engineers aim to avoid "big ball of mud" situations by implementing good coding practices, utilizing appropriate design patterns, and focusing on code maintainability throughout the development process. Additionally, techniques like refactoring can help improve the structure and clarity of existing codebases that might be exhibiting signs of this anti-pattern.
 
-![](../../images/big_ball_of_mud.png)
+![](../../images/big_ball_of_mud.png))
 
 
 ## Architecture Reviews
@@ -292,11 +292,11 @@ Software engineers aim to avoid "big ball of mud" situations by implementing goo
 	- Generate final quality reports
 	- Generate a list of prioritized refactorings
 
-![](../../images/software_architecture_review_process.png)
+![](../../images/software_architecture_review_process.png))
 
  The **Modularity Maturity Index or MMI**. This index makes it clear whether an architecture has a modular structure, and is therefore a maintainable and extendable architecture. The MMI ranks systems on a scale from zero to 10. Systems that have a score between zero and four are in poor condition. Systems between four and eight are in mediocre condition. And systems between eight and 10 are in very good condition.
 
-![](../../images/MMI_index.png)
+![](../../images/MMI_index.png))
 
 **MMI Scoring:**
 
@@ -311,7 +311,7 @@ Software engineers aim to avoid "big ball of mud" situations by implementing goo
 - Continuous improvement using reviews helps maintain sustainable software architecture.
 - Avoid excessive documentation for audits; focus on open communication and transparency.
 
-![](../../images/software_architecture_structured.png)
+![](../../images/software_architecture_structured.png))
 
 ## Referencias
 

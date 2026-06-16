@@ -13,7 +13,7 @@ tags:
 
 Software engineering is a fascinating discipline that combines creativity and rigor to solve real-world problems. It’s not just about writing code, but about following a well-defined process that ensures quality, efficiency, and performance. I will explain how this process is illustrated in the image below, which I created, put in my LinkedIn profile and I intent to expose how I understand Software Engineering (so far...):
 
-![](../../images/software_engineering_banner.png)
+![](../../images/software_engineering_banner.png))
 
 ```mermaid
 flowchart LR

@@ -51,12 +51,12 @@ With Google Cloud Platform (GCP), load balancing is a software cloud-based offer
 - **GCP has eight load balancer** offerings that vary by flow of traffic, traffic type, and global or regional support.
 - **Flow of traffic** can be external (from the internet) or internal (from within the network).
 
-![](../../images/load_balancer_external_traffic.png)
+![](../../images/load_balancer_external_traffic.png))
 
 - **Traffic type** can be HTTP, HTTPS, TCP, or UDP.
 - **Global or regional** support means whether the load balancer can route traffic to instances in different regions or only in one region.
 
-![](../../images/load_balancer_regional.png)
+![](../../images/load_balancer_regional.png))
 
 Google Cloud Platform (GCP) offer two types of internal load balancers:
 
@@ -106,7 +106,7 @@ The selected text discusses the importance of understanding performance in Sprin
 - It’s important to understand how to manage and measure the runtime JVM performance of your Java Spring project. Proficiency with JVM profiling and runtime parameters is an essential part of a Spring developer’s toolkit.
 - The Spring framework provides internal performance reporting metrics that allow a developer to gain more Spring specific insights into their application. These topics will be addressed in other portions of the course.
 
-![](../../images/jvm_profiling.png)
+![](../../images/jvm_profiling.png))
 
 
  * **Performance Measurement**: It’s crucial to measure and make informed runtime configurations based on the anticipated performance of the systems your application depends on.
@@ -114,18 +114,18 @@ The selected text discusses the importance of understanding performance in Sprin
  * **Resource Management**: Boosting the computing resources that host your application can enhance its performance. However, it’s essential to understand what your application needs in terms of computing resources.
  * **Performance Profiling**: An accurate and holistic understanding of your application’s performance profile is the ultimate goal. This knowledge allows you to explain, improve, and extend the resilience of your application over its entire life cycle. 
 
-![](../../images/performance_visualvm1.png)
+![](../../images/performance_visualvm1.png))
 
 ## JVM Perfomance
 
-![](../../images/perfomance_essentials.png)
+![](../../images/perfomance_essentials.png))
 
  * **JVM Performance**: Understanding JVM performance is crucial for a Spring developer. The JVM is complex but approachable, and even basic knowledge can be beneficial.
  * **Heap Performance**: The heap holds all objects in your application. Memory management and garbage collection occur here. You can influence heap behavior by setting max and min heap sizes.
  * **CPU Performance**: This refers to the use of the host computer’s processing resources to execute your Java code. While developers have limited influence over CPU performance, understanding your needs and limitations can help make informed decisions about application design.
  * **VisualVM Tool**: This tool is used to gain insight into an application and explore heap and CPU performance. It is bundled with JDK through Java 8 and is also available as a standalone download from a GitHub-hosted site.
 
-![](../../images/performance_visualvm2.png)
+![](../../images/performance_visualvm2.png))
 
 ## Transaction Profiling
 
@@ -139,11 +139,11 @@ The selected text discusses the importance of understanding performance in Sprin
 
  * Example of typical Glowroot dashboard:
 
-![](../../images/performance_glowroot.png)
+![](../../images/performance_glowroot.png))
 
  * Example of a Query details:
 
-![](../../images/perfomance_glowroot_query.png)
+![](../../images/perfomance_glowroot_query.png))
 
 ## Challenge JVM OutOfMemory
 
@@ -162,15 +162,15 @@ Then, modify the run configuration for the JVM to change the heap size and do a 
 
 After the application crashes, a memory dump is generated and we can open and analyze it with the VisualVM tool:
 
-![](../../images/performance_visualvm_heap_dump.png)
+![](../../images/performance_visualvm_heap_dump.png))
 
 Heap Analysis:
 
-![](../../images/performance_heap_analysis.png)
+![](../../images/performance_heap_analysis.png))
 
 Code:
 
-![](../../images/performance_outOfMemoryError.png)
+![](../../images/performance_outOfMemoryError.png))
 
 
 ## Spring Actuators
@@ -215,7 +215,7 @@ In essence, the <mark style="background: #FFF3A3A6;">Spring Boot Actuator is use
 
  [Spring Boot Actuator: Production-ready Features — Spring Docs](https://docs.spring.io/spring-boot/reference/actuator/)
 
-![](../../images/spring_actuators_endpoints.png)
+![](../../images/spring_actuators_endpoints.png))
 
 To enable and disabled this configuration, go to the "application.properties" and add:
 
@@ -231,29 +231,29 @@ management.endpoint.health.status.order=out-of-service,down,up
 
 Actuator can be customize extending from classes that are provided by the Actuators package as in this example:
 
-![](../../images/performance_actuators_custom.png)
+![](../../images/performance_actuators_custom.png))
 
 Then when you call the /actuator/health endpoint, a custom check is executed that validate is the current day is "weekend" (Saturday or Sunday):
 
-![](../../images/performance_actuator_health_endpoint.png)
+![](../../images/performance_actuator_health_endpoint.png))
 
 
 ## Spring Actuator Micrometer Metrics
 
 - **Micrometer Library**: This is the key to interfacing Spring applications with state-of-the-art runtime monitoring platforms. It provides an application metrics facade that supports numerous runtime monitoring systems, such as Prometheus and DataDog.
 
-![](../../images/performance_micrometer_library.png)
+![](../../images/performance_micrometer_library.png))
 
 - **Prometheus**: This is an application runtime monitoring tool that specializes in fine-grained and customizable event alerting, trending over time, and multi-application management.
 - **Integration**: When Spring leverages the Micrometer library to publish its metrics, it publishes them in formats that other runtime monitoring systems can consume and make actionable to the end user.
 
 After running the Demo API with the new metric variable to registry, we run Prometheus and configure the TARGET using the YML file given:
 
-![](../../images/performance_prometheus.png)
+![](../../images/performance_prometheus.png))
 
 ### Types of metrics
 
-![](../../images/performance_types_of_metrics.png)
+![](../../images/performance_types_of_metrics.png))
 
 ## Spring Performance Monitor Interceptor
 
@@ -262,7 +262,7 @@ After running the Demo API with the new metric variable to registry, we run Prom
  - **Aspect-Oriented Solution**: The solution involves creating an aspect class that declares advices and pointcuts. An advice is a bit of externalized behavior, a pointcut is an expression that describes points in the execution of your application where you want advice to be applied.
  - **Application**: It’s useful when there’s a method or a service call that you want to track carefully or have some reason to be concerned about.
 
-![](../../images/performance_aop_call_chain.png)
+![](../../images/performance_aop_call_chain.png))
 
 - **Pairing with Monitor Method**: The demo controller entry points are paired with a monitor method, which is linked to the performance monitor interceptor. This results in log outputs and generic timings for each endpoint invocation.
 - **Stopwatch Instance**: Each endpoint invocation triggers the performance monitor interceptor, which initiates a stopwatch instance. This stopwatch measures the running time of the invoked method in nanoseconds.
@@ -326,13 +326,13 @@ Interceptors are useful for several reasons:
 - **Weaving**: An AOP-aware system combines native code with aspect code to produce a running application, a process called weaving. Weaving can be done at compile time, post-compile time, or runtime.
 - **Performance Concerns**: The overhead introduced by weaving is generally not a concern for most Spring applications, as per many academic studies on AOP.
   
-![](../../images/performance_weaving.png)
+![](../../images/performance_weaving.png))
 
 ### Weaving in deep
 
 Weaving is a crucial process in Aspect-Oriented Programming (AOP). It's the process where the aspect code (additional behavior) is combined with the main application code.
 
-![](../../images/performance_aop_weaving.png)
+![](../../images/performance_aop_weaving.png))
 
 1. **Aspect Weaver**: An aspect weaver is a metaprogramming utility for aspect-oriented languages. It takes instructions specified by aspects (isolated representations of significant concepts in a program) and generates the final implementation code.
 
@@ -348,7 +348,7 @@ Weaving is a crucial process in Aspect-Oriented Programming (AOP). It's the proc
 
 ### Important concepts
 
-![](../../images/performance_concepts.png)
+![](../../images/performance_concepts.png))
 
 ## Hibernate Performance
 
@@ -359,7 +359,7 @@ Weaving is a crucial process in Aspect-Oriented Programming (AOP). It's the proc
 
 ### Connection pooling
 
-![](../../images/performance_connection_pooling.png)
+![](../../images/performance_connection_pooling.png))
 
 
 ### Hibernate Caching
@@ -376,10 +376,10 @@ Weaving is a crucial process in Aspect-Oriented Programming (AOP). It's the proc
 ### Metrics in prometheus
 
  * Example: connection pool
-![](../../images/performance_connection_pool_metric.png)
+![](../../images/performance_connection_pool_metric.png))
 
  * Example: hibernate query execution:
-![](../../images/performance_hibernate_query_execution.png)
+![](../../images/performance_hibernate_query_execution.png))
 
 ## Application StartUP time
 
@@ -390,7 +390,7 @@ Weaving is a crucial process in Aspect-Oriented Programming (AOP). It's the proc
 
 In this example, we add a "BufferingApplicationStartup" class to the context of the spring project to get metrics:
 
-![](../../images/performance_startup_metric.png)
+![](../../images/performance_startup_metric.png))
 
 On this metrics we can filter by some criteria:
 
@@ -431,9 +431,9 @@ context.close();
 
 In this example we use the Flight Recorder functionality to record the Spring Boot Startup process and view its metrics in the Flight Recorder Application:
 
-![](../../images/performance_startup_flight_recorder_conf.png)
+![](../../images/performance_startup_flight_recorder_conf.png))
 
-![](../../images/performance_startup_flight_recorder.png)
+![](../../images/performance_startup_flight_recorder.png))
 
 Blog with documentation: [Monitoring Java Applications with Flight Recorder | Baeldung](https://www.baeldung.com/java-flight-recorder-monitoring)
 
@@ -446,16 +446,16 @@ Blog with documentation: [Monitoring Java Applications with Flight Recorder | Ba
 - **Narrowing Down Metrics**: One of the challenges is narrowing down the field of possible things to measure, to things that are useful and relevant.
 - **Describing Application**: The first step is to describe your application in words, and also as a component diagram. This prepares you to identify the essential performance impacting parts of your system.
 
-![](../../images/performance_report_1.png)
+![](../../images/performance_report_1.png))
 
 - **Breaking Out Metrics**: Once that step is done, metrics are suggested to be broken out into two categories: JVM metrics, and connected components. This is where the specifics of your Spring application become very relevant.
 - **Describing the loads** under which you need to operate. If these conversations have not yet taken place with your stakeholders in an official way, make some good guesses. Don't let this lack of direction or information stop you from taking the first steps to organizing your profile. 
 
-![](../../images/performance_report_2.png)
+![](../../images/performance_report_2.png))
 
  - **Capture a baseline set of metrics**. Basic metrics are okay to start with. In this example, we took a baseline load test, 10 concurrent threads, calculating prime numbers to 10,000, and snagged a screenshot of JVM performance, JVM memory, CPU performance, and also key indicators of our database and service calls, and transaction metrics. 
 
-![](../../images/performance_report_3.png))
+![](../../images/performance_report_3.png)))
 
  - **Identify and communicate** areas in need of attention, such as our memory issues, or we can expand our test scenarios to cover a wider range of conditions. The main point here is to start simple and go from there.
 

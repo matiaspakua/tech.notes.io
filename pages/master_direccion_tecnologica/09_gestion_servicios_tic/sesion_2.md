@@ -36,7 +36,7 @@ tags:
 - Nombrar las partes del proceso ayuda a estructurar mejor las tareas y aprovechar talentos existentes.
 
 
-![[itil_v4_service_value_chain.png]]
+![itil_v4_service_value_chain.png](../../../images/itil_v4_service_value_chain.png))
 
 # Lectura 2: ITIL® 4 - Service Value Chain
 
@@ -55,7 +55,7 @@ Continua con el aprendizaje de los componentes de la Cadena de Valor del Servici
 06:50 🔄 Allow for dynamism and flexibility in service management processes as expectations can change and outcomes may differ from initial plans.
 
 
-![[4_dimensiones_del_service_management.png]]
+![4_dimensiones_del_service_management.png](../../../images/4_dimensiones_del_service_management.png))
 
 
 # Lectura 3: Best Practices - Vendor to Vendor Transition of IT Services

@@ -12,7 +12,7 @@ tags:
 
 ## Introduction
 
-![How to Speak](../../images/how_to_speak.jpeg)
+![How to Speak](../../images/how_to_speak.jpeg))
 
 Patrick Henry Winston was an American computer scientist, professor, and director of the Artificial Intelligence Laboratory at the Massachusetts Institute of Technology (MIT). He was known for his research and contributions in the field of artificial intelligence (AI), particularly in areas such as computer vision, knowledge representation, and machine learning. He authored several books on AI and was a recipient of numerous awards and honors throughout his career. Winston passed away on July 19, 2019, at the age of 76.
 

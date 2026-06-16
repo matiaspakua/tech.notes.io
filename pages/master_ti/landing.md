@@ -15,4 +15,4 @@ tags:
 
 ## Promedio Cursada
 
-![](../../images/UP_Promedio_Cursada.png)
+![](../../images/UP_Promedio_Cursada.png))

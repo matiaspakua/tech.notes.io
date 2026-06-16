@@ -20,7 +20,7 @@ Estrategia => largo plazo
 Planes estratégicos => medio plazo
 Planes operacionales => día a día
 
-![[proceso_creacion_plan_estrategico_IT.png]]
+![proceso_creacion_plan_estrategico_IT.png](../../../images/proceso_creacion_plan_estrategico_IT.png))
 
 Capacidad de Negocio: son las competencias que se hacer (como negocio).
 

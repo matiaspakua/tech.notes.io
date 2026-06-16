@@ -51,7 +51,7 @@ steps:
 
 ## Contexto
 
-![](../../images/C0_orquestador_workflows.png)
+![](../../images/C0_orquestador_workflows.png))
 
 ## Flujo de ejecución
 

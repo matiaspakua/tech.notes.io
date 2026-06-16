@@ -21,30 +21,30 @@ tags:
 
 Representación del sistema solar, trajectoria de los planetas:
 
-![500x400](../../images/sistema_solar_trajectoria_planetas_real.png)
+![500x400](../../images/sistema_solar_trajectoria_planetas_real.png))
 
 ---
 ### Abstracciones
 
 Nosotros trabajamos con abstracciones, pero hay niveles de abstracción. El problema aparece cuando se modelas las abstracciones equivocadas o de manera equivocada.
 
-![800x400](../../images/sistema_solar_copernico.png)
+![800x400](../../images/sistema_solar_copernico.png))
 
 ---
 ### Complejidad de los sistemas
 
-![700x500](../../images/durable_execution_complexity.png)
+![700x500](../../images/durable_execution_complexity.png))
 
 ---
 ### Propiedad de un sistema monolito
 
-![700x500](../../images/durable_execution_monolito_transaccion.png)
+![700x500](../../images/durable_execution_monolito_transaccion.png))
 
 
 ---
 ### Concepto de Transaccionalidad
 
-![700x500](../../images/durable_execution_transaccional.png)
+![700x500](../../images/durable_execution_transaccional.png))
 
 ---
 
@@ -56,7 +56,7 @@ Pero cuando el monolito es muy grande, la estrategia es separarlo en **microserv
 
 ---
 
-![](../../images/monolith_to_microservices.png)
+![](../../images/monolith_to_microservices.png))
 
 Fuente: https://pivovarit.github.io/talks/embracing-microservices/
 
@@ -84,7 +84,7 @@ Ref. https://en.wikipedia.org/wiki/Event-driven_architecture
 ---
 ### Abstracciones y sus complejidades
 
-![](../../images/monolith_vs_microservices.jpg)
+![](../../images/monolith_vs_microservices.jpg))
 
 
 ---
@@ -101,7 +101,7 @@ Ref. https://en.wikipedia.org/wiki/Event-driven_architecture
 
 ---
 
-![](../../images/event_driven_architecture_schema.png)
+![](../../images/event_driven_architecture_schema.png))
 
 ---
 ## Durable Execution 
@@ -144,7 +144,7 @@ sequenceDiagram
 
 ---
 
-![](../../images/durable_execution_temporal.io.png)
+![](../../images/durable_execution_temporal.io.png))
 
 ---
 
@@ -179,7 +179,7 @@ Metrics: http://localhost:63504/metrics
 
 Link: [Workflows default](http://localhost:8233/namespaces/default/workflows)
 
-![](../../images/temporal.io.localhost.png)
+![](../../images/temporal.io.localhost.png))
 
 ---
 ### Proyecto de ejemplo: money-transfer
@@ -190,7 +190,7 @@ Link: [Workflows default](http://localhost:8233/namespaces/default/workflows)
 
 Básicamente la aplicación es lo siguiente:
 
-![](../../images/temporal-high-level-application-design.png)
+![](../../images/temporal-high-level-application-design.png))
 
 ---
 

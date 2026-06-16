@@ -118,7 +118,7 @@ Ahora si el criterio de selección se basa en el payback, entonces el criterio d
 Si un proyecto tiene flujos de fondos negativos al inicio (inversión) y positivos en los periodos siguientes, entonces la regla es: <mark style="background: #FFF3A3A6;">seleccionar proyectos que tengan una TIR > i</mark>.
 
 
-![](../../../images/criterio_seleccion_proyecto_TIR.png)
+![](../../../images/criterio_seleccion_proyecto_TIR.png))
 
 ## Índice de temas
 

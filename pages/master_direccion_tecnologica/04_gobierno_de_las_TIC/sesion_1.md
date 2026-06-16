@@ -46,7 +46,7 @@ Resumen: IA Generativa se ha llevado el papel protagónico en 2024.
     - Liderazgo para impulsar la transformación digital.
     - Gestión efectiva del talento del equipo
 
-![[competencias_CIO.png]]
+![competencias_CIO.png](../../../images/competencias_CIO.png))
 
 ## Aterrizando la propuesta de valor de un CIO
 
@@ -59,7 +59,7 @@ Resumen: IA Generativa se ha llevado el papel protagónico en 2024.
 
 Dependiendo del momento de la empresa y el rol, se puede ser un CIO: <mark style="background: #FFF3A3A6;">estratégico</mark>, <mark style="background: #ADCCFFA6;">operativo</mark> o un mix de <mark style="background: #BBFABBA6;">ambos</mark>.
 
-![](../../../images/CIO_estilos.png)
+![](../../../images/CIO_estilos.png))
 
 Un CIO puede tener las <mark style="background: #FFF3A3A6;">características</mark> de:
  - **Operador**: mantiene el delivery de TI, otros C-levels son sponsors

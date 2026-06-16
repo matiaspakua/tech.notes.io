@@ -11,7 +11,7 @@ tags:
 
 [← Inicio](https://matiaspakua.github.io/tech.notes.io)
 
-![](../../images/fi_logo.png)
+![](../../images/fi_logo.png))
 
 ---
 
@@ -85,7 +85,7 @@ Desde 1980 hasta la actualidad. Desde mainframes hasta cloud native.
 
 ---
 
-![](images/lego_model_modern_architecture.png)
+![]images/lego_model_modern_architecture.png)
 
 ---
 

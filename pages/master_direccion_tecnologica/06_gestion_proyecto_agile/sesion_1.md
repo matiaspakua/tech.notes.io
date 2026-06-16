@@ -64,7 +64,7 @@ tags:
 5. **Mejora continua:**
     - A intervalos regulares, los equipos reflexionan sobre cómo ser más efectivos y ajustan su comportamiento.
 
-![[conceptos_itarativo_incremental.png]]
+![conceptos_itarativo_incremental.png](../../../images/conceptos_itarativo_incremental.png))
 
 ### **3. Valores y principios del Manifiesto Ágil**
 
@@ -88,7 +88,7 @@ tags:
 5. **Reflexión y adaptación:**
     - Períodos regulares de inspección y adaptación para perfeccionar procesos.
 
-![[entorno_complejo_VUCA.png]]
+![entorno_complejo_VUCA.png](../../../images/entorno_complejo_VUCA.png))
 
 ## Índice de temas
 

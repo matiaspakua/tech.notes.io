@@ -122,7 +122,7 @@ El objetivo de la WBS ademas de establecer todo lo que se ejecutara, tambien sir
 
 Dependiendo de tamaño del proyecto, se puede armar una WBS para determinados entregables, cuyo tamaño y/o complejidad lo ameriten.
 
-![](../../../images/PL_100_WBS.png)
+![](../../../images/PL_100_WBS.png))
 
 ### Work package
 

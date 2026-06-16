@@ -12,7 +12,7 @@ tags:
 
 Estas son algunas notas de una Masterclass en la que participé recientemente. En esta reunión, el orador comparte algunos aspectos clave a tener en cuenta cuando un Desarrollador Senior es promovido (o pretende construir un camino hacia un rol de gestión de ingeniería) a un rol gerencial.
 
-![Dev to Lead](../../images/dev_to_lead.jpeg)
+![Dev to Lead](../../images/dev_to_lead.jpeg))
 ## Aspecto clave a tener en cuenta
 
 ### Aspecto #1: Entender el nuevo rol

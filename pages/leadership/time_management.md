@@ -14,7 +14,7 @@ tags:
 
 ## Introducción
 
-![](../../images/time_management.jpeg)
+![](../../images/time_management.jpeg))
 
 ### Causas de la mala gestión
 
@@ -95,7 +95,7 @@ tags:
 
 Como primer paso es importante "priorizar", el siguiente cuadrante de prioridades puede ayudar:
 
-![](../../images/cuadrante_gestion_tiempo.png)
+![](../../images/cuadrante_gestion_tiempo.png))
 
 La **matriz de Eisenhower** clasifica las tareas según urgencia e importancia:
 
@@ -202,7 +202,7 @@ En cualquiera de los casos, el objetivo de "tener" reuniones es ==> Cumplir con 
 
 Un ejemplo de un proceso y pasos a seguir puede ser el siguiente:
 
-![](../../images/antes_de_una_reunion.png)
+![](../../images/antes_de_una_reunion.png))
 
 ### Inicio de la Reunión
 
@@ -221,7 +221,7 @@ Mantener el foco constante en los siguientes dos aspectos:
 
 ### Estrategias de conducción de Reuniones
 
-![](../../images/estrategia_conduccion_reuniones.png)
+![](../../images/estrategia_conduccion_reuniones.png))
 
 ### Finalización de una Reunión
 
@@ -242,13 +242,13 @@ Generar los siguientes artefactos:
 
 La dinámica 66, también conocida como "método Philips 66", es una técnica de dinámica de grupos que se utiliza para fomentar la participación activa y la generación de ideas en reuniones con un número elevado de participantes. Se basa en la organización del grupo en subgrupos de 6 personas que discuten un tema específico durante 6 minutos.
 
-![](../../images/time_management_dinamica_66.png)
+![](../../images/time_management_dinamica_66.png))
 
 En estas dinámicas es conveniente que un moderador lleve el hilo conductor (lenguaje, tiempos, foco).
 
 En éstas dinámicas se sugiere el uso de un tablero para la visualización de las ideas, propuestas, soluciones, etc. Tanto los objetivos y los temas a tratar deben ser bien aclarados y enfocados en todo momento. Finalmente, se deben generar "accionables" (notas, documentos, etc.) con los resultados de los análisis para poder llevar el registro de lo acordado y luego mantener un seguimiento, monitoreo o trazabilidad de ser necesario. Los artefactos generados son una importante fuente de conocimiento para luego poder comunicar información relevante.
 
-![](../../images/time_managemen_dinamica_66_flow.png)
+![](../../images/time_managemen_dinamica_66_flow.png))
 
 ## Trabajo en Equipo
 
@@ -297,7 +297,7 @@ En éstas dinámicas se sugiere el uso de un tablero para la visualización de l
 
 ### Definición de Metas
 
-![](../../images/equipos_definicion_de_metas.png)
+![](../../images/equipos_definicion_de_metas.png))
 
 ### Planificación Eficaz
 
@@ -412,7 +412,7 @@ La rueda de futuros es un marco de lluvia de ideas para visualizar las consecuen
 
 Es una herramienta de planificación y previsión estratégica que se utiliza para explorar y visualizar las posibles consecuencias e impactos de un evento, tendencia o decisión en particular. Es una técnica versátil empleada en estudios de futuros, planificación de escenarios y procesos de toma de decisiones para comprender mejor la interconexión de varios factores y sus implicaciones para el futuro. La Rueda del Futuro es una representación visual que se asemeja a una rueda, con el evento o idea central en su núcleo y múltiples radios que se ramifican para explorar factores y consecuencias relacionados.
 
-![](../../images/rueda_del_futuro_glenn.png)
+![](../../images/rueda_del_futuro_glenn.png))
 
 ### Gestión "VIRTUAL" de equipos de alto rendimiento
 

@@ -22,7 +22,7 @@ The article explains what design thinking is, how it works, and why it matters. 
 - Design thinking requires a set of skills that can be learned and practised, such as empathy, brainstorming, modelling, analysis, and feedback.
 - Design thinking can help executives across industries rethink their product offerings, grow their markets, offer greater value to customers, or innovate and stay relevant.
 
-![Design Thinking](../../images/desgin-thinking.png)
+![Design Thinking](../../images/desgin-thinking.png))
 
 Las cinco etapas del proceso (modelo de la d.school de Stanford), con su naturaleza iterativa:
 

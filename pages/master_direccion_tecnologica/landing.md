@@ -13,7 +13,7 @@ tags:
 
 ---
 
-![](../../images/logo_lasalle_bcn.png)
+![](../../images/logo_lasalle_bcn.png))
 
 ## Materias y Módulos
 

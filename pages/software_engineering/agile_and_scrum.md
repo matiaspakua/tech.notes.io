@@ -48,7 +48,7 @@ After a year or so, a new team was assembled and was assigned to continue the de
 
 The process we had walk through can be summarised in 4 big stages:
 
-![Stages](../../images/stages.png)
+![Stages](../../images/stages.png))
 
 ## Stage #01: Understand the current system/product. For this was needed:
 
@@ -155,7 +155,7 @@ Scrum is an Agile framework for software development that is widely used to mana
 5. **Sprint retrospective**: A meeting at the end of each sprint where the team reflects on what went well, what didn't go well, and identifies areas for improvement.
 6. **Sprint**: A time-boxed period (typically 2-4 weeks) in which the team works to complete the selected items from the product backlog.
 
-![Scrum framework](../../images/scrum-framework.png)
+![Scrum framework](../../images/scrum-framework.png))
 
 El ciclo de un Sprint, en un diagrama:
 

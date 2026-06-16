@@ -27,7 +27,7 @@ timeline
     2021 : Modern Software Engineering (David Farley)
 ```
 
-![](../../images/software_engineering_timeline.png)
+![](../../images/software_engineering_timeline.png))
 
 ## The problems
 

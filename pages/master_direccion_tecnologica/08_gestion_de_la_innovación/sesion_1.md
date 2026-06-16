@@ -14,7 +14,7 @@ tags:
 
 Link 1: [Formes de generar valor – treva.cat](https://treva.cat/es/formes-de-generar-valor/)
 
-![[formas_de_generar_valor.png]]
+![formas_de_generar_valor.png](../../../images/formas_de_generar_valor.png))
 
 Herramientas **comerciales**: Experiencias. no mostrar el auto.
 Investigación **científica**. 
@@ -52,7 +52,7 @@ Aquí están para compartir estas 20 formas de garantizar el fracaso en innovaci
 
 Link 3: [De la idea a l’èxit – treva.cat](https://treva.cat/es/de-la-idea-a-lexit/)
 
-![[de_la_idea_al_exito.png]]
+![de_la_idea_al_exito.png](../../../images/de_la_idea_al_exito.png))
 
 La generación de la idea es pues un embrión, que no siempre acabará vivo. Y para llegar al final del proceso ya vemos que necesitamos más que "creatividad".
 
@@ -85,7 +85,7 @@ Detectar tendencias y reacción hacia ellas.
 # Ciclo de la innovación
 
 
-![[ciclo_de_la_innovacion.png]]
+![ciclo_de_la_innovacion.png](../../../images/ciclo_de_la_innovacion.png))
 
 ## Índice de temas
 

@@ -125,7 +125,7 @@ For testing purposes you can use embedded database such as H2 o if you are in pr
 * The controller can respond with a view or raw data.
 * The controller is the entry point for the web call itself as far as the code that you write.
 
-![](../../images/spring_mvc_pattern.png)
+![](../../images/spring_mvc_pattern.png))
 
 ## Exposing REST endpoints
 
@@ -173,7 +173,7 @@ Link: [This repo is for the Linkedin Learning course: Spring: Spring Data 2](htt
 
 Hibernate eliminated manually mapping logical objects to physical databases, asynchronous JavaScript and XML. Also known as Ajax. Websites
 
-![spring data schema](../../images/spring_data_schema.svg)
+![spring data schema](../../images/spring_data_schema.svg))
 
 
 More than an inversion of control framework, Spring now comprises a vast collection of enterprise solutions. One of the solutions is the Spring Data Project. <mark style="background: #FFF3A3A6;">Spring Data's mission is to provide a familiar, and consistent Spring-based programming model for data access while still retaining the special traits of the underlying data store</mark>. 
@@ -224,10 +224,10 @@ But, beside all this, be aware of the Anti-Patterns: [The Spring Data JPA findBy
 
 The naming convention for query methods is derived from the method name itself, and Spring Data JPA translates it into a corresponding SQL or JPQL query. This mechanism is often referred to as "<mark style="background: #FFF3A3A6;">query derivation.</mark>"
 
-![Rules](../../images/query_methods_rules.png)
+![Rules](../../images/query_methods_rules.png))
 
 Spring Data facilitates fast failure. Query methods are verified at Bootstrap. 
-![Fail Fast](../../images/query_method_verify_at_bootstrap.png)
+![Fail Fast](../../images/query_method_verify_at_bootstrap.png))
 Here, course has not attributed named title. Spring Data throws a Spring Data query creation exception at startup. Without Spring Data, you would not know there was a syntax error until the query is actually invoked which is amazing.
 
 Even is possible to add other clauses that are shown in the official documentation:
@@ -240,7 +240,7 @@ One reason to use query annotation is to encouraged to use non-native queries, b
 
 Another reason to use @Query is that the query is just too complex for property expressions.
 
-![Native Query](../../images/query_native.png)
+![Native Query](../../images/query_native.png))
 
 ## Paging and Sorting
 
@@ -525,7 +525,7 @@ Spring Data REST builds on top of Spring Data repositories, analyzes your applic
 
 As you can see, when Data Rest is configured, Spring add to the endpoints names an "s" to denote standard API notation.
 
-![](../../images/spring_data_rest.png)
+![](../../images/spring_data_rest.png))
 
 Documentation: [Spring Data REST](https://spring.io/projects/spring-data-rest)
 
@@ -642,7 +642,7 @@ Documentation: [Spring | Reactive](https://spring.io/reactive)
 
 # 05. Spring Security
 
-![](../../images/spring_security.svg)
+![](../../images/spring_security.svg))
 
 
 ## Authentication
@@ -681,7 +681,7 @@ Documentation: [Authorization :: Spring Security](https://docs.spring.io/spring-
 
 Spring Security’s `InMemoryUserDetailsManager` implements [UserDetailsService](https://docs.spring.io/spring-security/reference/servlet/authentication/passwords/user-details-service.html#servlet-authentication-userdetailsservice) to provide support for username/password based authentication that is stored in memory. `InMemoryUserDetailsManager` provides management of `UserDetails` by implementing the `UserDetailsManager` interface. `UserDetails`-based authentication is used by Spring Security when it is configured to [accept a username and password](https://docs.spring.io/spring-security/reference/servlet/authentication/passwords/in-memory.html#servlet-authentication-unpwd-input) for authentication.
 
-![](../../images/spring_basic_security.png)
+![](../../images/spring_basic_security.png))
 
 
 ## JDBC User Authentication
@@ -689,7 +689,7 @@ Spring Security’s `InMemoryUserDetailsManager` implements [UserDetailsServi
 Spring Security’s `JdbcDaoImpl` implements [`UserDetailsService`](https://docs.spring.io/spring-security/reference/servlet/authentication/passwords/user-details-service.html#servlet-authentication-userdetailsservice) to provide support for username-and-password-based authentication that is retrieved by using JDBC. `JdbcUserDetailsManager` extends `JdbcDaoImpl` to provide management of `UserDetails` through the `UserDetailsManager` interface. `UserDetails`-based authentication is used by Spring Security when it is configured to [accept a username/password](https://docs.spring.io/spring-security/reference/servlet/authentication/passwords/index.html#servlet-authentication-unpwd-input) for authentication.
 
 
-![](../../images/JDBC_authentication.png)
+![](../../images/JDBC_authentication.png))
 
 Documentation: [JDBC Authentication :: Spring Security](https://docs.spring.io/spring-security/reference/servlet/authentication/passwords/jdbc.html)
 
@@ -713,7 +713,7 @@ Documentation: [Password Storage :: Spring Security](https://docs.spring.io/spri
 - **UnauthorizedException:** This exception is thrown when a user tries to access a page that they are not authorized to view.
 - **ForbiddenException:** This exception is thrown when a user tries to access a page that they do not have the required permissions for.
 
-![](../../images/spring_applying_authorization.png)
+![](../../images/spring_applying_authorization.png))
 
 Documentation: [15. Expression-Based Access Control (spring.io)](https://docs.spring.io/spring-security/site/docs/3.0.x/reference/el-access.html)
 
@@ -734,7 +734,7 @@ Forms-based authentication (FBA) offers several advantages over basic authentica
 
 **Conclusion:** FBA is a more secure and versatile authentication method than basic authentication. It is recommended for use in web applications that require a more user-friendly and customizable login experience.
 
-![](../../images/spring_form_based_authentication.png)
+![](../../images/spring_form_based_authentication.png))
 
 ## LDAP Authentication
 
@@ -765,7 +765,7 @@ Active Directory and LDAP are both directory services, but they are not the same
     
 **OAuth 2 involves multiple components:** <mark style="background: #FFF3A3A6;">Resource owner</mark> (user), <mark style="background: #FFF3A3A6;">Client</mark> (application),<mark style="background: #FFF3A3A6;"> Resource Server</mark> (website with protected data),<mark style="background: #FFF3A3A6;"> Authorization Server </mark>(grants access tokens), <mark style="background: #FFF3A3A6;">Access Token</mark> (temporary token for access), <mark style="background: #FFF3A3A6;">Refresh Token</mark> (long-lived token for renewing access), <mark style="background: #FFF3A3A6;">Scopes</mark> (define the level of access granted).
 
-![](../../images/OAuth2_components.png)
+![](../../images/OAuth2_components.png))
 
 **Common use cases for OAuth 2:** Third-party access (e.g., granting access to a Facebook profile), System-to-system communication, Securing web services between client and server.
     
@@ -795,7 +795,7 @@ WebFlux Security is an extension of the Spring Security framework specifically d
     
 - **Integration with Spring Security:** It integrates seamlessly with the existing Spring Security infrastructure, enabling reuse of configurations and features.
 
-![](../../images/spring_flux_security.png)
+![](../../images/spring_flux_security.png))
 
 
 ---
@@ -819,7 +819,7 @@ Official Landing Page: [Jest · 🃏 Delightful JavaScript Testing (jestjs.io)](
 
 ## MVC: Model-View-Controller pattern
 
-![](../../images/mvc.png)
+![](../../images/mvc.png))
 
 The Model-View-Controller (MVC) pattern is a widely used software design pattern that separates the application into three interconnected parts:
 
@@ -856,7 +856,7 @@ In a Spring and React application, the separation between the MVC layers is achi
 
 This separation of concerns and well-defined communication between the MVC layers make Spring and React applications highly maintainable and testable.
 
-![](../../images/spring_react_setup.png)
+![](../../images/spring_react_setup.png))
 
 The tools used in this project are:
 
@@ -911,7 +911,7 @@ The Spring Framework architecture follows a layered architecture and consists of
 
 8. **Spring Boot**: This module provides a set of tools for developing and deploying Spring applications quickly and easily.
 
-![Spring Framework layers](../../images/spring-overview.png)
+![Spring Framework layers](../../images/spring-overview.png))
 
 ## Spring vs SpringBoot
 
@@ -929,7 +929,7 @@ Spring Boot is like a more opinionated version of Spring. It comes with a many p
 
 Spring Boot takes advantage of Spring Core’s Inversion of Control (IoC) container. Spring Boot allows you to configure how and when dependencies are provided to your application at runtime. This puts you in control of how your application operates in different scenarios.
 
-![](../../images/spring-ioc-container.png)
+![](../../images/spring-ioc-container.png))
 
 For example, you might want to use a different database for local development than for your live, public-facing application. Your application code shouldn't care about this distinction; if it did, you’d have to hard-code every possible scenario into your application logic. Instead, Spring Boot allows you to provide an external configuration that specifies how and when such dependencies are used.
 
@@ -971,7 +971,7 @@ The idea of "unit testing" is to test individual units or components of software
 
 Different tests can be written at different levels of the system. At each level, there is a balance between the speed of execution, the “cost” to maintain the test, and the confidence it brings to system correctness. This hierarchy is often represented as a “testing pyramid”.
 
-![Testing pyramid](../../images/test-pyramid.jpg)
+![Testing pyramid](../../images/test-pyramid.jpg))
 
 **Unit Tests**: A Unit Test exercises a small “unit” of the system that is isolated from the rest of the system. They should be simple and speedy. You want a high ratio of Unit Tests in your testing pyramid as they’re key to designing highly cohesive, loosely coupled software.
 
@@ -991,7 +991,7 @@ Another benefit of “test-driving” the application code is that the tests gui
 
 Software development teams love to move fast. So how do you go fast forever? By continuously improving and simplifying your code–refactoring. One of the only ways you can safely refactor is when you have a trustworthy test suite. Thus, the best time to refactor the code you're currently focusing on is during the TDD cycle. This is called the Red, Green, Refactor development loop:
 
-![TDD Cycle](../../images/tdd-cycle.png)
+![TDD Cycle](../../images/tdd-cycle.png))
 
 1. **Red**: Write a failing test for the desired functionality.
 2. **Green**: Implement the simplest thing that can work to make the test pass.
@@ -1004,7 +1004,7 @@ Let’s start with a concise definition of REST: Representational State Transfer
 
 Said another way, you can think of “state” being “value” and “Resource Representation” being an “object” or "thing". Therefore, REST is just a way to manage the values of things. Those things might be accessed via an API, and are often stored in a persistent data store, such as a database.
 
-![CRUP-REST-API](../../images/crud-rest-api.png)
+![CRUP-REST-API](../../images/crud-rest-api.png))
 
 A frequently mentioned concept when speaking about REST is CRUD. 
 
@@ -1037,7 +1037,7 @@ The power of REST lies in the way it references a Resource, and what the Request
  * For DELETE: use HTTP method DELETE.
 
 
-![](../../images/common_http_verb_operations.png)
+![](../../images/common_http_verb_operations.png))
 
 ## REST in SpringBoot
 
@@ -1062,7 +1062,7 @@ That’s all it takes to tell Spring: “create a REST Controller”. The Contro
 
 A Controller method can be designated a handler method, to be called when a request that the method knows how to handle (called a “matching request”) is received.
 
-![](../../images/spring_rest_api_lifecycle.png)
+![](../../images/spring_rest_api_lifecycle.png))
 
 
 ---

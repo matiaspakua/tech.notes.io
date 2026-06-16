@@ -11,7 +11,7 @@ tags:
 
 ---
 
-![xp programming](../../images/xp_programming.jpeg)
+![xp programming](../../images/xp_programming.jpeg))
 
 ---
 
@@ -154,7 +154,7 @@ flowchart TD
     style PR fill:#1e1e2e,stroke:#50fa7b,color:#f8f8f2
 ```
 
-![](../../images/xp_practices_values_principles.png)
+![](../../images/xp_practices_values_principles.png))
 
 **Reference**: Image from the book Extreme programming by Kent Beck
 
@@ -209,7 +209,7 @@ flowchart TD
 
 ## 06 Practices
 
-![](../../images/xp_practices.png)
+![](../../images/xp_practices.png))
 
 
 ## 07 Primary Practices
@@ -218,12 +218,12 @@ flowchart TD
 2. 👥 **Whole team**: include in the team people with all the skills and perspectives necessary for the project to succeed. The size of the team here is important, because we need to build trust, and trust born of collaboration.
 3. 🛠️ **Informative Workspace**: build a workspace where the important information is visible.
 
-![](../../images/xp_informative_workspace.png)
+![](../../images/xp_informative_workspace.png))
 
 4. 🛠️ **Energized Work**: work only as many hours as you can be productive and only as many hours as you can sustain.
 5. 🤝 **Pair Programming**: help you to: keep each other on task; improve the brainstorm refinements to the system; clarify ideas; take initiative when your partner is stuck; hold each other accountable to the team's practices.
 
-![](../../images/pair_programming.jpeg)
+![](../../images/pair_programming.jpeg))
 
 6. 📖 **Stories**: plan using units of customer-visible functionality.
 7. 🔄 **Weekly cycles**: plan work a week at a time. Have a meeting at the beginning of every week. during this meeting:
@@ -234,11 +234,11 @@ flowchart TD
 8. 🔄 **Quarterly cycle**: Plan the work a quarter at a time.
 9. ⏱️ **10 (Ten) minutes build**: automatically build the whole system and run all of the tests in ten minutes. An automated build becomes a stress reliever at crunch time. "Did we make a mistake?, Let's just build and see."
 
-![](../../images/10_minutes_build.jpeg)
+![](../../images/10_minutes_build.jpeg))
 
 10. 🔄 **Continuous integration**: the integration step is unpredictable but can easily take more time that the original programming. The longer you wait to integrate, the more it costs and the more unpredictable the cost become.  Waiting for the compiler and the tests is a natural time to talk about what we're just done together and how we might have done it better.
 
-![](../../images/xp_continuous_integration.png)
+![](../../images/xp_continuous_integration.png))
 
 11. 🧪 **Test-First Programming**:  writing a failing automated test before changing any code. But why?
 	1. Avoid scope creep.
@@ -258,7 +258,7 @@ flowchart TD
 3. Improve "trust"
 4. Create rhythm
 
-![](../../images/xp_test_first_programming.png)
+![](../../images/xp_test_first_programming.png))
 
 
 
@@ -285,7 +285,7 @@ flowchart TD
 1. No customer at all, or a "proxy" for a real customer, leads to waste your develop feature that aren't used.
 2. <mark style="background: #FFF3A3A6;">If the customer knew how messed up software development was, they'd never trust us</mark>. ==> GOOD POINT!! Are you sure they trust you now? Software reflect the organization that builds it. Like the CONWAY's LAW:
 
-![](../../images/conways_law_example.jpeg)
+![](../../images/conways_law_example.jpeg))
 
 📜 **Conway's Law**:  "Organizations which design systems (in the broad sense used here) are constrained to produce designs which are copies of the communication structures of these organizations."
 
@@ -320,7 +320,7 @@ Link: [Conway's law - Wikipedia](https://en.wikipedia.org/wiki/Conway%27s_law)
 	3. Fix the system so the unit test works.
 	4. Figure out why the defect was created and wasn't caught ==> <mark style="background: #FFF3A3A6;">Apply the 5W (five whys</mark>).
 
-![](../../images/xp_root_cause_analysis_process.png)
+![](../../images/xp_root_cause_analysis_process.png))
 
 
 
@@ -399,7 +399,7 @@ Link: [Conway's law - Wikipedia](https://en.wikipedia.org/wiki/Conway%27s_law)
 
 ## 11 The Theory of Constraints
 
-![](../../images/theory_of_constraints_and_bottleneck.png)
+![](../../images/theory_of_constraints_and_bottleneck.png))
 
  * Image Reference: [Harnessing Efficiency: The Theory of Constraints in Software Development](https://www.eferro.net/2023/11/harnessing-efficiency-theory-of.html)
 
@@ -408,7 +408,7 @@ Link: [Conway's law - Wikipedia](https://en.wikipedia.org/wiki/Conway%27s_law)
 3. Make it sure it is working full speed (performance tests here);
 4. Then find ways either increasing the capacity of the constraint, offloading some of the work onto non-constraints, or eliminating the constraint entirely.
 
-![](../../images/theory_of_constraints.png)
+![](../../images/theory_of_constraints.png))
 
 5. There is always a constraints (always)!
 6. When eliminate one constraint we create another.
@@ -458,7 +458,7 @@ Link: [Conway's law - Wikipedia](https://en.wikipedia.org/wiki/Conway%27s_law)
    b. Use automated script to create a V0 (flyway, liquibase, etc)
    c. Sequentially number the scripts.
   
-![](../../images/database_change_management.png)
+![](../../images/database_change_management.png))
 
 Reference: https://medium.com/@KeivanDamirchi/database-change-management-946af9c02169
 

@@ -52,11 +52,11 @@ flowchart TD
     style K8S fill:#1e1e2e,stroke:#61dafb,color:#f8f8f2
 ```
 
-![](../../images/falco_high_level_overview.png)
+![](../../images/falco_high_level_overview.png))
 
 # AWS security hub con alertas
 
-![](../../images/AWS_security_hub_alerts.png)
+![](../../images/AWS_security_hub_alerts.png))
 
 ## References
 

@@ -27,9 +27,9 @@ Link 3: [Strategyzer's Value Proposition Canvas Explained](https://www.youtube.c
 72% fallan
 value proposition canva
 
-![[value_proposition_canvas.png]]
+![value_proposition_canvas.png](../../../images/value_proposition_canvas.png))
 
-![[The Value Proposition Canvas - Official Template from Strategyzer.pdf]]
+![The Value Proposition Canvas - Official Template from Strategyzer.pdf](../../../images/The Value Proposition Canvas - Official Template from Strategyzer.pdf))
 
 ---
 

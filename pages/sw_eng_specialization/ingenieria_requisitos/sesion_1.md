@@ -32,7 +32,7 @@ tags:
 Es como una montaña. En la cima está el mundo real, que no es perfecto. Todas las distintas capas debajo son las abstracciones y representaciones de lo que el mundo real es. Por lo tanto agregan complejidad y restan "esencia".
 
 
-![](../../../images/IR100_universo_discurso.png)
+![](../../../images/IR100_universo_discurso.png))
 
 
 **Universo de Discurso**
@@ -56,7 +56,7 @@ La ingeniería de requerimientos es un "concepto" + una representación. Define 
   - **Análisis**: Evaluación de los requerimientos obtenidos.
   - **Gestión**: Control y seguimiento de los cambios en los requerimientos.
 
-![](../../../images/IR101_proceso.png)
+![](../../../images/IR101_proceso.png))
 
 
 Una nota importante es respecto a los cross-cutting concerns. Se trata de todo aquellos elementos del contexto, que permiten ver o estimulan los requerimientos cuando hay presentes muchos componentes externos.

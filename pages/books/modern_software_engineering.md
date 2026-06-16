@@ -11,7 +11,7 @@ tags:
 
 ---
 
-![](../../images/modern_software_engineering.jpg)
+![](../../images/modern_software_engineering.jpg))
 
 ---
 
@@ -63,7 +63,7 @@ tags:
 
 1. The first software engineer: **Margaret Hamilton**. Her approach was the focus on how thinks fail - <mark style="background: #FFF3A3A6;">the ways in which we get thinks wrong: "failing safely"</mark>. The assumption is that we can never code for every scenario, so how do we code in ways that allow our systems to cope with unexpected and still make progress?
 
-![](../../images/failing_safely.jpg)
+![](../../images/failing_safely.jpg))
 
 1. **Managing complexity**: Edsger Dijkstra said: "The art of programming is the art of organizing complexity."
 2. **Repeatability and Accuracy of measurement**:  engineering-focused team will use accurate measurement rather than waiting for somethings bad to happen.
@@ -152,7 +152,7 @@ flowchart TD
 4. **Tools**: Feedback, experimentation, Refactoring, Version control, testing. A test-driven approach to automated testing demand that we create  mini executable specifications for the changes that we make to our systems. Keeping the test as simple as we can and by designing our system as testeable code.
 5. **Limit the impact of change**: Applying patterns as: <mark style="background: #FFF3A3A6;">Port & Adapter</mark>. At any interface point between two components of the system that we want to decouple, a port, we define a separate piece of code to translate inputs and outputs, the adapter.
 
-![](../../images/hexagonal_architecture.png)
+![](../../images/hexagonal_architecture.png))
 
 - **REFERENCE**: Hexagonal Architecture: [Hexagonal architecture – Alistair Cockburn](https://alistair.cockburn.us/hexagonal-architecture/)
 
@@ -190,7 +190,7 @@ flowchart TD
 6. **Modularity at different scale**: Testing when done well exposes something important and true about the nature of out code, the nature of our design, and the nature of the problem that we are solving.
 7. **Modularity in Human System**: truly decouple system, we can parallelized all we want. Micro-services are an organizational scalability play; they don't really have any other advantage, but let's be clear, this is a big advantage if scalability is your problem. If we need small team to efficiently create good, high-quality work, then we need to "decouple". We need modular organizations as well as modular software. 
 
-![](../../images/modularity.png)
+![](../../images/modularity.png))
 
 
 ## 10. Cohesion
@@ -203,7 +203,7 @@ flowchart TD
 6. **Cost of poor cohesion**: there is a simple, subjective way to spot poor cohesion. If you have ever read a piece of code and thought "I don't know what this code does," it is probably because the cohesion is poor.
 7. **Cohesion in human system**: one of the leading predictors of high performance measured in terms of throughput and stability, is the ability of teams to make their own decisions without the need to ask permission of anyone outside the team.
 
-![](../../images/cohesion.png)
+![](../../images/cohesion.png))
 
 
 ## 11. Separation of concerns
@@ -215,18 +215,18 @@ flowchart TD
 5. **Ports and adapters**: Is best fit when translade information that crosses between bounded contexts.
 6. **What is an API**. Application Programming Interface (API) is all the information that is exposed to consumers of a service, or library, that expose that API. In combination with **ports and adapters** create the consistent level of abstraction. The rule is: <mark style="background: #FFF3A3A6;">always add Ports and Adapters where the code that you talk to is in different scope of evaluation.</mark> 
 
-![](../../images/separation_of_concerns.png)
+![](../../images/separation_of_concerns.png))
 
 
 ## 12. Information Hiding and Abstraction.
 
 1. **Information hiding**: its based on hiding the behavior of the code. It includes implementation details as well as any data that it may or may nor use.
 
-![](../../images/abstraction_and_information_hiding.png)
+![](../../images/abstraction_and_information_hiding.png))
 
 2. **The Big balls of mud problem**. The first point are the Organizational and cultural problems. Here, the main and most important advice is that we need to own the responsibility for the quality of the code that we work on.
 
-![](../../images/big_ball_of_mud.png)
+![](../../images/big_ball_of_mud.png))
 
 3. **Organizational and cultural problems**: we need to own the responsibility for the quality of the code that we work on. It is our **duty of care** to do a good job. Our aim should be to do whatever it takes to build better software faster. This is improve QUALITY. The foundation of a professional approach are: refactor, test, take time to create great designs, fix bugs, collaborate, communicate and learn.
 
@@ -236,7 +236,7 @@ flowchart TD
 
 6. **Abstractions from the problem domain**: The <mark style="background: #FFF3A3A6;">"thinking like a Engineer" means: thinking about the ways in which thinks can go wrong.</mark>
 
-![](../../images/thinks_can_go_wrong.png)
+![](../../images/thinks_can_go_wrong.png))
 
 7. **Isolate Third-Party systems and code**:  always insulate your code from third-party code with your own abstractions. Thinks carefully about what you allow "inside" your code. For example, inside our code only allow language concepts that are native, nothing outside this.
 8. **Always prefer to hide information**. Period.
@@ -272,7 +272,7 @@ flowchart TD
 8. **DRY is to simplistic**. DRY is short for "Don't repeat yourself". It is a short hand description of our desire to have a single canonical representation of each piece of behavior in our system. 
 9. **ASYNC as a tool for loose coupling**: we prefer async where is possible, because of the great quantity of fail points in a SYNC pattern. Example: 
 
-![](../../images/failure_points_in_SYNC_COMM.png)
+![](../../images/failure_points_in_SYNC_COMM.png))
 
 10. **Loose coupling human system**: CI is built on the idea of optimizing the feedback loops in development to the extend that we have, in essence, continuous feedback on the quality of our work.
 11. **Summary**: high quality code can be achieve in three ways:

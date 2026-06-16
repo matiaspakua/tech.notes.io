@@ -10,7 +10,7 @@ tags:
 
 [← Inicio](https://matiaspakua.github.io/tech.notes.io)
 
-![The little prince](../../images/little_prince_sw_engineering.jpeg)
+![The little prince](../../images/little_prince_sw_engineering.jpeg))
 
 
 _"El Principito"_ de Antoine de Saint-Exupéry es una historia clásica que comparte un montón de enseñanzas de vida. Si bien no está directamente ligado a ser un gran ingeniero de software, hay varios principios universales que se pueden aplicar tanto a nuestro crecimiento personal como profesional (incluyendo la programación). Acá van algunos de los más interesantes (mente abierta):

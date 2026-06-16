@@ -25,12 +25,12 @@ Los objetivos de esta sesión son:
 
 [← Inicio](https://matiaspakua.github.io/tech.notes.io)
 
-![[innovation_google_acquisition_timeline.png]]
+![innovation_google_acquisition_timeline.png](../../../images/innovation_google_acquisition_timeline.png))
 
 
 # El sector High-tech
 
-![[innovation_sector_high_tech.png]]
+![innovation_sector_high_tech.png](../../../images/innovation_sector_high_tech.png))
 
 # Como medir un país
 

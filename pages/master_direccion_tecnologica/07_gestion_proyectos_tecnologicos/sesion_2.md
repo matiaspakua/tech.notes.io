@@ -16,7 +16,7 @@ Tareas previas a la sesión o Leer caso implementación Netsuite Oracle ERP
 
 - [Del subsuelo a la nube - El rol del CIO a lo largo de cuatro décadas](https://www2.deloitte.com/ar/es/pages/tecnologia/articles/el-rol-del-cio.html)
 
-![[Arg-Cuadro-rol-del-CIO-a-lo-largo-de-cuatro-decadas -desde-la-de-1980-hasta-la-de-2010.pdf]]
+![Arg-Cuadro-rol-del-CIO-a-lo-largo-de-cuatro-decadas -desde-la-de-1980-hasta-la-de-2010.pdf](../../../images/Arg-Cuadro-rol-del-CIO-a-lo-largo-de-cuatro-decadas -desde-la-de-1980-hasta-la-de-2010.pdf))
 
 
 1980 => Desarrollador de tecnologia
@@ -24,7 +24,7 @@ Tareas previas a la sesión o Leer caso implementación Netsuite Oracle ERP
 2000 => Integrador de tecnologia
 2010 => Arquitecto de tecnologia
 
-![[Del subsuelo a la nube.pdf]]
+![Del subsuelo a la nube.pdf](../../../images/Del subsuelo a la nube.pdf))
 
 En la época actual, donde emergen nuevas tecnología y metodologías (y claro, las personas de esta generación son diferentes):
 
