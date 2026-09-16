@@ -1,0 +1,19 @@
+{
+  "skill_name": "architecture-decision-design",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Document the architecture decision to introduce asynchronous processing for a critical API workflow.",
+      "expected_output": "An ADR with alternatives, consequences, security/testing/operations impact and validation.",
+      "files": [],
+      "expectations": ["States decision drivers and alternatives", "Covers failure, observability and testing consequences", "Links the decision to durable work IDs"]
+    },
+    {
+      "id": 2,
+      "prompt": "Create a focused PlantUML architecture view for a web application, API, queue and database.",
+      "expected_output": "A suitable C4/container or component diagram source with explicit boundaries and readable layout guidance.",
+      "files": [],
+      "expectations": ["Chooses the diagram type based on the question", "Uses stable aliases and explicit boundaries", "Avoids an overloaded all-in-one diagram"]
+    }
+  ]
+}

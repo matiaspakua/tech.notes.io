@@ -1,0 +1,19 @@
+{
+  "skill_name": "api-contract-testing",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Design contract tests for a versioned REST endpoint used by three consumers.",
+      "expected_output": "A contract review, provider/consumer tests, compatibility policy and evidence format.",
+      "files": [],
+      "expectations": ["Covers success, error, boundary and unauthorized cases", "Assesses compatibility for consumers", "Defines version/deprecation behavior"]
+    },
+    {
+      "id": 2,
+      "prompt": "Review an OpenAPI contract for security and operational quality.",
+      "expected_output": "A prioritized report covering schema, authn/authz, sensitive data, limits, errors, timeouts and observability.",
+      "files": [],
+      "expectations": ["Separates authentication from authorization", "Checks sensitive-data leakage", "Includes operational behavior such as retry and rate limits"]
+    }
+  ]
+}

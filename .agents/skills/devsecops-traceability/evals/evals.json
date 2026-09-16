@@ -1,0 +1,19 @@
+{
+  "skill_name": "devsecops-traceability",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Audit a feature from requirement through release and identify missing evidence.",
+      "expected_output": "A traceability report with an identifier policy, matrix, orphan/conflict list, evidence and remediation.",
+      "files": [],
+      "expectations": ["Separates verified, inferred, missing and conflicting links", "Includes backward and forward traceability", "Does not invent missing evidence"]
+    },
+    {
+      "id": 2,
+      "prompt": "Define a lightweight ID convention for a new API feature and its security tests.",
+      "expected_output": "A stable ID scheme and example links across request, requirement, security requirement, tests and release.",
+      "files": [],
+      "expectations": ["Uses stable IDs independent of line numbers", "Includes security and test artifacts", "States ownership and evidence expectations"]
+    }
+  ]
+}

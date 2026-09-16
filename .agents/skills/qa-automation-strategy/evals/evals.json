@@ -1,0 +1,19 @@
+{
+  "skill_name": "qa-automation-strategy",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Create a test strategy for a high-value API feature with functional, security and performance risks.",
+      "expected_output": "A risk-based Master Test Plan with test levels, cases, fixtures, vectors, automation boundaries and evidence.",
+      "files": [],
+      "expectations": ["Includes negative, boundary and authorization cases", "Defines deterministic fixtures and data handling", "Separates fast and slow feedback"]
+    },
+    {
+      "id": 2,
+      "prompt": "Review an existing regression suite with flaky end-to-end tests and propose an automation improvement plan.",
+      "expected_output": "A diagnosis, prioritization, quarantine policy and measurable remediation plan.",
+      "files": [],
+      "expectations": ["Does not recommend deleting tests solely because they are slow", "Defines ownership and flake measurement", "Uses test pyramid as a heuristic"]
+    }
+  ]
+}

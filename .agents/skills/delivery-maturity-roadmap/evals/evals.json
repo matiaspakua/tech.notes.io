@@ -1,0 +1,19 @@
+{
+  "skill_name": "delivery-maturity-roadmap",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Assess a team's DevSecOps maturity using delivery, quality, security and reliability evidence.",
+      "expected_output": "A confidence-aware baseline, bottleneck hypotheses, metrics and prioritized adoption experiments.",
+      "files": [],
+      "expectations": ["Distinguishes evidence from assumptions", "Uses trends and multiple dimensions", "Produces measurable experiments with owners and exit conditions"]
+    },
+    {
+      "id": 2,
+      "prompt": "Create a 90-day roadmap to improve QA automation and secure delivery for a legacy product.",
+      "expected_output": "A staged context-sensitive roadmap with dependencies, outcomes, measures, risks and review points.",
+      "files": [],
+      "expectations": ["Does not prescribe every tool at once", "Balances flow, quality, security and operations", "Treats Scrum, Kanban and GitFlow as contextual choices"]
+    }
+  ]
+}

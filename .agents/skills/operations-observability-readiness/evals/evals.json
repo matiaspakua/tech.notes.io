@@ -1,0 +1,19 @@
+{
+  "skill_name": "operations-observability-readiness",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Assess production readiness for a stateless service with a database and external provider.",
+      "expected_output": "A readiness checklist covering SLOs, telemetry, health, dependencies, security, recovery, ownership and runbooks.",
+      "files": [],
+      "expectations": ["Defines actionable signals and alerts", "Covers backup/restore and rollback", "Requires redaction and data retention controls"]
+    },
+    {
+      "id": 2,
+      "prompt": "Create a runbook for elevated API latency and intermittent dependency failures.",
+      "expected_output": "A diagnosis, mitigation, escalation, verification and follow-up runbook.",
+      "files": [],
+      "expectations": ["Includes safety checks before remediation", "Uses correlation and dependency evidence", "Separates mitigation from root-cause follow-up"]
+    }
+  ]
+}

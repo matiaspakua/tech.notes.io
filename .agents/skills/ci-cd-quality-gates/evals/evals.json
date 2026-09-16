@@ -1,0 +1,19 @@
+{
+  "skill_name": "ci-cd-quality-gates",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Review a CI/CD pipeline that builds, tests, scans and deploys a service to production.",
+      "expected_output": "A staged gate policy with evidence, blocking behavior, ownership, artifact integrity and deployment verification.",
+      "files": [],
+      "expectations": ["Places fast feedback before expensive checks", "Addresses secrets, provenance and least privilege", "Defines rollback and post-deploy verification"]
+    },
+    {
+      "id": 2,
+      "prompt": "Design a safe recovery plan after a failed deployment caused by a configuration change.",
+      "expected_output": "A controlled rollback/canary plan with stop conditions, notifications, evidence and follow-up.",
+      "files": [],
+      "expectations": ["Does not assume rollback is always safe", "Includes health verification and ownership", "Creates a traceable corrective action"]
+    }
+  ]
+}
