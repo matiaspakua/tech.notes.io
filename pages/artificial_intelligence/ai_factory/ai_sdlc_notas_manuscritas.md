@@ -327,6 +327,11 @@ flowchart LR
  H --> A
 ```
 
+### Que es un Agentic Loop?
+
+![](../../../images/ai_agentic_loop.png)
+
+
 ## 12. Ejecución de los frameworks SDD y control humano
 
 
